@@ -27,9 +27,12 @@ loadCommands( COMMANDS_DIR );
 // Set the prompt
 vorpal.delimiter( DELIMITER );
 
-if ( process.argv ) {
+if ( process.argv.length > 2 ) {
+    /// Remove path to node and path to script file
+    let args = process.argv.slice( 2);
+
     // Process command immediately
-    vorpal.parse( process.argv );
+    vorpal.parse( args );
 } else {
     // Enter interactive shell
     vorpal
