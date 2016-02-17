@@ -10,7 +10,7 @@ const COMMANDS_DIR = './commands',
       DELIMITER    = 'em$';
 
 function loadCommands( commandsDir ) {
-    var commandDirectories = fs.readdirSync( commandsDir ).forEach(
+    fs.readdirSync( commandsDir ).forEach(
         function ( file ) {
             let fullpath = path.join( commandsDir, file );
             if ( fs.statSync( fullpath ).isDirectory() ) {
