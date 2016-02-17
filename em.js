@@ -1,10 +1,9 @@
 "use strict";
 
-let fs     = require( 'fs' ),
-    path   = require( 'path' ),
-    // For debugging
-    util   = require( 'util' ),
-    vorpal = require( 'vorpal' )();
+let fs     = require( 'fs' );
+let path   = require( 'path' );
+let util   = require( 'util' );
+let vorpal = require( 'vorpal' )();
 
 const COMMANDS_DIR = './commands',
       DELIMITER    = 'em$';
