@@ -12,6 +12,7 @@ function loadCommands( commandsDir ) {
     fs.readdirSync( commandsDir ).forEach(
         function ( file ) {
             let fullpath = path.join( commandsDir, file );
+
             if ( fs.statSync( fullpath ).isDirectory() ) {
                 // Without the './' get:
                 //     "Error: Cannot find module 'commands/content'"
