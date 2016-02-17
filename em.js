@@ -16,7 +16,7 @@ function loadCommands( commandsDir ) {
             if ( fs.statSync( fullpath ).isDirectory() ) {
                 // Without the './' get:
                 //     "Error: Cannot find module 'commands/content'"
-                require( './' + fullpath );
+                require( './' + fullpath ).initialize( vorpal );
             }
         }
     );
