@@ -5,18 +5,21 @@ let path   = require( 'path' );
 let util   = require( 'util' );
 let vorpal = require( 'vorpal' )();
 
+let commands = {};
+
 const COMMANDS_DIR = './commands',
       DELIMITER    = 'em$';
 
 function loadCommands( commandsDir ) {
     fs.readdirSync( commandsDir ).forEach(
         function ( file ) {
-            let fullpath = path.join( commandsDir, file );
+            let fullpath    = path.join( commandsDir, file );
+            let commandName = path.basename( fullpath );
 
             if ( fs.statSync( fullpath ).isDirectory() ) {
                 // Without the './' get:
                 //     "Error: Cannot find module 'commands/content'"
-                require( './' + fullpath ).initialize( vorpal );
+                commands[ commandName ] = require( './' + fullpath ).initialize( vorpal );
             }
         }
     );
