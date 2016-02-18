@@ -5,7 +5,9 @@ let vorpal;
 let initialize = function( vorpalArg ) {
     vorpal = vorpalArg;
 
-    console.log( `Loaded ${ __filename }.` );
+    vorpal.log( `Loaded ${ __filename }.` );
+
+    vorpal.command( 'content', 'Manage exploded EPUB content.' );
 };
 
 module.exports = {
