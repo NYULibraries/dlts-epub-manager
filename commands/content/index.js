@@ -1,15 +1,7 @@
 "use strict";
 
-let vorpal;
-
-let initialize = function( vorpalArg ) {
-    vorpal = vorpalArg;
-
+module.exports = function( vorpal ){
     vorpal.log( `Loaded ${ __filename }.` );
 
     vorpal.command( 'content', 'Manage exploded EPUB content.' );
-};
-
-module.exports = {
-    initialize
 };
