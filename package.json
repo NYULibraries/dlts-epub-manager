@@ -13,7 +13,7 @@
   "author": "da70",
   "license": "ISC",
   "dependencies": {
-    "vorpal": "^1.9.2"
+    "vorpal": "^1.10.8"
   },
   "jshintConfig": {
     "bitwise": true,
