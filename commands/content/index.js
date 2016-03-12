@@ -13,4 +13,15 @@ module.exports = function( vorpal ){
                 callback();
             }
         );
+
+    vorpal.command( 'content add <configuration>' )
+        .option( '--dry-run', 'Print actions taken but do not execute them.' )
+        .description( 'Explode EPUB content and do transformations.' )
+        .action(
+            function( args, callback ) {
+                vorpal.log( args );
+
+                callback();
+            }
+        );
 };
