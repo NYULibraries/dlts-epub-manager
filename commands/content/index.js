@@ -14,7 +14,7 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'content add <configuration>' )
+    vorpal.command( 'content add' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Transform exploded EPUB content and deploy.' )
         .action(
