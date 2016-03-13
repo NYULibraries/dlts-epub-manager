@@ -19,6 +19,7 @@ module.exports = function( vorpal ){
         .description( 'Transform exploded EPUB content and deploy.' )
         .action(
             function( args, callback ) {
+                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
                 callback();
@@ -30,6 +31,7 @@ module.exports = function( vorpal ){
         .description( 'Delete EPUB content from deployed collection.' )
         .action(
             function( args, callback ) {
+                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
                 callback();
@@ -41,6 +43,7 @@ module.exports = function( vorpal ){
         .description( 'Delete all EPUB content from deployed collection.' )
         .action(
             function( args, callback ) {
+                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
                 callback();
@@ -52,6 +55,7 @@ module.exports = function( vorpal ){
         .description( 'Replace EPUB content of entire deployed collection.' )
         .action(
             function( args, callback ) {
+                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
                 callback();
