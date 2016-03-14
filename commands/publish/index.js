@@ -4,11 +4,25 @@ module.exports = function( vorpal ){
     vorpal.log( `Loaded ${ __filename }.` );
 
     function publish( subCommand ) {
-        vorpal.execSync( 'content '      + subCommand, { fatal : true } );
-        vorpal.execSync( 'solr '         + subCommand, { fatal : true } );
-        vorpal.execSync( 'handles '      + subCommand, { fatal : true } );
-        vorpal.execSync( 'readium-json ' + subCommand, { fatal : true } );
-        vorpal.execSync( 'verify '       + subCommand, { fatal : true } );
+
+        function publishStep( command ) {
+            if ( vorpal.execSync( `${command} ${subCommand}`, { fatal : true } ) ) {
+                return true;
+            } else {
+                vorpal.log(
+                    `ERROR: publication step \`${command} ${subCommand}\` failed.  ` +
+                    'Please fix the problem and re-run.' );
+                return false;
+            }
+        }
+
+        if ( ! publishStep( 'content'      ) ) { return false; }
+        if ( ! publishStep( 'solr'         ) ) { return false; }
+        if ( ! publishStep( 'handles'      ) ) { return false; }
+        if ( ! publishStep( 'readium-json' ) ) { return false; }
+        if ( ! publishStep( 'verify'       ) ) { return false; }
+
+        return true;
     }
 
     vorpal.command( 'publish' )
