@@ -8,10 +8,18 @@ module.exports = function( vorpal ){
         .description( 'Manage handles.' )
         .action(
             function( args, callback ) {
+                let result = false;
+
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
-                callback();
+                // If called via `.execSync`, `callback` will be undefined,
+                // and return values will be used as response.
+                if ( callback ) {
+                    callback();
+                } else {
+                    return result;
+                }
             }
         );
 
@@ -20,10 +28,18 @@ module.exports = function( vorpal ){
         .description( 'Bind EPUB handles.' )
         .action(
             function( args, callback ) {
+                let result = false;
+
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
-                callback();
+                // If called via `.execSync`, `callback` will be undefined,
+                // and return values will be used as response.
+                if ( callback ) {
+                    callback();
+                } else {
+                    return result;
+                }
             }
         );
 
@@ -32,10 +48,18 @@ module.exports = function( vorpal ){
         .description( 'Unbind EPUB handles.' )
         .action(
             function( args, callback ) {
+                let result = false;
+
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
-                callback();
+                // If called via `.execSync`, `callback` will be undefined,
+                // and return values will be used as response.
+                if ( callback ) {
+                    callback();
+                } else {
+                    return result;
+                }
             }
         );
 
@@ -44,10 +68,18 @@ module.exports = function( vorpal ){
         .description( 'Unbind all EPUB handles.' )
         .action(
             function( args, callback ) {
+                let result = false;
+
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
-                callback();
+                // If called via `.execSync`, `callback` will be undefined,
+                // and return values will be used as response.
+                if ( callback ) {
+                    callback();
+                } else {
+                    return result;
+                }
             }
         );
 
@@ -56,10 +88,18 @@ module.exports = function( vorpal ){
         .description( 'Replace all EPUB handles.' )
         .action(
             function( args, callback ) {
+                let result = false;
+
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
-                callback();
+                // If called via `.execSync`, `callback` will be undefined,
+                // and return values will be used as response.
+                if ( callback ) {
+                    callback();
+                } else {
+                    return result;
+                }
             }
         );
 };
