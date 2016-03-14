@@ -8,6 +8,7 @@ module.exports = function( vorpal ){
         .description( 'Publish EPUBs.' )
         .action(
             function( args, callback ) {
+                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
                 callback();

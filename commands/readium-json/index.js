@@ -8,6 +8,7 @@ module.exports = function( vorpal ){
         .description( 'Manage `epub_library.json` file.' )
         .action(
             function( args, callback ) {
+                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
                 callback();

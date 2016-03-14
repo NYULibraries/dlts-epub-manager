@@ -8,6 +8,7 @@ module.exports = function( vorpal ){
         .description( 'Manage Solr index.' )
         .action(
             function( args, callback ) {
+                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
                 callback();
