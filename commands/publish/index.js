@@ -4,11 +4,11 @@ module.exports = function( vorpal ){
     vorpal.log( `Loaded ${ __filename }.` );
 
     function publish( subCommand ) {
-        vorpal.execSync( `content ${subCommand}`,      { fatal : true } );
-        vorpal.execSync( `solr ${subCommand}`,         { fatal : true } );
-        vorpal.execSync( `handles ${subCommand}`,      { fatal : true } );
-        vorpal.execSync( `readium-json ${subCommand}`, { fatal : true } );
-        vorpal.execSync( `verify ${subCommand}`,       { fatal : true } );
+        vorpal.execSync( 'content '      + subCommand, { fatal : true } );
+        vorpal.execSync( 'solr '         + subCommand, { fatal : true } );
+        vorpal.execSync( 'handles '      + subCommand, { fatal : true } );
+        vorpal.execSync( 'readium-json ' + subCommand, { fatal : true } );
+        vorpal.execSync( 'verify '       + subCommand, { fatal : true } );
     }
 
     vorpal.command( 'publish' )
