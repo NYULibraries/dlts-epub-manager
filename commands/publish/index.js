@@ -3,6 +3,14 @@
 module.exports = function( vorpal ){
     vorpal.log( `Loaded ${ __filename }.` );
 
+    function publish( subCommand ) {
+        vorpal.execSync( `content ${subCommand}` );
+        vorpal.execSync( `solr ${subCommand}` );
+        vorpal.execSync( `handles ${subCommand}` );
+        vorpal.execSync( `readium-json ${subCommand}` );
+        vorpal.execSync( `verify ${subCommand}` );
+    }
+
     vorpal.command( 'publish' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Publish EPUBs.' )
@@ -23,6 +31,8 @@ module.exports = function( vorpal ){
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
+                publish( 'add' );
+
                 callback();
             }
         );
@@ -34,6 +44,8 @@ module.exports = function( vorpal ){
             function( args, callback ) {
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
+
+                publish( 'delete' );
 
                 callback();
             }
@@ -47,6 +59,8 @@ module.exports = function( vorpal ){
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
+                publish( 'delete all' );
+
                 callback();
             }
         );
@@ -58,6 +72,8 @@ module.exports = function( vorpal ){
             function( args, callback ) {
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
+
+                publish( 'full-replace' );
 
                 callback();
             }
