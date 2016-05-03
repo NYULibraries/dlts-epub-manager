@@ -3,9 +3,9 @@
 module.exports = function( vorpal ){
     vorpal.log( `Loaded ${ __filename }.` );
 
-    vorpal.command( 'content' )
+    vorpal.command( 'intake' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
-        .description( 'Manage exploded EPUB content.' )
+        .description( 'Manage intake of EPUB and source metadata.' )
         .action(
             function( args, callback ) {
                 let result = false;
@@ -23,9 +23,9 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'content add' )
+    vorpal.command( 'intake add' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
-        .description( 'Transform exploded EPUB content and deploy.' )
+        .description( 'Add EPUBs and source metadata to intake.' )
         .action(
             function( args, callback ) {
                 let result = false;
@@ -43,9 +43,9 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'content delete' )
+    vorpal.command( 'intake delete' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
-        .description( 'Delete EPUB content from deployed collection.' )
+        .description( 'Delete EPUBs and source metadata from intake.' )
         .action(
             function( args, callback ) {
                 let result = false;
@@ -63,9 +63,9 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'content delete all' )
+    vorpal.command( 'intake delete all' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
-        .description( 'Delete all EPUB content from deployed collection.' )
+        .description( 'Delete all EPUBs and source metadata from intake.' )
         .action(
             function( args, callback ) {
                 let result = false;
@@ -83,9 +83,9 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'content full-replace' )
+    vorpal.command( 'intake full-replace' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
-        .description( 'Replace EPUB content of entire deployed collection.' )
+        .description( 'Replace all EPUBs and source metadata in intake.' )
         .action(
             function( args, callback ) {
                 let result = false;
