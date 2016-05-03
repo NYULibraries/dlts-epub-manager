@@ -33,11 +33,11 @@ module.exports = function( vorpal ){
         );
 };
 
-function getConfigFileBasenames( dir ) {
+function getConfigFileBasenames( configDir ) {
     let filenames = [];
 
     try {
-        filenames = fs.readdirSync( dir ).filter(
+        filenames = fs.readdirSync( configDir ).filter(
             function ( filename ) {
                 return path.extname( filename ) === CONFIG_FILE_EXTENSION;
             }
@@ -45,7 +45,7 @@ function getConfigFileBasenames( dir ) {
     } catch ( e ) {
         if ( e ) {
             if ( e.code === 'ENOENT' ) {
-                console.error( `The config directory ${dir}/ does not exist!` );
+                console.error( `The config directory ${configDir}/ does not exist!` );
                 process.exit( e.code );
             }
         }
