@@ -10,6 +10,12 @@ let commands = {};
 const COMMANDS_DIR = './commands',
       DELIMITER    = 'em$';
 
+function setup() {
+    vorpal.em = {};
+
+    vorpal.em.configDir = 'config';
+}
+
 function loadCommands( commandsDir ) {
     fs.readdirSync( commandsDir ).forEach(
         function ( file ) {
@@ -25,6 +31,8 @@ function loadCommands( commandsDir ) {
         }
     );
 }
+
+setup();
 
 loadCommands( COMMANDS_DIR );
 
