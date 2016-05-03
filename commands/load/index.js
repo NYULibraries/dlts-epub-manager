@@ -31,7 +31,11 @@ module.exports = function( vorpal ){
 };
 
 function getConfigFileBasenames( dir ) {
-    let filenames = fs.readdirSync( dir );
+    let filenames = fs.readdirSync( dir ).filter(
+        function( filename ) {
+            return path.extname( filename ) === CONFIG_FILE_EXTENSION;
+        }
+    );
 
     return filenames.map(
         function( filename ) {
