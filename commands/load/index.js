@@ -34,11 +34,22 @@ module.exports = function( vorpal ){
 };
 
 function getConfigFileBasenames( dir ) {
-    let filenames = fs.readdirSync( dir ).filter(
-        function( filename ) {
-            return path.extname( filename ) === CONFIG_FILE_EXTENSION;
+    let filenames = [];
+
+    try {
+        filenames = fs.readdirSync( dir ).filter(
+            function ( filename ) {
+                return path.extname( filename ) === CONFIG_FILE_EXTENSION;
+            }
+        );
+    } catch ( e ) {
+        if ( e ) {
+            if ( e.code === 'ENOENT' ) {
+                console.error( `The config directory ${dir}/ does not exist!` );
+                process.exit( e.code );
+            }
         }
-    );
+    }
 
     return filenames.map(
         function( filename ) {
