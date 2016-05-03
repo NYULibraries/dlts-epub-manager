@@ -13,7 +13,7 @@ const COMMANDS_DIR = './commands',
 function setup() {
     vorpal.em = {};
 
-    vorpal.em.configDir = 'config';
+    vorpal.em.configDir = __dirname + '/config';
 }
 
 function loadCommands( commandsDir ) {
