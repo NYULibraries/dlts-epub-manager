@@ -15,6 +15,9 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 let result = false;
+                let configFile = vorpal.em.configDir + '/' +
+                                 args.configuration + CONFIG_FILE_EXTENSION;
+                let conf = require( configFile );
 
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
