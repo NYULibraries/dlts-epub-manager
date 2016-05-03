@@ -5,6 +5,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'load <configuration>' )
         .description( 'Read in configuration file and load resources.' )
+        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .action(
             function( args, callback ) {
                 let result = false;
