@@ -15,6 +15,10 @@
   "dependencies": {
     "vorpal": "^1.10.8"
   },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
   "jshintConfig": {
     "bitwise": true,
     "curly": true,
