@@ -25,6 +25,10 @@
     "eqeqeq": true,
     "esnext": true,
     "forin": true,
+    "globals" : {
+      "describe": true,
+      "it": true
+    },
     "noarg": true,
     "node": true,
     "noempty": true,
