@@ -16,7 +16,7 @@ module.exports = function( vorpal ){
             }
         }
 
-        if ( ! publishStep( 'content'      ) ) { return false; }
+        if ( ! publishStep( 'load'         ) ) { return false; }
         if ( ! publishStep( 'solr'         ) ) { return false; }
         if ( ! publishStep( 'handles'      ) ) { return false; }
         if ( ! publishStep( 'readium-json' ) ) { return false; }
