@@ -53,6 +53,18 @@ module.exports = function( vorpal ) {
 
                 let metadata = getMetadataForEpubs( metadataDir, epubList );
 
+                if ( conf.cacheMetadataInMemory ) {
+
+                } else {
+                    vorpal.log( 'Sorry, but "cacheMetadataInMemory: true" must be' +
+                        ' set in the conf file.  Writing metadata out to file(s)'  +
+                        ' for high-volume EPUB processing is not implemented yet.'
+                    );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
                 if ( callback ) { callback(); }
                 return result;
             }
