@@ -54,7 +54,14 @@ module.exports = function( vorpal ) {
                 let metadata = getMetadataForEpubs( metadataDir, epubList );
 
                 if ( conf.cacheMetadataInMemory ) {
-
+                    vorpal.metadata = {
+                        dump : () => {
+                            return JSON.stringify( metadata, null, 4 );
+                        },
+                        get : ( epubId ) => {
+                            return metadata[ epubId ];
+                        }
+                    };
                 } else {
                     vorpal.log( 'Sorry, but "cacheMetadataInMemory: true" must be' +
                         ' set in the conf file.  Writing metadata out to file(s)'  +
