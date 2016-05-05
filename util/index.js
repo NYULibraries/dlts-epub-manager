@@ -1,6 +1,6 @@
 "use strict";
 
-function isValidIsbn( str ) {
+function isValidIsbn13( str ) {
     // So far NYU Press appears to be using ISBN-13.
     // Regular Expressions Cookbook, 2nd Edition, has regexp for ISBN-13
     // https://www.safaribooksonline.com/library/view/regular-expressions-cookbook/9781449327453/ch04s13.html
@@ -25,7 +25,7 @@ function isValidIsbn( str ) {
     return str.match( ISBN_13_REGEX ) !== null;
 }
 
-function isValidNormalizedIsbn( str ) {
+function isValidNormalizedIsbn13( str ) {
     // Regular Expressions Cookbook, 2nd Edition, has regexp for ISBN-13
     // https://www.safaribooksonline.com/library/view/regular-expressions-cookbook/9781449327453/ch04s13.html
 
@@ -36,6 +36,6 @@ function isValidNormalizedIsbn( str ) {
 }
 
 module.exports = {
-    isValidIsbn,
-    isValidNormalizedIsbn
+    isValidIsbn13,
+    isValidNormalizedIsbn13
 };
