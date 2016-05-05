@@ -32,6 +32,15 @@ module.exports = function( vorpal ) {
 
                 let epubList = [];
                 if ( conf.epubList ) {
+                    if ( ! Array.isArray( conf.epubList ) ) {
+                        vorpal.log(
+                            `ERROR in ${configFileBasename}: "epubList" must be an array.`
+                        );
+
+                        if ( callback ) { callback(); }
+                        return result;
+                    }
+
                     let invalidEpubIds = getInvalidEpubIds( conf.epubList );
 
                     if ( invalidEpubIds ) {
