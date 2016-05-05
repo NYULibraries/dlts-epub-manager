@@ -76,6 +76,43 @@ module.exports = function( vorpal ) {
                 return result;
             }
         );
+
+    vorpal.command( 'load write [file]' )
+        .description( 'Write metadata out to file.' )
+        .option( '--dry-run', 'Print actions taken but do not execute them.' )
+        .action(
+            ( args, callback ) => {
+                let result = false;
+                let dumpFile = args.file ? args.file : 'cache/metadata.json';
+
+                if ( vorpal.metadata ) {
+                    try {
+                        fs.writeFileSync( dumpFile, vorpal.metadata.dump() );
+
+                        result = true;
+                    } catch( e ) {
+                        vorpal.log(
+                            `ERROR in "load write ${dumpFile}": `
+                        );
+                        vorpal.log( e.message );
+
+                        result = false;
+                    }
+
+                } else {
+                    vorpal.log(
+                        'No metadata has been loaded.' +
+                        ' Please run "load [configuration]" first.'
+                    );
+
+                    result = false;
+                }
+
+                if ( callback ) { callback(); }
+                return result;
+            }
+        );
+
 };
 
 function getEpubListFromDirectory( dir ) {
