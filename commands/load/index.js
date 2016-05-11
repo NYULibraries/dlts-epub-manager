@@ -23,6 +23,12 @@ module.exports = function( vorpal ) {
                 let conf = require( configFile );
 
                 let metadataDir = conf.metadataDir;
+                if ( ! metadataDir ) {
+                    vorpal.log( `ERROR in ${configFileBasename}: reqired "metadataDir" is missing.`);
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
                 if ( ! fs.existsSync( metadataDir ) ) {
                     vorpal.log( `ERROR in ${configFileBasename}: ${metadataDir} does not exist!` );
 
