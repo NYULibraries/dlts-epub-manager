@@ -1,5 +1,8 @@
 "use strict";
 
+const ERROR_METADATA_NOT_LOADED =
+    'No metadata has been loaded.  Please run "load [configuration]" first.';
+
 function isValidIsbn13( str ) {
     // So far NYU Press appears to be using ISBN-13.
     // Regular Expressions Cookbook, 2nd Edition, has regexp for ISBN-13
@@ -36,6 +39,7 @@ function isValidNormalizedIsbn13( str ) {
 }
 
 module.exports = {
+    ERROR_METADATA_NOT_LOADED,
     isValidIsbn13,
     isValidNormalizedIsbn13
 };

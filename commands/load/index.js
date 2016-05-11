@@ -115,10 +115,7 @@ module.exports = function( vorpal ) {
                     }
 
                 } else {
-                    vorpal.log(
-                        'No metadata has been loaded.' +
-                        ' Please run "load [configuration]" first.'
-                    );
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     result = false;
                 }
