@@ -26,7 +26,7 @@
     "eqeqeq": true,
     "esnext": true,
     "forin": true,
-    "globals" : {
+    "globals": {
       "describe": true,
       "it": true
     },
