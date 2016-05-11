@@ -45,7 +45,7 @@ module.exports = function( vorpal ) {
 
                     if ( invalidEpubIds ) {
                         vorpal.log(
-                            `ERROR in ${configFileBasename}: 'The following EPUB ids are invalid:\n'` +
+                            `ERROR in ${configFileBasename}: The following EPUB ids are invalid:\n` +
                             invalidEpubIds.map(
                                 ( epubId ) => { return '  ' + epubId + '\n'; }
                             )
