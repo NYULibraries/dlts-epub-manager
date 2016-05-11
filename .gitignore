@@ -43,6 +43,9 @@ jspm_packages
 
 # Repo-specific
 
+cache/*
+!cache/.commit-empty-directory
+
 config/*
 !config/dev.json
 !config/stage.json
