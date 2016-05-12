@@ -19,11 +19,8 @@ module.exports = function( vorpal ){
 
                 // If called via `.execSync`, `callback` will be undefined,
                 // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
-                }
+                if ( callback ) { callback(); }
+                return result;
             }
         );
 
@@ -39,11 +36,8 @@ module.exports = function( vorpal ){
 
                 // If called via `.execSync`, `callback` will be undefined,
                 // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
-                }
+                if ( callback ) { callback(); }
+                return result;
             }
         );
 
@@ -59,11 +53,8 @@ module.exports = function( vorpal ){
 
                 // If called via `.execSync`, `callback` will be undefined,
                 // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
-                }
+                if ( callback ) { callback(); }
+                return result;
             }
         );
 
@@ -99,11 +90,8 @@ module.exports = function( vorpal ){
 
                 // If called via `.execSync`, `callback` will be undefined,
                 // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
-                }
+                if ( callback ) { callback(); }
+                return result;
             }
         );
 };
