@@ -72,7 +72,7 @@ module.exports = function( vorpal ) {
                             return JSON.stringify( metadata, null, 4 );
                         },
                         get : ( epubId ) => {
-                            return metadata[ epubId ];
+                            return metadata.get( epubId );
                         }
                     };
                 } else {
@@ -173,10 +173,10 @@ function getConfigFileBasenames( configDir ) {
 }
 
 function getMetadataForEpubs( metadataDir, epubList ) {
-    let metadata = {};
+    let metadata = new Map();
 
     epubList.forEach( ( epubId ) => {
-        metadata[ epubId ] = getMetadataForEpub( `${metadataDir}/${epubId}` );
+        metadata.set( epubId, getMetadataForEpub( `${metadataDir}/${epubId}` ) );
     } );
 
     return metadata;
