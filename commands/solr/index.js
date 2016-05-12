@@ -1,5 +1,9 @@
 "use strict";
 
+let solr = require( 'solr-client' );
+
+let client = setupClient();
+
 module.exports = function( vorpal ){
     vorpal.log( `Loaded ${ __filename }.` );
 
@@ -103,3 +107,23 @@ module.exports = function( vorpal ){
             }
         );
 };
+
+function setupClient() {
+    let client = solr.createClient();
+
+    client.autoCommit = true;
+
+    return client;
+}
+
+function addEpub( epubId ) {
+
+}
+
+function deleteEpub( epubId ) {
+
+}
+
+function deleteAllEpubs() {
+
+}
