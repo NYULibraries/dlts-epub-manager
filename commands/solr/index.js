@@ -24,12 +24,23 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'solr add' )
+    vorpal.command( 'solr add [configuration]' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Add EPUBs to Solr index.' )
         .action(
             function( args, callback ) {
                 let result = false;
+
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
+
+                        if ( callback ) { callback(); }
+                        return false;
+                    }
+                }
 
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
