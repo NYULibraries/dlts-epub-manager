@@ -44,6 +44,12 @@ module.exports = function( vorpal ){
 
                 client = setupClient( vorpal.em.conf );
 
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( vorpal.util.ERROR_METADATA_NOT_LOADED );
+
+                    if ( callback ) { callback(); }
+                    return result;
+                }
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
