@@ -2,7 +2,7 @@
 
 let solr = require( 'solr-client' );
 
-let client = setupClient();
+let client;
 
 module.exports = function( vorpal ){
     vorpal.log( `Loaded ${ __filename }.` );
@@ -42,11 +42,8 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                let conf = vorpal.em.conf;
+                client = setupClient( vorpal.em.conf );
 
-                client.options.host = conf.solrHost;
-                client.options.port = conf.solrPort;
-                client.options.path = conf.solrPath;
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
@@ -112,10 +109,14 @@ module.exports = function( vorpal ){
         );
 };
 
-function setupClient() {
+function setupClient( conf ) {
     let client = solr.createClient();
 
     client.autoCommit = true;
+
+    client.options.host = conf.solrHost;
+    client.options.port = conf.solrPort;
+    client.options.path = conf.solrPath;
 
     return client;
 }
