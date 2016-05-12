@@ -67,7 +67,7 @@ module.exports = function( vorpal ) {
                 let metadata = getMetadataForEpubs( metadataDir, epubList );
 
                 if ( conf.cacheMetadataInMemory ) {
-                    vorpal.metadata = {
+                    vorpal.em.metadata = {
                         dump : () => {
                             return JSON.stringify( metadata, null, 4 );
                         },
@@ -98,9 +98,9 @@ module.exports = function( vorpal ) {
                 let result = false;
                 let dumpFile = args.file ? args.file : 'cache/metadata.json';
 
-                if ( vorpal.metadata ) {
+                if ( vorpal.em.metadata ) {
                     try {
-                        fs.writeFileSync( dumpFile, vorpal.metadata.dump() );
+                        fs.writeFileSync( dumpFile, vorpal.em.metadata.dump() );
 
                         result = true;
                     } catch( e ) {
