@@ -88,6 +88,8 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
+                vorpal.em.conf = conf;
+
                 if ( callback ) { callback(); }
                 return true;
             }
