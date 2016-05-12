@@ -14,8 +14,6 @@ module.exports = function( vorpal ) {
         .autocomplete( getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             ( args, callback ) => {
-                let result = false;
-
                 let configFile = vorpal.em.configDir + '/' +
                                  args.configuration + CONFIG_FILE_EXTENSION;
                 let configFileBasename = path.basename( configFile );
@@ -44,7 +42,7 @@ module.exports = function( vorpal ) {
                         );
 
                         if ( callback ) { callback(); }
-                        return result;
+                        return false;
                     }
 
                     let invalidEpubIds = getInvalidEpubIds( conf.epubList );
@@ -88,7 +86,7 @@ module.exports = function( vorpal ) {
                 }
 
                 if ( callback ) { callback(); }
-                return result;
+                return true;
             }
         );
 
