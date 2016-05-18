@@ -71,8 +71,8 @@ module.exports = function( vorpal ) {
                         dump : () => {
                             return JSON.stringify( metadata, null, 4 );
                         },
-                        entries : () => {
-                            return metadata.entries();
+                        getAll : () => {
+                            return metadata;
                         },
                         get : ( epubId ) => {
                             return metadata.get( epubId );
