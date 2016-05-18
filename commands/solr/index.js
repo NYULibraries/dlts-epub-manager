@@ -50,8 +50,17 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); }
                     return result;
                 }
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+
+                let epubs = vorpal.em.metadata.getAll();
+
+                for ( let epub of epubs ) {
+                    let epubId       = epub[ 0 ];
+                    let epubMetadata = epub[ 1 ];
+
+                    vorpal.log( `Adding ${epub} to Solr index...` );
+
+                    addEpub( epubId, epubMetadata );
+                }
 
                 // If called via `.execSync`, `callback` will be undefined,
                 // and return values will be used as response.
