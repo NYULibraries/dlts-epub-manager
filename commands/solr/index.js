@@ -127,8 +127,14 @@ function setupClient( conf ) {
     return client;
 }
 
-function addEpub( epubId ) {
+function addEpub( id, metadata ) {
+    let doc = { id };
 
+    Object.keys( metadata ).forEach( ( key ) => {
+        doc[ key ] = metadata[ key ];
+    });
+
+    client.add( doc );
 }
 
 function deleteEpub( epubId ) {
