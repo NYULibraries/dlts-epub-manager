@@ -140,8 +140,8 @@ function addEpub( id, metadata ) {
     let doc = { id };
 
     Object.keys( metadata ).forEach( ( key ) => {
-        doc[ key ] = metadata[ key ];
-    });
+        doc[key] = metadata[key];
+    } );
 
     client.add( doc );
 }
