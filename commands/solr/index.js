@@ -59,7 +59,11 @@ module.exports = function( vorpal ){
 
                     vorpal.log( `Adding ${epub} to Solr index...` );
 
-                    addEpub( epubId, epubMetadata );
+                    // See header comment for this function.  Need to pass in vorpal
+                    // to log any errors as they happen.  Haven't been able to figure
+                    // out any way for this function to pass an error to caller
+                    // in variable or exception.
+                    addEpub( epubId, epubMetadata, vorpal );
                 }
 
                 // If called via `.execSync`, `callback` will be undefined,
@@ -136,14 +140,32 @@ function setupClient( conf ) {
     return client;
 }
 
-function addEpub( id, metadata ) {
-    let doc = { id };
+// This function takes a logger because haven't been able to figure out how to
+// record the error and get it back to caller.
+// The challenge is that the callback passed to client.add() is called asynchronously
+// so can't assign err to an error variable in the outer scope because the
+// function will return before that callback is even executed.
+// Can't re-throw the err object because the caller is inside the solr-client
+// module.
+// Best I can think of for the moment is to log it.  Note that the caller has no
+// way of controlling when the log output appears.
+function addEpub( id, metadata, logger ) {
+    let doc = {id};
 
-    Object.keys( metadata ).forEach( ( key ) => {
-        doc[key] = metadata[key];
-    } );
+    Object.keys( metadata ).forEach(
+        ( key ) => {
+            doc[key] = metadata[key];
+        }
+    );
 
-    client.add( doc );
+    client.add(
+        doc, ( err, obj ) => {
+            if ( err ) {
+                logger.log( `ERROR adding ${id}:\n` +
+                            JSON.stringify( err, null, 4 ) );
+            }
+        }
+    );
 }
 
 function deleteEpub( epubId ) {
