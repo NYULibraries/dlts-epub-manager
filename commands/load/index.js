@@ -5,7 +5,9 @@ let path = require( 'path' );
 
 let util = require( '../../util' );
 
-const CONFIG_FILE_EXTENSION = '.json';
+const CONFIG_FILE_EXTENSION = '.json',
+      HANDLE_SERVER         = 'http://hdl.handle.net';
+
 
 module.exports = function( vorpal ) {
     vorpal.command( 'load <configuration>' )
@@ -203,6 +205,11 @@ function getMetadataForEpub( epubDir ) {
             Object.assign( metadata, require( file ) );
         }
     } );
+
+    // TODO: Maybe figure out a better way to do this.  Maybe add "handleUrl" to
+    // metadata and change Solr schema and website queries to use that instead of
+    // handle.
+    metadata.handle = `${HANDLE_SERVER}/${metadata.handle}`;
 
     return metadata;
 }
