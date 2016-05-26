@@ -131,8 +131,10 @@ module.exports = function( vorpal ){
 function setupClient( conf ) {
     let client = solr.createClient();
 
-    client.autoCommit = true;
-
+    // This doesn't seem to do anything.  Also looked through the code and tests
+    // and found no reference to this option.
+    // client.autoCommit = true;
+    
     client.options.host = conf.solrHost;
     client.options.port = conf.solrPort;
     client.options.path = conf.solrPath;
@@ -159,7 +161,7 @@ function addEpub( id, metadata, logger ) {
     );
 
     client.add(
-        doc, ( err, obj ) => {
+        doc, { commitWithin : 3000 }, ( err, obj ) => {
             if ( err ) {
                 logger.log( `ERROR adding ${id}:\n` +
                             JSON.stringify( err, null, 4 ) );
