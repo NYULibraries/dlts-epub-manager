@@ -3,6 +3,8 @@
 let async = require( 'async' );
 let solr  = require( 'solr-client' );
 
+let util  = require( '../../util' );
+
 let client;
 
 module.exports = function( vorpal ){
@@ -44,7 +46,7 @@ module.exports = function( vorpal ){
                 }
 
                 if ( ! vorpal.em.metadata ) {
-                    vorpal.log( vorpal.util.ERROR_METADATA_NOT_LOADED );
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return result;
