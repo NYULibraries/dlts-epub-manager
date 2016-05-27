@@ -5,17 +5,16 @@ let path = require( 'path' );
 
 let util = require( '../../util' );
 
-const CONFIG_FILE_EXTENSION = '.json';
+const CONFIG_FILE_EXTENSION = '.json',
+      HANDLE_SERVER         = 'http://hdl.handle.net';
+
 
 module.exports = function( vorpal ) {
     vorpal.command( 'load <configuration>' )
         .description( 'Read in configuration file and load resources.' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .autocomplete( getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             ( args, callback ) => {
-                let result = false;
-
                 let configFile = vorpal.em.configDir + '/' +
                                  args.configuration + CONFIG_FILE_EXTENSION;
                 let configFileBasename = path.basename( configFile );
@@ -44,7 +43,7 @@ module.exports = function( vorpal ) {
                         );
 
                         if ( callback ) { callback(); }
-                        return result;
+                        return false;
                     }
 
                     let invalidEpubIds = getInvalidEpubIds( conf.epubList );
@@ -69,12 +68,15 @@ module.exports = function( vorpal ) {
                 let metadata = getMetadataForEpubs( metadataDir, epubList );
 
                 if ( conf.cacheMetadataInMemory ) {
-                    vorpal.metadata = {
+                    vorpal.em.metadata = {
                         dump : () => {
                             return JSON.stringify( metadata, null, 4 );
                         },
+                        getAll : () => {
+                            return metadata;
+                        },
                         get : ( epubId ) => {
-                            return metadata[ epubId ];
+                            return metadata.get( epubId );
                         }
                     };
                 } else {
@@ -87,22 +89,24 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
+                vorpal.em.conf = conf;
+                vorpal.em.conf.name = args.configuration;
+
                 if ( callback ) { callback(); }
-                return result;
+                return true;
             }
         );
 
     vorpal.command( 'load write [file]' )
         .description( 'Write metadata out to file.' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .action(
             ( args, callback ) => {
                 let result = false;
                 let dumpFile = args.file ? args.file : 'cache/metadata.json';
 
-                if ( vorpal.metadata ) {
+                if ( vorpal.em.metadata ) {
                     try {
-                        fs.writeFileSync( dumpFile, vorpal.metadata.dump() );
+                        fs.writeFileSync( dumpFile, vorpal.em.metadata.dump() );
 
                         result = true;
                     } catch( e ) {
@@ -175,10 +179,10 @@ function getConfigFileBasenames( configDir ) {
 }
 
 function getMetadataForEpubs( metadataDir, epubList ) {
-    let metadata = {};
+    let metadata = new Map();
 
     epubList.forEach( ( epubId ) => {
-        metadata[ epubId ] = getMetadataForEpub( `${metadataDir}/${epubId}` );
+        metadata.set( epubId, getMetadataForEpub( `${metadataDir}/${epubId}` ) );
     } );
 
     return metadata;
@@ -200,6 +204,11 @@ function getMetadataForEpub( epubDir ) {
             Object.assign( metadata, require( file ) );
         }
     } );
+
+    // TODO: Maybe figure out a better way to do this.  Maybe add "handleUrl" to
+    // metadata and change Solr schema and website queries to use that instead of
+    // handle.
+    metadata.handle = `${HANDLE_SERVER}/${metadata.handle}`;
 
     return metadata;
 }

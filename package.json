@@ -13,6 +13,9 @@
   "author": "da70",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "rimraf": "^2.5.2",
+    "solr-client": "^0.6.0",
     "vorpal": "^1.10.8"
   },
   "devDependencies": {
@@ -25,7 +28,7 @@
     "eqeqeq": true,
     "esnext": true,
     "forin": true,
-    "globals" : {
+    "globals": {
       "describe": true,
       "it": true
     },

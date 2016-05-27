@@ -2,18 +2,33 @@
 
 let fs     = require( 'fs' );
 let path   = require( 'path' );
+let rimraf = require( 'rimraf' );
 let util   = require( 'util' );
 let vorpal = require( 'vorpal' )();
 
 let commands = {};
 
-const COMMANDS_DIR = './commands',
+const CACHE_DIR = './cache',
+      COMMANDS_DIR = './commands',
       DELIMITER    = 'em$';
 
 function setup() {
     vorpal.em = {};
 
     vorpal.em.configDir = __dirname + '/config';
+
+    clearCache();
+}
+
+function clearCache() {
+    try {
+        rimraf.sync( CACHE_DIR + '/*' );
+        vorpal.log( 'Cleared cache.' );
+    } catch ( error ) {
+        vorpal.log( `ERROR clearing cache: ${error}` );
+
+        process.exit(1);
+    }
 }
 
 function loadCommands( commandsDir ) {
