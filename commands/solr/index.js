@@ -78,15 +78,49 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'solr delete' )
+    vorpal.command( 'solr delete [configuration]' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Delete EPUBs from Solr index.' )
         .action(
             function( args, callback ) {
                 let result = false;
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
+
+                        if ( callback ) { callback(); }
+                        return false;
+                    }
+                }
+
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
+
+                    if ( callback ) { callback(); }
+                    return result;
+                }
+
+                client = setupClient( vorpal.em.conf );
+
+                let epubs = vorpal.em.metadata.getAll();
+
+                async.mapSeries( epubs, deleteEpub, ( error, results ) => {
+                    if ( error ) {
+                        vorpal.log( 'ERROR deleting documents from Solr index:\n' +
+                                    JSON.stringify( error, null, 4 )
+                        );
+                    } else {
+                        results.forEach( ( result ) => {
+                            vorpal.log( result );
+                        });
+                    }
+                } );
+
+                vorpal.log( `Queued Solr delete job for conf=${vorpal.em.conf.name}:` +
+                            `${epubs.size } EPUBs.` );
 
                 // If called via `.execSync`, `callback` will be undefined,
                 // and return values will be used as response.
@@ -203,8 +237,25 @@ function addEpub( epub, callback ) {
     );
 }
 
-function deleteEpub( epubId ) {
+function deleteEpub( epub, callback ) {
+    let id = epub[ 0 ];
 
+    client.deleteByID(
+        id, { commitWithin : 3000 }, ( error, obj ) => {
+            if ( error ) {
+                callback( JSON.stringify( error, null, 4 ) );
+            } else {
+                // Not sure if a status check is necessary or not.  Maybe if
+                // status is non-zero there will always been an error thrown?
+                let status = obj.responseHeader.status;
+                if ( status === 0 ) {
+                    callback( null, `Deleted ${id}.` );
+                } else {
+                    callback( null, `Deleted ${id}.  Status code: ${status}` );
+                }
+            }
+        }
+    );
 }
 
 function deleteAllEpubs( callback ) {
