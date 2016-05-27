@@ -228,9 +228,9 @@ function addEpub( epub, callback ) {
                 // status is non-zero there will always been an error thrown?
                 let status = obj.responseHeader.status;
                 if ( status === 0 ) {
-                    callback( null, `Added ${id}.` );
+                    callback( null, `Added ${id} to Solr index.` );
                 } else {
-                    callback( null, `Added ${id}.  Status code: ${status}` );
+                    callback( null, `Added ${id} to Solr index.  Status code: ${status}` );
                 }
             }
         }
@@ -249,9 +249,9 @@ function deleteEpub( epub, callback ) {
                 // status is non-zero there will always been an error thrown?
                 let status = obj.responseHeader.status;
                 if ( status === 0 ) {
-                    callback( null, `Deleted ${id}.` );
+                    callback( null, `Deleted ${id} from Solr index.` );
                 } else {
-                    callback( null, `Deleted ${id}.  Status code: ${status}` );
+                    callback( null, `Deleted ${id} from Solr index.  Status code: ${status}` );
                 }
             }
         }
