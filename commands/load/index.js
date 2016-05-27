@@ -12,7 +12,6 @@ const CONFIG_FILE_EXTENSION = '.json',
 module.exports = function( vorpal ) {
     vorpal.command( 'load <configuration>' )
         .description( 'Read in configuration file and load resources.' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .autocomplete( getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             ( args, callback ) => {
@@ -91,6 +90,7 @@ module.exports = function( vorpal ) {
                 }
 
                 vorpal.em.conf = conf;
+                vorpal.em.conf.name = args.configuration;
 
                 if ( callback ) { callback(); }
                 return true;
@@ -99,7 +99,6 @@ module.exports = function( vorpal ) {
 
     vorpal.command( 'load write [file]' )
         .description( 'Write metadata out to file.' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .action(
             ( args, callback ) => {
                 let result = false;
