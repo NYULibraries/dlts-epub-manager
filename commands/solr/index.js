@@ -43,14 +43,14 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                client = setupClient( vorpal.em.conf );
-
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( vorpal.util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return result;
                 }
+
+                client = setupClient( vorpal.em.conf );
 
                 let epubs = vorpal.em.metadata.getAll();
 
