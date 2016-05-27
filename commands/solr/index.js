@@ -11,7 +11,6 @@ module.exports = function( vorpal ){
     vorpal.log( `Loaded ${ __filename }.` );
 
     vorpal.command( 'solr' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Manage Solr index.' )
         .action(
             function( args, callback ) {
@@ -28,7 +27,6 @@ module.exports = function( vorpal ){
         );
 
     vorpal.command( 'solr add [configuration]' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Add EPUBs to Solr index.' )
         .action(
             function( args, callback ) {
@@ -79,7 +77,6 @@ module.exports = function( vorpal ){
         );
 
     vorpal.command( 'solr delete [configuration]' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Delete EPUBs from Solr index.' )
         .action(
             function( args, callback ) {
@@ -130,7 +127,6 @@ module.exports = function( vorpal ){
         );
 
     vorpal.command( 'solr delete all [configuration]' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Delete all EPUBs from Solr index.' )
         .action(
             function( args, callback ) {
@@ -176,7 +172,6 @@ module.exports = function( vorpal ){
         );
 
     vorpal.command( 'solr full-replace' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Replace entire Solr index.' )
         .action(
             function( args, callback ) {
