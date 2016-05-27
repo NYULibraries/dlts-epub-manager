@@ -95,23 +95,49 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'solr delete all' )
+    vorpal.command( 'solr delete all [configuration]' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Delete all EPUBs from Solr index.' )
         .action(
             function( args, callback ) {
                 let result = false;
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
+
+                        if ( callback ) { callback(); }
+                        return false;
+                    }
+                }
+
+                if ( ! vorpal.em.conf ) {
+                    vorpal.log( util.ERROR_CONF_NOT_LOADED );
+
+                    if ( callback ) { callback(); }
+                    return result;
+                }
+
+                client = setupClient( vorpal.em.conf );
+
+                deleteAllEpubs( ( error ) => {
+                    if ( error ) {
+                        vorpal.log( 'ERROR deleting documents from Solr index:\n' +
+                                    JSON.stringify( error, null, 4 )
+                        );
+                    } else {
+                        vorpal.log( `Deleted all documents from Solr index for conf=${vorpal.em.conf.name}` );
+                    }
+                } );
+
+                vorpal.log( `Queued Solr delete all job for conf=${vorpal.em.conf.name}.` );
 
                 // If called via `.execSync`, `callback` will be undefined,
                 // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
-                }
+                if ( callback ) { callback(); }
+                return result;
             }
         );
 
@@ -181,6 +207,14 @@ function deleteEpub( epubId ) {
 
 }
 
-function deleteAllEpubs() {
+function deleteAllEpubs( callback ) {
+    client.deleteByQuery( '*:*', ( error, obj ) => {
+        if ( error ) {
+            callback( error );
+        } else {
+            callback();
+        }
+    } );
 
+    client.commit();
 }
