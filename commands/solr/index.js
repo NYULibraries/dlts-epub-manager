@@ -66,7 +66,7 @@ module.exports = function( vorpal ){
                     }
                 } );
 
-                vorpal.log( `Queued Solr add/update job for conf=${vorpal.em.conf.name}:` +
+                vorpal.log( `Queued Solr add/update job for conf "${vorpal.em.conf.name}": ` +
                             `${epubs.size } EPUBs.` );
 
                 // If called via `.execSync`, `callback` will be undefined,
@@ -116,7 +116,7 @@ module.exports = function( vorpal ){
                     }
                 } );
 
-                vorpal.log( `Queued Solr delete job for conf=${vorpal.em.conf.name}:` +
+                vorpal.log( `Queued Solr delete job for conf "${vorpal.em.conf.name}": ` +
                             `${epubs.size } EPUBs.` );
 
                 // If called via `.execSync`, `callback` will be undefined,
@@ -158,11 +158,11 @@ module.exports = function( vorpal ){
                                     JSON.stringify( error, null, 4 )
                         );
                     } else {
-                        vorpal.log( `Deleted all documents from Solr index for conf=${vorpal.em.conf.name}` );
+                        vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
                     }
                 } );
 
-                vorpal.log( `Queued Solr delete all job for conf=${vorpal.em.conf.name}.` );
+                vorpal.log( `Queued Solr delete all job for conf "${vorpal.em.conf.name}".` );
 
                 // If called via `.execSync`, `callback` will be undefined,
                 // and return values will be used as response.
