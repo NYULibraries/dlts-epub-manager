@@ -91,6 +91,7 @@ module.exports = function( vorpal ) {
                 }
 
                 vorpal.em.conf = conf;
+                vorpal.em.conf.name = args.configuration;
 
                 if ( callback ) { callback(); }
                 return true;
