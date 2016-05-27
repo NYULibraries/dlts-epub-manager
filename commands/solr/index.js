@@ -1,6 +1,7 @@
 "use strict";
 
-let solr = require( 'solr-client' );
+let async = require( 'async' );
+let solr  = require( 'solr-client' );
 
 let client;
 
@@ -53,18 +54,20 @@ module.exports = function( vorpal ){
 
                 let epubs = vorpal.em.metadata.getAll();
 
-                for ( let epub of epubs ) {
-                    let epubId       = epub[ 0 ];
-                    let epubMetadata = epub[ 1 ];
+                async.mapSeries( epubs, addEpub, ( error, results ) => {
+                    if ( error ) {
+                        vorpal.log( 'ERROR adding to Solr index:\n' +
+                            JSON.stringify( error, null, 4 )
+                        );
+                    } else {
+                        results.forEach( ( result ) => {
+                            vorpal.log( result );
+                        });
+                    }
+                } );
 
-                    vorpal.log( `Adding ${epub} to Solr index...` );
-
-                    // See header comment for this function.  Need to pass in vorpal
-                    // to log any errors as they happen.  Haven't been able to figure
-                    // out any way for this function to pass an error to caller
-                    // in variable or exception.
-                    addEpub( epubId, epubMetadata, vorpal );
-                }
+                vorpal.log( `Queued Solr add/update job for conf=${vorpal.em.conf.name}:` +
+                            `${epubs.size } EPUBs.` );
 
                 // If called via `.execSync`, `callback` will be undefined,
                 // and return values will be used as response.
@@ -142,17 +145,11 @@ function setupClient( conf ) {
     return client;
 }
 
-// This function takes a logger because haven't been able to figure out how to
-// record the error and get it back to caller.
-// The challenge is that the callback passed to client.add() is called asynchronously
-// so can't assign err to an error variable in the outer scope because the
-// function will return before that callback is even executed.
-// Can't re-throw the err object because the caller is inside the solr-client
-// module.
-// Best I can think of for the moment is to log it.  Note that the caller has no
-// way of controlling when the log output appears.
-function addEpub( id, metadata, logger ) {
-    let doc = {id};
+// Designed to be iteratee function for async.mapSeries()
+function addEpub( epub, callback ) {
+    let id       = epub[ 0 ];
+    let metadata = epub[ 1 ];
+    let doc      = { id };
 
     Object.keys( metadata ).forEach(
         ( key ) => {
@@ -161,10 +158,18 @@ function addEpub( id, metadata, logger ) {
     );
 
     client.add(
-        doc, { commitWithin : 3000 }, ( err, obj ) => {
-            if ( err ) {
-                logger.log( `ERROR adding ${id}:\n` +
-                            JSON.stringify( err, null, 4 ) );
+        doc, { commitWithin : 3000 }, ( error, obj ) => {
+            if ( error ) {
+                callback( JSON.stringify( error, null, 4 ) );
+            } else {
+                // Not sure if a status check is necessary or not.  Maybe if
+                // status is non-zero there will always been an error thrown?
+                let status = obj.responseHeader.status;
+                if ( status === 0 ) {
+                    callback( null, `Added ${id}.` );
+                } else {
+                    callback( null, `Added ${id}.  Status code: ${status}` );
+                }
             }
         }
     );
