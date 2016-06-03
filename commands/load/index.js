@@ -23,7 +23,7 @@ module.exports = function( vorpal ) {
 
                 let metadataDir = conf.metadataDir;
                 if ( ! metadataDir ) {
-                    vorpal.log( `ERROR in ${configFileBasename}: reqired "metadataDir" is missing.`);
+                    vorpal.log( `ERROR in ${configFileBasename}: required "metadataDir" is missing.`);
 
                     if ( callback ) { callback(); }
                     return false;
