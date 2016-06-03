@@ -8,13 +8,13 @@ let vorpal = require( 'vorpal' )();
 
 let commands = {};
 
-const CACHE_DIR = './cache',
-      COMMANDS_DIR = './commands',
+const COMMANDS_DIR = './commands',
       DELIMITER    = 'em$';
 
 function setup() {
     vorpal.em = {};
 
+    vorpal.em.cacheDir  = __dirname + '/cache';
     vorpal.em.configDir = __dirname + '/config';
 
     clearCache();
@@ -22,7 +22,7 @@ function setup() {
 
 function clearCache() {
     try {
-        rimraf.sync( CACHE_DIR + '/*' );
+        rimraf.sync( vorpal.em.cacheDir + '/*' );
         vorpal.log( 'Cleared cache.' );
     } catch ( error ) {
         vorpal.log( `ERROR clearing cache: ${error}` );
