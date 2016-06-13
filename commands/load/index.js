@@ -28,7 +28,7 @@ module.exports = function( vorpal ) {
 
                 let metadataDir;
                 try {
-                    metadataDir = getMetadataDir( conf, vorpal.em.rootDir );
+                    metadataDir = getMetadataDir( conf );
                 } catch( e ) {
                     vorpal.log( `ERROR in ${configFileBasename}: ${e}` );
 
@@ -145,13 +145,15 @@ module.exports = function( vorpal ) {
         );
 };
 
-function getMetadataDir( conf, rootDir ) {
-    let metadataDir = conf.metadataDir;
+function getMetadataDir( conf ) {
+    let metadataDir    = conf.metadataDir;
+    let metadataRepo   = conf.metadataRepo;
+    let metadataBranch = conf.metadataBranch;
 
     if ( metadataDir ) {
         // Assume that non-absolute paths are relative to root dir
         if ( ! path.isAbsolute( metadataDir ) ) {
-            metadataDir = `${rootDir}/${metadataDir}`;
+            metadataDir = `${em.rootDir}/${metadataDir}`;
         }
 
         if ( ! fs.existsSync( metadataDir ) ) {
