@@ -1,5 +1,6 @@
 "use strict";
 
+let exec      = require( 'child_process' ).exec;
 let fs        = require( 'fs' );
 let path      = require( 'path' );
 let stringify = require( 'json-stable-stringify' );
@@ -161,8 +162,11 @@ function getMetadataDir( conf ) {
         }
 
         return metadataDir;
+    } else if ( metadataRepo ) {
+        let cmd = `git clone ${metadataRepo} ${em.cacheDir}/metadataRepo/`;
+        exec( cmd );
     } else {
-        throw `required "metadataDir" is missing.`;
+        throw `missing required "metadataDir" or "metadataRepo".`;
     }
 }
 
