@@ -17,6 +17,10 @@ describe( 'load command', () => {
         );
     } );
 
+    beforeEach( ( ) => {
+        vorpal.parse( [ null, null, 'load', 'clear' ] );
+    } );
+
     it( 'should correctly load from local metadataDir', () => {
         vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
         let actual = vorpal.em.metadata.dumpCanonical();
