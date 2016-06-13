@@ -8,12 +8,16 @@ let vorpal = em.vorpal;
 vorpal.em.configDir = __dirname + '/fixture/config';
 
 describe( 'load command', () => {
-    it( 'should correctly load from local metadataDir', () => {
-        let expected = stringify(
+    let expected;
+
+    before( ( ) => {
+        expected = stringify(
             require( './fixture/metadata/expected-full'),
             { stable : '    ' }
         );
+    } );
 
+    it( 'should correctly load from local metadataDir', () => {
         vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
         let actual = vorpal.em.metadata.dumpCanonical();
 
