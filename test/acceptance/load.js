@@ -27,5 +27,12 @@ describe( 'load command', () => {
 
         assert( actual === expected, 'Loaded metadata did not match expected.' );
     } );
+
+    it( 'should correctly load from local metadataRepo', () => {
+        vorpal.parse( [ null, null, 'load', 'full-metadataRepo' ] );
+        let actual = vorpal.em.metadata.dumpCanonical();
+
+        assert( actual === expected, 'Loaded metadata did not match expected.' );
+    } );
 } );
 
