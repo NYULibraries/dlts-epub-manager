@@ -29,6 +29,12 @@ module.exports = function( vorpal ) {
                     if ( callback ) { callback(); }
                     return false;
                 }
+
+                // Assume that non-absolute paths are relative to root dir
+                if ( ! path.isAbsolute( metadataDir ) ) {
+                    metadataDir = `${vorpal.em.rootDir}/${metadataDir}`;
+                }
+
                 if ( ! fs.existsSync( metadataDir ) ) {
                     vorpal.log( `ERROR in ${configFileBasename}: ${metadataDir} does not exist!` );
 
