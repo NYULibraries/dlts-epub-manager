@@ -6,11 +6,15 @@ let stringify = require( 'json-stable-stringify' );
 
 let util = require( '../../lib/util' );
 
+let em;
+
 const CONFIG_FILE_EXTENSION = '.json',
       HANDLE_SERVER         = 'http://hdl.handle.net';
 
 
 module.exports = function( vorpal ) {
+    em = vorpal.em;
+
     vorpal.command( 'load <configuration>' )
         .description( 'Read in configuration file and load resources.' )
         .autocomplete( getConfigFileBasenames( vorpal.em.configDir ) )
