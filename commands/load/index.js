@@ -1,7 +1,8 @@
 "use strict";
 
-let fs   = require( 'fs' );
-let path = require( 'path' );
+let fs        = require( 'fs' );
+let path      = require( 'path' );
+let stringify = require( 'json-stable-stringify' );
 
 let util = require( '../../lib/util' );
 
@@ -71,6 +72,9 @@ module.exports = function( vorpal ) {
                     vorpal.em.metadata = {
                         dump : () => {
                             return JSON.stringify( metadata, null, 4 );
+                        },
+                        dumpCanonical : () => {
+                            return stringify( metadata, { stable : '    ' } );
                         },
                         getAll : () => {
                             return metadata;
