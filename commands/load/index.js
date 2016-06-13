@@ -22,21 +22,11 @@ module.exports = function( vorpal ) {
 
                 let conf = require( configFile );
 
-                let metadataDir = conf.metadataDir;
-                if ( ! metadataDir ) {
-                    vorpal.log( `ERROR in ${configFileBasename}: required "metadataDir" is missing.`);
-
-                    if ( callback ) { callback(); }
-                    return false;
-                }
-
-                // Assume that non-absolute paths are relative to root dir
-                if ( ! path.isAbsolute( metadataDir ) ) {
-                    metadataDir = `${vorpal.em.rootDir}/${metadataDir}`;
-                }
-
-                if ( ! fs.existsSync( metadataDir ) ) {
-                    vorpal.log( `ERROR in ${configFileBasename}: ${metadataDir} does not exist!` );
+                let metadataDir;
+                try {
+                    metadataDir = getMetadataDir( conf, vorpal.em.rootDir );
+                } catch( e ) {
+                    vorpal.log( `ERROR in ${configFileBasename}: ${e}` );
 
                     if ( callback ) { callback(); }
                     return false;
@@ -150,6 +140,25 @@ module.exports = function( vorpal ) {
             }
         );
 };
+
+function getMetadataDir( conf, rootDir ) {
+    let metadataDir = conf.metadataDir;
+
+    if ( metadataDir ) {
+        // Assume that non-absolute paths are relative to root dir
+        if ( ! path.isAbsolute( metadataDir ) ) {
+            metadataDir = `${rootDir}/${metadataDir}`;
+        }
+
+        if ( ! fs.existsSync( metadataDir ) ) {
+            throw `${metadataDir} does not exist!`;
+        }
+
+        return metadataDir;
+    } else {
+        throw `required "metadataDir" is missing.`;
+    }
+}
 
 function getEpubListFromDirectory( dir ) {
     let epubList = fs.readdirSync( dir ).filter(
