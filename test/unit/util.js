@@ -1,7 +1,7 @@
 "use strict";
 
 let assert = require( 'chai' ).assert,
-    util   = require( '../../util/index' );
+    util   = require( '../../lib/util/index' );
 
 describe( 'util', () => {
     // From https://www.safaribooksonline.com/library/view/regular-expressions-cookbook/9781449327453/ch04s13.html

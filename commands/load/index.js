@@ -3,7 +3,7 @@
 let fs   = require( 'fs' );
 let path = require( 'path' );
 
-let util = require( '../../util' );
+let util = require( '../../lib/util' );
 
 const CONFIG_FILE_EXTENSION = '.json',
       HANDLE_SERVER         = 'http://hdl.handle.net';

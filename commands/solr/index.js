@@ -3,7 +3,7 @@
 let async = require( 'async' );
 let solr  = require( 'solr-client' );
 
-let util  = require( '../../util' );
+let util  = require( '../../lib/util' );
 
 let client;
 
