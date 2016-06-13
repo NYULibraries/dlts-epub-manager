@@ -10,7 +10,7 @@ vorpal.em.configDir = __dirname + '/fixture/config';
 describe( 'load command', () => {
     it( 'should correctly load from local metadataDir', () => {
         let expected = stringify(
-            require( './fixture/metadata/full'),
+            require( './fixture/metadata/expected-full'),
             { stable : '    ' }
         );
 
