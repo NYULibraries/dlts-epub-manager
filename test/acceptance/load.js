@@ -14,7 +14,7 @@ describe( 'load command', () => {
             { stable : '    ' }
         );
 
-        vorpal.parse( [ null, null, 'load', 'test-full-filesystem-load' ] );
+        vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
         let actual = vorpal.em.metadata.dumpCanonical();
 
         assert( actual === expected, 'Loaded metadata did not match expected.' );
