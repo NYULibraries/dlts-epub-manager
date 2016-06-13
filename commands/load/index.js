@@ -139,6 +139,16 @@ module.exports = function( vorpal ) {
             }
         );
 
+    vorpal.command( 'load clear' )
+        .description( 'Clear all loaded metadata.' )
+        .action(
+            ( args, callback ) => {
+                delete vorpal.em.metadata;
+
+                if ( callback ) { callback(); }
+                return true;
+            }
+        );
 };
 
 function getEpubListFromDirectory( dir ) {
