@@ -1,5 +1,7 @@
 "use strict";
 
+/* global before, beforeEach */
+
 let assert = require( 'chai' ).assert;
 let em     = require( '../../lib/bootstrap' );
 let stringify = require( 'json-stable-stringify' );
