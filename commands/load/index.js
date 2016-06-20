@@ -147,9 +147,10 @@ module.exports = function( vorpal ) {
 };
 
 function getMetadataDir( conf ) {
-    let metadataDir        = conf.metadataDir;
-    let metadataRepo       = conf.metadataRepo;
-    let metadataRepoBranch = conf.metadataRepoBranch;
+    let metadataDir              = conf.metadataDir;
+    let metadataRepo             = conf.metadataRepo;
+    let metadataRepoBranch       = conf.metadataRepoBranch;
+    let metadataRepoSubdirectory = conf.metadataRepoSubdirectory;
 
     if ( metadataDir ) {
         // Assume that non-absolute paths are relative to root dir
@@ -163,7 +164,7 @@ function getMetadataDir( conf ) {
 
         return metadataDir;
     } else if ( metadataRepo ) {
-        let clonedRepoDir = `${em.cacheDir}/metadataRepo/`;
+        let clonedRepoDir = `${em.cacheDir}/metadataRepo`;
 
         let cmd = `git clone ${metadataRepo} ${clonedRepoDir}`;
         execSync( cmd );
@@ -172,6 +173,13 @@ function getMetadataDir( conf ) {
             cmd = `git checkout ${metadataRepoBranch}`;
             execSync( cmd , { cwd: clonedRepoDir } );
         }
+
+        let metadataDirFromRepo = clonedRepoDir;
+        if ( metadataRepoSubdirectory ) {
+            metadataDirFromRepo = `${metadataDirFromRepo}/${metadataRepoSubdirectory}`;
+        }
+
+        return metadataDirFromRepo;
     } else {
         throw `missing required "metadataDir" or "metadataRepo".`;
     }
