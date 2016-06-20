@@ -107,7 +107,7 @@ module.exports = function( vorpal ) {
         .action(
             ( args, callback ) => {
                 let result = false;
-                let dumpFile = args.file ? args.file : 'cache/metadata.json';
+                let dumpFile = args.file ? args.file : `${vorpal.em.cacheDir}/metadata.json`;
 
                 if ( vorpal.em.metadata ) {
                     try {
