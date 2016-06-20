@@ -164,8 +164,8 @@ function getMetadataDir( conf ) {
         return metadataDir;
     } else if ( metadataRepo ) {
         let clonedRepoDir = `${em.cacheDir}/metadataRepo/`;
-        let cmd = `git clone ${metadataRepo} ${clonedRepoDir}`;
 
+        let cmd = `git clone ${metadataRepo} ${clonedRepoDir}`;
         execSync( cmd );
     } else {
         throw `missing required "metadataDir" or "metadataRepo".`;
