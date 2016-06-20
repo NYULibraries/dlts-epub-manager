@@ -147,9 +147,9 @@ module.exports = function( vorpal ) {
 };
 
 function getMetadataDir( conf ) {
-    let metadataDir    = conf.metadataDir;
-    let metadataRepo   = conf.metadataRepo;
-    let metadataBranch = conf.metadataBranch;
+    let metadataDir        = conf.metadataDir;
+    let metadataRepo       = conf.metadataRepo;
+    let metadataRepoBranch = conf.metadataRepoBranch;
 
     if ( metadataDir ) {
         // Assume that non-absolute paths are relative to root dir
