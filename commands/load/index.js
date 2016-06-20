@@ -64,7 +64,7 @@ module.exports = function( vorpal ) {
 
                     epubList = conf.epubList;
                 } else {
-                    epubList = getEpubListFromDirectory( conf.metadataDir );
+                    epubList = getEpubListFromDirectory( metadataDir );
                 }
 
                 let metadata = getMetadataForEpubs( metadataDir, epubList );
