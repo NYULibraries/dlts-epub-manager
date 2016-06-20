@@ -15,7 +15,7 @@ describe( 'load command', () => {
     before( ( ) => {
         expected = stringify(
             require( './fixture/metadata/expected-full'),
-            { stable : '    ' }
+            { space : '    ' }
         );
     } );
 

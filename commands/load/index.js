@@ -75,7 +75,7 @@ module.exports = function( vorpal ) {
                             return JSON.stringify( metadata, null, 4 );
                         },
                         dumpCanonical : () => {
-                            return stringify( metadata, { stable : '    ' } );
+                            return stringify( metadata, { space : '    ' } );
                         },
                         getAll : () => {
                             return metadata;
