@@ -2,10 +2,10 @@
 
 /* global before, beforeEach */
 
-let assert = require( 'chai' ).assert;
-let em     = require( '../../lib/bootstrap' );
+let assert    = require( 'chai' ).assert;
+let em        = require( '../../lib/bootstrap' );
 let stringify = require( 'json-stable-stringify' );
-let vorpal = em.vorpal;
+let vorpal    = em.vorpal;
 
 vorpal.em.configDir = __dirname + '/fixture/config';
 
