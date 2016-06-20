@@ -167,6 +167,11 @@ function getMetadataDir( conf ) {
 
         let cmd = `git clone ${metadataRepo} ${clonedRepoDir}`;
         execSync( cmd );
+
+        if ( metadataRepoBranch ) {
+            cmd = `git checkout ${metadataRepoBranch}`;
+            execSync( cmd , { cwd: clonedRepoDir } );
+        }
     } else {
         throw `missing required "metadataDir" or "metadataRepo".`;
     }
