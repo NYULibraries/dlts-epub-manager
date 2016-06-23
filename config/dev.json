@@ -3,5 +3,9 @@
     "epubList"                 : null,
     "metadataRepo"             : "git@github.com:NYULibraries/dlts-epub-metadata.git",
     "metadataRepoBranch"       : "develop",
-    "metadataRepoSubdirectory" : "nyupress"
+    "metadataRepoSubdirectory" : "nyupress",
+
+    "solrHost"              : "dev-discovery.dlib.nyu.edu",
+    "solrPort"              : 8080,
+    "solrPath"              : "/solr3_discovery/nyupress"
 }
