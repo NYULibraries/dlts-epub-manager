@@ -1,35 +1,39 @@
 "use strict";
 
-let fs   = require( 'fs' );
-let path = require( 'path' );
+let execSync  = require( 'child_process' ).execSync;
+let fs        = require( 'fs' );
+let path      = require( 'path' );
+let stringify = require( 'json-stable-stringify' );
 
-let util = require( '../../util' );
+let util = require( '../../lib/util' );
+
+let em;
 
 const CONFIG_FILE_EXTENSION = '.json',
       HANDLE_SERVER         = 'http://hdl.handle.net';
 
 
 module.exports = function( vorpal ) {
+    em = vorpal.em;
+
     vorpal.command( 'load <configuration>' )
         .description( 'Read in configuration file and load resources.' )
         .autocomplete( getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             ( args, callback ) => {
+                em.clearCache();
+
                 let configFile = vorpal.em.configDir + '/' +
                                  args.configuration + CONFIG_FILE_EXTENSION;
                 let configFileBasename = path.basename( configFile );
 
                 let conf = require( configFile );
 
-                let metadataDir = conf.metadataDir;
-                if ( ! metadataDir ) {
-                    vorpal.log( `ERROR in ${configFileBasename}: reqired "metadataDir" is missing.`);
-
-                    if ( callback ) { callback(); }
-                    return false;
-                }
-                if ( ! fs.existsSync( metadataDir ) ) {
-                    vorpal.log( `ERROR in ${configFileBasename}: ${metadataDir} does not exist!` );
+                let metadataDir;
+                try {
+                    metadataDir = getMetadataDir( conf );
+                } catch( e ) {
+                    vorpal.log( `ERROR in ${configFileBasename}: ${e.message}` );
 
                     if ( callback ) { callback(); }
                     return false;
@@ -62,7 +66,7 @@ module.exports = function( vorpal ) {
 
                     epubList = conf.epubList;
                 } else {
-                    epubList = getEpubListFromDirectory( conf.metadataDir );
+                    epubList = getEpubListFromDirectory( metadataDir );
                 }
 
                 let metadata = getMetadataForEpubs( metadataDir, epubList );
@@ -71,6 +75,9 @@ module.exports = function( vorpal ) {
                     vorpal.em.metadata = {
                         dump : () => {
                             return JSON.stringify( metadata, null, 4 );
+                        },
+                        dumpCanonical : () => {
+                            return stringify( metadata, { space : '    ' } );
                         },
                         getAll : () => {
                             return metadata;
@@ -102,7 +109,7 @@ module.exports = function( vorpal ) {
         .action(
             ( args, callback ) => {
                 let result = false;
-                let dumpFile = args.file ? args.file : 'cache/metadata.json';
+                let dumpFile = args.file ? args.file : `${vorpal.em.cacheDir}/metadata.json`;
 
                 if ( vorpal.em.metadata ) {
                     try {
@@ -129,7 +136,56 @@ module.exports = function( vorpal ) {
             }
         );
 
+    vorpal.command( 'load clear' )
+        .description( 'Clear all loaded metadata.' )
+        .action(
+            ( args, callback ) => {
+                delete vorpal.em.metadata;
+
+                if ( callback ) { callback(); }
+                return true;
+            }
+        );
 };
+
+function getMetadataDir( conf ) {
+    let metadataDir              = conf.metadataDir;
+    let metadataRepo             = conf.metadataRepo;
+    let metadataRepoBranch       = conf.metadataRepoBranch;
+    let metadataRepoSubdirectory = conf.metadataRepoSubdirectory;
+
+    if ( metadataDir ) {
+        // Assume that non-absolute paths are relative to root dir
+        if ( ! path.isAbsolute( metadataDir ) ) {
+            metadataDir = `${em.rootDir}/${metadataDir}`;
+        }
+
+        if ( ! fs.existsSync( metadataDir ) ) {
+            throw `${metadataDir} does not exist!`;
+        }
+
+        return metadataDir;
+    } else if ( metadataRepo ) {
+        let clonedRepoDir = `${em.cacheDir}/metadataRepo`;
+
+        let cmd = `git clone ${metadataRepo} ${clonedRepoDir}`;
+        execSync( cmd );
+
+        if ( metadataRepoBranch ) {
+            cmd = `git checkout ${metadataRepoBranch}`;
+            execSync( cmd , { cwd: clonedRepoDir } );
+        }
+
+        let metadataDirFromRepo = clonedRepoDir;
+        if ( metadataRepoSubdirectory ) {
+            metadataDirFromRepo = `${metadataDirFromRepo}/${metadataRepoSubdirectory}`;
+        }
+
+        return metadataDirFromRepo;
+    } else {
+        throw `missing required "metadataDir" or "metadataRepo".`;
+    }
+}
 
 function getEpubListFromDirectory( dir ) {
     let epubList = fs.readdirSync( dir ).filter(

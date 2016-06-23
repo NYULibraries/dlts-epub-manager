@@ -3,7 +3,7 @@
 let async = require( 'async' );
 let solr  = require( 'solr-client' );
 
-let util  = require( '../../util' );
+let util  = require( '../../lib/util' );
 
 let client;
 
@@ -254,13 +254,11 @@ function deleteEpub( epub, callback ) {
 }
 
 function deleteAllEpubs( callback ) {
-    client.deleteByQuery( '*:*', ( error, obj ) => {
+    client.deleteByQuery( '*:*', { commitWithin : 3000 }, ( error, obj ) => {
         if ( error ) {
             callback( error );
         } else {
             callback();
         }
     } );
-
-    client.commit();
 }
