@@ -254,13 +254,11 @@ function deleteEpub( epub, callback ) {
 }
 
 function deleteAllEpubs( callback ) {
-    client.deleteByQuery( '*:*', ( error, obj ) => {
+    client.deleteByQuery( '*:*', { commitWithin : 3000 }, ( error, obj ) => {
         if ( error ) {
             callback( error );
         } else {
             callback();
         }
     } );
-
-    client.commit();
 }
