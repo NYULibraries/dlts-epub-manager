@@ -21,6 +21,8 @@ module.exports = function( vorpal ) {
         .autocomplete( getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             ( args, callback ) => {
+                em.clearCache();
+
                 let configFile = vorpal.em.configDir + '/' +
                                  args.configuration + CONFIG_FILE_EXTENSION;
                 let configFileBasename = path.basename( configFile );
