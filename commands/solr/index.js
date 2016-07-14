@@ -17,10 +17,7 @@ module.exports = function( vorpal ){
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 
@@ -36,16 +33,14 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); }
-                        return false;
+                        callback();
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); }
-                    return result;
+                    callback();
                 }
 
                 client = setupClient( vorpal.em.conf );
@@ -67,10 +62,7 @@ module.exports = function( vorpal ){
                 vorpal.log( `Queued Solr add/update job for conf "${vorpal.em.conf.name}": ` +
                             `${epubs.size } EPUBs.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 
@@ -86,16 +78,14 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); }
-                        return false;
+                        callback();
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); }
-                    return result;
+                    callback();
                 }
 
                 client = setupClient( vorpal.em.conf );
@@ -117,10 +107,7 @@ module.exports = function( vorpal ){
                 vorpal.log( `Queued Solr delete job for conf "${vorpal.em.conf.name}": ` +
                             `${epubs.size } EPUBs.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 
@@ -136,16 +123,14 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); }
-                        return false;
+                        callback();
                     }
                 }
 
                 if ( ! vorpal.em.conf ) {
                     vorpal.log( util.ERROR_CONF_NOT_LOADED );
 
-                    if ( callback ) { callback(); }
-                    return result;
+                    callback();
                 }
 
                 client = setupClient( vorpal.em.conf );
@@ -162,10 +147,7 @@ module.exports = function( vorpal ){
 
                 vorpal.log( `Queued Solr delete all job for conf "${vorpal.em.conf.name}".` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 
@@ -178,10 +160,7 @@ module.exports = function( vorpal ){
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 };
