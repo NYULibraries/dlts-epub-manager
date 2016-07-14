@@ -32,8 +32,8 @@ module.exports = function( vorpal ) {
                 let metadataDir;
                 try {
                     metadataDir = getMetadataDir( conf );
-                } catch( e ) {
-                    vorpal.log( `ERROR in ${configFileBasename}: ${e.message}` );
+                } catch( error ) {
+                    vorpal.log( `ERROR in ${configFileBasename}: ${error}` );
 
                     if ( callback ) { callback(); }
                     return false;
