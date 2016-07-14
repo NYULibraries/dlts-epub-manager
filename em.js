@@ -1,58 +1,8 @@
 "use strict";
 
-let fs     = require( 'fs' );
-let path   = require( 'path' );
-let rimraf = require( 'rimraf' );
-let util   = require( 'util' );
-let vorpal = require( 'vorpal' )();
+let em = require( './lib/bootstrap' );
 
-let commands = {};
-
-const CACHE_DIR = './cache',
-      COMMANDS_DIR = './commands',
-      DELIMITER    = 'em$';
-
-function setup() {
-    vorpal.em = {};
-
-    vorpal.em.configDir = __dirname + '/config';
-
-    clearCache();
-}
-
-function clearCache() {
-    try {
-        rimraf.sync( CACHE_DIR + '/*' );
-        vorpal.log( 'Cleared cache.' );
-    } catch ( error ) {
-        vorpal.log( `ERROR clearing cache: ${error}` );
-
-        process.exit(1);
-    }
-}
-
-function loadCommands( commandsDir ) {
-    fs.readdirSync( commandsDir ).forEach(
-        function ( file ) {
-            let fullpath    = path.join( commandsDir, file );
-            let commandName = path.basename( fullpath );
-
-            if ( fs.statSync( fullpath ).isDirectory() ) {
-                // Without the './' get:
-                //     "Error: Cannot find module 'commands/content'"
-                const mod = require( './' + fullpath );
-                commands[ commandName ] = vorpal.use( mod );
-            }
-        }
-    );
-}
-
-setup();
-
-loadCommands( COMMANDS_DIR );
-
-// Set the prompt
-vorpal.delimiter( DELIMITER );
+let vorpal = em.vorpal;
 
 if ( process.argv.length > 2 ) {
     // Process command immediately

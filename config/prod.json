@@ -1,0 +1,13 @@
+{
+    "cacheMetadataInMemory"    : true,
+
+    "epubList"                 : null,
+
+    "metadataRepo"             : "git@github.com:NYULibraries/dlts-epub-metadata.git",
+    "metadataRepoBranch"       : "master",
+    "metadataRepoSubdirectory" : "nyupress",
+
+    "solrHost"              : "discovery.dlib.nyu.edu",
+    "solrPort"              : 8080,
+    "solrPath"              : "/solr3_discovery/nyupress"
+}

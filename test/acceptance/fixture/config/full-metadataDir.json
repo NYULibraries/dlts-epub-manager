@@ -1,0 +1,5 @@
+{
+    "cacheMetadataInMemory" : true,
+    "epubList"              : null,
+    "metadataDir"           : "test/acceptance/fixture/metadataDir"
+}
