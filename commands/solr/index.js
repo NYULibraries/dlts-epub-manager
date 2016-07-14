@@ -8,8 +8,6 @@ let util  = require( '../../util' );
 let client;
 
 module.exports = function( vorpal ){
-    vorpal.log( `Loaded ${ __filename }.` );
-
     vorpal.command( 'solr' )
         .description( 'Manage Solr index.' )
         .action(
