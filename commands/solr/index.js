@@ -12,8 +12,6 @@ module.exports = function( vorpal ){
         .description( 'Manage Solr index.' )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
@@ -25,8 +23,6 @@ module.exports = function( vorpal ){
         .description( 'Add EPUBs to Solr index.' )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
@@ -70,8 +66,6 @@ module.exports = function( vorpal ){
         .description( 'Delete EPUBs from Solr index.' )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
@@ -115,8 +109,6 @@ module.exports = function( vorpal ){
         .description( 'Delete all EPUBs from Solr index.' )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
@@ -155,8 +147,6 @@ module.exports = function( vorpal ){
         .description( 'Replace entire Solr index.' )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
