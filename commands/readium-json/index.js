@@ -1,11 +1,14 @@
 "use strict";
 
 let fs        = require( 'fs' );
+let path      = require( 'path' );
 let stringify = require( 'json-stable-stringify' );
 let util      = require( '../../lib/util' );
 
+let em;
+
 module.exports = function( vorpal ){
-    vorpal.log( `Loaded ${ __filename }.` );
+    em = vorpal.em;
 
     vorpal.command( 'readium-json' )
         .description( 'Manage `epub_library.json` file.' )
@@ -79,9 +82,11 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                let readiumJsonFile = vorpal.em.conf.readiumJsonFile;
-                if ( ! readiumJsonFile ) {
-                    vorpal.log( util.ERROR_CONF_MISSING_READIUM_JSON_FILE );
+                let readiumJsonFile;
+                try {
+                    readiumJsonFile = getReadiumJsonFile( vorpal.em.conf );
+                } catch ( error ) {
+                    vorpal.log( `ERROR in configuration "${args.configuration}": ${error}` );
 
                     callback();
                     return;
@@ -112,3 +117,22 @@ module.exports = function( vorpal ){
             }
         );
 };
+
+function getReadiumJsonFile( conf ) {
+    let readiumJsonFile = conf.readiumJsonFile;
+
+    if ( readiumJsonFile ) {
+        // Assume that non-absolute paths are relative to root dir
+        if ( ! path.isAbsolute( readiumJsonFile ) ) {
+            readiumJsonFile = `${em.rootDir}/${readiumJsonFile}`;
+        }
+
+        if ( ! fs.existsSync( readiumJsonFile ) ) {
+            throw `${readiumJsonFile} does not exist!`;
+        }
+
+        return readiumJsonFile;
+    } else {
+        throw util.ERROR_CONF_MISSING_READIUM_JSON_FILE;
+    }
+}
