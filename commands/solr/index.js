@@ -30,6 +30,7 @@ module.exports = function( vorpal ){
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
                         callback();
+                        return;
                     }
                 }
 
@@ -37,6 +38,7 @@ module.exports = function( vorpal ){
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     callback();
+                    return;
                 }
 
                 client = setupClient( vorpal.em.conf );
@@ -73,6 +75,7 @@ module.exports = function( vorpal ){
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
                         callback();
+                        return;
                     }
                 }
 
@@ -80,6 +83,7 @@ module.exports = function( vorpal ){
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     callback();
+                    return;
                 }
 
                 client = setupClient( vorpal.em.conf );
@@ -116,6 +120,7 @@ module.exports = function( vorpal ){
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
                         callback();
+                        return;
                     }
                 }
 
@@ -123,6 +128,7 @@ module.exports = function( vorpal ){
                     vorpal.log( util.ERROR_CONF_NOT_LOADED );
 
                     callback();
+                    return;
                 }
 
                 client = setupClient( vorpal.em.conf );
