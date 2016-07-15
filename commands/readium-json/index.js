@@ -1,5 +1,6 @@
 "use strict";
 
+let fs        = require( 'fs' );
 let stringify = require( 'json-stable-stringify' );
 let util      = require( '../../lib/util' );
 
@@ -63,22 +64,32 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'readium-json delete all' )
+    vorpal.command( 'readium-json delete all [configuration]' )
         .description( 'Delete all EPUBs from `epub_library.json` file.' )
         .action(
             function( args, callback ) {
-                let result = false;
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
+                        callback();
+                        return;
+                    }
                 }
+
+                let readiumJsonFile = vorpal.em.conf.readiumJsonFile;
+                if ( ! readiumJsonFile ) {
+                    vorpal.log( util.ERROR_CONF_MISSING_READIUM_JSON_FILE );
+
+                    callback();
+                    return;
+                }
+
+                fs.writeFileSync( readiumJsonFile, '[]\n', { flag : 'w' } );
+
+                vorpal.log( `Deleted all EPUBs from ${readiumJsonFile} file.` );
             }
         );
 
