@@ -14,7 +14,7 @@ describe( 'readium-json command', () => {
 
     before( ( ) => {
         expected = stringify(
-            require( './fixture/readiumJsonFiles/epub_library.json'),
+            require( './fixture/readiumJsonFiles/expected-epub_library.json'),
             { space : '    ' }
         );
     } );
