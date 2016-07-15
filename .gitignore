@@ -50,3 +50,5 @@ config/*
 !config/dev.json
 !config/stage.json
 !config/prod.json
+
+test/acceptance/tmp
