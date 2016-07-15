@@ -4,6 +4,7 @@
 
 let assert    = require( 'chai' ).assert;
 let em        = require( '../../lib/bootstrap' );
+let fs        = require( 'fs' );
 let stringify = require( 'json-stable-stringify' );
 let vorpal    = em.vorpal;
 
@@ -21,6 +22,28 @@ describe( 'readium-json command', () => {
 
     beforeEach( ( ) => {
         vorpal.parse( [ null, null, 'readium-json', 'delete', 'all', 'full-metadataDir' ] );
+    } );
+
+    it( 'should correctly delete all EPUBs from epub_library.json', () => {
+        let readiumJsonFile = `${vorpal.em.rootDir}/${vorpal.em.conf.readiumJsonFile}`;
+
+        // First, fill up the file so we can be sure EPUBs were there that were
+        // later deleted.
+        // NOTE: can't use `require` for this before/after because `require`
+        // caches -- it only loads the file once.
+        let countOfExpectedEpubs = JSON.parse( expected ).length;
+        fs.writeFileSync( readiumJsonFile, expected, { flag : 'w' } );
+        let epubsBefore = JSON.parse( fs.readFileSync( readiumJsonFile ) );
+        assert( epubsBefore.length === countOfExpectedEpubs,
+            `Test is not set up right.  ${readiumJsonFile} should contain ${countOfExpectedEpubs}` +
+            ' EPUBs before the `delete all` operation.' );
+
+        vorpal.parse( [ null, null, 'readium-json', 'delete', 'all', 'full-metadataDir' ] );
+
+        let epubsAfter = JSON.parse( fs.readFileSync( readiumJsonFile ) );
+
+        assert( epubsAfter.length === 0,
+                `${readiumJsonFile} still contains ${epubsAfter.length} EPUBs.` );
     } );
 
     it( 'should correctly add all EPUBs to epub_library.json', () => {
