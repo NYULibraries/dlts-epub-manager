@@ -1,5 +1,8 @@
 "use strict";
 
+let stringify = require( 'json-stable-stringify' );
+let util      = require( '../../lib/util' );
+
 module.exports = function( vorpal ){
     vorpal.log( `Loaded ${ __filename }.` );
 
