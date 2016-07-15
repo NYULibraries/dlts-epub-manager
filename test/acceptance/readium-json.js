@@ -20,7 +20,7 @@ describe( 'readium-json command', () => {
     } );
 
     beforeEach( ( ) => {
-        vorpal.parse( [ null, null, 'readium-json', 'delete', 'all' ] );
+        vorpal.parse( [ null, null, 'readium-json', 'delete', 'all', 'full-metadataDir' ] );
     } );
 
     it( 'should correctly add all EPUBs to epub_library.json', () => {
