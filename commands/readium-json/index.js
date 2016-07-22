@@ -95,6 +95,8 @@ module.exports = function( vorpal ){
                 fs.writeFileSync( readiumJsonFile, '[]\n', { flag : 'w' } );
 
                 vorpal.log( `Deleted all EPUBs from ${readiumJsonFile}.` );
+
+                callback();
             }
         );
 
