@@ -48,8 +48,11 @@ describe( 'readium-json command', () => {
 
     it( 'should correctly add all EPUBs to epub_library.json', () => {
         vorpal.parse( [ null, null, 'readium-json', 'add', 'full-metadataDir' ] );
+
+        let readiumJsonFile = `${vorpal.em.rootDir}/${vorpal.em.conf.readiumJsonFile}`;
+
         let actual = stringify(
-            require( vorpal.em.conf.readiumJsonFile ),
+            require( readiumJsonFile ),
             { space : '    ' }
         );
 
