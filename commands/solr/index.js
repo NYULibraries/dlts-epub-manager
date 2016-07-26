@@ -6,10 +6,12 @@ let solr  = require( 'solr-client' );
 let util  = require( '../../lib/util' );
 
 let client;
+let subcommands = [ 'add', 'delete', 'full-replace' ];
 
 module.exports = function( vorpal ){
     vorpal.command( 'solr' )
         .description( 'Manage Solr index.' )
+        .autocomplete( subcommands )
         .action(
             function( args, callback ) {
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
@@ -21,6 +23,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'solr add [configuration]' )
         .description( 'Add EPUBs to Solr index.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -66,6 +69,8 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'solr delete [configuration]' )
         .description( 'Delete EPUBs from Solr index.' )
+        // This doesn't work right now.  Vorpal automatically expands to 'delete all'.
+        // .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -111,6 +116,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'solr delete all [configuration]' )
         .description( 'Delete all EPUBs from Solr index.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
