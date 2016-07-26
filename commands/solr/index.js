@@ -6,12 +6,10 @@ let solr  = require( 'solr-client' );
 let util  = require( '../../lib/util' );
 
 let client;
-let subcommands = [ 'add', 'delete', 'full-replace' ];
 
 module.exports = function( vorpal ){
     vorpal.command( 'solr' )
         .description( 'Manage Solr index.' )
-        .autocomplete( subcommands )
         .action(
             function( args, callback ) {
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
