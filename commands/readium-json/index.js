@@ -31,6 +31,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'readium-json add' )
         .description( 'Add EPUBs to `epub_library.json` file.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 let result = false;
@@ -50,6 +51,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'readium-json delete' )
         .description( 'Delete EPUBs from `epub_library.json` file.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 let result = false;
@@ -69,6 +71,8 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'readium-json delete all [configuration]' )
         .description( 'Delete all EPUBs from `epub_library.json` file.' )
+        // This doesn't work right now.  Vorpal automatically expands to 'delete all'.
+        // .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -102,6 +106,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'readium-json full-replace' )
         .description( 'Replace entire `epub_library.json` file.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 let result = false;
