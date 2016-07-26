@@ -3,7 +3,6 @@
 let execSync  = require( 'child_process' ).execSync;
 let fs        = require( 'fs' );
 let path      = require( 'path' );
-let stringify = require( 'json-stable-stringify' );
 
 let util = require( '../../lib/util' );
 
@@ -76,7 +75,7 @@ module.exports = function( vorpal ) {
                             return JSON.stringify( metadata, null, 4 );
                         },
                         dumpCanonical : () => {
-                            return stringify( metadata, { space : '    ' } );
+                            return util.jsonStableStringify( metadata );
                         },
                         getAll : () => {
                             return metadata;

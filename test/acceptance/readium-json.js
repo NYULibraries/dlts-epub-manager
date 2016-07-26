@@ -5,7 +5,7 @@
 let assert    = require( 'chai' ).assert;
 let em        = require( '../../lib/bootstrap' );
 let fs        = require( 'fs' );
-let stringify = require( 'json-stable-stringify' );
+let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
 
 vorpal.em.configDir = __dirname + '/fixture/config';
@@ -14,9 +14,8 @@ describe( 'readium-json command', () => {
     let expected;
 
     before( ( ) => {
-        expected = stringify(
-            require( './fixture/readiumJsonFiles/expected-epub_library.json'),
-            { space : '    ' }
+        expected = util.jsonStableStringify(
+            require( './fixture/readiumJsonFiles/expected-epub_library.json')
         );
     } );
 
@@ -51,10 +50,7 @@ describe( 'readium-json command', () => {
 
         let readiumJsonFile = `${vorpal.em.rootDir}/${vorpal.em.conf.readiumJsonFile}`;
 
-        let actual = stringify(
-            require( readiumJsonFile ),
-            { space : '    ' }
-        );
+        let actual = util.jsonStableStringify( require( readiumJsonFile ) );
 
         assert( actual === expected, 'epub_library.json file did not match expected.' );
     } );
