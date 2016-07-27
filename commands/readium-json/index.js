@@ -199,13 +199,13 @@ function getReadiumJsonEpubsAdded( readiumJson, epubs ) {
         }
     } );
 
-    return mergedJson;
+    return sortByAuthorThenByTitle( mergedJson );
 }
 
 function getReadiumJsonForEpub( epub ) {
     return {
         'author'           : epub.author,
-        'author_sort'      : epub.author,
+        'author_sort'      : epub.author_sort,
         'coverHref'        : epub.coverHref,
         'coverage'         : epub.coverage,
         'date'             : epub.date,
@@ -226,4 +226,36 @@ function getReadiumJsonForEpub( epub ) {
         'title_sort'       : epub.title_sort,
         'type'             : epub.type,
     };
+}
+
+function sortByAuthorThenByTitle( json ) {
+    let sortedByAuthorThenByTitle = [];
+
+    json.forEach( ( epub ) => {
+        sortedByAuthorThenByTitle.push( epub );
+    } );
+
+
+    function compare( a, b ) {
+        if ( a.author_sort < b.author_sort ) {
+            return -1;
+        }
+        if ( a.author_sort > b.author_sort ) {
+            return 1;
+        }
+
+        // Authors are equal.  Sort by title.
+        if ( a.title_sort < b.title_sort ) {
+            return -1;
+        }
+        if ( a.title_sort > b.title_sort ) {
+            return 1;
+        }
+
+        return 0;
+    }
+
+    sortedByAuthorThenByTitle.sort( compare );
+
+    return sortedByAuthorThenByTitle;
 }
