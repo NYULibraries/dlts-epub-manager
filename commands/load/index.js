@@ -181,7 +181,7 @@ function getMetadataDir( conf ) {
 
         return metadataDirFromRepo;
     } else {
-        throw `missing required "metadataDir" or "metadataRepo".`;
+        throw util.ERROR_CONF_MISSING_METADATA_DIR;
     }
 }
 
