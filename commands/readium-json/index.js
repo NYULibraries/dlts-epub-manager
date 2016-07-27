@@ -29,23 +29,45 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'readium-json add' )
+    vorpal.command( 'readium-json add [configuration]' )
         .description( 'Add EPUBs to `epub_library.json` file.' )
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
+                        callback();
+                        return;
+                    }
                 }
+
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
+
+                    callback();
+                    return;
+                }
+
+                let epubs = vorpal.em.metadata.getAll();
+
+                let readiumJsonFile = vorpal.em.conf.readiumJsonFile;
+
+                let readiumJson = require( readiumJsonFile );
+
+                readiumJson = getReadiumJsonEpubsAdded( readiumJson, epubs );
+
+                let readiumJsonString = util.jsonStableStringify( readiumJson );
+
+                fs.writeFileSync( readiumJsonFile, readiumJsonString );
+
+                vorpal.log( `Added to Readium JSON file ${readiumJsonFile} ` +
+                            `for conf "${vorpal.em.conf.name}": ${epubs.size } EPUBs.` );
+
+                callback();
             }
         );
 
@@ -142,4 +164,58 @@ function getReadiumJsonFile( conf ) {
     } else {
         throw util.ERROR_CONF_MISSING_READIUM_JSON_FILE;
     }
+}
+
+function getReadiumJsonEpubsAdded( readiumJson, epubs ) {
+    // Final JSON to be returned.
+    let mergedJson = [];
+
+    // Ids of EPUBs being added.  Used to determine if an existing EPUB is being
+    // replaced.
+    let addedEpubIds = {};
+    // Add JSON for all EPUBs coming in.
+    epubs.forEach( ( epub ) => {
+        mergedJson.push( getReadiumJsonForEpub( epub ) );
+        addedEpubIds[ epub.identifier ] = '1'; }
+    );
+
+    // Add JSON for any existing EPUB entries that are not being replaced by
+    // incoming.
+    readiumJson.forEach( ( entry ) => {
+        let entryId = entry.identifier;
+
+        if ( addedEpubIds[ entryId ] ) {
+            // Skip
+        } else {
+            mergedJson.push( entry );
+        }
+    } );
+
+    return mergedJson;
+}
+
+function getReadiumJsonForEpub( epub ) {
+    return {
+        'author'           : epub.author,
+        'author_sort'      : epub.author,
+        'coverHref'        : epub.coverHref,
+        'coverage'         : epub.coverage,
+        'date'             : epub.date,
+        'description'      : epub.description,
+        'description_html' : epub.description_html,
+        'format'           : epub.format,
+        'handle'           : epub.handle,
+        'identifier'       : epub.identifier,
+        'language'         : epub.language,
+        'packageUrl'       : epub.packageUrl,
+        'publisher'        : epub.publisher,
+        'rights'           : epub.rights,
+        'rootUrl'          : epub.rootUrl,
+        'subject'          : epub.subject,
+        'subtitle'         : epub.subtitle,
+        'thumbHref'        : epub.thumbHref,
+        'title'            : epub.title,
+        'title_sort'       : epub.title_sort,
+        'type'             : epub.type,
+    };
 }
