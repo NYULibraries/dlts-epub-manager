@@ -82,23 +82,57 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'readium-json delete' )
+    vorpal.command( 'readium-json delete [configuration]' )
         .description( 'Delete EPUBs from `epub_library.json` file.' )
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
+                if ( args.configuration ) {
+                let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                if ( ! loadSucceeded ) {
+                    vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) {
                     callback();
-                } else {
-                    return result;
+                    return;
                 }
+                }
+
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
+
+                    callback();
+                    return;
+                }
+
+                let epubs = vorpal.em.metadata.getAll();
+
+                let readiumJsonFile;
+                try {
+                    readiumJsonFile = getReadiumJsonFile( vorpal.em.conf );
+                } catch ( error ) {
+                    vorpal.log( `ERROR in configuration "${args.configuration}": ${error}` );
+
+                    callback();
+                    return;
+                }
+
+                // Don't use `require()`, which caches file contents and breaks
+                // the tests because the readiumJsonFile is changed multiple
+                // times during the test runs.  Also, perhaps it is good to give
+                // the user the option of editing the file during the session.
+                let readiumJson = util.getJsonFromFile( readiumJsonFile );
+
+                readiumJson = getReadiumJsonEpubsDeleted( readiumJson, epubs );
+
+                let readiumJsonString = util.jsonStableStringify( readiumJson );
+
+                fs.writeFileSync( readiumJsonFile, readiumJsonString );
+
+                vorpal.log( `Added to Readium JSON file ${readiumJsonFile} ` +
+                            `for conf "${vorpal.em.conf.name}": ${epubs.size } EPUBs.` );
+
+                callback();
             }
         );
 
@@ -202,6 +236,31 @@ function getReadiumJsonFile( conf ) {
         throw util.ERROR_CONF_MISSING_READIUM_JSON_FILE;
     }
 }
+
+function getReadiumJsonEpubsDeleted( readiumJson, epubs ) {
+    // Final JSON to be returned.
+    let prunedJson = [];
+
+    let deletedEpubIds = {};
+    epubs.forEach( ( epub ) => {
+        deletedEpubIds[ epub.identifier ] = '1'; }
+    );
+
+    readiumJson.forEach( ( entry ) => {
+        let entryId = entry.identifier;
+
+        // Suppress JSHint empty block error.
+        /*jshint ignore:start*/
+        if ( deletedEpubIds[ entryId ] ) {
+            // Skip
+        } else {
+            prunedJson.push( entry );
+        }
+        /*jshint ignore:end*/
+    } );
+
+    return prunedJson;
+ }
 
 function getReadiumJsonEpubsAdded( readiumJson, epubs ) {
     // Final JSON to be returned.
