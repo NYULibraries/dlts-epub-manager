@@ -63,7 +63,7 @@ describe( 'readium-json command', () => {
         vorpal.parse( [ null, null, 'readium-json', 'add', 'replace-3-new-3' ] );
 
         let expectedReplace3New3 = util.jsonStableStringify(
-            require( './fixture/readiumJsonFiles/expected-replace-3-new-3-epub_library.json')
+            require( './fixture/readiumJsonFiles/expected-full-replace-3-new-3-epub_library.json')
         );
 
         let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
