@@ -52,5 +52,23 @@ describe( 'readium-json command', () => {
 
         assert( actual === expectedFull, 'epub_library.json file did not match expected.' );
     } );
+
+    it( 'should correctly add 3 replacement EPUBs and 3 new EPUBs to epub_library.json', () => {
+        let readiumJsonFile = `${vorpal.em.rootDir}/${vorpal.em.conf.readiumJsonFile}`;
+
+        // First, fill up the file.  There have to be existing EPUBs to be replaced
+        // and added to.
+        fs.writeFileSync( readiumJsonFile, expectedFull, { flag : 'w' } );
+
+        vorpal.parse( [ null, null, 'readium-json', 'add', 'replace-3-new-3' ] );
+
+        let expectedReplace3New3 = util.jsonStableStringify(
+            require( './fixture/readiumJsonFiles/expected-replace-3-new-3-epub_library.json')
+        );
+
+        let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
+
+        assert( actual === expectedReplace3New3, 'epub_library.json file did not match expected.' );
+    } );
 } );
 
