@@ -15,7 +15,7 @@ describe( 'readium-json command', () => {
 
     before( ( ) => {
         expected = util.jsonStableStringify(
-            require( './fixture/readiumJsonFiles/expected-epub_library.json')
+            require( './fixture/readiumJsonFiles/expected-full-epub_library.json')
         );
     } );
 
