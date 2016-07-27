@@ -17,10 +17,10 @@ function getJsonFromFile( jsonFile ) {
 }
 
 describe( 'readium-json command', () => {
-    let expected;
+    let expectedFull;
 
     before( ( ) => {
-        expected = util.jsonStableStringify(
+        expectedFull = util.jsonStableStringify(
             require( './fixture/readiumJsonFiles/expected-full-epub_library.json')
         );
     } );
@@ -34,8 +34,8 @@ describe( 'readium-json command', () => {
 
         // First, fill up the file so we can be sure EPUBs were there that were
         // later deleted.
-        let countOfExpectedEpubs = JSON.parse( expected ).length;
-        fs.writeFileSync( readiumJsonFile, expected, { flag : 'w' } );
+        let countOfExpectedEpubs = JSON.parse( expectedFull ).length;
+        fs.writeFileSync( readiumJsonFile, expectedFull, { flag : 'w' } );
         let epubsBefore = getJsonFromFile( readiumJsonFile );
         assert( epubsBefore.length === countOfExpectedEpubs,
             `Test is not set up right.  ${readiumJsonFile} should contain ${countOfExpectedEpubs}` +
@@ -56,7 +56,7 @@ describe( 'readium-json command', () => {
 
         let actual = util.jsonStableStringify( getJsonFromFile( readiumJsonFile ) );
 
-        assert( actual === expected, 'epub_library.json file did not match expected.' );
+        assert( actual === expectedFull, 'epub_library.json file did not match expected.' );
     } );
 } );
 
