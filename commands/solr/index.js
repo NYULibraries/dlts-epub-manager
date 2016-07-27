@@ -8,46 +8,38 @@ let util  = require( '../../lib/util' );
 let client;
 
 module.exports = function( vorpal ){
-    vorpal.log( `Loaded ${ __filename }.` );
-
     vorpal.command( 'solr' )
         .description( 'Manage Solr index.' )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 
     vorpal.command( 'solr add [configuration]' )
         .description( 'Add EPUBs to Solr index.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); }
-                        return false;
+                        callback();
+                        return;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); }
-                    return result;
+                    callback();
+                    return;
                 }
 
                 client = setupClient( vorpal.em.conf );
@@ -69,35 +61,32 @@ module.exports = function( vorpal ){
                 vorpal.log( `Queued Solr add/update job for conf "${vorpal.em.conf.name}": ` +
                             `${epubs.size } EPUBs.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 
     vorpal.command( 'solr delete [configuration]' )
         .description( 'Delete EPUBs from Solr index.' )
+        // This doesn't work right now.  Vorpal automatically expands to 'delete all'.
+        // .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); }
-                        return false;
+                        callback();
+                        return;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); }
-                    return result;
+                    callback();
+                    return;
                 }
 
                 client = setupClient( vorpal.em.conf );
@@ -119,35 +108,31 @@ module.exports = function( vorpal ){
                 vorpal.log( `Queued Solr delete job for conf "${vorpal.em.conf.name}": ` +
                             `${epubs.size } EPUBs.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 
     vorpal.command( 'solr delete all [configuration]' )
         .description( 'Delete all EPUBs from Solr index.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); }
-                        return false;
+                        callback();
+                        return;
                     }
                 }
 
                 if ( ! vorpal.em.conf ) {
                     vorpal.log( util.ERROR_CONF_NOT_LOADED );
 
-                    if ( callback ) { callback(); }
-                    return result;
+                    callback();
+                    return;
                 }
 
                 client = setupClient( vorpal.em.conf );
@@ -164,10 +149,7 @@ module.exports = function( vorpal ){
 
                 vorpal.log( `Queued Solr delete all job for conf "${vorpal.em.conf.name}".` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 
@@ -175,15 +157,10 @@ module.exports = function( vorpal ){
         .description( 'Replace entire Solr index.' )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
                 vorpal.log( args );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) { callback(); }
-                return result;
+                callback();
             }
         );
 };

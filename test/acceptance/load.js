@@ -4,7 +4,7 @@
 
 let assert    = require( 'chai' ).assert;
 let em        = require( '../../lib/bootstrap' );
-let stringify = require( 'json-stable-stringify' );
+let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
 
 vorpal.em.configDir = __dirname + '/fixture/config';
@@ -13,9 +13,8 @@ describe( 'load command', () => {
     let expected;
 
     before( ( ) => {
-        expected = stringify(
-            require( './fixture/metadata/expected-full'),
-            { space : '    ' }
+        expected = util.jsonStableStringify(
+            require( './fixture/metadata-dumps/expected-full')
         );
     } );
 

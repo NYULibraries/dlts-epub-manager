@@ -3,14 +3,12 @@
 let execSync  = require( 'child_process' ).execSync;
 let fs        = require( 'fs' );
 let path      = require( 'path' );
-let stringify = require( 'json-stable-stringify' );
 
 let util = require( '../../lib/util' );
 
 let em;
 
-const CONFIG_FILE_EXTENSION = '.json',
-      HANDLE_SERVER         = 'http://hdl.handle.net';
+const HANDLE_SERVER = 'http://hdl.handle.net';
 
 
 module.exports = function( vorpal ) {
@@ -18,13 +16,13 @@ module.exports = function( vorpal ) {
 
     vorpal.command( 'load <configuration>' )
         .description( 'Read in configuration file and load resources.' )
-        .autocomplete( getConfigFileBasenames( vorpal.em.configDir ) )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             ( args, callback ) => {
                 em.clearCache();
 
                 let configFile = vorpal.em.configDir + '/' +
-                                 args.configuration + CONFIG_FILE_EXTENSION;
+                                 args.configuration + util.CONFIG_FILE_EXTENSION;
                 let configFileBasename = path.basename( configFile );
 
                 let conf = require( configFile );
@@ -32,8 +30,8 @@ module.exports = function( vorpal ) {
                 let metadataDir;
                 try {
                     metadataDir = getMetadataDir( conf );
-                } catch( e ) {
-                    vorpal.log( `ERROR in ${configFileBasename}: ${e.message}` );
+                } catch( error ) {
+                    vorpal.log( `ERROR in ${configFileBasename}: ${error}` );
 
                     if ( callback ) { callback(); }
                     return false;
@@ -77,7 +75,7 @@ module.exports = function( vorpal ) {
                             return JSON.stringify( metadata, null, 4 );
                         },
                         dumpCanonical : () => {
-                            return stringify( metadata, { space : '    ' } );
+                            return util.jsonStableStringify( metadata );
                         },
                         getAll : () => {
                             return metadata;
@@ -183,7 +181,7 @@ function getMetadataDir( conf ) {
 
         return metadataDirFromRepo;
     } else {
-        throw `missing required "metadataDir" or "metadataRepo".`;
+        throw util.ERROR_CONF_MISSING_METADATA_DIR;
     }
 }
 
@@ -207,31 +205,6 @@ function getInvalidEpubIds( epubIds ) {
     } );
 
     return invalidEpubIds.length > 0 ? invalidEpubIds : null;
-}
-
-function getConfigFileBasenames( configDir ) {
-    let filenames = [];
-
-    try {
-        filenames = fs.readdirSync( configDir ).filter(
-            ( filename ) => {
-                return path.extname( filename ) === CONFIG_FILE_EXTENSION;
-            }
-        );
-    } catch ( e ) {
-        if ( e ) {
-            if ( e.code === 'ENOENT' ) {
-                console.error( `The config directory ${configDir}/ does not exist!` );
-                process.exit( e.code );
-            }
-        }
-    }
-
-    return filenames.map(
-        ( filename ) => {
-            return path.basename( filename, CONFIG_FILE_EXTENSION );
-        }
-    );
 }
 
 function getMetadataForEpubs( metadataDir, epubList ) {
