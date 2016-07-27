@@ -54,7 +54,7 @@ describe( 'readium-json command', () => {
 
         let readiumJsonFile = `${vorpal.em.rootDir}/${vorpal.em.conf.readiumJsonFile}`;
 
-        let actual = util.jsonStableStringify( require( readiumJsonFile ) );
+        let actual = util.jsonStableStringify( getJsonFromFile( readiumJsonFile ) );
 
         assert( actual === expected, 'epub_library.json file did not match expected.' );
     } );
