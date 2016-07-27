@@ -15,7 +15,7 @@ describe( 'readium-json command', () => {
 
     before( ( ) => {
         expectedFull = util.jsonStableStringify(
-            require( './fixture/readiumJsonFiles/expected-add_full-metadataDir_epub_library.json')
+            require( './fixture/readiumJsonFiles/expected_add_full-metadataDir_epub_library.json')
         );
     } );
 
