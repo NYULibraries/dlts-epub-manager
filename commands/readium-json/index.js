@@ -64,7 +64,11 @@ module.exports = function( vorpal ){
                     return;
                 }
 
-                let readiumJson = require( readiumJsonFile );
+                // Don't use `require()`, which caches file contents and breaks
+                // the tests because the readiumJsonFile is changed multiple
+                // times during the test runs.  Also, perhaps it is good to give
+                // the user the option of editing the file during the session.
+                let readiumJson = util.getJsonFromFile( readiumJsonFile );
 
                 readiumJson = getReadiumJsonEpubsAdded( readiumJson, epubs );
 
