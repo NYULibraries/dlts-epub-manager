@@ -10,6 +10,12 @@ let vorpal    = em.vorpal;
 
 vorpal.em.configDir = __dirname + '/fixture/config';
 
+// NOTE: can't use `require` for this before/after because `require`
+// caches -- it only loads the file once.
+function getJsonFromFile( jsonFile ) {
+   return JSON.parse( fs.readFileSync( jsonFile ) )
+}
+
 describe( 'readium-json command', () => {
     let expected;
 
@@ -28,11 +34,9 @@ describe( 'readium-json command', () => {
 
         // First, fill up the file so we can be sure EPUBs were there that were
         // later deleted.
-        // NOTE: can't use `require` for this before/after because `require`
-        // caches -- it only loads the file once.
         let countOfExpectedEpubs = JSON.parse( expected ).length;
         fs.writeFileSync( readiumJsonFile, expected, { flag : 'w' } );
-        let epubsBefore = JSON.parse( fs.readFileSync( readiumJsonFile ) );
+        let epubsBefore = getJsonFromFile( readiumJsonFile );
         assert( epubsBefore.length === countOfExpectedEpubs,
             `Test is not set up right.  ${readiumJsonFile} should contain ${countOfExpectedEpubs}` +
             ' EPUBs before the `delete all` operation.' );
