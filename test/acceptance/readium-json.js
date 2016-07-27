@@ -70,5 +70,28 @@ describe( 'readium-json command', () => {
 
         assert( actual === expectedReplace3New3, 'epub_library.json file did not match expected.' );
     } );
+
+    it( 'should correctly full-replace all EPUBs in epub_library.json', () => {
+        let readiumJsonFile = `${vorpal.em.rootDir}/${vorpal.em.conf.readiumJsonFile}`;
+
+        /// First, fill up the file so we can be sure EPUBs were there that were
+        // later deleted.
+        let countOfExpectedEpubs = JSON.parse( expectedFull ).length;
+        fs.writeFileSync( readiumJsonFile, expectedFull, { flag : 'w' } );
+        let epubsBefore = util.getJsonFromFile( readiumJsonFile );
+        assert( epubsBefore.length === countOfExpectedEpubs,
+                `Test is not set up right.  ${readiumJsonFile} should contain ${countOfExpectedEpubs}` +
+                ' EPUBs before the `delete all` operation.' );
+
+        vorpal.parse( [ null, null, 'readium-json', 'full-replace', 'replace-3-new-3' ] );
+
+        let expectedReplace3New3 = util.jsonStableStringify(
+            require( './fixture/readiumJsonFiles/expected-only-replace-3-new-3-epub_library.json')
+        );
+
+        let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
+
+        assert( actual === expectedReplace3New3, 'epub_library.json file did not match expected.' );
+    } );
 } );
 
