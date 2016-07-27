@@ -2,7 +2,6 @@
 
 let fs        = require( 'fs' );
 let path      = require( 'path' );
-let stringify = require( 'json-stable-stringify' );
 let util      = require( '../../lib/util' );
 
 let em;
