@@ -54,7 +54,15 @@ module.exports = function( vorpal ){
 
                 let epubs = vorpal.em.metadata.getAll();
 
-                let readiumJsonFile = vorpal.em.conf.readiumJsonFile;
+                let readiumJsonFile;
+                try {
+                    readiumJsonFile = getReadiumJsonFile( vorpal.em.conf );
+                } catch ( error ) {
+                    vorpal.log( `ERROR in configuration "${args.configuration}": ${error}` );
+
+                    callback();
+                    return;
+                }
 
                 let readiumJson = require( readiumJsonFile );
 
