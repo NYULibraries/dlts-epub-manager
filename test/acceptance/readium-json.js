@@ -43,6 +43,29 @@ describe( 'readium-json command', () => {
                 `${readiumJsonFile} still contains ${epubsAfter.length} EPUBs.` );
     } );
 
+    it( 'should correctly delete 3 EPUBs from epub_library.json', () => {
+        let readiumJsonFile = `${vorpal.em.rootDir}/${vorpal.em.conf.readiumJsonFile}`;
+
+        // First, fill up the file so we can be sure EPUBs were there that were
+        // later deleted.
+        let countOfExpectedEpubs = JSON.parse( expectedFull ).length;
+        fs.writeFileSync( readiumJsonFile, expectedFull, { flag : 'w' } );
+        let epubsBefore = util.getJsonFromFile( readiumJsonFile );
+        assert( epubsBefore.length === countOfExpectedEpubs,
+                `Test is not set up right.  ${readiumJsonFile} should contain ${countOfExpectedEpubs}` +
+                ' EPUBs before the `delete all` operation.' );
+
+        vorpal.parse( [ null, null, 'readium-json', 'delete', 'delete-3' ] );
+
+        let expectedDelete3 = util.jsonStableStringify(
+            require( './fixture/readiumJsonFiles/expected_delete_delete-3_epub_library.json')
+        );
+
+        let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
+
+        assert( actual === expectedDelete3, 'epub_library.json file did not match expected.' );
+    } );
+
     it( 'should correctly add all EPUBs to epub_library.json', () => {
         vorpal.parse( [ null, null, 'readium-json', 'add', 'full-metadataDir' ] );
 
