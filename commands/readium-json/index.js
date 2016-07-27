@@ -192,11 +192,14 @@ function getReadiumJsonEpubsAdded( readiumJson, epubs ) {
     readiumJson.forEach( ( entry ) => {
         let entryId = entry.identifier;
 
+        // Suppress JSHint empty block error.
+        /*jshint ignore:start*/
         if ( addedEpubIds[ entryId ] ) {
             // Skip
         } else {
             mergedJson.push( entry );
         }
+        /*jshint ignore:end*/
     } );
 
     return sortByAuthorThenByTitle( mergedJson );
