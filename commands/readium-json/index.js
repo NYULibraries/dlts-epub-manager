@@ -137,23 +137,49 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'readium-json full-replace' )
+    vorpal.command( 'readium-json full-replace [configuration]' )
         .description( 'Replace entire `epub_library.json` file.' )
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                    if ( !loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
+                        callback();
+                        return;
+                    }
                 }
+
+                let readiumJsonFile;
+                try {
+                    readiumJsonFile = getReadiumJsonFile( vorpal.em.conf );
+                } catch ( error ) {
+                    vorpal.log( `ERROR in configuration "${args.configuration}": ${error}` );
+
+                    callback();
+                    return;
+                }
+
+                // Delete all by duplicating the one-liner from `readium-json delete all`.
+                // Not doing this:
+                //
+                //     vorpal.execSync(
+                //         `readium-json delete all ${args.configuration}`,
+                //         { fatal : true }
+                //     );
+                //
+                // ...because for the time being don't want to make these subcommands
+                // complicated by having to have to handle both sync and async
+                // invocations.
+                fs.writeFileSync( readiumJsonFile, '[]\n', { flag : 'w' } );
+
+                vorpal.exec(
+                    `readium-json add ${args.configuration}`,
+                    { fatal : true }
+                );
             }
         );
 };
