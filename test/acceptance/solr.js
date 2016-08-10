@@ -5,6 +5,7 @@
 let assert    = require( 'chai' ).assert;
 let em        = require( '../../lib/bootstrap' );
 let fs        = require( 'fs' );
+let request   = require( 'sync-request' );
 let solr      = require( 'solr-client' );
 let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
@@ -31,6 +32,9 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly delete all EPUBs from Solr index', () => {
+        // First, put something in the index.  If it is already empty we can't
+        // be sure that the deletion actually worked.
+        let numFixtureEpubsAdded = addFixtureEpubsForDeleteTests( vorpal.em.conf );
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
@@ -60,12 +64,20 @@ function setupClient( conf ) {
     return client;
 }
 
-function addFixtureEpubsForDeleteTests( client, callback ) {
+// This needs to be synchronous, so using `sync-request` instead of `solr-client`.
+function addFixtureEpubsForDeleteTests( conf ) {
+    let solrHost = conf.test.solrHost;
+    let solrPort = conf.test.solrPort;
+    let solrPath = conf.test.solrPath;
+
+    let solrUpdateUrl = `http://${solrHost}:${solrPort}${solrPath}/update/json?commit=true`;
+
     let epubsJson = require( './fixture/epub-json/3-epubs.json' );
 
-    epubsJson.forEach( ( epub ) => {
-        let id       = epub[ 0 ];
-        let metadata = epub[ 1 ];
+    let addRequest = [];
+
+    Object.keys( epubsJson ).forEach( ( id ) => {
+        let metadata = epubsJson[ id ];
         let doc      = { id };
 
         Object.keys( metadata ).forEach(
@@ -74,21 +86,16 @@ function addFixtureEpubsForDeleteTests( client, callback ) {
             }
         );
 
-        client.add(
-            doc, { commitWithin : 3000 }, ( error, obj ) => {
-                if ( error ) {
-                    console.log( JSON.stringify( error, null, 4 ) );
-                } else {
-                    // Not sure if a status check is necessary or not.  Maybe if
-                    // status is non-zero there will always been an error thrown?
-                    let status = obj.responseHeader.status;
-                    if ( status === 0 ) {
-                        callback( null );
-                    } else {
-                        callback( null );
-                    }
-                }
-            }
-        );
+        addRequest.push( doc );
     } );
+
+    let response = request( 'POST', solrUpdateUrl, {
+        body : JSON.stringify( addRequest )
+    } );
+
+    if ( response.statusCode !== 200 ) {
+        // TODO: add error handling.  Throw error?  Return falsy value?
+    }
+
+    return addRequest.length;
 }
