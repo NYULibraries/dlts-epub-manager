@@ -73,13 +73,13 @@ function addFixtureEpubs( conf, fixtureFile ) {
 
     let solrUpdateUrl = `http://${solrHost}:${solrPort}${solrPath}/update/json?commit=true`;
 
-    let epubsJson = require( fixtureFile );
+    let epubs = require( fixtureFile );
 
     let addRequest = [];
 
-    Object.keys( epubsJson ).forEach(
+    Object.keys( epubs ).forEach(
         ( id ) => {
-            let metadata = epubsJson[ id ];
+            let metadata = epubs[ id ];
             let doc      = { id };
 
             Object.keys( metadata ).forEach(
