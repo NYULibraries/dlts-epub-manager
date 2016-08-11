@@ -34,7 +34,8 @@ describe( 'solr command', () => {
     it( 'should correctly delete all EPUBs from Solr index', () => {
         // First, put something in the index.  If it is already empty we can't
         // be sure that the deletion actually worked.
-        let numFixtureEpubsAdded = addFixtureEpubsForDeleteTests( vorpal.em.conf );
+        let numFixtureEpubsAdded =
+                addFixtureEpubs( vorpal.em.conf, './fixture/epub-json/3-epubs.json' );
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
@@ -65,33 +66,37 @@ function setupClient( conf ) {
 }
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
-function addFixtureEpubsForDeleteTests( conf ) {
+function addFixtureEpubs( conf, fixtureFile ) {
     let solrHost = conf.test.solrHost;
     let solrPort = conf.test.solrPort;
     let solrPath = conf.test.solrPath;
 
     let solrUpdateUrl = `http://${solrHost}:${solrPort}${solrPath}/update/json?commit=true`;
 
-    let epubsJson = require( './fixture/epub-json/3-epubs.json' );
+    let epubsJson = require( fixtureFile );
 
     let addRequest = [];
 
-    Object.keys( epubsJson ).forEach( ( id ) => {
-        let metadata = epubsJson[ id ];
-        let doc      = { id };
+    Object.keys( epubsJson ).forEach(
+        ( id ) => {
+            let metadata = epubsJson[ id ];
+            let doc      = { id };
 
-        Object.keys( metadata ).forEach(
-            ( key ) => {
-                doc[key] = metadata[key];
-            }
-        );
+            Object.keys( metadata ).forEach(
+                ( key ) => {
+                    doc[ key ] = metadata[ key ];
+                }
+            );
 
-        addRequest.push( doc );
-    } );
+            addRequest.push( doc );
+        }
+    );
 
-    let response = request( 'POST', solrUpdateUrl, {
-        body : JSON.stringify( addRequest )
-    } );
+    let response = request(
+        'POST', solrUpdateUrl, {
+            body : JSON.stringify( addRequest )
+        }
+    );
 
     if ( response.statusCode !== 200 ) {
         // TODO: add error handling.  Throw error?  Return falsy value?
