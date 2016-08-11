@@ -67,13 +67,17 @@ function setupClient( conf ) {
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
 function addFixtureEpubs( conf, fixtureFile ) {
+    let epubs = require( fixtureFile );
+
+    return addEpubs( conf, epubs );
+}
+
+function addEpubs( conf, epubs ) {
     let solrHost = conf.test.solrHost;
     let solrPort = conf.test.solrPort;
     let solrPath = conf.test.solrPath;
 
     let solrUpdateUrl = `http://${solrHost}:${solrPort}${solrPath}/update/json?commit=true`;
-
-    let epubs = require( fixtureFile );
 
     let addRequest = [];
 
