@@ -58,9 +58,9 @@ function setupClient( conf ) {
     // and found no reference to this option.
     // client.autoCommit = true;
 
-    client.options.host = conf.solrHost;
-    client.options.port = conf.solrPort;
-    client.options.path = conf.solrPath;
+    client.options.host = conf.test.solrHost;
+    client.options.port = conf.test.solrPort;
+    client.options.path = conf.test.solrPath;
 
     return client;
 }
