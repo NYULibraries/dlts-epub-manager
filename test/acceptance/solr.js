@@ -35,7 +35,7 @@ describe( 'solr command', () => {
         // First, put something in the index.  If it is already empty we can't
         // be sure that the deletion actually worked.
         let numFixtureEpubsAdded =
-                addFixtureEpubs( vorpal.em.conf, './fixture/epub-json/3-epubs.json' );
+                addEpubs( vorpal.em.conf, require( './fixture/epub-json/3-epubs.json' ) );
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
@@ -63,12 +63,6 @@ function setupClient( conf ) {
     client.options.path = conf.test.solrPath;
 
     return client;
-}
-
-function addFixtureEpubs( conf, fixtureFile ) {
-    let epubs = require( fixtureFile );
-
-    return addEpubs( conf, epubs );
 }
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
