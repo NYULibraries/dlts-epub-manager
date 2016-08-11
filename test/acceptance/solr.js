@@ -65,13 +65,13 @@ function setupClient( conf ) {
     return client;
 }
 
-// This needs to be synchronous, so using `sync-request` instead of `solr-client`.
 function addFixtureEpubs( conf, fixtureFile ) {
     let epubs = require( fixtureFile );
 
     return addEpubs( conf, epubs );
 }
 
+// This needs to be synchronous, so using `sync-request` instead of `solr-client`.
 function addEpubs( conf, epubs ) {
     let solrHost = conf.test.solrHost;
     let solrPort = conf.test.solrPort;
