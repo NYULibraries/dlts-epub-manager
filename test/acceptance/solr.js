@@ -114,7 +114,7 @@ function getEpubs( conf ) {
     let response = request( 'GET', solrSelectUrl );
 
     if ( response.statusCode !== 200 ) {
-        throw response.getBody();
+        throw response.body.toString();
     }
 
     return JSON.parse( response.body.toString() ).response.docs;
