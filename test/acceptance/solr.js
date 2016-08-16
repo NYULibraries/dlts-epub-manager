@@ -34,8 +34,14 @@ describe( 'solr command', () => {
     it( 'should correctly delete all EPUBs from Solr index', () => {
         // First, put something in the index.  If it is already empty we can't
         // be sure that the deletion actually worked.
-        let numFixtureEpubsAdded =
+        let numFixtureEpubsAdded;
+
+        try {
+            numFixtureEpubsAdded =
                 addEpubs( vorpal.em.conf, require( './fixture/epub-json/3-epubs.json' ) );
+        } catch( error ) {
+            assert.fail( error.statusCode, 200, error.message );
+        }
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
@@ -97,7 +103,7 @@ function addEpubs( conf, epubs ) {
     );
 
     if ( response.statusCode !== 200 ) {
-        // TODO: add error handling.  Throw error?  Return falsy value?
+        throw response.getBody();
     }
 
     return addRequest.length;
