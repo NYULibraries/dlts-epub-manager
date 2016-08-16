@@ -6,13 +6,10 @@ let assert    = require( 'chai' ).assert;
 let em        = require( '../../lib/bootstrap' );
 let fs        = require( 'fs' );
 let request   = require( 'sync-request' );
-let solr      = require( 'solr-client' );
 let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
 
 vorpal.em.configDir = __dirname + '/fixture/config';
-
-let client = solr.createClient();
 
 describe( 'solr command', () => {
     let expectedFull;
@@ -27,8 +24,6 @@ describe( 'solr command', () => {
         vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
 
         vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
-
-        client = setupClient( vorpal.em.conf );
     } );
 
     it( 'should correctly delete all EPUBs from Solr index', () => {
@@ -48,6 +43,10 @@ describe( 'solr command', () => {
                 'EPUBs before the `delete all` operation, and it currently contains ' +
                 numFixtureEpubsAdded + ' EPUBs.'
         );
+
+        vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
+
+
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
@@ -62,20 +61,6 @@ describe( 'solr command', () => {
     it( 'should correctly full-replace all EPUBs in Solr index', () => {
     } );
 } );
-
-function setupClient( conf ) {
-    let client = solr.createClient();
-
-    // This doesn't seem to do anything.  Also looked through the code and tests
-    // and found no reference to this option.
-    // client.autoCommit = true;
-
-    client.options.host = conf.test.solrHost;
-    client.options.port = conf.test.solrPort;
-    client.options.path = conf.test.solrPath;
-
-    return client;
-}
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
 function addEpubs( conf, epubs ) {
