@@ -99,3 +99,19 @@ function addEpubs( conf, epubs ) {
 
     return addRequest.length;
 }
+
+function getEpubs( conf ) {
+    let solrHost = conf.test.solrHost;
+    let solrPort = conf.test.solrPort;
+    let solrPath = conf.test.solrPath;
+
+    let solrSelectUrl = `http://${solrHost}:${solrPort}${solrPath}/select?rows=100&wt=json`;
+
+    let response = request( 'GET', solrSelectUrl );
+
+    if ( response.statusCode !== 200 ) {
+        throw response.getBody();
+    }
+
+    return JSON.parse( response.body.toString() ).response.docs;
+}
