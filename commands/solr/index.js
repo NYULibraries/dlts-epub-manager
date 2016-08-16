@@ -1,13 +1,17 @@
 "use strict";
 
 let async = require( 'async' );
+let request   = require( 'sync-request' );
 let solr  = require( 'solr-client' );
 
 let util  = require( '../../lib/util' );
 
 let client;
+let em;
 
 module.exports = function( vorpal ){
+    em = vorpal.em;
+
     vorpal.command( 'solr' )
         .description( 'Manage Solr index.' )
         .action(
@@ -137,17 +141,15 @@ module.exports = function( vorpal ){
 
                 client = setupClient( vorpal.em.conf );
 
-                deleteAllEpubs( ( error ) => {
-                    if ( error ) {
-                        vorpal.log( 'ERROR deleting documents from Solr index:\n' +
-                                    JSON.stringify( error, null, 4 )
-                        );
-                    } else {
-                        vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
-                    }
-                } );
+                try {
+                    deleteAllEpubs();
+                } catch( error ) {
+                    vorpal.log( 'ERROR deleting documents from Solr index:\n' +
+                                error
+                            );
+                }
 
-                vorpal.log( `Queued Solr delete all job for conf "${vorpal.em.conf.name}".` );
+                vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
 
                 callback();
             }
@@ -230,12 +232,17 @@ function deleteEpub( epub, callback ) {
     );
 }
 
-function deleteAllEpubs( callback ) {
-    client.deleteByQuery( '*:*', { commitWithin : 3000 }, ( error, obj ) => {
-        if ( error ) {
-            callback( error );
-        } else {
-            callback();
-        }
-    } );
+function deleteAllEpubs() {
+    let solrHost = em.conf.test.solrHost;
+    let solrPort = em.conf.test.solrPort;
+    let solrPath = em.conf.test.solrPath;
+
+    let solrDeleteAllUrl = `http://${solrHost}:${solrPort}${solrPath}/update/?` +
+                        'commit=true&stream.body=<delete><query>*:*</query></delete>';
+
+    let response = request( 'GET', solrDeleteAllUrl );
+
+    if ( response.statusCode !== 200 ) {
+        throw response.body.toString();
+    }
 }
