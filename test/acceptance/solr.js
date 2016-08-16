@@ -42,6 +42,12 @@ describe( 'solr command', () => {
         } catch( error ) {
             assert.fail( error.statusCode, 200, error.message );
         }
+
+        assert( numFixtureEpubsAdded === 3,
+                'Test is not set up right.  The test Solr index should contain 3 '    +
+                'EPUBs before the `delete all` operation, and it currently contains ' +
+                numFixtureEpubsAdded + ' EPUBs.'
+        );
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
