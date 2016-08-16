@@ -46,7 +46,11 @@ describe( 'solr command', () => {
 
         vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
 
+        let epubsAfter = getEpubs( vorpal.em.conf );
 
+        assert( epubsAfter.length === 0,
+                `Test Solr index still contains still contains ${epubsAfter.length} EPUBs.`
+        );
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
