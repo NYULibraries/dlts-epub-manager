@@ -33,13 +33,13 @@ describe( 'solr command', () => {
 
         try {
             numFixtureEpubsAdded =
-                addEpubs( vorpal.em.conf, require( './fixture/epub-json/3-epubs.json' ) );
+                addEpubs( vorpal.em.conf, require( './fixture/epub-json/4-epubs.json' ) );
         } catch( error ) {
             assert.fail( error.statusCode, 200, error.message );
         }
 
-        assert( numFixtureEpubsAdded === 3,
-                'Test is not set up right.  The test Solr index should contain 3 '    +
+        assert( numFixtureEpubsAdded === 4,
+                'Test is not set up right.  The test Solr index should contain 4 '    +
                 'EPUBs before the `delete all` operation, and it currently contains ' +
                 numFixtureEpubsAdded + ' EPUBs.'
         );
