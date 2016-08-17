@@ -104,7 +104,7 @@ describe( 'solr command', () => {
                 numFixtureEpubsAdded + ' EPUBs.'
         );
 
-        vorpal.parse( [ null, null, 'solr', 'delete' ] );
+        vorpal.parse( [ null, null, 'solr', 'delete', 'delete-3' ] );
 
         let epubsAfter = getEpubs();
 
