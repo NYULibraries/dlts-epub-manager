@@ -187,7 +187,7 @@ function addEpubs( epubs ) {
     );
 
     if ( response.statusCode !== 200 ) {
-        throw response.getBody();
+        throw response.body.toString();
     }
 
     return addRequest.length;
