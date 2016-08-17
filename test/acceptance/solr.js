@@ -120,7 +120,12 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly add all EPUBs to Solr index', () => {
-     } );
+        vorpal.parse( [ null, null, 'solr', 'add', 'full-metadataDir' ] );
+
+        let epubs = getEpubs();
+
+        assert( epubs.length === JSON.parse( expectedFull ).response.docs.length  );
+    } );
 
     it( 'should correctly add 3 replacement EPUBs and 3 new EPUBs to Solr index', () => {
     } );
