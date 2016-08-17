@@ -29,11 +29,15 @@ describe( 'solr command', () => {
                 'ERROR: beforeEach() is not set up right.  ' +
                 `Failed to load configuration "full-metadataDir".` );
 
-        vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
+        try {
+            clearSolrIndex( vorpal.em.conf );
+        } catch ( error ) {
+            assert.fail( error.statusCode, 200, error.message );
+        }
 
         let epubsAfter = getEpubs( vorpal.em.conf );
 
-        assert( epubsAfter.length === 1,
+        assert( epubsAfter.length === 0,
                 'ERROR: beforeEach() is not set up right.  ' +
                 `Test Solr index still contains still contains ${epubsAfter.length} EPUBs.`
         );
@@ -93,6 +97,21 @@ function loadConfiguration( confName ) {
     }
 
     return loadSucceeded;
+}
+
+function clearSolrIndex( conf ) {
+    let solrHost = conf.solrHost;
+    let solrPort = conf.solrPort;
+    let solrPath = conf.solrPath;
+
+    let solrDeleteAllUrl = `http://${solrHost}:${solrPort}${solrPath}/update/?` +
+                           'commit=true&stream.body=<delete><query>*:*</query></delete>';
+
+    let response = request( 'GET', solrDeleteAllUrl );
+
+    if ( response.statusCode !== 200 ) {
+        throw response.body.toString();
+    }
 }
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
