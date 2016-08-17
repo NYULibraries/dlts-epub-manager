@@ -13,7 +13,6 @@
   "author": "da70",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.0.0-rc.5",
     "json-stable-stringify": "^1.0.1",
     "rimraf": "^2.5.2",
     "vorpal": "^1.10.8"

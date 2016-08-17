@@ -27,18 +27,6 @@
       "from": "assertion-error@>=1.0.1 <2.0.0",
       "resolved": "https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz"
     },
-    "async": {
-      "version": "2.0.0-rc.5",
-      "from": "async@latest",
-      "resolved": "https://registry.npmjs.org/async/-/async-2.0.0-rc.5.tgz",
-      "dependencies": {
-        "lodash": {
-          "version": "4.13.1",
-          "from": "lodash@>=4.8.0 <5.0.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.13.1.tgz"
-        }
-      }
-    },
     "babel-polyfill": {
       "version": "6.6.1",
       "from": "babel-polyfill@>=6.3.14 <7.0.0",
