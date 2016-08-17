@@ -108,7 +108,7 @@ describe( 'solr command', () => {
 
         let epubsAfter = getEpubs( vorpal.em.conf );
 
-        assert( epubsAfter.length === 4,
+        assert( epubsAfter.length === 1,
                 'Test Solr index should contain only 1 EPUB, and it currently ' +
                 `contains ${epubsAfter.length} EPUBs.`
         );
