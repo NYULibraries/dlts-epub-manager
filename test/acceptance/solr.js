@@ -148,7 +148,7 @@ function loadConfiguration( confName ) {
     }
 }
 
-function getFullSolrPath() {
+function getSolrFullPath() {
     let solrHost = conf.solrHost;
     let solrPort = conf.solrPort;
     let solrPath = conf.solrPath;
@@ -157,11 +157,11 @@ function getFullSolrPath() {
 }
 
 function getSolrUpdateUrl() {
-    return getFullSolrPath() + '/update';
+    return getSolrFullPath() + '/update';
 }
 
 function getSolrSelectUrl() {
-    return getFullSolrPath() + '/select';
+    return getSolrFullPath() + '/select';
 }
 
 function clearSolrIndex() {
