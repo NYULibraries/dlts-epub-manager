@@ -21,6 +21,40 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly delete all EPUBs from Solr index', () => {
+        vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
+
+        vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
+
+        // First, put something in the index.  If it is already empty we can't
+        // be sure that the deletion actually worked.
+        const NUM_FIXTURE_EPUBS = 4;
+        let numFixtureEpubsAdded;
+
+        try {
+            numFixtureEpubsAdded =
+                addEpubs( vorpal.em.conf, require( `./fixture/epub-json/${NUM_FIXTURE_EPUBS}-epubs.json` ) );
+        } catch( error ) {
+            assert.fail( error.statusCode, 200, error.message );
+        }
+
+        let epubsBefore = getEpubs( vorpal.em.conf );
+
+        assert( epubsBefore.length === NUM_FIXTURE_EPUBS,
+                `Test is not set up right.  The test Solr index should contain ${NUM_FIXTURE_EPUBS} ` +
+                'EPUBs before the `delete all` operation, and it currently contains '                 +
+                numFixtureEpubsAdded + ' EPUBs.'
+        );
+
+        vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
+
+        let epubsAfter = getEpubs( vorpal.em.conf );
+
+        assert( epubsAfter.length === 0,
+                `Test Solr index still contains still contains ${epubsAfter.length} EPUBs.`
+        );
+    } );
+
+    it( 'should correctly delete 3 EPUBs from Solr index', () => {
         // First, put something in the index.  If it is already empty we can't
         // be sure that the deletion actually worked.
         let numFixtureEpubsAdded;
