@@ -1,12 +1,8 @@
 "use strict";
 
-let async = require( 'async' );
 let request   = require( 'sync-request' );
-let solr  = require( 'solr-client' );
-
 let util  = require( '../../lib/util' );
 
-let client;
 let em;
 
 module.exports = function( vorpal ){
@@ -46,24 +42,18 @@ module.exports = function( vorpal ){
                     return;
                 }
 
-                client = setupClient( vorpal.em.conf );
-
                 let epubs = vorpal.em.metadata.getAll();
 
-                async.mapSeries( epubs, addEpub, ( error, results ) => {
-                    if ( error ) {
-                        vorpal.log( 'ERROR adding to Solr index:\n' +
-                            JSON.stringify( error, null, 4 )
-                        );
-                    } else {
-                        results.forEach( ( result ) => {
-                            vorpal.log( result );
-                        });
-                    }
-                } );
+                try {
+                    let epubsAdded = addEpubs( epubs );
 
-                vorpal.log( `Queued Solr add/update job for conf "${vorpal.em.conf.name}": ` +
-                            `${epubs.size } EPUBs.` );
+                    vorpal.log( `Added to Solr index:\n` + epubsAdded.join( '\n' ) );
+                } catch ( error ) {
+                    vorpal.log( 'ERROR adding document to Solr index:\n' +
+                                error );
+                }
+
+                vorpal.log( `Added ${epubs.size } EPUBs.` );
 
                 callback();
             }
@@ -161,48 +151,36 @@ module.exports = function( vorpal ){
         );
 };
 
-function setupClient( conf ) {
-    let client = solr.createClient();
+function addEpubs( epubs) {
+    let solrUpdateUrl = util.getSolrUpdateUrl( em.conf ) + '/json?commit=true';
 
-    // This doesn't seem to do anything.  Also looked through the code and tests
-    // and found no reference to this option.
-    // client.autoCommit = true;
-    
-    client.options.host = conf.solrHost;
-    client.options.port = conf.solrPort;
-    client.options.path = conf.solrPath;
+    let addRequest = [];
+    let epubsAdded = [];
 
-    return client;
-}
+    epubs.forEach( ( epub ) => {
+        let doc = { id : epub.identifier };
 
-// Designed to be iteratee function for async.mapSeries()
-function addEpub( epub, callback ) {
-    let id       = epub[ 0 ];
-    let metadata = epub[ 1 ];
-    let doc      = { id };
-
-    Object.keys( metadata ).forEach(
-        ( key ) => {
-            doc[key] = metadata[key];
-        }
-    );
-
-    client.add(
-        doc, { commitWithin : 3000 }, ( error, obj ) => {
-            if ( error ) {
-                callback( JSON.stringify( error, null, 4 ) );
-            } else {
-                // Not sure if a status check is necessary or not.  Maybe if
-                // status is non-zero there will always been an error thrown?
-                let status = obj.responseHeader.status;
-                if ( status === 0 ) {
-                    callback( null, `Added ${id} to Solr index.` );
-                } else {
-                    callback( null, `Added ${id} to Solr index.  Status code: ${status}` );
-                }
+        Object.keys( epub ).forEach(
+            ( key ) => {
+                doc[ key ] = epub[ key ];
             }
+        );
+
+        addRequest.push( doc );
+        epubsAdded.push( epub.identifier );
+    } );
+
+    let response = request(
+        'POST', solrUpdateUrl, {
+            body : JSON.stringify( addRequest )
         }
     );
+
+    if ( response.statusCode !== 200 ) {
+        throw response.body.toString();
+    }
+
+    return epubsAdded;
 }
 
 function deleteEpub( epub ) {
