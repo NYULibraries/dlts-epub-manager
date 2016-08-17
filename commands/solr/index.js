@@ -233,9 +233,9 @@ function deleteEpub( epub, callback ) {
 }
 
 function deleteAllEpubs() {
-    let solrHost = em.conf.test.solrHost;
-    let solrPort = em.conf.test.solrPort;
-    let solrPath = em.conf.test.solrPath;
+    let solrHost = em.conf.solrHost;
+    let solrPort = em.conf.solrPort;
+    let solrPath = em.conf.solrPath;
 
     let solrDeleteAllUrl = `http://${solrHost}:${solrPort}${solrPath}/update/?` +
                         'commit=true&stream.body=<delete><query>*:*</query></delete>';
