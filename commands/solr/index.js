@@ -93,24 +93,18 @@ module.exports = function( vorpal ){
                     return;
                 }
 
-                client = setupClient( vorpal.em.conf );
-
                 let epubs = vorpal.em.metadata.getAll();
 
-                async.mapSeries( epubs, deleteEpub, ( error, results ) => {
-                    if ( error ) {
+                epubs.forEach( ( epub ) => {
+                    try {
+                        deleteEpub( epub );
+                    } catch ( error ) {
                         vorpal.log( 'ERROR deleting documents from Solr index:\n' +
-                                    JSON.stringify( error, null, 4 )
-                        );
-                    } else {
-                        results.forEach( ( result ) => {
-                            vorpal.log( result );
-                        });
+                                    error );
                     }
                 } );
 
-                vorpal.log( `Queued Solr delete job for conf "${vorpal.em.conf.name}": ` +
-                            `${epubs.size } EPUBs.` );
+                vorpal.log( `Deleted ${epubs.size } EPUBs.` );
 
                 callback();
             }
@@ -209,25 +203,12 @@ function addEpub( epub, callback ) {
     );
 }
 
-function deleteEpub( epub, callback ) {
-    let id = epub[ 0 ];
-
-    client.deleteByID(
-        id, { commitWithin : 3000 }, ( error, obj ) => {
-            if ( error ) {
-                callback( JSON.stringify( error, null, 4 ) );
-            } else {
-                // Not sure if a status check is necessary or not.  Maybe if
-                // status is non-zero there will always been an error thrown?
-                let status = obj.responseHeader.status;
-                if ( status === 0 ) {
-                    callback( null, `Deleted ${id} from Solr index.` );
-                } else {
-                    callback( null, `Deleted ${id} from Solr index.  Status code: ${status}` );
-                }
-            }
-        }
-    );
+function deleteEpub( epub ) {
+    try {
+        deleteEpubsByQuery( 'identifier:' + epub.identifier );
+    } catch ( error ) {
+        throw error;
+    }
 }
 
 function deleteAllEpubs() {
