@@ -33,12 +33,12 @@ describe( 'solr command', () => {
                 `Failed to load configuration "${BEFORE_EACH_CONF_NAME}".` );
 
         try {
-            clearSolrIndex( vorpal.em.conf );
+            clearSolrIndex();
         } catch ( error ) {
             assert.fail( error.statusCode, 200, error.message );
         }
 
-        let epubsAfter = getEpubs( vorpal.em.conf );
+        let epubsAfter = getEpubs();
 
         assert( epubsAfter.length === 0,
                 'ERROR: beforeEach() is not set up right.  ' +
@@ -54,12 +54,12 @@ describe( 'solr command', () => {
 
         try {
             numFixtureEpubsAdded =
-                addEpubs( vorpal.em.conf, require( `./fixture/epub-json/${NUM_FIXTURE_EPUBS}-epubs.json` ) );
+                addEpubs( require( `./fixture/epub-json/${NUM_FIXTURE_EPUBS}-epubs.json` ) );
         } catch( error ) {
             assert.fail( error.statusCode, 200, error.message );
         }
 
-        let epubsBefore = getEpubs( vorpal.em.conf );
+        let epubsBefore = getEpubs();
 
         assert( epubsBefore.length === NUM_FIXTURE_EPUBS,
                 `Test is not set up right.  The test Solr index should contain ${NUM_FIXTURE_EPUBS} ` +
@@ -69,14 +69,14 @@ describe( 'solr command', () => {
 
         vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
 
-        let epubsAfter = getEpubs( vorpal.em.conf );
+        let epubsAfter = getEpubs();
 
         assert( epubsAfter.length === 0,
                 `Test Solr index still contains still contains ${epubsAfter.length} EPUBs.`
         );
     } );
 
-    it( 'should correctly delete 3 EPUBs from Solr index', () => {
+    xit( 'should correctly delete 3 EPUBs from Solr index', () => {
         const TEST_CONF_NAME = 'delete-3';
         let loadSucceeded = loadConfiguration( TEST_CONF_NAME );
 
@@ -91,12 +91,12 @@ describe( 'solr command', () => {
 
         try {
             numFixtureEpubsAdded =
-                addEpubs( vorpal.em.conf, require( `./fixture/epub-json/${NUM_FIXTURE_EPUBS}-epubs.json` ) );
+                addEpubs( require( `./fixture/epub-json/${NUM_FIXTURE_EPUBS}-epubs.json` ) );
         } catch( error ) {
             assert.fail( error.statusCode, 200, error.message );
         }
 
-        let epubsBefore = getEpubs( vorpal.em.conf );
+        let epubsBefore = getEpubs();
 
         assert( epubsBefore.length === NUM_FIXTURE_EPUBS,
                 `Test is not set up right.  The test Solr index should contain ${NUM_FIXTURE_EPUBS} ` +
@@ -106,7 +106,7 @@ describe( 'solr command', () => {
 
         vorpal.parse( [ null, null, 'solr', 'delete' ] );
 
-        let epubsAfter = getEpubs( vorpal.em.conf );
+        let epubsAfter = getEpubs();
 
         assert( epubsAfter.length === 1,
                 'Test Solr index should contain only 1 EPUB, and it currently ' +
@@ -164,7 +164,7 @@ function getSolrSelectUrl() {
     return getFullSolrPath() + '/select';
 }
 
-function clearSolrIndex( conf ) {
+function clearSolrIndex() {
     let solrDeleteAllUrl = getSolrUpdateUrl() +
                            '/?commit=true&stream.body=<delete><query>*:*</query></delete>';
 
@@ -176,7 +176,7 @@ function clearSolrIndex( conf ) {
 }
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
-function addEpubs( conf, epubs ) {
+function addEpubs( epubs ) {
     let solrUpdateUrl = getSolrUpdateUrl() + '/json?commit=true';
 
     let addRequest = [];
@@ -209,7 +209,7 @@ function addEpubs( conf, epubs ) {
     return addRequest.length;
 }
 
-function getEpubs( conf ) {
+function getEpubs() {
     let solrSelectUrl = getSolrSelectUrl() + '/?rows=100&wt=json';
 
     let response = request( 'GET', solrSelectUrl );
