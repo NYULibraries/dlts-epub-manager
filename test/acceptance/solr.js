@@ -127,10 +127,10 @@ describe( 'solr command', () => {
         assert( epubs.length === JSON.parse( expectedFull ).response.docs.length  );
     } );
 
-    it( 'should correctly add 3 replacement EPUBs and 3 new EPUBs to Solr index', () => {
+    xit( 'should correctly add 3 replacement EPUBs and 3 new EPUBs to Solr index', () => {
     } );
 
-    it( 'should correctly full-replace all EPUBs in Solr index', () => {
+    xit( 'should correctly full-replace all EPUBs in Solr index', () => {
     } );
 } );
 
