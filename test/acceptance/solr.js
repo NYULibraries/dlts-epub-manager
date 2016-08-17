@@ -22,15 +22,24 @@ describe( 'solr command', () => {
         );
     } );
 
-    it( 'should correctly delete all EPUBs from Solr index', () => {
+    beforeEach( ( ) => {
         let loadSucceeded = loadConfiguration( 'full-metadataDir' );
 
         assert( loadSucceeded === true,
-                         'Test is not set up right.  ' +
-                         `Failed to load configuration "full-metadataDir".` );
+                'ERROR: beforeEach() is not set up right.  ' +
+                `Failed to load configuration "full-metadataDir".` );
 
         vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
 
+        let epubsAfter = getEpubs( vorpal.em.conf );
+
+        assert( epubsAfter.length === 1,
+                'ERROR: beforeEach() is not set up right.  ' +
+                `Test Solr index still contains still contains ${epubsAfter.length} EPUBs.`
+        );
+    } );
+
+    it( 'should correctly delete all EPUBs from Solr index', () => {
         // First, put something in the index.  If it is already empty we can't
         // be sure that the deletion actually worked.
         const NUM_FIXTURE_EPUBS = 4;
