@@ -55,33 +55,6 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
-        // First, put something in the index.  If it is already empty we can't
-        // be sure that the deletion actually worked.
-        let numFixtureEpubsAdded;
-
-        try {
-            numFixtureEpubsAdded =
-                addEpubs( vorpal.em.conf, require( './fixture/epub-json/4-epubs.json' ) );
-        } catch( error ) {
-            assert.fail( error.statusCode, 200, error.message );
-        }
-
-        assert( numFixtureEpubsAdded === 4,
-                'Test is not set up right.  The test Solr index should contain 4 '    +
-                'EPUBs before the `delete all` operation, and it currently contains ' +
-                numFixtureEpubsAdded + ' EPUBs.'
-        );
-
-        vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
-
-        let epubsAfter = getEpubs( vorpal.em.conf );
-
-        assert( epubsAfter.length === 0,
-                `Test Solr index still contains still contains ${epubsAfter.length} EPUBs.`
-        );
-    } );
-
-    it( 'should correctly delete 3 EPUBs from Solr index', () => {
     } );
 
     it( 'should correctly add all EPUBs to Solr index', () => {
