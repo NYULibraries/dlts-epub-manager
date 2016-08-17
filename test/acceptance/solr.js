@@ -62,9 +62,9 @@ describe( 'solr command', () => {
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
 function addEpubs( conf, epubs ) {
-    let solrHost = conf.test.solrHost;
-    let solrPort = conf.test.solrPort;
-    let solrPath = conf.test.solrPath;
+    let solrHost = conf.solrHost;
+    let solrPort = conf.solrPort;
+    let solrPath = conf.solrPath;
 
     let solrUpdateUrl = `http://${solrHost}:${solrPort}${solrPath}/update/json?commit=true`;
 
@@ -99,9 +99,9 @@ function addEpubs( conf, epubs ) {
 }
 
 function getEpubs( conf ) {
-    let solrHost = conf.test.solrHost;
-    let solrPort = conf.test.solrPort;
-    let solrPath = conf.test.solrPath;
+    let solrHost = conf.solrHost;
+    let solrPort = conf.solrPort;
+    let solrPath = conf.solrPath;
 
     let solrSelectUrl = `http://${solrHost}:${solrPort}${solrPath}/select?rows=100&wt=json`;
 
