@@ -148,24 +148,8 @@ function loadConfiguration( confName ) {
     }
 }
 
-function getSolrFullPath() {
-    let solrHost = conf.solrHost;
-    let solrPort = conf.solrPort;
-    let solrPath = conf.solrPath;
-
-    return `http://${solrHost}:${solrPort}${solrPath}`;
-}
-
-function getSolrUpdateUrl() {
-    return getSolrFullPath() + '/update';
-}
-
-function getSolrSelectUrl() {
-    return getSolrFullPath() + '/select';
-}
-
 function clearSolrIndex() {
-    let solrDeleteAllUrl = getSolrUpdateUrl() +
+    let solrDeleteAllUrl = util.getSolrUpdateUrl( conf ) +
                            '/?commit=true&stream.body=<delete><query>*:*</query></delete>';
 
     let response = request( 'GET', solrDeleteAllUrl );
@@ -177,7 +161,7 @@ function clearSolrIndex() {
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
 function addEpubs( epubs ) {
-    let solrUpdateUrl = getSolrUpdateUrl() + '/json?commit=true';
+    let solrUpdateUrl = util.getSolrUpdateUrl( conf ) + '/json?commit=true';
 
     let addRequest = [];
 
@@ -210,7 +194,7 @@ function addEpubs( epubs ) {
 }
 
 function getEpubs() {
-    let solrSelectUrl = getSolrSelectUrl() + '/?rows=100&wt=json';
+    let solrSelectUrl = util.getSolrSelectUrl( conf ) + '/?rows=100&wt=json';
 
     let response = request( 'GET', solrSelectUrl );
 
