@@ -98,6 +98,8 @@ module.exports = function( vorpal ){
                 epubs.forEach( ( epub ) => {
                     try {
                         deleteEpub( epub );
+
+                        vorpal.log( `Deleted ${epub.identifier} from Solr index.` );
                     } catch ( error ) {
                         vorpal.log( 'ERROR deleting documents from Solr index:\n' +
                                     error );
