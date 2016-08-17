@@ -148,13 +148,25 @@ function loadConfiguration( confName ) {
     }
 }
 
-function clearSolrIndex( conf ) {
+function getFullSolrPath() {
     let solrHost = conf.solrHost;
     let solrPort = conf.solrPort;
     let solrPath = conf.solrPath;
 
-    let solrDeleteAllUrl = `http://${solrHost}:${solrPort}${solrPath}/update/?` +
-                           'commit=true&stream.body=<delete><query>*:*</query></delete>';
+    return `http://${solrHost}:${solrPort}${solrPath}`;
+}
+
+function getSolrUpdateUrl() {
+    return getFullSolrPath() + '/update';
+}
+
+function getSolrSelectUrl() {
+    return getFullSolrPath() + '/select';
+}
+
+function clearSolrIndex( conf ) {
+    let solrDeleteAllUrl = getSolrUpdateUrl() +
+                           '/?commit=true&stream.body=<delete><query>*:*</query></delete>';
 
     let response = request( 'GET', solrDeleteAllUrl );
 
@@ -165,11 +177,7 @@ function clearSolrIndex( conf ) {
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
 function addEpubs( conf, epubs ) {
-    let solrHost = conf.solrHost;
-    let solrPort = conf.solrPort;
-    let solrPath = conf.solrPath;
-
-    let solrUpdateUrl = `http://${solrHost}:${solrPort}${solrPath}/update/json?commit=true`;
+    let solrUpdateUrl = getSolrUpdateUrl() + '/json?commit=true';
 
     let addRequest = [];
 
@@ -202,11 +210,7 @@ function addEpubs( conf, epubs ) {
 }
 
 function getEpubs( conf ) {
-    let solrHost = conf.solrHost;
-    let solrPort = conf.solrPort;
-    let solrPath = conf.solrPath;
-
-    let solrSelectUrl = `http://${solrHost}:${solrPort}${solrPath}/select?rows=100&wt=json`;
+    let solrSelectUrl = getSolrSelectUrl() + '/?rows=100&wt=json';
 
     let response = request( 'GET', solrSelectUrl );
 
