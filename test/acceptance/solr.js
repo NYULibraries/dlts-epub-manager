@@ -75,6 +75,46 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
+        const TEST_CONF_NAME = 'delete-3';
+        let loadSucceeded = loadConfiguration( TEST_CONF_NAME );
+
+        assert( loadSucceeded === true,
+                'ERROR: test is not set up right.  ' +
+                `Failed to load configuration "${TEST_CONF_NAME}".` );
+
+        // First, put something in the index.  If it is already empty we can't
+        // be sure that the deletion actually worked.
+        const NUM_FIXTURE_EPUBS = 4;
+        let numFixtureEpubsAdded;
+
+        try {
+            numFixtureEpubsAdded =
+                addEpubs( vorpal.em.conf, require( `./fixture/epub-json/${NUM_FIXTURE_EPUBS}-epubs.json` ) );
+        } catch( error ) {
+            assert.fail( error.statusCode, 200, error.message );
+        }
+
+        let epubsBefore = getEpubs( vorpal.em.conf );
+
+        assert( epubsBefore.length === NUM_FIXTURE_EPUBS,
+                `Test is not set up right.  The test Solr index should contain ${NUM_FIXTURE_EPUBS} ` +
+                'EPUBs before the `delete all` operation, and it currently contains '                 +
+                numFixtureEpubsAdded + ' EPUBs.'
+        );
+
+        vorpal.parse( [ null, null, 'solr', 'delete' ] );
+
+        let epubsAfter = getEpubs( vorpal.em.conf );
+
+        assert( epubsAfter.length === 4,
+                'Test Solr index should contain only 1 EPUB, and it currently ' +
+                `contains ${epubsAfter.length} EPUBs.`
+        );
+
+        const EXPECTED_EPUB_ID = '9780814712481';
+        let actualEpubId = epubsAfter[ 0 ].identifier;
+        assert( actualEpubId === EXPECTED_EPUB_ID,
+                `Remaining EPUB has identifier "${actualEpubId}" instead of expected "${EXPECTED_EPUB_ID}".` );
     } );
 
     it( 'should correctly add all EPUBs to Solr index', () => {
