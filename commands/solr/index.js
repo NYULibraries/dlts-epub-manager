@@ -244,7 +244,7 @@ function deleteEpubsByQuery( query ) {
     let solrPath = em.conf.solrPath;
 
     let solrDeleteAllUrl = `http://${solrHost}:${solrPort}${solrPath}/update/?` +
-                           'commit=true&stream.body=<delete><query>*:*</query></delete>';
+                           `commit=true&stream.body=<delete><query>${query}</query></delete>`;
 
     let response = request( 'GET', solrDeleteAllUrl );
 
