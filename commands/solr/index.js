@@ -220,14 +220,10 @@ function deleteAllEpubs() {
 }
 
 function deleteEpubsByQuery( query ) {
-    let solrHost = em.conf.solrHost;
-    let solrPort = em.conf.solrPort;
-    let solrPath = em.conf.solrPath;
+    let requestUrl = util.getSolrUpdateUrl( em.conf ) +
+                        `/?commit=true&stream.body=<delete><query>${query}</query></delete>`;
 
-    let solrDeleteAllUrl = `http://${solrHost}:${solrPort}${solrPath}/update/?` +
-                           `commit=true&stream.body=<delete><query>${query}</query></delete>`;
-
-    let response = request( 'GET', solrDeleteAllUrl );
+    let response = request( 'GET', requestUrl );
 
     if ( response.statusCode !== 200 ) {
         throw response.body.toString();
