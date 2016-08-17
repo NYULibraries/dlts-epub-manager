@@ -5,6 +5,7 @@
 let assert    = require( 'chai' ).assert;
 let em        = require( '../../lib/bootstrap' );
 let fs        = require( 'fs' );
+let _         = require( 'lodash' );
 let request   = require( 'sync-request' );
 let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
@@ -124,7 +125,8 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        assert( epubs.length === JSON.parse( expectedFull ).response.docs.length  );
+        let expectedDocs = JSON.parse( expectedFull ).response.docs;
+        assert( _.isEqual( epubs, expectedDocs ) );
     } );
 
     xit( 'should correctly add 3 replacement EPUBs and 3 new EPUBs to Solr index', () => {
