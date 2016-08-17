@@ -139,8 +139,6 @@ module.exports = function( vorpal ){
                     return;
                 }
 
-                client = setupClient( vorpal.em.conf );
-
                 try {
                     deleteAllEpubs();
                 } catch( error ) {
