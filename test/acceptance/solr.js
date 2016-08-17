@@ -21,7 +21,7 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly delete all EPUBs from Solr index', () => {
-        vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
+        loadConfiguration( 'full-metadataDir' );
 
         vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
 
@@ -66,6 +66,10 @@ describe( 'solr command', () => {
     it( 'should correctly full-replace all EPUBs in Solr index', () => {
     } );
 } );
+
+function loadConfiguration( confName ) {
+    vorpal.parse( [ null, null, 'load', confName ] );
+}
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
 function addEpubs( conf, epubs ) {
