@@ -233,12 +233,20 @@ function deleteEpub( epub, callback ) {
 }
 
 function deleteAllEpubs() {
+    try {
+        deleteEpubsByQuery( '*:*' );
+    } catch ( error ) {
+        throw error;
+    }
+}
+
+function deleteEpubsByQuery( query ) {
     let solrHost = em.conf.solrHost;
     let solrPort = em.conf.solrPort;
     let solrPath = em.conf.solrPath;
 
     let solrDeleteAllUrl = `http://${solrHost}:${solrPort}${solrPath}/update/?` +
-                        'commit=true&stream.body=<delete><query>*:*</query></delete>';
+                           'commit=true&stream.body=<delete><query>*:*</query></delete>';
 
     let response = request( 'GET', solrDeleteAllUrl );
 
