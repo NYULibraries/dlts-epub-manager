@@ -20,12 +20,6 @@ describe( 'solr command', () => {
         );
     } );
 
-    beforeEach( ( ) => {
-        vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
-
-        vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
-    } );
-
     it( 'should correctly delete all EPUBs from Solr index', () => {
         // First, put something in the index.  If it is already empty we can't
         // be sure that the deletion actually worked.
