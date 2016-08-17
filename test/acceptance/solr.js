@@ -23,11 +23,12 @@ describe( 'solr command', () => {
     } );
 
     beforeEach( ( ) => {
-        let loadSucceeded = loadConfiguration( 'full-metadataDir' );
+        const BEFORE_EACH_CONF_NAME = 'full-metadataDir';
+        let loadSucceeded = loadConfiguration( BEFORE_EACH_CONF_NAME );
 
         assert( loadSucceeded === true,
                 'ERROR: beforeEach() is not set up right.  ' +
-                `Failed to load configuration "full-metadataDir".` );
+                `Failed to load configuration "${BEFORE_EACH_CONF_NAME}".` );
 
         try {
             clearSolrIndex( vorpal.em.conf );
