@@ -9,6 +9,8 @@ let request   = require( 'sync-request' );
 let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
 
+const SOLR_TEST_CORE = 'em-test';
+
 vorpal.em.configDir = __dirname + '/fixture/config';
 
 describe( 'solr command', () => {
@@ -21,7 +23,11 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly delete all EPUBs from Solr index', () => {
-        loadConfiguration( 'full-metadataDir' );
+        let loadSucceeded = loadConfiguration( 'full-metadataDir' );
+
+        assert( loadSucceeded === true,
+                         'Test is not set up right.  ' +
+                         `Failed to load configuration "full-metadataDir".` );
 
         vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
 
@@ -68,7 +74,16 @@ describe( 'solr command', () => {
 } );
 
 function loadConfiguration( confName ) {
-    vorpal.parse( [ null, null, 'load', confName ] );
+    let loadSucceeded = vorpal.execSync( `load ${confName}`, { fatal : true } );
+
+    let solrPath = vorpal.em.conf.solrPath ;
+
+    if ( ! solrPath.endsWith( SOLR_TEST_CORE ) ) {
+        console.log( `ERROR: solrPath option ${solrPath} does not end with required "${SOLR_TEST_CORE}".` );
+        loadSucceeded = false;
+    }
+
+    return loadSucceeded;
 }
 
 // This needs to be synchronous, so using `sync-request` instead of `solr-client`.
