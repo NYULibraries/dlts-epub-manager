@@ -13,6 +13,8 @@ const SOLR_TEST_CORE = 'em-test';
 
 vorpal.em.configDir = __dirname + '/fixture/config';
 
+let conf;
+
 describe( 'solr command', () => {
     let expectedFull;
 
@@ -130,14 +132,20 @@ describe( 'solr command', () => {
 function loadConfiguration( confName ) {
     let loadSucceeded = vorpal.execSync( `load ${confName}`, { fatal : true } );
 
-    let solrPath = vorpal.em.conf.solrPath ;
+    if ( loadSucceeded ) {
+        let solrPath = vorpal.em.conf.solrPath ;
 
-    if ( ! solrPath.endsWith( SOLR_TEST_CORE ) ) {
-        console.log( `ERROR: solrPath option ${solrPath} does not end with required "${SOLR_TEST_CORE}".` );
-        loadSucceeded = false;
+        if ( ! solrPath.endsWith( SOLR_TEST_CORE ) ) {
+            console.log( `ERROR: solrPath option ${solrPath} does not end with required "${SOLR_TEST_CORE}".` );
+            return false;
+        }
+
+        conf = vorpal.em.conf;
+
+        return true;
+    } else {
+        return false;
     }
-
-    return loadSucceeded;
 }
 
 function clearSolrIndex( conf ) {
