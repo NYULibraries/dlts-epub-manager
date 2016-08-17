@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "json-stable-stringify": "^1.0.1",
+    "lodash": "^4.15.0",
     "rimraf": "^2.5.2",
     "vorpal": "^1.10.8"
   },
