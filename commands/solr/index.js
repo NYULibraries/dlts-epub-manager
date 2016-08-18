@@ -125,13 +125,13 @@ module.exports = function( vorpal ){
 
                 try {
                     deleteAllEpubs();
+
+                    vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
                 } catch( error ) {
                     vorpal.log( 'ERROR deleting documents from Solr index:\n' +
                                 error
                             );
                 }
-
-                vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
 
                 callback();
             }
