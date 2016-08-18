@@ -24,8 +24,6 @@ module.exports = function( vorpal ){
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
@@ -49,15 +47,13 @@ module.exports = function( vorpal ){
 
                     vorpal.log( `Added ${epubs.size} EPUBs to Solr index:\n` + epubsAdded.join( '\n' ) );
 
-                    result = true;
+                    if ( callback ) { callback(); } else { return true; }
                 } catch ( error ) {
                     vorpal.log( 'ERROR adding document to Solr index:\n' +
                                 error );
 
-                    result = false;
+                    if ( callback ) { callback(); } else { return false; }
                 }
-
-                if ( callback ) { callback(); } else { return result; }
             }
         );
 
@@ -67,8 +63,6 @@ module.exports = function( vorpal ){
         // .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
@@ -93,18 +87,16 @@ module.exports = function( vorpal ){
 
                         vorpal.log( `Deleted ${epub.identifier} from Solr index.` );
 
-                        result = true;
+                        if ( callback ) { callback(); } else { return true; }
                     } catch ( error ) {
                         vorpal.log( 'ERROR deleting document from Solr index:\n' +
                                     error );
 
-                        result = false;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 } );
 
                 vorpal.log( `Deleted ${epubs.size } EPUBs.` );
-
-                if ( callback ) { callback(); } else { return result; }
             }
         );
 
@@ -113,8 +105,6 @@ module.exports = function( vorpal ){
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
-
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
@@ -130,16 +120,14 @@ module.exports = function( vorpal ){
 
                     vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
 
-                    result = true;
+                    if ( callback ) { callback(); } else { return true; }
                 } catch( error ) {
                     vorpal.log( 'ERROR deleting documents from Solr index:\n' +
                                 error
                             );
 
-                    result = false;
+                    if ( callback ) { callback(); } else { return false; }
                 }
-
-                if ( callback ) { callback(); } else { return result; }
             }
         );
 
