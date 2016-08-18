@@ -39,16 +39,14 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    callback();
-                    return;
+                    if ( callback ) { callback(); } else { return false; }
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -88,21 +86,19 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                if ( ! loadSucceeded ) {
-                    vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                    callback();
-                    return;
-                }
+                        if ( callback ) { callback(); } else { return false; }
+                    }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    callback();
-                    return;
+                    if ( callback ) { callback(); } else { return false; }
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -148,8 +144,7 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 }
 
@@ -179,12 +174,17 @@ module.exports = function( vorpal ){
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                    if ( !loadSucceeded ) {
+                    if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
+                }
+
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
+
+                    if ( callback ) { callback(); } else { return false; }
                 }
 
                 let readiumJsonFile;
