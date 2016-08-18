@@ -190,7 +190,7 @@ module.exports = function( vorpal ){
                         result = true;
                     }
                 } else {
-                    vorpal.log( `Aborting \`full-replace\` for ${args.configuration}` );
+                    vorpal.log( `Aborting \`full-replace\` for ${args.configuration}.` );
 
                     result = false;
                 }
