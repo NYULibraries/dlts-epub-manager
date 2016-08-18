@@ -47,13 +47,11 @@ module.exports = function( vorpal ){
                 try {
                     let epubsAdded = addEpubs( epubs );
 
-                    vorpal.log( `Added to Solr index:\n` + epubsAdded.join( '\n' ) );
+                    vorpal.log( `Added ${epubs.size} EPUBs to Solr index:\n` + epubsAdded.join( '\n' ) );
                 } catch ( error ) {
                     vorpal.log( 'ERROR adding document to Solr index:\n' +
                                 error );
                 }
-
-                vorpal.log( `Added ${epubs.size } EPUBs.` );
 
                 callback();
             }
