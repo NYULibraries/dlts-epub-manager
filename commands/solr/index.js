@@ -174,6 +174,8 @@ module.exports = function( vorpal ){
                         vorpal.log( `Fully replaced all EPUBs for conf ${args.configuration}.` );
 
                         result = true;
+                    } else {
+                        result = false;
                     }
                 } else {
                     vorpal.log( `Aborting \`full-replace\` for ${args.configuration}.` );
