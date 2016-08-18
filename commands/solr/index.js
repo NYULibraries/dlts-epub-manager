@@ -125,8 +125,8 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.conf ) {
-                    vorpal.log( util.ERROR_CONF_NOT_LOADED );
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); } else { return false; }
                 }
@@ -165,8 +165,8 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.conf ) {
-                    vorpal.log( util.ERROR_CONF_NOT_LOADED );
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); } else { return false; }
                 }
