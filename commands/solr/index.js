@@ -155,14 +155,47 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'solr full-replace' )
+    vorpal.command( 'solr full-replace [configuration]' )
         .description( 'Replace entire Solr index.' )
         .action(
             function( args, callback ) {
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                let result = false;
 
-                callback();
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
+
+                        callback();
+                        return;
+                    }
+                }
+
+                if ( ! vorpal.em.conf ) {
+                    vorpal.log( util.ERROR_CONF_NOT_LOADED );
+
+                    callback();
+                    return;
+                }
+
+                let deleteAllSucceeded = vorpal.execSync( `solr delete all ${args.configuration}`, { fatal : true } );
+
+                if ( deleteAllSucceeded ) {
+                    let addSucceeded = vorpal.execSync( `solr add ${args.configuration}`, { fatal : true } );
+
+                    if ( addSucceeded ) {
+                        vorpal.log( `Fully replaced all EPUBs for conf ${args.configuration}.` );
+
+                        result = true;
+                    }
+                } else {
+                    vorpal.log( `Aborting \`full-replace\` for ${args.configuration}` );
+
+                    result = false;
+                }
+
+                if ( callback ) { callback(); } else { return result; }
             }
         );
 };
