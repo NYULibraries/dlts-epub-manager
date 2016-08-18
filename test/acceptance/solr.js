@@ -17,13 +17,6 @@ vorpal.em.configDir = __dirname + '/fixture/config';
 let conf;
 
 describe( 'solr command', () => {
-    let expectedFull;
-
-    before( ( ) => {
-        expectedFull = util.jsonStableStringify(
-            require( './fixture/solr-response-docs/expected-full.json' )
-        );
-    } );
 
     beforeEach( ( ) => {
         const BEFORE_EACH_CONF_NAME = 'full-metadataDir';
@@ -125,7 +118,7 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        let expectedDocs = JSON.parse( expectedFull );
+        let expectedDocs = require( './fixture/solr-response-docs/expected-full.json' );
         assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
     } );
 
