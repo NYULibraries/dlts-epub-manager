@@ -32,16 +32,14 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    callback();
-                    return;
+                    if ( callback ) { callback(); } else { return false; }
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -77,16 +75,14 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    callback();
-                    return;
+                    if ( callback ) { callback(); } else { return false; }
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -125,16 +121,14 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 }
 
                 if ( ! vorpal.em.conf ) {
                     vorpal.log( util.ERROR_CONF_NOT_LOADED );
 
-                    callback();
-                    return;
+                    if ( callback ) { callback(); } else { return false; }
                 }
 
                 try {
@@ -167,16 +161,14 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 }
 
                 if ( ! vorpal.em.conf ) {
                     vorpal.log( util.ERROR_CONF_NOT_LOADED );
 
-                    callback();
-                    return;
+                    if ( callback ) { callback(); } else { return false; }
                 }
 
                 let deleteAllSucceeded = vorpal.execSync( `solr delete all ${args.configuration}`, { fatal : true } );
