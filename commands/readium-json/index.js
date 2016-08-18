@@ -162,6 +162,8 @@ module.exports = function( vorpal ){
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
+                let result = false;
+
                 if ( args.configuration ) {
                     let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
@@ -187,23 +189,31 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); } else { return false; }
                 }
 
-                // Delete all by duplicating the one-liner from `readium-json delete all`.
-                // Not doing this:
-                //
-                //     vorpal.execSync(
-                //         `readium-json delete all ${args.configuration}`,
-                //         { fatal : true }
-                //     );
-                //
-                // ...because for the time being don't want to make these subcommands
-                // complicated by having to have to handle both sync and async
-                // invocations.
-                fs.writeFileSync( readiumJsonFile, '[]\n', { flag : 'w' } );
-
-                vorpal.exec(
-                    `readium-json add ${args.configuration}`,
+                let deleteAllSucceeded = vorpal.execSync(
+                    `readium-json delete all ${args.configuration}`,
                     { fatal : true }
                 );
+
+                if ( deleteAllSucceeded ) {
+                    let addSucceeded = vorpal.execSync(
+                        `readium-json add ${args.configuration}`,
+                        { fatal : true }
+                    );
+
+                    if ( addSucceeded ) {
+                        vorpal.log( `Fully replaced all EPUBs in Readium JSON for conf ${args.configuration}.` );
+
+                        result = true;
+                    } else {
+                        result = false;
+                    }
+                } else {
+                    vorpal.log( `Aborting \`full-replace\` for ${args.configuration}.` );
+
+                    result = false;
+                }
+
+                if ( callback ) { callback(); } else { return result; }
             }
         );
 };
