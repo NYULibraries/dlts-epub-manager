@@ -41,25 +41,11 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly delete all EPUBs from Solr index', () => {
-        // First, put something in the index.  If it is already empty we can't
-        // be sure that the deletion actually worked.
-        const NUM_FIXTURE_EPUBS = 4;
-        let numFixtureEpubsAdded;
-
         try {
-            numFixtureEpubsAdded =
-                addEpubs( require( `./fixture/epub-json/${NUM_FIXTURE_EPUBS}-epubs.json` ) );
-        } catch( error ) {
-            assert.fail( error.statusCode, 200, error.message );
+            addFixtureSmallSubsetEpubs();
+        } catch (error ) {
+            assert.fail( null, null, error );
         }
-
-        let epubsBefore = getEpubs();
-
-        assert( epubsBefore.length === NUM_FIXTURE_EPUBS,
-                `Test is not set up right.  The test Solr index should contain ${NUM_FIXTURE_EPUBS} ` +
-                'EPUBs before the `delete all` operation, and it currently contains '                 +
-                numFixtureEpubsAdded + ' EPUBs.'
-        );
 
         vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
 
@@ -78,25 +64,11 @@ describe( 'solr command', () => {
                 'ERROR: test is not set up right.  ' +
                 `Failed to load configuration "${TEST_CONF_NAME}".` );
 
-        // First, put something in the index.  If it is already empty we can't
-        // be sure that the deletion actually worked.
-        const NUM_FIXTURE_EPUBS = 4;
-        let numFixtureEpubsAdded;
-
         try {
-            numFixtureEpubsAdded =
-                addEpubs( require( `./fixture/epub-json/${NUM_FIXTURE_EPUBS}-epubs.json` ) );
-        } catch( error ) {
-            assert.fail( error.statusCode, 200, error.message );
+            addFixtureSmallSubsetEpubs();
+        } catch (error ) {
+            assert.fail( null, null, error );
         }
-
-        let epubsBefore = getEpubs();
-
-        assert( epubsBefore.length === NUM_FIXTURE_EPUBS,
-                `Test is not set up right.  The test Solr index should contain ${NUM_FIXTURE_EPUBS} ` +
-                'EPUBs before the `delete all` operation, and it currently contains '                 +
-                numFixtureEpubsAdded + ' EPUBs.'
-        );
 
         vorpal.parse( [ null, null, 'solr', 'delete', 'delete-3' ] );
 
@@ -154,25 +126,11 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly full-replace full EPUBs with replace-3-add-3 EPUBs in Solr index', () => {
-        // First, put something in the index.  If it is already empty we can't
-        // be sure that the deletion actually worked.
-        const NUM_FIXTURE_EPUBS = 4;
-        let numFixtureEpubsAdded;
-
         try {
-            numFixtureEpubsAdded =
-                addEpubs( require( `./fixture/epub-json/${NUM_FIXTURE_EPUBS}-epubs.json` ) );
-        } catch( error ) {
-            assert.fail( error.statusCode, 200, error.message );
+            addFixtureSmallSubsetEpubs();
+        } catch (error ) {
+            assert.fail( null, null, error );
         }
-
-        let epubsBefore = getEpubs();
-
-        assert( epubsBefore.length === NUM_FIXTURE_EPUBS,
-                `Test is not set up right.  The test Solr index should contain ${NUM_FIXTURE_EPUBS} ` +
-                'EPUBs before the `delete all` operation, and it currently contains '                 +
-                numFixtureEpubsAdded + ' EPUBs.'
-        );
 
         vorpal.parse( [ null, null, 'solr', 'full-replace', 'replace-3-new-3' ] );
 
@@ -211,6 +169,25 @@ function clearSolrIndex() {
 
     if ( response.statusCode !== 200 ) {
         throw response.body.toString();
+    }
+}
+
+function addFixtureSmallSubsetEpubs() {
+    let smallSubsetJson = require( `./fixture/epub-json/small-subset-epubs.json` );
+
+    const NUM_FIXTURE_EPUBS = Object.keys( smallSubsetJson ).length;
+
+    try {
+        addEpubs( smallSubsetJson );
+    } catch( error ) {
+        throw error.message;
+    }
+
+    let epubs = getEpubs();
+
+    if ( epubs.length !== NUM_FIXTURE_EPUBS) {
+        throw `ERROR: attempted to add ${NUM_FIXTURE_EPUBS} fixture EPUBs, but there ` +
+              `are ${epubs.length} EPUBs currently in the index after add operation.`;
     }
 }
 
