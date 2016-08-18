@@ -39,11 +39,11 @@ describe( 'solr command', () => {
             assert.fail( error.statusCode, 200, error.message );
         }
 
-        let epubsAfter = getEpubs();
+        let epubs = getEpubs();
 
-        assert( epubsAfter.length === 0,
+        assert( epubs.length === 0,
                 'ERROR: beforeEach() is not set up right.  ' +
-                `Test Solr index still contains still contains ${epubsAfter.length} EPUBs.`
+                `Test Solr index still contains still contains ${epubs.length} EPUBs.`
         );
     } );
 
