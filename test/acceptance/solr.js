@@ -57,13 +57,6 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly delete 3 EPUBs from Solr index', () => {
-        const TEST_CONF_NAME = 'delete-3';
-        let loadSucceeded = loadConfiguration( TEST_CONF_NAME );
-
-        assert( loadSucceeded === true,
-                'ERROR: test is not set up right.  ' +
-                `Failed to load configuration "${TEST_CONF_NAME}".` );
-
         try {
             addFixtureSmallSubsetEpubs();
         } catch (error ) {
