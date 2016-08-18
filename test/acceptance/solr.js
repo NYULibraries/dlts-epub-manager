@@ -122,7 +122,35 @@ describe( 'solr command', () => {
         assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
     } );
 
-    xit( 'should correctly add 3 replacement EPUBs and 3 new EPUBs to Solr index', () => {
+    it( 'should correctly add 3 replacement EPUBs and 3 new EPUBs to Solr index', () => {
+        let fullEpubs = require( './fixture/epub-json/full-epubs.json' );
+
+        const NUM_FIXTURE_EPUBS = Object.keys( fullEpubs ).length;
+
+        let numFixtureEpubsAdded;
+
+        try {
+            numFixtureEpubsAdded =
+                addEpubs( fullEpubs );
+        } catch( error ) {
+            assert.fail( error.statusCode, 200, error.message );
+        }
+
+        let epubsBefore = getEpubs();
+
+        assert( epubsBefore.length === NUM_FIXTURE_EPUBS,
+                `Test is not set up right.  The test Solr index should contain ${NUM_FIXTURE_EPUBS} ` +
+                'EPUBs before the `delete all` operation, and it currently contains '                 +
+                numFixtureEpubsAdded + ' EPUBs.'
+        );
+
+        vorpal.parse( [ null, null, 'solr', 'add', 'replace-3-new-3' ] );
+
+        let epubs = getEpubs();
+
+        let expectedDocs = require( './fixture/solr-response-docs/expected-replace-3-add-3.json' );
+
+        assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
     } );
 
     xit( 'should correctly full-replace all EPUBs in Solr index', () => {
