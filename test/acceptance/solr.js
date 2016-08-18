@@ -148,7 +148,7 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        let expectedDocs = require( './fixture/solr-response-docs/expected-replace-3-add-3.json' );
+        let expectedDocs = require( './fixture/solr-response-docs/expected-full-followed-by-replace-3-add-3.json' );
 
         assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
     } );
