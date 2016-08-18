@@ -49,10 +49,10 @@ describe( 'solr command', () => {
 
         vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
 
-        let epubsAfter = getEpubs();
+        let epubs = getEpubs();
 
-        assert( epubsAfter.length === 0,
-                `Test Solr index still contains still contains ${epubsAfter.length} EPUBs.`
+        assert( epubs.length === 0,
+                `Test Solr index still contains still contains ${epubs.length} EPUBs.`
         );
     } );
 
@@ -65,15 +65,15 @@ describe( 'solr command', () => {
 
         vorpal.parse( [ null, null, 'solr', 'delete', 'delete-3' ] );
 
-        let epubsAfter = getEpubs();
+        let epubs = getEpubs();
 
-        assert( epubsAfter.length === 1,
+        assert( epubs.length === 1,
                 'Test Solr index should contain only 1 EPUB, and it currently ' +
-                `contains ${epubsAfter.length} EPUBs.`
+                `contains ${epubs.length} EPUBs.`
         );
 
         const EXPECTED_EPUB_ID = '9780814712481';
-        let actualEpubId = epubsAfter[ 0 ].identifier;
+        let actualEpubId = epubs[ 0 ].identifier;
         assert( actualEpubId === EXPECTED_EPUB_ID,
                 `Remaining EPUB has identifier "${actualEpubId}" instead of expected "${EXPECTED_EPUB_ID}".` );
     } );
