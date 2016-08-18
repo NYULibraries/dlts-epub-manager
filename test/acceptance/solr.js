@@ -125,8 +125,8 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        let expectedDocs = JSON.parse( expectedFull ).response.docs;
-        assert( _.isEqual( epubs, expectedDocs ) );
+        let expectedDocs = JSON.parse( expectedFull );
+        assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
     } );
 
     xit( 'should correctly add 3 replacement EPUBs and 3 new EPUBs to Solr index', () => {
