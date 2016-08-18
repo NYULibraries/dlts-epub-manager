@@ -201,7 +201,36 @@ function addEpubs( epubs ) {
 }
 
 function getEpubs() {
+    // Request all fields except for timestamp.
+    const FIELDS = [
+        'id',
+        'author',
+        'author_sort',
+        'coverHref',
+        'coverage',
+        'date',
+        'description',
+        'description_html',
+        'format',
+        'handle',
+        'identifier',
+        'language',
+        'packageUrl',
+        'publisher',
+        'rights',
+        'subject',
+        'subtitle',
+        'thumbHref',
+        'title',
+        'title_sort',
+        'type',
+        'collection_code',
+        'author',
+        'spell',
+    ];
+
     let solrSelectUrl = util.getSolrSelectUrl( conf ) + '/?rows=100&wt=json';
+    solrSelectUrl += '&fl=' + FIELDS.join( ',' );
 
     let response = request( 'GET', solrSelectUrl );
 
