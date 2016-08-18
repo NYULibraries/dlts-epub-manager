@@ -125,12 +125,6 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
-                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
-
-                    if ( callback ) { callback(); } else { return false; }
-                }
-
                 try {
                     deleteAllEpubs();
 
