@@ -21,7 +21,7 @@ describe( 'solr command', () => {
 
     before( ( ) => {
         expectedFull = util.jsonStableStringify(
-            require( './fixture/solr-responses/full.json' )
+            require( './fixture/solr-response-docs/expected-full.json' )
         );
     } );
 
