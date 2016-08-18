@@ -1,13 +1,13 @@
 "use strict";
 
-let async = require( 'async' );
-let solr  = require( 'solr-client' );
-
+let request   = require( 'sync-request' );
 let util  = require( '../../lib/util' );
 
-let client;
+let em;
 
 module.exports = function( vorpal ){
+    em = vorpal.em;
+
     vorpal.command( 'solr' )
         .description( 'Manage Solr index.' )
         .action(
@@ -30,38 +30,30 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    callback();
-                    return;
+                    if ( callback ) { callback(); } else { return false; }
                 }
-
-                client = setupClient( vorpal.em.conf );
 
                 let epubs = vorpal.em.metadata.getAll();
 
-                async.mapSeries( epubs, addEpub, ( error, results ) => {
-                    if ( error ) {
-                        vorpal.log( 'ERROR adding to Solr index:\n' +
-                            JSON.stringify( error, null, 4 )
-                        );
-                    } else {
-                        results.forEach( ( result ) => {
-                            vorpal.log( result );
-                        });
-                    }
-                } );
+                try {
+                    let epubsAdded = addEpubs( epubs );
 
-                vorpal.log( `Queued Solr add/update job for conf "${vorpal.em.conf.name}": ` +
-                            `${epubs.size } EPUBs.` );
+                    vorpal.log( `Added ${epubs.size} EPUBs to Solr index:\n` + epubsAdded.join( '\n' ) );
 
-                callback();
+                    if ( callback ) { callback(); } else { return true; }
+                } catch ( error ) {
+                    vorpal.log( 'ERROR adding document to Solr index:\n' +
+                                error );
+
+                    if ( callback ) { callback(); } else { return false; }
+                }
             }
         );
 
@@ -77,38 +69,34 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    callback();
-                    return;
+                    if ( callback ) { callback(); } else { return false; }
                 }
-
-                client = setupClient( vorpal.em.conf );
 
                 let epubs = vorpal.em.metadata.getAll();
 
-                async.mapSeries( epubs, deleteEpub, ( error, results ) => {
-                    if ( error ) {
-                        vorpal.log( 'ERROR deleting documents from Solr index:\n' +
-                                    JSON.stringify( error, null, 4 )
-                        );
-                    } else {
-                        results.forEach( ( result ) => {
-                            vorpal.log( result );
-                        });
+                epubs.forEach( ( epub ) => {
+                    try {
+                        deleteEpub( epub );
+
+                        vorpal.log( `Deleted ${epub.identifier} from Solr index.` );
+
+                        if ( callback ) { callback(); } else { return true; }
+                    } catch ( error ) {
+                        vorpal.log( 'ERROR deleting document from Solr index:\n' +
+                                    error );
+
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 } );
 
-                vorpal.log( `Queued Solr delete job for conf "${vorpal.em.conf.name}": ` +
-                            `${epubs.size } EPUBs.` );
-
-                callback();
+                vorpal.log( `Deleted ${epubs.size } EPUBs.` );
             }
         );
 
@@ -123,119 +111,126 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        callback();
-                        return;
+                        if ( callback ) { callback(); } else { return false; }
                     }
                 }
 
-                if ( ! vorpal.em.conf ) {
-                    vorpal.log( util.ERROR_CONF_NOT_LOADED );
+                try {
+                    deleteAllEpubs();
 
-                    callback();
-                    return;
+                    vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
+
+                    if ( callback ) { callback(); } else { return true; }
+                } catch( error ) {
+                    vorpal.log( 'ERROR deleting documents from Solr index:\n' +
+                                error
+                            );
+
+                    if ( callback ) { callback(); } else { return false; }
                 }
-
-                client = setupClient( vorpal.em.conf );
-
-                deleteAllEpubs( ( error ) => {
-                    if ( error ) {
-                        vorpal.log( 'ERROR deleting documents from Solr index:\n' +
-                                    JSON.stringify( error, null, 4 )
-                        );
-                    } else {
-                        vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
-                    }
-                } );
-
-                vorpal.log( `Queued Solr delete all job for conf "${vorpal.em.conf.name}".` );
-
-                callback();
             }
         );
 
-    vorpal.command( 'solr full-replace' )
+    vorpal.command( 'solr full-replace [configuration]' )
         .description( 'Replace entire Solr index.' )
         .action(
             function( args, callback ) {
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                let result = false;
 
-                callback();
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
+
+                        if ( callback ) { callback(); } else { return false; }
+                    }
+                }
+
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
+
+                    if ( callback ) { callback(); } else { return false; }
+                }
+
+                let deleteAllSucceeded = vorpal.execSync( `solr delete all ${args.configuration}`, { fatal : true } );
+
+                if ( deleteAllSucceeded ) {
+                    let addSucceeded = vorpal.execSync( `solr add ${args.configuration}`, { fatal : true } );
+
+                    if ( addSucceeded ) {
+                        vorpal.log( `Fully replaced all EPUBs for conf ${args.configuration}.` );
+
+                        result = true;
+                    } else {
+                        result = false;
+                    }
+                } else {
+                    vorpal.log( `Aborting \`full-replace\` for ${args.configuration}.` );
+
+                    result = false;
+                }
+
+                if ( callback ) { callback(); } else { return result; }
             }
         );
 };
 
-function setupClient( conf ) {
-    let client = solr.createClient();
+function addEpubs( epubs) {
+    let solrUpdateUrl = util.getSolrUpdateUrl( em.conf ) + '/json?commit=true';
 
-    // This doesn't seem to do anything.  Also looked through the code and tests
-    // and found no reference to this option.
-    // client.autoCommit = true;
-    
-    client.options.host = conf.solrHost;
-    client.options.port = conf.solrPort;
-    client.options.path = conf.solrPath;
+    let addRequest = [];
+    let epubsAdded = [];
 
-    return client;
-}
+    epubs.forEach( ( epub ) => {
+        let doc = { id : epub.identifier };
 
-// Designed to be iteratee function for async.mapSeries()
-function addEpub( epub, callback ) {
-    let id       = epub[ 0 ];
-    let metadata = epub[ 1 ];
-    let doc      = { id };
-
-    Object.keys( metadata ).forEach(
-        ( key ) => {
-            doc[key] = metadata[key];
-        }
-    );
-
-    client.add(
-        doc, { commitWithin : 3000 }, ( error, obj ) => {
-            if ( error ) {
-                callback( JSON.stringify( error, null, 4 ) );
-            } else {
-                // Not sure if a status check is necessary or not.  Maybe if
-                // status is non-zero there will always been an error thrown?
-                let status = obj.responseHeader.status;
-                if ( status === 0 ) {
-                    callback( null, `Added ${id} to Solr index.` );
-                } else {
-                    callback( null, `Added ${id} to Solr index.  Status code: ${status}` );
-                }
+        Object.keys( epub ).forEach(
+            ( key ) => {
+                doc[ key ] = epub[ key ];
             }
-        }
-    );
-}
+        );
 
-function deleteEpub( epub, callback ) {
-    let id = epub[ 0 ];
-
-    client.deleteByID(
-        id, { commitWithin : 3000 }, ( error, obj ) => {
-            if ( error ) {
-                callback( JSON.stringify( error, null, 4 ) );
-            } else {
-                // Not sure if a status check is necessary or not.  Maybe if
-                // status is non-zero there will always been an error thrown?
-                let status = obj.responseHeader.status;
-                if ( status === 0 ) {
-                    callback( null, `Deleted ${id} from Solr index.` );
-                } else {
-                    callback( null, `Deleted ${id} from Solr index.  Status code: ${status}` );
-                }
-            }
-        }
-    );
-}
-
-function deleteAllEpubs( callback ) {
-    client.deleteByQuery( '*:*', { commitWithin : 3000 }, ( error, obj ) => {
-        if ( error ) {
-            callback( error );
-        } else {
-            callback();
-        }
+        addRequest.push( doc );
+        epubsAdded.push( epub.identifier );
     } );
+
+    let response = request(
+        'POST', solrUpdateUrl, {
+            body : JSON.stringify( addRequest )
+        }
+    );
+
+    if ( response.statusCode !== 200 ) {
+        throw response.body.toString();
+    }
+
+    return epubsAdded;
+}
+
+function deleteEpub( epub ) {
+    try {
+        deleteEpubsByQuery( 'identifier:' + epub.identifier );
+    } catch ( error ) {
+        throw error;
+    }
+}
+
+function deleteAllEpubs() {
+    try {
+        deleteEpubsByQuery( '*:*' );
+    } catch ( error ) {
+        throw error;
+    }
+}
+
+function deleteEpubsByQuery( query ) {
+    let requestUrl = util.getSolrUpdateUrl( em.conf ) +
+                        `/?commit=true&stream.body=<delete><query>${query}</query></delete>`;
+
+    let response = request( 'GET', requestUrl );
+
+    if ( response.statusCode !== 200 ) {
+        throw response.body.toString();
+    }
 }

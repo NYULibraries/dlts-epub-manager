@@ -13,15 +13,15 @@
   "author": "da70",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.0.0-rc.5",
     "json-stable-stringify": "^1.0.1",
+    "lodash": "^4.15.0",
     "rimraf": "^2.5.2",
-    "solr-client": "^0.6.0",
     "vorpal": "^1.10.8"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "sync-request": "^3.0.1"
   },
   "jshintConfig": {
     "bitwise": true,

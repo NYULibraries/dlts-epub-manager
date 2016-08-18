@@ -3,5 +3,9 @@
     "epubList"              : null,
     "metadataDir"           : "test/acceptance/fixture/metadataDirs/delete-3",
 
-    "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json"
+    "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
+
+    "solrHost" : "localhost",
+    "solrPort" : 8080,
+    "solrPath" : "/solr/em-test"
 }
