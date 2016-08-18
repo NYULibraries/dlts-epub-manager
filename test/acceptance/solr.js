@@ -175,17 +175,22 @@ function clearSolrIndex() {
 function addFixtureSmallSubsetEpubs() {
     let smallSubsetJson = require( `./fixture/epub-json/small-subset-epubs.json` );
 
-    const NUM_FIXTURE_EPUBS = Object.keys( smallSubsetJson ).length;
+    // This function throws errors.  Let caller handle them.
+    addFixtureEpubs( smallSubsetJson );
+}
+
+function addFixtureEpubs( json ) {
+    const NUM_FIXTURE_EPUBS = Object.keys( json ).length;
 
     try {
-        addEpubs( smallSubsetJson );
+        addEpubs( json );
     } catch( error ) {
         throw error.message;
     }
 
     let epubs = getEpubs();
 
-    if ( epubs.length !== NUM_FIXTURE_EPUBS) {
+    if ( epubs.length !== NUM_FIXTURE_EPUBS ) {
         throw `ERROR: attempted to add ${NUM_FIXTURE_EPUBS} fixture EPUBs, but there ` +
               `are ${epubs.length} EPUBs currently in the index after add operation.`;
     }
