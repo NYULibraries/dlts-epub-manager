@@ -29,7 +29,7 @@ describe( 'solr command', () => {
         try {
             clearSolrIndex();
         } catch ( error ) {
-            assert.fail( error.statusCode, 200, error.message );
+            assert.fail( null, null, error );
         }
 
         let epubs = getEpubs();
