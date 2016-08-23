@@ -6,6 +6,6 @@
     "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
 
     "solrHost" : "localhost",
-    "solrPort" : 8080,
+    "solrPort" : 9001,
     "solrPath" : "/solr/em-test"
 }

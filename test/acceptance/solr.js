@@ -10,7 +10,10 @@ let request   = require( 'sync-request' );
 let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
 
-const SOLR_TEST_CORE = 'em-test';
+const CONF                        = 'full-metadataDir';
+
+const SOLR_SETUP_AND_START_SCRIPT = 'test/solr/start-solr-test-server.sh'
+const SOLR_TEST_CORE              = 'em-test';
 
 vorpal.em.configDir = __dirname + '/fixture/config';
 
@@ -18,14 +21,28 @@ let conf;
 
 describe( 'solr command', () => {
 
-    beforeEach( ( ) => {
-        const BEFORE_EACH_CONF_NAME = 'full-metadataDir';
-        let loadSucceeded = loadConfiguration( BEFORE_EACH_CONF_NAME );
+    before( ( ) => {
+        let loadSucceeded = loadConfiguration( CONF );
 
         assert( loadSucceeded === true,
                 'ERROR: beforeEach() is not set up right.  ' +
-                `Failed to load configuration "${BEFORE_EACH_CONF_NAME}".` );
+                `Failed to load configuration "${CONF}".` );
 
+        let requestError = {};
+        if ( ! util.isSolrResponding( conf, requestError ) ) {
+            let errorMessage = '\n\nSolr is not responding.  '                  +
+                               'Try running Solr setup and start script:\n\n\t' +
+                               SOLR_SETUP_AND_START_SCRIPT;
+
+            if ( requestError.message ) {
+                errorMessage += `\n\n${requestError.message}`;
+            }
+
+            assert.fail( null, null, errorMessage );
+        }
+    } );
+
+    beforeEach( ( ) => {
         try {
             clearSolrIndex();
         } catch ( error ) {
