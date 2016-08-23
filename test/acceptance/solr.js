@@ -19,13 +19,15 @@ let conf;
 
 describe( 'solr command', () => {
 
-    beforeEach( ( ) => {
+    before( ( ) => {
         let loadSucceeded = loadConfiguration( CONF );
 
         assert( loadSucceeded === true,
                 'ERROR: beforeEach() is not set up right.  ' +
                 `Failed to load configuration "${CONF}".` );
+    } );
 
+    beforeEach( ( ) => {
         try {
             clearSolrIndex();
         } catch ( error ) {
