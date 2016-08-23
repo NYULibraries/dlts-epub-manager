@@ -1,7 +1,6 @@
 "use strict";
 
 module.exports = function( vorpal ){
-    vorpal.log( `Loaded ${ __filename }.` );
 
     vorpal.command( 'handles' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )

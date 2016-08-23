@@ -1,7 +1,6 @@
 "use strict";
 
 module.exports = function( vorpal ){
-    vorpal.log( `Loaded ${ __filename }.` );
 
     vorpal.command( 'verify' )
         .description( 'Verify integrity of published collection, handles, and metadata indexes.' )
