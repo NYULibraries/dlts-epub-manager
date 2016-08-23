@@ -9,19 +9,6 @@ let em;
 module.exports = function( vorpal ){
     em = vorpal.em;
 
-    vorpal.command( 'readium-json' )
-        .description( 'Manage `epub_library.json` file.' )
-        .action(
-            function( args, callback ) {
-                let result = false;
-
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
-
-                if ( callback ) { callback(); } else { return true; }
-            }
-        );
-
     vorpal.command( 'readium-json add [configuration]' )
         .description( 'Add EPUBs to `epub_library.json` file.' )
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )

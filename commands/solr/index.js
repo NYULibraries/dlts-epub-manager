@@ -8,17 +8,6 @@ let em;
 module.exports = function( vorpal ){
     em = vorpal.em;
 
-    vorpal.command( 'solr' )
-        .description( 'Manage Solr index.' )
-        .action(
-            function( args, callback ) {
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
-
-                callback();
-            }
-        );
-
     vorpal.command( 'solr add [configuration]' )
         .description( 'Add EPUBs to Solr index.' )
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
