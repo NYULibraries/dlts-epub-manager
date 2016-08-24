@@ -7,5 +7,5 @@
 
     "solrHost" : "localhost",
     "solrPort" : 9001,
-    "solrPath" : "/solr/em-test"
+    "solrPath" : "/solr/test-core"
 }

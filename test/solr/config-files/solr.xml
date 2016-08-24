@@ -33,7 +33,7 @@
   sharedLib: path to a lib directory that will be shared across all cores
 -->
 <solr persistent="false">
-  <cores adminPath="/admin/cores" defaultCoreName="em-test">
-    <core name="em-test" instanceDir="em-test"/>
+  <cores adminPath="/admin/cores" defaultCoreName="test-core">
+    <core name="test-core" instanceDir="test-core"/>
   </cores>
 </solr>

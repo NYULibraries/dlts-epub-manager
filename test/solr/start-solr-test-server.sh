@@ -14,7 +14,7 @@ export TEST_ROOT=$(pwd)
 export CONFIG_FILES=${TEST_ROOT}/config-files
 export SOLR_ARCHIVE="${TEST_ROOT}/download-cache/${SOLR_VERSION}.tgz"
 export SOLR_ROOT=${TEST_ROOT}/solr-${SOLR_VERSION}
-export SOLR_CORE=${SOLR_ROOT}/solr/em-test
+export SOLR_CORE=${SOLR_ROOT}/solr/test-core
 
 if [ -f ${SOLR_ARCHIVE} ]; then
     # If the tarball doesn't extract cleanly, remove it so it'll download again:
