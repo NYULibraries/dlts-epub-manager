@@ -112,7 +112,7 @@ module.exports = function( vorpal ) {
                 if ( vorpal.em.metadata ) {
                     try {
                         fs.writeFileSync( dumpFile, vorpal.em.metadata.dump() );
-
+                        vorpal.log( `Metadata dumped to ${dumpFile}.` )
                         result = true;
                     } catch( e ) {
                         vorpal.log(
