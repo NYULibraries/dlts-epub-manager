@@ -52,5 +52,5 @@ export CMD="java -Djetty.port=9001 -Djava.awt.headless=true -Dapple.awt.UIElemen
 if [ -z "${BACKGROUND_SOLR}" ]; then
     exec $CMD
 else
-    exec $CMD >/dev/null &
+    exec $CMD 1>/dev/null 2>/dev/null &
 fi
