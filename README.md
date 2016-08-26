@@ -61,9 +61,9 @@ are already
 included in the repo):
 
 ```
-$ ls config/
+somebody@host:~/epub-manager$ ls config/
 dev.json   prod.json   stage.json
-$ cat > config/local.json
+somebody@host:~/epub-manager$ cat > config/local.json
 {
     "cacheMetadataInMemory" : true,
     "epubList"              : null,
@@ -77,7 +77,9 @@ $ cat > config/local.json
 }
 ```
 
-**Step 4)** Process EPUBs
+See [Configuration file format](#configuration-file-format) for more details.
+
+### Quickstart
 
 Solr indexing - dev configuration:
 
@@ -115,15 +117,15 @@ Load prod configuration metadata and write to file.  Start interactive shell,
 run `load prod` followed by `load write`.
 
 ```
-$ ./em
+somebody@host:~/epub-manager$ ./em
 em$ load prod
 Cloning into '/Users/david/Documents/programming/src/dlts/epub-manager/cache/metadataRepo'...
 Already on 'master'
 em$ load write
 Metadata dumped to /home/someboady/epub-manager/cache/metadata.json.
 em$ quit
-$ # Metadata for prod was written to JSON file in cache directory.
-$ ls cache/metadata.json
+somebody@host:~/epub-manager$ # Metadata for prod was written to JSON file in cache directory.
+somebody@host:~/epub-manager$ ls cache/metadata.json
 cache/metadata.json
 
 ```
@@ -132,7 +134,7 @@ Get help message (note that not all commands listed in help have been implemente
 yet):
 
 ```
-$ ./em help
+somebody@host:~/epub-manager$ ./em help
 
   Commands:
 
@@ -171,7 +173,7 @@ $ ./em help
 Get help for specific commands in interactive mode:
 
 ```
-$ ./em
+somebody@host:~/epub-manager$ ./em
 em$ help load
 
   Usage: load [options] <configuration>
@@ -194,32 +196,222 @@ em$ help solr
 em$
 ```
 
-See [Configuration file format](#configuration-file-format) for more details.
+### Usage
 
-### Examples
+`em` is built using [Vorpal](https://github.com/dthree/vorpal), a NodeJS framework
+for building interactive CLI applications.  The various EPUB management functions
+are executed using specific commands: `load`, `solr`, and `readium-json`.
+Most `em` commands and subcommands can be run immediately from the command line
+by passing them as arguments to the `em` script.  There are relatively small subset
+that can only be run in the interactive shell because they are part of a sequence
+of multiple commands.
 
-[TODO: exploded content]
+The `help` command lists all these function commands along with information about
+their subcommands and options.  For help on individual commands, use `help COMMAND`.
+Note that the following commands are listed in `help` but are not yet implemented,
+they are there as placeholders only (and for testing):
+`handles`, `intake`, `publish`, `verify`.
+
+While in interactive shell mode, the following features are available:
+
+* Autocompletion via the `tab` key.  Commands can be autocompleted, as can their
+subcommands.  For commands that take the `[configuration]`, there is autocompletion
+for the names of the configuration files in `config/` (minus their *.json suffixes).
+* Command history using the up and down arrows.
+
+#### General note about operations
+
+Most of the commands share a similar set of subcommands which run specific
+operations whose semantics are generally the same for all commands.  In each
+case, EPUB-related data are first loaded by a `load [configuration]` operation
+(which is performed transparently if [configuration]` is used with the current
+command).  The subcommand then performs operations on the destination, which is
+usually a datastore of some kind or a filesystem.
+
+* `add`: add EPUB data to the destination, updating in place any EPUBs that already
+ exist.  Do not delete any existing EPUBs.
+* `delete`: delete the EPUB data specified by `[configuration]` from the destination.
+Do not delete any other data for EPUBs that are already there.
+* `delete all`: delete all EPUB data from the destination, regardless of whether
+they correlate with EPUBs specified in `[configuration]`.
+* `full-repace`: this is a `delete all` followed by an `add`.
+
+#### Examples
+
+See [Quickstart](#quickstart) for some basic usage examples.  Below are some more
+detailed use cases.
+
+##### Note about invocation
+
+Most of the examples given will employ the interactive shell.
+With few exceptions, the command invocations shown can also be performed in
+immediate execution mode.
+For example, the following command invocations do the same thing:
+
+In `em` shell, using the `tab` key to get suggestions for `[configuration]`:
 
 ```
-Examples
+somebody@host:~/epub-manager$ ./em
+em$ readium-json add
+dev  local  prod  stage
+em$ readium-json add local
+Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
 ```
 
-[TODO: Solr]
+Immediately executed on the command line:
 
 ```
-Examples
+somebody@host:~/epub-manager$ ./em readium-json add local
+Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
 ```
 
+**Update Solr index and `epub_library.json` for `local`
+(from [Installation and setup](#installation-and-setup)), then add to Solr index for
+[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json)**
 
-[TODO: handle server]
-```
-Examples
-```
-
-[TODO: epub_library.json]
+Note that `local` configuration specifies `metadataDir` while
+[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json)
+specifies `metadataRepo`, `metadataRepoBranch`, and `metadataRepoSubdirectory`.
 
 ```
-Examples
+somebody@host:~/epub-manager$ ./em
+em$ load local
+em$ solr add
+Added 67 EPUBs to Solr index:
+9780814706404
+9780814706657
+9780814711774
+...
+[SNIPPED]
+em$ readium-json add
+Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+em$ load dev
+Cloning into '/home/somebody/epub-manager/cache/metadataRepo'...
+Switched to a new branch 'develop'
+em$ solr add
+Added 67 EPUBs to Solr index:
+9780814706404
+9780814706657
+9780814711774
+...
+[SNIPPED]
+em$ quit
+
+```
+
+...or...
+
+```
+somebody@host:~/epub-manager$ ./em
+em$ solr add local
+Added 67 EPUBs to Solr index:
+9780814706404
+9780814706657
+9780814711774
+...
+[SNIPPED]
+em$ readium-json add local
+Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+em$ load dev
+Cloning into '/home/somebody/epub-manager/cache/metadataRepo'...
+Switched to a new branch 'develop'
+em$ solr add dev
+Cloning into '/Users/david/Documents/programming/src/dlts/epub-manager/cache/metadataRepo'...
+Switched to a new branch 'develop'
+Added 67 EPUBs to Solr index:
+9780814706404
+9780814706657
+9780814711774
+...
+[SNIPPED]
+em$ quit
+```
+
+**Dump metadata for 3 EPUBs into file `cache/3-epubs.json`, then delete them
+from [stage](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/stage.json)
+Solr index, then dump the metadata again to `/tmp/3-epubs.json`**
+
+Note that `load write [file]` cannot be run in immediate execution mode, because
+it must first be preceded by `load [configuration]`.
+
+Copy [config/stage.json](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/stage.json)
+to `config/ad-hoc.json` (for example) and change:
+
+```
+"epubList"              : null,
+```
+
+...to:
+
+```
+"epubList"              : [ "9780814706404", "9780814706657", "9780814711774" ],
+```
+
+...then:
+
+```
+somebody@host:~/epub-manager$ ./em
+em$ load ad-hoc
+Cloning into '/home/somebody/epub-manager/cache/metadataRepo'...
+Switched to a new branch 'stage'
+em$ load write cache/3-epubs.json
+Metadata dumped to cache/3-epubs.json.
+em$ quit
+somebody@host:~/epub-manager$ ls cache/3-epubs.json
+  cache/3-epubs.json
+somebody@host:~/epub-manager$ ./em
+em$ solr delete ad-hoc
+Cloning into '/home/somebody/epub-manager/cache/metadataRepo'...
+Switched to a new branch 'stage'
+Deleted 9780814706404 from Solr index.
+Deleted 9780814706657 from Solr index.
+Deleted 9780814711774 from Solr index.
+Deleted 3 EPUBs.
+em$ quit
+somebody@host:~/epub-manager$ cat cache/3-epubs.json
+cat: cache/3-epubs.json: No such file or directory
+somebody@host:~/epub-manager$ # Whoops, cache/ was cleared when `em` was restarted for `solr delete ad-hoc`.
+somebody@host:~/epub-manager$ # Write the file to /tmp/ instead:
+somebody@host:~/epub-manager$ ./em
+em$ load ad-hoc
+em$ load write /tmp/3-epubs.json
+Metadata dumped to /tmp/3-epubs.json.
+em$ quit
+somebody@host:~/epub-manager$ ls /tmp/3-epubs.json
+/tmp/3-epubs.json
+```
+
+**Delete all EPUBs in `epub_library.json` file for `local`, then add `local` EPUBs
+twice, then do a full replace**
+
+```
+somebody@host:~/epub-manager$ ./em
+em$ readium-json delete all local
+Deleted all EPUBs from /home/somebody/dl-pa-servers-epub-content/epub_library.json.
+em$ quit
+somebody@host:~/epub-manager$ cat /home/somebody/dl-pa-servers-epub-content/epub_library.json
+[]
+somebody@host:~/epub-manager$ # Accidentally add `local` EPUBs twice.  The second
+somebody@host:~/epub-manager$ # `add` will simply update with the same content.
+somebody@host:~/epub-manager$ ./em
+em$ readium-json add local
+Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+em$ readium-json add local
+Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+em$ quit
+somebody@host:~/epub-manager$ # Verify that the file only has 67 EPUBs in it, despite
+somebody@host:~/epub-manager$ # having run `readium-json add local` twice.
+somebody@host:~/epub-manager$ grep '"identifier":' //home/somebody/dl-pa-servers-epub-content/epub_library.json | wc -l
+      67
+somebody@host:~/epub-manager$ # But do a full replace anyway...
+somebody@host:~/epub-manager$ ./em
+em$ readium-json full-replace local
+Deleted all EPUBs from /home/somebody/dl-pa-servers-epub-content/epub_library.json.
+Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+Fully replaced all EPUBs in Readium JSON for conf local.
+em$ quit
+somebody@host:~/epub-manager$ grep '"identifier":' /home/somebody/dl-pa-servers-epub-content/epub_library.json | wc -l
+      67
 ```
 
 ## Running the tests
@@ -242,7 +434,7 @@ If it is not running, the test will produce an error message with instructions o
 start the test Solr:
 
 ```
-$ mocha test/acceptance/solr
+somebody@host:~/epub-manager$ mocha test/acceptance/solr
 
 
   solr command
