@@ -16,12 +16,12 @@
     "json-stable-stringify": "^1.0.1",
     "lodash": "^4.15.0",
     "rimraf": "^2.5.2",
+    "sync-request": "^3.0.1",
     "vorpal": "^1.10.8"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5",
-    "sync-request": "^3.0.1"
+    "mocha": "^2.4.5"
   },
   "jshintConfig": {
     "bitwise": true,
