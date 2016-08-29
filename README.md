@@ -56,9 +56,9 @@ git clone [REPO] ~/dl-pa-servers-epub-content
 ```
 
 **Step 3)** Make a local configuration if desired
-([dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json),
-[stage](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/stage.json),
-and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/prod.json)
+([dev](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json),
+[stage](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json),
+and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/prod.json)
 are already
 included in the repo):
 
@@ -272,12 +272,12 @@ Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_librar
 
 **EXAMPLE: Update Solr index and `epub_library.json` for `local`
 (from [Installation and setup](#installation-and-setup)), then add to Solr index for
-[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json).**
+[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json).**
 
 ---
 
 Note that `local` configuration specifies `metadataDir` while
-[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json)
+[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json)
 specifies `metadataRepo`, `metadataRepoBranch`, and `metadataRepoSubdirectory`.
 
 ```
@@ -348,7 +348,7 @@ e.g. `/var/www/html/readium-js-viewer/cloud-reader/epub_content/epub_library.jso
 ---
 
 **EXAMPLE: Dump metadata for 3 EPUBs into file `cache/3-epubs.json`, then delete them
-from [stage](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/stage.json)
+from [stage](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json)
 Solr index, then dump the metadata again to `/tmp/3-epubs.json`.**
 
 ---
@@ -356,7 +356,7 @@ Solr index, then dump the metadata again to `/tmp/3-epubs.json`.**
 Note that `load write [file]` cannot be run in immediate execution mode, because
 it must first be preceded by `load [configuration]`.
 
-Copy [config/stage.json](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/stage.json)
+Copy [config/stage.json](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json)
 to `config/ad-hoc.json` (for example) and change:
 
 ```
@@ -506,9 +506,9 @@ and are used as autocomplete possibilities for commands that take a configuratio
 option.
 
 The
-[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json),
-[stage](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/stage.json),
-and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/prod.json)
+[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json),
+[stage](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json),
+and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/prod.json)
 configurations for NYU Press collections are already included in the repo.
 New configuration files can be created in `config/` and will be ignored by git.
 
@@ -539,6 +539,6 @@ Example: "/home/somebody/dl-pa-servers-epub-content/epub_library.json"
 
 For examples conf files that illustrate the correct usage of all the above options,
 look in
-[config/](https://github.com/NYULibraries/dlts-epub-manager/tree/develop/config)
+[config/](https://github.com/NYULibraries/dlts-epub-manager/tree/master/config)
 and
-[test/acceptance/fixture/config/](https://github.com/NYULibraries/dlts-epub-manager/tree/develop/test).
+[test/acceptance/fixture/config/](https://github.com/NYULibraries/dlts-epub-manager/tree/master/test).
