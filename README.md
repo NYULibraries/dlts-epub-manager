@@ -506,4 +506,5 @@ Example: "/home/somebody/dl-pa-servers-epub-content/epub_library.json"
 * **solrPort**: port that Solr is running on.  Example: 8080
 * **solrPath**: path to Solr server.  Example: "/solr"
 
-For examples, look in `config/` and `/test/acceptance/fixture/config/`.
+For examples conf files that illustrate the correct usage of all the above options,
+look in `config/` and `/test/acceptance/fixture/config/`.
