@@ -1,20 +1,22 @@
 # em - DLTS EPUB Manager
 
-**`em` is a command-line program for managing the DLTS EPUB collections made available online
+`em` is a command-line program for managing the DLTS EPUB collections made available online
  by NYU Press websites [Open Access Books](https://github.com/NYULibraries/dlts-open-access-books)
-and [Connected Youth](https://github.com/NYULibraries/dlts-connected-youth).**
+and [Connected Youth](https://github.com/NYULibraries/dlts-connected-youth).
 
-Current functions
+## Overview
+
+Current functions:
 
 * Add, update, delete EPUBs in Solr index.
 * Add, update, delete EPUBs in [epub_library.json file](https://github.com/readium/readium-js-viewer/blob/master/epub_content/epub_library.json) used by
-[ReadiumJS viewer](https://github.com/readium/readium-js-viewer)
+[ReadiumJS viewer](https://github.com/readium/readium-js-viewer).
 * Write out metadata dump file for analysis.
 
 Functions that will be migrated from the previous system at a later date:
 
 * Intake of EPUB files: decompressing, creating thumbnails, normalization.
-* Add, update, delete handles from the handle server.
+* Add, update, delete handles.
 
 Possible future functions:
 
@@ -22,18 +24,18 @@ Possible future functions:
 * Verification of collection: check that decompressed EPUB files, Solr index, and
 `epub_library.json` file are in sync.
 
-Can operate in either immediate execution or interactive shell mode.
+`em` can operate in either immediate execution or interactive shell mode.
 
 ## Getting Started
 
 ### Prerequisities
 
 * NodeJS version 4.x or higher (for ES6 support).
-* Java  for running the bundled Solr v3.6.0 used for `solr` tests.
+* Java for running the bundled Solr v3.6.0 used for `solr` tests.
 
 ### Installation and setup
 
-To use `em` for processing NYU Press collections, do the following steps.
+To use `em` for processing NYU Press collections, do the following steps:
 
 **Step 1)** Clone the repo and install NPM packages:
 
@@ -44,7 +46,7 @@ npm install
 ```
 
 **Step 2)** Clone the repos containing the EPUB metadata and the `epub_library.json` file.
-For the NYU Press websites, the former is public Github repo [dlts-epub-metadata](https://github.com/NYULibraries/dlts-epub-metadata).
+For the NYU Press websites, the former is the public Github repo [dlts-epub-metadata](https://github.com/NYULibraries/dlts-epub-metadata).
 The latter is the `dl-pa-servers-epub-content` private repo and can be accessed
 by DLTS and technical partners only.
 
@@ -77,7 +79,7 @@ somebody@host:~/epub-manager$ cat > config/local.json
 }
 ```
 
-See [Configuration file format](#configuration-file-format) for more details.
+See [Configuration file format](#configuration-file) for more details.
 
 ### Quickstart
 
@@ -113,7 +115,7 @@ Solr indexing - dev configuration:
 ./em readium-json full-replace local
 ```
 
-Load prod configuration metadata and write to file.  Start interactive shell,
+Load prod configuration metadata and write to file: start interactive shell,
 run `load prod` followed by `load write`.
 
 ```
@@ -202,21 +204,22 @@ em$
 for building interactive CLI applications.  The various EPUB management functions
 are executed using specific commands: `load`, `solr`, and `readium-json`.
 Most `em` commands and subcommands can be run immediately from the command line
-by passing them as arguments to the `em` script.  There are relatively small subset
-that can only be run in the interactive shell because they are part of a sequence
-of multiple commands.
+by passing them as arguments to the `em` script.  There are a relatively small subset
+of commands that can only be run in the interactive shell because they must be run
+as part of a sequence of commands.
 
 The `help` command lists all these function commands along with information about
 their subcommands and options.  For help on individual commands, use `help COMMAND`.
-Note that the following commands are listed in `help` but are not yet implemented,
-they are there as placeholders only (and for testing):
+Note that the following commands are listed in `help` but are not yet implemented:
 `handles`, `intake`, `publish`, `verify`.
+These have been set up as placeholders only (and for testing).
 
 While in interactive shell mode, the following features are available:
 
 * Autocompletion via the `tab` key.  Commands can be autocompleted, as can their
-subcommands.  For commands that take the `[configuration]`, there is autocompletion
-for the names of the configuration files in `config/` (minus their *.json suffixes).
+subcommands.  In addition, for commands that take the `[configuration]` option,
+there is autocompletion for the names of the configuration files in `config/`
+(minus their *.json suffixes).
 * Command history using the up and down arrows.
 
 #### General note about operations
@@ -224,7 +227,7 @@ for the names of the configuration files in `config/` (minus their *.json suffix
 Most of the commands share a similar set of subcommands which run specific
 operations whose semantics are generally the same for all commands.  In each
 case, EPUB-related data are first loaded by a `load [configuration]` operation
-(which is performed transparently if [configuration]` is used with the current
+(which is performed transparently if `[configuration]` is used with the current
 command).  The subcommand then performs operations on the destination, which is
 usually a datastore of some kind or a filesystem.
 
@@ -233,7 +236,7 @@ usually a datastore of some kind or a filesystem.
 * `delete`: delete the EPUB data specified by `[configuration]` from the destination.
 Do not delete any other data for EPUBs that are already there.
 * `delete all`: delete all EPUB data from the destination, regardless of whether
-they correlate with EPUBs specified in `[configuration]`.
+the EPUBs are specified in `[configuration]`.
 * `full-repace`: this is a `delete all` followed by an `add`.
 
 #### Examples
@@ -331,15 +334,16 @@ Added 67 EPUBs to Solr index:
 em$ quit
 ```
 
-Note that it is not possible to rewrite the `epub_library.json` file sitting on
-the dev server.  The rewrite is always local.  Thus, in this use case, the user
+Note that it is not possible to rewrite the remote `epub_library.json` file sitting on
+the dev server.  The `epub_library.json` file rewrite is always local.  Thus, in this use case, the user
 presumably switched the local repo `/home/somebody/dl-pa-servers-epub-content/`
-to `develop` branch before running the `epub_library.json` command.
+to `develop` branch before running the `readium-json` command.
 
 Rewriting the `epub_library.json` file for a local instance of ReadiumJS viewer
-would have involved changing the `readiumJsonFile` option in `local.conf` from
-`/home/somebody/dl-pa-servers-epub-content/` to something like
-`/var/www/html/readium-js-viewer/cloud-reader/epub_content/epub_library.json`.
+would have involved changing the `readiumJsonFile` option in `local.conf` from the
+path to the repo copy `/home/somebody/dl-pa-servers-epub-content/epub_library.json`
+to the path of the library content directory of a locally installed ReadiumJS viewer:
+e.g. `/var/www/html/readium-js-viewer/cloud-reader/epub_content/epub_library.json`.
 
 ---
 
@@ -389,7 +393,7 @@ em$ quit
 somebody@host:~/epub-manager$ cat cache/3-epubs.json
 cat: cache/3-epubs.json: No such file or directory
 somebody@host:~/epub-manager$ # Whoops, cache/ was cleared when `em` was restarted for `solr delete ad-hoc`.
-somebody@host:~/epub-manager$ # Write the file to /tmp/ instead:
+somebody@host:~/epub-manager$ # Write the file again, this time to /tmp/:
 somebody@host:~/epub-manager$ ./em
 em$ load ad-hoc
 em$ load write /tmp/3-epubs.json
@@ -494,16 +498,19 @@ BACKGROUND_SOLR=true test/solr/start-solr-test-server.sh
 
 To stop the server, simply `kill` the process.
 
-### Configuration file format
+### Configuration file
 
 Configuration files are stored in `config/`.  The basenames of the files are the
-configuration names that can be specified as options for various `em` commands.
-They will be automatically loaded as autocomplete possibilities for commands
- that take a configuration option.
+configuration names that can be specified as options for various `em` commands,
+and are used as autocomplete possibilities for commands that take a configuration
+option.
 
-The `dev`, `stage,` and `prod` configurations for NYU Press collections are already
-included in the repo.  New configuration files can be created in `config/` and
-will be ignored by git.
+The
+[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json),
+[stage](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/stage.json),
+and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/prod.json)
+configurations for NYU Press collections are already included in the repo.
+New configuration files can be created in `config/` and will be ignored by git.
 
 * **cacheMetadataInMemory**: `true` to load all metadata at once into memory for
 faster processing, otherwise `false`.  Currently only `true` is supported.
@@ -519,14 +526,19 @@ Example: "/home/somebody/epub-metadata/nyupress"
 be cloned locally using `git clone [metadataRepo]`.
 Example: "https://github.com/NYULibraries/dlts-epub-manager.git"
   * **metadataRepoBranch**: branch or commit to use.  Will be checked out using
-  `git checkout [metadataRepoBranch].  Example: "0c18465a5c80c056088e98d45b6dd621e6001a7b"
+  `git checkout [metadataRepoBranch]`.  Examples:
+    * "master"
+    * "0c18465a5c80c056088e98d45b6dd621e6001a7b"
   * **metadataRepoSubdirectory**: relative path to subdirectory containing the metadata to be
   processed.  Example: "nyupress"
 * **readiumJsonFile**: full path to the `epub_library.json` file.
 Example: "/home/somebody/dl-pa-servers-epub-content/epub_library.json"
 * **solrHost**: hostname of Solr server.  Example: "localhost"
 * **solrPort**: port that Solr is running on.  Example: 8080
-* **solrPath**: path to Solr server.  Example: "/solr"
+* **solrPath**: path to user for Solr requests.  Example: "/solr/nyupress"
 
 For examples conf files that illustrate the correct usage of all the above options,
-look in `config/` and `/test/acceptance/fixture/config/`.
+look in
+[config/](https://github.com/NYULibraries/dlts-epub-manager/tree/develop/config)
+and
+[test/acceptance/fixture/config/](https://github.com/NYULibraries/dlts-epub-manager/tree/develop/test).
