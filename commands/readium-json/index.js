@@ -104,7 +104,7 @@ module.exports = function( vorpal ){
 
                 fs.writeFileSync( readiumJsonFile, readiumJsonString );
 
-                vorpal.log( `Added to Readium JSON file ${readiumJsonFile} ` +
+                vorpal.log( `Deleted from Readium JSON file ${readiumJsonFile} ` +
                             `for conf "${vorpal.em.conf.name}": ${epubs.size } EPUBs.` );
 
                 if ( callback ) { callback(); } else { return true; }
