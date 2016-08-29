@@ -265,9 +265,13 @@ somebody@host:~/epub-manager$ ./em readium-json add local
 Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
 ```
 
-**Update Solr index and `epub_library.json` for `local`
+---
+
+**EXAMPLE: Update Solr index and `epub_library.json` for `local`
 (from [Installation and setup](#installation-and-setup)), then add to Solr index for
-[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json)**
+[dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json).**
+
+---
 
 Note that `local` configuration specifies `metadataDir` while
 [dev](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/dev.json)
@@ -327,9 +331,23 @@ Added 67 EPUBs to Solr index:
 em$ quit
 ```
 
-**Dump metadata for 3 EPUBs into file `cache/3-epubs.json`, then delete them
+Note that it is not possible to rewrite the `epub_library.json` file sitting on
+the dev server.  The rewrite is always local.  Thus, in this use case, the user
+presumably switched the local repo `/home/somebody/dl-pa-servers-epub-content/`
+to `develop` branch before running the `epub_library.json` command.
+
+Rewriting the `epub_library.json` file for a local instance of ReadiumJS viewer
+would have involved changing the `readiumJsonFile` option in `local.conf` from
+`/home/somebody/dl-pa-servers-epub-content/` to something like
+`/var/www/html/readium-js-viewer/cloud-reader/epub_content/epub_library.json`.
+
+---
+
+**EXAMPLE: Dump metadata for 3 EPUBs into file `cache/3-epubs.json`, then delete them
 from [stage](https://github.com/NYULibraries/dlts-epub-manager/blob/develop/config/stage.json)
-Solr index, then dump the metadata again to `/tmp/3-epubs.json`**
+Solr index, then dump the metadata again to `/tmp/3-epubs.json`.**
+
+---
 
 Note that `load write [file]` cannot be run in immediate execution mode, because
 it must first be preceded by `load [configuration]`.
@@ -381,8 +399,12 @@ somebody@host:~/epub-manager$ ls /tmp/3-epubs.json
 /tmp/3-epubs.json
 ```
 
-**Delete all EPUBs in `epub_library.json` file for `local`, then add `local` EPUBs
-twice, then do a full replace**
+---
+
+**EXAMPLE: Delete all EPUBs in `epub_library.json` file for `local`, then add `local` EPUBs
+twice, then do a full replace.**
+
+---
 
 ```
 somebody@host:~/epub-manager$ ./em
