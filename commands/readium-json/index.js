@@ -36,7 +36,7 @@ module.exports = function( vorpal ){
                 try {
                     readiumJsonFile = getReadiumJsonFile( vorpal.em.conf );
                 } catch ( error ) {
-                    vorpal.log( `ERROR in configuration "${args.configuration}": ${error}` );
+                    vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
 
                     if ( callback ) { callback(); } else { return false; }
                 }
@@ -87,7 +87,7 @@ module.exports = function( vorpal ){
                 try {
                     readiumJsonFile = getReadiumJsonFile( vorpal.em.conf );
                 } catch ( error ) {
-                    vorpal.log( `ERROR in configuration "${args.configuration}": ${error}` );
+                    vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
 
                     if ( callback ) { callback(); } else { return false; }
                 }
@@ -131,7 +131,7 @@ module.exports = function( vorpal ){
                 try {
                     readiumJsonFile = getReadiumJsonFile( vorpal.em.conf );
                 } catch ( error ) {
-                    vorpal.log( `ERROR in configuration "${args.configuration}": ${error}` );
+                    vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
 
                     if ( callback ) { callback(); } else { return false; }
                 }
@@ -171,31 +171,31 @@ module.exports = function( vorpal ){
                 try {
                     readiumJsonFile = getReadiumJsonFile( vorpal.em.conf );
                 } catch ( error ) {
-                    vorpal.log( `ERROR in configuration "${args.configuration}": ${error}` );
+                    vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
 
                     if ( callback ) { callback(); } else { return false; }
                 }
 
                 let deleteAllSucceeded = vorpal.execSync(
-                    `readium-json delete all ${args.configuration}`,
+                    `readium-json delete all ${vorpal.em.conf.name}`,
                     { fatal : true }
                 );
 
                 if ( deleteAllSucceeded ) {
                     let addSucceeded = vorpal.execSync(
-                        `readium-json add ${args.configuration}`,
+                        `readium-json add ${vorpal.em.conf.name}`,
                         { fatal : true }
                     );
 
                     if ( addSucceeded ) {
-                        vorpal.log( `Fully replaced all EPUBs in Readium JSON for conf ${args.configuration}.` );
+                        vorpal.log( `Fully replaced all EPUBs in Readium JSON for conf ${vorpal.em.conf.name}.` );
 
                         result = true;
                     } else {
                         result = false;
                     }
                 } else {
-                    vorpal.log( `Aborting \`full-replace\` for ${args.configuration}.` );
+                    vorpal.log( `Aborting \`full-replace\` for ${vorpal.em.conf.name}.` );
 
                     result = false;
                 }

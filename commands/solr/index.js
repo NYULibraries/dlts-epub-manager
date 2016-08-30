@@ -142,20 +142,20 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); } else { return false; }
                 }
 
-                let deleteAllSucceeded = vorpal.execSync( `solr delete all ${args.configuration}`, { fatal : true } );
+                let deleteAllSucceeded = vorpal.execSync( `solr delete all ${vorpal.em.conf.name}`, { fatal : true } );
 
                 if ( deleteAllSucceeded ) {
-                    let addSucceeded = vorpal.execSync( `solr add ${args.configuration}`, { fatal : true } );
+                    let addSucceeded = vorpal.execSync( `solr add ${vorpal.em.conf.name}`, { fatal : true } );
 
                     if ( addSucceeded ) {
-                        vorpal.log( `Fully replaced all EPUBs for conf ${args.configuration}.` );
+                        vorpal.log( `Fully replaced all EPUBs for conf ${vorpal.em.conf.name}.` );
 
                         result = true;
                     } else {
                         result = false;
                     }
                 } else {
-                    vorpal.log( `Aborting \`full-replace\` for ${args.configuration}.` );
+                    vorpal.log( `Aborting \`full-replace\` for ${vorpal.em.conf.name}.` );
 
                     result = false;
                 }
