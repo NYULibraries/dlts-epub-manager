@@ -498,7 +498,7 @@ BACKGROUND_SOLR=true test/solr/start-solr-test-server.sh
 
 To stop the server, simply `kill` the process.
 
-### Configuration file
+## Configuration file
 
 Configuration files are stored in `config/`.  The basenames of the files are the
 configuration names that can be specified as options for various `em` commands,
