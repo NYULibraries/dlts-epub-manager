@@ -16,12 +16,35 @@ vorpal.em.configDir = __dirname + '/fixture/config';
 
 let conf;
 
+class HandleServerStub {
+    constructor() {
+        this.handlesData = new Map();
+    }
+
+    has( handle ) {
+        return this.handlesData.has( handle );
+    }
+
+    get( handle ) {
+        return this.handlesData.get( handle );
+    }
+
+    set( handle, url ) {
+        this.handlesData.set( handle, url );
+    }
+
+    request( method, url, options ) {
+        console.log( `${method} ${url} with options: ${options}\n` );
+    }
+}
+
 describe( 'handles command', () => {
+    let handleServerStub = new HandleServerStub();
 
     before( ( ) => {
         overriddenRequest = vorpal.em.request;
 
-        vorpal.em.request = httpRequestStub();
+        vorpal.em.request = handleServerStub.request;
 
         let loadSucceeded = loadConfiguration( CONF );
 
@@ -69,12 +92,6 @@ describe( 'handles command', () => {
     } );
 
 } );
-
-function httpRequestStub() {
-    return function( method, url, options ) {
-        console.log( `${method} ${url} with options ${options}!` );
-    }
-}
 
 function loadConfiguration( confName ) {
     let loadSucceeded = vorpal.execSync( `load ${confName}`, { fatal : true } );
