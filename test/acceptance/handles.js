@@ -43,9 +43,11 @@ class HandleServerStub {
 }
 
 describe( 'handles command', () => {
-    let handleServerStub = new HandleServerStub();
+    let handleServerStub;
 
-    before( ( ) => {
+    beforeEach( ( ) => {
+        handleServerStub = new HandleServerStub();
+
         overriddenRequest = vorpal.em.request;
 
         vorpal.em.request = handleServerStub.request;
