@@ -1,6 +1,6 @@
 "use strict";
 
-/* global before, beforeEach */
+/* global after, before, beforeEach */
 
 let assert    = require( 'chai' ).assert;
 let em        = require( '../../lib/bootstrap' );
