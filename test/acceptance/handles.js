@@ -21,12 +21,12 @@ class HandleServerStub {
         this.handlesData = new Map();
     }
 
-    has( handle ) {
-        return this.handlesData.has( handle );
-    }
-
     get( handle ) {
         return this.handlesData.get( handle );
+    }
+
+    has( handle ) {
+        return this.handlesData.has( handle );
     }
 
     set( handle, url ) {
