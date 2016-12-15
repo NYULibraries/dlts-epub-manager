@@ -1,6 +1,5 @@
 "use strict";
 
-let request   = require( 'sync-request' );
 let util  = require( '../../lib/util' );
 
 let em;
@@ -184,7 +183,7 @@ function addEpubs( epubs) {
         epubsAdded.push( epub.identifier );
     } );
 
-    let response = request(
+    let response = em.request(
         'POST', solrUpdateUrl, {
             body : JSON.stringify( addRequest )
         }
@@ -217,7 +216,7 @@ function deleteEpubsByQuery( query ) {
     let requestUrl = util.getSolrUpdateUrl( em.conf ) +
                         `/?commit=true&stream.body=<delete><query>${query}</query></delete>`;
 
-    let response = request( 'GET', requestUrl );
+    let response = em.request( 'GET', requestUrl );
 
     if ( response.statusCode !== 200 ) {
         throw response.body.toString();
