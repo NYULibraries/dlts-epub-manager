@@ -21,6 +21,10 @@ class HandleServerStub {
         this.handlesData = new Map();
     }
 
+    equals( map ) {
+        return _.isEqual( this.handlesData, map );
+    }
+
     get( handle ) {
         return this.handlesData.get( handle );
     }
