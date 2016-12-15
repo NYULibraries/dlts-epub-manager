@@ -45,7 +45,22 @@ class HandleServerStub {
     }
 
     request( method, url, options ) {
-        console.log( `${method} ${url} with options: ${options}\n` );
+        if ( method !== 'PUT' ) {
+            return this.error( 400, `HandleServerStub ERROR: method is "${method}" instead of "PUT"` );
+        }
+
+        // Verify content-type
+        // Get body
+        // Get handle
+        // Create handle URL
+        // Create handlesMap entry
+        // Send response:
+        //     <?xml version="1.0"?>
+        //     <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handles">
+        //         <hs:binding> http://openaccessbooks.nyupress.org/details/9780814706404 </hs:binding>
+        //         <hs:location> http://hdl.handle.net/2333.1/37pvmfhh</hs:location>
+        //         <hs:response> version=2.1; oc=104; rc=1; snId=0 caCrt noAuth expires:Fri Dec 16 05:54:45 EST 2016 </hs:response>
+        //     </hs:info>
     }
 }
 
