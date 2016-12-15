@@ -82,7 +82,11 @@ describe( 'handles command', () => {
     } );
 
     it( 'should correctly add all handles to handle server', () => {
+        let expected = require( './fixture/handles/expected_add_full-metadataDir.json' );
+
         vorpal.parse( [ null, null, 'handles', 'add', 'full-metadataDir' ] );
+
+        assert( handleServerStub.equals( expected ), 'Added handles did not match expected.' );
     } );
 
     it( 'should correctly delete all handles from handles server', () => {
