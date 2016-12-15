@@ -1,84 +1,75 @@
 "use strict";
 
+let util  = require( '../../lib/util' );
+
+let em;
+
 module.exports = function( vorpal ){
+    em = vorpal.em;
 
-    vorpal.command( 'handles' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
-        .description( 'Manage handles.' )
-        .action(
-            function( args, callback ) {
-                let result = false;
-
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
-
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
-                }
-            }
-        );
-
-    vorpal.command( 'handles add' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
+    vorpal.command( 'handles add [configuration]' )
         .description( 'Bind EPUB handles.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
+                        if ( callback ) { callback(); } else { return false; }
+                    }
+                }
+
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
+
+                    if ( callback ) { callback(); } else { return false; }
                 }
             }
         );
 
-    vorpal.command( 'handles delete' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
+    vorpal.command( 'handles delete [configuration]' )
         .description( 'Unbind EPUB handles.' )
+        // This doesn't work right now.  Vorpal automatically expands to 'delete all'.
+        // .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
+                        if ( callback ) { callback(); } else { return false; }
+                    }
+                }
+
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
+
+                    if ( callback ) { callback(); } else { return false; }
                 }
             }
         );
 
-    vorpal.command( 'handles delete all' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
+    vorpal.command( 'handles delete all [configuration]' )
         .description( 'Unbind all EPUB handles.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
-                let result = false;
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
+                        if ( callback ) { callback(); } else { return false; }
+                    }
                 }
+
+                if ( callback ) { callback(); } else { return false; }
             }
         );
 
@@ -89,16 +80,23 @@ module.exports = function( vorpal ){
             function( args, callback ) {
                 let result = false;
 
-                vorpal.log(  `\`${this.commandWrapper.command}\` run with args:`  );
-                vorpal.log( args );
+                if ( args.configuration ) {
+                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
-                // If called via `.execSync`, `callback` will be undefined,
-                // and return values will be used as response.
-                if ( callback ) {
-                    callback();
-                } else {
-                    return result;
+                    if ( ! loadSucceeded ) {
+                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
+
+                        if ( callback ) { callback(); } else { return false; }
+                    }
                 }
+
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
+
+                    if ( callback ) { callback(); } else { return false; }
+                }
+
+                if ( callback ) { callback(); } else { return false; }
             }
         );
 };
