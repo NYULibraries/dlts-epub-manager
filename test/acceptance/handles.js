@@ -25,6 +25,13 @@ class HandleServerStub {
         return _.isEqual( this.handlesData, map );
     }
 
+    error( statusCode, body ) {
+        return {
+            statusCode,
+            body,
+        };
+    }
+
     get( handle ) {
         return this.handlesData.get( handle );
     }
