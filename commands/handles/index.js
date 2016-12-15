@@ -27,6 +27,8 @@ module.exports = function( vorpal ){
 
                     if ( callback ) { callback(); } else { return false; }
                 }
+
+                em.request( 'GET', 'https://handle.dlib.nyu.edu', { hello: 'world!' } );
             }
         );
 
