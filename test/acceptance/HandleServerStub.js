@@ -3,15 +3,15 @@ class HandleServerStub {
         this.handlesData = new Map();
     }
 
-    equals( map ) {
-        return _.isEqual( this.handlesData, map );
-    }
-
-    error( statusCode, message ) {
+    static error( statusCode, message ) {
         return {
             statusCode,
             body: `HandleServerStub ERROR: ${message}`,
         };
+    }
+
+    equals( map ) {
+        return _.isEqual( this.handlesData, map );
     }
 
     get( handle ) {
@@ -28,12 +28,12 @@ class HandleServerStub {
 
     request( method, url, options ) {
         if ( method !== 'PUT' ) {
-            return this.error( 400, `method is "${method}" instead of "PUT"` );
+            return this.constructor.error( 400, `method is "${method}" instead of "PUT"` );
         }
 
         let contentType = options.headers[ 'content-type' ];
         if ( contentType !== 'text/xml' ) {
-            return this.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
+            return this.constructor.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
         }
 
         // Get handle
