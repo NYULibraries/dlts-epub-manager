@@ -14,7 +14,7 @@ class RestfulHandleServerStub {
         };
     }
 
-    static parseHandleIdFromUrl( urlString ) {
+    static parseHandleId( urlString ) {
         let urlObject = url.parse( urlString );
 
         let parts     = urlObject.pathname.split( '/' );
@@ -50,7 +50,7 @@ class RestfulHandleServerStub {
             return this.constructor.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
         }
 
-        let handleId  = this.constructor.parseHandleIdFromUrl( url );
+        let handleId  = this.constructor.parseHandleId( url );
         let handleUrl = HANDLE_SERVER_URL + handleId;
 
         // Create handle URL
