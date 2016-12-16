@@ -2,7 +2,7 @@ const url = require( 'url' );
 
 const HANDLE_SERVER_URL = 'http://hdl.handle.net/';
 
-class HandleServerStub {
+class RestfulHandleServerStub {
     constructor() {
         this.handlesData = new Map();
     }
@@ -65,4 +65,4 @@ class HandleServerStub {
     }
 }
 
-module.exports = HandleServerStub;
+module.exports = RestfulHandleServerStub;

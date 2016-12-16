@@ -7,10 +7,10 @@ let em        = require( '../../lib/bootstrap' );
 let _         = require( 'lodash' );
 let vorpal    = em.vorpal;
 
-let HandleServerStub = require( './HandleServerStub' );
+let RestfulHandleServerStub = require( './RestfulHandleServerStub' );
 
-const CONF               = 'full-metadataDir';
-const HANDLE_TEST_SERVER = 'handle';
+const CONF                       = 'full-metadataDir';
+const RESTFUL_HANDLE_TEST_SERVER = 'handle';
 
 let overriddenRequest;
 
@@ -19,14 +19,14 @@ vorpal.em.configDir = __dirname + '/fixture/config';
 let conf;
 
 describe( 'handles command', () => {
-    let handleServerStub;
+    let restfulHandleServerStub;
 
     beforeEach( ( ) => {
-        handleServerStub = new HandleServerStub();
+        restfulHandleServerStub = new RestfulHandleServerStub();
 
         overriddenRequest = vorpal.em.request;
 
-        vorpal.em.request = handleServerStub.request;
+        vorpal.em.request = restfulHandleServerStub.request;
 
         let loadSucceeded = loadConfiguration( CONF );
 
@@ -40,7 +40,7 @@ describe( 'handles command', () => {
 
         vorpal.parse( [ null, null, 'handles', 'add', 'full-metadataDir' ] );
 
-        assert( handleServerStub.stateEquals( expected ), 'Added handles did not match expected.' );
+        assert( restfulHandleServerStub.stateEquals( expected ), 'Added handles did not match expected.' );
     } );
 
     it( 'should correctly delete all handles from handles server', () => {
@@ -83,10 +83,10 @@ function loadConfiguration( confName ) {
     let loadSucceeded = vorpal.execSync( `load ${confName}`, { fatal : true } );
 
     if ( loadSucceeded ) {
-        let handleServerPath = vorpal.em.conf.handleServerPath;
+        let restfulHandleServerPath = vorpal.em.conf.restfulHandleServerPath;
 
-        if ( ! handleServerPath.endsWith( HANDLE_TEST_SERVER ) ) {
-            console.log( `ERROR: handleServerPath option ${handleServerPath} does not end with required "${HANDLE_TEST_SERVER}".` );
+        if ( ! restfulHandleServerPath.endsWith( RESTFUL_HANDLE_TEST_SERVER ) ) {
+            console.log( `ERROR: restfulHandleServerPath option ${restfulHandleServerPath} does not end with required "${RESTFUL_HANDLE_TEST_SERVER}".` );
             return false;
         }
 
