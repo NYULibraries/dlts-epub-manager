@@ -129,6 +129,11 @@
       "from": "core-util-is@>=1.0.0 <1.1.0",
       "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
     },
+    "dateformat": {
+      "version": "2.0.0",
+      "from": "dateformat@latest",
+      "resolved": "https://registry.npmjs.org/dateformat/-/dateformat-2.0.0.tgz"
+    },
     "debug": {
       "version": "2.2.0",
       "from": "debug@2.2.0",
