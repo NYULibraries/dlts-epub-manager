@@ -49,8 +49,11 @@ class HandleServerStub {
             return this.error( 400, `method is "${method}" instead of "PUT"` );
         }
 
-        // Verify content-type
-        // Get body
+        let contentType = options.headers[ 'content-type' ];
+        if ( contentType !== 'text/xml' ) {
+            return this.error( 400, `content-type header is ${contentType} instead of "text/xml"` );
+        }
+ga
         // Get handle
         // Create handle URL
         // Create handlesMap entry
