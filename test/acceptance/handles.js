@@ -40,7 +40,7 @@ describe( 'handles command', () => {
 
         vorpal.parse( [ null, null, 'handles', 'add', 'full-metadataDir' ] );
 
-        assert( handleServerStub.equals( expected ), 'Added handles did not match expected.' );
+        assert( handleServerStub.stateEquals( expected ), 'Added handles did not match expected.' );
     } );
 
     it( 'should correctly delete all handles from handles server', () => {

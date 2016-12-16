@@ -10,7 +10,7 @@ class HandleServerStub {
         };
     }
 
-    equals( map ) {
+    stateEquals( map ) {
         return _.isEqual( this.handlesData, map );
     }
 
