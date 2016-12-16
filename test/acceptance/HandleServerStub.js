@@ -1,5 +1,7 @@
 const url = require( 'url' );
 
+const HANDLE_SERVER_URL = 'http://hdl.handle.net/';
+
 class HandleServerStub {
     constructor() {
         this.handlesData = new Map();
@@ -48,9 +50,9 @@ class HandleServerStub {
             return this.constructor.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
         }
 
-        let handleId = this.constructor.parseHandleIdFromUrl( url );
+        let handleId  = this.constructor.parseHandleIdFromUrl( url );
+        let handleUrl = HANDLE_SERVER_URL + handleId;
 
-        // Get handle
         // Create handle URL
         // Create handlesMap entry
         // Send response:
