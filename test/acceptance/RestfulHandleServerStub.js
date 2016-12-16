@@ -24,6 +24,18 @@ class RestfulHandleServerStub {
         return `${prefix}/${localName}`;
     }
 
+    static parseTargetUrl( content ) {
+        // Let's not bother with full XML parsing unless it proves necessary.
+        // This is a very controlled situation.
+        let matches = /<hs:binding>\s*([^<]+)\s*<\/hs:binding>/.exec( content );
+
+        if ( matches ) {
+            return matches[ 1 ];
+        } else {
+            return null;
+        }
+    }
+
     stateEquals( map ) {
         return _.isEqual( this.handlesData, map );
     }
@@ -53,7 +65,13 @@ class RestfulHandleServerStub {
         let handleId  = this.constructor.parseHandleId( url );
         let handleUrl = HANDLE_SERVER_URL + handleId;
 
-        // Create handle URL
+        if ( ! options.body.content ) {
+            return this.constructor.error( 400, 'No request content' );
+        }
+
+        let targetUrl = this.constructor.parseTargetUrl( options.body.content );
+
+        return targetUrl;
         // Create handlesMap entry
         // Send response:
         //     <?xml version="1.0"?>
