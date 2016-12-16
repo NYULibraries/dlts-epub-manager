@@ -25,10 +25,10 @@ class HandleServerStub {
         return _.isEqual( this.handlesData, map );
     }
 
-    error( statusCode, body ) {
+    error( statusCode, message ) {
         return {
             statusCode,
-            body,
+            body: `HandleServerStub ERROR: ${message}`,
         };
     }
 
@@ -46,7 +46,7 @@ class HandleServerStub {
 
     request( method, url, options ) {
         if ( method !== 'PUT' ) {
-            return this.error( 400, `HandleServerStub ERROR: method is "${method}" instead of "PUT"` );
+            return this.error( 400, `method is "${method}" instead of "PUT"` );
         }
 
         // Verify content-type
