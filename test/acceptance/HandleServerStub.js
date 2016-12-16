@@ -33,7 +33,7 @@ class HandleServerStub {
 
         let contentType = options.headers[ 'content-type' ];
         if ( contentType !== 'text/xml' ) {
-            return this.error( 400, `content-type header is ${contentType} instead of "text/xml"` );
+            return this.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
         }
 
         // Get handle
