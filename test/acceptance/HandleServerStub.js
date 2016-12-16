@@ -1,3 +1,5 @@
+const url = require( 'url' );
+
 class HandleServerStub {
     constructor() {
         this.handlesData = new Map();
@@ -8,6 +10,16 @@ class HandleServerStub {
             statusCode,
             body: `HandleServerStub ERROR: ${message}`,
         };
+    }
+
+    static parseHandleIdFromUrl( urlString ) {
+        let urlObject = url.parse( urlString );
+
+        let parts     = urlObject.pathname.split( '/' );
+        let prefix    = parts[ parts.length - 2 ];
+        let localName = parts[ parts.length - 1 ];
+
+        return `${prefix}/${localName}`;
     }
 
     stateEquals( map ) {
@@ -35,6 +47,8 @@ class HandleServerStub {
         if ( contentType !== 'text/xml' ) {
             return this.constructor.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
         }
+
+        let handleId = this.constructor.parseHandleIdFromUrl( url );
 
         // Get handle
         // Create handle URL
