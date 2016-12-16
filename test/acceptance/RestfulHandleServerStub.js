@@ -1,4 +1,5 @@
-const url = require( 'url' );
+const dateFormat = require( 'dateformat' );
+const url        = require( 'url' );
 
 const HANDLE_SERVER_URL = 'http://hdl.handle.net/';
 
@@ -71,15 +72,24 @@ class RestfulHandleServerStub {
 
         let targetUrl = this.constructor.parseTargetUrl( options.body.content );
 
-        return targetUrl;
-        // Create handlesMap entry
-        // Send response:
-        //     <?xml version="1.0"?>
-        //     <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handles">
-        //         <hs:binding> http://openaccessbooks.nyupress.org/details/9780814706404 </hs:binding>
-        //         <hs:location> http://hdl.handle.net/2333.1/37pvmfhh</hs:location>
-        //         <hs:response> version=2.1; oc=104; rc=1; snId=0 caCrt noAuth expires:Fri Dec 16 05:54:45 EST 2016 </hs:response>
-        //     </hs:info>
+        this.set( handleUrl, targetUrl );
+
+        let twelveHoursLater = new Date(
+            new Date().getTime() + ( 12 * 60 * 60 * 1000 )
+        );
+
+        // Ex.: "Fri Dec 16 05:54:45 EST 2016"
+        let expires = dateFormat( 'ddd mmm dd hh:MM:ss Z yyyy');
+
+        let response =
+`<?xml version="1.0"?>
+    <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handles">
+    <hs:binding> ${targetUrl} </hs:binding>
+    <hs:location> ${handleUrl}</hs:location>
+    <hs:response> version=2.1; oc=104; rc=1; snId=0 caCrt noAuth expires:${expires} </hs:response>
+</hs:info>`;
+
+        return response;
     }
 }
 
