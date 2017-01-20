@@ -104,3 +104,11 @@ function loadConfiguration( confName ) {
         return false;
     }
 }
+
+function addFixtureFullHandles( restfulHandleServerStub ) {
+    let handleBindings = require( './fixture/handles/expected_add_full-metadataDir.json' );
+
+    handleBindings.forEach( ( pair ) => {
+        restfulHandleServerStub.set( pair[ 0 ], pair[ 1 ] );
+    } );
+}
