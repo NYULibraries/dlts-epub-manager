@@ -56,6 +56,10 @@ class RestfulHandleServerStub {
         this.handlesData.set( handle, url );
     }
 
+    size() {
+        return this.handlesData.size;
+    }
+
     request( method, url, options ) {
         if ( method !== 'PUT' ) {
             return RestfulHandleServerStub.error( 400, `method is "${method}" instead of "PUT"` );
