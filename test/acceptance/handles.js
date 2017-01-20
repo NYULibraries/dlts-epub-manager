@@ -48,9 +48,14 @@ describe( 'handles command', () => {
     } );
 
     it( 'should correctly delete all handles from handles server', () => {
+        addFixtureFullHandles( restfulHandleServerStub );
 
         vorpal.parse( [ null, null, 'handles', 'delete', 'all' ] );
 
+        let handlesRemaining = restfulHandleServerStub.size();
+        assert( handlesRemaining === 0,
+                `RestfulHandleServerStub still contains still contains ${handlesRemaining} handles.`
+        );
     } );
 
     it( 'should correctly delete 3 handles from handles server', () => {
