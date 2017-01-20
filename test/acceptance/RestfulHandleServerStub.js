@@ -55,19 +55,19 @@ class RestfulHandleServerStub {
 
     request( method, url, options ) {
         if ( method !== 'PUT' ) {
-            return this.constructor.error( 400, `method is "${method}" instead of "PUT"` );
+            return RestfulHandleServerStub.error( 400, `method is "${method}" instead of "PUT"` );
         }
 
         let contentType = options.headers[ 'content-type' ];
         if ( contentType !== 'text/xml' ) {
-            return this.constructor.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
+            return RestfulHandleServerStub.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
         }
 
         let handleId  = this.constructor.parseHandleId( url );
         let handleUrl = HANDLE_SERVER_URL + handleId;
 
         if ( ! options.body.content ) {
-            return this.constructor.error( 400, 'No request content' );
+            return RestfulHandleServerStub.error( 400, 'No request content' );
         }
 
         let targetUrl = this.constructor.parseTargetUrl( options.body.content );
