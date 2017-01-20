@@ -38,8 +38,10 @@ class RestfulHandleServerStub {
         }
     }
 
-    stateEquals( map ) {
-        return _.isEqual( this.handlesData, map );
+    stateEquals( arrayArg ) {
+        let handlesDataArray = Array.from( this.handlesData );
+
+        return _.isEqual( handlesDataArray, arrayArg );
     }
 
     get( handle ) {
