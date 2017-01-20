@@ -29,7 +29,13 @@ module.exports = function( vorpal ){
                 }
 
                 let response = em.request(
-                    'PUT', 'https://handle.dlib.nyu.edu', { hello: 'world!' }
+                    'PUT',
+                    'https://handle.dlib.nyu.edu',
+                    {
+                        headers: {
+                            'content-type': 'text/xml'
+                        },
+                    }
                 );
 
                 if ( response.statusCode !== 200 ) {
