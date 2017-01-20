@@ -26,7 +26,8 @@ describe( 'handles command', () => {
 
         overriddenRequest = vorpal.em.request;
 
-        vorpal.em.request = restfulHandleServerStub.request;
+        vorpal.em.request =
+            restfulHandleServerStub.request.bind( restfulHandleServerStub );
 
         let loadSucceeded = loadConfiguration( CONF );
 
