@@ -82,13 +82,16 @@ class RestfulHandleServerStub {
         // Ex.: "Fri Dec 16 05:54:45 EST 2016"
         let expires = dateFormat( 'ddd mmm dd hh:MM:ss Z yyyy');
 
-        let response =
-`<?xml version="1.0"?>
+        let response = {
+            body       : `<?xml version="1.0"?>
     <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handles">
     <hs:binding> ${targetUrl} </hs:binding>
     <hs:location> ${handleUrl}</hs:location>
     <hs:response> version=2.1; oc=104; rc=1; snId=0 caCrt noAuth expires:${expires} </hs:response>
-</hs:info>`;
+</hs:info>`,
+
+            statusCode : 200,
+        };
 
         return response;
     }
