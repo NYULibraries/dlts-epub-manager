@@ -124,10 +124,15 @@ function addHandles( epubs ) {
     let handlesAdded = [];
 
     epubs.forEach( ( epub ) => {
+            let bindingHostnameFor = {
+                'oa-books'        : 'openaccessbooks.nyupress.org',
+                'connected-youth' : 'connectedyouth.nyupress.org',
+            };
+
             let body = {
                 content: `<?xml version="1.0" encoding="UTF-8"?>
     <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handle">
-        <hs:binding>http://openaccessbooks.nyupress.org/details/${epub.identifier}</hs:binding>
+        <hs:binding>http://${bindingHostnameFor[ epub.collection_code ]}/details/${epub.identifier}</hs:binding>
         <hs:description></hs:description>
     </hs:info>`,
             };
