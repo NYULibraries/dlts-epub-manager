@@ -41,7 +41,10 @@ describe( 'handles command', () => {
 
         vorpal.parse( [ null, null, 'handles', 'add', 'full-metadataDir' ] );
 
-        assert( restfulHandleServerStub.stateEquals( expected ), 'Added handles did not match expected.' );
+        assert(
+            restfulHandleServerStub.stateEquals( expected ),
+            'Added handles did not match expected.'
+        );
     } );
 
     it( 'should correctly delete all handles from handles server', () => {
@@ -87,7 +90,10 @@ function loadConfiguration( confName ) {
         let restfulHandleServerPath = vorpal.em.conf.restfulHandleServerPath;
 
         if ( ! restfulHandleServerPath.endsWith( RESTFUL_HANDLE_TEST_SERVER ) ) {
-            console.log( `ERROR: restfulHandleServerPath option ${restfulHandleServerPath} does not end with required "${RESTFUL_HANDLE_TEST_SERVER}".` );
+            console.log(
+                `ERROR: restfulHandleServerPath option ${restfulHandleServerPath}` +
+                ` does not end with required "${RESTFUL_HANDLE_TEST_SERVER}".`
+            );
             return false;
         }
 
