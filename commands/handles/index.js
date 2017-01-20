@@ -28,19 +28,24 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); } else { return false; }
                 }
 
-                let response = em.request(
-                    'PUT',
-                    'https://handle.dlib.nyu.edu',
-                    {
-                        headers: {
-                            'content-type': 'text/xml'
-                        },
-                    }
-                );
+                let epubs = vorpal.em.metadata.getAll();
 
-                if ( response.statusCode !== 200 ) {
-                    throw response.body.toString();
+                try {
+
+                    let handlesAdded = addHandles( epubs );
+
+                    vorpal.log(
+                        `Added ${epubs.size} handles to handles server:\n` + handlesAdded.join( '\n' )
+                    );
+
+                    if ( callback ) { callback(); } else { return true; }
+                } catch ( error ) {
+                    vorpal.log( 'ERROR adding handle to handle server:\n' +
+                                error );
+
+                    if ( callback ) { callback(); } else { return false; }
                 }
+
             }
         );
 
@@ -114,3 +119,38 @@ module.exports = function( vorpal ){
             }
         );
 };
+
+function addHandles( epubs ) {
+    let handlesAdded = [];
+
+    epubs.forEach( ( epub ) => {
+            let body = {
+                content: `<?xml version="1.0" encoding="UTF-8"?>
+    <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handle">
+        <hs:binding>http://openaccessbooks.nyupress.org/details/${epub.identifier}</hs:binding>
+        <hs:description></hs:description>
+    </hs:info>`,
+            };
+
+            let response = em.request(
+                'PUT',
+                'https://handle.dlib.nyu.edu',
+                {
+                    body,
+
+                    headers: {
+                        'content-type': 'text/xml'
+                    },
+                }
+            );
+
+            if ( response.statusCode !== 200 ) {
+                throw response.body.toString();
+            }
+
+            handlesAdded.push( epub.identifier );
+        }
+    );
+
+    return handlesAdded;
+}
