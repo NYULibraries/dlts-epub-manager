@@ -28,7 +28,13 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); } else { return false; }
                 }
 
-                em.request( 'GET', 'https://handle.dlib.nyu.edu', { hello: 'world!' } );
+                let response = em.request(
+                    'PUT', 'https://handle.dlib.nyu.edu', { hello: 'world!' }
+                );
+
+                if ( response.statusCode !== 200 ) {
+                    throw response.body.toString();
+                }
             }
         );
 
