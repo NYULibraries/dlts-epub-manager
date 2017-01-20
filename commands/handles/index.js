@@ -137,9 +137,11 @@ function addHandles( epubs ) {
     </hs:info>`,
             };
 
+            let url = `https://handle.dlib.nyu.edu/id/handle/${epub.handle_local_name_and_prefix }`;
+
             let response = em.request(
                 'PUT',
-                'https://handle.dlib.nyu.edu',
+                url,
                 {
                     body,
 
