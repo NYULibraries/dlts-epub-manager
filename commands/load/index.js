@@ -237,6 +237,7 @@ function getMetadataForEpub( epubDir ) {
     // TODO: Maybe figure out a better way to do this.  Maybe add "handleUrl" to
     // metadata and change Solr schema and website queries to use that instead of
     // handle.
+    metadata.handle_local_name_and_prefix = metadata.handle;
     metadata.handle = `${HANDLE_SERVER}/${metadata.handle}`;
 
     return metadata;
