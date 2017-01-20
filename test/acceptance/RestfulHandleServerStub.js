@@ -1,4 +1,5 @@
 const dateFormat = require( 'dateformat' );
+const _          = require( 'lodash' );
 const url        = require( 'url' );
 
 const HANDLE_SERVER_URL = 'http://hdl.handle.net/';
