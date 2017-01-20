@@ -64,14 +64,14 @@ class RestfulHandleServerStub {
             return RestfulHandleServerStub.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
         }
 
-        let handleId  = this.constructor.parseHandleId( url );
+        let handleId  = RestfulHandleServerStub.parseHandleId( url );
         let handleUrl = HANDLE_SERVER_URL + handleId;
 
         if ( ! options.body.content ) {
             return RestfulHandleServerStub.error( 400, 'No request content' );
         }
 
-        let targetUrl = this.constructor.parseTargetUrl( options.body.content );
+        let targetUrl = RestfulHandleServerStub.parseTargetUrl( options.body.content );
 
         this.set( handleUrl, targetUrl );
 
