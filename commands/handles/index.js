@@ -138,14 +138,21 @@ function addHandles( epubs ) {
             };
 
             let url = `https://handle.dlib.nyu.edu/id/handle/${epub.handle_local_name_and_prefix }`;
+            let authorization = 'Basic ' +
+                    new Buffer(
+                            em.conf.restfulHandleServerUsername +
+                            ":" +
+                            em.conf.restfulHandleServerPassword
+                    ).toString( 'base64' );
 
-            let response = em.request(
+        let response = em.request(
                 'PUT',
                 url,
                 {
                     body,
 
                     headers: {
+                        authorization,
                         'content-type': 'text/xml'
                     },
                 }

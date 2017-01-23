@@ -2,6 +2,8 @@ const dateFormat = require( 'dateformat' );
 const _          = require( 'lodash' );
 const url        = require( 'url' );
 
+// Username = "test", password = "test"
+const AUTHORIZATION_STRING      = 'Basic dGVzdDp0ZXN0';
 const HANDLE_SERVER_URL         = 'http://hdl.handle.net/';
 const RESTFUL_HANDLE_SERVER_URL = 'https://handle.dlib.nyu.edu/id/handle/';
 
@@ -71,6 +73,25 @@ class RestfulHandleServerStub {
         if ( url !== expectedUrl ) {
             return RestfulHandleServerStub.error(
                 400, `url is "${url}" instead of "${expectedUrl}"` );
+        }
+
+        let authorization = options.headers[ 'authorization' ];
+        if ( authorization !== AUTHORIZATION_STRING ) {
+            let body = `<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>401 Authorization Required</title>
+</head><body>
+<h1>Authorization Required</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+<hr>
+<address>Apache/2.2.15 (CentOS) Server at handle.dlib.nyu.edu Port 443</address>
+</body></html>`;
+            return RestfulHandleServerStub.error( 401, body );
         }
 
         let contentType = options.headers[ 'content-type' ];
