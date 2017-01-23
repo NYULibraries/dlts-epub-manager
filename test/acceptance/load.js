@@ -22,23 +22,13 @@ describe( 'load command', () => {
             expectedRhsPassword = privateConfig.restfulHandleServerPassword;
         } );
 
-        it( 'should correctly load the corresponding private config file username', () => {
+        it( 'should correctly load the corresponding private config file ', () => {
             vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
 
             assert.equal(
-                vorpal.em.restful_handle_server_username,
-                expectedRhsUsername,
-                'Wrong restfulHandleServerUsername'
-            );
-        } );
-
-        it( 'should correctly load the corresponding private config file password', () => {
-            vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
-
-            assert.equal(
-                vorpal.em.restful_handle_server_password,
-                expectedRhsPassword,
-                'Wrong restfulHandleServerPassword'
+                `${vorpal.em.restful_handle_server_username}:${vorpal.em.restful_handle_server_password}`,
+                `${expectedRhsUsername}:${expectedRhsPassword}`,
+                'Wrong restful handle server credentials'
             );
         } );
 
