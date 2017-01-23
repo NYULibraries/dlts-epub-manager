@@ -26,7 +26,7 @@ describe( 'load command', () => {
             vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
 
             assert.equal(
-                `${vorpal.em.restful_handle_server_username}:${vorpal.em.restful_handle_server_password}`,
+                `${vorpal.em.conf.restfulHandleServerUsername}:${vorpal.em.conf.restfulHandleServerPassword}`,
                 `${expectedRhsUsername}:${expectedRhsPassword}`,
                 'Wrong restful handle server credentials'
             );
