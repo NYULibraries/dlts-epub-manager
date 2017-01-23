@@ -27,6 +27,20 @@ module.exports = function( vorpal ) {
 
                 let conf = require( configFile );
 
+                let configPrivateFile = vorpal.em.configPrivateDir + '/' +
+                                        args.configuration + util.CONFIG_FILE_EXTENSION;
+                if ( ! fs.existsSync( configPrivateFile ) ) {
+                    vorpal.log( `ERROR: ${configPrivateFile} does not exist.` +
+                                ' Please refer to README.md for information'  +
+                                ' about private configuration files.'
+                    );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
+                let confPrivate = require( configPrivateFile );
+
                 let metadataDir;
                 try {
                     metadataDir = getMetadataDir( conf );
