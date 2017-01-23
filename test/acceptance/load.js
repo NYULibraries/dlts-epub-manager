@@ -11,52 +11,66 @@ vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
 describe( 'load command', () => {
-    let expected;
-    let expectedRhsUsername;
-    let expectedRhsPassword;
 
-    before( ( ) => {
-        let privateConfig = require( './fixture/config-private/full-metadataDir.json' );
-        expectedRhsUsername = privateConfig.restfulHandleServerUsername;
-        expectedRhsPassword = privateConfig.restfulHandleServerPassword;
+    describe( 'configuration', () => {
+        let expectedRhsUsername;
+        let expectedRhsPassword;
 
-        expected = util.jsonStableStringify(
-            require( './fixture/metadata-dumps/expected-full')
-        );
+        before( ( ) => {
+            let privateConfig = require( './fixture/config-private/full-metadataDir.json' );
+            expectedRhsUsername = privateConfig.restfulHandleServerUsername;
+            expectedRhsPassword = privateConfig.restfulHandleServerPassword;
+        } );
+
+        it( 'should correctly load the corresponding private config file username', () => {
+            vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
+
+            assert.equal(
+                vorpal.em.restful_handle_server_username,
+                expectedRhsUsername,
+                'Wrong restfulHandleServerUsername'
+            );
+        } );
+
+        it( 'should correctly load the corresponding private config file password', () => {
+            vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
+
+            assert.equal(
+                vorpal.em.restful_handle_server_password,
+                expectedRhsPassword,
+                'Wrong restfulHandleServerPassword'
+            );
+        } );
+
     } );
 
-    beforeEach( ( ) => {
-        vorpal.parse( [ null, null, 'load', 'clear' ] );
+    describe( 'metadata loading', () => {
+        let expected;
+
+        before( ( ) => {
+            expected = util.jsonStableStringify(
+                require( './fixture/metadata-dumps/expected-full')
+            );
+        } );
+
+        beforeEach( ( ) => {
+            vorpal.parse( [ null, null, 'load', 'clear' ] );
+        } );
+
+        it( 'should correctly load from local metadataDir', () => {
+            vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
+            let actual = vorpal.em.metadata.dumpCanonical();
+
+            assert( actual === expected, 'Metadata loaded from metadataDir did not match expected.' );
+        } );
+
+        it( 'should correctly load from local metadataRepo', () => {
+            vorpal.parse( [ null, null, 'load', 'full-metadataRepo' ] );
+            let actual = vorpal.em.metadata.dumpCanonical();
+
+            assert( actual === expected, 'Metadata loaded from metadataRepo did not match expected.' );
+        } );
     } );
 
-    it( 'should correctly load the corresponding private config file', () => {
-        vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
-
-        assert.equal(
-            vorpal.em.restful_handle_server_username,
-            expectedRhsUsername,
-            'Wrong restfulHandleServerUsername'
-        );
-
-        assert.equal(
-            vorpal.em.restful_handle_server_password,
-            expectedRhsPassword,
-            'Wrong restfulHandleServerPassword'
-        );
-    } );
-
-    it( 'should correctly load from local metadataDir', () => {
-        vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
-        let actual = vorpal.em.metadata.dumpCanonical();
-
-        assert( actual === expected, 'Metadata loaded from metadataDir did not match expected.' );
-    } );
-
-    it( 'should correctly load from local metadataRepo', () => {
-        vorpal.parse( [ null, null, 'load', 'full-metadataRepo' ] );
-        let actual = vorpal.em.metadata.dumpCanonical();
-
-        assert( actual === expected, 'Metadata loaded from metadataRepo did not match expected.' );
-    } );
 } );
 
