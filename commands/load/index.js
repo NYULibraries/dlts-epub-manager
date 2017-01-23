@@ -41,6 +41,12 @@ module.exports = function( vorpal ) {
 
                 let confPrivate = require( configPrivateFile );
 
+                // The private config file is not a general-purpose override file.
+                // We do not want to allow accidental overwriting of values from
+                // the main config file, so we just cherry-pick what we need.
+                conf.restfulHandleServerUsername = confPrivate.restfulHandleServerUsername;
+                conf.restfulHandleServerPassword = confPrivate.restfulHandleServerPassword;
+
                 let metadataDir;
                 try {
                     metadataDir = getMetadataDir( conf );
