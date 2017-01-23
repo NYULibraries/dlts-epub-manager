@@ -93,7 +93,7 @@ class RestfulHandleServerStub {
         );
 
         // Ex.: "Fri Dec 16 05:54:45 EST 2016"
-        let expires = dateFormat( 'ddd mmm dd hh:MM:ss Z yyyy');
+        let expires = dateFormat( twelveHoursLater, 'ddd mmm dd HH:MM:ss Z yyyy');
 
         let response = {
             body       : `<?xml version="1.0"?>
