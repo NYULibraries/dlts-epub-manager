@@ -21,14 +21,16 @@ let conf;
 describe( 'handles command', () => {
     let restfulHandleServerStub;
 
-    beforeEach( ( ) => {
+    before( ( ) => {
         restfulHandleServerStub = new RestfulHandleServerStub();
 
         overriddenRequest = vorpal.em.request;
 
         vorpal.em.request =
             restfulHandleServerStub.request.bind( restfulHandleServerStub );
+    } );
 
+    beforeEach( ( ) => {
         let loadSucceeded = loadConfiguration( CONF );
 
         assert( loadSucceeded === true,
