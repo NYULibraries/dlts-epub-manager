@@ -51,6 +51,9 @@ config/*
 !config/stage.json
 !config/prod.json
 
+config-private/*
+!config-private/.commit-empty-directory
+
 test/acceptance/tmp
 test/solr/download-cache/*
 !test/solr/download-cache/.commit-empty-directory
