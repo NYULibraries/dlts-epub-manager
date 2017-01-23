@@ -7,12 +7,19 @@ let em        = require( '../../lib/bootstrap' );
 let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
 
-vorpal.em.configDir = __dirname + '/fixture/config';
+vorpal.em.configDir        = __dirname + '/fixture/config';
+vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
 describe( 'load command', () => {
     let expected;
+    let expectedRhsUsername;
+    let expectedRhsPassword;
 
     before( ( ) => {
+        let privateConfig = require( './fixture/config-private/full-metadataDir.json' );
+        expectedRhsUsername = privateConfig.restfulHandleServerUsername;
+        expectedRhsPassword = privateConfig.restfulHandleServerPassword;
+
         expected = util.jsonStableStringify(
             require( './fixture/metadata-dumps/expected-full')
         );
@@ -20,6 +27,22 @@ describe( 'load command', () => {
 
     beforeEach( ( ) => {
         vorpal.parse( [ null, null, 'load', 'clear' ] );
+    } );
+
+    it( 'should correctly load the corresponding private config file', () => {
+        vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
+
+        assert.equal(
+            vorpal.em.restful_handle_server_username,
+            expectedRhsUsername,
+            'Wrong restfulHandleServerUsername'
+        );
+
+        assert.equal(
+            vorpal.em.restful_handle_server_password,
+            expectedRhsPassword,
+            'Wrong restfulHandleServerPassword'
+        );
     } );
 
     it( 'should correctly load from local metadataDir', () => {
