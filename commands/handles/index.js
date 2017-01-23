@@ -145,7 +145,7 @@ function addHandles( epubs ) {
                             em.conf.restfulHandleServerPassword
                     ).toString( 'base64' );
 
-        let response = em.request(
+            let response = em.request(
                 'PUT',
                 url,
                 {
