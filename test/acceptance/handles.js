@@ -54,7 +54,7 @@ describe( 'handles command', () => {
 
         let handlesRemaining = restfulHandleServerStub.size();
         assert( handlesRemaining === 0,
-                `RestfulHandleServerStub still contains still contains ${handlesRemaining} handles.`
+                `RestfulHandleServerStub still contains ${handlesRemaining} handles.`
         );
     } );
 
