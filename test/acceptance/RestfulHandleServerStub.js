@@ -2,7 +2,8 @@ const dateFormat = require( 'dateformat' );
 const _          = require( 'lodash' );
 const url        = require( 'url' );
 
-const HANDLE_SERVER_URL = 'http://hdl.handle.net/';
+const HANDLE_SERVER_URL         = 'http://hdl.handle.net/';
+const RESTFUL_HANDLE_SERVER_URL = 'https://handle.dlib.nyu.edu/id/handle/';
 
 class RestfulHandleServerStub {
     constructor() {
@@ -65,12 +66,18 @@ class RestfulHandleServerStub {
             return RestfulHandleServerStub.error( 400, `method is "${method}" instead of "PUT"` );
         }
 
+        let handleId = RestfulHandleServerStub.parseHandleId( url );
+        let expectedUrl = RESTFUL_HANDLE_SERVER_URL + handleId;
+        if ( url !== expectedUrl ) {
+            return RestfulHandleServerStub.error(
+                400, `url is "${url}" instead of "${expectedUrl}"` );
+        }
+
         let contentType = options.headers[ 'content-type' ];
         if ( contentType !== 'text/xml' ) {
             return RestfulHandleServerStub.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
         }
 
-        let handleId  = RestfulHandleServerStub.parseHandleId( url );
         let handleUrl = HANDLE_SERVER_URL + handleId;
 
         if ( ! options.body.content ) {
