@@ -27,6 +27,26 @@ module.exports = function( vorpal ) {
 
                 let conf = require( configFile );
 
+                let configPrivateFile = vorpal.em.configPrivateDir + '/' +
+                                        args.configuration + util.CONFIG_FILE_EXTENSION;
+                if ( ! fs.existsSync( configPrivateFile ) ) {
+                    vorpal.log( `ERROR: ${configPrivateFile} does not exist.` +
+                                ' Please refer to README.md for information'  +
+                                ' about private configuration files.'
+                    );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
+                let confPrivate = require( configPrivateFile );
+
+                // The private config file is not a general-purpose override file.
+                // We do not want to allow accidental overwriting of values from
+                // the main config file, so we just cherry-pick what we need.
+                conf.restfulHandleServerUsername = confPrivate.restfulHandleServerUsername;
+                conf.restfulHandleServerPassword = confPrivate.restfulHandleServerPassword;
+
                 let metadataDir;
                 try {
                     metadataDir = getMetadataDir( conf );
