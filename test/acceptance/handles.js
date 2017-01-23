@@ -66,12 +66,6 @@ describe( 'handles command', () => {
 
     } );
 
-    it( 'should correctly add all handles to handles server', () => {
-
-        vorpal.parse( [ null, null, 'handles', 'add', 'full-metadataDir' ] );
-
-    } );
-
     it( 'should correctly add 3 replacement handles and 3 new handles to handles server', () => {
 
         vorpal.parse( [ null, null, 'handles', 'add', 'replace-3-new-3' ] );
