@@ -88,6 +88,30 @@ module.exports = function( vorpal ){
                     }
                 }
 
+                if ( ! vorpal.em.metadata ) {
+                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
+
+                    if ( callback ) { callback(); } else { return false; }
+                }
+
+                let epubs = vorpal.em.metadata.getAll();
+
+                try {
+
+                    let handlesDeleted = deleteAllHandles( epubs );
+
+                    vorpal.log(
+                        `Deleted ${epubs.size} handles from handles server:\n` + handlesDeleted.join( '\n' )
+                    );
+
+                    if ( callback ) { callback(); } else { return true; }
+                } catch ( error ) {
+                    vorpal.log( 'ERROR deleting handle from handle server:\n' +
+                                error );
+
+                    if ( callback ) { callback(); } else { return false; }
+                }
+
                 if ( callback ) { callback(); } else { return false; }
             }
         );
@@ -171,13 +195,21 @@ function addHandles( epubs ) {
 }
 
 function deleteAllHandles( epubs ) {
+    let handlesDeleted = [];
+
     epubs.forEach( ( epub ) => {
         try {
             deleteHandle( epub );
+
+            handlesDeleted.push(
+                `${epub.identifier}: ${epub.handle_local_name_and_prefix}`
+            );
         } catch ( error ) {
             throw error;
         }
     } );
+
+    return handlesDeleted;
 }
 
 function deleteHandle( epub ) {
