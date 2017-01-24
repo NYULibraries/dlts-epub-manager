@@ -62,9 +62,15 @@ describe( 'handles command', () => {
     } );
 
     it( 'should correctly delete 3 handles from handles server', () => {
+        let expected = _.cloneDeep( expectedFullMetadataDirHandles );
+        expected.splice( 0, 3 );
 
+        vorpal.parse( [ null, null, 'handles', 'add', 'full-metadataDir' ] );
         vorpal.parse( [ null, null, 'handles', 'delete', 'delete-3' ] );
 
+        assert( restfulHandleServerStub.stateEquals( expected ),
+            "RestfulHandelServerStub object's state does not match expected."
+        );
     } );
 
     it( 'should correctly add 3 replacement handles and 3 new handles to handles server', () => {
