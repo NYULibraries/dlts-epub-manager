@@ -68,6 +68,12 @@ class RestfulHandleServerStub {
             return RestfulHandleServerStub.error( 400, `method is "${method}" instead of "PUT"` );
         }
 
+        let response = this.requestPut( url, options );
+
+        return response;
+    }
+
+    requestPut( url, options ) {
         let handleId = RestfulHandleServerStub.parseHandleId( url );
         let expectedUrl = RESTFUL_HANDLE_SERVER_URL + handleId;
         if ( url !== expectedUrl ) {
