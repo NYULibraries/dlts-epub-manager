@@ -70,6 +70,24 @@ module.exports = function( vorpal ){
 
                     if ( callback ) { callback(); } else { return false; }
                 }
+
+                let epubs = vorpal.em.metadata.getAll();
+
+                try {
+
+                    let handlesDeleted = deleteHandles( epubs );
+
+                    vorpal.log(
+                        `Deleted ${epubs.size} handles from handles server:\n` + handlesDeleted.join( '\n' )
+                    );
+
+                    if ( callback ) { callback(); } else { return true; }
+                } catch ( error ) {
+                    vorpal.log( 'ERROR deleting handle from handle server:\n' +
+                                error );
+
+                    if ( callback ) { callback(); } else { return false; }
+                }
             }
         );
 
