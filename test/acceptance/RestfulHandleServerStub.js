@@ -64,13 +64,24 @@ class RestfulHandleServerStub {
     }
 
     request( method, url, options ) {
-        if ( method !== 'PUT' ) {
-            return RestfulHandleServerStub.error( 400, `method is "${method}" instead of "PUT"` );
+        let response;
+
+        if ( method === 'PUT' ) {
+            response = this.requestPut( url, options );
+        } else if ( method === 'DELETE' ) {
+            response = this.requestDelete( url, options );
+        } else {
+            return RestfulHandleServerStub.error(
+                400,
+                `method is "${method}" instead of "PUT" or "DELETE"`
+            );
         }
 
-        let response = this.requestPut( url, options );
-
         return response;
+    }
+
+    requestDelete( url, options ) {
+
     }
 
     requestPut( url, options ) {
