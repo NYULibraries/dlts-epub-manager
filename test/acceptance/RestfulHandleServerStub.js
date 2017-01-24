@@ -81,8 +81,7 @@ class RestfulHandleServerStub {
                 400, `url is "${url}" instead of "${expectedUrl}"` );
         }
 
-        let authorization = options.headers[ 'authorization' ];
-        if ( authorization !== AUTHORIZATION_STRING ) {
+        if ( options.headers.authorization !== AUTHORIZATION_STRING ) {
             let body = `<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
 <title>401 Authorization Required</title>
