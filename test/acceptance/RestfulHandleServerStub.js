@@ -66,10 +66,17 @@ class RestfulHandleServerStub {
     request( method, url, options ) {
         let response;
 
+        let handleId = RestfulHandleServerStub.parseHandleId( url );
+        let expectedUrl = RESTFUL_HANDLE_SERVER_URL + handleId;
+        if ( url !== expectedUrl ) {
+            return RestfulHandleServerStub.error(
+                400, `url is "${url}" instead of "${expectedUrl}"` );
+        }
+
         if ( method === 'PUT' ) {
-            response = this.requestPut( url, options );
+            response = this.requestPut( url, handleId, options );
         } else if ( method === 'DELETE' ) {
-            response = this.requestDelete( url, options );
+            response = this.requestDelete( url, handleId, options );
         } else {
             return RestfulHandleServerStub.error(
                 400,
@@ -80,18 +87,11 @@ class RestfulHandleServerStub {
         return response;
     }
 
-    requestDelete( url, options ) {
+    requestDelete( url, handleId, options ) {
 
     }
 
-    requestPut( url, options ) {
-        let handleId = RestfulHandleServerStub.parseHandleId( url );
-        let expectedUrl = RESTFUL_HANDLE_SERVER_URL + handleId;
-        if ( url !== expectedUrl ) {
-            return RestfulHandleServerStub.error(
-                400, `url is "${url}" instead of "${expectedUrl}"` );
-        }
-
+    requestPut( url, handleId, options ) {
         if ( options.headers.authorization !== AUTHORIZATION_STRING ) {
             let body = `<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
