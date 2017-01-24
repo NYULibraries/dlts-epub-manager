@@ -47,6 +47,10 @@ class RestfulHandleServerStub {
         return _.isEqual( handlesDataArray, arrayArg );
     }
 
+    delete( handle ) {
+        this.handlesData.delete( handle );
+    }
+
     get( handle ) {
         return this.handlesData.get( handle );
     }
@@ -88,7 +92,13 @@ class RestfulHandleServerStub {
     }
 
     requestDelete( url, handleId, options ) {
+        let handleUrl = HANDLE_SERVER_URL + handleId;
 
+        this.delete( handleUrl );
+
+        return {
+            statusCode : 200,
+        };
     }
 
     requestPut( url, handleId, options ) {
