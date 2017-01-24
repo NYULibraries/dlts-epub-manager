@@ -12,12 +12,11 @@ let RestfulHandleServerStub = require( './RestfulHandleServerStub' );
 const CONF                       = 'full-metadataDir';
 const RESTFUL_HANDLE_TEST_SERVER = 'handle';
 
+let conf;
 let overriddenRequest;
 
 vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
-
-let conf;
 
 describe( 'handles command', () => {
     let restfulHandleServerStub;
