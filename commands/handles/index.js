@@ -194,7 +194,7 @@ function addHandles( epubs ) {
     return handlesAdded;
 }
 
-function deleteAllHandles( epubs ) {
+function deleteHandles( epubs ) {
     let handlesDeleted = [];
 
     epubs.forEach( ( epub ) => {
