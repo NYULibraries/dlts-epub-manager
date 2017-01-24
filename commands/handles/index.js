@@ -137,7 +137,8 @@ function addHandles( epubs ) {
     </hs:info>`,
             };
 
-            let url = `https://handle.dlib.nyu.edu/id/handle/${epub.handle_local_name_and_prefix }`;
+            let url = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
+                      epub.handle_local_name_and_prefix;
             let authorization = 'Basic ' +
                     new Buffer(
                             em.conf.restfulHandleServerUsername +
