@@ -6,7 +6,6 @@
     "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
 
     "restfulHandleServerHost"     : "handle.dlib.nyu.edu",
-    "restfulHandleServerPort"     : "9002",
     "restfulHandleServerPath"     : "/id/handle",
 
     "solrHost" : "localhost",
