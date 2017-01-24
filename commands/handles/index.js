@@ -170,17 +170,17 @@ function addHandles( epubs ) {
     return handlesAdded;
 }
 
-function deleteAllEpubs( epubs ) {
+function deleteAllHandles( epubs ) {
     epubs.forEach( ( epub ) => {
         try {
-            deleteEpub( epub );
+            deleteHandle( epub );
         } catch ( error ) {
             throw error;
         }
     } );
 }
 
-function deleteEpub( epub ) {
+function deleteHandle( epub ) {
     let requestUrl = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
                      epub.handle_local_name_and_prefix;
 
