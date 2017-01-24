@@ -51,8 +51,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'handles delete [configuration]' )
         .description( 'Unbind EPUB handles.' )
-        // This doesn't work right now.  Vorpal automatically expands to 'delete all'.
-        // .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
