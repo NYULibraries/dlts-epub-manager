@@ -91,49 +91,6 @@ module.exports = function( vorpal ){
             }
         );
 
-    vorpal.command( 'handles delete all [configuration]' )
-        .description( 'Unbind all EPUB handles.' )
-        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
-        .action(
-            function( args, callback ) {
-                if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
-
-                    if ( ! loadSucceeded ) {
-                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
-
-                        if ( callback ) { callback(); } else { return false; }
-                    }
-                }
-
-                if ( ! vorpal.em.metadata ) {
-                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
-
-                    if ( callback ) { callback(); } else { return false; }
-                }
-
-                let epubs = vorpal.em.metadata.getAll();
-
-                try {
-
-                    let handlesDeleted = deleteAllHandles( epubs );
-
-                    vorpal.log(
-                        `Deleted ${epubs.size} handles from handles server:\n` + handlesDeleted.join( '\n' )
-                    );
-
-                    if ( callback ) { callback(); } else { return true; }
-                } catch ( error ) {
-                    vorpal.log( 'ERROR deleting handle from handle server:\n' +
-                                error );
-
-                    if ( callback ) { callback(); } else { return false; }
-                }
-
-                if ( callback ) { callback(); } else { return false; }
-            }
-        );
-
     vorpal.command( 'handles full-replace' )
         .option( '--dry-run', 'Print actions taken but do not execute them.' )
         .description( 'Replace all EPUB handles.' )
