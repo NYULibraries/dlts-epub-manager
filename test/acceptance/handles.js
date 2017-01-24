@@ -20,8 +20,11 @@ let conf;
 
 describe( 'handles command', () => {
     let restfulHandleServerStub;
+    let expectedFullMetadataDirHandles;
 
     before( ( ) => {
+        expectedFullMetadataDirHandles = require( './fixture/handles/expected_add_full-metadataDir.json' );
+
         restfulHandleServerStub = new RestfulHandleServerStub();
 
         overriddenRequest = vorpal.em.request;
@@ -39,12 +42,10 @@ describe( 'handles command', () => {
     } );
 
     it( 'should correctly add all handles to handle server', () => {
-        let expected = require( './fixture/handles/expected_add_full-metadataDir.json' );
-
         vorpal.parse( [ null, null, 'handles', 'add', 'full-metadataDir' ] );
 
         assert(
-            restfulHandleServerStub.stateEquals( expected ),
+            restfulHandleServerStub.stateEquals( expectedFullMetadataDirHandles ),
             'Added handles did not match expected.'
         );
     } );
