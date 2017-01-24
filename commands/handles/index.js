@@ -90,33 +90,6 @@ module.exports = function( vorpal ){
                 }
             }
         );
-
-    vorpal.command( 'handles full-replace' )
-        .option( '--dry-run', 'Print actions taken but do not execute them.' )
-        .description( 'Replace all EPUB handles.' )
-        .action(
-            function( args, callback ) {
-                let result = false;
-
-                if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
-
-                    if ( ! loadSucceeded ) {
-                        vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
-
-                        if ( callback ) { callback(); } else { return false; }
-                    }
-                }
-
-                if ( ! vorpal.em.metadata ) {
-                    vorpal.log( util.ERROR_METADATA_NOT_LOADED );
-
-                    if ( callback ) { callback(); } else { return false; }
-                }
-
-                if ( callback ) { callback(); } else { return false; }
-            }
-        );
 };
 
 function addHandles( epubs ) {

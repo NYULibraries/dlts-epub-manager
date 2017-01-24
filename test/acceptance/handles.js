@@ -68,12 +68,6 @@ describe( 'handles command', () => {
 
     } );
 
-    it( 'should correctly full-replace full handles with replace-3-add-3 handles in handles server', () => {
-
-        vorpal.parse( [ null, null, 'handles', 'full-replace', 'replace-3-new-3' ] );
-
-    } );
-
     after( ( ) => {
         vorpal.em.request = overriddenRequest;
     } );
