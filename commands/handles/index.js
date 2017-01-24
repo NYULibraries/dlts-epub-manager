@@ -169,3 +169,24 @@ function addHandles( epubs ) {
 
     return handlesAdded;
 }
+
+function deleteAllEpubs( epubs ) {
+    epubs.forEach( ( epub ) => {
+        try {
+            deleteEpub( epub );
+        } catch ( error ) {
+            throw error;
+        }
+    } );
+}
+
+function deleteEpub( epub ) {
+    let requestUrl = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
+                     epub.handle_local_name_and_prefix;
+
+    let response = em.request( 'DELETE', requestUrl );
+
+    if ( response.statusCode !== 200 ) {
+        throw response.body.toString();
+    }
+}
