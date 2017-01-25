@@ -8,6 +8,7 @@ and [Connected Youth](https://github.com/NYULibraries/dlts-connected-youth).
 
 Current functions:
 
+* Add, update, delete  handles in handle server.
 * Add, update, delete EPUBs in Solr index.
 * Add, update, delete EPUBs in [epub_library.json file](https://github.com/readium/readium-js-viewer/blob/master/epub_content/epub_library.json) used by
 [ReadiumJS viewer](https://github.com/readium/readium-js-viewer).
@@ -16,7 +17,6 @@ Current functions:
 Functions that will be migrated from the previous system at a later date:
 
 * Intake of EPUB files: decompressing, creating thumbnails, normalization.
-* Add, update, delete handles.
 
 Possible future functions:
 
@@ -83,6 +83,16 @@ See [Configuration file format](#configuration-file) for more details.
 
 ### Quickstart
 
+Handles processing indexing - prod configuration:
+
+```
+# Add all prod handles to handle server.
+./em handles add prod
+
+# Delete prod handles from handle server.
+./em handles delete prod
+```
+
 Solr indexing - dev configuration:
 
 ```
@@ -142,11 +152,8 @@ somebody@host:~/epub-manager$ ./em help
 
     help [command...]                          Provides help for a given command.
     exit                                       Exits application.
-    handles [options]                          Manage handles.
-    handles add [options]                      Bind EPUB handles.
-    handles delete [options]                   Unbind EPUB handles.
-    handles delete all [options]               Unbind all EPUB handles.
-    handles full-replace [options]             Replace all EPUB handles.
+    handles add [configuration]                Bind EPUB handles.
+    handles delete [configuration]             Unbind EPUB handles.
     intake [options]                           Manage intake of EPUB and source metadata.
     intake add [options]                       Add EPUBs and source metadata to intake.
     intake delete [options]                    Delete EPUBs and source metadata from intake.
@@ -211,7 +218,7 @@ as part of a sequence of commands.
 The `help` command lists all these function commands along with information about
 their subcommands and options.  For help on individual commands, use `help COMMAND`.
 Note that the following commands are listed in `help` but are not yet implemented:
-`handles`, `intake`, `publish`, `verify`.
+`intake`, `publish`, `verify`.
 These have been set up as placeholders only (and for testing).
 
 While in interactive shell mode, the following features are available:
@@ -451,6 +458,7 @@ mocha test/acceptance/
 
 # Acceptance tests - by command/function
 mocha test/acceptance/load
+mocha test/acceptance/handles
 mocha test/acceptance/readium-json
 mocha test/acceptance/solr
 ```
@@ -533,6 +541,10 @@ Example: "https://github.com/NYULibraries/dlts-epub-manager.git"
   processed.  Example: "nyupress"
 * **readiumJsonFile**: full path to the `epub_library.json` file.
 Example: "/home/somebody/dl-pa-servers-epub-content/epub_library.json"
+* **restfulHandleServerHost**: hostname of the restful handle server.
+Example: "devhandle.dlib.nyu.edu"
+* **restfulHandleServerPath**: path to use for handle requests.
+Example: "/id/handle"
 * **solrHost**: hostname of Solr server.  Example: "localhost"
 * **solrPort**: port that Solr is running on.  Example: 8080
 * **solrPath**: path to user for Solr requests.  Example: "/solr/nyupress"
