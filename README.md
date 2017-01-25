@@ -73,6 +73,9 @@ somebody@host:~/epub-manager$ cat > config/local.json
 
     "readiumJsonFile"       : "/home/somebody/dl-pa-servers-epub-content/epub_library.json",
 
+    "restfulHandleServerHost" : "localhost:9002",
+    "restfulHandleServerPath" : "/id/handle",
+
     "solrHost"              : "localhost",
     "solrPort"              : 8080,
     "solrPath"              : "/solr"
