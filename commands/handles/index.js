@@ -134,7 +134,9 @@ function addHandles( epubs ) {
                 throw response.body.toString();
             }
 
-            handlesAdded.push( epub.identifier );
+            handlesAdded.push(
+                `${epub.identifier}: ${epub.handle_local_name_and_prefix}`
+            );
         }
     );
 
