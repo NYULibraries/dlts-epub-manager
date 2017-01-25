@@ -412,6 +412,33 @@ somebody@host:~/epub-manager$ ls /tmp/3-epubs.json
 
 ---
 
+**EXAMPLE: Add handles for `prod`, then delete handles specified in `ad-hoc`.**
+
+---
+
+```
+somebody@host:~/epub-manager$ ./em
+em$ handles add prod
+Added 67 handles to handles server:
+9780814706404: 2333.1/37pvmfhh
+9780814706657: 2333.1/4tmpg641
+9780814711774: 2333.1/zgmsbf5k
+9780814712481: 2333.1/9s4mw88v
+9780814712771: 2333.1/tqjq2dn7
+9780814712917: 2333.1/ffbg7c4r
+9780814713013: 2333.1/612jm7ss
+...
+[SNIPPED]
+em$ handles delete ad-hoc
+Deleted 3 handles from handles server:
+9780814793398: 2333.1/b8gthvz5
+9781479824243: 2333.1/73n5tfjs
+9781479899982: 2333.1/brv15j8p
+em$ quit
+```
+
+---
+
 **EXAMPLE: Delete all EPUBs in `epub_library.json` file for `local`, then add `local` EPUBs
 twice, then do a full replace.**
 
