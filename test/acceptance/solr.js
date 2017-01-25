@@ -25,7 +25,7 @@ describe( 'solr command', () => {
         let loadSucceeded = loadConfiguration( CONF );
 
         assert( loadSucceeded === true,
-                'ERROR: beforeEach() is not set up right.  ' +
+                'ERROR: before() is not set up right.  ' +
                 `Failed to load configuration "${CONF}".` );
 
         let requestError = {};
