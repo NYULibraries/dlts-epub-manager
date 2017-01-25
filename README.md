@@ -535,7 +535,7 @@ Example: "https://github.com/NYULibraries/dlts-epub-manager.git"
 Example: "/home/somebody/dl-pa-servers-epub-content/epub_library.json"
 * **solrHost**: hostname of Solr server.  Example: "localhost"
 * **solrPort**: port that Solr is running on.  Example: 8080
-* **solrPath**: path to user for Solr requests.  Example: "/solr/nyupress"
+* **solrPath**: path to use for Solr requests.  Example: "/solr/nyupress"
 
 For examples conf files that illustrate the correct usage of all the above options,
 look in
