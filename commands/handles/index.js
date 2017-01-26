@@ -91,6 +91,14 @@ module.exports = function( vorpal ){
         );
 };
 
+function getAuthorizationHeader() {
+    return 'Basic ' + new Buffer(
+                              em.conf.restfulHandleServerUsername +
+                              ":" +
+                              em.conf.restfulHandleServerPassword
+                          ).toString( 'base64' );
+}
+
 function addHandles( epubs ) {
     let handlesAdded = [];
 
@@ -108,12 +116,7 @@ function addHandles( epubs ) {
 
             let url = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
                       epub.handle_local_name_and_prefix;
-            let authorization = 'Basic ' +
-                    new Buffer(
-                            em.conf.restfulHandleServerUsername +
-                            ":" +
-                            em.conf.restfulHandleServerPassword
-                    ).toString( 'base64' );
+            let authorization = getAuthorizationHeader( em.conf );
 
             let response = em.request(
                 'PUT',
@@ -163,7 +166,10 @@ function deleteHandle( epub ) {
     let requestUrl = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
                      epub.handle_local_name_and_prefix;
 
-    let response = em.request( 'DELETE', requestUrl );
+    let authorization = getAuthorizationHeader();
+
+    let response = em.request( 'DELETE', requestUrl,
+        { headers: { authorization } } );
 
     if ( response.statusCode !== 200 ) {
         throw response.body.toString();
