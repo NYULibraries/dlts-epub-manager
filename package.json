@@ -13,6 +13,7 @@
   "author": "da70",
   "license": "ISC",
   "dependencies": {
+    "dateformat": "^2.0.0",
     "json-stable-stringify": "^1.0.1",
     "lodash": "^4.15.0",
     "rimraf": "^2.5.2",
@@ -21,7 +22,8 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "nock": "^9.0.2"
   },
   "jshintConfig": {
     "bitwise": true,

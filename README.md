@@ -8,6 +8,7 @@ and [Connected Youth](https://github.com/NYULibraries/dlts-connected-youth).
 
 Current functions:
 
+* Add, update, delete  handles in handle server.
 * Add, update, delete EPUBs in Solr index.
 * Add, update, delete EPUBs in [epub_library.json file](https://github.com/readium/readium-js-viewer/blob/master/epub_content/epub_library.json) used by
 [ReadiumJS viewer](https://github.com/readium/readium-js-viewer).
@@ -16,7 +17,6 @@ Current functions:
 Functions that will be migrated from the previous system at a later date:
 
 * Intake of EPUB files: decompressing, creating thumbnails, normalization.
-* Add, update, delete handles.
 
 Possible future functions:
 
@@ -55,7 +55,35 @@ git clone https://github.com/NYULibraries/dlts-epub-metadata.git ~/epub-metadata
 git clone [REPO] ~/dl-pa-servers-epub-content
 ```
 
-**Step 3)** Make a local configuration if desired
+**Step 3)** Make private configuration files for dev, stage, and prod.  Private
+configuration files contain sensitive information that cannot be committed into
+the repo in the [dev.json](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json),
+                [stage.json](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json),
+                and [prod.json](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/prod.json)
+files in `config/`. 
+The usernames and passwords for our restful handle servers need to be specified
+here:
+
+```
+somebody@host:~/epub-manager$ cat config-private/dev.json 
+{
+    "restfulHandleServerUsername" : "[USERNAME FOR DEV RESTFUL HANDLE SERVER]",
+    "restfulHandleServerPassword" : "[PASSWORD FOR DEV RESTFUL HANDLE SERVER]"
+}
+somebody@host:~/epub-manager$ cat config-private/stage.json 
+{
+    "restfulHandleServerUsername" : "[USERNAME FOR STAGE RESTFUL HANDLE SERVER]",
+    "restfulHandleServerPassword" : "[PASSWORD FOR STAGE RESTFUL HANDLE SERVER]"
+}
+somebody@host:~/epub-manager$ cat config-private/prod.json 
+{
+    "restfulHandleServerUsername" : "[USERNAME FOR PROD RESTFUL HANDLE SERVER]",
+    "restfulHandleServerPassword" : "[PASSWORD FOR PROD RESTFUL HANDLE SERVER]"
+}
+
+```
+
+**Step 4)** Make a local configuration if desired
 ([dev](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json),
 [stage](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json),
 and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/prod.json)
@@ -73,15 +101,38 @@ somebody@host:~/epub-manager$ cat > config/local.json
 
     "readiumJsonFile"       : "/home/somebody/dl-pa-servers-epub-content/epub_library.json",
 
+    "restfulHandleServerHost" : "localhost:9002",
+    "restfulHandleServerPath" : "/id/handle",
+
     "solrHost"              : "localhost",
     "solrPort"              : 8080,
     "solrPath"              : "/solr"
 }
 ```
 
+Don't forget the private configuration file:
+
+```
+somebody@host:~/epub-manager$ cat config-private/local.json 
+{
+    "restfulHandleServerUsername" : "[USERNAME FOR CHOSEN RESTFUL HANDLE SERVER]",
+    "restfulHandleServerPassword" : "[PASSWORD FOR CHOSEN RESTFUL HANDLE SERVER]"
+}
+```
+
 See [Configuration file format](#configuration-file) for more details.
 
 ### Quickstart
+
+Handles processing indexing - prod configuration:
+
+```
+# Add all prod handles to handle server.
+./em handles add prod
+
+# Delete prod handles from handle server.
+./em handles delete prod
+```
 
 Solr indexing - dev configuration:
 
@@ -142,11 +193,8 @@ somebody@host:~/epub-manager$ ./em help
 
     help [command...]                          Provides help for a given command.
     exit                                       Exits application.
-    handles [options]                          Manage handles.
-    handles add [options]                      Bind EPUB handles.
-    handles delete [options]                   Unbind EPUB handles.
-    handles delete all [options]               Unbind all EPUB handles.
-    handles full-replace [options]             Replace all EPUB handles.
+    handles add [configuration]                Bind EPUB handles.
+    handles delete [configuration]             Unbind EPUB handles.
     intake [options]                           Manage intake of EPUB and source metadata.
     intake add [options]                       Add EPUBs and source metadata to intake.
     intake delete [options]                    Delete EPUBs and source metadata from intake.
@@ -211,7 +259,7 @@ as part of a sequence of commands.
 The `help` command lists all these function commands along with information about
 their subcommands and options.  For help on individual commands, use `help COMMAND`.
 Note that the following commands are listed in `help` but are not yet implemented:
-`handles`, `intake`, `publish`, `verify`.
+`intake`, `publish`, `verify`.
 These have been set up as placeholders only (and for testing).
 
 While in interactive shell mode, the following features are available:
@@ -405,6 +453,36 @@ somebody@host:~/epub-manager$ ls /tmp/3-epubs.json
 
 ---
 
+**EXAMPLE: Add handles for `prod`, then delete handles specified in `ad-hoc`.**
+
+---
+
+```
+somebody@host:~/epub-manager$ ./em
+em$ handles add prod
+Cloning into '/Users/david/Documents/programming/src/dlts/epub-manager/cache/metadataRepo'...
+Already on 'master'
+Added 67 handles to handles server:
+9780814706404: 2333.1/37pvmfhh
+9780814706657: 2333.1/4tmpg641
+9780814711774: 2333.1/zgmsbf5k
+9780814712481: 2333.1/9s4mw88v
+9780814712771: 2333.1/tqjq2dn7
+9780814712917: 2333.1/ffbg7c4r
+...
+[SNIPPED]
+em$ handles delete ad-hoc 
+Cloning into '/Users/david/Documents/programming/src/dlts/epub-manager/cache/metadataRepo'...
+Switched to a new branch 'develop'
+Added 3 handles to handles server:
+9780814793398: 2333.1/b8gthvz5
+9781479824243: 2333.1/73n5tfjs
+9781479899982: 2333.1/brv15j8p
+em$ quit
+```
+
+---
+
 **EXAMPLE: Delete all EPUBs in `epub_library.json` file for `local`, then add `local` EPUBs
 twice, then do a full replace.**
 
@@ -451,6 +529,7 @@ mocha test/acceptance/
 
 # Acceptance tests - by command/function
 mocha test/acceptance/load
+mocha test/acceptance/handles
 mocha test/acceptance/readium-json
 mocha test/acceptance/solr
 ```
@@ -498,19 +577,28 @@ BACKGROUND_SOLR=true test/solr/start-solr-test-server.sh
 
 To stop the server, simply `kill` the process.
 
-## Configuration file
+## Configuration files
 
-Configuration files are stored in `config/`.  The basenames of the files are the
-configuration names that can be specified as options for various `em` commands,
-and are used as autocomplete possibilities for commands that take a configuration
-option.
+Configuration files are stored in `config/` and `config-private/`.  Each file in
+`config/` must have a corresponding, identically named file in `config-private/`
+for storing sensitive information related to that configuration.
+The basenames of the files in `config/` are the configuration names that can be
+specified as options for various `em` commands, and are used as autocomplete
+possibilities for commands that take a configuration option.
 
 The
 [dev](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json),
 [stage](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json),
 and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/prod.json)
-configurations for NYU Press collections are already included in the repo.
+configurations for NYU Press collections are already included in the repo in
+`config/`.  Individual clones of this repo must have local `config-private/` files
+corresponding to these three configurations.  See
+[Installation and setup](#installation-and-setup), Step 3.
+
 New configuration files can be created in `config/` and will be ignored by git.
+The contents of `config-private/` is ignored by `git` entirely.
+
+`config/` file properties:
 
 * **cacheMetadataInMemory**: `true` to load all metadata at once into memory for
 faster processing, otherwise `false`.  Currently only `true` is supported.
@@ -533,11 +621,23 @@ Example: "https://github.com/NYULibraries/dlts-epub-manager.git"
   processed.  Example: "nyupress"
 * **readiumJsonFile**: full path to the `epub_library.json` file.
 Example: "/home/somebody/dl-pa-servers-epub-content/epub_library.json"
+* **restfulHandleServerHost**: hostname of the restful handle server.
+Example: "devhandle.dlib.nyu.edu"
+* **restfulHandleServerPath**: path to use for handle requests.
+Example: "/id/handle"
 * **solrHost**: hostname of Solr server.  Example: "localhost"
 * **solrPort**: port that Solr is running on.  Example: 8080
 * **solrPath**: path to use for Solr requests.  Example: "/solr/nyupress"
 
-For examples conf files that illustrate the correct usage of all the above options,
+`config-private/` file properties:
+
+* **restfulHandleServerUsername**: user authorized to add, update, and delete
+  on the restful handle server.
+* **restfulHandleServerPassword**: password for the user authorized to add,
+  update, and delete on the restful handle server.
+
+
+For example configuration files that illustrate the correct usage of all the above options,
 look in
 [config/](https://github.com/NYULibraries/dlts-epub-manager/tree/master/config)
 and
