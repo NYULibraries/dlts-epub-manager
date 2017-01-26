@@ -637,7 +637,7 @@ Example: "/id/handle"
   update, and delete on the restful handle server.
 
 
-For examples conf files that illustrate the correct usage of all the above options,
+For example configuration files that illustrate the correct usage of all the above options,
 look in
 [config/](https://github.com/NYULibraries/dlts-epub-manager/tree/master/config)
 and
