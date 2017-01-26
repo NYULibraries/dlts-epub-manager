@@ -422,6 +422,8 @@ somebody@host:~/epub-manager$ ls /tmp/3-epubs.json
 ```
 somebody@host:~/epub-manager$ ./em
 em$ handles add prod
+Cloning into '/Users/david/Documents/programming/src/dlts/epub-manager/cache/metadataRepo'...
+Already on 'master'
 Added 67 handles to handles server:
 9780814706404: 2333.1/37pvmfhh
 9780814706657: 2333.1/4tmpg641
@@ -429,11 +431,12 @@ Added 67 handles to handles server:
 9780814712481: 2333.1/9s4mw88v
 9780814712771: 2333.1/tqjq2dn7
 9780814712917: 2333.1/ffbg7c4r
-9780814713013: 2333.1/612jm7ss
 ...
 [SNIPPED]
-em$ handles delete ad-hoc
-Deleted 3 handles from handles server:
+em$ handles delete ad-hoc 
+Cloning into '/Users/david/Documents/programming/src/dlts/epub-manager/cache/metadataRepo'...
+Switched to a new branch 'develop'
+Added 3 handles to handles server:
 9780814793398: 2333.1/b8gthvz5
 9781479824243: 2333.1/73n5tfjs
 9781479899982: 2333.1/brv15j8p
