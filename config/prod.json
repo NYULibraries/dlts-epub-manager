@@ -7,6 +7,9 @@
     "metadataRepoBranch"       : "master",
     "metadataRepoSubdirectory" : "nyupress",
 
+    "restfulHandleServerHost" : "handle.dlib.nyu.edu",
+    "restfulHandleServerPath" : "/id/handle",
+
     "solrHost"              : "discovery.dlib.nyu.edu",
     "solrPort"              : 8080,
     "solrPath"              : "/solr3_discovery/nyupress"
