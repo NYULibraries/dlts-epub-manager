@@ -55,7 +55,35 @@ git clone https://github.com/NYULibraries/dlts-epub-metadata.git ~/epub-metadata
 git clone [REPO] ~/dl-pa-servers-epub-content
 ```
 
-**Step 3)** Make a local configuration if desired
+**Step 3)** Make private configuration files for dev, stage, and prod.  Private
+configuration files contain sensitive information that cannot be committed into
+the repo in the [dev.json](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json),
+                [stage.json](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json),
+                and [prod.json](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/prod.json)
+files in `config/`. 
+The usernames and passwords for our restful handle servers need to be specified
+here:
+
+```
+somebody@host:~/epub-manager$ cat config-private/dev.json 
+{
+    "restfulHandleServerUsername" : "[USERNAME FOR DEV RESTFUL HANDLE SERVER]",
+    "restfulHandleServerPassword" : "[PASSWORD FOR DEV RESTFUL HANDLE SERVER]"
+}
+somebody@host:~/epub-manager$ cat config-private/stage.json 
+{
+    "restfulHandleServerUsername" : "[USERNAME FOR STAGE RESTFUL HANDLE SERVER]",
+    "restfulHandleServerPassword" : "[PASSWORD FOR STAGE RESTFUL HANDLE SERVER]"
+}
+somebody@host:~/epub-manager$ cat config-private/prod.json 
+{
+    "restfulHandleServerUsername" : "[USERNAME FOR PROD RESTFUL HANDLE SERVER]",
+    "restfulHandleServerPassword" : "[PASSWORD FOR PROD RESTFUL HANDLE SERVER]"
+}
+
+```
+
+**Step 4)** Make a local configuration if desired
 ([dev](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json),
 [stage](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json),
 and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/prod.json)
@@ -79,6 +107,16 @@ somebody@host:~/epub-manager$ cat > config/local.json
     "solrHost"              : "localhost",
     "solrPort"              : 8080,
     "solrPath"              : "/solr"
+}
+```
+
+Don't forget the private configuration file:
+
+```
+somebody@host:~/epub-manager$ cat config-private/local.json 
+{
+    "restfulHandleServerUsername" : "[USERNAME FOR CHOSEN RESTFUL HANDLE SERVER]",
+    "restfulHandleServerPassword" : "[PASSWORD FOR CHOSEN RESTFUL HANDLE SERVER]"
 }
 ```
 
@@ -539,19 +577,28 @@ BACKGROUND_SOLR=true test/solr/start-solr-test-server.sh
 
 To stop the server, simply `kill` the process.
 
-## Configuration file
+## Configuration files
 
-Configuration files are stored in `config/`.  The basenames of the files are the
-configuration names that can be specified as options for various `em` commands,
-and are used as autocomplete possibilities for commands that take a configuration
-option.
+Configuration files are stored in `config/` and `config-private/`.  Each file in
+`config/` must have a corresponding, identically named file in `config-private/`
+for storing sensitive information related to that configuration.
+The basenames of the files in `config/` are the configuration names that can be
+specified as options for various `em` commands, and are used as autocomplete
+possibilities for commands that take a configuration option.
 
 The
 [dev](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/dev.json),
 [stage](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json),
 and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/prod.json)
-configurations for NYU Press collections are already included in the repo.
+configurations for NYU Press collections are already included in the repo in
+`config/`.  Individual clones of this repo must have local `config-private/` files
+corresponding to these three configurations.  See
+[Installation and setup](#installation-and-setup), Step 3.
+
 New configuration files can be created in `config/` and will be ignored by git.
+The contents of `config-private/` is ignored by `git` entirely.
+
+`config/` file properties:
 
 * **cacheMetadataInMemory**: `true` to load all metadata at once into memory for
 faster processing, otherwise `false`.  Currently only `true` is supported.
@@ -581,6 +628,14 @@ Example: "/id/handle"
 * **solrHost**: hostname of Solr server.  Example: "localhost"
 * **solrPort**: port that Solr is running on.  Example: 8080
 * **solrPath**: path to use for Solr requests.  Example: "/solr/nyupress"
+
+`config-private/` file properties:
+
+* **restfulHandleServerUsername**: user authorized to add, update, and delete
+  on the restful handle server.
+* **restfulHandleServerPassword**: password for the user authorized to add,
+  update, and delete on the restful handle server.
+
 
 For examples conf files that illustrate the correct usage of all the above options,
 look in
