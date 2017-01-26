@@ -127,11 +127,11 @@ the credentials required.</p>
 
         let handleUrl = HANDLE_SERVER_URL + handleId;
 
-        if ( ! options.body.content ) {
+        if ( ! options.body ) {
             return RestfulHandleServerStub.error( 400, 'No request content' );
         }
 
-        let targetUrl = RestfulHandleServerStub.parseTargetUrl( options.body.content );
+        let targetUrl = RestfulHandleServerStub.parseTargetUrl( options.body );
 
         this.set( handleUrl, targetUrl );
 

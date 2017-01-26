@@ -100,13 +100,11 @@ function addHandles( epubs ) {
                 'connected-youth' : 'connectedyouth.nyupress.org',
             };
 
-            let body = {
-                content: `<?xml version="1.0" encoding="UTF-8"?>
+            let body = `<?xml version="1.0" encoding="UTF-8"?>
     <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handle">
         <hs:binding>http://${bindingHostnameFor[ epub.collection_code ]}/details/${epub.identifier}</hs:binding>
         <hs:description></hs:description>
-    </hs:info>`,
-            };
+    </hs:info>`;
 
             let url = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
                       epub.handle_local_name_and_prefix;
