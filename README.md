@@ -47,12 +47,12 @@ npm install
 
 **Step 2)** Clone the repos containing the EPUB metadata and the `epub_library.json` file.
 For the NYU Press websites, the former is the public Github repo [dlts-epub-metadata](https://github.com/NYULibraries/dlts-epub-metadata).
-The latter is the `dl-pa-servers-epub-content` private repo and can be accessed
+The latter is the `nyu-press-readium-epub-content` private repo and can be accessed
 by DLTS and technical partners only.
 
 ```
 git clone https://github.com/NYULibraries/dlts-epub-metadata.git ~/epub-metadata
-git clone [REPO] ~/dl-pa-servers-epub-content
+git clone [REPO] ~/nyu-press-readium-epub-content
 ```
 
 **Step 3)** Make private configuration files for dev, stage, and prod.  Private
@@ -99,7 +99,7 @@ somebody@host:~/epub-manager$ cat > config/local.json
     "epubList"              : null,
     "metadataDir"           : "/home/somebody/epub-metadata/nyupress",
 
-    "readiumJsonFile"       : "/home/somebody/dl-pa-servers-epub-content/epub_library.json",
+    "readiumJsonFile"       : "/home/somebody/nyu-press-readium-epub-content/epub_library.json",
 
     "restfulHandleServerHost" : "localhost:9002",
     "restfulHandleServerPath" : "/id/handle",
@@ -306,14 +306,14 @@ somebody@host:~/epub-manager$ ./em
 em$ readium-json add
 dev  local  prod  stage
 em$ readium-json add local
-Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+Added to Readium JSON file /home/somebody/nyu-press-readium-epub-content/epub_library.json for conf "local": 67 EPUBs.
 ```
 
 Immediately executed on the command line:
 
 ```
 somebody@host:~/epub-manager$ ./em readium-json add local
-Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+Added to Readium JSON file /home/somebody/nyu-press-readium-epub-content/epub_library.json for conf "local": 67 EPUBs.
 ```
 
 ---
@@ -339,7 +339,7 @@ Added 67 EPUBs to Solr index:
 ...
 [SNIPPED]
 em$ readium-json add
-Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+Added to Readium JSON file /home/somebody/nyu-press-readium-epub-content/epub_library.json for conf "local": 67 EPUBs.
 em$ load dev
 Cloning into '/home/somebody/epub-manager/cache/metadataRepo'...
 Switched to a new branch 'develop'
@@ -366,7 +366,7 @@ Added 67 EPUBs to Solr index:
 ...
 [SNIPPED]
 em$ readium-json add local
-Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+Added to Readium JSON file /home/somebody/nyu-press-readium-epub-content/epub_library.json for conf "local": 67 EPUBs.
 em$ load dev
 Cloning into '/home/somebody/epub-manager/cache/metadataRepo'...
 Switched to a new branch 'develop'
@@ -384,12 +384,12 @@ em$ quit
 
 Note that it is not possible to rewrite the remote `epub_library.json` file sitting on
 the dev server.  The `epub_library.json` file rewrite is always local.  Thus, in this use case, the user
-presumably switched the local repo `/home/somebody/dl-pa-servers-epub-content/`
+presumably switched the local repo `/home/somebody/nyu-press-readium-epub-content/`
 to `develop` branch before running the `readium-json` command.
 
 Rewriting the `epub_library.json` file for a local instance of ReadiumJS viewer
 would have involved changing the `readiumJsonFile` option in `local.conf` from the
-path to the repo copy `/home/somebody/dl-pa-servers-epub-content/epub_library.json`
+path to the repo copy `/home/somebody/nyu-press-readium-epub-content/epub_library.json`
 to the path of the library content directory of a locally installed ReadiumJS viewer:
 e.g. `/var/www/html/readium-js-viewer/cloud-reader/epub_content/epub_library.json`.
 
@@ -491,30 +491,30 @@ twice, then do a full replace.**
 ```
 somebody@host:~/epub-manager$ ./em
 em$ readium-json delete all local
-Deleted all EPUBs from /home/somebody/dl-pa-servers-epub-content/epub_library.json.
+Deleted all EPUBs from /home/somebody/nyu-press-readium-epub-content/epub_library.json.
 em$ quit
-somebody@host:~/epub-manager$ cat /home/somebody/dl-pa-servers-epub-content/epub_library.json
+somebody@host:~/epub-manager$ cat /home/somebody/nyu-press-readium-epub-content/epub_library.json
 []
 somebody@host:~/epub-manager$ # Accidentally add `local` EPUBs twice.  The second
 somebody@host:~/epub-manager$ # `add` will simply update with the same content.
 somebody@host:~/epub-manager$ ./em
 em$ readium-json add local
-Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+Added to Readium JSON file /home/somebody/nyu-press-readium-epub-content/epub_library.json for conf "local": 67 EPUBs.
 em$ readium-json add local
-Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+Added to Readium JSON file /home/somebody/nyu-press-readium-epub-content/epub_library.json for conf "local": 67 EPUBs.
 em$ quit
 somebody@host:~/epub-manager$ # Verify that the file only has 67 EPUBs in it, despite
 somebody@host:~/epub-manager$ # having run `readium-json add local` twice.
-somebody@host:~/epub-manager$ grep '"identifier":' //home/somebody/dl-pa-servers-epub-content/epub_library.json | wc -l
+somebody@host:~/epub-manager$ grep '"identifier":' //home/somebody/nyu-press-readium-epub-content/epub_library.json | wc -l
       67
 somebody@host:~/epub-manager$ # But do a full replace anyway...
 somebody@host:~/epub-manager$ ./em
 em$ readium-json full-replace local
-Deleted all EPUBs from /home/somebody/dl-pa-servers-epub-content/epub_library.json.
-Added to Readium JSON file /home/somebody/dl-pa-servers-epub-content/epub_library.json for conf "local": 67 EPUBs.
+Deleted all EPUBs from /home/somebody/nyu-press-readium-epub-content/epub_library.json.
+Added to Readium JSON file /home/somebody/nyu-press-readium-epub-content/epub_library.json for conf "local": 67 EPUBs.
 Fully replaced all EPUBs in Readium JSON for conf local.
 em$ quit
-somebody@host:~/epub-manager$ grep '"identifier":' /home/somebody/dl-pa-servers-epub-content/epub_library.json | wc -l
+somebody@host:~/epub-manager$ grep '"identifier":' /home/somebody/nyu-press-readium-epub-content/epub_library.json | wc -l
       67
 ```
 
@@ -620,7 +620,7 @@ Example: "https://github.com/NYULibraries/dlts-epub-manager.git"
   * **metadataRepoSubdirectory**: relative path to subdirectory containing the metadata to be
   processed.  Example: "nyupress"
 * **readiumJsonFile**: full path to the `epub_library.json` file.
-Example: "/home/somebody/dl-pa-servers-epub-content/epub_library.json"
+Example: "/home/somebody/nyu-press-readium-epub-content/epub_library.json"
 * **restfulHandleServerHost**: hostname of the restful handle server.
 Example: "devhandle.dlib.nyu.edu"
 * **restfulHandleServerPath**: path to use for handle requests.
