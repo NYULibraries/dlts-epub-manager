@@ -10,7 +10,7 @@
     "restfulHandleServerHost" : "devhandle.dlib.nyu.edu",
     "restfulHandleServerPath" : "/id/handle",
 
-    "solrHost"              : "dev-discovery.dlib.nyu.edu",
+    "solrHost"              : "stagediscovery.dlib.nyu.edu",
     "solrPort"              : 8080,
     "solrPath"              : "/solr3_discovery/nyupress"
 }
