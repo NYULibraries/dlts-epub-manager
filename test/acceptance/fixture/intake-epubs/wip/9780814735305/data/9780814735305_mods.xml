@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>The Lavender Vote</title>
+    <subTitle>Lesbians, Gay Men, and Bisexuals in American Electoral Politics</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19960801</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;In the quarter century since the Stonewall riots in New York City's Greenwich Village launched the national gay-rights movement in earnest, LGB voters have steadily expanded their political influence. The Lavender Vote is the first full- length examination of lesbians, gay men, and bisexuals as a factor in American elections. Mark Hertzog here describes the differences in demographics, attitudes, and voting behavior between self-identified bisexuals and homosexuals and the rest of the voting population. He shows that lavender self- identifiers comprise a distinctive voting bloc equal in numbers to Latino voters, more liberal across the board on domestic social issues (though not necessarily on economic or national security issues) than non-gay voters, and extremely unified in high-salience elections. Further, lavender voters, contrary to popular belief, are up for grabs between the two major parties.&lt;p&gt;Offering a clear and thorough explanation of LGB voting tendencies, this volume will be must-reading for elected officials, candidates for office, and all those interested in learning about LGB voters. &lt;/p&gt;</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>SOCIAL SCIENCE</topic>
+    <topic>Gay Studies</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>278 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814735305</identifier>
+
+</mods>

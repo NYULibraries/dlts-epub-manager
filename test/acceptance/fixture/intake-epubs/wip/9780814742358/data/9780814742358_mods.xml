@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Transformation of Rage</title>
+    <subTitle>Mourning and Creativity in George Eliot's Fiction</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19970601</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;George Eliot has been widely praised both for the richness of her prose and the universality of her themes. In this compelling study, Peggy Fitzhugh Johnstone goes beyond these traditional foci to examine the role of aggression in Eliot's fiction and to find its source in the author's unconscious sense of loss stemming from traumatic family separations and deaths during her childhood and adolescence. Johnstone demonstrates that Eliot's creative work was a constructive response to her sense of loss and that the repeating patterns in her novels reflect the process of release from her state of mourning for lost loved ones. &lt;/p&gt;
+&lt;p&gt;&quot;Johnstone's description of the tumultuous events in George Eliot's work is an excellent illustration of applied psychoanalysis.&quot;&lt;/p&gt; -George H. Pollock, M.D., Ph.D.,&lt;i&gt;Psychoanalytic Books&lt;/i&gt;</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>LITERARY CRITICISM</topic>
+    <topic>General</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>192 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814742358</identifier>
+
+</mods>

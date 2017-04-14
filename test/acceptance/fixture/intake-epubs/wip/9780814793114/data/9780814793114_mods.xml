@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>HIV Mental Health for the 21st Century</title>
+    <subTitle></subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19970301</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;As we approach the 21st century, we also approach the third decade of the AIDS epidemic. Mental health care providers must face the crucial fact that the human immunodeficiency virus (HIV) and the condition it causes, Acquired Immune Deficiency Syndrome (AIDS) is the leading cause of death among Americans aged 25-44 years.&lt;/p&gt; &lt;p&gt;HIV Mental Health for the 21st Century provides a roadmap for mental health professionals who seek to develop new strategies aimed at increasing the longevity and quality of life for people living with HIV/AIDS, as well as at controlling the future spread of the disease. Divided into five sections, this volume covers basic concepts in HIV/AIDS mental health; specialized aspects of HIV/AIDS clinical care; models of clinical care; program evaluation; and HIV mental health policy and programs. Chapters treat issues such as feelings of caregivers, the role of spirituality in mental health care, rural practice, mental health home care, and working with children. &lt;/p&gt;</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>PSYCHOLOGY</topic>
+    <topic>Psychotherapy</topic>
+    <topic>General</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>376 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814793114</identifier>
+
+</mods>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>The Gender Line</title>
+    <subTitle>Men, Women, and the Law</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19980401</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;Despite tremendous advances in civil rights, we live in a world where the sexes remain sharply segregated from birth to death: in names, clothing, social groupings, and possessions; in occupations, civic association, and domestic roles. Gender separatism, so pervasive as to be almost invisible, permeates the fabric of our daily social routines. Preferring a notion of gender that is fluid and contextual, and denying that separatism is inevitable, Nancy Levit dismantles the myths of gender essentialism Drawing on a wealth of interdisciplinary data regarding the biological and cultural origins of sex differences, Levit provides a fresh perspective on gendered behaviors and argues the need for careful cultivation of new relations between the sexes.&lt;/p&gt; &lt;p&gt;With its focus particularly on men, &lt;B&gt;The Gender Line&lt;/B&gt; offers an insightful overview of the construction of gender and the damaging effects of its stereotypes. Levit analyzes the ways in which law legitimizes the social segregation of the sexes through legal decisions regarding custody, employment, education, sexual harassment, and criminal law. In so doing, she illustrates the ways in which men's and women's oppressions are intertwined and how law molds the very definition of masculinity.&lt;/p&gt; &lt;p&gt;Applying feminist methodology to the doctrine of feminism itself, Levit artfully demonstrates that gender separatism infects even our contemporary views of feminism. Levit asks questions that have been too long been unspoken--those that lie at the core of the feminist project, yet threaten its very foundations. Revealing masculinity as both a privileged and a victimized condition, she calls for a step forward, past the bounds of contemporary feminism and its conflicts, toward a more egalitarian and inclusive feminism. This brand of feminism would reshape traditional masculinity, invite men into feminist dialogue, and claim men as political allies.&lt;/p&gt;
+&lt;p&gt;&quot;In The Gender Line, Nancy Levit shows how our culture's norms of masculinity and femininity have harmed men as well as women; she offers a new feminist vision that seeks to reshape masculinity for the benefit of all human beings. Here is a book that argues persuasively that men need the insights of feminism as much as feminism needs alliances with men.&quot;&lt;/p&gt;-Jack M. Balkin,Lafayette S. Foster Professor, Yale Law School;
+&lt;p&gt;&quot;&lt;b&gt;The Gender Line&lt;/b&gt; is a rare combination&amp;#8212;both a sober and sensible analysis of how the law constructs gender difference and inequality, and a passionate voice for gender equality and justice. Nancy Levit strikes just the right tone: empowering to women and empathetic to men. I can't wait to use it in class!&quot;&lt;/p&gt;-Michael Kimmel,Professor of Sociology, SUNY/Stony Brook, author of &lt;i&gt;Manhood in America&lt;/i&gt;;
+&lt;p&gt;&quot;Drawing on a variety of disciplines, Levit contends that both society generally and some feminists in particular have exaggerated the evidence of difference between males and females and have overlooked the far more prevalent similarities. . . . A readable, thoughtful, and controversial volume.&quot;&lt;/p&gt; -&lt;i&gt;Choice&lt;/i&gt;,;
+&lt;p&gt;&quot;Interesting and important. . . . It should be compulsory reading in preparation for law study to stimulate and inspire individuals aspiring to learn to construct a society more egalitarian than we now know.&quot;&lt;/p&gt; -Judge Norma L. Shapiro,Jurist;
+&lt;p&gt;&quot;&lt;b&gt;The Gender Line&lt;/b&gt; marks feminism's coming of age. Levit tackles the issue of gender not just as it affects women, but as it constrains everyone. Her book brings new insight into the meaning of masculinity and femininity and their role in society.&quot;&lt;/p&gt; -June Carbone,Santa Clara Law School</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>SOCIAL SCIENCE</topic>
+    <topic>Gender Studies</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>320 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814751213</identifier>
+
+</mods>

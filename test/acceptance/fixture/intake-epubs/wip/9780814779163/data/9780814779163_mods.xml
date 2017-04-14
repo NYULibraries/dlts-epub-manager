@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>The Dilemma of Context</title>
+    <subTitle></subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19910601</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;In &lt;I&gt;The Dilemma of Context&lt;/I&gt;, Scharfstein contends that the problems encountered with context are insoluble. He explains why this problem lays an intellectual burden on us that, while remaining inescapable,can become so heavy it destroys the understandingit was created to further.&lt;/p&gt;</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>LAW</topic>
+    <topic>General</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent> pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814779163</identifier>
+
+</mods>

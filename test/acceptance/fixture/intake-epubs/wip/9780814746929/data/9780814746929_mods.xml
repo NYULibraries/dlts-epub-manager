@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>The Essential Agus</title>
+    <subTitle>The Writings of Jacob B. Agus</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19970301</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;Rabbi Jacob Agus' (1911-1986) intellectual production spanned nearly a half century and covered an enormous historical and conceptual range, from the biblical to the modern era. Best known as an important Jewish scholar, he also held important rabbinic, teaching, and public positions. Although born and raised within an orthodox setting, Agus was strongly influenced by American liberalism and his work displayed modernizing sympathies, reservations about nationalism--including some forms of Zionism--and often severe criticisms of kabbalah. Agus crafted a unique, quite American, modernizing vision that ardently sought to remain in touch with the wellsprings of the rabbinic tradition while remaining open to the intellectual and moral currents of his own time.&lt;p&gt;The Essential Agus brings together a sampling of Agus' most important published and unpublished material in one easily accessible volume. It will be an invaluable resource for students and researchers seeking to experience Agus' intellectual legacy.&lt;/p&gt;</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>BIOGRAPHY &amp; AUTOBIOGRAPHY</topic>
+    <topic>Religious</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>232 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814746929</identifier>
+
+</mods>
