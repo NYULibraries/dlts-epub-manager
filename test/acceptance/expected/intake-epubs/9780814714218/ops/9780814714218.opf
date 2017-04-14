@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814714218">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Markets and Justice</dc:title>
+<dc:creator>John W. Chapman</dc:creator>
+<dc:creator>J. Roland Pennock</dc:creator>
+<dc:date>1989</dc:date>
+<dc:identifier id="p9780814714218">9780814714218</dc:identifier>
+<dc:coverage>New York</dc:coverage>
+<dc:coverage>London</dc:coverage>
+<dc:format>348 Pages</dc:format>
+<dc:type>Text</dc:type>
+<dc:language>en</dc:language>
+<dc:rights>All rights reserved</dc:rights>
+<dc:publisher>New York University Press</dc:publisher>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
+<item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="font1" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="font2" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="font3" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="font4" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+<item id="css" href="styles/9780814714218.css" media-type="text/css"/>
+<item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="halftitle" href="xhtml/halftitle.html" media-type="application/xhtml+xml"/>
+<item id="other" href="xhtml/other.html" media-type="application/xhtml+xml"/>
+<item id="other1" href="xhtml/other1.html" media-type="application/xhtml+xml"/>
+<item id="title" href="xhtml/title.html" media-type="application/xhtml+xml"/>
+<item id="copyright" href="xhtml/copyright.html" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/contents.html" media-type="application/xhtml+xml"/>
+<item id="contributors" href="xhtml/contributors.html" media-type="application/xhtml+xml"/>
+<item id="preface" href="xhtml/preface.html" media-type="application/xhtml+xml"/>
+<item id="introduction" href="xhtml/introduction.html" media-type="application/xhtml+xml"/>
+<item id="part_01" href="xhtml/part_01.html" media-type="application/xhtml+xml"/>
+<item id="ch01" href="xhtml/ch01.html" media-type="application/xhtml+xml"/>
+<item id="ch02" href="xhtml/ch02.html" media-type="application/xhtml+xml"/>
+<item id="ch03" href="xhtml/ch03.html" media-type="application/xhtml+xml"/>
+<item id="part_02" href="xhtml/part_02.html" media-type="application/xhtml+xml"/>
+<item id="ch04" href="xhtml/ch04.html" media-type="application/xhtml+xml"/>
+<item id="ch05" href="xhtml/ch05.html" media-type="application/xhtml+xml"/>
+<item id="part_03" href="xhtml/part_03.html" media-type="application/xhtml+xml"/>
+<item id="ch06" href="xhtml/ch06.html" media-type="application/xhtml+xml"/>
+<item id="ch07" href="xhtml/ch07.html" media-type="application/xhtml+xml"/>
+<item id="ch08" href="xhtml/ch08.html" media-type="application/xhtml+xml"/>
+<item id="ch09" href="xhtml/ch09.html" media-type="application/xhtml+xml"/>
+<item id="part_04" href="xhtml/part_04.html" media-type="application/xhtml+xml"/>
+<item id="ch10" href="xhtml/ch10.html" media-type="application/xhtml+xml"/>
+<item id="ch11" href="xhtml/ch11.html" media-type="application/xhtml+xml"/>
+<item id="epilogue" href="xhtml/epilogue.html" media-type="application/xhtml+xml"/>
+<item id="index" href="xhtml/index.html" media-type="application/xhtml+xml"/>
+<item id="cover-image" href="images/9780814714218.jpg" media-type="image/jpeg"/>
+<item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
+</manifest>
+<spine xmlns="http://www.idpf.org/2007/opf" toc="ncx" page-map="map">
+<itemref idref="cover"/>
+<itemref idref="halftitle"/>
+<itemref idref="other"/>
+<itemref idref="other1"/>
+<itemref idref="title"/>
+<itemref idref="copyright"/>
+<itemref idref="contents"/>
+<itemref idref="contributors"/>
+<itemref idref="preface"/>
+<itemref idref="introduction"/>
+<itemref idref="part_01"/>
+<itemref idref="ch01"/>
+<itemref idref="ch02"/>
+<itemref idref="ch03"/>
+<itemref idref="part_02"/>
+<itemref idref="ch04"/>
+<itemref idref="ch05"/>
+<itemref idref="part_03"/>
+<itemref idref="ch06"/>
+<itemref idref="ch07"/>
+<itemref idref="ch08"/>
+<itemref idref="ch09"/>
+<itemref idref="part_04"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="epilogue"/>
+<itemref idref="index"/>
+</spine>
+<guide>
+<reference href="xhtml/contents.html#toc" type="toc" title="Contents"/>
+</guide>
+</package>

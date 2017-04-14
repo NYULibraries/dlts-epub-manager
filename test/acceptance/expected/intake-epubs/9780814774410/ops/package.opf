@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814774410">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Queer Words, Queer Images: Communication and the Construction of Homosexuality</dc:title>
+<dc:creator>R. Jeffrey Ringer</dc:creator>
+<dc:creator>Cara Shores</dc:creator>
+<dc:date>1994</dc:date>
+<dc:identifier id="p9780814774410">9780814774410</dc:identifier>
+<dc:coverage></dc:coverage>
+<dc:language>EN</dc:language>
+<dc:type>Text</dc:type>
+<dc:format>360 Pages</dc:format>
+<dc:rights>All Rights Reserved</dc:rights>
+<dc:publisher>New York University Press</dc:publisher>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="ch00_fm01_half" href="xhtml/ch00_fm01_half.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm02_dedi" href="xhtml/ch00_fm02_dedi.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm03_title" href="xhtml/ch00_fm03_title.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm04_copy" href="xhtml/ch00_fm04_copy.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm05_cont" href="xhtml/ch00_fm05_cont.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm06_ack" href="xhtml/ch00_fm06_ack.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm07_half" href="xhtml/ch00_fm07_half.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm08_intro" href="xhtml/ch00_fm08_intro.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm09_part1" href="xhtml/ch00_fm09_part1.html" media-type="application/xhtml+xml"/>
+<item id="ch01" href="xhtml/ch01.html" media-type="application/xhtml+xml"/>
+<item id="ch02" href="xhtml/ch02.html" media-type="application/xhtml+xml"/>
+<item id="ch03" href="xhtml/ch03.html" media-type="application/xhtml+xml"/>
+<item id="ch04" href="xhtml/ch04.html" media-type="application/xhtml+xml"/>
+<item id="ch04_part02" href="xhtml/ch04_part02.html" media-type="application/xhtml+xml"/>
+<item id="ch05" href="xhtml/ch05.html" media-type="application/xhtml+xml"/>
+<item id="ch06" href="xhtml/ch06.html" media-type="application/xhtml+xml"/>
+<item id="ch07" href="xhtml/ch07.html" media-type="application/xhtml+xml"/>
+<item id="ch08" href="xhtml/ch08.html" media-type="application/xhtml+xml"/>
+<item id="ch08_part03" href="xhtml/ch08_part03.html" media-type="application/xhtml+xml"/>
+<item id="ch09" href="xhtml/ch09.html" media-type="application/xhtml+xml"/>
+<item id="ch10" href="xhtml/ch10.html" media-type="application/xhtml+xml"/>
+<item id="ch11" href="xhtml/ch11.html" media-type="application/xhtml+xml"/>
+<item id="ch12" href="xhtml/ch12.html" media-type="application/xhtml+xml"/>
+<item id="ch12_part04" href="xhtml/ch12_part04.html" media-type="application/xhtml+xml"/>
+<item id="ch13" href="xhtml/ch13.html" media-type="application/xhtml+xml"/>
+<item id="ch14" href="xhtml/ch14.html" media-type="application/xhtml+xml"/>
+<item id="ch15" href="xhtml/ch15.html" media-type="application/xhtml+xml"/>
+<item id="ch16" href="xhtml/ch16.html" media-type="application/xhtml+xml"/>
+<item id="ch16_part5" href="xhtml/ch16_part5.html" media-type="application/xhtml+xml"/>
+<item id="ch17" href="xhtml/ch17.html" media-type="application/xhtml+xml"/>
+<item id="ch18" href="xhtml/ch18.html" media-type="application/xhtml+xml"/>
+<item id="ch19" href="xhtml/ch19.html" media-type="application/xhtml+xml"/>
+<item id="ch20" href="xhtml/ch20.html" media-type="application/xhtml+xml"/>
+<item id="ch21" href="xhtml/ch21.html" media-type="application/xhtml+xml"/>
+<item id="ch22_nindex" href="xhtml/ch22_nindex.html" media-type="application/xhtml+xml"/>
+<item id="ch23_index" href="xhtml/ch23_index.html" media-type="application/xhtml+xml"/>
+<item id="stylesheet" href="styles/9780814774410.css" media-type="text/css"/>
+<item id="cover-image" href="images/9780814774410.jpg" media-type="image/jpeg"/>
+<item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
+<item id="t0243-01" href="images/t0243-01.jpg" media-type="image/jpeg"/>
+<item id="t0250-01" href="images/t0250-01.jpg" media-type="image/jpeg"/>
+<item id="t0079-01" href="images/t0079-01.jpg" media-type="image/jpeg"/>
+<item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
+<item id="font1" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="font2" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="font3" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="font4" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+</manifest>
+<spine toc="ncx">
+<itemref idref="cover" page-map="map"/>
+<itemref idref="ch00_fm01_half"/>
+<itemref idref="ch00_fm02_dedi"/>
+<itemref idref="ch00_fm03_title"/>
+<itemref idref="ch00_fm04_copy"/>
+<itemref idref="ch00_fm05_cont"/>
+<itemref idref="ch00_fm06_ack"/>
+<itemref idref="ch00_fm07_half"/>
+<itemref idref="ch00_fm08_intro"/>
+<itemref idref="ch00_fm09_part1"/>
+<itemref idref="ch01"/>
+<itemref idref="ch02"/>
+<itemref idref="ch03"/>
+<itemref idref="ch04"/>
+<itemref idref="ch04_part02"/>
+<itemref idref="ch05"/>
+<itemref idref="ch06"/>
+<itemref idref="ch07"/>
+<itemref idref="ch08"/>
+<itemref idref="ch08_part03"/>
+<itemref idref="ch09"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="ch12"/>
+<itemref idref="ch12_part04"/>
+<itemref idref="ch13"/>
+<itemref idref="ch14"/>
+<itemref idref="ch15"/>
+<itemref idref="ch16"/>
+<itemref idref="ch16_part5"/>
+<itemref idref="ch17"/>
+<itemref idref="ch18"/>
+<itemref idref="ch19"/>
+<itemref idref="ch20"/>
+<itemref idref="ch21"/>
+<itemref idref="ch22_nindex"/>
+<itemref idref="ch23_index"/>
+</spine>
+<guide>
+<reference href="xhtml/ch00_fm05_cont.html#ch00_fm05_cont" type="toc" title="Contents"/>
+</guide>
+</package>
