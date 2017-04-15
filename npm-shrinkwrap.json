@@ -62,10 +62,22 @@
       "from": "balanced-match@>=0.4.1 <0.5.0",
       "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.1.tgz"
     },
+    "bluebird": {
+      "version": "3.4.1",
+      "from": "bluebird@3.4.1",
+      "resolved": "https://registry.npmjs.org/bluebird/-/bluebird-3.4.1.tgz",
+      "dev": true
+    },
     "brace-expansion": {
       "version": "1.1.4",
       "from": "brace-expansion@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.4.tgz"
+    },
+    "buffer-equal": {
+      "version": "1.0.0",
+      "from": "buffer-equal@1.0.0",
+      "resolved": "https://registry.npmjs.org/buffer-equal/-/buffer-equal-1.0.0.tgz",
+      "dev": true
     },
     "caseless": {
       "version": "0.11.0",
@@ -102,6 +114,12 @@
       "version": "1.0.0",
       "from": "color-convert@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/color-convert/-/color-convert-1.0.0.tgz"
+    },
+    "colors": {
+      "version": "1.0.3",
+      "from": "colors@1.0.3",
+      "resolved": "https://registry.npmjs.org/colors/-/colors-1.0.3.tgz",
+      "dev": true
     },
     "commander": {
       "version": "2.3.0",
@@ -166,6 +184,26 @@
       "resolved": "https://registry.npmjs.org/diff/-/diff-1.4.0.tgz",
       "dev": true
     },
+    "dir-compare": {
+      "version": "1.4.0",
+      "from": "dir-compare@latest",
+      "resolved": "https://registry.npmjs.org/dir-compare/-/dir-compare-1.4.0.tgz",
+      "dev": true,
+      "dependencies": {
+        "commander": {
+          "version": "2.9.0",
+          "from": "commander@2.9.0",
+          "resolved": "https://registry.npmjs.org/commander/-/commander-2.9.0.tgz",
+          "dev": true
+        },
+        "minimatch": {
+          "version": "3.0.2",
+          "from": "minimatch@3.0.2",
+          "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.2.tgz",
+          "dev": true
+        }
+      }
+    },
     "escape-string-regexp": {
       "version": "1.0.5",
       "from": "escape-string-regexp@>=1.0.2 <2.0.0",
@@ -191,6 +229,12 @@
       "version": "2.0.3",
       "from": "graceful-fs@>=2.0.0 <2.1.0",
       "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-2.0.3.tgz",
+      "dev": true
+    },
+    "graceful-readlink": {
+      "version": "1.0.1",
+      "from": "graceful-readlink@>=1.0.0",
+      "resolved": "https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz",
       "dev": true
     },
     "growl": {
