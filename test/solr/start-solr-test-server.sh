@@ -7,13 +7,12 @@ set -e
 
 SOLR_VERSION=3.6.0
 
-cd $(dirname $0)
+export ROOT=$(cd "$(dirname "$0")" ; pwd -P )
+cd $ROOT
 
-export TEST_ROOT=$(pwd)
-
-export CONFIG_FILES=${TEST_ROOT}/config-files
-export SOLR_ARCHIVE="${TEST_ROOT}/download-cache/${SOLR_VERSION}.tgz"
-export SOLR_ROOT=${TEST_ROOT}/solr-${SOLR_VERSION}
+export CONFIG_FILES=${ROOT}/config-files
+export SOLR_ARCHIVE="${ROOT}/download-cache/${SOLR_VERSION}.tgz"
+export SOLR_ROOT=${ROOT}/solr-${SOLR_VERSION}
 export SOLR_CORE=${SOLR_ROOT}/solr/test-core
 
 if [ -f ${SOLR_ARCHIVE} ]; then
@@ -29,6 +28,7 @@ fi
 echo "Extracting Solr ${SOLR_VERSION} to $(basename ${SOLR_ROOT})"
 rm -rf $SOLR_ROOT
 mkdir $SOLR_ROOT
+mkdir ${SOLR_ROOT}/data
 tar -C $SOLR_ROOT -xf ${SOLR_ARCHIVE} --strip-components 2 apache-solr-${SOLR_VERSION}/example
 tar -C $SOLR_ROOT -xf ${SOLR_ARCHIVE} --strip-components 1 apache-solr-${SOLR_VERSION}/dist apache-solr-${SOLR_VERSION}/contrib
 
@@ -47,7 +47,7 @@ cd $SOLR_ROOT
 
 # We use exec to allow process monitors to correctly kill the
 # actual Java process rather than this launcher script:
-export CMD="java -Djetty.port=9001 -Djava.awt.headless=true -Dapple.awt.UIElement=true -jar start.jar"
+export CMD="java -Djetty.port=9001 -Djava.awt.headless=true -Dapple.awt.UIElement=true -Dsolr.home=${SOLR_ROOT} -Dsolr.data.dir=${SOLR_CORE}/data -jar start.jar"
 
 if [ -z "${BACKGROUND_SOLR}" ]; then
     exec $CMD
