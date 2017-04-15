@@ -16,7 +16,7 @@ describe( 'readium-json command', () => {
 
     before( ( ) => {
         expectedFull = util.jsonStableStringify(
-            require( './fixture/readiumJsonFiles/expected_add_full-metadataDir_epub_library.json')
+            require( './expected/readiumJsonFiles/expected_add_full-metadataDir_epub_library.json')
         );
     } );
 
@@ -59,7 +59,7 @@ describe( 'readium-json command', () => {
         vorpal.parse( [ null, null, 'readium-json', 'delete', 'delete-3' ] );
 
         let expectedDelete3 = util.jsonStableStringify(
-            require( './fixture/readiumJsonFiles/expected_delete_delete-3_epub_library.json')
+            require( './expected/readiumJsonFiles/expected_delete_delete-3_epub_library.json')
         );
 
         let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
@@ -87,7 +87,7 @@ describe( 'readium-json command', () => {
         vorpal.parse( [ null, null, 'readium-json', 'add', 'replace-3-new-3' ] );
 
         let expectedReplace3New3 = util.jsonStableStringify(
-            require( './fixture/readiumJsonFiles/expected_add_replace-3-new-3_epub_library.json')
+            require( './expected/readiumJsonFiles/expected_add_replace-3-new-3_epub_library.json')
         );
 
         let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
@@ -110,7 +110,7 @@ describe( 'readium-json command', () => {
         vorpal.parse( [ null, null, 'readium-json', 'full-replace', 'replace-3-new-3' ] );
 
         let expectedReplace3New3 = util.jsonStableStringify(
-            require( './fixture/readiumJsonFiles/expected_full-replace_replace-3-new-3_epub_library.json')
+            require( './expected/readiumJsonFiles/expected_full-replace_replace-3-new-3_epub_library.json')
         );
 
         let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
