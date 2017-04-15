@@ -54,7 +54,11 @@ config/*
 config-private/*
 !config-private/.commit-empty-directory
 
-test/acceptance/tmp
+test/acceptance/tmp/epubs/*
+!test/acceptance/tmp/epubs/.commit-empty-directory
+test/acceptance/tmp/metadata/*
+!test/acceptance/tmp/metadata/.commit-empty-directory
+
 test/solr/download-cache/*
 !test/solr/download-cache/.commit-empty-directory
 test/solr/solr-*/
