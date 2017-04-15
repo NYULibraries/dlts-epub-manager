@@ -15,7 +15,8 @@ const CONF                        = 'full-metadataDir';
 const SOLR_SETUP_AND_START_SCRIPT = 'test/solr/start-solr-test-server.sh';
 const SOLR_TEST_CORE              = 'test-core';
 
-vorpal.em.configDir = __dirname + '/fixture/config';
+vorpal.em.configDir        = __dirname + '/fixture/config';
+vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
 let conf;
 
