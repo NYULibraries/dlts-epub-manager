@@ -4,21 +4,34 @@
 
 let assert    = require( 'chai' ).assert;
 let em        = require( '../../lib/bootstrap' );
+let fs        = require( 'fs' );
+let _         = require( 'lodash' );
 let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
 
-vorpal.em.configDir        = __dirname + '/fixture/config';
+const CONF                        = 'full-metadataDir';
+
+vorpal.em.configDir = __dirname + '/fixture/config';
 
 describe( 'intake command', () => {
 
-    describe( 'intake EPUBs', () => {
-        it( 'should correctly intake EPUBs', () => {
-            vorpal.parse( [ null, null, 'intake', 'full-metadataDir' ] );
+    before( ( ) => {
+        let loadSucceeded = vorpal.execSync( `load ${CONF}`, { fatal : true } );
 
-            // Assert that output EPUBs match test/acceptance/expected/epubs-from-intake/
-            // Assert that output metadata match test/acceptance/expected/metadata-from-intake/
-        } );
+        assert( loadSucceeded === true,
+                'ERROR: before() is not set up right.  ' +
+                `Failed to load configuration "${CONF}".` );
+    } );
+
+    beforeEach( ( ) => {
+    } );
+
+    it( 'should correctly intake all EPUBs', () => {
+        vorpal.parse( [ null, null, 'intake', 'add', 'full-metadataDir' ] );
+    } );
+
+    it( 'should correctly add 3 replacement EPUBs and 3 new EPUBs', () => {
+        vorpal.parse( [ null, null, 'solr', 'add', 'replace-3-new-3' ] );
     } );
 
 } );
-
