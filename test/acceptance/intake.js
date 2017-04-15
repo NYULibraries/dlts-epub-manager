@@ -7,7 +7,7 @@ let dircompare = require( 'dir-compare' );
 let em         = require( '../../lib/bootstrap' );
 let vorpal     = em.vorpal;
 
-const CONF = 'full-metadataDir';
+const CONF = 'intake';
 
 vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
@@ -26,17 +26,18 @@ describe( 'intake command', () => {
     } );
 
     it( 'should correctly intake all EPUBs and generate correct Readium versions', () => {
-        vorpal.parse( [ null, null, 'intake', 'add', 'full-metadataDir' ] );
+        vorpal.parse( [ null, null, 'intake', 'add' ] );
 
         var epubsComparison,
+            epubOutputDir = vorpal.em.conf.epubOutputDir,
+            epubExpectedDir = __dirname + '/expected/epubs-from-intake',
             compareOptions = {
                 compareContent : true,
                 excludeFilter  : '.commit-empty-directory',
             };
 
         epubsComparison = dircompare.compareSync(
-            __dirname + '/tmp/epubs',
-            __dirname + '/expected/epubs-from-intake',
+            epubOutputDir, epubExpectedDir,
             compareOptions
         );
 
@@ -44,17 +45,18 @@ describe( 'intake command', () => {
     } );
 
     it( 'should correctly intake all EPUBs and generate correct metadata files', () => {
-        vorpal.parse( [ null, null, 'intake', 'add', 'full-metadataDir' ] );
+        vorpal.parse( [ null, null, 'intake', 'add' ] );
 
         var metadataComparison,
+            metadataDir = vorpal.em.conf.metadataDir,
+            metadataExpectedDir = __dirname + '/expected/metadata-from-intake',
             compareOptions = {
                 compareContent : true,
                 excludeFilter  : '.commit-empty-directory',
             };
 
         metadataComparison = dircompare.compareSync(
-            __dirname + '/tmp/metadata',
-            __dirname + '/expected/metadata-from-intake',
+            metadataDir, metadataExpectedDir,
             compareOptions
         );
 
