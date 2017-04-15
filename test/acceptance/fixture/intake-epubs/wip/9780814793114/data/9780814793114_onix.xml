@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814793114</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814793118</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814793114</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814793114</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">HIV Mental Health for the 21st Century</TitleText>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Mark G. Winiarski</PersonName>
+      <BiographicalNote>
+&lt;p>Mark G. Winiarski, Ph.D., is a psychologist active in HIV/AIDS work since 1987, and has been director of the federally funded AIDS Mental Health and Primary Care Integration Project at Montefiore Medical Center in New York City for five years. The author of AIDS-Related Psychotherapy, he is Assistant Professor in the Departments of Family Medicine and Psychiatry at the Albert Einstein College of Medicine.&lt;/p> &lt;p>Related Links: &lt;a href="http://www.smartlink..net/`martinjh">Marty Howard's HIV/AIDS HomePage&lt;/a>&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>376</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>PSY028000</SubjectCode>
+      <SubjectHeadingText>PSYCHOLOGY / Psychotherapy / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>As we approach the 21st century, we also approach the third decade of the AIDS epidemic. Mental health care providers must face the crucial fact that the human immunodeficiency virus (HIV) and the condition it causes, Acquired Immune Deficiency Syndrome (AIDS) is the leading cause of death among Americans aged 25-44 years.&lt;/p> &lt;p>HIV Mental Health for the 21st Century provides a roadmap for mental health professionals who seek to develop new strategies aimed at increasing the longevity and quality of life for people living with HIV/AIDS, as well as at controlling the future spread of the disease. Divided into five sections, this volume covers basic concepts in HIV/AIDS mental health; specialized aspects of HIV/AIDS clinical care; models of clinical care; program evaluation; and HIV mental health policy and programs. Chapters treat issues such as feelings of caregivers, the role of spirituality in mental health care, rural practice, mental health home care, and working with children. &lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19970301</PublicationDate>
+    <CopyrightYear>1997</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19970130</ExpectedShipDate>
+      <OnSaleDate>19970301</OnSaleDate>
+      <PackQuantity>24</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>27.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

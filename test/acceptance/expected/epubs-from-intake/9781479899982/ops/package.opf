@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title id="title">By Any Media Necessary</dc:title>
+<dc:identifier id="pub-id">urn:isbn:9781479899982</dc:identifier>
+<dc:language>en-US</dc:language>
+<dc:creator id="creator">Henry Jenkins et al</dc:creator>
+<dc:publisher>New York University Press</dc:publisher>
+<dc:rights>All rights reserved</dc:rights>
+<dc:format>352 Pages</dc:format>
+<meta property="dcterms:modified">2016-02-08T17:05:56Z</meta>
+<meta property="dcterms:creator" id="auth">Henry Jenkins, Sangita Shresthova, Liana Gamber-Thompson, Neta Kligler-Vilenchik, Arely M. Zimmerman</meta>
+<meta property="dcterms:date">2016</meta>
+<meta property="rendition:orientation">auto</meta>
+<meta property="rendition:spread">auto</meta>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item properties="nav" id="nav" href="nav.xhtml" media-type="application/xhtml+xml"/>
+<item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="html-cover-page" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="halftitle" href="xhtml/halftitle.xhtml" media-type="application/xhtml+xml"/>
+<item id="connected" href="xhtml/connected.xhtml" media-type="application/xhtml+xml"/>
+<item id="tit" href="xhtml/title.xhtml" media-type="application/xhtml+xml"/>
+<item id="copyright" href="xhtml/copyright.xhtml" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/contents.xhtml" media-type="application/xhtml+xml"/>
+<item id="acknowledgments" href="xhtml/acknowledgments.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter1" href="xhtml/chapter1.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter2" href="xhtml/chapter2.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter3" href="xhtml/chapter3.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter4" href="xhtml/chapter4.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter5" href="xhtml/chapter5.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter6" href="xhtml/chapter6.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter7" href="xhtml/chapter7.xhtml" media-type="application/xhtml+xml"/>
+<item id="afterword" href="xhtml/afterword.xhtml" media-type="application/xhtml+xml"/>
+<item id="notes" href="xhtml/notes.xhtml" media-type="application/xhtml+xml"/>
+<item id="bibliography" href="xhtml/bibliography.xhtml" media-type="application/xhtml+xml"/>
+<item id="index" href="xhtml/index.xhtml" media-type="application/xhtml+xml"/>
+<item id="abouttheauthor" href="xhtml/abouttheauthor.xhtml" media-type="application/xhtml+xml"/>
+<item id="css" href="styles/stylesheet.css" media-type="text/css"/>
+<item id="cover-image" href="images/9781479899982.jpg" media-type="image/jpeg"/>
+<item id="image-001" href="images/F_01_01_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-002" href="images/F_01_02_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-003" href="images/F_01_03_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-004" href="images/F_01_04_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-005" href="images/F_02_01_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-006" href="images/F_02_02_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-007" href="images/F_02_03_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-008" href="images/F_03_01_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-009" href="images/F_03_02_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0010" href="images/F_03_03_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0011" href="images/F_03_04_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0012" href="images/F_04_01_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0013" href="images/F_04_02_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0014" href="images/F_04_03_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0015" href="images/F_05_01_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0016" href="images/F_05_02_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0017" href="images/F_05_03_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0018" href="images/F_05_04_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0019" href="images/F_06_01_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0020" href="images/F_06_02_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0021" href="images/F_06_03_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0022" href="images/F_06_04_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0023" href="images/F_06_05_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0024" href="images/F_06_06_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0025" href="images/F_07_01_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0026" href="images/F_07_02_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0027" href="images/NYU_TitlePage_Logo_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0028" href="images/posterframe1.png" media-type="image/png"/>
+<item id="image-0029" href="images/posterframe2.png" media-type="image/png"/>
+<item id="image-0030" href="images/posterframe3.png" media-type="image/png"/>
+<item id="image-0031" href="images/posterframe4.png" media-type="image/png"/>
+<item id="image-0032" href="images/posterframe5.png" media-type="image/png"/>
+<item id="image-0033" href="images/posterframe6.png" media-type="image/png"/>
+<item id="image-0034" href="images/posterframe7.png" media-type="image/png"/>
+<item id="video1" href="video/V_01_01_Jenkins_et_al_x264.mp4" media-type="video/mp4"></item>
+<item id="video2" href="video/V_02_01_Jenkins_et_al_x264.mp4" media-type="video/mp4"></item>
+<item id="video3" href="video/V_03_01_Jenkins_et_al_x264.mp4" media-type="video/mp4"></item>
+<item id="video4" href="video/V_04_01_Jenkins_et_al_x264.mp4" media-type="video/mp4"></item>
+<item id="video5" href="video/V_05_01_Jenkins_et_al_x264.mp4" media-type="video/mp4"></item>
+<item id="video6" href="video/V_06_01_Jenkins_et_al_x264.mp4" media-type="video/mp4"></item>
+<item id="video7" href="video/V_07_01_Jenkins_et_al_x264.mp4" media-type="video/mp4"></item>
+</manifest>
+<spine toc="toc" page-progression-direction="ltr">
+<itemref idref="html-cover-page" linear="yes"/>
+<itemref idref="halftitle"/>
+<itemref idref="connected"/>
+<itemref idref="tit"/>
+<itemref idref="copyright"/>
+<itemref idref="contents"/>
+<itemref idref="acknowledgments"/>
+<itemref idref="chapter1"/>
+<itemref idref="chapter2"/>
+<itemref idref="chapter3"/>
+<itemref idref="chapter4"/>
+<itemref idref="chapter5"/>
+<itemref idref="chapter6"/>
+<itemref idref="chapter7"/>
+<itemref idref="afterword"/>
+<itemref idref="notes"/>
+<itemref idref="bibliography"/>
+<itemref idref="index" linear="yes"/>
+<itemref idref="abouttheauthor"/>
+</spine>
+<guide>
+<reference type="text" title="Cover Image" href="xhtml/cover.xhtml"/>
+<reference type="toc" title="Contents" href="xhtml/contents.xhtml"/>
+<reference type="cover" title="Cover Image" href="xhtml/cover.xhtml"/>
+</guide>
+</package>

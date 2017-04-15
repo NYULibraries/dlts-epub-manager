@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Seriatim</title>
+    <subTitle>The Supreme Court Before John Marshall</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>20001001</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;Seldom has American law seen a more towering figure than Chief Justice John Marshall. Indeed, Marshall is almost universally regarded as the &quot;father of the Supreme Court&quot; and &quot;the jurist who started it all.&quot;&lt;/p&gt; &lt;p&gt;Yet even while acknowledging the indelible stamp Marshall put on the Supreme Court, it is possible--in fact necessary--to examine the pre-Marshall Court, and its justices, to gain a true understanding of the origins of American constitutionalism. The ten essays in this tightly edited volume were especially commissioned for the book, each by the leading authority on his or her particular subject. They examine such influential justices as John Jay, John Rutledge, William Cushing, James Wilson, John Blair, James Iredell, William Paterson, Samuel Chase, Oliver Ellsworth, and Bushrod Washington. The result is a fascinating window onto the origins of the most powerful court in the world, and on American constitutionalism itself.&lt;/p&gt;
+&lt;p&gt;&quot;A wonderful book that challenges the idea that the Court did nothing of importance prior to Marshall's appointment; .&amp;nbsp;.&amp;nbsp. it seems destined to become a staple source for the Court's first decade.&quot;&lt;/p&gt; -&lt;i&gt;Supreme Court Historical Society Quarterly&lt;/I&gt;,;
+&lt;p&gt;&quot;This absorbing collection of essays . . . goes far toward filling a void in the literature on the early justices of the world's most significant tribunal.&quot;&lt;/p&gt;-&lt;I&gt;Law and Politics Book Review&lt;/I&gt;,;
+&lt;p&gt;&quot;This creative and imaginative analysis of America's first national jurists is recommended for all students of Supreme Court history.&quot;&lt;/p&gt; -&lt;I&gt;Choice&lt;/I&gt;,;
+&lt;p&gt;&quot;Professor Gerber's &lt;i&gt;Seriatim&lt;/i&gt; is a genuinely welcome work, an imaginative one, and a distinctly needed one. The pre-Marshall period had all-too-long been neglected and when addressed at all, it was usually done in cursory, brief compass. Gerber has done a splendid job in securing experts to analyze the labors and persona of the ten pre-Marshall jurists on our highest bench, and his introduction to the essays is a model of synthesis and clarity.&quot;&lt;/p&gt;-Henry J. Abraham,James Hart Professor of Government and Foreign Affairs, Emeritus, University of Virginia;
+&lt;p&gt;&quot;This useful collection of biographical essays, bracketed by splendid treatments of John Jay and Oliver Elsworth, goes a long way toward establishing that the first justices of the Supreme Court were an impressive collection of political and constitutional thinkers who did much, before and during their service on the Court, to construct the constitutional order.&quot;&lt;/p&gt;-Mark Tushnet,Georgetown University Law Center</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>LAW</topic>
+    <topic>General</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>344 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814731437</identifier>
+
+</mods>

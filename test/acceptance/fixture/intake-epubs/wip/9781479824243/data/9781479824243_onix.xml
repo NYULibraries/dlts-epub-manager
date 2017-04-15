@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE 
+ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/02/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>New York University</FromCompany>
+    <FromPerson>Mary Beth Jarrad, 212-998-2588,
+    marybeth.jarrad@nyu.edu</FromPerson>
+    <SentDate>201404100803</SentDate>
+    <MessageNote>Title information from New York
+    University</MessageNote>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultPriceTypeCode>01</DefaultPriceTypeCode>
+    <DefaultCurrencyCode>USD</DefaultCurrencyCode>
+    <DefaultLinearUnit>in</DefaultLinearUnit>
+    <DefaultWeightUnit>oz</DefaultWeightUnit>
+    <DefaultClassOfTrade>General trade</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9781479824243</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>1479824240</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9781479824243</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9781479824243</IDValue>
+    </ProductIdentifier>
+    <Barcode>01</Barcode>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <ProductFormDescription>Print PDF</ProductFormDescription>
+    <Series>
+      <Title>
+        <TitleType>01</TitleType>
+        <TitleText>
+          <![CDATA[Connected Youth and Digital Futures]]>
+</TitleText>
+      </Title>
+    </Series>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">
+        <![CDATA[The Class]]>
+</TitleText>
+      <TitlePrefix>
+        <![CDATA[The]]>
+</TitlePrefix>
+      <TitleWithoutPrefix textcase="02">
+        <![CDATA[Class]]>
+</TitleWithoutPrefix>
+      <Subtitle textcase="02">
+        <![CDATA[Living and Learning in the Digital Age]]>
+</Subtitle>
+    </Title>
+    <WorkIdentifier>
+      <WorkIDType>15</WorkIDType>
+      <IDValue>9781479884575</IDValue>
+    </WorkIdentifier>
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Sonia Livingstone</PersonName>
+      <PersonNameInverted>Livingstone, Sonia</PersonNameInverted>
+      <NamesBeforeKey>Sonia</NamesBeforeKey>
+      <KeyNames>Livingstone</KeyNames>
+      <BiographicalNote>
+        <![CDATA[
+        <strong>Sonia Livingstone</strong> is Professor in the Department of Media and Communications at LSE and the author or editor of nineteen books.
+        ]]>
+</BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>2</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Julian Sefton-Green</PersonName>
+      <PersonNameInverted>Sefton-Green, Julian</PersonNameInverted>
+      <NamesBeforeKey>Julian</NamesBeforeKey>
+      <KeyNames>Sefton-Green</KeyNames>
+      <BiographicalNote>
+        <![CDATA[
+        <strong>Julian Sefton-Green</strong> is Principal Research Fellow at the Department of Media &amp; Communication, LSE and an associate professor at the University of Oslo.
+        ]]>
+</BiographicalNote>
+    </Contributor>
+    <NoEdition />
+    <NumberOfPages>368</NumberOfPages>
+    <Illustrations>
+      <IllustrationType>01</IllustrationType>
+      <Number>11</Number>
+    </Illustrations>
+    <BASICMainSubject>SOC052000</BASICMainSubject>
+    <BASICVersion>2.8</BASICVersion>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>EDU039000</SubjectCode>
+      <SubjectHeadingText>Media Studies / Education / Youth Studies / Cultural Studies</SubjectHeadingText>
+    </Subject>
+    <AudienceCode>06</AudienceCode>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <TextFormat>02</TextFormat>
+      <Text>
+        <![CDATA[<div>Do today&#8217;s youth have more opportunities than their parents? As they build their own social and digital networks, does that offer new routes to learning and friendship? How do they navigate the meaning of education in a digitally connected but fiercely competitive, highly individualized world?</div><div>&nbsp;</div><div>Based upon fieldwork at an ordinary London school, <em>The Class</em> examines young people's experiences of growing up and learning in a digital world. In this original and engaging study, Livingstone and Sefton-Green explore youth values, teenagers&#8217; perspectives on their futures, and their tactics for facing the opportunities and challenges that lie ahead. The authors follow the students as they move across their different social worlds&#8212;in school, at home, and with their friends, engaging in a range of activities from video games to drama clubs and music lessons. By portraying the texture of the students&#8217; everyday lives, <em>The Class</em> seeks to understand how the structures of social class and cultural capital shape the development of personal interests, relationships and autonomy. Providing insights into how young people&#8217;s social, digital, and learning networks enable or disempower them, Livingstone and Sefton-Green reveal that the experience of disconnections and blocked pathways is often more common than that of connections and new opportunities. </div>]]>
+</Text>
+    </OtherText>
+    <ProductWebsite>
+      <ProductWebsiteLink>
+        <![CDATA[http://nyupress.org/books/9781479824243]]>
+</ProductWebsiteLink>
+    </ProductWebsite>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublishingStatus>02</PublishingStatus>
+    <PublicationDate>20160503</PublicationDate>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <RelatedProduct>
+      <RelationCode>06</RelationCode>
+      <ProductIdentifier>
+        <ProductIDType>15</ProductIDType>
+        <IDValue>9781479884575</IDValue>
+      </ProductIdentifier>
+      <ProductForm>BB</ProductForm>
+    </RelatedProduct>
+    <SupplyDetail>
+      <SupplierIdentifier>
+        <SupplierIDType>07</SupplierIDType>
+        <IDValue>2026511</IDValue>
+      </SupplierIdentifier>
+      <AvailabilityCode>NP</AvailabilityCode>
+      <ProductAvailability>10</ProductAvailability>
+      <ExpectedShipDate>20160503</ExpectedShipDate>
+      <OnSaleDate>20160503</OnSaleDate>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>27</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <TaxRateCode1>Z</TaxRateCode1>
+      </Price>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>18.99</PriceAmount>
+        <CurrencyCode>GBP</CurrencyCode>
+      </Price>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>27</PriceAmount>
+        <CurrencyCode>AUD</CurrencyCode>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814712917</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814712916</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814712917</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BB</ProductForm>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Japanese Lessons</TitleText>
+      <Subtitle>A Year in a Japanese School Through the Eyes of An American Anthropologist and Her Children</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Gail R. Benjamin</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B>Gail R. Benjamin&lt;/B> is Lecturer in the Department of Anthropology at the University of Pittsburgh and has taught at Saitama University and Tsukuba University in Japan.&lt;BR>&amp;nbsp;&amp;nbsp;&lt;FONT SIZE="-1">&lt;A HREF= "authors/benjamin_ga.html?$string">[Author Bio]&lt;/A>&lt;/FONT>&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>262</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>SOC002000</SubjectCode>
+      <SubjectHeadingText>SOCIAL SCIENCE / Anthropology / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Gail R. Benjamin reaches beyond predictable images of authoritarian Japanese educators and automaton schoolchildren to show the advantages and disadvantages of a system remarkably different from the American one... --&lt;I>The New York Times Book Review&lt;/I>&lt;/p> &lt;p>Americans regard the Japanese educational system and the lives of Japanese children with a mixture of awe and indignance. We respect a system that produces higher literacy rates and superior math skills, but we reject the excesses of a system that leaves children with little free time and few outlets for creativity and self-expression.&lt;/p> &lt;p>In &lt;B>Japanese Lessons&lt;/B>, Gail R. Benjamin recounts her experiences as a American parent with two children in a Japanese elementary school. An anthropologist, Benjamin successfully weds the roles of observer and parent, illuminating the strengths of the Japanese system and suggesting ways in which Americans might learn from it.&lt;/p> &lt;p>With an anthropologist's keen eye, Benjamin takes us through a full year in a Japanese public elementary school, bringing us into the classroom with its comforting structure, lively participation, varied teaching styles, and non-authoritarian teachers. We follow the children on class trips and Sports Days and through the rigors of summer vacation homework. We share the experiences of her young son and daughter as they react to Japanese schools, friends, and teachers. Through Benjamin we learn what it means to be a mother in Japan--how minute details, such as the way mothers prepare lunches for children, reflect cultural understandings of family and education. &lt;/p> &lt;p>Table of Contents&lt;BR> Acknowledgments&lt;BR> 1. Getting Started&lt;BR> 2. Why Study Japanese Education?&lt;BR> 3. Day-to-Day Routines&lt;BR> 4. Together at School, Together in Life&lt;BR> 5. A Working Vacation and Special Events &lt;BR> 6. The Three R's, Japanese Style&lt;BR> 7. The Rest of the Day &lt;BR> 8. Nagging, Preaching, and Discussions&lt;BR> 9. Enlisting Mothers' Efforts&lt;BR> 10. Education in Japanese Society&lt;BR> 11. Themes and Suggestions&lt;BR> 12. Sayonara&lt;BR> Appendix. Reading and Writing in Japanese&lt;BR> References &lt;BR> Index &lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19970101</PublicationDate>
+    <CopyrightYear>1997</CopyrightYear>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19961202</ExpectedShipDate>
+      <OnSaleDate>19970101</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>79.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

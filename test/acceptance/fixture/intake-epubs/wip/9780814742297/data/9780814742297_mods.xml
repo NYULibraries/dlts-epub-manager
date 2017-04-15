@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Bird-Self Accumulated</title>
+    <subTitle></subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19960301</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;&quot;When BooBoo stabs Morris Boyle I am reading a news magazine that someone has smuggled into the wing.&quot;&lt;/p&gt; &lt;p&gt;Thus, the protagonist of this novella introduces us to prison, one of the several worlds he inhabits, worlds most of us would rather ignore but which inexorably, through what we see and hear and read and live on uncountable American streets, has become the one world we can no longer avoid. It seduces us with the voice of drugs and violence. Of the disenfranchised. Of those both at once outside and standing within the center of what no longer holds. It informs us of who we are today.&lt;/p&gt;
+&lt;p&gt;&quot;Brilliant, articulate, street-wise. . . Donald Judson's writings are not to be missed. He understands the difference between lyricism for its own sake and literary dynamics and can make them dance through and around his characters in the highest literary forms.&quot;&lt;/p&gt;-Meredith Steinbach,;
+&lt;p&gt;&quot;Donald Judson is someone who has big writing talent. His work is action-packed, it's about small-town hoods, it reeks of violence&amp;#151;but the whole is rendered in an exquisite, lyrical prose.&quot;&lt;/p&gt;-Edmund White,</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>FICTION</topic>
+    <topic>Literary</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>191 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814742297</identifier>
+
+</mods>

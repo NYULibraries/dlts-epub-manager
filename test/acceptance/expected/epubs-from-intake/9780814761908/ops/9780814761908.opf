@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814761908">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Embracing the Other</dc:title>
+<dc:creator>Pearl M. Oliner</dc:creator>
+<dc:creator>Samuel P. Oliner</dc:creator>
+<dc:creator>Lawrence Baron</dc:creator>
+<dc:creator>Lawrence A. Blum</dc:creator>
+<dc:creator>Dennis L. Krebs</dc:creator>
+<dc:creator>M. Zuzanna Smolenka</dc:creator>
+<dc:date>1992</dc:date>
+<dc:identifier id="p9780814761908">9780814761908</dc:identifier>
+<dc:coverage>New York</dc:coverage>
+<dc:coverage>London</dc:coverage>
+<dc:format>474 Pages</dc:format>
+<dc:type>Text</dc:type>
+<dc:language>en</dc:language>
+<dc:rights>All rights reserved</dc:rights>
+<dc:publisher>New York University Press</dc:publisher>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="ch00_fm01_half" href="xhtml/ch00_fm01_half.html" media-type="application/xhtml+xml"/>
+<item id="title" href="xhtml/ch00_fm02_title.html" media-type="application/xhtml+xml"/>
+<item id="copy" href="xhtml/ch00_fm03_copy.html" media-type="application/xhtml+xml"/>
+<item id="dedi" href="xhtml/ch00_fm04_dedi.html" media-type="application/xhtml+xml"/>
+<item id="cont" href="xhtml/ch00_fm05_cont.html" media-type="application/xhtml+xml"/>
+<item id="contri" href="xhtml/ch00_fm06_contri.html" media-type="application/xhtml+xml"/>
+<item id="part1" href="xhtml/ch00_part1.html" media-type="application/xhtml+xml"/>
+<item id="pre" href="xhtml/ch00_part1_01pre.html" media-type="application/xhtml+xml"/>
+<item id="part1_intro" href="xhtml/ch00_part1_02intro.html" media-type="application/xhtml+xml"/>
+<item id="part2" href="xhtml/ch00_part2.html" media-type="application/xhtml+xml"/>
+<item id="part2_intro" href="xhtml/ch00_part2_intro.html" media-type="application/xhtml+xml"/>
+<item id="ch01" href="xhtml/ch01.html" media-type="application/xhtml+xml"/>
+<item id="ch02" href="xhtml/ch02.html" media-type="application/xhtml+xml"/>
+<item id="ch03" href="xhtml/ch03.html" media-type="application/xhtml+xml"/>
+<item id="part3" href="xhtml/ch03_part3.html" media-type="application/xhtml+xml"/>
+<item id="part3_intro" href="xhtml/ch03_part3_intro.html" media-type="application/xhtml+xml"/>
+<item id="ch04" href="xhtml/ch04.html" media-type="application/xhtml+xml"/>
+<item id="ch05" href="xhtml/ch05.html" media-type="application/xhtml+xml"/>
+<item id="part4" href="xhtml/ch05_part4.html" media-type="application/xhtml+xml"/>
+<item id="part4_intro" href="xhtml/ch05_part4_intro.html" media-type="application/xhtml+xml"/>
+<item id="ch06" href="xhtml/ch06.html" media-type="application/xhtml+xml"/>
+<item id="ch07" href="xhtml/ch07.html" media-type="application/xhtml+xml"/>
+<item id="ch08" href="xhtml/ch08.html" media-type="application/xhtml+xml"/>
+<item id="ch09" href="xhtml/ch09.html" media-type="application/xhtml+xml"/>
+<item id="ch10" href="xhtml/ch10.html" media-type="application/xhtml+xml"/>
+<item id="ch11" href="xhtml/ch11.html" media-type="application/xhtml+xml"/>
+<item id="part5" href="xhtml/ch11_part5.html" media-type="application/xhtml+xml"/>
+<item id="part5_intro" href="xhtml/ch11_part5_intro.html" media-type="application/xhtml+xml"/>
+<item id="ch12" href="xhtml/ch12.html" media-type="application/xhtml+xml"/>
+<item id="ch13" href="xhtml/ch13.html" media-type="application/xhtml+xml"/>
+<item id="ch14" href="xhtml/ch14.html" media-type="application/xhtml+xml"/>
+<item id="ch15" href="xhtml/ch15.html" media-type="application/xhtml+xml"/>
+<item id="part6" href="xhtml/ch15_part6.html" media-type="application/xhtml+xml"/>
+<item id="part6_intro" href="xhtml/ch15_part6_intro.html" media-type="application/xhtml+xml"/>
+<item id="ch16" href="xhtml/ch16.html" media-type="application/xhtml+xml"/>
+<item id="ch17" href="xhtml/ch17.html" media-type="application/xhtml+xml"/>
+<item id="ch18" href="xhtml/ch18.html" media-type="application/xhtml+xml"/>
+<item id="ch19" href="xhtml/ch19.html" media-type="application/xhtml+xml"/>
+<item id="ch20" href="xhtml/ch20.html" media-type="application/xhtml+xml"/>
+<item id="index" href="xhtml/ch20_index.html" media-type="application/xhtml+xml"/>
+<item id="stylesheet" href="styles/9780814761908.css" media-type="text/css"/>
+<item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
+<item id="cover-image" href="images/9780814761908.jpg" media-type="image/jpeg"/>
+<item id="f0199-01" href="images/f0199-01.jpg" media-type="image/jpeg"/>
+<item id="f0200-01" href="images/f0200-01.jpg" media-type="image/jpeg"/>
+<item id="f0202-01" href="images/f0202-01.jpg" media-type="image/jpeg"/>
+<item id="f0204-01" href="images/f0204-01.jpg" media-type="image/jpeg"/>
+<item id="f0206-01" href="images/f0206-01.jpg" media-type="image/jpeg"/>
+<item id="f0207-01" href="images/f0207-01.jpg" media-type="image/jpeg"/>
+<item id="f0207-02" href="images/f0207-02.jpg" media-type="image/jpeg"/>
+<item id="f0208-01" href="images/f0208-01.jpg" media-type="image/jpeg"/>
+<item id="f0209-01" href="images/f0209-01.jpg" media-type="image/jpeg"/>
+<item id="f0209-02" href="images/f0209-02.jpg" media-type="image/jpeg"/>
+<item id="f0210-01" href="images/f0210-01.jpg" media-type="image/jpeg"/>
+<item id="f0258-01" href="images/f0258-01.jpg" media-type="image/jpeg"/>
+<item id="f0261-01" href="images/f0261-01.jpg" media-type="image/jpeg"/>
+<item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
+<item id="t0235-01" href="images/t0235-01.jpg" media-type="image/jpeg"/>
+<item id="t0236-01" href="images/t0236-01.jpg" media-type="image/jpeg"/>
+<item id="t0239-01" href="images/t0239-01.jpg" media-type="image/jpeg"/>
+<item id="t0240-01" href="images/t0240-01.jpg" media-type="image/jpeg"/>
+<item id="t0246-01" href="images/t0246-01.jpg" media-type="image/jpeg"/>
+<item id="t0247-01" href="images/t0247-01.jpg" media-type="image/jpeg"/>
+<item id="t0264-01" href="images/t0264-01.jpg" media-type="image/jpeg"/>
+<item id="t0267-01" href="images/t0267-01.jpg" media-type="image/jpeg"/>
+<item id="t0271-01" href="images/t0271-01.jpg" media-type="image/jpeg"/>
+<item id="t0271-02" href="images/t0271-02.jpg" media-type="image/jpeg"/>
+<item id="t0286-01" href="images/t0286-01.jpg" media-type="image/jpeg"/>
+<item id="t0287-01" href="images/t0287-01.jpg" media-type="image/jpeg"/>
+<item id="font1" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="font2" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="font3" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="font4" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+</manifest>
+<spine xmlns="http://www.idpf.org/2007/opf" toc="ncx">
+<itemref idref="cover"/>
+<itemref idref="ch00_fm01_half"/>
+<itemref idref="title"/>
+<itemref idref="copy"/>
+<itemref idref="dedi"/>
+<itemref idref="cont"/>
+<itemref idref="contri"/>
+<itemref idref="part1"/>
+<itemref idref="pre"/>
+<itemref idref="part1_intro"/>
+<itemref idref="part2"/>
+<itemref idref="part2_intro"/>
+<itemref idref="ch01"/>
+<itemref idref="ch02"/>
+<itemref idref="ch03"/>
+<itemref idref="part3"/>
+<itemref idref="part3_intro"/>
+<itemref idref="ch04"/>
+<itemref idref="ch05"/>
+<itemref idref="part4"/>
+<itemref idref="part4_intro"/>
+<itemref idref="ch06"/>
+<itemref idref="ch07"/>
+<itemref idref="ch08"/>
+<itemref idref="ch09"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="part5"/>
+<itemref idref="part5_intro"/>
+<itemref idref="ch12"/>
+<itemref idref="ch13"/>
+<itemref idref="ch14"/>
+<itemref idref="ch15"/>
+<itemref idref="part6"/>
+<itemref idref="part6_intro"/>
+<itemref idref="ch16"/>
+<itemref idref="ch17"/>
+<itemref idref="ch18"/>
+<itemref idref="ch19"/>
+<itemref idref="ch20"/>
+<itemref idref="index"/>
+</spine>
+<guide>
+<reference href="xhtml/ch00_fm05_cont.html#cont" type="toc" title="Contents"/>
+</guide>
+</package>

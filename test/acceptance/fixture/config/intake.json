@@ -1,0 +1,18 @@
+{
+    "cacheMetadataInMemory" : true,
+    "epubList"              : null,
+
+    "epubIntakeDir"         : "test/acceptance/fixture/intake-epubs",
+    "epubOutputDir"         : "test/acceptance/tmp/epubs",
+
+    "metadataDir"           : "test/acceptance/tmp/metadata",
+
+    "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
+
+    "restfulHandleServerHost" : "handle.dlib.nyu.edu",
+    "restfulHandleServerPath" : "/id/handle",
+
+    "solrHost" : "localhost",
+    "solrPort" : 9001,
+    "solrPath" : "/solr/test-core"
+}

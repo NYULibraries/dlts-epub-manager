@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Negrophobia and Reasonable Racism</title>
+    <subTitle>The Hidden Costs of Being Black in America</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19970501</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;Tackling the ugly secret of unconscious racism in American society, this book provides specific solutions to counter this entrenched phenomenon.&lt;/p&gt;
+&lt;p&gt;&quot;[C]ommendable in important respects. [Armour] points out problems in the theory of rational racial discrimination that many of its proponents ignore or overlook.&quot;&lt;/p&gt;-Randall Kennedy,&lt;i&gt; Los Angeles Times Book Review&lt;/i&gt;;
+&lt;p&gt;&quot;A patient meditation.&quot;&lt;/p&gt;-&lt;i&gt;The Nation&lt;/i&gt;,;
+&lt;p&gt;&quot;A crucial book, at a critical time, just as white America is gradually coming to understand the hidden travails of African American life.&quot;&lt;/p&gt; -&lt;i&gt;Bookwatch&lt;/i&gt;,;
+&lt;p&gt;&quot;Skillfully drawing on a wide range of referents from Greek mythology to Thomas Byes, the father of statistics, Armour plumbs our racial psychology and in the process explores the racialized nature of our daily life and our legal system.&quot;&lt;/p&gt;-&lt;I&gt;Norfolk Virginia Journal and Guide&lt;/i&gt;,</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>SOCIAL SCIENCE</topic>
+    <topic>Ethnic Studies</topic>
+    <topic>African-American Studies</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>216 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814706404</identifier>
+
+</mods>

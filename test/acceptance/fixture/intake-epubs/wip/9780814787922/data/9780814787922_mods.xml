@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Out of Work</title>
+    <subTitle>Unemployment and Government in Twentieth-Century America</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19970701</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;Redefining the way we think about unemployment in America today, Out of Work offers devastating evidence that the major cause of high unemployment in the United States is the government itself.&lt;/p&gt; &lt;p&gt;An Independent Institute Book&lt;/p&gt;
+&lt;p&gt;&quot;The most comprehensive book ever to appear on unemployment in the United States.&quot;&lt;/p&gt; -George Gilder,author of &lt;i&gt;Wealth and Poverty&lt;/i&gt;;
+&lt;p&gt;&quot;A triple hit: an engaging narrative of a century of U.S. economic history . . . an attack on the mythology that high wage rates and government spending reduce unemployment and a critique on wrong-headed public policies since 1930 that have raised unemployment levels.&quot;&lt;/p&gt;-Anna J. Schwartz,National Bureau of Economic Research;
+&lt;p&gt;&quot;Vedder and Gallaway show convincingly that we need once again to rethink our entire notion of unemployment.&quot;&lt;/p&gt; -Jonathan R. T. Hughes,Northwestern University;
+&lt;p&gt;&quot;A book of great interest.&quot;&lt;/P&gt;-Kenneth Boulding,</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>BUSINESS &amp; ECONOMICS</topic>
+    <topic>Government &amp; Business</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>336 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814787922</identifier>
+
+</mods>
