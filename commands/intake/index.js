@@ -1,6 +1,9 @@
 "use strict";
 
+let em;
+
 module.exports = function( vorpal ){
+    em = vorpal.em;
 
     vorpal.command( 'intake add' )
         .description( 'Intake EPUBs and generate Readium versions and associated metadata files.' )
