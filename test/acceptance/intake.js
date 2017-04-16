@@ -66,7 +66,7 @@ describe( 'intake command', () => {
             compareOptions
         );
 
-        assert( epubsComparison.same === true, 'Generated Readium versions match expected' );
+        assert( epubsComparison.same === true, `${epubOutputDir} matched ${epubExpectedDir}` );
     } );
 
     it( 'should correctly intake all EPUBs and generate correct metadata files', () => {
@@ -93,7 +93,7 @@ describe( 'intake command', () => {
             compareOptions
         );
 
-        assert( metadataComparison.same === true, 'Metadata files match expected' );
+        assert( metadataComparison.same === true, `${metadataDir} matched ${metadataExpectedDir}` );
     } );
 
 } );
