@@ -1,8 +1,9 @@
 {
     "cacheMetadataInMemory" : true,
 
-    "epubIntakeDir"         : "test/acceptance/fixture/intake-epubs",
-    "epubOutputDir"         : "test/acceptance/tmp/epubs",
+    "intakeEpubDir"         : "test/acceptance/fixture/intake-epubs",
+    "intakeEpubList"        : null,
+    "intakeOutputDir"       : "test/acceptance/tmp/epubs",
 
     "metadataDir"           : "test/acceptance/tmp/metadata",
     "metadataEpubList"      : null,
