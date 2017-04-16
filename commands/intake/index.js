@@ -1,5 +1,7 @@
 "use strict";
 
+let AdmZip = require( 'adm-zip' );
+
 let em;
 
 module.exports = function( vorpal ){
