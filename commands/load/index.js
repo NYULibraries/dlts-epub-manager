@@ -230,6 +230,10 @@ function getInvalidEpubIds( epubIds ) {
 function getMetadataForEpubs( metadataDir, epubList ) {
     let metadata = new Map();
 
+    if ( ! epubList ) {
+        return metadata;
+    }
+
     epubList.forEach( ( epubId ) => {
         metadata.set( epubId, getMetadataForEpub( `${metadataDir}/${epubId}` ) );
     } );
