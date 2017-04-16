@@ -57,9 +57,9 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
-                let epubList = [];
-                if ( conf.epubList ) {
-                    if ( ! Array.isArray( conf.epubList ) ) {
+                let metadataEpubList = [];
+                if ( conf.metadataEpubList ) {
+                    if ( ! Array.isArray( conf.metadataEpubList ) ) {
                         vorpal.log(
                             `ERROR in ${configFileBasename}: "epubList" must be an array.`
                         );
@@ -68,7 +68,7 @@ module.exports = function( vorpal ) {
                         return false;
                     }
 
-                    let invalidEpubIds = getInvalidEpubIds( conf.epubList );
+                    let invalidEpubIds = getInvalidEpubIds( conf.metadataEpubList );
 
                     if ( invalidEpubIds ) {
                         vorpal.log(
@@ -82,12 +82,12 @@ module.exports = function( vorpal ) {
                         return false;
                     }
 
-                    epubList = conf.epubList;
+                    metadataEpubList = conf.metadataEpubList;
                 } else {
-                    epubList = getEpubListFromDirectory( metadataDir );
+                    metadataEpubList = getEpubListFromDirectory( metadataDir );
                 }
 
-                let metadata = getMetadataForEpubs( metadataDir, epubList );
+                let metadata = getMetadataForEpubs( metadataDir, metadataEpubList );
 
                 if ( conf.cacheMetadataInMemory ) {
                     vorpal.em.metadata = {

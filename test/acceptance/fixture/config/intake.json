@@ -1,11 +1,11 @@
 {
     "cacheMetadataInMemory" : true,
-    "epubList"              : null,
 
     "epubIntakeDir"         : "test/acceptance/fixture/intake-epubs",
     "epubOutputDir"         : "test/acceptance/tmp/epubs",
 
     "metadataDir"           : "test/acceptance/tmp/metadata",
+    "metadataEpubList"      : null,
 
     "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
 
