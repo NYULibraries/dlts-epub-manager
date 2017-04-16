@@ -2,6 +2,11 @@
   "name": "dlts-epub-manager",
   "version": "0.0.1",
   "dependencies": {
+    "adm-zip": {
+      "version": "0.4.7",
+      "from": "adm-zip@latest",
+      "resolved": "https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.7.tgz"
+    },
     "ansi-escapes": {
       "version": "1.1.1",
       "from": "ansi-escapes@>=1.1.0 <2.0.0",
@@ -507,15 +512,15 @@
       "resolved": "https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz",
       "dev": true
     },
-    "string_decoder": {
-      "version": "0.10.31",
-      "from": "string_decoder@>=0.10.0 <0.11.0",
-      "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
-    },
     "string-width": {
       "version": "1.0.1",
       "from": "string-width@>=1.0.1 <2.0.0",
       "resolved": "https://registry.npmjs.org/string-width/-/string-width-1.0.1.tgz"
+    },
+    "string_decoder": {
+      "version": "0.10.31",
+      "from": "string_decoder@>=0.10.0 <0.11.0",
+      "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
     },
     "strip-ansi": {
       "version": "3.0.1",
