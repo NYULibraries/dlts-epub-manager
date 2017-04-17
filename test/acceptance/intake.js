@@ -9,7 +9,7 @@ let path       = require( 'path' );
 let rimraf     = require( 'rimraf' );
 let vorpal     = em.vorpal;
 
-const CONF = 'intake';
+const CONF = 'intake-full';
 const TMP_EPUBS    = __dirname + '/tmp/epubs';
 const TMP_METADATA = __dirname + '/tmp/metadata';
 
@@ -29,8 +29,8 @@ describe( 'intake command', () => {
             // Conf file epubOutputDir is relative path, have to change it to
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
-                vorpal.em.conf.epubOutputDir === TMP_EPUBS,
-            `epubOutputDir is ${TMP_EPUBS}`
+                vorpal.em.conf.intakeOutputDir === TMP_EPUBS,
+            `intakeOutputDir is ${TMP_EPUBS}`
         );
 
         assert(
@@ -44,17 +44,17 @@ describe( 'intake command', () => {
 
     it( 'should correctly intake all EPUBs and generate correct Readium versions', () => {
         var epubsComparison,
-            epubOutputDir = vorpal.em.conf.epubOutputDir,
-            epubExpectedDir = __dirname + '/expected/epubs-from-intake',
+            intakeOutputDir   = vorpal.em.conf.intakeOutputDir,
+            intakeExpectedDir = __dirname + '/expected/epubs-from-intake',
             compareOptions = {
                 compareContent : true,
                 excludeFilter  : '.commit-empty-directory',
             };
 
         try {
-            rimraf.sync( epubOutputDir + '/*' );
+            rimraf.sync( intakeOutputDir + '/*' );
         } catch ( error ) {
-            vorpal.log( `ERROR clearing ${epubOutputDir}: ${error}` );
+            vorpal.log( `ERROR clearing ${intakeOutputDir}: ${error}` );
 
             process.exit(1);
         }
@@ -62,11 +62,11 @@ describe( 'intake command', () => {
         vorpal.parse( [ null, null, 'intake', 'add' ] );
 
         epubsComparison = dircompare.compareSync(
-            epubOutputDir, epubExpectedDir,
+            intakeOutputDir, intakeExpectedDir,
             compareOptions
         );
 
-        assert( epubsComparison.same === true, `${epubOutputDir} matched ${epubExpectedDir}` );
+        assert( epubsComparison.same === true, `${intakeOutputDir} matched ${intakeExpectedDir}` );
     } );
 
     it( 'should correctly intake all EPUBs and generate correct metadata files', () => {
