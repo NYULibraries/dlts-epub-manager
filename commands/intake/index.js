@@ -93,10 +93,12 @@ function intakeEpubs( epubDir, epubs, epubOutputDir ) {
     let epubsCompleted = [];
 
     epubs.forEach( ( epub ) => {
-        let epubFile = `${epubDir}/${epub}/data/${epub}.epub`;
+        let intakeEpubFile = `${epubDir}/${epub}/data/${epub}.epub`;
+        let outputEpub     = `${epubOutputDir}/${epub}`;
 
         try {
-            unzipEpub( epubFile, epubOutputDir );
+            unzipEpub( intakeEpubFile, outputEpub );
+
         } catch( e ) {
             throw( e );
         }
@@ -107,10 +109,8 @@ function intakeEpubs( epubDir, epubs, epubOutputDir ) {
     return epubsCompleted;
 }
 
-function unzipEpub( epubFile, epubOutputDir ) {
-    let epubId      = path.basename( epubFile, '.epub' );
-    let destination = `${epubOutputDir}/${epubId}`;
-    let zip         = new AdmZip( epubFile );
+function unzipEpub( epubFile, outputEpub ) {
+    let zip = new AdmZip( epubFile );
 
-    zip.extractAllTo( destination, true );
+    zip.extractAllTo( outputEpub, true );
 }
