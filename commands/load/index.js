@@ -39,9 +39,7 @@ module.exports = function( vorpal ) {
                     if ( callback ) { callback(); }
                     return false;
                 }
-
                 let confPrivate = require( configPrivateFile );
-
                 // The private config file is not a general-purpose override file.
                 // We do not want to allow accidental overwriting of values from
                 // the main config file, so we just cherry-pick what we need.
@@ -282,6 +280,13 @@ function getEpubList( conf, epubListType, directory ) {
 
         return confEpubList;
     } else {
-        return getEpubListFromDirectory( directory );
+        // Not required that there be a directory if no explicit epub list is
+        // given in the conf file.  We assume that caller is making the decision
+        // about what epub list stuff is mandatory in the conf file.
+        if ( directory ) {
+            return getEpubListFromDirectory( directory );
+        } else {
+            return [];
+        }
     }
 }
