@@ -29,11 +29,10 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); } else { return false; }
                 }
 
-                let epubDir = em.conf.intakeEpubDir;
                 let epubs   = em.intakeEpubList;
 
                 try {
-                    let epubsCompleted = intakeEpubs( epubDir, epubs );
+                    let epubsCompleted = intakeEpubs( em.conf.intakeEpubDir, epubs );
 
                     vorpal.log( `Intake completed for ${epubs.size} EPUBs:\n` + epubsCompleted.join( '\n' ) );
 
