@@ -100,7 +100,7 @@ function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
 
         try {
             unzipEpub( intakeEpubFile, outputEpub );
-
+            renameCoverHtmlFile( outputEpub );
         } catch( e ) {
             throw( e );
         }
@@ -115,4 +115,15 @@ function unzipEpub( epubFile, outputEpub ) {
     let zip = new AdmZip( epubFile );
 
     zip.extractAllTo( outputEpub, true );
+}
+
+function renameCoverHtmlFile( epubDir ) {
+    let coverHtmlFile  = `${epubDir}/ops/xhtml/cover.html`;
+    let coverXhtmlFile = `${epubDir}/ops/xhtml/cover.xhtml`;
+
+    if ( ! fs.existsSync( coverHtmlFile ) ) {
+        throw( `Cover HTML file ${coverHtmlFile} not found.` );
+    }
+
+    fs.renameSync( coverHtmlFile, coverXhtmlFile );
 }
