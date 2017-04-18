@@ -54,7 +54,11 @@ module.exports = function( vorpal ){
                 let epubs = em.intakeEpubList;
 
                 try {
-                    let epubsCompleted = intakeEpubs( em.conf.intakeEpubDir, epubs );
+                    let epubsCompleted = intakeEpubs(
+                        em.conf.intakeEpubDir,
+                        epubs,
+                        em.conf.intakeOutputDir
+                    );
 
                     vorpal.log( `Intake completed for ${epubs.size} EPUBs:\n` + epubsCompleted.join( '\n' ) );
 
@@ -70,14 +74,28 @@ module.exports = function( vorpal ){
 
 };
 
-function intakeEpubs( epubDir, epubs ) {
+function intakeEpubs( epubDir, epubs, epubOutputDir ) {
     let epubsCompleted = [];
 
     epubs.forEach( ( epub ) => {
-        console.log( `Intake of ${epubDir}/${epub}` );
+        let epubFile = `${epubDir}/${epub}/data/${epub}.epub`;
+
+        try {
+            unzipEpub( epubFile, epubOutputDir );
+        } catch( e ) {
+            throw( e );
+        }
 
         epubsCompleted.push( epub );
     } );
 
     return epubsCompleted;
+}
+
+function unzipEpub( epubFile, epubOutputDir ) {
+    let epubId      = path.basename( epubFile, '.epub' );
+    let destination = `${epubOutputDir}/${epubId}`;
+    let zip         = new AdmZip( epubFile );
+
+    zip.extractAllTo( destination, true );
 }
