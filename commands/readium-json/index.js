@@ -20,14 +20,16 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -38,7 +40,8 @@ module.exports = function( vorpal ){
                 } catch ( error ) {
                     vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 // Don't use `require()`, which caches file contents and breaks
@@ -56,7 +59,8 @@ module.exports = function( vorpal ){
                 vorpal.log( `Added to Readium JSON file ${readiumJsonFile} ` +
                             `for conf "${vorpal.em.conf.name}": ${epubs.size } EPUBs.` );
 
-                if ( callback ) { callback(); } else { return true; }
+                if ( callback ) { callback(); }
+                return true;
             }
         );
 
@@ -71,14 +75,16 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -89,7 +95,8 @@ module.exports = function( vorpal ){
                 } catch ( error ) {
                     vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 // Don't use `require()`, which caches file contents and breaks
@@ -107,7 +114,8 @@ module.exports = function( vorpal ){
                 vorpal.log( `Deleted from Readium JSON file ${readiumJsonFile} ` +
                             `for conf "${vorpal.em.conf.name}": ${epubs.size } EPUBs.` );
 
-                if ( callback ) { callback(); } else { return true; }
+                if ( callback ) { callback(); }
+                return true;
             }
         );
 
@@ -123,7 +131,8 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
@@ -133,14 +142,16 @@ module.exports = function( vorpal ){
                 } catch ( error ) {
                     vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 fs.writeFileSync( readiumJsonFile, '[]\n', { flag : 'w' } );
 
                 vorpal.log( `Deleted all EPUBs from ${readiumJsonFile}.` );
 
-                if ( callback ) { callback(); } else { return true; }
+                if ( callback ) { callback(); }
+                return true;
             }
         );
 
@@ -157,14 +168,16 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let readiumJsonFile;
@@ -173,7 +186,8 @@ module.exports = function( vorpal ){
                 } catch ( error ) {
                     vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let deleteAllSucceeded = vorpal.execSync(
