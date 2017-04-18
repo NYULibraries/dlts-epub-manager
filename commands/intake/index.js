@@ -83,18 +83,18 @@ module.exports = function( vorpal ){
 
 };
 
-function intakeEpubs( epubDir, epubs, epubOutputDir ) {
+function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
     try {
-        rimraf.sync( epubOutputDir + '/*' );
+        rimraf.sync( intakeOutputDir + '/*' );
     } catch ( error ) {
-        throw( `ERROR clearing ${epubOutputDir}: ${error}` );
+        throw( `ERROR clearing ${intakeOutputDir}: ${error}` );
     }
 
     let epubsCompleted = [];
 
     epubs.forEach( ( epub ) => {
         let intakeEpubFile = `${epubDir}/${epub}/data/${epub}.epub`;
-        let outputEpub     = `${epubOutputDir}/${epub}`;
+        let outputEpub     = `${intakeOutputDir}/${epub}`;
 
         try {
             unzipEpub( intakeEpubFile, outputEpub );
