@@ -96,6 +96,18 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
+                em.intakeEpubList = [];
+                try {
+                    em.intakeEpubList = getEpubList( conf, 'intakeEpubList', conf.intakeEpubDir );
+                } catch ( e ) {
+                    vorpal.log(
+                        `ERROR in ${configFileBasename}: ${e}`
+                    );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+                
                 vorpal.em.conf = conf;
                 vorpal.em.conf.name = args.configuration;
 
