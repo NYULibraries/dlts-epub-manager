@@ -9,7 +9,7 @@ let em;
 module.exports = function( vorpal ){
     em = vorpal.em;
 
-    vorpal.command( 'intake add' )
+    vorpal.command( 'intake add [configuration]' )
         .description( 'Intake EPUBs and generate Readium versions and associated metadata files.' )
         .action(
             function( args, callback ) {
