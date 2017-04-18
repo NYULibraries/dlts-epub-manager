@@ -19,14 +19,14 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        return false;
                     }
                 }
 
                 if ( ! em.intakeEpubList ) {
                     vorpal.log( util.ERROR_INTAKE_EPUB_LIST_NOT_LOADED );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    return false;
                 }
 
                 let epubs = em.intakeEpubList;
