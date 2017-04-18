@@ -29,7 +29,7 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); } else { return false; }
                 }
 
-                let epubs   = em.intakeEpubList;
+                let epubs = em.intakeEpubList;
 
                 try {
                     let epubsCompleted = intakeEpubs( em.conf.intakeEpubDir, epubs );
