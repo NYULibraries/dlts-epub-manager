@@ -94,6 +94,8 @@ function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
 
     epubs.forEach( ( epub ) => {
         let intakeEpubFile = `${epubDir}/${epub}/data/${epub}.epub`;
+        // This is actually a directory, but naming it outputEpubDir might be
+        // confusing due to existing param intakeOutputDir.
         let outputEpub     = `${intakeOutputDir}/${epub}`;
 
         try {
