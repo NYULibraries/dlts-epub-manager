@@ -22,6 +22,7 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
+                        if ( callback ) { callback(); }
                         return false;
                     }
                 }
@@ -30,12 +31,14 @@ module.exports = function( vorpal ){
                 if ( ! intakeOutputDir ) {
                     vorpal.log( util.ERROR_CONF_MISSING_INTAKE_OUTPUT_DIR );
 
+                    if ( callback ) { callback(); }
                     return false;
                 }
 
                 if ( ! fs.existsSync( intakeOutputDir ) ) {
                     vorpal.log( `ERROR: intakeOutputDir "${intakeOutputDir}" does not exist.`);
 
+                    if ( callback ) { callback(); }
                     return false;
                 }
 
@@ -43,12 +46,14 @@ module.exports = function( vorpal ){
                 if ( ! stats.isDirectory() ) {
                     vorpal.log( `ERROR: intakeOutputDir "${intakeOutputDir}" is not a directory.`);
 
+                    if ( callback ) { callback(); }
                     return false;
                 }
 
                 if ( ! em.intakeEpubList ) {
                     vorpal.log( util.ERROR_INTAKE_EPUB_LIST_NOT_LOADED );
 
+                    if ( callback ) { callback(); }
                     return false;
                 }
 
@@ -63,12 +68,14 @@ module.exports = function( vorpal ){
 
                     vorpal.log( `Intake completed for ${epubs.size} EPUBs:\n` + epubsCompleted.join( '\n' ) );
 
-                    if ( callback ) { callback(); } else { return true; }
+                    if ( callback ) { callback(); }
+                    return false;
                 } catch ( error ) {
                     vorpal.log( 'ERROR in intake of EPUB:\n' +
                                 error );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
             }
         );
