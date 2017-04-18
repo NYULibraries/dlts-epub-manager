@@ -2,6 +2,8 @@
 
 let AdmZip = require( 'adm-zip' );
 
+let util  = require( '../../lib/util' );
+
 let em;
 
 module.exports = function( vorpal ){
@@ -19,6 +21,12 @@ module.exports = function( vorpal ){
 
                         if ( callback ) { callback(); } else { return false; }
                     }
+                }
+
+                if ( ! em.intakeEpubList ) {
+                    vorpal.log( util.ERROR_INTAKE_EPUB_LIST_NOT_LOADED );
+
+                    if ( callback ) { callback(); } else { return false; }
                 }
 
                 try {
