@@ -1,8 +1,9 @@
 "use strict";
 
-let AdmZip = require( 'adm-zip' );
-let fs     = require( 'fs' );
-let path   = require( 'path' );
+let AdmZip  = require( 'adm-zip' );
+let fs      = require( 'fs' );
+let path    = require( 'path' );
+let rimraf  = require( 'rimraf' );
 
 let util  = require( '../../lib/util' );
 
@@ -83,6 +84,12 @@ module.exports = function( vorpal ){
 };
 
 function intakeEpubs( epubDir, epubs, epubOutputDir ) {
+    try {
+        rimraf.sync( epubOutputDir + '/*' );
+    } catch ( error ) {
+        throw( `ERROR clearing ${epubOutputDir}: ${error}` );
+    }
+
     let epubsCompleted = [];
 
     epubs.forEach( ( epub ) => {
