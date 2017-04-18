@@ -58,33 +58,15 @@ module.exports = function( vorpal ) {
                 }
 
                 let metadataEpubList = [];
-                if ( conf.metadataEpubList ) {
-                    if ( ! Array.isArray( conf.metadataEpubList ) ) {
-                        vorpal.log(
-                            `ERROR in ${configFileBasename}: "epubList" must be an array.`
-                        );
+                try {
+                    metadataEpubList = getEpubList( conf, 'metadataEpubList', metadataDir );
+                } catch ( e ) {
+                    vorpal.log(
+                        `ERROR in ${configFileBasename}: ${e}`
+                    );
 
-                        if ( callback ) { callback(); }
-                        return false;
-                    }
-
-                    let invalidEpubIds = getInvalidEpubIds( conf.metadataEpubList );
-
-                    if ( invalidEpubIds ) {
-                        vorpal.log(
-                            `ERROR in ${configFileBasename}: The following EPUB ids are invalid:\n` +
-                            invalidEpubIds.map(
-                                ( epubId ) => { return '  ' + epubId + '\n'; }
-                            )
-                        );
-
-                        if ( callback ) { callback(); }
-                        return false;
-                    }
-
-                    metadataEpubList = conf.metadataEpubList;
-                } else {
-                    metadataEpubList = getEpubListFromDirectory( metadataDir );
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let metadata = getMetadataForEpubs( metadataDir, metadataEpubList );
@@ -132,7 +114,7 @@ module.exports = function( vorpal ) {
                 if ( vorpal.em.metadata ) {
                     try {
                         fs.writeFileSync( dumpFile, vorpal.em.metadata.dump() );
-                        vorpal.log( `Metadata dumped to ${dumpFile}.` )
+                        vorpal.log( `Metadata dumped to ${dumpFile}.` );
                         result = true;
                     } catch( e ) {
                         vorpal.log(
@@ -265,4 +247,28 @@ function getMetadataForEpub( epubDir ) {
     metadata.handle = `${HANDLE_SERVER}/${metadata.handle}`;
 
     return metadata;
+}
+
+function getEpubList( conf, epubListType, directory ) {
+    var confEpubList = conf[ epubListType ];
+
+    if ( confEpubList ) {
+        if ( ! Array.isArray( confEpubList ) ) {
+            throw( `"${epubListType}" must be an array.` );
+        }
+
+        let invalidEpubIds = getInvalidEpubIds( confEpubList );
+
+        if ( invalidEpubIds ) {
+            throw( 'The following EPUB ids are invalid:\n' +
+                invalidEpubIds.map(
+                    ( epubId ) => { return '  ' + epubId + '\n'; }
+                )
+            );
+        }
+
+        return confEpubList;
+    } else {
+        return getEpubListFromDirectory( directory );
+    }
 }
