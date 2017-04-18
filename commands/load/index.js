@@ -21,12 +21,13 @@ module.exports = function( vorpal ) {
             ( args, callback ) => {
                 em.clearCache();
 
+                // Get configuration
                 let configFile = vorpal.em.configDir + '/' +
                                  args.configuration + util.CONFIG_FILE_EXTENSION;
                 let configFileBasename = path.basename( configFile );
-
                 let conf = require( configFile );
 
+                // Get private configuration
                 let configPrivateFile = vorpal.em.configPrivateDir + '/' +
                                         args.configuration + util.CONFIG_FILE_EXTENSION;
                 if ( ! fs.existsSync( configPrivateFile ) ) {
