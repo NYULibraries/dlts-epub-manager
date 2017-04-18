@@ -13,6 +13,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'intake add [configuration]' )
         .description( 'Intake EPUBs and generate Readium versions and associated metadata files.' )
+        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
