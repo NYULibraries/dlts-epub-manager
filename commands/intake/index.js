@@ -29,12 +29,34 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); } else { return false; }
                 }
 
+                let epubDir = em.conf.intakeEpubDir;
+                let epubs   = em.intakeEpubList;
+
                 try {
+                    let epubsCompleted = intakeEpubs( epubDir, epubs );
+
+                    vorpal.log( `Intake completed for ${epubs.size} EPUBs:\n` + epubsCompleted.join( '\n' ) );
+
                     if ( callback ) { callback(); } else { return true; }
                 } catch ( error ) {
+                    vorpal.log( 'ERROR in intake of EPUB:\n' +
+                                error );
+
                     if ( callback ) { callback(); } else { return false; }
                 }
             }
         );
 
 };
+
+function intakeEpubs( epubDir, epubs ) {
+    let epubsCompleted = [];
+
+    epubs.forEach( ( epub ) => {
+        console.log( `Intake of ${epubDir}/${epub}` );
+
+        epubsCompleted.push( epub );
+    } );
+
+    return epubsCompleted;
+}
