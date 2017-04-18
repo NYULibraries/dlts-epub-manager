@@ -1,6 +1,8 @@
 "use strict";
 
 let AdmZip = require( 'adm-zip' );
+let fs     = require( 'fs' );
+let path   = require( 'path' );
 
 let util  = require( '../../lib/util' );
 
@@ -21,6 +23,26 @@ module.exports = function( vorpal ){
 
                         return false;
                     }
+                }
+
+                let intakeOutputDir = em.conf.intakeOutputDir;
+                if ( ! intakeOutputDir ) {
+                    vorpal.log( util.ERROR_CONF_MISSING_INTAKE_OUTPUT_DIR );
+
+                    return false;
+                }
+
+                if ( ! fs.existsSync( intakeOutputDir ) ) {
+                    vorpal.log( `ERROR: intakeOutputDir "${intakeOutputDir}" does not exist.`);
+
+                    return false;
+                }
+
+                let stats = fs.statSync( intakeOutputDir );
+                if ( ! stats.isDirectory() ) {
+                    vorpal.log( `ERROR: intakeOutputDir "${intakeOutputDir}" is not a directory.`);
+
+                    return false;
                 }
 
                 if ( ! em.intakeEpubList ) {
