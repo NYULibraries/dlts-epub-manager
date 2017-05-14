@@ -1,9 +1,10 @@
 "use strict";
 
-let AdmZip  = require( 'adm-zip' );
-let fs      = require( 'fs' );
-let path    = require( 'path' );
-let rimraf  = require( 'rimraf' );
+let AdmZip   = require( 'adm-zip' );
+let execSync = require( 'child_process' ).execSync;
+let fs       = require( 'fs' );
+let path     = require( 'path' );
+let rimraf   = require( 'rimraf' );
 
 let util  = require( '../../lib/util' );
 
@@ -101,6 +102,10 @@ function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
         try {
             unzipEpub( intakeEpubFile, outputEpub );
             renameCoverHtmlFile( outputEpub );
+            createCoverImageThumbnail(
+                `${outputEpub}/ops/images/${epub}.jpg`,
+                `${outputEpub}/ops/images/${epub}-th.jpg`
+            );
         } catch( e ) {
             throw( e );
         }
@@ -126,4 +131,11 @@ function renameCoverHtmlFile( epubDir ) {
     }
 
     fs.renameSync( coverHtmlFile, coverXhtmlFile );
+}
+
+function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
+    let cmd = `convert ${fullsizeJpg} -strip -resize 160\\> ${thumbnailJpg}`;
+    let result = execSync( cmd );
+
+    console.log( result );
 }
