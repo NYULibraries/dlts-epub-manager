@@ -48,7 +48,9 @@ describe( 'intake command', () => {
             intakeExpectedDir = __dirname + '/expected/epubs-from-intake',
             compareOptions = {
                 compareContent : true,
-                excludeFilter  : '.commit-empty-directory',
+                // Excluding *-th.jpg because the thumbnails look identical, but
+                // differ on a binary level.
+                excludeFilter  : '.commit-empty-directory,*-th.jpg',
             };
 
         try {
