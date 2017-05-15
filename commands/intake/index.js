@@ -135,7 +135,9 @@ function renameCoverHtmlFile( epubDir ) {
 
 function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
     let cmd = `convert ${fullsizeJpg} -strip -resize 160\\> ${thumbnailJpg}`;
-    let result = execSync( cmd );
 
-    console.log( result );
+    // From https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback:
+    //    "If the process times out, or has a non-zero exit code, this method will throw.
+    //     The Error object will contain the entire result from child_process.spawnSync()"
+    let result = execSync( cmd );
 }
