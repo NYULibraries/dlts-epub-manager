@@ -5,6 +5,8 @@
 let assert     = require( 'chai' ).assert;
 let dircompare = require( 'dir-compare' );
 let em         = require( '../../lib/bootstrap' );
+let glob       = require( 'glob' );
+let _          = require( 'lodash' );
 let path       = require( 'path' );
 let rimraf     = require( 'rimraf' );
 let vorpal     = em.vorpal;
@@ -62,6 +64,17 @@ describe( 'intake command', () => {
         }
 
         vorpal.parse( [ null, null, 'intake', 'add' ] );
+
+        // Normally trying to keep to a single assert per test, but making an
+        // exception here.
+
+        // For now, just comparing thumbnail filenames since binary diffs will always fail.
+        let thumbnailsExpected = glob.sync( '**/*-th.jpg', {cwd : intakeExpectedDir} );
+        let thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
+        assert(
+            _.isEqual( thumbnailsGot, thumbnailsExpected ),
+            'All cover image thumbnails created'
+        );
 
         epubsComparison = dircompare.compareSync(
             intakeOutputDir, intakeExpectedDir,
