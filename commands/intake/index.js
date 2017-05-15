@@ -102,6 +102,7 @@ function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
         try {
             unzipEpub( intakeEpubFile, outputEpub );
             renameCoverHtmlFile( outputEpub );
+            updateReferencesToCoverImageFile( outputEpub );
             createCoverImageThumbnail(
                 `${outputEpub}/ops/images/${epub}.jpg`,
                 `${outputEpub}/ops/images/${epub}-th.jpg`
@@ -131,6 +132,10 @@ function renameCoverHtmlFile( epubDir ) {
     }
 
     fs.renameSync( coverHtmlFile, coverXhtmlFile );
+}
+
+function updateReferencesToCoverHtmlFile( epubDir ) {
+
 }
 
 function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
