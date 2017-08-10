@@ -102,7 +102,7 @@ function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
         try {
             unzipEpub( intakeEpubFile, outputEpub );
             renameCoverHtmlFile( outputEpub );
-            updateReferencesToCoverImageFile( outputEpub );
+            updateReferencesToCoverHtmlFile( outputEpub );
             createCoverImageThumbnail(
                 `${outputEpub}/ops/images/${epub}.jpg`,
                 `${outputEpub}/ops/images/${epub}-th.jpg`
