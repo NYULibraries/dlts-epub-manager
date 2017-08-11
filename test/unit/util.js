@@ -1,6 +1,7 @@
 "use strict";
 
 let assert = require( 'chai' ).assert,
+    _      = require( 'lodash' ),
     util   = require( '../../lib/util/index' );
 
 describe( 'util', () => {
@@ -112,6 +113,64 @@ describe( 'util', () => {
                 assert( util.isValidNormalizedIsbn13( str ) === false,
                         `Did not return false for '${str}'` );
             } );
+        } );
+
+    } );
+
+    // This test will be moving to wherever the final EPUB metadata parsing code
+    // lives.
+    const TEST_EPUB_PACKAGE_FILE = __dirname + '/fixture/9780814780978.opf';
+    const EXPECTED_MANIFEST_ITEM_FILEPATHS = [
+        'toc.ncx',
+        'styles/9780814780978.css',
+        'styles/page-template.xpgt',
+        'images/9780814780978.jpg',
+        'fonts/CharisSILB.ttf',
+        'fonts/CharisSILBI.ttf',
+        'fonts/CharisSILI.ttf',
+        'fonts/CharisSILR.ttf',
+        'xhtml/cover.xhtml',
+        'xhtml/halftitle.html',
+        'xhtml/fm01.html',
+        'xhtml/fm02.html',
+        'xhtml/title.html',
+        'xhtml/copyright.html',
+        'xhtml/contents.html',
+        'xhtml/preface.html',
+        'xhtml/contrib.html',
+        'xhtml/ch01.html',
+        'xhtml/part01.html',
+        'xhtml/ch02.html',
+        'xhtml/ch03.html',
+        'xhtml/ch04.html',
+        'xhtml/ch05.html',
+        'xhtml/part02.html',
+        'xhtml/ch06.html',
+        'xhtml/ch07.html',
+        'xhtml/ch08.html',
+        'xhtml/part03.html',
+        'xhtml/ch09.html',
+        'xhtml/ch10.html',
+        'xhtml/ch11.html',
+        'xhtml/ch12.html',
+        'xhtml/ch13.html',
+        'xhtml/ch14.html',
+        'xhtml/index.html',
+        'images/pub.jpg',
+        'images/f0221-01.jpg',
+        'page-map.xml',
+    ];
+    describe( '#tempGetManifestItemsFilePathsFromEpubPackageFile', () => {
+
+        it( 'should return the desired filepaths', () => {
+            let got = util.tempGetManifestItemsFilePathsFromEpubPackageFile( TEST_EPUB_PACKAGE_FILE );
+            assert(
+                _.isEqual( got, EXPECTED_MANIFEST_ITEM_FILEPATHS ) === true,
+                'util.tempGetManifestItemsFilePathsFromEpubPackageFile() returned:\n\n' +
+                    got.join( '\n' )                                                    +
+                    '\n\n...but was expecting:\n\n'                                          +
+                    EXPECTED_MANIFEST_ITEM_FILEPATHS.join( '\n' )
+            );
         } );
 
     } );
