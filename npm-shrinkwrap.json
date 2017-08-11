@@ -588,6 +588,11 @@
       "resolved": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.0.tgz",
       "integrity": "sha1-Jj2tpmqz8vsQv3+dJN2PPlcO+RI="
     },
+    "pixl-xml": {
+      "version": "1.0.13",
+      "resolved": "https://registry.npmjs.org/pixl-xml/-/pixl-xml-1.0.13.tgz",
+      "integrity": "sha1-W6cUCL3zeZTCOd0BJRwQxTwFh+M="
+    },
     "process-nextick-args": {
       "version": "1.0.7",
       "resolved": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz",
@@ -693,11 +698,6 @@
       "resolved": "https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz",
       "integrity": "sha1-P/IfGYytIXX587eBhT/ZTQ0ZtZA="
     },
-    "string_decoder": {
-      "version": "0.10.31",
-      "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
-      "integrity": "sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ="
-    },
     "string-width": {
       "version": "1.0.1",
       "resolved": "https://registry.npmjs.org/string-width/-/string-width-1.0.1.tgz",
@@ -707,6 +707,11 @@
         "is-fullwidth-code-point": "1.0.0",
         "strip-ansi": "3.0.1"
       }
+    },
+    "string_decoder": {
+      "version": "0.10.31",
+      "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
+      "integrity": "sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ="
     },
     "strip-ansi": {
       "version": "3.0.1",
