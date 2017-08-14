@@ -119,7 +119,7 @@ describe( 'util', () => {
 
     // This test will be moving to wherever the final EPUB metadata parsing code
     // lives.
-    const TEST_EPUB_PACKAGE_FILE = __dirname + '/fixture/9780814780978.opf';
+    const TEST_EPUB_DIR = __dirname + '/fixture/9780814780978';
     const EXPECTED_MANIFEST_ITEM_FILEPATHS = [
         'toc.ncx',
         'styles/9780814780978.css',
@@ -163,7 +163,7 @@ describe( 'util', () => {
     describe( '#tempGetManifestItemsFilePathsFromEpubPackageFile', () => {
 
         it( 'should return the desired filepaths', () => {
-            let got = util.tempGetManifestItemsFilePathsFromEpubPackageFile( TEST_EPUB_PACKAGE_FILE );
+            let got = util.tempGetManifestItemsFilePathsFromEpubPackageFile( TEST_EPUB_DIR );
             assert(
                 _.isEqual( got, EXPECTED_MANIFEST_ITEM_FILEPATHS ) === true,
                 'util.tempGetManifestItemsFilePathsFromEpubPackageFile() returned:\n\n' +
