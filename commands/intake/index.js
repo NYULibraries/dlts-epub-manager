@@ -10,6 +10,9 @@ let util  = require( '../../lib/util' );
 
 let em;
 
+const OLD_COVER_PAGE_FILE_NAME = 'cover.html';
+const NEW_COVER_PAGE_FILE_NAME = 'cover.xhtml';
+
 module.exports = function( vorpal ){
     em = vorpal.em;
 
@@ -124,8 +127,8 @@ function unzipEpub( epubFile, outputEpub ) {
 }
 
 function renameCoverHtmlFile( epubDir ) {
-    let coverHtmlFile  = `${epubDir}/ops/xhtml/cover.html`;
-    let coverXhtmlFile = `${epubDir}/ops/xhtml/cover.xhtml`;
+    let coverHtmlFile  = `${epubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
+    let coverXhtmlFile = `${epubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
 
     if ( ! fs.existsSync( coverHtmlFile ) ) {
         throw( `Cover HTML file ${coverHtmlFile} not found.` );
