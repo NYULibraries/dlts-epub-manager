@@ -124,11 +124,6 @@ describe( 'util', () => {
         'toc.ncx',
         'styles/9780814780978.css',
         'styles/page-template.xpgt',
-        'images/9780814780978.jpg',
-        'fonts/CharisSILB.ttf',
-        'fonts/CharisSILBI.ttf',
-        'fonts/CharisSILI.ttf',
-        'fonts/CharisSILR.ttf',
         'xhtml/cover.xhtml',
         'xhtml/halftitle.html',
         'xhtml/fm01.html',
@@ -156,8 +151,6 @@ describe( 'util', () => {
         'xhtml/ch13.html',
         'xhtml/ch14.html',
         'xhtml/index.html',
-        'images/pub.jpg',
-        'images/f0221-01.jpg',
         'page-map.xml',
     ];
     describe( '#tempGetManifestItemsFilePathsFromEpubPackageFile', () => {
