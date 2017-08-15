@@ -18,7 +18,12 @@ const TMP_METADATA = __dirname + '/tmp/metadata';
 vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
-describe( 'intake command', () => {
+// NOTE: using `function()` instead of arrow functions because using the latter
+// causes `this` to be bound incorrectly, and this test suite needs `this.timeout()`.
+describe( 'intake command', function() {
+
+    // Avoid "Error: timeout of 2000ms exceeded. Ensure the done() callback is being called in this test."
+    this.timeout( 60000 );
 
     before( ( ) => {
         let loadSucceeded = vorpal.execSync( `load ${CONF}`, { fatal : true } );
@@ -44,7 +49,7 @@ describe( 'intake command', () => {
         );
     } );
 
-    it( 'should correctly intake all EPUBs and generate correct Readium versions', () => {
+    it( 'should correctly intake all EPUBs and generate correct Readium versions', function() {
         var epubsComparison,
             intakeOutputDir   = vorpal.em.conf.intakeOutputDir,
             intakeExpectedDir = __dirname + '/expected/epubs-from-intake',
@@ -84,7 +89,7 @@ describe( 'intake command', () => {
         assert( epubsComparison.same === true, `${intakeOutputDir} matched ${intakeExpectedDir}` );
     } );
 
-    it( 'should correctly intake all EPUBs and generate correct metadata files', () => {
+    it( 'should correctly intake all EPUBs and generate correct metadata files', function() {
         var metadataComparison,
             metadataDir = vorpal.em.conf.metadataDir,
             metadataExpectedDir = __dirname + '/expected/metadata-from-intake',
