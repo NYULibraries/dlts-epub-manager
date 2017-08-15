@@ -104,8 +104,8 @@ function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
 
         try {
             unzipEpub( intakeEpubFile, outputEpub );
-            renameCoverHtmlFile( outputEpub );
             updateReferencesToCoverHtmlFile( outputEpub );
+            renameCoverHtmlFile( outputEpub );
             createCoverImageThumbnail(
                 `${outputEpub}/ops/images/${epub}.jpg`,
                 `${outputEpub}/ops/images/${epub}-th.jpg`
@@ -138,7 +138,21 @@ function renameCoverHtmlFile( epubDir ) {
 }
 
 function updateReferencesToCoverHtmlFile( epubDir ) {
+    let filesToUpdate = util.tempGetManifestItemsFilePathsFromEpubPackageFile( epubDir )
+        .map( ( filePath ) => {
+            return `${epubDir}/${filePath}`
+        } );
 
+    filesToUpdate.push( util.tempGetPackageFilePath( epubDir ) );
+    filesToUpdate.forEach( ( fileToUpdate ) => {
+            let fileContents = fs.readFileSync( fileToUpdate, 'utf8' );
+            let newFileContents = fileContents.replace(
+                new RegExp( OLD_COVER_PAGE_FILE_NAME, 'g' ),
+                NEW_COVER_PAGE_FILE_NAME
+            );
+            fs.writeFileSync( fileToUpdate, newFileContents );
+        }
+    );
 }
 
 function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
