@@ -21,12 +21,13 @@ module.exports = function( vorpal ) {
             ( args, callback ) => {
                 em.clearCache();
 
+                // Get configuration
                 let configFile = vorpal.em.configDir + '/' +
                                  args.configuration + util.CONFIG_FILE_EXTENSION;
                 let configFileBasename = path.basename( configFile );
-
                 let conf = require( configFile );
 
+                // Get private configuration
                 let configPrivateFile = vorpal.em.configPrivateDir + '/' +
                                         args.configuration + util.CONFIG_FILE_EXTENSION;
                 if ( ! fs.existsSync( configPrivateFile ) ) {
@@ -38,9 +39,7 @@ module.exports = function( vorpal ) {
                     if ( callback ) { callback(); }
                     return false;
                 }
-
                 let confPrivate = require( configPrivateFile );
-
                 // The private config file is not a general-purpose override file.
                 // We do not want to allow accidental overwriting of values from
                 // the main config file, so we just cherry-pick what we need.
@@ -57,37 +56,19 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
-                let epubList = [];
-                if ( conf.epubList ) {
-                    if ( ! Array.isArray( conf.epubList ) ) {
-                        vorpal.log(
-                            `ERROR in ${configFileBasename}: "epubList" must be an array.`
-                        );
+                let metadataEpubList = [];
+                try {
+                    metadataEpubList = getEpubList( conf, 'metadataEpubList', metadataDir );
+                } catch ( e ) {
+                    vorpal.log(
+                        `ERROR in ${configFileBasename}: ${e}`
+                    );
 
-                        if ( callback ) { callback(); }
-                        return false;
-                    }
-
-                    let invalidEpubIds = getInvalidEpubIds( conf.epubList );
-
-                    if ( invalidEpubIds ) {
-                        vorpal.log(
-                            `ERROR in ${configFileBasename}: The following EPUB ids are invalid:\n` +
-                            invalidEpubIds.map(
-                                ( epubId ) => { return '  ' + epubId + '\n'; }
-                            )
-                        );
-
-                        if ( callback ) { callback(); }
-                        return false;
-                    }
-
-                    epubList = conf.epubList;
-                } else {
-                    epubList = getEpubListFromDirectory( metadataDir );
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
-                let metadata = getMetadataForEpubs( metadataDir, epubList );
+                let metadata = getMetadataForEpubs( metadataDir, metadataEpubList );
 
                 if ( conf.cacheMetadataInMemory ) {
                     vorpal.em.metadata = {
@@ -114,6 +95,18 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
+                em.intakeEpubList = [];
+                try {
+                    em.intakeEpubList = getEpubList( conf, 'intakeEpubList', conf.intakeEpubDir );
+                } catch ( e ) {
+                    vorpal.log(
+                        `ERROR in ${configFileBasename}: ${e}`
+                    );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+                
                 vorpal.em.conf = conf;
                 vorpal.em.conf.name = args.configuration;
 
@@ -132,7 +125,7 @@ module.exports = function( vorpal ) {
                 if ( vorpal.em.metadata ) {
                     try {
                         fs.writeFileSync( dumpFile, vorpal.em.metadata.dump() );
-                        vorpal.log( `Metadata dumped to ${dumpFile}.` )
+                        vorpal.log( `Metadata dumped to ${dumpFile}.` );
                         result = true;
                     } catch( e ) {
                         vorpal.log(
@@ -265,4 +258,35 @@ function getMetadataForEpub( epubDir ) {
     metadata.handle = `${HANDLE_SERVER}/${metadata.handle}`;
 
     return metadata;
+}
+
+function getEpubList( conf, epubListType, directory ) {
+    var confEpubList = conf[ epubListType ];
+
+    if ( confEpubList ) {
+        if ( ! Array.isArray( confEpubList ) ) {
+            throw( `"${epubListType}" must be an array.` );
+        }
+
+        let invalidEpubIds = getInvalidEpubIds( confEpubList );
+
+        if ( invalidEpubIds ) {
+            throw( 'The following EPUB ids are invalid:\n' +
+                invalidEpubIds.map(
+                    ( epubId ) => { return '  ' + epubId + '\n'; }
+                )
+            );
+        }
+
+        return confEpubList;
+    } else {
+        // Not required that there be a directory if no explicit epub list is
+        // given in the conf file.  We assume that caller is making the decision
+        // about what epub list stuff is mandatory in the conf file.
+        if ( directory ) {
+            return getEpubListFromDirectory( directory );
+        } else {
+            return [];
+        }
+    }
 }

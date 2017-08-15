@@ -5,18 +5,25 @@
 let assert     = require( 'chai' ).assert;
 let dircompare = require( 'dir-compare' );
 let em         = require( '../../lib/bootstrap' );
+let glob       = require( 'glob' );
+let _          = require( 'lodash' );
 let path       = require( 'path' );
 let rimraf     = require( 'rimraf' );
 let vorpal     = em.vorpal;
 
-const CONF = 'intake';
+const CONF = 'intake-full';
 const TMP_EPUBS    = __dirname + '/tmp/epubs';
 const TMP_METADATA = __dirname + '/tmp/metadata';
 
 vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
-describe( 'intake command', () => {
+// NOTE: using `function()` instead of arrow functions because using the latter
+// causes `this` to be bound incorrectly, and this test suite needs `this.timeout()`.
+describe( 'intake command', function() {
+
+    // Avoid "Error: timeout of 2000ms exceeded. Ensure the done() callback is being called in this test."
+    this.timeout( 60000 );
 
     before( ( ) => {
         let loadSucceeded = vorpal.execSync( `load ${CONF}`, { fatal : true } );
@@ -29,8 +36,8 @@ describe( 'intake command', () => {
             // Conf file epubOutputDir is relative path, have to change it to
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
-                vorpal.em.conf.epubOutputDir === TMP_EPUBS,
-            `epubOutputDir is ${TMP_EPUBS}`
+                vorpal.em.conf.intakeOutputDir === TMP_EPUBS,
+            `intakeOutputDir is ${TMP_EPUBS}`
         );
 
         assert(
@@ -42,34 +49,47 @@ describe( 'intake command', () => {
         );
     } );
 
-    it( 'should correctly intake all EPUBs and generate correct Readium versions', () => {
+    it( 'should correctly intake all EPUBs and generate correct Readium versions', function() {
         var epubsComparison,
-            epubOutputDir = vorpal.em.conf.epubOutputDir,
-            epubExpectedDir = __dirname + '/expected/epubs-from-intake',
+            intakeOutputDir   = vorpal.em.conf.intakeOutputDir,
+            intakeExpectedDir = __dirname + '/expected/epubs-from-intake',
             compareOptions = {
                 compareContent : true,
-                excludeFilter  : '.commit-empty-directory',
+                // Excluding *-th.jpg because the thumbnails look identical, but
+                // differ on a binary level.
+                excludeFilter  : '.commit-empty-directory,*-th.jpg',
             };
 
         try {
-            rimraf.sync( epubOutputDir + '/*' );
+            rimraf.sync( intakeOutputDir + '/*' );
         } catch ( error ) {
-            vorpal.log( `ERROR clearing ${epubOutputDir}: ${error}` );
+            vorpal.log( `ERROR clearing ${intakeOutputDir}: ${error}` );
 
             process.exit(1);
         }
 
         vorpal.parse( [ null, null, 'intake', 'add' ] );
 
+        // Normally trying to keep to a single assert per test, but making an
+        // exception here.
+
+        // For now, just comparing thumbnail filenames since binary diffs will always fail.
+        let thumbnailsExpected = glob.sync( '**/*-th.jpg', {cwd : intakeExpectedDir} );
+        let thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
+        assert(
+            _.isEqual( thumbnailsGot, thumbnailsExpected ),
+            'All cover image thumbnails created'
+        );
+
         epubsComparison = dircompare.compareSync(
-            epubOutputDir, epubExpectedDir,
+            intakeOutputDir, intakeExpectedDir,
             compareOptions
         );
 
-        assert( epubsComparison.same === true, 'Generated Readium versions match expected' );
+        assert( epubsComparison.same === true, `${intakeOutputDir} matched ${intakeExpectedDir}` );
     } );
 
-    it( 'should correctly intake all EPUBs and generate correct metadata files', () => {
+    it( 'should correctly intake all EPUBs and generate correct metadata files', function() {
         var metadataComparison,
             metadataDir = vorpal.em.conf.metadataDir,
             metadataExpectedDir = __dirname + '/expected/metadata-from-intake',
@@ -93,7 +113,7 @@ describe( 'intake command', () => {
             compareOptions
         );
 
-        assert( metadataComparison.same === true, 'Metadata files match expected' );
+        assert( metadataComparison.same === true, `${metadataDir} matched ${metadataExpectedDir}` );
     } );
 
 } );

@@ -90,6 +90,7 @@ and [prod](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/
 are already
 included in the repo):
 
+TODO: Update for `intake`
 ```
 somebody@host:~/epub-manager$ ls config/
 dev.json   prod.json   stage.json
@@ -407,6 +408,7 @@ it must first be preceded by `load [configuration]`.
 Copy [config/stage.json](https://github.com/NYULibraries/dlts-epub-manager/blob/master/config/stage.json)
 to `config/ad-hoc.json` (for example) and change:
 
+TODO: Update for `intake`
 ```
 "epubList"              : null,
 ```
@@ -598,6 +600,7 @@ corresponding to these three configurations.  See
 New configuration files can be created in `config/` and will be ignored by git.
 The contents of `config-private/` is ignored by `git` entirely.
 
+TODO: Update for `intake`
 `config/` file properties:
 
 * **cacheMetadataInMemory**: `true` to load all metadata at once into memory for
