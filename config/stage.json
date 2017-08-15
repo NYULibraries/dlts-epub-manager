@@ -1,8 +1,7 @@
 {
     "cacheMetadataInMemory"    : true,
 
-    "epubList"                 : null,
-
+    "metadataEpubList"         : null,
     "metadataRepo"             : "git@github.com:NYULibraries/dlts-epub-metadata.git",
     "metadataRepoBranch"       : "stage",
     "metadataRepoSubdirectory" : "nyupress",

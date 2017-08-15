@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Blacks in the Jewish Mind</title>
+    <subTitle>A Crisis of Liberalism</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>20001001</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;Since the 1960s the relationship between Blacks and Jews has been a contentious one. While others have attempted to explain or repair the break-up of the Jewish alliance on civil rights, Seth Forman here sets out to determine what Jewish thinking on the subject of Black Americans reveals about Jewish identity in the U.S. Why did American Jews get involved in Black causes in the first place? What did they have to gain from it? And what does that tell us about American Jews?&lt;/p&gt; &lt;p&gt;In an extremely provocative analysis, Forman argues that the commitment of American Jews to liberalism, and their historic definition of themselves as victims, has caused them to behave in ways that were defined as good for Blacks, but which in essence were contrary to Jewish interests. They have not been able to dissociate their needs--religious, spiritual, communal, political--from those of African Americans, and have therefore acted in ways which have threatened their own cultural vitality.&lt;/p&gt; &lt;p&gt;Avoiding the focus on Black victimization and white racism that often infuses work on Blacks and Jews, Forman emphasizes the complexities inherent in one distinct white ethnic group's involvement in America's racial dilemma.&lt;/p&gt;
+&lt;p&gt;&quot;Insight, authority and scrupulousness are among the virtues of Seth Forman's account of the interaction of two conspicuous minorities in the postwar era. In its clarity and its wisdom, Blacks in the Jewish Mind constitutes a marvelous advance over previous scholarship; and in showing how frequently Jews misunderstood their own communal interests, this book offers a challenge to the present even as the past is illuminated.&quot;&lt;/p&gt;-Stephen Whitfield,Brandeis University;
+&lt;p&gt;&quot;In an area where deep emotions and strong ideological feelings pass for information, Seth Forman's book is a model of calm, rational thought. He puts the black-Jewish relationship in a deeper historical perspective than has existed up to this point. Blacks in the Jewish Mind will be welcome to a broad public generally as well as scholars in the field.&quot;&lt;/p&gt;-Murray Friedman,author of &lt;i&gt;What Went Wrong: The Creation and Collapse of the Black-Jewish Alliance&lt;/i&gt;;
+&lt;p&gt;&quot;[A] rich, engaging, scholarly, and nuanced chronicle of an . . . often-tormented interethnic, interreligious, interracial relationship.&quot;&lt;/p&gt;-&lt;i&gt;MultiCultural Review&lt;/I&gt;,;
+&lt;p&gt;&quot;Bold and uncompromising. Cleverly, he turns a lot of revisionist race history on its head.&quot;&lt;/p&gt;-&lt;i&gt;Patterns of Prejudice&lt;/i&gt;,;
+&lt;p&gt;&quot;Insight, authority and scrupulousness are among the virtues of Seth Forman's account of the interaction of two conspicuous minorities in the postwar era. In its clarity and its wisdom, &lt;I&gt;Blacks in the Jewish Mind&lt;/I&gt; constitutes a marvelous advance over previous scholarship; and in showing how frequently Jews misunderstood their own communal interests, this book offers a challenge to the present even as the past is luminated.&quot;&lt;/p&gt;-Stephen Whitfield,Brandeis University</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>RELIGION</topic>
+    <topic>Judaism</topic>
+    <topic>General</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>320 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814726815</identifier>
+
+</mods>

@@ -38,20 +38,20 @@
        (anchored on both ends) will be included.
   -->
 
-  <lib dir="/usr/local/solr-3.6.0/dist" regex="apache-solr-cell-\d.*\.jar" />
-  <lib dir="/usr/local/solr-3.6.0/contrib/extraction/lib" regex=".*\.jar" />
+  <lib dir="${solr.home}/dist" regex="apache-solr-cell-\d.*\.jar" />
+  <lib dir="${solr.home}/contrib/extraction/lib" regex=".*\.jar" />
 
-  <lib dir="/usr/local/solr-3.6.0/dist/" regex="apache-solr-clustering-\d.*\.jar" />
-  <lib dir="/usr/local/solr-3.6.0/contrib/clustering/lib/" regex=".*\.jar" />
+  <lib dir="${solr.home}/dist/" regex="apache-solr-clustering-\d.*\.jar" />
+  <lib dir="${solr.home}/contrib/clustering/lib/" regex=".*\.jar" />
 
-  <lib dir="/usr/local/solr-3.6.0/dist/" regex="apache-solr-dataimporthandler-\d.*\.jar" />
-  <lib dir="/usr/local/solr-3.6.0/contrib/dataimporthandler/lib/" regex=".*\.jar" />
+  <lib dir="${solr.home}/dist/" regex="apache-solr-dataimporthandler-\d.*\.jar" />
+  <lib dir="${solr.home}/contrib/dataimporthandler/lib/" regex=".*\.jar" />
 
-  <lib dir="/usr/local/solr-3.6.0/dist/" regex="apache-solr-langid-\d.*\.jar" />
-  <lib dir="/usr/local/solr-3.6.0/contrib/langid/lib/" regex=".*\.jar" />
+  <lib dir="${solr.home}/dist/" regex="apache-solr-langid-\d.*\.jar" />
+  <lib dir="${solr.home}/contrib/langid/lib/" regex=".*\.jar" />
 
-  <lib dir="/usr/local/solr-3.6.0/dist/" regex="apache-solr-velocity-\d.*\.jar" />
-  <lib dir="/usr/local/solr-3.6.0/contrib/velocity/lib" regex=".*\.jar" />
+  <lib dir="${solr.home}/dist/" regex="apache-solr-velocity-\d.*\.jar" />
+  <lib dir="${solr.home}/contrib/velocity/lib" regex=".*\.jar" />
        
   <abortOnConfigurationError>${solr.abortOnConfigurationError:true}</abortOnConfigurationError>
 
@@ -61,7 +61,7 @@
   <!--
     <dataDir>${solr.data.dir:./solr/data}</dataDir>
   -->
-  <dataDir>/var/solr3/discovery/nyupress/data</dataDir> <!-- /content/dev/pa/solr/discovery -->
+  <dataDir>${solr.data.dir}</dataDir>
 
   <indexDefaults>
    <!-- Values here affect all index writers and act as a default unless overridden. -->

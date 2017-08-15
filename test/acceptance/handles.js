@@ -23,7 +23,7 @@ describe( 'handles command', () => {
     let expectedFullMetadataDirHandles;
 
     before( ( ) => {
-        expectedFullMetadataDirHandles = require( './fixture/handles/expected_add_full-metadataDir.json' );
+        expectedFullMetadataDirHandles = require( './expected/handles/expected_add_full-metadataDir.json' );
 
         restfulHandleServerStub = new RestfulHandleServerStub();
 
@@ -94,12 +94,4 @@ function loadConfiguration( confName ) {
     } else {
         return false;
     }
-}
-
-function addFixtureFullHandles( restfulHandleServerStub ) {
-    let handleBindings = require( './fixture/handles/expected_add_full-metadataDir.json' );
-
-    handleBindings.forEach( ( pair ) => {
-        restfulHandleServerStub.set( pair[ 0 ], pair[ 1 ] );
-    } );
 }

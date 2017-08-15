@@ -18,14 +18,16 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -35,12 +37,14 @@ module.exports = function( vorpal ){
 
                     vorpal.log( `Added ${epubs.size} EPUBs to Solr index:\n` + epubsAdded.join( '\n' ) );
 
-                    if ( callback ) { callback(); } else { return true; }
+                    if ( callback ) { callback(); }
+                    return true;
                 } catch ( error ) {
                     vorpal.log( 'ERROR adding document to Solr index:\n' +
                                 error );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
             }
         );
@@ -57,14 +61,16 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -75,12 +81,14 @@ module.exports = function( vorpal ){
 
                         vorpal.log( `Deleted ${epub.identifier} from Solr index.` );
 
-                        if ( callback ) { callback(); } else { return true; }
+                        if ( callback ) { callback(); }
+                        return true;
                     } catch ( error ) {
                         vorpal.log( 'ERROR deleting document from Solr index:\n' +
                                     error );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 } );
 
@@ -99,7 +107,8 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
@@ -114,7 +123,8 @@ module.exports = function( vorpal ){
                                 error
                             );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
             }
         );
@@ -131,14 +141,16 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let deleteAllSucceeded = vorpal.execSync( `solr delete all ${vorpal.em.conf.name}`, { fatal : true } );

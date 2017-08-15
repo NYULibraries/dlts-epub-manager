@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814755471</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>081475547X</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814755471</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Teaching What You're Not</TitleText>
+      <Subtitle>Identity Politics in Higher Education</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Katherine Mayberry</PersonName>
+      <BiographicalNote>
+&lt;p>Katherine Mayberry is Professor of Language and Literature at Rochester Institute of Technology, College of Liberal Arts.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>371</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>EDU014000</SubjectCode>
+      <SubjectHeadingText>EDUCATION / Guidance &amp; Orientation</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Can whites teach African-American literature effectively and legitimately? What is at issue when a man teaches a women's studies course? How effectively can a straight woman educate students about gay and lesbian history? What are the political implications of the study of the colonizers by the colonized? More generally, how does the identity of an educator affect his or her credibility with students and with other educators?&lt;/p> &lt;p>In incident after well-publicized incident, these abstract questions have turned up in America's classrooms and in national media, often trivialized as the latest example of PC excess. Going beyond simplistic headlines, Teaching What You're Not broaches these and many other difficult questions. With contributions from scholars in a variety of disciplines, the book examines the ways in which historical, cultural, and personal identities impact on pedagogy and scholarship. Essays cover such topics as the outsider's gaze as it applies to the study of non-white literature; an able-bodied woman's reflections on teaching literature by disabled women; and the challenges of teaching the Western canon at an African American college.&lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19960701</PublicationDate>
+    <CopyrightYear>1996</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19960601</ExpectedShipDate>
+      <OnSaleDate>19960701</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>26.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

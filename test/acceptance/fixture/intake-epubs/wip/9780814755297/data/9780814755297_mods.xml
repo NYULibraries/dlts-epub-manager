@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Faith Born of Seduction</title>
+    <subTitle>Sexual Trauma, Body Image, and Religion</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19950701</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;How do survivors of sexual and domestic violence relate to religion and to a higher power? What are the social and religious contexts that sustain and encourage eating disorders in women? How do these issues intersect?&lt;/p&gt; &lt;p&gt;The relationship between Christian religious discourse, incest, and eating disorders reveals an important, and so far unexamined, psychosocial phenomenon. Drawing from interviews with incest survivors whose sexual and religious backgrounds are intimately connected with their problematic relationship with food, Jennifer Manlowe here illuminates the connections between female body, weight, and appetite preoccupations.&lt;br&gt;Manlowe offers social and psychological insights into the most common forms of female suffering&amp;#151;incest and body hatred. The volume is intended as a resource for professionals, advocates, friends of survivors, and most importantly, the survivor of incest herself as she attempts to understand the links of meaning in her mind between her incest experience and her subsequent eating disorder.&lt;/p&gt;
+&lt;p&gt;&quot;This moving and powerful book explores in intricate detail the spiritual consequences for women of early forms of sexual abuse and trauma. It is hard to imagine a more important subject for contemporary Americans. Manlowe's thorough scholarship and original, probing interviews will make her wonderful book a lasting contribution.&quot;&lt;/p&gt; -Charles B. Strozier,author of &lt;i&gt;Apocalypse: On the Psychology of Fundamentalism in America&lt;/i&gt;</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>RELIGION</topic>
+    <topic>Psychology of Religion</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>225 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814755297</identifier>
+
+</mods>

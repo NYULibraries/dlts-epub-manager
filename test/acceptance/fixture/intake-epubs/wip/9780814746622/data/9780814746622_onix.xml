@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814746622</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814746624</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814746622</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814746622</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BB</ProductForm>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Bodies in Protest</TitleText>
+      <Subtitle>Environmental Illness and the Struggle Over Medical Knowledge</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Steve Kroll-Smith</PersonName>
+      <BiographicalNote>
+&lt;p>Coauthor of &lt;i>Bodies in Protest: Environmental Illness and the Struggle Over Medical Knowledge&lt;/i>, &lt;b>Steve Kroll-Smith&lt;/b> is Research Professor of Sociology at the University of New Orleans.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>02</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>H. Hugh Floyd</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>H. Hugh Floyd&lt;/b> is Professor of Sociology at Stamford University. &lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>237</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>MED022000</SubjectCode>
+      <SubjectHeadingText>MEDICAL / Diseases</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Gulf War Syndrome: Is It a Real Disease? asks a recent headline in the &lt;I>New York Times&lt;/I>. This question&amp;#151;are certain diseases real?&amp;#151;lies at the heart of a simmering controversy in the United States, a debate that has raged, in different contexts, for centuries. In the early nineteenth century, the air of European cities, polluted by open sewers and industrial waste, was generally thought to be the source of infection and disease. Thus the term miasma&amp;#151;literally deathlike air&amp;#151;came into popular use, only to be later dismissed as medically unsound by Louis Pasteur.&lt;/p> &lt;p>While controversy has long swirled in the United States around such illnesses as chronic fatigue syndrome and Epstein-Barr virus, no disorder has been more aggressively contested than environmental illness, a disease whose symptoms are distinguished by an extreme, debilitating reaction to a seemingly ordinary environment. The environmentally ill range from those who have adverse reactions to strong perfumes or colognes to others who are so sensitive to chemicals of any kind that they must retreat entirely from the modern world.&lt;/p> &lt;p>&lt;i>Bodies in Protest&lt;/i> does not seek to answer the question of whether or not chemical sensitivity is physiological or psychological, rather, it reveals how ordinary people borrow the expert language of medicine to construct lay accounts of their misery. The environmentally ill are not only explaining their bodies to themselves, however, they are also influencing public policies and laws to accommodate the existence of these mysterious illnesses. They have created literally a new body that professional medicine refuses to acknowledge and one that is becoming a popular model for rethinking conventional boundaries between the safe and the dangerous.&lt;/p> &lt;p>Having interviewed dozens of the environmentally ill, the authors here recount how these people come to acknowledge and define their disease, and themselves, in a suddenly unlivable world that often stigmatizes them as psychologically unstable. &lt;i>Bodies in Protest&lt;/i> is the dramatic story of human bodies that no longer behave in a manner modern medicine can predict and control.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"A fascinating blend of empirical research on the illness experiences of people with multiple chemical sensitivity. Through their extensive fieldwork, the authors have greatly enhanced our understanding of the human body and its complex relationship to the medical, scientific, and governmental establishment. Bodies in Protest graphically captures the sufferers first experience symptoms, defines their mysterious illnesses, and forces us to expand our thinking about the chemical plagues of modern technological society."&lt;/p>-Phil Brown,Department of Sociology, Brown University;
+&lt;p>"Compelling. Bodies in Protest skillfully situates the struggles of the environmentally ill in the context of a growing distrust of global expert knowledges as forms of social control, and the emergence of alternative interpretations as forms of resistance and reform in many areas of contemporary life. A fascinating discussion of the tension between science and narrative as forms of understanding and knowledge. An important contribution."&lt;/p>-Anthony Oliver-Smith,Department of Anthropology, University of Florida;
+&lt;p>"Kroll-Smith and Floyd have, with both clarity and sensitivity, provided considerable insight into an important arena of contemporary experience."&lt;/p>-&lt;i>American Journal of Sociology&lt;/i>,;
+&lt;p>"Elegantly written. . . . the book is built around the narratives of multiple chemical sensitivity (MCS) sufferers themselves. . . . Due to its relevant subject matter, its interdisciplinary approach, its readability, and its interesting theoretical arguments, &lt;i>Bodies in Protest&lt;/i> should be appealing to a wide audience."&lt;/p>-&lt;i>Organization and Environment&lt;/i>,;
+&lt;p>"This engagingly written and thought-provoking book provides one of the first sustained sociological analyses of a baffling, controversial, and spectacular medical condition."&lt;/p>-&lt;i>Social Forces&lt;/i>,</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19970601</PublicationDate>
+    <CopyrightYear>1997</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19970502</ExpectedShipDate>
+      <OnSaleDate>19970601</OnSaleDate>
+      <PackQuantity>30</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>70.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

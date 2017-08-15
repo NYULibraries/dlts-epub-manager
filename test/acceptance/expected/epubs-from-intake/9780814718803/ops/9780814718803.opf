@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814718803">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Romantic Outlaws, Beloved Prisons</dc:title>
+<dc:creator>Martha Grace Duncan</dc:creator>
+<dc:date>1996</dc:date>
+<dc:identifier id="p9780814718803">9780814718803</dc:identifier>
+<dc:coverage>New York</dc:coverage>
+<dc:coverage>London</dc:coverage>
+<dc:format>284 Pages</dc:format>
+<dc:language>en</dc:language>
+<dc:type>Text</dc:type>
+<dc:rights>All rights reserved</dc:rights>
+<dc:publisher>New York University Press</dc:publisher>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>	
+<item id="halftitle" href="xhtml/ch00_fm01_halftitle.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm02_title" href="xhtml/ch00_fm02_title.html" media-type="application/xhtml+xml"/>	
+<item id="ch00_fm03_copy" href="xhtml/ch00_fm03_copy.html" media-type="application/xhtml+xml"/>	
+<item id="ch00_fm04_ded" href="xhtml/ch00_fm04_ded.html" media-type="application/xhtml+xml"/>	
+<item id="ch00_fm05_con" href="xhtml/ch00_fm05_con.html" media-type="application/xhtml+xml"/>	
+<item id="ch00_fm06_ack" href="xhtml/ch00_fm06_ack.html" media-type="application/xhtml+xml"/>	
+<item id="ch00_fm07_intro" href="xhtml/ch00_fm07_intro.html" media-type="application/xhtml+xml"/>	
+<item id="part01" href="xhtml/part01.html" media-type="application/xhtml+xml"/>	
+<item id="chapter01" href="xhtml/chapter01.html" media-type="application/xhtml+xml"/>	
+<item id="chapter02" href="xhtml/chapter02.html" media-type="application/xhtml+xml"/>	
+<item id="chapter03" href="xhtml/chapter03.html" media-type="application/xhtml+xml"/>	
+<item id="chapter04" href="xhtml/chapter04.html" media-type="application/xhtml+xml"/>	
+<item id="chapter05" href="xhtml/chapter05.html" media-type="application/xhtml+xml"/>	
+<item id="chapter06" href="xhtml/chapter06.html" media-type="application/xhtml+xml"/>	
+<item id="part01back01" href="xhtml/part01back01.html" media-type="application/xhtml+xml"/>	
+<item id="part02" href="xhtml/part02.html" media-type="application/xhtml+xml"/>	
+<item id="part02front01" href="xhtml/part02front01.html" media-type="application/xhtml+xml"/>	
+<item id="chapter07" href="xhtml/chapter07.html" media-type="application/xhtml+xml"/>	
+<item id="chapter08" href="xhtml/chapter08.html" media-type="application/xhtml+xml"/>	
+<item id="chapter09" href="xhtml/chapter09.html" media-type="application/xhtml+xml"/>	
+<item id="part02back01" href="xhtml/part02back01.html" media-type="application/xhtml+xml"/>	
+<item id="part03" href="xhtml/part03.html" media-type="application/xhtml+xml"/>	
+<item id="part03front01" href="xhtml/part03front01.html" media-type="application/xhtml+xml"/>	
+<item id="chapter10" href="xhtml/chapter10.html" media-type="application/xhtml+xml"/>	
+<item id="chapter11" href="xhtml/chapter11.html" media-type="application/xhtml+xml"/>	
+<item id="chapter12" href="xhtml/chapter12.html" media-type="application/xhtml+xml"/>	
+<item id="part03back01" href="xhtml/part03back01.html" media-type="application/xhtml+xml"/>	
+<item id="backmatter01" href="xhtml/backmatter01.html" media-type="application/xhtml+xml"/>	
+<item id="backmatter02" href="xhtml/backmatter02.html" media-type="application/xhtml+xml"/>	
+<item id="backmatter03" href="xhtml/backmatter03.html" media-type="application/xhtml+xml"/>	
+<item id="backmatter04" href="xhtml/backmatter04.html" media-type="application/xhtml+xml"/>	
+<item id="backmatter05" href="xhtml/backmatter05.html" media-type="application/xhtml+xml"/>	
+<item id="cover-image" href="images/9780814718803.jpg" media-type="image/jpeg"/>
+<item id="stylesheet" href="styles/9780814718803.css" media-type="text/css"/>
+<item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
+<item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
+<item id="font1" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="font2" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="font3" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="font4" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+</manifest>
+<spine toc="ncx" page-map="map">
+<itemref idref="cover"/>
+<itemref idref="halftitle"/>
+<itemref idref="ch00_fm02_title"/>
+<itemref idref="ch00_fm03_copy"/>
+<itemref idref="ch00_fm04_ded"/>
+<itemref idref="ch00_fm05_con"/>
+<itemref idref="ch00_fm06_ack"/>
+<itemref idref="ch00_fm07_intro"/>
+<itemref idref="part01"/>
+<itemref idref="chapter01"/>
+<itemref idref="chapter02"/>
+<itemref idref="chapter03"/>
+<itemref idref="chapter04"/>
+<itemref idref="chapter05"/>
+<itemref idref="chapter06"/>
+<itemref idref="part01back01"/>
+<itemref idref="part02"/>
+<itemref idref="part02front01"/>
+<itemref idref="chapter07"/>
+<itemref idref="chapter08"/>
+<itemref idref="chapter09"/>
+<itemref idref="part02back01"/>
+<itemref idref="part03"/>
+<itemref idref="part03front01"/>
+<itemref idref="chapter10"/>
+<itemref idref="chapter11"/>
+<itemref idref="chapter12"/>
+<itemref idref="part03back01"/>
+<itemref idref="backmatter01"/>
+<itemref idref="backmatter02"/>
+<itemref idref="backmatter03"/>
+<itemref idref="backmatter04"/>
+<itemref idref="backmatter05"/>
+</spine>
+<guide>
+<reference href="xhtml/ch00_fm05_con.html#toc" type="contents" title="Contents"/>
+</guide>
+</package>

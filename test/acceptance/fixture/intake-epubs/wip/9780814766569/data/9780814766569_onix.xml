@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814766569</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814766560</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814766569</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Imagined Human Beings</TitleText>
+      <Subtitle>A Psychological Approach to Character and Conflict in Literature</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Bernard Jay Paris</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Bernard J. Paris&lt;/b> is the author of seven books, including &lt;i>Karen Horney: A Psychoanalyst's Search for Self-Understanding&lt;/i> (selected by the &lt;i>New York Times&lt;/i> as a Notable Book for 1994), and director of the International Karen Horney Society.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>287</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>LIT000000</SubjectCode>
+      <SubjectHeadingText>LITERARY CRITICISM / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>One of literature's greatest gifts is its portrayal of realistically drawn characters--human beings in whom we can recognize motivations and emotions. In &lt;b>Imagined Human Beings&lt;/b>, Bernard J. Paris explores the inner conflicts of some of literature's most famous characters, using Karen Horney's psychoanalytic theories to understand the behavior of these characters as we would the behavior of real people.&lt;/p> &lt;p>When realistically drawn characters are understood in psychological terms, they tend to escape their roles in the plot and thus subvert the view of them advanced by the author. A Horneyan approach both alerts us to conflicts between plot and characterization, rhetoric and mimesis, and helps us understand the forces in the author's personalty that generate them. The Horneyan model can make sense of thematic inconsistencies by seeing them as the product of the author's inner divisions. Paris uses this approach to explore a wide range of texts, including &lt;i>Antigone, &lt;/i> "The Clerk's Tale," &lt;i>The Merchant of Venice, A Doll's House, Hedda Gabler, Great Expectations, Jane Eyre, The Mayor of Casterbridge, Wuthering Heights, Madame Bovary, The Awakening, &lt;/i>and &lt;i>The End of the Road.&lt;/i>&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"This is literary criticism at its most perceptive. Theory is subservient to a deeply engaged reading of works Professor Paris clearly loves. To read his analysis of Emma Bovary or Hedda Gabler is to gain an enriched insight into characters whom we thought we knew so well."&lt;/p> -Phyllis Grosskurth,author of &lt;i>Byron, The Flawed Angel&lt;/i></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19971001</PublicationDate>
+    <CopyrightYear>1997</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19970901</ExpectedShipDate>
+      <OnSaleDate>19971001</OnSaleDate>
+      <PackQuantity>30</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Can Unions Survive?</title>
+    <subTitle>The Rejuvenation of the American Labor Movement</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19950301</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;&quot;Defines the challenges facing the movement and offers comprehensive prescriptions for its successful transformation.&quot;&lt;BR&gt;&amp;#151;&lt;I&gt;The George Washington Law Review&lt;/I&gt;&lt;/p&gt;&lt;p&gt;A valuable analysis of the rise, fall, and--hopefully&amp;#151;the revival of unionism in America. [The book] distills into readable form a mass of legal and empirical analysis of what has been happening in the workplaces of the United States and other industrial democracies. Most important, Craver has drawn a blueprint of what must be done to save collective bargaining in this century&amp;#151;must reading for scholars, lawmakers, and, especially, union leaders themselves.&lt;BR&gt;&amp;#151;&lt;I&gt;Paul C. Weiler, Harvard Law SchoolAuthor of Governing the Workplace: The Future of Labor and Employment Law&lt;/I&gt;&lt;/p&gt;&lt;p&gt;&quot;A thoroughly researched, insightful, and readable look at why American unions have declined. . . . This is a very informative analyis of a vital topic, and it will have a multidisciplinary appeal to anyone interested in union- management relations.&lt;br&gt;&amp;#151;Peter Feuille, Institute of Labor and Industrial Relations, University of Illinois&lt;/I&gt;&lt;p&gt;When employees at firms like Greyhound and Eastern Airlines walk out to protest wage and benefit reductions, they are permanently replaced and their representative labor unions destroyed. Every year, the threat or drama of a high-profile strike&amp;#151;in air traffic control towers, at Amtrak, or at Caterpillar&amp;#151;makes national headlines and, every year, several hundred thousand unrepresented American employees are discharged without good cause.&lt;/p&gt;&lt;p&gt;During the past decade, employer opposition to unions has increased. Industrial and demographic changes have eroded traditional blue-collar labor support, and class-based myths have discouraged organization among white-collar workers. As the American labor movement begins its second century, it is confronted by challenges that threaten its very existence. Is the decline of the American labor movement symptomatic of a terminal condition?&lt;/p&gt;&lt;p&gt;In this work, Charles Craver presents an incisive analysis of the current state of the American labor movement and a manifesto for how this crucial institution can be revitalized. Journeying with the reader from the inception of labor unions through their heyday and to the present, Craver examines the roots of their decline, the current factors which contribute to their dismal condition, and the actions that are needed--such as the recruitment of female and minority employees and appeals to white-collar personnel--that are necessary to ensure union viability in the 21st century.&lt;/p&gt; &lt;p&gt;Craver thoughtfully discusses what labor organizations must do to organize new workers, to enhance their economic and political power, and to adapt to modern-day advances and to an increasingly global economy. He also suggests changes that must be made in the National Labor Relations Act. This book is essential reading for lawyers, scholars, and policy-makers, as well as all those concerned with the future of the labor movement. &lt;/p&gt;</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>BUSINESS &amp; ECONOMICS</topic>
+    <topic>Labor</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>213 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814715123</identifier>
+
+</mods>

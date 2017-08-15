@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Markets and Justice</title>
+    <subTitle>Nomos XXXI</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19890301</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;In this thirty-first annual volume in the American Society of Legal and Political Philosophy's NOMOS series, entitled &lt;I&gt;Markets and Justice&lt;/I&gt;, a number of distinguished authors consider a variety of topics in the area where economics, philosophy, and political science join paths. Included are essays such as &quot;Contractarian Method, Private Property, and the Market Economy,&quot; &quot;Justice Under Capitalism,&quot; and &quot;Market Choice and Human Choice.&quot; Authors include Joshua Cohen, MIT; Gerald F. Gaus, University of Queensland; Margaret Jane Radin, University of Southern California; and Andrzej Rapaczynski, Columbia University.&lt;/p&gt;&lt;p&gt;Part of a well-known and important series, &lt;I&gt;Markets and Justice&lt;/I&gt; will prove invaluable to political scientists, legal scholars, philosophers, and their students.&lt;/p&gt;&lt;p&gt;Part of a well-known and important series, &lt;I&gt;Markets and Justice&lt;/I&gt; will prove invaluable to political scientists, legal scholars, philosophers, and their students.&lt;/p&gt;</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>BUSINESS &amp; ECONOMICS</topic>
+    <topic>General</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent> pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814714218</identifier>
+
+</mods>

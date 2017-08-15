@@ -13,15 +13,20 @@
   "author": "da70",
   "license": "ISC",
   "dependencies": {
+    "adm-zip": "^0.4.7",
     "dateformat": "^2.0.0",
+    "glob": "https://registry.npmjs.org/glob/-/glob-3.2.3.tgz",
     "json-stable-stringify": "^1.0.1",
     "lodash": "^4.15.0",
+    "onix": "^1.0.3",
+    "pixl-xml": "^1.0.13",
     "rimraf": "^2.5.2",
     "sync-request": "^3.0.1",
     "vorpal": "^1.10.8"
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "dir-compare": "^1.4.0",
     "mocha": "^2.4.5",
     "nock": "^9.0.2"
   },

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>In Search of the Swan Maiden</title>
+    <subTitle>A Narrative on Folklore and Gender</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19950701</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;In her compendious study, [of the folktale of the runaway wife] Leavy argues that the contradictory claims of nature and culture are embodied in the legendary figure of the swan maiden, a woman torn between the human and bestial worlds. &lt;br&gt;--&lt;i&gt;The New York Times Book Review&lt;/i&gt;&lt;br&gt;&lt;/p&gt; &lt;p&gt;This is a study of the meaning of gender as framed by the swan maiden tale, a story found in the folklore of virtually every culture. The swan maiden is a supernatural woman forced to marry, keep house, and bear children for a mortal man who holds the key to her imprisonment. When she manages to regain this key, she escapes to the otherworld, never to return.&lt;br&gt;&lt;/p&gt; &lt;p&gt;These tales have most often been interpreted as depicting exogamous marriages, describing the girl from another tribe trapped in a world where she will always be the outsider. Barbara Fass Leavy believes that, in the societies in which the tale and its variants endured, woman was the other--the outsider trapped in a society that could never be her own. Leavy shows how the tale, though rarely explicitly recognized, is frequently replayed in modern literature.&lt;br&gt;&lt;/p&gt; &lt;p&gt;Beautifully written, this book reveals the myriad ways in which the folktales of a society reflect its cultural values, and particularly how folktales are allegories of gender relations. It will interest anyone involved in literary, gender, and cultural studies.&lt;/p&gt;</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>LITERARY CRITICISM</topic>
+    <topic>General</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>336 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814751008</identifier>
+
+</mods>

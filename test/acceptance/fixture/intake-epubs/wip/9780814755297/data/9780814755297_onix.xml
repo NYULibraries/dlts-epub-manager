@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814755297</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814755291</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814755297</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814755297</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Faith Born of Seduction</TitleText>
+      <Subtitle>Sexual Trauma, Body Image, and Religion</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Jennifer L Manlowe</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B> Jennifer L. Manlowe&lt;/B> is Coordinator of the Brown University AIDS Program. She is the author of &lt;I>Faith Born of Seduction: Sexual Trauma, Body Image, and Religion&lt;/I>, also available from NYU Press.&lt;BR>&amp;nbsp;&amp;nbsp;&lt;FONT SIZE="-1">&lt;A HREF= "authors/manlowe_je.html?$string">[Author Bio]&lt;/A>&lt;/FONT>&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>225</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>REL075000</SubjectCode>
+      <SubjectHeadingText>RELIGION / Psychology of Religion</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>How do survivors of sexual and domestic violence relate to religion and to a higher power? What are the social and religious contexts that sustain and encourage eating disorders in women? How do these issues intersect?&lt;/p> &lt;p>The relationship between Christian religious discourse, incest, and eating disorders reveals an important, and so far unexamined, psychosocial phenomenon. Drawing from interviews with incest survivors whose sexual and religious backgrounds are intimately connected with their problematic relationship with food, Jennifer Manlowe here illuminates the connections between female body, weight, and appetite preoccupations.&lt;br>Manlowe offers social and psychological insights into the most common forms of female suffering&amp;#151;incest and body hatred. The volume is intended as a resource for professionals, advocates, friends of survivors, and most importantly, the survivor of incest herself as she attempts to understand the links of meaning in her mind between her incest experience and her subsequent eating disorder.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"This moving and powerful book explores in intricate detail the spiritual consequences for women of early forms of sexual abuse and trauma. It is hard to imagine a more important subject for contemporary Americans. Manlowe's thorough scholarship and original, probing interviews will make her wonderful book a lasting contribution."&lt;/p> -Charles B. Strozier,author of &lt;i>Apocalypse: On the Psychology of Fundamentalism in America&lt;/i></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19950701</PublicationDate>
+    <CopyrightYear>1995</CopyrightYear>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19950601</ExpectedShipDate>
+      <OnSaleDate>19950701</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>26.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

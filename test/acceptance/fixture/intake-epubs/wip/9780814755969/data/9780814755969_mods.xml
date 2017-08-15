@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+  <titleInfo>
+    <title>Freedom to Differ</title>
+    <subTitle>The Shaping of the Gay and Lesbian Struggle for Civil Rights</subTitle>
+  </titleInfo>
+
+  <name type="personal">
+    <namePart></namePart>
+    <role>
+      <roleTerm authority="marcrelator">Author</roleTerm>
+    </role>
+  </name>
+
+  <originInfo>
+    <publisher>NYU Press</publisher>
+    <dateIssued>19980801</dateIssued>
+  </originInfo>
+
+  <language>
+    <languageTerm authority="iso639-2b" type="code"
+      authorityURI="http://id.loc.gov/vocabulary/iso639-2"
+      valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+  </language>
+
+  <abstract>
+&lt;p&gt;Many of us have grown up with the language of civil rights, yet rarely consider how the construction of civil rights claims affects those who are trying to attain them. Diane Miller examines arguments lesbians and gay men make for civil rights, revealing the ways these arguments are both progressive--in terms of helping to win court cases seeking basic human rights--and limiting--in terms of framing representations of gay men and lesbians.&lt;/p&gt; &lt;p&gt;Miller incorporates case studies of lesbians in the military and in politics into her argument. She discusses in detail the experiences of Colonel Margarethe Cammermeyer, who was dishonorably discharged from the National Guard after 27 years of service when she revealed that she was a lesbian, and Roberta Achtenberg, who was nominated by Clinton for the job of Assistant Director of Housing and Urban Development and became the first gay or lesbian to face the confirmation process. Drawing on these cases and their outcomes, Miller evaluates the advantages and disadvantages of privileging civil rights strategies in the struggle for gay and lesbian rights.&lt;/p&gt;
+&lt;p&gt;&quot;This book makes important contributions to Women's Studies and Speech Communication and deserves our critical attention.&quot;&lt;/p&gt; -&lt;I&gt;Women's Studies in Communication&lt;/I&gt;,</abstract>
+
+  <subject authority="BISAC Subject Heading">
+    <topic>SOCIAL SCIENCE</topic>
+    <topic>Gay Studies</topic>
+  </subject>
+
+  <physicalDescription>
+    <extent>264 pages</extent>
+  </physicalDescription>
+
+  <identifier type="isbn">9780814755969</identifier>
+
+</mods>

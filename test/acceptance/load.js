@@ -39,7 +39,7 @@ describe( 'load command', () => {
 
         before( ( ) => {
             expected = util.jsonStableStringify(
-                require( './fixture/metadata-dumps/expected-full')
+                require( './expected/metadata-dumps/expected-full')
             );
         } );
 

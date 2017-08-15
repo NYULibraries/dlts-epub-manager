@@ -18,14 +18,16 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -38,12 +40,14 @@ module.exports = function( vorpal ){
                         `Added ${epubs.size} handles to handles server:\n` + handlesAdded.join( '\n' )
                     );
 
-                    if ( callback ) { callback(); } else { return true; }
+                    if ( callback ) { callback(); }
+                    return true;
                 } catch ( error ) {
                     vorpal.log( 'ERROR adding handle to handle server:\n' +
                                 error );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
             }
@@ -60,14 +64,16 @@ module.exports = function( vorpal ){
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
 
-                        if ( callback ) { callback(); } else { return false; }
+                        if ( callback ) { callback(); }
+                        return false;
                     }
                 }
 
                 if ( ! vorpal.em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
 
                 let epubs = vorpal.em.metadata.getAll();
@@ -80,12 +86,14 @@ module.exports = function( vorpal ){
                         `Deleted ${epubs.size} handles from handles server:\n` + handlesDeleted.join( '\n' )
                     );
 
-                    if ( callback ) { callback(); } else { return true; }
+                    if ( callback ) { callback(); }
+                    return true;
                 } catch ( error ) {
                     vorpal.log( 'ERROR deleting handle from handle server:\n' +
                                 error );
 
-                    if ( callback ) { callback(); } else { return false; }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
             }
         );

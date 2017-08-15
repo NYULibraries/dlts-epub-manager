@@ -15,7 +15,8 @@ const CONF                        = 'full-metadataDir';
 const SOLR_SETUP_AND_START_SCRIPT = 'test/solr/start-solr-test-server.sh';
 const SOLR_TEST_CORE              = 'test-core';
 
-vorpal.em.configDir = __dirname + '/fixture/config';
+vorpal.em.configDir        = __dirname + '/fixture/config';
+vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
 let conf;
 
@@ -100,7 +101,7 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        let expectedDocs = require( './fixture/solr-response-docs/expected-full.json' );
+        let expectedDocs = require( './expected/solr-response-docs/expected-full.json' );
         assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
     } );
 
@@ -115,7 +116,7 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        let expectedDocs = require( './fixture/solr-response-docs/expected-full-followed-by-replace-3-add-3.json' );
+        let expectedDocs = require( './expected/solr-response-docs/expected-full-followed-by-replace-3-add-3.json' );
 
         assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
     } );
@@ -131,7 +132,7 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        let expectedDocs = require( './fixture/solr-response-docs/expected-replace-3-add-3.json' );
+        let expectedDocs = require( './expected/solr-response-docs/expected-replace-3-add-3.json' );
 
         assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
     } );
