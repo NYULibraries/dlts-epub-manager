@@ -88,7 +88,7 @@ module.exports = function( vorpal ){
 
 };
 
-function intakeEpubs( explodedEpubDir, epubIdList, intakeOutputDir ) {
+function intakeEpubs( intakeEpubsDir, epubIdList, intakeOutputDir ) {
     try {
         rimraf.sync( intakeOutputDir + '/*' );
     } catch ( error ) {
@@ -98,7 +98,7 @@ function intakeEpubs( explodedEpubDir, epubIdList, intakeOutputDir ) {
     let epubsCompleted = [];
 
     epubIdList.forEach( ( epubId ) => {
-        let intakeEpubFile = `${explodedEpubDir}/${epubId}/data/${epubId}.epub`;
+        let intakeEpubFile = `${intakeEpubsDir}/${epubId}/data/${epubId}.epub`;
         // This is actually a directory, but naming it outputEpubDir might be
         // confusing due to existing param intakeOutputDir.
         let outputEpub     = `${intakeOutputDir}/${epubId}`;
