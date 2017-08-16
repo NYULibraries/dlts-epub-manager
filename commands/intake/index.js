@@ -88,11 +88,11 @@ module.exports = function( vorpal ){
 
 };
 
-function intakeEpubs( intakeEpubsDir, epubIdList, intakeOutputDir ) {
+function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir ) {
     try {
-        rimraf.sync( intakeOutputDir + '/*' );
+        rimraf.sync( outputEpubsDir + '/*' );
     } catch ( error ) {
-        throw( `ERROR clearing ${intakeOutputDir}: ${error}` );
+        throw( `ERROR clearing ${outputEpubsDir}: ${error}` );
     }
 
     let epubsCompleted = [];
