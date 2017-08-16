@@ -6,7 +6,7 @@ let fs       = require( 'fs' );
 let path     = require( 'path' );
 let rimraf   = require( 'rimraf' );
 
-let util  = require( '../../lib/util' );
+let util = require( '../../lib/util' );
 
 let em;
 
