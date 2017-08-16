@@ -6,6 +6,7 @@ let fs       = require( 'fs' );
 let path     = require( 'path' );
 let rimraf   = require( 'rimraf' );
 
+let Epub = require( '../../lib/epub' ).Epub;
 let util = require( '../../lib/util' );
 
 let em;
@@ -62,16 +63,16 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubs = em.intakeEpubList;
+                let epubIdList = em.intakeEpubList;
 
                 try {
                     let epubsCompleted = intakeEpubs(
                         em.conf.intakeEpubDir,
-                        epubs,
+                        epubIdList,
                         em.conf.intakeOutputDir
                     );
 
-                    vorpal.log( `Intake completed for ${epubs.size} EPUBs:\n` + epubsCompleted.join( '\n' ) );
+                    vorpal.log( `Intake completed for ${epubIdList.size} EPUBs:\n` + epubsCompleted.join( '\n' ) );
 
                     if ( callback ) { callback(); }
                     return false;
@@ -87,7 +88,7 @@ module.exports = function( vorpal ){
 
 };
 
-function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
+function intakeEpubs( epubDir, epubIdList, intakeOutputDir ) {
     try {
         rimraf.sync( intakeOutputDir + '/*' );
     } catch ( error ) {
@@ -96,25 +97,27 @@ function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
 
     let epubsCompleted = [];
 
-    epubs.forEach( ( epub ) => {
-        let intakeEpubFile = `${epubDir}/${epub}/data/${epub}.epub`;
+    epubIdList.forEach( ( epubId ) => {
+        let intakeEpubFile = `${epubDir}/${epubId}/data/${epubId}.epub`;
         // This is actually a directory, but naming it outputEpubDir might be
         // confusing due to existing param intakeOutputDir.
-        let outputEpub     = `${intakeOutputDir}/${epub}`;
+        let outputEpub     = `${intakeOutputDir}/${epubId}`;
 
         try {
             unzipEpub( intakeEpubFile, outputEpub );
-            updateReferencesToCoverHtmlFile( outputEpub );
+
+            let epub = new Epub( outputEpub );
+            updateReferencesToCoverHtmlFile( epub );
             renameCoverHtmlFile( outputEpub );
             createCoverImageThumbnail(
-                `${outputEpub}/ops/images/${epub}.jpg`,
-                `${outputEpub}/ops/images/${epub}-th.jpg`
+                `${outputEpub}/ops/images/${epubId}.jpg`,
+                `${outputEpub}/ops/images/${epubId}-th.jpg`
             );
         } catch( e ) {
             throw( e );
         }
 
-        epubsCompleted.push( epub );
+        epubsCompleted.push( epubId );
     } );
 
     return epubsCompleted;
@@ -137,13 +140,13 @@ function renameCoverHtmlFile( epubDir ) {
     fs.renameSync( coverHtmlFile, coverXhtmlFile );
 }
 
-function updateReferencesToCoverHtmlFile( epubDir ) {
-    let filesToUpdate = util.tempGetManifestItemsFilePathsFromEpubPackageFile( epubDir )
+function updateReferencesToCoverHtmlFile( epub ) {
+    let filesToUpdate = epub.getManifestItemsFilePaths()
         .map( ( filePath ) => {
-            return `${epubDir}/${filePath}`
+            return `${epub.explodedEpubDir}/${filePath}`
         } );
 
-    filesToUpdate.push( util.tempGetPackageFilePath( epubDir ) );
+    filesToUpdate.push( epub.getPackageFilePath());
     filesToUpdate.forEach( ( fileToUpdate ) => {
             let fileContents = fs.readFileSync( fileToUpdate, 'utf8' );
             let newFileContents = fileContents.replace(
