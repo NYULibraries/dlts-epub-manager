@@ -99,19 +99,17 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir ) {
 
     epubIdList.forEach( ( epubId ) => {
         let intakeEpubFile = `${intakeEpubsDir}/${epubId}/data/${epubId}.epub`;
-        // This is actually a directory, but naming it outputEpubDir might be
-        // confusing due to existing param intakeOutputDir.
-        let outputEpub     = `${intakeOutputDir}/${epubId}`;
+        let outputEpubDir = `${outputEpubsDir}/${epubId}`;
 
         try {
-            unzipEpub( intakeEpubFile, outputEpub );
+            unzipEpub( intakeEpubFile, outputEpubDir );
 
-            let epub = new Epub( outputEpub );
+            let epub = new Epub( outputEpubDir );
             updateReferencesToCoverHtmlFile( epub );
-            renameCoverHtmlFile( outputEpub );
+            renameCoverHtmlFile( outputEpubDir );
             createCoverImageThumbnail(
-                `${outputEpub}/ops/images/${epubId}.jpg`,
-                `${outputEpub}/ops/images/${epubId}-th.jpg`
+                `${outputEpubDir}/ops/images/${epubId}.jpg`,
+                `${outputEpubDir}/ops/images/${epubId}-th.jpg`
             );
         } catch( e ) {
             throw( e );
