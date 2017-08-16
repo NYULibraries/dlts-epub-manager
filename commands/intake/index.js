@@ -88,7 +88,7 @@ module.exports = function( vorpal ){
 
 };
 
-function intakeEpubs( epubDir, epubIdList, intakeOutputDir ) {
+function intakeEpubs( explodedEpubDir, epubIdList, intakeOutputDir ) {
     try {
         rimraf.sync( intakeOutputDir + '/*' );
     } catch ( error ) {
@@ -98,7 +98,7 @@ function intakeEpubs( epubDir, epubIdList, intakeOutputDir ) {
     let epubsCompleted = [];
 
     epubIdList.forEach( ( epubId ) => {
-        let intakeEpubFile = `${epubDir}/${epubId}/data/${epubId}.epub`;
+        let intakeEpubFile = `${explodedEpubDir}/${epubId}/data/${epubId}.epub`;
         // This is actually a directory, but naming it outputEpubDir might be
         // confusing due to existing param intakeOutputDir.
         let outputEpub     = `${intakeOutputDir}/${epubId}`;
@@ -129,9 +129,9 @@ function unzipEpub( epubFile, outputEpub ) {
     zip.extractAllTo( outputEpub, true );
 }
 
-function renameCoverHtmlFile( epubDir ) {
-    let coverHtmlFile  = `${epubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
-    let coverXhtmlFile = `${epubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
+function renameCoverHtmlFile( explodedEpubDir ) {
+    let coverHtmlFile  = `${explodedEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
+    let coverXhtmlFile = `${explodedEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
 
     if ( ! fs.existsSync( coverHtmlFile ) ) {
         throw( `Cover HTML file ${coverHtmlFile} not found.` );

@@ -234,7 +234,7 @@ function getMetadataForEpubs( metadataDir, epubList ) {
     return metadata;
 }
 
-function getMetadataForEpub( epubDir ) {
+function getMetadataForEpub( explodedEpubDir ) {
     // Order is lowest priority to highest priority
     let metadataFilesInPriorityOrder =
         [
@@ -242,7 +242,7 @@ function getMetadataForEpub( epubDir ) {
             'dlts-descriptive.json',
             `dlts-administrative.json`
         ]
-        .map( ( file ) => { return `${epubDir}/${file}`; } );
+        .map( ( file ) => { return `${explodedEpubDir}/${file}`; } );
 
     let metadata = {};
     metadataFilesInPriorityOrder.forEach( ( file ) => {
