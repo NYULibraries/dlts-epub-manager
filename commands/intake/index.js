@@ -139,12 +139,21 @@ function renameCoverHtmlFile( explodedEpubDir ) {
 }
 
 function updateReferencesToCoverHtmlFile( epub ) {
-    let filesToUpdate = epub.getManifestItemsFilePaths()
-        .map( ( filePath ) => {
-            return `${epub.explodedEpubDir}/${filePath}`
-        } );
+    let packageFileParentDir = path.basename( path.dirname( epub.paths.packageFile ) );
 
-    filesToUpdate.push( epub.getPackageFilePath());
+    let filesToUpdate = epub.packageFile.manifest.item
+        .filter(
+            ( item ) => {
+                return item[ 'media-type' ].match( /text|xml/ );
+            }
+        )
+        .map(
+            ( item ) => {
+                return `${epub.explodedEpubDir}/${packageFileParentDir}/${item.href}`;
+            }
+        );
+
+    filesToUpdate.push( epub.paths.packageFile );
     filesToUpdate.forEach( ( fileToUpdate ) => {
             let fileContents = fs.readFileSync( fileToUpdate, 'utf8' );
             let newFileContents = fileContents.replace(
