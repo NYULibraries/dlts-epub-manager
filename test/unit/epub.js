@@ -13,7 +13,14 @@ describe( 'epub', () => {
             'Robert Adams',
         ],
         containerFile : TEST_EXPLODED_EPUB_DIR + '/META-INF/container.xml',
+        date          : '1998',
+        format        :'351 Pages',
+        identifier    : '9780814780978',
+        language      : 'En',
+        publisher     : 'New York University Press',
         packageFile   : TEST_EXPLODED_EPUB_DIR + '/ops/9780814780978.opf',
+        rights        : 'All rights reserved.',
+        title         : 'Integrity and Conscience',
     };
     Object.freeze( EXPECTED );
 
