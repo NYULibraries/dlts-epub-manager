@@ -7,23 +7,23 @@ let assert = require( 'chai' ).assert,
 describe( 'epub', () => {
     const TEST_EXPLODED_EPUB_DIR = __dirname + '/fixture/9780814780978';
 
-    const EXPECTED_PATHS = {
-        containerFile: TEST_EXPLODED_EPUB_DIR + '/META-INF/container.xml',
-        packageFile: TEST_EXPLODED_EPUB_DIR + '/ops/9780814780978.opf'
+    const EXPECTED = {
+        authors       : [
+            'Ian Shapiro',
+            'Robert Adams',
+        ],
+        containerFile : TEST_EXPLODED_EPUB_DIR + '/META-INF/container.xml',
+        packageFile   : TEST_EXPLODED_EPUB_DIR + '/ops/9780814780978.opf',
     };
-
-    const EXPECTED_AUTHORS= [
-        'Ian Shapiro',
-        'Robert Adams'
-    ];
+    Object.freeze( EXPECTED );
 
     it( 'should have the correct containerFile', () => {
         let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
 
         let got = epub.paths.containerFile;
         assert(
-            _.isEqual( got, EXPECTED_PATHS.containerFile ) === true,
-            `got ${got} but was expecting ${EXPECTED_PATHS.containerFile}`
+            _.isEqual( got, EXPECTED.containerFile ) === true,
+            `got ${got} but was expecting ${EXPECTED.containerFile}`
         );
     } );
 
@@ -32,8 +32,8 @@ describe( 'epub', () => {
 
         let got = epub.paths.packageFile;
         assert(
-            _.isEqual( got, EXPECTED_PATHS.packageFile ) === true,
-            `got ${got} but was expecting ${EXPECTED_PATHS.packageFile}`
+            _.isEqual( got, EXPECTED.packageFile ) === true,
+            `got ${got} but was expecting ${EXPECTED.packageFile}`
         );
     } );
 
@@ -41,7 +41,7 @@ describe( 'epub', () => {
         let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
 
         let got      = epub.authors;
-        let expected = EXPECTED_AUTHORS;
+        let expected = EXPECTED.authors;
 
         assert(
             _.isEqual( got, expected ) === true,
