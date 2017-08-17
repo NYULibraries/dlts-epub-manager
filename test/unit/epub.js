@@ -12,6 +12,11 @@ describe( 'epub', () => {
         packageFile: TEST_EXPLODED_EPUB_DIR + '/ops/9780814780978.opf'
     };
 
+    const EXPECTED_AUTHORS= [
+        'Ian Shapiro',
+        'Robert Adams'
+    ];
+
     it( 'should have the correct containerFile', () => {
         let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
 
@@ -29,6 +34,18 @@ describe( 'epub', () => {
         assert(
             _.isEqual( got, EXPECTED_PATHS.packageFile ) === true,
             `got ${got} but was expecting ${EXPECTED_PATHS.packageFile}`
+        );
+    } );
+
+    it( 'should have the correct author', () => {
+        let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
+
+        let got      = epub.authors;
+        let expected = EXPECTED_AUTHORS;
+
+        assert(
+            _.isEqual( got, expected ) === true,
+            `got ${got} but was expecting ${expected}`
         );
     } );
 } );
