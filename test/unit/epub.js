@@ -59,4 +59,16 @@ describe( 'epub', () => {
             `got ${got} but was expecting ${expected}`
         );
     } );
+
+    it( 'should have the correct date', () => {
+        let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
+
+        let got      = epub.date;
+        let expected = EXPECTED.date;
+
+        assert(
+            _.isEqual( got, expected ) === true,
+            `got ${got} but was expecting ${expected}`
+        );
+    } );
 } );
