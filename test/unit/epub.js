@@ -20,20 +20,24 @@ describe( 'epub', () => {
     it( 'should have the correct containerFile', () => {
         let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
 
-        let got = epub.paths.containerFile;
+        let got      = epub.paths.containerFile;
+        let expected = EXPECTED.containerFile;
+
         assert(
-            _.isEqual( got, EXPECTED.containerFile ) === true,
-            `got ${got} but was expecting ${EXPECTED.containerFile}`
+            _.isEqual( got, expected ) === true,
+            `got ${got} but was expecting ${expected}`
         );
     } );
 
     it( 'should have the correct packageFile', () => {
         let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
 
-        let got = epub.paths.packageFile;
+        let got      = epub.paths.packageFile;
+        let expected = EXPECTED.packageFile;
+
         assert(
-            _.isEqual( got, EXPECTED.packageFile ) === true,
-            `got ${got} but was expecting ${EXPECTED.packageFile}`
+            _.isEqual( got, expected ) === true,
+            `got ${got} but was expecting ${expected}`
         );
     } );
 
