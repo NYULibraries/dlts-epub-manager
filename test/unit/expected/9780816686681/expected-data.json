@@ -19,7 +19,12 @@
       "authors"    : [
         "Susana Peña"
       ],
-      "identifier" : "9780816686681"
+      "identifier" : "9780816686681",
+
+      "language"          : "en-us",
+      "publisher"         : "Regents of the University of Minnesota",
+      "rights"            : "All Rights Reserved",
+      "title"             : "Oye Loca"
     }
   }
 }

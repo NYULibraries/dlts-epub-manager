@@ -20,7 +20,14 @@
         "Ian Shapiro",
         "Robert Adams"
       ],
-      "identifier" : "9780814780978"
+      "identifier" : "9780814780978",
+
+      "date"        : "1998",
+      "format"      : "351 Pages",
+      "language"    : "En",
+      "publisher"   : "New York University Press",
+      "rights"      : "All rights reserved.",
+      "title"       : "Integrity and Conscience"
     }
   }
 }
