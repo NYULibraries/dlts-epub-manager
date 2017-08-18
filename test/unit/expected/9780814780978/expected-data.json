@@ -16,6 +16,10 @@
 
   "dlts" : {
     "metadata" : {
+      "authors"    : [
+        "Ian Shapiro",
+        "Robert Adams"
+      ],
       "identifier" : "9780814780978"
     }
   }
