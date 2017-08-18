@@ -2,7 +2,7 @@
 
 let assert = require( 'chai' ).assert,
     _      = require( 'lodash' ),
-    Epub   = require( '../../lib/epub' ).Epub;
+    Epub   = require( '../../lib/epub/Epub' ).Epub;
 
 describe( 'epub', () => {
     const TEST_EXPLODED_EPUB_DIR = __dirname + '/fixture/9780814780978';
