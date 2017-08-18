@@ -29,7 +29,10 @@
       "language"    : "En",
       "publisher"   : "New York University Press",
       "rights"      : "All rights reserved.",
-      "title"       : "Integrity and Conscience"
+      "title"       : "Integrity and Conscience",
+
+      "coverHref" : "epub_content/9780814780978/ops/images/9780814780978.jpg",
+      "thumbHref" : "epub_content/9780814780978/ops/images/9780814780978-th.jpg"
     }
   }
 }
