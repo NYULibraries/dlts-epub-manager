@@ -66,7 +66,7 @@ describe( 'epub', () => {
 
                     assert(
                         _.isEqual( got, expected ) === true,
-                        `${epubId}: got field "${field}" value of ${got} but was expecting "${expected}"`
+                        `${epubId}: got field "${field}" value of "${got}" but was expecting "${expected}"`
                     );
                 }
             }
