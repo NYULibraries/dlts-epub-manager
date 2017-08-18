@@ -27,8 +27,8 @@ describe( 'epub', () => {
     } );
 
     // Generally would like to stick to the principle of 1 assert per test, but
-    // for now will try this construction, which is quite simple, succinct, and
-    // easy to understand, and which makes changes to testing of Epub
+    // for now will try this construction for testing fields as it is quite simple,
+    // succinct, and easy to understand, and which makes changes to testing of Epub
     // fields quiet easy.
     it( 'should construct a DltsEpub object with correct package fields', () => {
         Object.keys( expectedData ).forEach( ( epubId ) => {
