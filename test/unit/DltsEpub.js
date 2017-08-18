@@ -2,6 +2,7 @@
 
 let assert   = require( 'chai' ).assert,
     _        = require( 'lodash' ),
+
     DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
 
 describe( 'epub', () => {
