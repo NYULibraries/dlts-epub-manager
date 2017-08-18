@@ -27,6 +27,10 @@ describe( 'epub', () => {
     };
     Object.freeze( EXPECTED );
 
+    // Generally would like to stick to the principle of 1 assert per test, but
+    // for now will try this construction, which is quite simple, succinct, and
+    // easy to understand, and which makes changes to testing of Epub
+    // fields quiet easy.
     it( 'should construct an Epub object with correct fields', () => {
         let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
         let field;
