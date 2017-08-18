@@ -14,10 +14,12 @@ describe( 'epub', () => {
         ],
         date               : '1998',
         format             : '351 Pages',
+        identifiers        : [ '9780814780978' ],
         language           : 'En',
         publisher          : 'New York University Press',
         rights             : 'All rights reserved.',
         title              : 'Integrity and Conscience',
+        uniqueIdentifier   : '9780814780978',
     };
     Object.freeze( EXPECTED );
 
