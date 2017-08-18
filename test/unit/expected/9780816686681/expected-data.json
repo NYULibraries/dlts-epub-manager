@@ -1,4 +1,6 @@
 {
+  "rootDirectory"        : "OEBPS",
+
   "package" : {
     "creators"           : [
       "Susana Peña"

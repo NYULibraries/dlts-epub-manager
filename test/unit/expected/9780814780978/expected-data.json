@@ -1,4 +1,6 @@
 {
+  "rootDirectory"        : "ops",
+
   "package" : {
     "creators"           : [
       "Ian Shapiro",

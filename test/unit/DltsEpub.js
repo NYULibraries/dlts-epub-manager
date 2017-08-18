@@ -72,4 +72,19 @@ describe( 'epub', () => {
             }
         } );
     } );
+
+    it( 'should construct a DltsEpub object with the correct rootDirectory', () => {
+        Object.keys( expectedData ).forEach( ( epubId ) => {
+                let dltsEpub = new DltsEpub( `${FIXTURE_DIR}/${epubId}` );
+                let field    = 'rootDirectory';
+                let got      = dltsEpub[ field ];
+                let expected = expectedData[ epubId ][ field ];
+
+                assert(
+                    _.isEqual( got, expected ) === true,
+                    `${epubId}: got field "${field}" value of "${got}" but was expecting "${expected}"`
+                );
+            }
+        );
+    } );
 } );
