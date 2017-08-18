@@ -8,18 +8,16 @@ describe( 'epub', () => {
     const TEST_EXPLODED_EPUB_DIR = __dirname + '/fixture/9780814780978';
 
     const EXPECTED = {
-        authors       : [
+        creators           : [
             'Ian Shapiro',
             'Robert Adams',
         ],
-
-        date          : '1998',
-        format        :'351 Pages',
-        // identifier    : '9780814780978',
-        language      : 'En',
-        publisher     : 'New York University Press',
-        rights        : 'All rights reserved.',
-        title         : 'Integrity and Conscience',
+        date               : '1998',
+        format             : '351 Pages',
+        language           : 'En',
+        publisher          : 'New York University Press',
+        rights             : 'All rights reserved.',
+        title              : 'Integrity and Conscience',
     };
     Object.freeze( EXPECTED );
 
