@@ -1,8 +1,8 @@
 "use strict";
 
-let assert = require( 'chai' ).assert,
-    _      = require( 'lodash' ),
-    Epub   = require( '../../lib/epub/Epub' ).Epub;
+let assert   = require( 'chai' ).assert,
+    _        = require( 'lodash' ),
+    DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
 
 describe( 'epub', () => {
     const TEST_EXPLODED_EPUB_DIR = __dirname + '/fixture/9780814780978';
@@ -26,12 +26,12 @@ describe( 'epub', () => {
     // easy to understand, and which makes changes to testing of Epub
     // fields quiet easy.
     it( 'should construct an Epub object with correct package fields', () => {
-        let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
+        let dltsEpub = new DltsEpub( TEST_EXPLODED_EPUB_DIR );
         let field;
 
         for ( field in EXPECTED ) {
             if ( EXPECTED.hasOwnProperty( field ) ) {
-                let got      = epub.package[ field ];
+                let got      = dltsEpub.package[ field ];
                 let expected = EXPECTED[ field ];
 
                 assert(
