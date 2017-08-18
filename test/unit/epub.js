@@ -12,63 +12,36 @@ describe( 'epub', () => {
             'Ian Shapiro',
             'Robert Adams',
         ],
-        containerFile : TEST_EXPLODED_EPUB_DIR + '/META-INF/container.xml',
+
         date          : '1998',
         format        :'351 Pages',
         identifier    : '9780814780978',
         language      : 'En',
+        paths         : {
+            containerFile : TEST_EXPLODED_EPUB_DIR + '/META-INF/container.xml',
+            packageFile   : TEST_EXPLODED_EPUB_DIR + '/ops/9780814780978.opf',
+        },
         publisher     : 'New York University Press',
-        packageFile   : TEST_EXPLODED_EPUB_DIR + '/ops/9780814780978.opf',
         rights        : 'All rights reserved.',
         title         : 'Integrity and Conscience',
     };
     Object.freeze( EXPECTED );
 
-    it( 'should have the correct containerFile', () => {
+    it( 'should construct an Epub object with correct fields', () => {
         let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
+        let field;
 
-        let got      = epub.paths.containerFile;
-        let expected = EXPECTED.containerFile;
+        for ( field in EXPECTED ) {
+            if ( EXPECTED.hasOwnProperty( field ) ) {
+                let got      = epub[ field ];
+                let expected = EXPECTED[ field ];
 
-        assert(
-            _.isEqual( got, expected ) === true,
-            `got ${got} but was expecting ${expected}`
-        );
-    } );
+                assert(
+                    _.isEqual( got, expected ) === true,
+                    `Incorrect field "${field}": got "${got}" but was expecting "${expected}"`
+                );
+            }
+        }
 
-    it( 'should have the correct packageFile', () => {
-        let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
-
-        let got      = epub.paths.packageFile;
-        let expected = EXPECTED.packageFile;
-
-        assert(
-            _.isEqual( got, expected ) === true,
-            `got ${got} but was expecting ${expected}`
-        );
-    } );
-
-    it( 'should have the correct author', () => {
-        let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
-
-        let got      = epub.authors;
-        let expected = EXPECTED.authors;
-
-        assert(
-            _.isEqual( got, expected ) === true,
-            `got ${got} but was expecting ${expected}`
-        );
-    } );
-
-    it( 'should have the correct date', () => {
-        let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
-
-        let got      = epub.date;
-        let expected = EXPECTED.date;
-
-        assert(
-            _.isEqual( got, expected ) === true,
-            `got ${got} but was expecting ${expected}`
-        );
     } );
 } );
