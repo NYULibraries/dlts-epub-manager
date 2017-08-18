@@ -7,7 +7,7 @@ let assert   = require( 'chai' ).assert,
 describe( 'epub', () => {
     const TEST_EXPLODED_EPUB_DIR = __dirname + '/fixture/9780814780978';
 
-    const EXPECTED = {
+    const EXPECTED_PACKAGE = {
         creators           : [
             'Ian Shapiro',
             'Robert Adams',
@@ -21,20 +21,20 @@ describe( 'epub', () => {
         title              : 'Integrity and Conscience',
         uniqueIdentifier   : '9780814780978',
     };
-    Object.freeze( EXPECTED );
+    Object.freeze( EXPECTED_PACKAGE );
 
     // Generally would like to stick to the principle of 1 assert per test, but
     // for now will try this construction, which is quite simple, succinct, and
     // easy to understand, and which makes changes to testing of Epub
     // fields quiet easy.
-    it( 'should construct an Epub object with correct package fields', () => {
+    it( 'should construct a DltsEpub object with correct package fields', () => {
         let dltsEpub = new DltsEpub( TEST_EXPLODED_EPUB_DIR );
         let field;
 
-        for ( field in EXPECTED ) {
-            if ( EXPECTED.hasOwnProperty( field ) ) {
+        for ( field in EXPECTED_PACKAGE ) {
+            if ( EXPECTED_PACKAGE.hasOwnProperty( field ) ) {
                 let got      = dltsEpub.package[ field ];
-                let expected = EXPECTED[ field ];
+                let expected = EXPECTED_PACKAGE[ field ];
 
                 assert(
                     _.isEqual( got, expected ) === true,
