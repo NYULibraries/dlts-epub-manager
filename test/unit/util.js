@@ -116,4 +116,20 @@ describe( 'util', () => {
         } );
 
     } );
+
+    describe( '#normalizeDltsEpubIdentifier', () => {
+
+        it( 'should correctly normalized "close-enough" identifiers', () => {
+            const input    = 'urn:isbn:9780814780978';
+            const expected = '9780814780978';
+
+            let got = util.normalizeDltsEpubIdentifier( input );
+            assert(
+                got === expected,
+                `Did not return "${expected}" for "${input}", got: ${got}`
+            );
+        } );
+
+    } );
+
 } );
