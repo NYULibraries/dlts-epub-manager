@@ -23,6 +23,11 @@ describe( 'epub', () => {
     };
     Object.freeze( EXPECTED_PACKAGE );
 
+    const EXPECTED_DLTS_METADATA = {
+        identifier : '9780814780978'
+    };
+    Object.freeze( EXPECTED_DLTS_METADATA );
+
     // Generally would like to stick to the principle of 1 assert per test, but
     // for now will try this construction, which is quite simple, succinct, and
     // easy to understand, and which makes changes to testing of Epub
@@ -35,6 +40,24 @@ describe( 'epub', () => {
             if ( EXPECTED_PACKAGE.hasOwnProperty( field ) ) {
                 let got      = dltsEpub.package[ field ];
                 let expected = EXPECTED_PACKAGE[ field ];
+
+                assert(
+                    _.isEqual( got, expected ) === true,
+                    `Incorrect field "${field}": got "${got}" but was expecting "${expected}"`
+                );
+            }
+        }
+
+    } );
+
+    it( 'should construct a DltsEpub object with correct dlts fields', () => {
+        let dltsEpub = new DltsEpub( TEST_EXPLODED_EPUB_DIR );
+        let field;
+
+        for ( field in EXPECTED_DLTS_METADATA ) {
+            if ( EXPECTED_DLTS_METADATA.hasOwnProperty( field ) ) {
+                let got      = dltsEpub.dlts.metadata[ field ];
+                let expected = EXPECTED_DLTS_METADATA[ field ];
 
                 assert(
                     _.isEqual( got, expected ) === true,
