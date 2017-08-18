@@ -32,7 +32,9 @@
       "title"       : "Integrity and Conscience",
 
       "coverHref" : "epub_content/9780814780978/ops/images/9780814780978.jpg",
-      "thumbHref" : "epub_content/9780814780978/ops/images/9780814780978-th.jpg"
+      "thumbHref" : "epub_content/9780814780978/ops/images/9780814780978-th.jpg",
+
+      "packageUrl" : "epub_content/9780814780978"
     }
   }
 }
