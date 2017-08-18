@@ -15,12 +15,8 @@ describe( 'epub', () => {
 
         date          : '1998',
         format        :'351 Pages',
-        identifier    : '9780814780978',
+        // identifier    : '9780814780978',
         language      : 'En',
-        paths         : {
-            containerFile : TEST_EXPLODED_EPUB_DIR + '/META-INF/container.xml',
-            packageFile   : TEST_EXPLODED_EPUB_DIR + '/ops/9780814780978.opf',
-        },
         publisher     : 'New York University Press',
         rights        : 'All rights reserved.',
         title         : 'Integrity and Conscience',
@@ -31,13 +27,13 @@ describe( 'epub', () => {
     // for now will try this construction, which is quite simple, succinct, and
     // easy to understand, and which makes changes to testing of Epub
     // fields quiet easy.
-    it( 'should construct an Epub object with correct fields', () => {
+    it( 'should construct an Epub object with correct package fields', () => {
         let epub = new Epub( TEST_EXPLODED_EPUB_DIR );
         let field;
 
         for ( field in EXPECTED ) {
             if ( EXPECTED.hasOwnProperty( field ) ) {
-                let got      = epub[ field ];
+                let got      = epub.package[ field ];
                 let expected = EXPECTED[ field ];
 
                 assert(
