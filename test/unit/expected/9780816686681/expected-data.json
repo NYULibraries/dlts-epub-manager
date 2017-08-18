@@ -1,0 +1,22 @@
+{
+  "package" : {
+    "creators"           : [
+      "Susana Peña"
+    ],
+    "identifiers"        : [
+      "a6d505c2-a1d1-403b-879f-6b41b75da6b2",
+      "9780816686681"
+    ],
+    "language"           : "en-us",
+    "publisher"          : "Regents of the University of Minnesota",
+    "rights"             : "All Rights Reserved",
+    "title"              : "Oye Loca",
+    "uniqueIdentifier"   : "a6d505c2-a1d1-403b-879f-6b41b75da6b2"
+  },
+
+  "dlts" : {
+    "metadata" : {
+      "identifier" : "9780816686681"
+    }
+  }
+}
