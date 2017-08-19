@@ -139,9 +139,9 @@ function renameCoverHtmlFile( explodedEpubDir ) {
 }
 
 function updateReferencesToCoverHtmlFile( epub ) {
-    let packageFileParentDir = path.basename( path.dirname( epub.paths.packageFile ) );
+    let rootDirectory = epub.rootDirectory;
 
-    let filesToUpdate = epub.packageFile.manifest.item
+    let filesToUpdate = epub.package._xml.manifest.item
         .filter(
             ( item ) => {
                 return item[ 'media-type' ].match( /text|xml/ );
@@ -149,11 +149,11 @@ function updateReferencesToCoverHtmlFile( epub ) {
         )
         .map(
             ( item ) => {
-                return `${epub.explodedEpubDir}/${packageFileParentDir}/${item.href}`;
+                return `${epub.explodedEpubDir}/${rootDirectory}/${item.href}`;
             }
         );
 
-    filesToUpdate.push( epub.paths.packageFile );
+    filesToUpdate.push( epub.package._filePath );
     filesToUpdate.forEach( ( fileToUpdate ) => {
             let fileContents = fs.readFileSync( fileToUpdate, 'utf8' );
             let newFileContents = fileContents.replace(
