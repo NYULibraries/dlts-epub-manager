@@ -74,6 +74,88 @@ describe( 'util', () => {
         ...INVALID_ISBN_STRINGS
     ];
 
+    // Some test authors to add from U. Michigan and U. Minnesota presses, when
+    // ready to make the necessary improvments to util.getAuthorSortKey:
+    //
+    // "Aimee Carrillo Rowe, Sheena Malhotra, and Kimberlee Pérez" : "Aimee Carrillo Rowe, Sheena Malhotra, and Kimberlee Pérez",
+    // "Amy Koritz and George J. Sanchez" : "Amy Koritz and George J. Sanchez",
+    // "Antonio T. Tiongson Jr." : "Antonio T. Tiongson Jr.",
+    // "Cohen, Daniel J.; Scheinfeldt, Tom" : "Cohen, Daniel J.; Scheinfeldt, Tom",
+    // "Cummings, Robert E.; Barton, Matt" : "Cummings, Robert E.; Barton, Matt",
+    // "Darling-Wolf, Fabienne" : "Darling-Wolf, Fabienne",
+    // "Herscher, Andrew" : "Herscher, Andrew",
+    // "Lee, Chin-Chuan" : "Lee, Chin-Chuan",
+    // "Susana Peña" : "Susana Peña",
+    // "Syvertsen, Trine; Enli, Gunn; Mjøs, Ole J.; Moe, Hallvard" : "Syvertsen, Trine; Enli, Gunn; Mjøs, Ole J.; Moe, Hallvard",
+    // "Turrow, Joseph; Tsui, Lokman" : "Turrow, Joseph; Tsui, Lokman",
+
+    const AUTHORS = {
+        "Jody David Armour" : "Armour, Jody David",
+        "Marshall W. Alcorn Jr." : "Alcorn, Marshall W.",
+        "Natalie Clifford Barney, John Spalding Gatton" : "Barney, Natalie Clifford",
+        "Ellen E. Berry" : "Berry, Ellen E.",
+        "Kathleen L. Barry" : "Barry, Kathleen L.",
+        "Gail R. Benjamin" : "Benjamin, Gail R.",
+        "Michael F. Bérubé" : "Bérubé, Michael F.",
+        "Keith Beattie" : "Beattie, Keith",
+        "John W. Chapman" : "Chapman, John W.",
+        "Charles B. Craver" : "Craver, Charles B.",
+        "Thomas Cushman, Stjepan Mestrovic" : "Cushman, Thomas",
+        "Ruth Colker" : "Colker, Ruth",
+        "Joseph Dan" : "Dan, Joseph",
+        "James Darsey" : "Darsey, James",
+        "Martha Grace Duncan" : "Duncan, Martha Grace",
+        "Seth Forman" : "Forman, Seth",
+        "Stephen M. Feldman" : "Feldman, Stephen M.",
+        "Steven Goldberg" : "Goldberg, Steven",
+        "Scott Douglas Gerber" : "Gerber, Scott Douglas",
+        "Bertha Harris" : "Harris, Bertha",
+        "Jay Harris" : "Harris, Jay",
+        "Anselm Haverkamp, H. R. Dodge" : "Haverkamp, Anselm",
+        "Moshe Y. Herczl" : "Herczl, Moshe Y.",
+        "Bill Ong Hing" : "Hing, Bill Ong",
+        "David K. Holbrook" : "Holbrook, David K.",
+        "Mark Hertzog" : "Hertzog, Mark",
+        "Robert L. Hayman Jr." : "Hayman, Robert L.",
+        "Paul Harris" : "Harris, Paul",
+        "Don Judson" : "Judson, Don",
+        "James B. Jacobs, Christopher Panarella, Jay Worthington" : "Jacobs, James B.",
+        "Peggy Fitzhugh Johnstone" : "Johnstone, Peggy Fitzhugh",
+        "Steve Kroll-Smith, H. Hugh Floyd" : "Kroll-Smith, Steve",
+        "David Kleinbard" : "Kleinbard, David",
+        "Steven T. Katz" : "Katz, Steven T.",
+        "Mark E. Kann" : "Kann, Mark E.",
+        "Amia Lieblich" : "Lieblich, Amia",
+        "Barbara Fass Leavy" : "Leavy, Barbara Fass",
+        "Nancy Levit" : "Levit, Nancy",
+        "Gary Minda" : "Minda, Gary",
+        "Jennifer L Manlowe" : "Manlowe, Jennifer L",
+        "Katherine Mayberry" : "Mayberry, Katherine",
+        "Diane Helene Miller" : "Miller, Diane Helene",
+        "Cary Nelson" : "Nelson, Cary",
+        "Pearl Oliner, Samuel P. Oliner, Lawrence Baron, Lawrence Blum" : "Oliner, Pearl",
+        "Bernard Jay Paris" : "Paris, Bernard Jay",
+        "Ronald Jeffrey Ringer" : "Ringer, Ronald Jeffrey",
+        "Robert Rogers" : "Rogers, Robert",
+        "Paula C Rust" : "Rust, Paula C",
+        "Stanley A Renshon" : "Renshon, Stanley A",
+        "Peter L. Rudnytsky, Antal Bokay, Patrizia Giampieri-Deutsch" : "Rudnytsky, Peter L.",
+        "Ronald Suresh Roberts" : "Roberts, Ronald Suresh",
+        "Daniel Rancour-Laferriere" : "Rancour-Laferriere, Daniel",
+        "Ben-Ami Scharfstein" : "Scharfstein, Ben-Ami",
+        "Joe Schall" : "Schall, Joe",
+        "Peter N. Stearns" : "Stearns, Peter N.",
+        "Robert Seltzer, Norman S. Cohen" : "Seltzer, Robert",
+        "Ryuzo Sato" : "Sato, Ryuzo",
+        "Ian Shapiro, Robert Adams" : "Shapiro, Ian",
+        "Michael Guy Thompson" : "Thompson, Michael Guy",
+        "Richard K Vedder, Lowell E. Gallaway" : "Vedder, Richard K",
+        "Mark G. Winiarski" : "Winiarski, Mark G.",
+        "Niobe Way" : "Way, Niobe",
+        "Sonia Livingstone, Julian Sefton-Green" : "Livingstone, Sonia",
+        "Henry Jenkins, Sangita Shresthova, Liana Gamber-Thompson, Neta Kligler-Vilenchik, Arely Zimmerman" : "Jenkins, Henry",
+    };
+
     const TITLES = {
         "" : "",
 
@@ -158,12 +240,19 @@ describe( 'util', () => {
         "The Truth About Freud's Technique" : "Truth About Freud's Technique",
     };
 
-        "This Gaming Life"                   : "This Gaming Life",
-        "This Time We Knew"                  : "This Time We Knew",
+    describe( '#getAuthorSortKey', () => {
+        it( 'should return correct author sort keys', () => {
+            Object.keys( AUTHORS ).forEach( originalAuthors => {
+                let expectedAuthors = AUTHORS[ originalAuthors ];
+                let got             = util.getAuthorSortKey( originalAuthors );
 
-        "TO BE AN AMERICAN"                  : "TO BE AN AMERICAN",
-        "Writing History in the Digital Age" : "Writing History in the Digital Age",
-    };
+                assert(
+                    got === expectedAuthors,
+                    `util.getAuthorSortKey( '${originalAuthors}' ) returned "${got}" ` +
+                    `instead of "${expectedAuthors}"` );
+            } );
+        } );
+    } );
 
     describe( '#getTitleSortKey', () => {
         it( 'should return correct title sort keys', () => {
