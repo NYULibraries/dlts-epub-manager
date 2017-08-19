@@ -6,7 +6,7 @@ let fs       = require( 'fs' );
 let path     = require( 'path' );
 let rimraf   = require( 'rimraf' );
 
-let Epub = require( '../../lib/epub' ).Epub;
+let Epub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
 let util = require( '../../lib/util' );
 
 let em;
