@@ -74,6 +74,49 @@ describe( 'util', () => {
         ...INVALID_ISBN_STRINGS
     ];
 
+    const TITLES = {
+        "" : "",
+
+        " A Heart Beating Hard" : "Heart Beating Hard",
+        " A Republic of Men"    : "Republic of Men",
+
+        "    A Heart Beating Hard" : "Heart Beating Hard",
+        "    A Republic of Men"    : "Republic of Men",
+
+        "An Inconvenient Truth"                  : "Inconvenient Truth",
+        "An Inconvenient Sequel: Truth to Power" : "Inconvenient Sequel: Truth to Power",
+
+        "    An Inconvenient Truth"                  : "Inconvenient Truth",
+        "    An Inconvenient Sequel: Truth to Power" : "Inconvenient Sequel: Truth to Power",
+
+        "Adventures of the Mind" : "Adventures of the Mind",
+        "American Cool"          : "American Cool",
+
+        "    The Class: Living and Learning in the Digital Age" :
+            "Class: Living and Learning in the Digital Age",
+        "    The Dilemma of Context"          : "Dilemma of Context",
+
+        "This Gaming Life"                   : "This Gaming Life",
+        "This Time We Knew"                  : "This Time We Knew",
+
+        "TO BE AN AMERICAN"                  : "TO BE AN AMERICAN",
+        "Writing History in the Digital Age" : "Writing History in the Digital Age",
+    };
+
+    describe( '#getTitleSortKey', () => {
+        it( 'should return correct title sort keys', () => {
+            Object.keys( TITLES ).forEach( originalTitle => {
+                let expectedTitle = TITLES[ originalTitle ];
+                let got           = util.getTitleSortKey( originalTitle );
+
+                assert(
+                    got === expectedTitle,
+                    `util.getTitleSortKey( '${originalTitle}' ) returned "${got}" ` +
+                        `instead of "${expectedTitle}"` );
+            } );
+        } );
+    } );
+
     describe( '#isValidIsbn13', () => {
 
         it( 'should return true for valid ISBN-13 strings', () => {
