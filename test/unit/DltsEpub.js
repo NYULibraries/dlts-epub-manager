@@ -57,8 +57,6 @@ describe( 'epub', () => {
             let expectedDltsMetadata = expectedData[ epubId ].dlts.metadata;
             let field;
 
-            dltsEpub.package.creators = [ 'TEST!' ];
-
             for ( field in expectedDltsMetadata ) {
                 if ( expectedDltsMetadata.hasOwnProperty( field ) ) {
                     let got      = dltsEpub.dlts.metadata[ field ];
