@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814713266</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814713262</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814713266</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BB</ProductForm>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">The Scar That Binds</TitleText>
+      <TitlePrefix>The</TitlePrefix>
+      <TitleWithoutPrefix>Scar That Binds</TitleWithoutPrefix>
+      <Subtitle>American Culture and the Vietnam War</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Keith Beattie</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>KEITH BEATTIE&lt;/b> is Director of the Contemporary Studies Program of the University of Queensland, Australia.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>240</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>HIS027070</SubjectCode>
+      <SubjectHeadingText>HISTORY / Military / Vietnam War</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>At the height of the Vietnam War, American society was so severely fragmented that it seemed that Americans may never again share common concerns. The media and other commentators represented the impact of the war through a variety of rhetorical devices, most notably the emotionally charged metaphor of "the wound that will not heal." References in various contexts to veterans' attempts to find a "voice," and to bring the war "home" were also common. Gradually, an assured and resilient American self-image and powerful impressions of cultural collectivity transformed the Vietnam war into a device for maintaining national unity. Today, the war is portrayed as a healed wound, the once "silenced" veteran has found a voice, and the American home has accommodated the effects of Vietnam. The scar has healed, binding Americans into a union that denies the divisions, diversities, and differences exposed by the war. In this way, America is now "over" Vietnam.&lt;/p> &lt;p>&lt;B>In The Scar That Binds&lt;/B>, Keith Beattie examines the central metaphors of the Vietnam war and their manifestations in American culture and life. Blending history and cultural criticism in a lucid style, this provocative book discusses an ideology of unity that has emerged through widespread rhetorical and cultural references to the war. A critique of this ideology reveals three dominant themes structured in a range of texts: the "wound," "the voice" of the Vietnam veteran, and "home." The analysis of each theme draws on a range of sources, including film, memoir, poetry, written and oral history, journalism, and political speeches. In contrast to studies concerned with representations of the war as a combat experience, &lt;B>The Scar That Binds&lt;/B> opens and examines an unexplored critical space through a focus on the effects of the Vietnam War on American culture. The result is a highly original and compelling interpretation of the development of an ideology of unity in our culture.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"Keith Beattie's impressive analysis of popular culture representations identifies the core metaphors around which popular memory of the war in Vietnam has coalesced&amp;#8212;the open wound, the silenced voice, and longing for home. . . . Beattie provides dramatic demonstration of the mechanisms and mediations within commercial culture that transform the hurts of history into stylized representations that hide the very past they claim to recover."&lt;/p>-George Lipsitz,author of &lt;i>Time Passages&lt;/i>;
+&lt;p>"Offers the broadest perspective to date on the social and cultural legacy of the Vietnam War."&lt;/p>-Andrew Ross,New York University;
+&lt;p>"Bold. . . . The greatest pleasure the book offers is the often thought-provoking close reading of both familiar and long-forgotten movies and fiction of the Vietnam War era."&lt;/p> -&lt;i>The Journal of American History&lt;/i>,;
+&lt;p>"Beattie shows us how ideological strategies operate and, thereby, prepares us to outflank them in the future. The importance of his contribution to the study of American culture can hardly be overstated."&lt;/p> -&lt;i>Contemporary Sociology&lt;/i>,;
+&lt;p>". . . brilliantly shows how the war lost abroad was subsequently won at home."&lt;/p> -&lt;I>American Quarterly&lt;/i>,</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19980501</PublicationDate>
+    <CopyrightYear>1998</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19980401</ExpectedShipDate>
+      <OnSaleDate>19980501</OnSaleDate>
+      <PackQuantity>30</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>75.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

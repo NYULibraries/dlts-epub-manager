@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814735282</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814735282</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814735282</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814735282</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Charles Dickens and the Image of Women</TitleText>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>David K. Holbrook</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>David Holbrook&lt;/b>, one of Britain's most prolific writers and educationists, was educated at Downing College, Cambridge, England, where he became Director of English Studies 1981 to 1988. He is now Emeritus Fellow of the college. Holbrook has worked in adult education, as a school teacher, and in university work, as a teacher and Director of Studies in English.&lt;/p> &lt;p>&lt;b>David Holbrook&lt;/b> has published many books: six books of verse; nine novels; seven books on education; and over twenty books of literary and musical criticism. He published two books with New York University Press, &lt;a href="authbook.msql?$string&amp;book=081473474X">&lt;/i>Images of Woman in Literature&lt;/i>&lt;/a> and &lt;a href="authbook.msql?$string&amp;book=081473474X">&lt;i>The Image of Woman&lt;/i>&lt;/a>.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>194</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>LIT004120</SubjectCode>
+      <SubjectHeadingText>LITERARY CRITICISM / European / English, Irish, Scottish, Welsh</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>How successful is Dickens in his portrayal of women? Dickens has been represented (along with William Blake and D.H. Lawrence) as one who championed the life of the emotions often associated with the "feminine." Yet some of his most important heroines are totally submissive and docile.&lt;/p> &lt;p>Dickens, of course, had to accept the conventions of his time. It is obvious, argues Holbrook, that Dickens idealized the father-daughter relationship, and indeed, any such relationship that was unsexual, like that of Tom Pinch and his sister&amp;#151;but why? Why, for example, is the image of woman so often associated with death, as in &lt;I>Great Expectations&lt;/I>? Dickens's own struggles over relationships with women have been documented, but much less has been said about the unconscious elements behind these problems.&lt;/p> &lt;p>Using recent developements in psychoanalytic object-relations theory, David Holbrook offers new insight into the way in which the novels of Dickens&amp;#151;particularly &lt;i>Bleak House&lt;/i>, &lt;i>Little Dorrit&lt;/i>, and &lt;i>Great Expectations&lt;/I>&amp;#151;both uphold emotional needs and at the same time represent the limits of his view of women and that of his time.&lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19950701</PublicationDate>
+    <CopyrightYear>1995</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19950601</ExpectedShipDate>
+      <OnSaleDate>19950701</OnSaleDate>
+      <PackQuantity>44</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814774694</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814774695</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814774694</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BB</ProductForm>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">The Psychological Assessment of Presidential Candidates</TitleText>
+      <TitlePrefix>The</TitlePrefix>
+      <TitleWithoutPrefix>Psychological Assessment of Presidential Candidates</TitleWithoutPrefix>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Stanley A Renshon</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Stanley Renshon&lt;/b> is Professor of Political Science at the City University of New York and developer and coordinator of the Interdisciplinary Program in the Psychology of Political Behavior at the CUNY Graduate School. He is the author and editor of several books, most recently the award-winning &lt;i>High Hopes: The Clinton Presidency and the Politics of Ambition&lt;/i>.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>376</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>POL000000</SubjectCode>
+      <SubjectHeadingText>POLITICAL SCIENCE / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Debate on public issues--and where candidates stand on them-- have traditionally represented the focal point of presidential campaigns. In recent decades, however, rather than asking where candidates stand on the issues, the public increasingly wants to know who they are. The issue of character has thus come to dominate presidential elections.&lt;/p> &lt;p>While there is increasing public awareness that the psychology, judgment, and leadership qualities of presidential candidates count, the basis on which these judgments should made remains unclear. Does it matter that Gary Hart changed his name or had an affair? Should Ed Muskie's loss of composure while defending his wife during a campaign speech, or Thomas Eagleton's hospitalization for depression, have counted against them?&lt;/p> &lt;p>Looking back over the past 25 years, Stanley Renshon, a political scientist and psychoanalyst, provides the first comprehensive accounting of how character has become an increasingly important issue in a presidential campaign. He traces two related but distinctive approaches to the issue of presidential character and psychology. The first concerns the mental health of our candidates and presidents. Are they emotionally and personally stable? Is their temperament suitable for the presidency? The second concerns character. Is the candidate honest? Does he possess the necessary judgment and motivation to deal with the tremendous responsibilities and pressures of the office?&lt;/p> &lt;p>Drawing on his clinical and political science training, Renshon has devised a theory which will allow the public to better evaluate presidential candidates. Why are honesty, integrity, and personal ideals so important in judging candidates? Is personal and political ambition necessarily a bad trait? Do extra-marital affairs really matter? Finally, and most importantly, how can the public tell whether a candidate's leadership will be enhanced or impeded by aspects of his personality?&lt;p>With this sweeping volume, Stanley Renshon has provided us with the most comprehensive account to date of how the public judges, and should judge, our future presidents.&lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19960501</PublicationDate>
+    <CopyrightYear>1996</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19960401</ExpectedShipDate>
+      <OnSaleDate>19960501</OnSaleDate>
+      <PackQuantity>16</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>75.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>
