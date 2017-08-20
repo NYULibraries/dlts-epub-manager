@@ -9,10 +9,10 @@ let fs = require( 'fs' ),
 
     DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
 
-const EXPECTED_DIR       = __dirname + '/expected';
+const EXPECTED_DIR       = __dirname + '/expected/epubs';
 const EXPECTED_DATA_FILE = 'expected-data.json';
 
-const FIXTURE_DIR = __dirname + '/fixture';
+const FIXTURE_DIR = __dirname + '/fixture/epubs';
 
 describe( 'epub', () => {
     let expectedData = {};
