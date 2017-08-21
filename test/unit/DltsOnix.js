@@ -35,7 +35,7 @@ describe( 'onix', () => {
         Object.keys( expectedData ).forEach( ( epubId ) => {
 
             let dltsOnix             = new DltsOnix( `${FIXTURE_DIR}/${epubId}_onix.xml` );
-            let expectedDltsMetadata = expectedData[ epubId ].dlts.metadata;
+            let expectedDltsMetadata = expectedData[ epubId ];
             let field;
 
             for ( field in expectedDltsMetadata ) {
