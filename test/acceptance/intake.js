@@ -26,6 +26,14 @@ describe( 'intake command', function() {
     this.timeout( 60000 );
 
     before( ( ) => {
+        try {
+            rimraf.sync( TMP_METADATA + '/*' );
+        } catch ( error ) {
+            vorpal.log( `ERROR clearing ${TMP_METADATA}: ${error}` );
+
+            process.exit(1);
+        }
+
         let loadSucceeded = vorpal.execSync( `load ${CONF}`, { fatal : true } );
 
         assert( loadSucceeded === true,
@@ -97,14 +105,6 @@ describe( 'intake command', function() {
                 compareContent : true,
                 excludeFilter  : '.commit-empty-directory',
             };
-
-        try {
-            rimraf.sync( metadataDir + '/*' );
-        } catch ( error ) {
-            vorpal.log( `ERROR clearing ${metadataDir}: ${error}` );
-
-            process.exit(1);
-        }
 
         vorpal.parse( [ null, null, 'intake', 'add' ] );
 
