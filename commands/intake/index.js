@@ -100,7 +100,7 @@ module.exports = function( vorpal ){
                     vorpal.log( `Intake completed for ${epubIdList.length} EPUBs:\n` + epubsCompleted.join( '\n' ) );
 
                     if ( callback ) { callback(); }
-                    return false;
+                    return true;
                 } catch ( error ) {
                     vorpal.log( 'ERROR in intake of EPUB:\n' +
                                 error );
