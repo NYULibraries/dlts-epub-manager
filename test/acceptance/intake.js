@@ -45,7 +45,7 @@ describe( 'intake command', function() {
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
                 vorpal.em.conf.intakeOutputDir === TMP_EPUBS,
-            `intakeOutputDir is ${TMP_EPUBS}`
+            `intakeOutputDir is not ${TMP_EPUBS}`
         );
 
         assert(
@@ -53,7 +53,7 @@ describe( 'intake command', function() {
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
                 vorpal.em.conf.metadataDir === TMP_METADATA,
-            `metadataDir is ${TMP_METADATA}`
+            `metadataDir is not ${TMP_METADATA}`
         );
     } );
 
@@ -86,7 +86,7 @@ describe( 'intake command', function() {
         let thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
         assert(
             _.isEqual( thumbnailsGot, thumbnailsExpected ),
-            'All cover image thumbnails created'
+            'Not all cover image thumbnails were created'
         );
 
         epubsComparison = dircompare.compareSync(
@@ -113,7 +113,7 @@ describe( 'intake command', function() {
             compareOptions
         );
 
-        assert( metadataComparison.same === true, `${metadataDir} matched ${metadataExpectedDir}` );
+        assert( metadataComparison.same === true, `${metadataDir} does not match ${metadataExpectedDir}` );
     } );
 
 } );
