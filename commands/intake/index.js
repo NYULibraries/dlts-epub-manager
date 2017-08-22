@@ -6,8 +6,8 @@ let fs       = require( 'fs' );
 let path     = require( 'path' );
 let rimraf   = require( 'rimraf' );
 
-let Epub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
-let util = require( '../../lib/util' );
+let DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
+let util     = require( '../../lib/util' );
 
 let em;
 
@@ -104,7 +104,7 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir ) {
         try {
             unzipEpub( intakeEpubFile, outputEpubDir );
 
-            let epub = new Epub( outputEpubDir );
+            let epub = new DltsEpub( outputEpubDir );
             updateReferencesToCoverHtmlFile( epub );
             renameCoverHtmlFile( outputEpubDir );
             createCoverImageThumbnail(
