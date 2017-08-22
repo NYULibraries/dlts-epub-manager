@@ -26,14 +26,6 @@ describe( 'intake command', function() {
     this.timeout( 60000 );
 
     before( ( ) => {
-        try {
-            rimraf.sync( TMP_METADATA + '/*' );
-        } catch ( error ) {
-            vorpal.log( `ERROR clearing ${TMP_METADATA}: ${error}` );
-
-            process.exit(1);
-        }
-
         let loadSucceeded = vorpal.execSync( `load ${CONF}`, { fatal : true } );
 
         assert( loadSucceeded === true,
@@ -57,10 +49,24 @@ describe( 'intake command', function() {
         );
     } );
 
-    it( 'should correctly intake all EPUBs and generate correct Readium versions', function() {
-        var epubsComparison,
+    it( 'should correctly intake all EPUBs and generate correct Readium versions and metadata files', function() {
+        // Normally would like to keep to a single assert per test, but making an
+        // exception here because the test intake is such an expensive operation,
+        // would like to avoid repeating it unecessarily.
+
+        let epubsComparison,
+
             intakeOutputDir   = vorpal.em.conf.intakeOutputDir,
             intakeExpectedDir = __dirname + '/expected/epubs-from-intake',
+
+            metadataDir = vorpal.em.conf.metadataDir,
+            metadataComparison,
+            metadataExpectedDir = __dirname + '/expected/metadata-from-intake',
+
+            // For now, just comparing thumbnail filenames since binary diffs will always fail.
+            thumbnailsExpected = glob.sync( '**/*-th.jpg', {cwd : intakeExpectedDir} ),
+            thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} ),
+
             compareOptions = {
                 compareContent : true,
                 // Excluding *-th.jpg because the thumbnails look identical, but
@@ -76,14 +82,16 @@ describe( 'intake command', function() {
             process.exit(1);
         }
 
+        try {
+            rimraf.sync( TMP_METADATA + '/*' );
+        } catch ( error ) {
+            vorpal.log( `ERROR clearing ${TMP_METADATA}: ${error}` );
+
+            process.exit(1);
+        }
+
         vorpal.parse( [ null, null, 'intake', 'add' ] );
 
-        // Normally trying to keep to a single assert per test, but making an
-        // exception here.
-
-        // For now, just comparing thumbnail filenames since binary diffs will always fail.
-        let thumbnailsExpected = glob.sync( '**/*-th.jpg', {cwd : intakeExpectedDir} );
-        let thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
         assert(
             _.isEqual( thumbnailsGot, thumbnailsExpected ),
             'Not all cover image thumbnails were created'
@@ -95,18 +103,6 @@ describe( 'intake command', function() {
         );
 
         assert( epubsComparison.same === true, `${intakeOutputDir} matched ${intakeExpectedDir}` );
-    } );
-
-    it( 'should correctly intake all EPUBs and generate correct metadata files', function() {
-        var metadataComparison,
-            metadataDir = vorpal.em.conf.metadataDir,
-            metadataExpectedDir = __dirname + '/expected/metadata-from-intake',
-            compareOptions = {
-                compareContent : true,
-                excludeFilter  : '.commit-empty-directory',
-            };
-
-        vorpal.parse( [ null, null, 'intake', 'add' ] );
 
         metadataComparison = dircompare.compareSync(
             metadataDir, metadataExpectedDir,
