@@ -43,6 +43,13 @@ describe( 'onix', () => {
                     let got      = dltsOnix.dlts.metadata[ field ];
                     let expected = expectedDltsMetadata[ field ];
 
+                    // expectedDltsMetadata was generated from Solr index.  Some of the
+                    // values have leading or trailing whitespace.  These should
+                    // probably be cleaned up.  For now, just trim().
+                    if ( typeof expected === 'string' ) {
+                        expected = expected.trim();
+                    }
+
                     assert(
                         _.isEqual( got, expected ) === true,
                         `${epubId}: got field "${field}" value of "${got}" but was expecting "${expected}"`
