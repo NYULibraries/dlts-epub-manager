@@ -7,6 +7,7 @@ let path     = require( 'path' );
 let rimraf   = require( 'rimraf' );
 
 let DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
+let DltsOnix = require( '../../lib/onix/DltsOnix' ).DltsOnix;
 let util     = require( '../../lib/util' );
 
 let em;
@@ -56,6 +57,29 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
+                let metadataDir = em.conf.metadataDir;
+                if ( ! metadataDir ) {
+                    vorpal.log( util.ERROR_CONF_MISSING_METADATA_DIR );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
+                if ( ! fs.existsSync( metadataDir ) ) {
+                    vorpal.log( `ERROR: metadataDir "${metadataDir}" does not exist.`);
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
+                stats = fs.statSync( metadataDir );
+                if ( ! stats.isDirectory() ) {
+                    vorpal.log( `ERROR: metadataDir "${metadataDir}" is not a directory.`);
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
                 if ( ! em.intakeEpubList ) {
                     vorpal.log( util.ERROR_INTAKE_EPUB_LIST_NOT_LOADED );
 
@@ -69,7 +93,8 @@ module.exports = function( vorpal ){
                     let epubsCompleted = intakeEpubs(
                         em.conf.intakeEpubDir,
                         epubIdList,
-                        em.conf.intakeOutputDir
+                        em.conf.intakeOutputDir,
+                        metadataDir
                     );
 
                     vorpal.log( `Intake completed for ${epubIdList.size} EPUBs:\n` + epubsCompleted.join( '\n' ) );
@@ -88,7 +113,7 @@ module.exports = function( vorpal ){
 
 };
 
-function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir ) {
+function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) {
     try {
         rimraf.sync( outputEpubsDir + '/*' );
     } catch ( error ) {
@@ -111,6 +136,11 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir ) {
                 `${outputEpubDir}/ops/images/${epubId}.jpg`,
                 `${outputEpubDir}/ops/images/${epubId}-th.jpg`
             );
+
+            let onixFile     = `${intakeEpubsDir}/${epubId}/data/${epubId}_onix.xml`;
+            let onix         = new DltsOnix( onixFile );
+            let metadataFile = `${metadataDir}/${epubId}/intake-descriptive.json`;
+            createMetadataFile( epub, onix, metadataFile );
         } catch( e ) {
             throw( e );
         }
@@ -177,3 +207,37 @@ function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
         throw( e );
     }
 }
+
+function createMetadataFile( epub, onix, metadataFile ) {
+        let epubMetadata = epub.dlts.metadata;
+        let onixMetadata = onix.dlts.metadata;
+
+        let author = onixMetadata.author[ 0 ] || epub.author;
+        let title  = onixMetadata.title || epubMetadata.title;
+        let metadata = {
+            author           : author,
+            author_sort      : util.getAuthorSortKey( author ),
+            coverHref        : epubMetadata.coverHref,
+            date             : epubMetadata.date,
+            description      : onixMetadata.description,
+            description_html : onixMetadata.description_html,
+            format           : epubMetadata.format,
+            handle           : '[TBD]',
+            identifier       : epubMetadata.identifier,
+            language         : epubMetadata.language,
+            packageUrl       : epubMetadata.packageUrl,
+            publisher        : epubMetadata.publisher,
+            rights           : epubMetadata.rights,
+            rootUrl          : epubMetadata.rootUrl,
+            subject          : onixMetadata.subject,
+            subtitle         : onixMetadata.subtitle,
+            thumbHref        : epubMetadata.thumbHref,
+            title            : title,
+            title_sort       : util.getTitleSortKey( title ),
+            type             : epubMetadata.type,
+        };
+
+        let metadataDirForEpub = path.dirname( metadataFile );
+        fs.mkdirSync( metadataDirForEpub, 0o755 );
+        fs.writeFileSync( metadataFile, util.jsonStableStringify( metadata ), 'utf8' );
+    }
