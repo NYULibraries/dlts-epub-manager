@@ -18,7 +18,6 @@
     "glob": "https://registry.npmjs.org/glob/-/glob-3.2.3.tgz",
     "json-stable-stringify": "^1.0.1",
     "lodash": "^4.15.0",
-    "onix": "^1.0.3",
     "pixl-xml": "^1.0.13",
     "rimraf": "^2.5.2",
     "striptags": "^3.0.1",

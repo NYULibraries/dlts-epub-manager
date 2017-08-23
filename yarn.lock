@@ -307,10 +307,6 @@ jsonify@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
 
-lodash-node@~2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/lodash-node/-/lodash-node-2.4.1.tgz#ea82f7b100c733d1a42af76801e506105e2a80ec"
-
 lodash._baseassign@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/lodash._baseassign/-/lodash._baseassign-3.2.0.tgz#8c38a099500f215ad09e59f1722fd0c52bfe0a4e"
@@ -358,7 +354,7 @@ lodash.keys@^3.0.0:
     lodash.isarguments "^3.0.0"
     lodash.isarray "^3.0.0"
 
-lodash@^3.3.1, lodash@^3.9.3:
+lodash@^3.3.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
@@ -469,14 +465,6 @@ once@^1.3.0:
 onetime@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
-
-onix@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/onix/-/onix-1.0.3.tgz#20a72652f2d83f269931cdda5fbb02cf4de09e5f"
-  dependencies:
-    lodash "^3.9.3"
-    subjects-utils "0.0.1"
-    xml-schema "2.2.0"
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -591,10 +579,6 @@ striptags@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/striptags/-/striptags-3.0.1.tgz#48f0d6932549c47bb3582920c87527cf49a160c1"
 
-subjects-utils@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/subjects-utils/-/subjects-utils-0.0.1.tgz#601b0ddb99a7464ca19d16cce0b0dcabdbd7a032"
-
 supports-color@3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-3.1.2.tgz#72a262894d9d408b956ca05ff37b2ed8a6e2a2d5"
@@ -669,23 +653,3 @@ wrap-ansi@^2.0.0:
 wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
-
-xml-parser@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/xml-parser/-/xml-parser-1.2.1.tgz#c31f4c34f2975db82ad013222120592736156fcd"
-  dependencies:
-    debug "^2.2.0"
-
-xml-schema@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/xml-schema/-/xml-schema-2.2.0.tgz#5a1eb37a470d00453bd7dedb1e7d4a48b98d26e0"
-  dependencies:
-    lodash "^3.9.3"
-    xml-parser "1.2.1"
-    xmlbuilder "2.4.5"
-
-xmlbuilder@2.4.5:
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-2.4.5.tgz#0c1c27c8904162cc7f2572ab51cc2ac466007102"
-  dependencies:
-    lodash-node "~2.4.1"
