@@ -222,7 +222,7 @@ function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
     }
 }
 
-function createIntakeDescriptiveMetadataFile( epub, onix, handle, metadataFile ) {
+function createIntakeDescriptiveMetadataFile( epub, onix, handle, outputFile ) {
         let epubMetadata = epub.dlts.metadata;
         let onixMetadata = onix.dlts.metadata;
 
@@ -252,7 +252,7 @@ function createIntakeDescriptiveMetadataFile( epub, onix, handle, metadataFile )
             type             : epubMetadata.type,
         };
 
-        let metadataDirForEpub = path.dirname( metadataFile );
+        let metadataDirForEpub = path.dirname( outputFile );
         fs.mkdirSync( metadataDirForEpub, 0o755 );
-        fs.writeFileSync( metadataFile, util.jsonStableStringify( metadata ), 'utf8' );
+        fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
 }
