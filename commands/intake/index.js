@@ -150,7 +150,9 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
             let onixFile     = `${intakeEpubDir}/data/${epubId}_onix.xml`;
             let onix         = new DltsOnix( onixFile );
 
-            let metadataFile = `${metadataDir}/${epubId}/intake-descriptive.json`;
+            createIntakeDescriptiveMetadataFile(
+                epub, onix, handle, `${metadataDir}/${epubId}/intake-descriptive.json`
+            );
 
             createIntakeDescriptiveMetadataFile( epub, onix, handle, metadataFile );
         } catch( e ) {
