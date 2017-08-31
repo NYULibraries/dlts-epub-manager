@@ -255,4 +255,4 @@ function createIntakeDescriptiveMetadataFile( epub, onix, handle, metadataFile )
         let metadataDirForEpub = path.dirname( metadataFile );
         fs.mkdirSync( metadataDirForEpub, 0o755 );
         fs.writeFileSync( metadataFile, util.jsonStableStringify( metadata ), 'utf8' );
-    }
+}
