@@ -127,7 +127,8 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
     let epubsCompleted = [];
 
     epubIdList.forEach( ( epubId ) => {
-        let intakeEpubFile = `${intakeEpubsDir}/${epubId}/data/${epubId}.epub`;
+        let intakeEpubDir  = `${intakeEpubsDir}/${epubId}`;
+        let intakeEpubFile = `${intakeEpubDir}/data/${epubId}.epub`;
         let outputEpubDir = `${outputEpubsDir}/${epubId}`;
 
         try {
@@ -143,10 +144,10 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
 
             // This handle stuff needs to be redone.  See comment in load command file in
             // getMetadataForEpub() function.
-            let handleFile   = `${intakeEpubsDir}/${epubId}/handle`;
+            let handleFile   = `${intakeEpubDir}/handle`;
             let handle       = fs.readFileSync( handleFile, 'utf8' ).trim();
 
-            let onixFile     = `${intakeEpubsDir}/${epubId}/data/${epubId}_onix.xml`;
+            let onixFile     = `${intakeEpubDir}/data/${epubId}_onix.xml`;
             let onix         = new DltsOnix( onixFile );
 
             let metadataFile = `${metadataDir}/${epubId}/intake-descriptive.json`;
