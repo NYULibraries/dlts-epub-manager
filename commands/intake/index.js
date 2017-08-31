@@ -151,7 +151,7 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
 
             let metadataFile = `${metadataDir}/${epubId}/intake-descriptive.json`;
 
-            createMetadataFile( epub, onix, handle, metadataFile );
+            createIntakeDescriptiveMetadataFile( epub, onix, handle, metadataFile );
         } catch( e ) {
             throw( e );
         }
@@ -219,7 +219,7 @@ function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
     }
 }
 
-function createMetadataFile( epub, onix, handle, metadataFile ) {
+function createIntakeDescriptiveMetadataFile( epub, onix, handle, metadataFile ) {
         let epubMetadata = epub.dlts.metadata;
         let onixMetadata = onix.dlts.metadata;
 
