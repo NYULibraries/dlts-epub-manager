@@ -150,8 +150,11 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
             let onixFile     = `${intakeEpubDir}/data/${epubId}_onix.xml`;
             let onix         = new DltsOnix( onixFile );
 
+            let metadataDirForEpub = `${metadataDir}/${epubId}`;
+            fs.mkdirSync( metadataDirForEpub, 0o755 );
+
             createIntakeDescriptiveMetadataFile(
-                epub, onix, handle, `${metadataDir}/${epubId}/intake-descriptive.json`
+                epub, onix, handle, `${metadataDirForEpub}/intake-descriptive.json`
             );
 
             createIntakeDescriptiveMetadataFile( epub, onix, handle, metadataFile );
@@ -252,7 +255,5 @@ function createIntakeDescriptiveMetadataFile( epub, onix, handle, outputFile ) {
             type             : epubMetadata.type,
         };
 
-        let metadataDirForEpub = path.dirname( outputFile );
-        fs.mkdirSync( metadataDirForEpub, 0o755 );
         fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
 }
