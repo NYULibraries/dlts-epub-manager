@@ -228,6 +228,7 @@ function createMetadataFile( epub, onix, handle, metadataFile ) {
         let metadata = {
             author           : author,
             author_sort      : util.getAuthorSortKey( author ),
+            coverage         : epubMetadata.coverage,
             coverHref        : epubMetadata.coverHref,
             date             : epubMetadata.date,
             description      : onixMetadata.description,
