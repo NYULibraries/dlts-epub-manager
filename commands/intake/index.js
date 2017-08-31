@@ -15,6 +15,10 @@ let em;
 const OLD_COVER_PAGE_FILE_NAME = 'cover.html';
 const NEW_COVER_PAGE_FILE_NAME = 'cover.xhtml';
 
+// This handle stuff needs to be redone.  See comment in load command file in
+// getMetadataForEpub() function.
+const HANDLE_SERVER = 'http://hdl.handle.net';
+
 module.exports = function( vorpal ){
     em = vorpal.em;
 
@@ -137,10 +141,17 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
                 `${outputEpubDir}/ops/images/${epubId}-th.jpg`
             );
 
+            // This handle stuff needs to be redone.  See comment in load command file in
+            // getMetadataForEpub() function.
+            let handleFile   = `${intakeEpubsDir}/${epubId}/handle`;
+            let handle       = fs.readFileSync( handleFile, 'utf8' ).trim();
+
             let onixFile     = `${intakeEpubsDir}/${epubId}/data/${epubId}_onix.xml`;
             let onix         = new DltsOnix( onixFile );
+
             let metadataFile = `${metadataDir}/${epubId}/intake-descriptive.json`;
-            createMetadataFile( epub, onix, metadataFile );
+
+            createMetadataFile( epub, onix, handle, metadataFile );
         } catch( e ) {
             throw( e );
         }
@@ -208,7 +219,7 @@ function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
     }
 }
 
-function createMetadataFile( epub, onix, metadataFile ) {
+function createMetadataFile( epub, onix, handle, metadataFile ) {
         let epubMetadata = epub.dlts.metadata;
         let onixMetadata = onix.dlts.metadata;
 
@@ -222,7 +233,7 @@ function createMetadataFile( epub, onix, metadataFile ) {
             description      : onixMetadata.description,
             description_html : onixMetadata.description_html,
             format           : epubMetadata.format,
-            handle           : '[TBD]',
+            handle           : `${HANDLE_SERVER}/${handle}`,
             identifier       : epubMetadata.identifier,
             language         : epubMetadata.language,
             packageUrl       : epubMetadata.packageUrl,
