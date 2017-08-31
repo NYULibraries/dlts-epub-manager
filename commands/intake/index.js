@@ -150,6 +150,15 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
             let onixFile     = `${intakeEpubDir}/data/${epubId}_onix.xml`;
             let onix         = new DltsOnix( onixFile );
 
+            let extraMetadataFile = `${intakeEpubDir}/data/extra-metadata.json`;
+            // Not using require() because that seems to require an absolute path.
+            // require( `./${extraMetadataFile}}` ) doesn't work whereas
+            // require( require( 'process' ).cwd() + `/${extraMetadataFile}` does.
+            let extraMetadata = JSON.parse(
+                fs.readFileSync( `./${extraMetadataFile}`, 'utf8' )
+            );
+            extraMetadata.handle = handle;
+
             let metadataDirForEpub = `${metadataDir}/${epubId}`;
             fs.mkdirSync( metadataDirForEpub, 0o755 );
 
@@ -157,7 +166,9 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
                 epub, onix, handle, `${metadataDirForEpub}/intake-descriptive.json`
             );
 
-            createIntakeDescriptiveMetadataFile( epub, onix, handle, metadataFile );
+            createDltsAdministrativeMetadataFile(
+                extraMetadata, `${metadataDirForEpub}/dlts-administrative.json`
+            );
         } catch( e ) {
             throw( e );
         }
@@ -256,4 +267,8 @@ function createIntakeDescriptiveMetadataFile( epub, onix, handle, outputFile ) {
         };
 
         fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
+}
+
+function createDltsAdministrativeMetadataFile( metadata, outputFile ) {
+    fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
 }
