@@ -30,14 +30,14 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubs = vorpal.em.metadata.getAll();
+                let epubMetadataAll = vorpal.em.metadata.getAll();
 
                 try {
 
-                    let handlesAdded = addHandles( epubs );
+                    let handlesAdded = addHandles( epubMetadataAll );
 
                     vorpal.log(
-                        `Added ${epubs.size} handles to handles server:\n` + handlesAdded.join( '\n' )
+                        `Added ${epubMetadataAll.size} handles to handles server:\n` + handlesAdded.join( '\n' )
                     );
 
                     if ( callback ) { callback(); }
@@ -76,14 +76,14 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubs = vorpal.em.metadata.getAll();
+                let epubMetadataAll = vorpal.em.metadata.getAll();
 
                 try {
 
-                    let handlesDeleted = deleteHandles( epubs );
+                    let handlesDeleted = deleteHandles( epubMetadataAll );
 
                     vorpal.log(
-                        `Deleted ${epubs.size} handles from handles server:\n` + handlesDeleted.join( '\n' )
+                        `Deleted ${epubMetadataAll.size} handles from handles server:\n` + handlesDeleted.join( '\n' )
                     );
 
                     if ( callback ) { callback(); }
@@ -107,10 +107,10 @@ function getAuthorizationHeader() {
                           ).toString( 'base64' );
 }
 
-function addHandles( epubs ) {
+function addHandles( epubMetadataAll ) {
     let handlesAdded = [];
 
-    epubs.forEach( ( epub ) => {
+    epubMetadataAll.forEach( ( epubMetadata ) => {
             let bindingHostnameFor = {
                 'oa-books'        : 'openaccessbooks.nyupress.org',
                 'connected-youth' : 'connectedyouth.nyupress.org',
@@ -118,12 +118,12 @@ function addHandles( epubs ) {
 
             let body = `<?xml version="1.0" encoding="UTF-8"?>
     <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handle">
-        <hs:binding>http://${bindingHostnameFor[ epub.collection_code ]}/details/${epub.identifier}</hs:binding>
+        <hs:binding>http://${bindingHostnameFor[ epubMetadata.collection_code ]}/details/${epubMetadata.identifier}</hs:binding>
         <hs:description></hs:description>
     </hs:info>`;
 
             let url = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
-                      epub.handle_local_name_and_prefix;
+                      epubMetadata.handle_local_name_and_prefix;
             let authorization = getAuthorizationHeader( em.conf );
 
             let response = em.request(
@@ -144,7 +144,7 @@ function addHandles( epubs ) {
             }
 
             handlesAdded.push(
-                `${epub.identifier}: ${epub.handle_local_name_and_prefix}`
+                `${epubMetadata.identifier}: ${epubMetadata.handle_local_name_and_prefix}`
             );
         }
     );
@@ -152,15 +152,15 @@ function addHandles( epubs ) {
     return handlesAdded;
 }
 
-function deleteHandles( epubs ) {
+function deleteHandles( epubMetadataAll ) {
     let handlesDeleted = [];
 
-    epubs.forEach( ( epub ) => {
+    epubMetadataAll.forEach( ( epubMetatdata ) => {
         try {
-            deleteHandle( epub );
+            deleteHandle( epubMetatdata );
 
             handlesDeleted.push(
-                `${epub.identifier}: ${epub.handle_local_name_and_prefix}`
+                `${epubMetatdata.identifier}: ${epubMetatdata.handle_local_name_and_prefix}`
             );
         } catch ( error ) {
             throw error;
@@ -170,9 +170,9 @@ function deleteHandles( epubs ) {
     return handlesDeleted;
 }
 
-function deleteHandle( epub ) {
+function deleteHandle( epubMetadata ) {
     let requestUrl = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
-                     epub.handle_local_name_and_prefix;
+                     epubMetadata.handle_local_name_and_prefix;
 
     let authorization = getAuthorizationHeader();
 

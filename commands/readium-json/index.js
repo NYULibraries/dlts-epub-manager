@@ -32,7 +32,7 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubs = vorpal.em.metadata.getAll();
+                let epubMetadataAll = vorpal.em.metadata.getAll();
 
                 let readiumJsonFile;
                 try {
@@ -50,14 +50,14 @@ module.exports = function( vorpal ){
                 // the user the option of editing the file during the session.
                 let readiumJson = util.getJsonFromFile( readiumJsonFile );
 
-                readiumJson = getReadiumJsonEpubsAdded( readiumJson, epubs );
+                readiumJson = getReadiumJsonEpubsAdded( readiumJson, epubMetadataAll );
 
                 let readiumJsonString = util.jsonStableStringify( readiumJson );
 
                 fs.writeFileSync( readiumJsonFile, readiumJsonString );
 
                 vorpal.log( `Added to Readium JSON file ${readiumJsonFile} ` +
-                            `for conf "${vorpal.em.conf.name}": ${epubs.size } EPUBs.` );
+                            `for conf "${vorpal.em.conf.name}": ${epubMetadataAll.size } EPUBs.` );
 
                 if ( callback ) { callback(); }
                 return true;
@@ -87,7 +87,7 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubs = vorpal.em.metadata.getAll();
+                let epubMetadataAll = vorpal.em.metadata.getAll();
 
                 let readiumJsonFile;
                 try {
@@ -105,14 +105,14 @@ module.exports = function( vorpal ){
                 // the user the option of editing the file during the session.
                 let readiumJson = util.getJsonFromFile( readiumJsonFile );
 
-                readiumJson = getReadiumJsonEpubsDeleted( readiumJson, epubs );
+                readiumJson = getReadiumJsonEpubsDeleted( readiumJson, epubMetadataAll );
 
                 let readiumJsonString = util.jsonStableStringify( readiumJson );
 
                 fs.writeFileSync( readiumJsonFile, readiumJsonString );
 
                 vorpal.log( `Deleted from Readium JSON file ${readiumJsonFile} ` +
-                            `for conf "${vorpal.em.conf.name}": ${epubs.size } EPUBs.` );
+                            `for conf "${vorpal.em.conf.name}": ${epubMetadataAll.size } EPUBs.` );
 
                 if ( callback ) { callback(); }
                 return true;
@@ -238,13 +238,13 @@ function getReadiumJsonFile( conf ) {
     }
 }
 
-function getReadiumJsonEpubsDeleted( readiumJson, epubs ) {
+function getReadiumJsonEpubsDeleted( readiumJson, epubMetadataAll ) {
     // Final JSON to be returned.
     let prunedJson = [];
 
     let deletedEpubIds = {};
-    epubs.forEach( ( epub ) => {
-        deletedEpubIds[ epub.identifier ] = '1'; }
+    epubMetadataAll.forEach( ( epubMetadata ) => {
+        deletedEpubIds[ epubMetadata.identifier ] = '1'; }
     );
 
     readiumJson.forEach( ( entry ) => {
@@ -263,7 +263,7 @@ function getReadiumJsonEpubsDeleted( readiumJson, epubs ) {
     return prunedJson;
  }
 
-function getReadiumJsonEpubsAdded( readiumJson, epubs ) {
+function getReadiumJsonEpubsAdded( readiumJson, epubMetadataAll ) {
     // Final JSON to be returned.
     let mergedJson = [];
 
@@ -271,9 +271,9 @@ function getReadiumJsonEpubsAdded( readiumJson, epubs ) {
     // replaced.
     let addedEpubIds = {};
     // Add JSON for all EPUBs coming in.
-    epubs.forEach( ( epub ) => {
-        mergedJson.push( getReadiumJsonForEpub( epub ) );
-        addedEpubIds[ epub.identifier ] = '1'; }
+    epubMetadataAll.forEach( ( epubMetadata ) => {
+        mergedJson.push( getReadiumJsonForEpub( epubMetadata ) );
+        addedEpubIds[ epubMetadata.identifier ] = '1'; }
     );
 
     // Add JSON for any existing EPUB entries that are not being replaced by
@@ -294,37 +294,37 @@ function getReadiumJsonEpubsAdded( readiumJson, epubs ) {
     return sortByAuthorThenByTitle( mergedJson );
 }
 
-function getReadiumJsonForEpub( epub ) {
+function getReadiumJsonForEpub( epubMetadata ) {
     return {
-        'author'           : epub.author,
-        'author_sort'      : epub.author_sort,
-        'coverHref'        : epub.coverHref,
-        'coverage'         : epub.coverage,
-        'date'             : epub.date,
-        'description'      : epub.description,
-        'description_html' : epub.description_html,
-        'format'           : epub.format,
-        'handle'           : epub.handle,
-        'identifier'       : epub.identifier,
-        'language'         : epub.language,
-        'packageUrl'       : epub.packageUrl,
-        'publisher'        : epub.publisher,
-        'rights'           : epub.rights,
-        'rootUrl'          : epub.rootUrl,
-        'subject'          : epub.subject,
-        'subtitle'         : epub.subtitle,
-        'thumbHref'        : epub.thumbHref,
-        'title'            : epub.title,
-        'title_sort'       : epub.title_sort,
-        'type'             : epub.type,
+        'author'           : epubMetadata.author,
+        'author_sort'      : epubMetadata.author_sort,
+        'coverHref'        : epubMetadata.coverHref,
+        'coverage'         : epubMetadata.coverage,
+        'date'             : epubMetadata.date,
+        'description'      : epubMetadata.description,
+        'description_html' : epubMetadata.description_html,
+        'format'           : epubMetadata.format,
+        'handle'           : epubMetadata.handle,
+        'identifier'       : epubMetadata.identifier,
+        'language'         : epubMetadata.language,
+        'packageUrl'       : epubMetadata.packageUrl,
+        'publisher'        : epubMetadata.publisher,
+        'rights'           : epubMetadata.rights,
+        'rootUrl'          : epubMetadata.rootUrl,
+        'subject'          : epubMetadata.subject,
+        'subtitle'         : epubMetadata.subtitle,
+        'thumbHref'        : epubMetadata.thumbHref,
+        'title'            : epubMetadata.title,
+        'title_sort'       : epubMetadata.title_sort,
+        'type'             : epubMetadata.type,
     };
 }
 
 function sortByAuthorThenByTitle( json ) {
     let sortedByAuthorThenByTitle = [];
 
-    json.forEach( ( epub ) => {
-        sortedByAuthorThenByTitle.push( epub );
+    json.forEach( ( item ) => {
+        sortedByAuthorThenByTitle.push( item );
     } );
 
 

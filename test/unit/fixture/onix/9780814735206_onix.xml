@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814735206</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814735207</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814735206</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814735206</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Christianity and the Holocaust of Hungarian Jewry</TitleText>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Moshe Y. Herczl</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Moshe Y. Herczl&lt;/b> was born in Hungary in 1924. He studied in Yeshiva until the German invasion in 1944, when he was imprisoned in a Nazi labor camp. After his release, Herczl joined the partisans and in 1948 emigrated to Palestine, where he fought for Israel's independence. Author of several books, a former Deputy Director of the Education Department of Netanya Municipality in Israel and a former Director of the Cape Board of Jewish Education in Cape Town, Moshe Herczl died in Jerusalem in 1990.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>309</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>REL040030</SubjectCode>
+      <SubjectHeadingText>RELIGION / Judaism / History</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>The complicity of the Hungarian Christian church in the mass extermination of Hungarian Jews by the Nazis is a largely forgotten episode in the history of the Holocaust. Using previously unknown correspondence and other primary source materials, Moshe Y. Herczl recreates the church's actions and its disposition toward Hungarian Jewry. Herczl provides a scathing indictment of the church's lack of compassion toward&amp;#151;and even active persecution of&amp;#151;Hungary's Jews during World War II.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"Shocks by its very frankness. . . . Absorbing and excellently translated, it is a valuable contribution to Holocaust scholarship."&lt;/p>-Association of Jewish Libraries,;
+&lt;p>"A most valuable addition to our knowledge of a most painful chapter in the histories of both Hungary and the Jewish people."&lt;/p>-Yehuda Bauer,Jona M. Machover Professor of Holocaust Studies, Institute of Contemporary Jewry, Hebrew University of Jerusalem;
+&lt;p>"A valuable contribution . . . Its publication will fill a long-felt need."&lt;/p>-Nathaniel Katzburg,Professor Emeritus in Jewish History, Bar-Ilan University;
+&lt;p>"Demonstrates the crucial nexus between the long held antipathy of the Catholic and Protestant churches in Hungary toward Hungarian Jewry and the deportation of more than 500,000 Hungarian Jews to Auschwitz in 1944."&lt;/p>-&lt;i>Religious Studies Review&lt;/i>,;
+&lt;p>"Based on rich documentation, it contains within it a great deal of information unknown to scholars to date. . . . A real contribution to our understanding of anti-Semitism in Hungary."&lt;/p>-Yisrael Gutman,Yad Vashem, The Holocaust Martyrs' and Heroes' Remembrance Authority, Jerusalem</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19950601</PublicationDate>
+    <CopyrightYear>1995</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19950502</ExpectedShipDate>
+      <OnSaleDate>19950601</OnSaleDate>
+      <PackQuantity>30</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>
