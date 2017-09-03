@@ -1,0 +1,38 @@
+{
+  "rootDirectory"        : "OEBPS",
+
+  "package" : {
+    "creators"           : [
+      "Susana Peña"
+    ],
+    "identifiers"        : [
+      "a6d505c2-a1d1-403b-879f-6b41b75da6b2",
+      "9780816686681"
+    ],
+    "language"           : "en-us",
+    "publisher"          : "Regents of the University of Minnesota",
+    "rights"             : "All Rights Reserved",
+    "title"              : "Oye Loca",
+    "uniqueIdentifier"   : "a6d505c2-a1d1-403b-879f-6b41b75da6b2"
+  },
+
+  "dlts" : {
+    "metadata" : {
+      "authors"    : [
+        "Susana Peña"
+      ],
+      "identifier" : "9780816686681",
+
+      "language"          : "en-us",
+      "publisher"         : "Regents of the University of Minnesota",
+      "rights"            : "All Rights Reserved",
+      "title"             : "Oye Loca",
+
+      "rootUrl"   : "epub_content/9780816686681",
+      "coverHref" : "epub_content/9780816686681/OEBPS/images/9780816686681.jpg",
+      "thumbHref" : "epub_content/9780816686681/OEBPS/images/9780816686681-th.jpg",
+
+      "packageUrl" : "epub_content/9780816686681"
+    }
+  }
+}

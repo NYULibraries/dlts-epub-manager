@@ -1,0 +1,22 @@
+h1 {
+  text-align: left;
+  margin-top: 2em;
+}
+h2 {
+  text-align: left;
+  margin-bottom: 3em;
+  margin-left: 2.5em;
+}
+h3{
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  font-weight: lighter;
+}
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-weight: lighter;
+}

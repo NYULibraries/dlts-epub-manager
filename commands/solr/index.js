@@ -30,12 +30,12 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubs = vorpal.em.metadata.getAll();
+                let epubMetadataAll = vorpal.em.metadata.getAll();
 
                 try {
-                    let epubsAdded = addEpubs( epubs );
+                    let epubsAdded = addEpubs( epubMetadataAll );
 
-                    vorpal.log( `Added ${epubs.size} EPUBs to Solr index:\n` + epubsAdded.join( '\n' ) );
+                    vorpal.log( `Added ${epubMetadataAll.size} EPUBs to Solr index:\n` + epubsAdded.join( '\n' ) );
 
                     if ( callback ) { callback(); }
                     return true;
@@ -73,13 +73,13 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubs = vorpal.em.metadata.getAll();
+                let epubMetadataAll = vorpal.em.metadata.getAll();
 
-                epubs.forEach( ( epub ) => {
+                epubMetadataAll.forEach( ( epubMetadata ) => {
                     try {
-                        deleteEpub( epub );
+                        deleteEpub( epubMetadata );
 
-                        vorpal.log( `Deleted ${epub.identifier} from Solr index.` );
+                        vorpal.log( `Deleted ${epubMetadata.identifier} from Solr index.` );
 
                         if ( callback ) { callback(); }
                         return true;
@@ -92,7 +92,7 @@ module.exports = function( vorpal ){
                     }
                 } );
 
-                vorpal.log( `Deleted ${epubs.size } EPUBs.` );
+                vorpal.log( `Deleted ${epubMetadataAll.size } EPUBs.` );
             }
         );
 
@@ -176,23 +176,23 @@ module.exports = function( vorpal ){
         );
 };
 
-function addEpubs( epubs) {
+function addEpubs( epubMetadataAll) {
     let solrUpdateUrl = util.getSolrUpdateUrl( em.conf ) + '/json?commit=true';
 
     let addRequest = [];
     let epubsAdded = [];
 
-    epubs.forEach( ( epub ) => {
-        let doc = { id : epub.identifier };
+    epubMetadataAll.forEach( ( epubMetadata ) => {
+        let doc = { id : epubMetadata.identifier };
 
-        Object.keys( epub ).forEach(
+        Object.keys( epubMetadata ).forEach(
             ( key ) => {
-                doc[ key ] = epub[ key ];
+                doc[ key ] = epubMetadata[ key ];
             }
         );
 
         addRequest.push( doc );
-        epubsAdded.push( epub.identifier );
+        epubsAdded.push( epubMetadata.identifier );
     } );
 
     let response = em.request(
@@ -208,9 +208,9 @@ function addEpubs( epubs) {
     return epubsAdded;
 }
 
-function deleteEpub( epub ) {
+function deleteEpub( epubMetadata ) {
     try {
-        deleteEpubsByQuery( 'identifier:' + epub.identifier );
+        deleteEpubsByQuery( 'identifier:' + epubMetadata.identifier );
     } catch ( error ) {
         throw error;
     }

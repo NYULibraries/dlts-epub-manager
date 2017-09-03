@@ -6,12 +6,18 @@ let fs       = require( 'fs' );
 let path     = require( 'path' );
 let rimraf   = require( 'rimraf' );
 
-let util  = require( '../../lib/util' );
+let DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
+let DltsOnix = require( '../../lib/onix/DltsOnix' ).DltsOnix;
+let util     = require( '../../lib/util' );
 
 let em;
 
 const OLD_COVER_PAGE_FILE_NAME = 'cover.html';
 const NEW_COVER_PAGE_FILE_NAME = 'cover.xhtml';
+
+// This handle stuff needs to be redone.  See comment in load command file in
+// getMetadataForEpub() function.
+const HANDLE_SERVER = 'http://hdl.handle.net';
 
 module.exports = function( vorpal ){
     em = vorpal.em;
@@ -55,6 +61,29 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
+                let metadataDir = em.conf.metadataDir;
+                if ( ! metadataDir ) {
+                    vorpal.log( util.ERROR_CONF_MISSING_METADATA_DIR );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
+                if ( ! fs.existsSync( metadataDir ) ) {
+                    vorpal.log( `ERROR: metadataDir "${metadataDir}" does not exist.`);
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
+                stats = fs.statSync( metadataDir );
+                if ( ! stats.isDirectory() ) {
+                    vorpal.log( `ERROR: metadataDir "${metadataDir}" is not a directory.`);
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
                 if ( ! em.intakeEpubList ) {
                     vorpal.log( util.ERROR_INTAKE_EPUB_LIST_NOT_LOADED );
 
@@ -62,19 +91,20 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubs = em.intakeEpubList;
+                let epubIdList = em.intakeEpubList;
 
                 try {
                     let epubsCompleted = intakeEpubs(
                         em.conf.intakeEpubDir,
-                        epubs,
-                        em.conf.intakeOutputDir
+                        epubIdList,
+                        em.conf.intakeOutputDir,
+                        metadataDir
                     );
 
-                    vorpal.log( `Intake completed for ${epubs.size} EPUBs:\n` + epubsCompleted.join( '\n' ) );
+                    vorpal.log( `Intake completed for ${epubIdList.length} EPUBs:\n` + epubsCompleted.join( '\n' ) );
 
                     if ( callback ) { callback(); }
-                    return false;
+                    return true;
                 } catch ( error ) {
                     vorpal.log( 'ERROR in intake of EPUB:\n' +
                                 error );
@@ -87,34 +117,63 @@ module.exports = function( vorpal ){
 
 };
 
-function intakeEpubs( epubDir, epubs, intakeOutputDir ) {
+function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) {
     try {
-        rimraf.sync( intakeOutputDir + '/*' );
+        rimraf.sync( outputEpubsDir + '/*' );
     } catch ( error ) {
-        throw( `ERROR clearing ${intakeOutputDir}: ${error}` );
+        throw( `ERROR clearing ${outputEpubsDir}: ${error}` );
     }
 
     let epubsCompleted = [];
 
-    epubs.forEach( ( epub ) => {
-        let intakeEpubFile = `${epubDir}/${epub}/data/${epub}.epub`;
-        // This is actually a directory, but naming it outputEpubDir might be
-        // confusing due to existing param intakeOutputDir.
-        let outputEpub     = `${intakeOutputDir}/${epub}`;
+    epubIdList.forEach( ( epubId ) => {
+        let intakeEpubDir  = `${intakeEpubsDir}/${epubId}`;
+        let intakeEpubFile = `${intakeEpubDir}/data/${epubId}.epub`;
+        let outputEpubDir = `${outputEpubsDir}/${epubId}`;
 
         try {
-            unzipEpub( intakeEpubFile, outputEpub );
-            updateReferencesToCoverHtmlFile( outputEpub );
-            renameCoverHtmlFile( outputEpub );
+            unzipEpub( intakeEpubFile, outputEpubDir );
+
+            let epub = new DltsEpub( outputEpubDir );
+            updateReferencesToCoverHtmlFile( epub );
+            renameCoverHtmlFile( outputEpubDir );
             createCoverImageThumbnail(
-                `${outputEpub}/ops/images/${epub}.jpg`,
-                `${outputEpub}/ops/images/${epub}-th.jpg`
+                `${outputEpubDir}/ops/images/${epubId}.jpg`,
+                `${outputEpubDir}/ops/images/${epubId}-th.jpg`
+            );
+
+            // This handle stuff needs to be redone.  See comment in load command file in
+            // getMetadataForEpub() function.
+            let handleFile   = `${intakeEpubDir}/handle`;
+            let handle       = fs.readFileSync( handleFile, 'utf8' ).trim();
+
+            let onixFile     = `${intakeEpubDir}/data/${epubId}_onix.xml`;
+            let onix         = new DltsOnix( onixFile );
+
+            let extraMetadataFile = `${intakeEpubDir}/data/extra-metadata.json`;
+            // Not using require() because that seems to require an absolute path.
+            // require( `./${extraMetadataFile}}` ) doesn't work whereas
+            // require( require( 'process' ).cwd() + `/${extraMetadataFile}` does.
+            let extraMetadata = JSON.parse(
+                fs.readFileSync( `./${extraMetadataFile}`, 'utf8' )
+            );
+            extraMetadata.handle = handle;
+
+            let metadataDirForEpub = `${metadataDir}/${epubId}`;
+            fs.mkdirSync( metadataDirForEpub, 0o755 );
+
+            createIntakeDescriptiveMetadataFile(
+                epub, onix, handle, `${metadataDirForEpub}/intake-descriptive.json`
+            );
+
+            createDltsAdministrativeMetadataFile(
+                extraMetadata, `${metadataDirForEpub}/dlts-administrative.json`
             );
         } catch( e ) {
             throw( e );
         }
 
-        epubsCompleted.push( epub );
+        epubsCompleted.push( epubId );
     } );
 
     return epubsCompleted;
@@ -126,9 +185,9 @@ function unzipEpub( epubFile, outputEpub ) {
     zip.extractAllTo( outputEpub, true );
 }
 
-function renameCoverHtmlFile( epubDir ) {
-    let coverHtmlFile  = `${epubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
-    let coverXhtmlFile = `${epubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
+function renameCoverHtmlFile( explodedEpubDir ) {
+    let coverHtmlFile  = `${explodedEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
+    let coverXhtmlFile = `${explodedEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
 
     if ( ! fs.existsSync( coverHtmlFile ) ) {
         throw( `Cover HTML file ${coverHtmlFile} not found.` );
@@ -137,13 +196,22 @@ function renameCoverHtmlFile( epubDir ) {
     fs.renameSync( coverHtmlFile, coverXhtmlFile );
 }
 
-function updateReferencesToCoverHtmlFile( epubDir ) {
-    let filesToUpdate = util.tempGetManifestItemsFilePathsFromEpubPackageFile( epubDir )
-        .map( ( filePath ) => {
-            return `${epubDir}/${filePath}`
-        } );
+function updateReferencesToCoverHtmlFile( epub ) {
+    let rootDirectory = epub.rootDirectory;
 
-    filesToUpdate.push( util.tempGetPackageFilePath( epubDir ) );
+    let filesToUpdate = epub.package._xml.manifest.item
+        .filter(
+            ( item ) => {
+                return item[ 'media-type' ].match( /text|xml/ );
+            }
+        )
+        .map(
+            ( item ) => {
+                return `${epub.explodedEpubDir}/${rootDirectory}/${item.href}`;
+            }
+        );
+
+    filesToUpdate.push( epub.package._filePath );
     filesToUpdate.forEach( ( fileToUpdate ) => {
             let fileContents = fs.readFileSync( fileToUpdate, 'utf8' );
             let newFileContents = fileContents.replace(
@@ -166,4 +234,41 @@ function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
     } catch ( e ) {
         throw( e );
     }
+}
+
+function createIntakeDescriptiveMetadataFile( epub, onix, handle, outputFile ) {
+        let epubMetadata = epub.dlts.metadata;
+        let onixMetadata = onix.dlts.metadata;
+
+        let author = onixMetadata.author[ 0 ] || epub.author;
+        let title  = onixMetadata.title || epubMetadata.title;
+        let metadata = {
+            author           : author,
+            author_sort      : util.getAuthorSortKey( author ),
+            coverage         : epubMetadata.coverage,
+            coverHref        : epubMetadata.coverHref,
+            date             : epubMetadata.date,
+            description      : onixMetadata.description,
+            description_html : onixMetadata.description_html,
+            format           : epubMetadata.format,
+            handle           : `${HANDLE_SERVER}/${handle}`,
+            identifier       : epubMetadata.identifier,
+            language         : epubMetadata.language,
+            packageUrl       : epubMetadata.packageUrl,
+            publisher        : epubMetadata.publisher,
+            rights           : epubMetadata.rights,
+            rootUrl          : epubMetadata.rootUrl,
+            subject          : onixMetadata.subject,
+            subtitle         : onixMetadata.subtitle,
+            thumbHref        : epubMetadata.thumbHref,
+            title            : title,
+            title_sort       : util.getTitleSortKey( title ),
+            type             : epubMetadata.type,
+        };
+
+        fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
+}
+
+function createDltsAdministrativeMetadataFile( metadata, outputFile ) {
+    fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
 }

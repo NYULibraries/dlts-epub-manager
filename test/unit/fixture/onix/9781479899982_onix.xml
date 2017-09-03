@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE 
+ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/02/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>New York University</FromCompany>
+    <FromPerson>Mary Beth Jarrad, 212-998-2588,
+    marybeth.jarrad@nyu.edu</FromPerson>
+    <SentDate>201404100803</SentDate>
+    <MessageNote>Title information from New York
+    University</MessageNote>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultPriceTypeCode>01</DefaultPriceTypeCode>
+    <DefaultCurrencyCode>USD</DefaultCurrencyCode>
+    <DefaultLinearUnit>in</DefaultLinearUnit>
+    <DefaultWeightUnit>oz</DefaultWeightUnit>
+    <DefaultClassOfTrade>General trade</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9781479899982</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>1479899984</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9781479899982</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9781479899982</IDValue>
+    </ProductIdentifier>
+    <Barcode>01</Barcode>
+    <ProductForm>BB</ProductForm>
+    <ProductFormDescription>Print PDF</ProductFormDescription>
+    <Series>
+      <Title>
+        <TitleType>01</TitleType>
+        <TitleText>
+          <![CDATA[Connected Youth and Digital Futures]]>
+</TitleText>
+      </Title>
+    </Series>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">
+        <![CDATA[By Any Media Necessary]]>
+</TitleText>
+      <Subtitle textcase="02">
+        <![CDATA[The New Youth Activism]]>
+</Subtitle>
+    </Title>
+    <WorkIdentifier>
+      <WorkIDType>15</WorkIDType>
+      <IDValue>9781479899982</IDValue>
+    </WorkIdentifier>
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Henry Jenkins</PersonName>
+      <PersonNameInverted>Jenkins, Henry</PersonNameInverted>
+      <NamesBeforeKey>Henry</NamesBeforeKey>
+      <KeyNames>Jenkins</KeyNames>
+      <BiographicalNote>
+        <![CDATA[
+        <strong>Henry Jenkins </strong>is the Provost&#8217;s Professor of Communication, Journalism, Cinematic Arts and Education at the University of Southern California.
+        ]]>
+</BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>2</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Sangita Shresthova</PersonName>
+      <PersonNameInverted>Shresthova, Sangita</PersonNameInverted>
+      <NamesBeforeKey>Sangita</NamesBeforeKey>
+      <KeyNames>Shresthova</KeyNames>
+      <BiographicalNote>
+        <![CDATA[
+        <strong>Sangita Shresthova</strong> is the Director of Henry Jenkins&#8217;s Media, Activism &amp; Participatory Politics (MAPP) project based at USC.
+        ]]>
+</BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>3</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Liana Gamber-Thompson</PersonName>
+      <PersonNameInverted>Gamber-Thompson,
+      Liana</PersonNameInverted>
+      <NamesBeforeKey>Liana</NamesBeforeKey>
+      <KeyNames>Gamber-Thompson</KeyNames>
+      <BiographicalNote>
+        <![CDATA[
+        <strong>Liana Gamber-Thompson</strong> is a Program Associate at the National Writing Project and the Community Manager for Connected Learning TV.
+        ]]>
+</BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>4</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Neta Kligler-Vilenchik</PersonName>
+      <PersonNameInverted>Kligler-Vilenchik,
+      Neta</PersonNameInverted>
+      <NamesBeforeKey>Neta</NamesBeforeKey>
+      <KeyNames>Kligler-Vilenchik</KeyNames>
+      <BiographicalNote>
+        <![CDATA[
+        <strong>Neta Kligler-Vilenchik </strong>is Assistant Professor of Communication at the Hebrew University of Jerusalem.
+        ]]>
+</BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>5</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Arely Zimmerman</PersonName>
+      <PersonNameInverted>Zimmerman, Arely</PersonNameInverted>
+      <NamesBeforeKey>Arely</NamesBeforeKey>
+      <KeyNames>Zimmerman</KeyNames>
+      <BiographicalNote>
+        <![CDATA[
+        <strong>Arely M. Zimmerman</strong> is Assistant Professor of Ethnic Studies at Mills College in Oakland, California.
+        ]]>
+</BiographicalNote>
+    </Contributor>
+    <NoEdition />
+    <NumberOfPages>352</NumberOfPages>
+    <Illustrations>
+      <IllustrationType>01</IllustrationType>
+      <Number>26</Number>
+    </Illustrations>
+    <BASICMainSubject>SOC052000</BASICMainSubject>
+    <BASICVersion>2.8</BASICVersion>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>EDU038000</SubjectCode>
+      <SubjectHeadingText>Media Studies / Education / Cultural Studies / Youth Studies</SubjectHeadingText>
+    </Subject>
+    <AudienceCode>06</AudienceCode>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <TextFormat>02</TextFormat>
+      <Text>
+        <![CDATA[<p>There is a widespread perception that the foundations of American democracy are dysfunctional, public trust in core institutions is eroding, and little is likely to emerge from traditional politics that will shift those conditions. Youth are often seen as emblematic of this crisis&#8212;frequently represented as uninterested in political life, ill-informed about current-affairs, and unwilling to register and vote. </p>
+<p><em>By Any Media Necessary</em> offers a profoundly different picture of contemporary American youth. &nbsp;Young men and women are tapping into the potential of new forms of communication such as social media platforms, spreadable videos and memes, remixing the language of popular culture, and seeking to bring about political change&#8212;by any media necessary. In a series of case studies covering a diverse range of organizations, networks, and movements involving young people in the political process&#8212;from the Harry Potter Alliance which fights for human rights in the name of the popular fantasy franchise to immigration rights advocates using superheroes to dramatize their struggles&#8212;<em>By Any Media Necessary</em> examines the civic imagination at work. Before the world can change, people need the ability to imagine what alternatives might look like and identify paths by which change can be achieved. Exploring new forms of political activities and identities emerging from the practice of participatory culture, <em>By Any Media Necessary </em>reveals how these shifts in communication have unleashed a new political dynamism in American youth.</p>]]>
+</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublishingStatus>02</PublishingStatus>
+    <PublicationDate>20160503</PublicationDate>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierIdentifier>
+        <SupplierIDType>07</SupplierIDType>
+        <IDValue>2026511</IDValue>
+      </SupplierIdentifier>
+      <AvailabilityCode>NP</AvailabilityCode>
+      <ProductAvailability>10</ProductAvailability>
+      <ExpectedShipDate>20160503</ExpectedShipDate>
+      <OnSaleDate>20160503</OnSaleDate>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>TRADE (CLOTH)</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>29.95</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <TaxRateCode1>Z</TaxRateCode1>
+      </Price>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>TRADE (CLOTH)</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>20.99</PriceAmount>
+        <CurrencyCode>GBP</CurrencyCode>
+      </Price>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>TRADE (CLOTH)</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>29.95</PriceAmount>
+        <CurrencyCode>AUD</CurrencyCode>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

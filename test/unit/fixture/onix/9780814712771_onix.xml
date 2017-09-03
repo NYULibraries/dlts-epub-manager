@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814712771</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814712770</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814712771</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">The Prostitution of Sexuality</TitleText>
+      <TitlePrefix>The</TitlePrefix>
+      <TitleWithoutPrefix>Prostitution of Sexuality</TitleWithoutPrefix>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Kathleen L. Barry</PersonName>
+      <BiographicalNote>
+&lt;p>The author of the acclaimed biography Susan B. Anthony, KATHLEEN BARRY teaches in the Department of Human Development and Family Studies at Pennsylvania State University. &lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>504</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>SOC032000</SubjectCode>
+      <SubjectHeadingText>SOCIAL SCIENCE / Gender Studies</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>In 1979, Kathleen Barry's landmark book, Female Sexual Slavery, pulled back the curtain on a world of abuse prostitution that shocked the world. Documenting in devastating detail the lives of street prostitutes and the international traffic in women, Barry's work was called powerful and compassionate by Adrienne Rich and a courageous and crusading book that should be read everywhere by Gloria Steinem. The Los Angeles Times found it a powerful work filled with disbelief, outrage, and documentation . . . sexual bondage shackles women as much today as it has for centuries.&lt;BR>In The Prostitution of Sexuality, Barry assesses where we are 15 years later, how far we've come and, more importantly, how far we have still to go. Shifting her focus from the sexuality of prostitution to the prostitution of sexuality, Barry exposes the practice of teenage sexual exploitation and the flourishing Asian sex tour industry, emphasizing the world-wide role of the expanding multi-billion dollar pornography industry. The work identifies the global conditions of sexual exploitation, from sex industrialization in developing countries to te normalization of prostitution in the West. The Prostitution of Sexuality considers sexual exploitation a political condition and thus the foundation of women's subordination and the base from which discrimination against women is constructed and enacted. Breaking new ground, Barry convincingly argues for the need to integrate the struggle against sexual exploitation in prostitution into broader feminist struggles and to place it, as one of several connected issues, in the forefront of the feminist agenda.&lt;BR>Barry concludes the book with a sampling of strategies-- international, regional, local, and personal--that feminist activists have employed successfully since the early 1980s, highlighting new international legal strategies for human rights resulting from her work.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"This is a brave and brilliant book &amp;#8212; and constitutes a quantum leap forward for global feminist theory."&lt;/p> -Robin Morgan,</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19960701</PublicationDate>
+    <CopyrightYear>1996</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19960601</ExpectedShipDate>
+      <OnSaleDate>19960701</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

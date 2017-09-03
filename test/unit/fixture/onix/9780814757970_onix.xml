@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814757970</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814757979</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814757970</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Manifesto of a Tenured Radical</TitleText>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Cary Nelson</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;strong>Cary Nelson&lt;/strong> teaches at the University of Illinois at Urbana-Champaign, where he is Jublilee Professor of Liberal Arts and Sciences. He is also the national president of the American Association of University Professors (AAUP). Among his twenty-five books are &lt;em>Manifesto of a Tenured Radical&lt;/em> (also published by NYU) and the landmark coedited collection &lt;em>Cultural Studies&lt;/em>. &lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>256</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>EDU016000</SubjectCode>
+      <SubjectHeadingText>EDUCATION / History</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>In an age when innovative scholarly work is at an all-time high, the academy itself is being rocked by structural change. Funding is plummeting. Tenure increasingly seems a prospect for only the elite few. Ph.D.'s are going begging for even adjunct work. Into this tumult steps Cary Nelson, with a no- holds-barred account of recent developments in higher education.&lt;/p> &lt;p>Eloquent and witty, &lt;B>Manifesto of a Tenured Radical&lt;/B> urges academics to apply the theoretical advances of the last twenty years to an analysis of their own practices and standards of behavior. In the process, Nelson offers a devastating critique of current inequities and a detailed proposal for change in the form of A Twelve-Step Program for Academia. &lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"&lt;i>Manifesto of a Tenured Radical&lt;/i>is the &lt;I>Silent Spring&lt;/I> of higher education."&lt;/p> -Constance Penley,University of California at Santa Barbara;
+&lt;p>"Armed with a keen conscience and a fearless wit, Cary Nelson exposes the moral bankruptcy that underpins the current crisis of academic labor. From underpaid cafeteria workers and underemployed Ph.D.'s to overindulged professors and CEO- wannabe university presidents, Nelson's groves of academe are littered with inequality and injustice. Whether on the topic of the future of literary studies or the unionization of graduate students, &lt;i>Manifesto of a Tenured Radical&lt;/i> presents a devastating case for the correction of the profession."&lt;/p>-Andrew Ross,author of &lt;I>Real Love&lt;/I> and &lt;I>The Chicago Gangster Theory of Life&lt;/I></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19970401</PublicationDate>
+    <CopyrightYear>1997</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19970302</ExpectedShipDate>
+      <OnSaleDate>19970401</OnSaleDate>
+      <PackQuantity>34</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

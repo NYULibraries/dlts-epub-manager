@@ -37,7 +37,7 @@ describe( 'intake command', function() {
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
                 vorpal.em.conf.intakeOutputDir === TMP_EPUBS,
-            `intakeOutputDir is ${TMP_EPUBS}`
+            `intakeOutputDir is not ${TMP_EPUBS}`
         );
 
         assert(
@@ -45,14 +45,28 @@ describe( 'intake command', function() {
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
                 vorpal.em.conf.metadataDir === TMP_METADATA,
-            `metadataDir is ${TMP_METADATA}`
+            `metadataDir is not ${TMP_METADATA}`
         );
     } );
 
-    it( 'should correctly intake all EPUBs and generate correct Readium versions', function() {
-        var epubsComparison,
+    it( 'should correctly intake all EPUBs and generate correct Readium versions and metadata files', function() {
+        // Normally would like to keep to a single assert per test, but making an
+        // exception here because the test intake is such an expensive operation,
+        // would like to avoid repeating it unecessarily.
+
+        let epubsComparison,
+
             intakeOutputDir   = vorpal.em.conf.intakeOutputDir,
             intakeExpectedDir = __dirname + '/expected/epubs-from-intake',
+
+            metadataDir = vorpal.em.conf.metadataDir,
+            metadataComparison,
+            metadataExpectedDir = __dirname + '/expected/metadata-from-intake',
+
+            // For now, just comparing thumbnail filenames since binary diffs will always fail.
+            thumbnailsExpected = glob.sync( '**/*-th.jpg', {cwd : intakeExpectedDir} ),
+            thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} ),
+
             compareOptions = {
                 compareContent : true,
                 // Excluding *-th.jpg because the thumbnails look identical, but
@@ -68,17 +82,19 @@ describe( 'intake command', function() {
             process.exit(1);
         }
 
+        try {
+            rimraf.sync( TMP_METADATA + '/*' );
+        } catch ( error ) {
+            vorpal.log( `ERROR clearing ${TMP_METADATA}: ${error}` );
+
+            process.exit(1);
+        }
+
         vorpal.parse( [ null, null, 'intake', 'add' ] );
 
-        // Normally trying to keep to a single assert per test, but making an
-        // exception here.
-
-        // For now, just comparing thumbnail filenames since binary diffs will always fail.
-        let thumbnailsExpected = glob.sync( '**/*-th.jpg', {cwd : intakeExpectedDir} );
-        let thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
         assert(
             _.isEqual( thumbnailsGot, thumbnailsExpected ),
-            'All cover image thumbnails created'
+            'Not all cover image thumbnails were created'
         );
 
         epubsComparison = dircompare.compareSync(
@@ -87,33 +103,13 @@ describe( 'intake command', function() {
         );
 
         assert( epubsComparison.same === true, `${intakeOutputDir} matched ${intakeExpectedDir}` );
-    } );
-
-    it( 'should correctly intake all EPUBs and generate correct metadata files', function() {
-        var metadataComparison,
-            metadataDir = vorpal.em.conf.metadataDir,
-            metadataExpectedDir = __dirname + '/expected/metadata-from-intake',
-            compareOptions = {
-                compareContent : true,
-                excludeFilter  : '.commit-empty-directory',
-            };
-
-        try {
-            rimraf.sync( metadataDir + '/*' );
-        } catch ( error ) {
-            vorpal.log( `ERROR clearing ${metadataDir}: ${error}` );
-
-            process.exit(1);
-        }
-
-        vorpal.parse( [ null, null, 'intake', 'add' ] );
 
         metadataComparison = dircompare.compareSync(
             metadataDir, metadataExpectedDir,
             compareOptions
         );
 
-        assert( metadataComparison.same === true, `${metadataDir} matched ${metadataExpectedDir}` );
+        assert( metadataComparison.same === true, `${metadataDir} does not match ${metadataExpectedDir}` );
     } );
 
 } );

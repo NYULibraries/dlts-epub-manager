@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:publisher>Regents of the University of Minnesota</dc:publisher>
+        <dc:title>Oye Loca</dc:title>
+        <dc:creator>Susana Peña</dc:creator>
+        <dc:rights>All Rights Reserved</dc:rights>
+        <dc:language>en-us</dc:language>
+        <meta content="cover" name="cover" />
+        <dc:identifier id="dcidid">a6d505c2-a1d1-403b-879f-6b41b75da6b2</dc:identifier>
+        <dc:identifier id="PrimaryID" opf:scheme="ISBN">9780816686681</dc:identifier>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"></item>
+        <item id="cover" href="image/cover.jpg" media-type="image/jpeg"></item>
+        <item id="style-css" href="css/style.css" media-type="text/css"></item>
+        <item id="title-css" href="css/title.css" media-type="text/css"></item>
+        <item id="copyright-css" href="css/copyright.css" media-type="text/css"></item>
+        <item id="preface-css" href="css/preface.css" media-type="text/css"></item>
+        <item id="chapter-css" href="css/chapter.css" media-type="text/css"></item>
+        <item id="part-css" href="css/part.css" media-type="text/css"></item>
+        <item id="appendix-css" href="css/appendix.css" media-type="text/css"></item>
+        <item id="toc-css" href="css/toc.css" media-type="text/css"></item>
+        <item id="cover-page" href="cover-page.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="half-title" href="half-title.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="title" href="title.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="dedication" href="dedication.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="preface1" href="preface1.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="ch1" href="ch1.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="ch2" href="ch2.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="ch3" href="ch3.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="ch4" href="ch4.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="ch5" href="ch5.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="ch6" href="ch6.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="ch7" href="ch7.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="ch8" href="ch8.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="appendix1" href="appendix1.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="appendix2" href="appendix2.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="appendix3" href="appendix3.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="img1" href="image/added-image1.jpg" media-type="image/jpeg"></item>
+        <item id="img2" href="image/added-image2.jpg" media-type="image/jpeg"></item>
+        <item id="img3" href="image/logo.jpg" media-type="image/jpeg"></item>
+        <item id="img4" href="image/OyeLoca_html_30224b50.jpg" media-type="image/jpeg"></item>
+        <item id="img5" href="image/OyeLoca_html_36265874.jpg" media-type="image/jpeg"></item>
+        <item id="img6" href="image/OyeLoca_html_39705cc7.jpg" media-type="image/jpeg"></item>
+        <item id="img7" href="image/OyeLoca_html_631eef7a.jpg" media-type="image/jpeg"></item>
+        <item id="img8" href="image/OyeLoca_html_6729ec9b.jpg" media-type="image/jpeg"></item>
+        <item id="img9" href="image/OyeLoca_html_7b382c63.jpg" media-type="image/jpeg"></item>
+        <item id="img10" href="image/OyeLoca_html_m5e5ec5f0.jpg" media-type="image/jpeg"></item>
+        <item id="img11" href="image/OyeLoca_html_m5eb78f23.jpg" media-type="image/jpeg"></item>
+        <item id="img12" href="image/OyeLoca_html_m65b8863b.jpg" media-type="image/jpeg"></item>
+        <item id="img13" href="image/OyeLoca_html_m7ab5f305.jpg" media-type="image/jpeg"></item>
+        <item id="img14" href="image/OyeLoca_html_mc73f873.jpg" media-type="image/jpeg"></item>
+        <item href="css/Fonts/DejaVuSans.ttf" id="DejaVuSans.ttf" media-type="application/x-font-ttf"></item>
+        <item href="css/Fonts/Cardo-Regular.ttf" id="Cardo-Regular.ttf" media-type="application/x-font-ttf"></item>
+        <item href="css/Fonts/Cardo-Italic.ttf" id="Cardo-Italic.ttf" media-type="application/x-font-ttf"></item>
+        <item href="css/Fonts/Cardo-Bold.ttf" id="Cardo-Bold.ttf" media-type="application/x-font-ttf"></item>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="cover-page"></itemref>
+        <itemref idref="half-title"></itemref>
+        <itemref idref="title"></itemref>
+        <itemref idref="copyright"></itemref>
+        <itemref idref="dedication"></itemref>
+        <itemref idref="toc"></itemref>
+        <itemref idref="preface1"></itemref>
+        <itemref idref="ch1"></itemref>
+        <itemref idref="ch2"></itemref>
+        <itemref idref="ch3"></itemref>
+        <itemref idref="ch4"></itemref>
+        <itemref idref="ch5"></itemref>
+        <itemref idref="ch6"></itemref>
+        <itemref idref="ch7"></itemref>
+        <itemref idref="ch8"></itemref>
+        <itemref idref="appendix1"></itemref>
+        <itemref idref="appendix2"></itemref>
+        <itemref idref="appendix3"></itemref>
+    </spine>
+</package>
