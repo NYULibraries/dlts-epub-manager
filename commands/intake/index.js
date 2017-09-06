@@ -38,6 +38,24 @@ module.exports = function( vorpal ){
                     }
                 }
 
+                let intakeEpubDir;
+                try {
+                    intakeEpubDir = getIntakeEpubDir( em.conf );
+                } catch( error ) {
+                    vorpal.log( `ERROR: ${error}` );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
+                let stats = fs.statSync( intakeEpubDir );
+                if ( ! stats.isDirectory() ) {
+                    vorpal.log( `ERROR: intakeEpubDir "${intakeEpubDir}" is not a directory.`);
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
                 let intakeOutputDir;
                 try {
                     intakeOutputDir = getIntakeOutputDir( em.conf );
@@ -48,7 +66,7 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let stats = fs.statSync( intakeOutputDir );
+                stats = fs.statSync( intakeOutputDir );
                 if ( ! stats.isDirectory() ) {
                     vorpal.log( `ERROR: intakeOutputDir "${intakeOutputDir}" is not a directory.`);
 
@@ -90,7 +108,7 @@ module.exports = function( vorpal ){
 
                 try {
                     let epubsCompleted = intakeEpubs(
-                        em.conf.intakeEpubDir,
+                        intakeEpubDir,
                         epubIdList,
                         intakeOutputDir,
                         metadataDir
