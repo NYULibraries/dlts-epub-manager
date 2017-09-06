@@ -146,7 +146,16 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
 
             let epub = new DltsEpub( outputEpubDir );
             updateReferencesToCoverHtmlFile( epub );
-            renameCoverHtmlFile( outputEpubDir );
+
+            let coverHtmlFile  = `${outputEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
+            let coverXhtmlFile = `${outputEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
+
+            if ( ! fs.existsSync( coverHtmlFile ) ) {
+                throw( `Cover HTML file ${coverHtmlFile} not found.` );
+            }
+
+            fs.renameSync( coverHtmlFile, coverXhtmlFile );
+
             createCoverImageThumbnail(
                 `${outputEpubDir}/ops/images/${epubId}.jpg`,
                 `${outputEpubDir}/ops/images/${epubId}-th.jpg`
@@ -189,17 +198,6 @@ function unzipEpub( epubFile, outputEpub ) {
     let zip = new AdmZip( epubFile );
 
     zip.extractAllTo( outputEpub, true );
-}
-
-function renameCoverHtmlFile( explodedEpubDir ) {
-    let coverHtmlFile  = `${explodedEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
-    let coverXhtmlFile = `${explodedEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
-
-    if ( ! fs.existsSync( coverHtmlFile ) ) {
-        throw( `Cover HTML file ${coverHtmlFile} not found.` );
-    }
-
-    fs.renameSync( coverHtmlFile, coverXhtmlFile );
 }
 
 function updateReferencesToCoverHtmlFile( epub ) {
