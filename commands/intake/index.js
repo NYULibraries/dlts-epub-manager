@@ -193,16 +193,16 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
             let coverHtmlFile  = `${outputEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
             let coverXhtmlFile = `${outputEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
 
-            if ( fs.existsSync( coverXhtmlFile ) ) {
-                // Do nothing
-            } else if ( fs.existsSync( coverHtmlFile ) ) {
+            if ( ! fs.existsSync( coverHtmlFile ) && ! fs.existsSync( coverXhtmlFile ) ) {
+                throw( `Cover file not found: expected either ${coverHtmlFile} or ${coverXhtmlFile}` );
+            }
+
+            if ( fs.existsSync( coverHtmlFile) && ! fs.existsSync( coverXhtmlFile ) ) {
                 // Update references has to be done before the file rename, because
                 // the list of files to be updated comes from the manifest, which expects
                 // the original cover file path.
                 updateReferencesToCoverHtmlFile( epub );
                 fs.renameSync( coverHtmlFile, coverXhtmlFile );
-            } else {
-                throw( `Cover file not found: expected either ${coverHtmlFile} or ${coverXhtmlFile}` );
             }
 
             createCoverImageThumbnail(
