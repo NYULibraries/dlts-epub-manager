@@ -113,7 +113,7 @@ module.exports = function( vorpal ){
 };
 
 function getIntakeOutputDir( conf ) {
-    let intakeOutputDir          = conf.intakeOutputDir;
+    let intakeOutputDir = conf.intakeOutputDir;
 
     if ( intakeOutputDir ) {
         // Assume that non-absolute paths are relative to root dir
