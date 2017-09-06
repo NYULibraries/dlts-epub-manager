@@ -112,23 +112,49 @@ module.exports = function( vorpal ){
 
 };
 
+function getIntakeEpubDir( conf ) {
+    let intakeEpubDir = conf.intakeEpubDir;
+    if ( ! intakeEpubDir ) {
+        throw util.ERROR_CONF_MISSING_INTAKE_EPUB_DIR;
+    }
+
+    try {
+        intakeEpubDir = getNormalizedIntakeDir( intakeEpubDir );
+    } catch( e ) {
+        throw( e );
+    }
+
+    return intakeEpubDir;
+}
+
 function getIntakeOutputDir( conf ) {
     let intakeOutputDir = conf.intakeOutputDir;
-
-    if ( intakeOutputDir ) {
-        // Assume that non-absolute paths are relative to root dir
-        if ( ! path.isAbsolute( intakeOutputDir ) ) {
-            intakeOutputDir = `${em.rootDir}/${intakeOutputDir}`;
-        }
-
-        if ( ! fs.existsSync( intakeOutputDir ) ) {
-            throw `${intakeOutputDir} does not exist!`;
-        }
-
-        return intakeOutputDir;
-    } else {
+    if ( ! intakeOutputDir ) {
         throw util.ERROR_CONF_MISSING_INTAKE_OUTPUT_DIR;
     }
+
+    try {
+        intakeOutputDir = getNormalizedIntakeDir( intakeOutputDir );
+    } catch( e ) {
+        throw( e );
+    }
+
+    return intakeOutputDir;
+}
+
+function getNormalizedIntakeDir( dir ) {
+    let normalizedIntakeDir = dir;
+
+    // Assume that non-absolute paths are relative to root dir
+    if ( ! path.isAbsolute( normalizedIntakeDir ) ) {
+        normalizedIntakeDir = `${em.rootDir}/${normalizedIntakeDir}`;
+    }
+
+    if ( ! fs.existsSync( normalizedIntakeDir ) ) {
+        throw `${normalizedIntakeDir} does not exist!`;
+    }
+
+    return normalizedIntakeDir;
 }
 
 function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) {
