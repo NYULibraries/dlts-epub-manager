@@ -92,7 +92,7 @@ module.exports = function( vorpal ){
                     let epubsCompleted = intakeEpubs(
                         em.conf.intakeEpubDir,
                         epubIdList,
-                        em.conf.intakeOutputDir,
+                        intakeOutputDir,
                         metadataDir
                     );
 
