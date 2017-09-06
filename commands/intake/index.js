@@ -38,6 +38,24 @@ module.exports = function( vorpal ){
                     }
                 }
 
+                let intakeEpubDir;
+                try {
+                    intakeEpubDir = getIntakeEpubDir( em.conf );
+                } catch( error ) {
+                    vorpal.log( `ERROR: ${error}` );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
+                let stats = fs.statSync( intakeEpubDir );
+                if ( ! stats.isDirectory() ) {
+                    vorpal.log( `ERROR: intakeEpubDir "${intakeEpubDir}" is not a directory.`);
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
                 let intakeOutputDir;
                 try {
                     intakeOutputDir = getIntakeOutputDir( em.conf );
@@ -48,7 +66,7 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let stats = fs.statSync( intakeOutputDir );
+                stats = fs.statSync( intakeOutputDir );
                 if ( ! stats.isDirectory() ) {
                     vorpal.log( `ERROR: intakeOutputDir "${intakeOutputDir}" is not a directory.`);
 
@@ -90,9 +108,9 @@ module.exports = function( vorpal ){
 
                 try {
                     let epubsCompleted = intakeEpubs(
-                        em.conf.intakeEpubDir,
+                        intakeEpubDir,
                         epubIdList,
-                        em.conf.intakeOutputDir,
+                        intakeOutputDir,
                         metadataDir
                     );
 
@@ -112,23 +130,49 @@ module.exports = function( vorpal ){
 
 };
 
+function getIntakeEpubDir( conf ) {
+    let intakeEpubDir = conf.intakeEpubDir;
+    if ( ! intakeEpubDir ) {
+        throw util.ERROR_CONF_MISSING_INTAKE_EPUB_DIR;
+    }
+
+    try {
+        intakeEpubDir = getNormalizedIntakeDir( intakeEpubDir );
+    } catch( e ) {
+        throw( e );
+    }
+
+    return intakeEpubDir;
+}
+
 function getIntakeOutputDir( conf ) {
-    let intakeOutputDir          = conf.intakeOutputDir;
-
-    if ( intakeOutputDir ) {
-        // Assume that non-absolute paths are relative to root dir
-        if ( ! path.isAbsolute( intakeOutputDir ) ) {
-            intakeOutputDir = `${em.rootDir}/${intakeOutputDir}`;
-        }
-
-        if ( ! fs.existsSync( intakeOutputDir ) ) {
-            throw `${intakeOutputDir} does not exist!`;
-        }
-
-        return intakeOutputDir;
-    } else {
+    let intakeOutputDir = conf.intakeOutputDir;
+    if ( ! intakeOutputDir ) {
         throw util.ERROR_CONF_MISSING_INTAKE_OUTPUT_DIR;
     }
+
+    try {
+        intakeOutputDir = getNormalizedIntakeDir( intakeOutputDir );
+    } catch( e ) {
+        throw( e );
+    }
+
+    return intakeOutputDir;
+}
+
+function getNormalizedIntakeDir( dir ) {
+    let normalizedIntakeDir = dir;
+
+    // Assume that non-absolute paths are relative to root dir
+    if ( ! path.isAbsolute( normalizedIntakeDir ) ) {
+        normalizedIntakeDir = `${em.rootDir}/${normalizedIntakeDir}`;
+    }
+
+    if ( ! fs.existsSync( normalizedIntakeDir ) ) {
+        throw `${normalizedIntakeDir} does not exist!`;
+    }
+
+    return normalizedIntakeDir;
 }
 
 function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) {
@@ -145,8 +189,22 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
             unzipEpub( intakeEpubFile, outputEpubDir );
 
             let epub = new DltsEpub( outputEpubDir );
-            updateReferencesToCoverHtmlFile( epub );
-            renameCoverHtmlFile( outputEpubDir );
+
+            let coverHtmlFile  = `${outputEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
+            let coverXhtmlFile = `${outputEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
+
+            if ( ! fs.existsSync( coverHtmlFile ) && ! fs.existsSync( coverXhtmlFile ) ) {
+                throw( `Cover file not found: expected either ${coverHtmlFile} or ${coverXhtmlFile}` );
+            }
+
+            if ( fs.existsSync( coverHtmlFile) && ! fs.existsSync( coverXhtmlFile ) ) {
+                // Update references has to be done before the file rename, because
+                // the list of files to be updated comes from the manifest, which expects
+                // the original cover file path.
+                updateReferencesToCoverHtmlFile( epub );
+                fs.renameSync( coverHtmlFile, coverXhtmlFile );
+            }
+
             createCoverImageThumbnail(
                 `${outputEpubDir}/ops/images/${epubId}.jpg`,
                 `${outputEpubDir}/ops/images/${epubId}-th.jpg`
@@ -166,6 +224,7 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
             extraMetadata.handle = handle;
 
             let metadataDirForEpub = `${metadataDir}/${epubId}`;
+            rimraf.sync( metadataDirForEpub );
             fs.mkdirSync( metadataDirForEpub, 0o755 );
 
             createIntakeDescriptiveMetadataFile(
@@ -189,17 +248,6 @@ function unzipEpub( epubFile, outputEpub ) {
     let zip = new AdmZip( epubFile );
 
     zip.extractAllTo( outputEpub, true );
-}
-
-function renameCoverHtmlFile( explodedEpubDir ) {
-    let coverHtmlFile  = `${explodedEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
-    let coverXhtmlFile = `${explodedEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
-
-    if ( ! fs.existsSync( coverHtmlFile ) ) {
-        throw( `Cover HTML file ${coverHtmlFile} not found.` );
-    }
-
-    fs.renameSync( coverHtmlFile, coverXhtmlFile );
 }
 
 function updateReferencesToCoverHtmlFile( epub ) {
