@@ -38,16 +38,11 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                let intakeOutputDir = em.conf.intakeOutputDir;
-                if ( ! intakeOutputDir ) {
-                    vorpal.log( util.ERROR_CONF_MISSING_INTAKE_OUTPUT_DIR );
-
-                    if ( callback ) { callback(); }
-                    return false;
-                }
-
-                if ( ! fs.existsSync( intakeOutputDir ) ) {
-                    vorpal.log( `ERROR: intakeOutputDir "${intakeOutputDir}" does not exist.`);
+                let intakeOutputDir;
+                try {
+                    intakeOutputDir = getIntakeOutputDir( em.conf );
+                } catch( error ) {
+                    vorpal.log( `ERROR: ${error}` );
 
                     if ( callback ) { callback(); }
                     return false;
@@ -117,6 +112,25 @@ module.exports = function( vorpal ){
 
 };
 
+function getIntakeOutputDir( conf ) {
+    let intakeOutputDir          = conf.intakeOutputDir;
+
+    if ( intakeOutputDir ) {
+        // Assume that non-absolute paths are relative to root dir
+        if ( ! path.isAbsolute( intakeOutputDir ) ) {
+            intakeOutputDir = `${em.rootDir}/${intakeOutputDir}`;
+        }
+
+        if ( ! fs.existsSync( intakeOutputDir ) ) {
+            throw `${intakeOutputDir} does not exist!`;
+        }
+
+        return intakeOutputDir;
+    } else {
+        throw util.ERROR_CONF_MISSING_INTAKE_OUTPUT_DIR;
+    }
+}
+
 function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) {
     let epubsCompleted = [];
 
@@ -147,12 +161,8 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
             let onix         = new DltsOnix( onixFile );
 
             let extraMetadataFile = `${intakeEpubDir}/data/extra-metadata.json`;
-            // Not using require() because that seems to require an absolute path.
-            // require( `./${extraMetadataFile}}` ) doesn't work whereas
-            // require( require( 'process' ).cwd() + `/${extraMetadataFile}` does.
-            let extraMetadata = JSON.parse(
-                fs.readFileSync( `./${extraMetadataFile}`, 'utf8' )
-            );
+            let extraMetadata     = require( extraMetadataFile );
+
             extraMetadata.handle = handle;
 
             let metadataDirForEpub = `${metadataDir}/${epubId}`;
