@@ -161,12 +161,8 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
             let onix         = new DltsOnix( onixFile );
 
             let extraMetadataFile = `${intakeEpubDir}/data/extra-metadata.json`;
-            // Not using require() because that seems to require an absolute path.
-            // require( `./${extraMetadataFile}}` ) doesn't work whereas
-            // require( require( 'process' ).cwd() + `/${extraMetadataFile}` does.
-            let extraMetadata = JSON.parse(
-                fs.readFileSync( `./${extraMetadataFile}`, 'utf8' )
-            );
+            let extraMetadata     = require( extraMetadataFile );
+
             extraMetadata.handle = handle;
 
             let metadataDirForEpub = `${metadataDir}/${epubId}`;
