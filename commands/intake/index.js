@@ -180,6 +180,7 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
             extraMetadata.handle = handle;
 
             let metadataDirForEpub = `${metadataDir}/${epubId}`;
+            rimraf.sync( metadataDirForEpub );
             fs.mkdirSync( metadataDirForEpub, 0o755 );
 
             createIntakeDescriptiveMetadataFile(
