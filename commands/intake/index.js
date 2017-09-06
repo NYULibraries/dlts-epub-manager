@@ -118,12 +118,6 @@ module.exports = function( vorpal ){
 };
 
 function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) {
-    try {
-        rimraf.sync( outputEpubsDir + '/*' );
-    } catch ( error ) {
-        throw( `ERROR clearing ${outputEpubsDir}: ${error}` );
-    }
-
     let epubsCompleted = [];
 
     epubIdList.forEach( ( epubId ) => {
@@ -132,6 +126,8 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
         let outputEpubDir = `${outputEpubsDir}/${epubId}`;
 
         try {
+            rimraf.sync( outputEpubDir );
+
             unzipEpub( intakeEpubFile, outputEpubDir );
 
             let epub = new DltsEpub( outputEpubDir );
