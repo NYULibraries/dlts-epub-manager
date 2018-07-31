@@ -62,12 +62,6 @@ describe( 'handles command', () => {
         );
     } );
 
-    it( 'should correctly add 3 replacement handles and 3 new handles to handles server', () => {
-
-        vorpal.parse( [ null, null, 'handles', 'add', 'replace-3-new-3' ] );
-
-    } );
-
     after( ( ) => {
         vorpal.em.request = overriddenRequest;
     } );
