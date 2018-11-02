@@ -65,7 +65,7 @@ describe( 'intake command', function() {
 
             // For now, just comparing thumbnail filenames since binary diffs will always fail.
             thumbnailsExpected = glob.sync( '**/*-th.jpg', {cwd : intakeExpectedDir} ),
-            thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} ),
+            thumbnailsGot,
 
             compareOptions = {
                 compareContent : true,
@@ -92,6 +92,7 @@ describe( 'intake command', function() {
 
         vorpal.parse( [ null, null, 'intake', 'add' ] );
 
+        thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
         assert(
             _.isEqual( thumbnailsGot, thumbnailsExpected ),
             'Not all cover image thumbnails were created'
