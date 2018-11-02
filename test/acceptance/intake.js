@@ -52,7 +52,7 @@ describe( 'intake command', function() {
         let epubsComparison,
 
             intakeOutputDir   = vorpal.em.conf.intakeOutputDir,
-            intakeExpectedDir = __dirname + '/expected/epubs-from-intake',
+            intakeExpectedDir = __dirname + '/expected/epubs-from-intake-full',
 
             metadataDir = vorpal.em.conf.metadataDir,
             metadataComparison,
