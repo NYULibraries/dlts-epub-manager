@@ -26,9 +26,6 @@ describe( 'intake command', function() {
     this.timeout( 60000 );
 
     it( 'should correctly intake all EPUBs and generate correct Readium versions and metadata files', function() {
-        // Normally would like to keep to a single assert per test, but making an
-        // exception here because the test intake is such an expensive operation,
-        // would like to avoid repeating it unecessarily.
         let loadSucceeded = vorpal.execSync( `load ${CONF}`, { fatal : true } );
 
         assert( loadSucceeded === true,
@@ -88,6 +85,10 @@ describe( 'intake command', function() {
         }
 
         vorpal.parse( [ null, null, 'intake', 'add' ] );
+
+        // Normally would like to keep to a single assert per test, but making an
+        // exception here because the test intake is such an expensive operation,
+        // would like to avoid repeating it unecessarily.
 
         thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
         assert(
