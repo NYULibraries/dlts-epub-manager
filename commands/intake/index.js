@@ -23,6 +23,7 @@ module.exports = function( vorpal ){
     em = vorpal.em;
 
     vorpal.command( 'intake add [configuration]' )
+        .option( '--skip-metadata', 'Skip processing of metadata (ONIX, EPUB manifest, etc.)' )
         .description( 'Intake EPUBs and generate Readium versions and associated metadata files.' )
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
