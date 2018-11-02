@@ -11,9 +11,9 @@ let path       = require( 'path' );
 let rimraf     = require( 'rimraf' );
 let vorpal     = em.vorpal;
 
-const CONF = 'intake-full';
-const TMP_EPUBS    = __dirname + '/tmp/epubs';
-const TMP_METADATA = __dirname + '/tmp/metadata';
+const CONF_INTAKE_FULL = 'intake-full';
+const TMP_EPUBS        = __dirname + '/tmp/epubs';
+const TMP_METADATA     = __dirname + '/tmp/metadata';
 
 vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
@@ -26,11 +26,11 @@ describe( 'intake command', function() {
     this.timeout( 60000 );
 
     it( 'should correctly intake all EPUBs and generate correct Readium versions and metadata files', function() {
-        let loadSucceeded = vorpal.execSync( `load ${CONF}`, { fatal : true } );
+        let loadSucceeded = vorpal.execSync( `load ${CONF_INTAKE_FULL}`, { fatal : true } );
 
         assert( loadSucceeded === true,
                 'ERROR: test is not set up right.  ' +
-                `Failed to load configuration "${CONF}".` );
+                `Failed to load configuration "${CONF_INTAKE_FULL}".` );
 
         assert(
             // Conf file epubOutputDir is relative path, have to change it to
