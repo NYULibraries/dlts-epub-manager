@@ -23,6 +23,7 @@ module.exports = function( vorpal ){
     em = vorpal.em;
 
     vorpal.command( 'intake add [configuration]' )
+        .option( '--skip-metadata', 'Skip processing of metadata (ONIX, EPUB manifest, etc.)' )
         .description( 'Intake EPUBs and generate Readium versions and associated metadata files.' )
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
@@ -111,7 +112,8 @@ module.exports = function( vorpal ){
                         intakeEpubDir,
                         epubIdList,
                         intakeOutputDir,
-                        metadataDir
+                        metadataDir,
+                        args.options
                     );
 
                     vorpal.log( `Intake completed for ${epubIdList.length} EPUBs:\n` + epubsCompleted.join( '\n' ) );
@@ -175,8 +177,10 @@ function getNormalizedIntakeDir( dir ) {
     return normalizedIntakeDir;
 }
 
-function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) {
+function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir, options ) {
     let epubsCompleted = [];
+
+    const createMetadataFiles = ! ( options && options[ 'skip-metadata' ] );
 
     epubIdList.forEach( ( epubId ) => {
         let intakeEpubDir  = `${intakeEpubsDir}/${epubId}`;
@@ -210,30 +214,32 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir ) 
                 `${outputEpubDir}/ops/images/${epubId}-th.jpg`
             );
 
-            // This handle stuff needs to be redone.  See comment in load command file in
-            // getMetadataForEpub() function.
-            let handleFile   = `${intakeEpubDir}/handle`;
-            let handle       = fs.readFileSync( handleFile, 'utf8' ).trim();
+            if ( createMetadataFiles ) {
+                // This handle stuff needs to be redone.  See comment in load command file in
+                // getMetadataForEpub() function.
+                let handleFile   = `${intakeEpubDir}/handle`;
+                let handle       = fs.readFileSync( handleFile, 'utf8' ).trim();
 
-            let onixFile     = `${intakeEpubDir}/data/${epubId}_onix.xml`;
-            let onix         = new DltsOnix( onixFile );
+                let onixFile     = `${intakeEpubDir}/data/${epubId}_onix.xml`;
+                let onix         = new DltsOnix( onixFile );
 
-            let extraMetadataFile = `${intakeEpubDir}/data/extra-metadata.json`;
-            let extraMetadata     = require( extraMetadataFile );
+                let extraMetadataFile = `${intakeEpubDir}/data/extra-metadata.json`;
+                let extraMetadata     = require( extraMetadataFile );
 
-            extraMetadata.handle = handle;
+                extraMetadata.handle = handle;
 
-            let metadataDirForEpub = `${metadataDir}/${epubId}`;
-            rimraf.sync( metadataDirForEpub );
-            fs.mkdirSync( metadataDirForEpub, 0o755 );
+                let metadataDirForEpub = `${metadataDir}/${epubId}`;
+                rimraf.sync( metadataDirForEpub );
+                fs.mkdirSync( metadataDirForEpub, 0o755 );
 
-            createIntakeDescriptiveMetadataFile(
-                epub, onix, handle, `${metadataDirForEpub}/intake-descriptive.json`
-            );
+                createIntakeDescriptiveMetadataFile(
+                    epub, onix, handle, `${metadataDirForEpub}/intake-descriptive.json`
+                );
 
-            createDltsAdministrativeMetadataFile(
-                extraMetadata, `${metadataDirForEpub}/dlts-administrative.json`
-            );
+                createDltsAdministrativeMetadataFile(
+                    extraMetadata, `${metadataDirForEpub}/dlts-administrative.json`
+                );
+            }
         } catch( e ) {
             throw( e );
         }
