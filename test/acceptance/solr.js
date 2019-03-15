@@ -216,6 +216,9 @@ function addEpubs( epubs ) {
                 }
             );
 
+            // This field is only used for writing the Readium JSON file; it isn't defined in Solr.
+            delete doc.rootUrl;
+
             addRequest.push( doc );
         }
     );
