@@ -2,7 +2,7 @@
     "cacheMetadataInMemory"    : true,
     "metadataEpubList"         : null,
     "metadataRepo"             : "git@github.com:NYULibraries/dlts-epub-metadata.git",
-    "metadataRepoBranch"       : "caf4dd7620cb2645cbbd87d2db00ce609378c084",
+    "metadataRepoBranch"       : "c56b51c54b429d561a3c3823c855825146a8e550",
     "metadataRepoSubdirectory" : "nyupress",
 
     "readiumJsonFile"          : "test/acceptance/tmp/epub_library.json"
