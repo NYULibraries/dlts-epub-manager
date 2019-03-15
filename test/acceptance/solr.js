@@ -234,7 +234,7 @@ function addEpubs( epubs ) {
 }
 
 function getEpubs() {
-    let solrSelectUrl = util.getSolrSelectUrl( conf ) + '/?rows=100&wt=json';
+    let solrSelectUrl = util.getSolrSelectUrl( conf ) + '?q=*:*&rows=100&wt=json';
     solrSelectUrl += '&fl=' + util.SOLR_FIELDS.join( ',' );
 
     let response = request( 'GET', solrSelectUrl );
