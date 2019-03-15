@@ -10,6 +10,6 @@
     "restfulHandleServerPath" : "/id/handle",
 
     "solrHost"              : "stagediscovery.dlib.nyu.edu",
-    "solrPort"              : 8080,
-    "solrPath"              : "/solr3_discovery/nyupress"
+    "solrPort"              : 8983,
+    "solrPath"              : "/solr/open-square-metadata"
 }
