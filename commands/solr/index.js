@@ -1,5 +1,7 @@
 "use strict";
 
+const _ = require( 'lodash' );
+
 let util  = require( '../../lib/util' );
 
 let em;
@@ -190,6 +192,9 @@ function addEpubs( epubMetadataAll) {
                 doc[ key ] = epubMetadata[ key ];
             }
         );
+
+        // Filter out any metadata fields that don't need to go into Solr
+        doc = _.pick( doc, util.SOLR_FIELDS );
 
         addRequest.push( doc );
         epubsAdded.push( epubMetadata.identifier );

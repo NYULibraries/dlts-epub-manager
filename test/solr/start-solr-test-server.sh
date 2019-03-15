@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # This script is based on Django Haystack `test_haystack/solr_tests/server/start-solr-test-server.sh`:
-# https://github.com/django-haystack/django-haystack/blob/106e660867398612c7e080fd512685210f3b2e4f/test_haystack/solr_tests/server/start-solr-test-server.sh
+# https://github.com/django-haystack/django-haystack/blob/802b0f6f4b3b99314453261876a32bac2bbec94f/test_haystack/solr_tests/server/start-solr-test-server.sh
 
 set -e
 
-SOLR_VERSION=3.6.0
+SOLR_VERSION=6.6.5
 
 export ROOT=$(cd "$(dirname "$0")" ; pwd -P )
 cd $ROOT
@@ -13,7 +13,8 @@ cd $ROOT
 export CONFIG_FILES=${ROOT}/config-files
 export SOLR_ARCHIVE="${ROOT}/download-cache/${SOLR_VERSION}.tgz"
 export SOLR_ROOT=${ROOT}/solr-${SOLR_VERSION}
-export SOLR_CORE=${SOLR_ROOT}/solr/test-core
+export SOLR_CORE=${SOLR_ROOT}/server/solr/test-core
+export SOLR_PORT=9001
 
 if [ -f ${SOLR_ARCHIVE} ]; then
     # If the tarball doesn't extract cleanly, remove it so it'll download again:
@@ -21,36 +22,39 @@ if [ -f ${SOLR_ARCHIVE} ]; then
 fi
 
 if [ ! -f ${SOLR_ARCHIVE} ]; then
-    SOLR_DOWNLOAD_URL="http://archive.apache.org/dist/lucene/solr/${SOLR_VERSION}/apache-solr-${SOLR_VERSION}.tgz"
+    SOLR_DOWNLOAD_URL="http://archive.apache.org/dist/lucene/solr/${SOLR_VERSION}/solr-${SOLR_VERSION}.tgz"
     curl -Lo $SOLR_ARCHIVE ${SOLR_DOWNLOAD_URL} || ( echo "Unable to download ${SOLR_DOWNLOAD_URL}"; exit 2 )
 fi
 
-echo "Extracting Solr ${SOLR_VERSION} to $(basename ${SOLR_ROOT})"
+echo "Extracting Solr ${SOLR_ARCHIVE} to $(basename ${SOLR_ROOT})"
 rm -rf $SOLR_ROOT
 mkdir $SOLR_ROOT
-mkdir ${SOLR_ROOT}/data
-tar -C $SOLR_ROOT -xf ${SOLR_ARCHIVE} --strip-components 2 apache-solr-${SOLR_VERSION}/example
-tar -C $SOLR_ROOT -xf ${SOLR_ARCHIVE} --strip-components 1 apache-solr-${SOLR_VERSION}/dist apache-solr-${SOLR_VERSION}/contrib
+tar -C ${SOLR_ROOT} -xf ${SOLR_ARCHIVE} --strip-components=1
 
-echo 'Configuring Solr'
+# These tuning options will break on Java 10 and for testing we don't care about
+# production server optimizations:
+export GC_LOG_OPTS=""
+export GC_TUNE=""
 
-mkdir $SOLR_CORE
-mv ${SOLR_ROOT}/solr/{bin,conf} $SOLR_CORE
+export SOLR_LOGS_DIR="${SOLR_ROOT}/logs"
 
-cp -p ${CONFIG_FILES}/solr.xml       ${SOLR_ROOT}/solr/solr.xml
+cd ${SOLR_ROOT}
+
+export SOLR_START_CMD="${SOLR_ROOT}/bin/solr start -p ${SOLR_PORT}"
+export SOLR_STOP_CMD="${SOLR_ROOT}/bin/solr stop -p ${SOLR_PORT}"
+
+echo "Creating Solr Core"
+$SOLR_START_CMD
+./bin/solr create -c test-core -p ${SOLR_PORT} -n basic_config
+
+echo "Solr system information:"
+curl --fail --silent "http://localhost:${SOLR_PORT}/solr/admin/info/system?wt=json&indent=on" | python -m json.tool
+$SOLR_STOP_CMD
+
+cp -p ${CONFIG_FILES}/schema.xml ${SOLR_CORE}/conf/schema.xml
 cp -p ${CONFIG_FILES}/solrconfig.xml ${SOLR_CORE}/conf/solrconfig.xml
-cp -p ${CONFIG_FILES}/schema.xml     ${SOLR_CORE}/conf/schema.xml
 
 echo 'Starting server'
+$SOLR_START_CMD
 
-cd $SOLR_ROOT
-
-# We use exec to allow process monitors to correctly kill the
-# actual Java process rather than this launcher script:
-export CMD="java -Djetty.port=9001 -Djava.awt.headless=true -Dapple.awt.UIElement=true -Dsolr.home=${SOLR_ROOT} -Dsolr.data.dir=${SOLR_CORE}/data -jar start.jar"
-
-if [ -z "${BACKGROUND_SOLR}" ]; then
-    exec $CMD
-else
-    exec $CMD 1>/dev/null 2>/dev/null &
-fi
+echo -e "To stop the server, run:\n\n\t ${SOLR_STOP_CMD}\n"
