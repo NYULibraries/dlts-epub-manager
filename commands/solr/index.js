@@ -4,35 +4,6 @@ const _ = require( 'lodash' );
 
 let util  = require( '../../lib/util' );
 
-const SOLR_FIELDS = [
-    'id',
-    'author',
-    'author_sort',
-    'collection_code',
-    'coverage',
-    'coverHref',
-    'date',
-    'description',
-    'description_html',
-    'format',
-    'handle',
-    'identifier',
-    'language',
-    'license',
-    'license_abbreviation',
-    'license_icon',
-    'license_link',
-    'packageUrl',
-    'publisher',
-    'rights',
-    'subject',
-    'subtitle',
-    'thumbHref',
-    'title',
-    'title_sort',
-    'type',
-];
-
 let em;
 
 module.exports = function( vorpal ){
@@ -223,7 +194,7 @@ function addEpubs( epubMetadataAll) {
         );
 
         // Filter out any metadata fields that don't need to go into Solr
-        doc = _.pick( doc, SOLR_FIELDS );
+        doc = _.pick( doc, util.SOLR_FIELDS );
 
         addRequest.push( doc );
         epubsAdded.push( epubMetadata.identifier );
