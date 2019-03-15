@@ -234,40 +234,8 @@ function addEpubs( epubs ) {
 }
 
 function getEpubs() {
-    // Request all fields except for timestamp.
-    const FIELDS = [
-        'id',
-        'author',
-        'author_sort',
-        'collection_code',
-        'coverage',
-        'coverHref',
-        'date',
-        'description',
-        'description_html',
-        'format',
-        'handle',
-        'identifier',
-        'language',
-        'license',
-        'license_abbreviation',
-        'license_abbreviation_facet',
-        'license_icon',
-        'license_link',
-        'packageUrl',
-        'publisher',
-        'rights',
-        'subject',
-        'subject_facet',
-        'subtitle',
-        'thumbHref',
-        'title',
-        'title_sort',
-        'type',
-    ];
-
     let solrSelectUrl = util.getSolrSelectUrl( conf ) + '/?rows=100&wt=json';
-    solrSelectUrl += '&fl=' + FIELDS.join( ',' );
+    solrSelectUrl += '&fl=' + util.SOLR_FIELDS.join( ',' );
 
     let response = request( 'GET', solrSelectUrl );
 
