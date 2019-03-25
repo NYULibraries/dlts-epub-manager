@@ -111,14 +111,11 @@ function addHandles( epubMetadataAll ) {
     let handlesAdded = [];
 
     epubMetadataAll.forEach( ( epubMetadata ) => {
-            let bindingHostnameFor = {
-                'oa-books'        : 'openaccessbooks.nyupress.org',
-                'connected-youth' : 'connectedyouth.nyupress.org',
-            };
+            const bindingUrl = `http://opensquare.nyupress.org/books/${ epubMetadata.identifier }`;
 
             let body = `<?xml version="1.0" encoding="UTF-8"?>
     <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handle">
-        <hs:binding>http://${bindingHostnameFor[ epubMetadata.collection_code ]}/details/${epubMetadata.identifier}</hs:binding>
+        <hs:binding>${ bindingUrl }</hs:binding>
         <hs:description></hs:description>
     </hs:info>`;
 
