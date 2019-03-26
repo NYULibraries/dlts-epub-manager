@@ -311,6 +311,7 @@ function getReadiumJsonForEpub( epubMetadata ) {
         'publisher'        : epubMetadata.publisher,
         'rights'           : epubMetadata.rights,
         'rootUrl'          : epubMetadata.rootUrl,
+        'series_names'     : epubMetadata.series_names,
         'subject'          : epubMetadata.subject,
         'subtitle'         : epubMetadata.subtitle,
         'thumbHref'        : epubMetadata.thumbHref,
