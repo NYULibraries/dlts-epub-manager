@@ -146,6 +146,7 @@
     <field name="packageUrl" type="text_en" indexed="true" stored="true" required="true" multiValued="false" docValues="false" />
     <field name="publisher" type="text_en" indexed="true" stored="true" required="true" multiValued="false" docValues="false" />
     <field name="rights" type="text_en" indexed="true" stored="true" required="false" multiValued="false" docValues="false" />
+    <field name="series_names" type="text_en" indexed="true" stored="true" required="false" multiValued="true" docValues="false" />
     <field name="subject" type="text_en" indexed="true" stored="true" required="true" multiValued="false" docValues="false" />
     <field name="subject_facet" type="string" indexed="false" stored="true" required="true" multiValued="false" docValues="false" />
     <field name="subtitle" type="text_en" indexed="true" stored="true" required="false" multiValued="false" docValues="false" />
