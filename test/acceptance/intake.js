@@ -89,7 +89,7 @@ describe( 'intake command', function() {
 
         // Normally would like to keep to a single assert per test, but making an
         // exception here because the test intake is such an expensive operation,
-        // would like to avoid repeating it unecessarily.
+        // would like to avoid repeating it unnecessarily.
 
         thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
         assert(
