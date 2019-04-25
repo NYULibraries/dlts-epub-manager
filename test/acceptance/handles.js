@@ -42,7 +42,7 @@ describe( 'handles command', () => {
     } );
 
     it( 'should correctly add all handles to handle server', () => {
-        vorpal.parse( [ null, null, 'handles', 'add', 'full-metadataDir' ] );
+        vorpal.execSync(  'handles add full-metadataDir', { fatal : true } );
 
         assert(
             restfulHandleServerStub.stateEquals( expectedFullMetadataDirHandles ),
@@ -54,8 +54,9 @@ describe( 'handles command', () => {
         let expected = _.cloneDeep( expectedFullMetadataDirHandles );
         expected.splice( 0, 3 );
 
-        vorpal.parse( [ null, null, 'handles', 'add', 'full-metadataDir' ] );
-        vorpal.parse( [ null, null, 'handles', 'delete', 'delete-3' ] );
+        vorpal.execSync(  'handles add full-metadataDir', { fatal : true } );
+        vorpal.execSync(  'handles delete delete-3', { fatal : true } );
+
 
         assert( restfulHandleServerStub.stateEquals( expected ),
             "RestfulHandelServerStub object's state does not match expected."
