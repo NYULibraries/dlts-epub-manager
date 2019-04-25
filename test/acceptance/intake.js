@@ -85,7 +85,7 @@ describe( 'intake command', function() {
             process.exit(1);
         }
 
-        vorpal.parse( [ null, null, 'intake', 'add' ] );
+        vorpal.execSync(  'intake add', { fatal : true } );
 
         // Normally would like to keep to a single assert per test, but making an
         // exception here because the test intake is such an expensive operation,
@@ -169,7 +169,7 @@ describe( 'intake command', function() {
             process.exit(1);
         }
 
-        vorpal.parse( [ null, null, 'intake', 'add', '--skip-metadata' ] );
+        vorpal.execSync(  'intake add --skip-metadata', { fatal : true } );
 
         // Normally would like to keep to a single assert per test, but making an
         // exception here because the test intake is such an expensive operation,
