@@ -22,7 +22,7 @@
     "rimraf": "2.5.2",
     "striptags": "3.0.1",
     "sync-request": "3.0.1",
-    "vorpal": "1.10.8"
+    "vorpal": "^1.12.0"
   },
   "devDependencies": {
     "chai": "3.5.0",
