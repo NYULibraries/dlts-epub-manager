@@ -21,7 +21,7 @@ describe( 'readium-json command', () => {
     } );
 
     beforeEach( ( ) => {
-        vorpal.parse( [ null, null, 'readium-json', 'delete', 'all', 'full-metadataDir' ] );
+        vorpal.execSync( 'readium-json delete all full-metadataDir', { fatal : true } );
     } );
 
     it( 'should correctly delete all EPUBs from epub_library.json', () => {
@@ -36,7 +36,7 @@ describe( 'readium-json command', () => {
             `Test is not set up right.  ${readiumJsonFile} should contain ${countOfExpectedEpubs}` +
             ' EPUBs before the `delete all` operation.' );
 
-        vorpal.parse( [ null, null, 'readium-json', 'delete', 'all', 'full-metadataDir' ] );
+        vorpal.execSync(  'readium-json delete all full-metadataDir', { fatal : true } );
 
         let epubsAfter = JSON.parse( fs.readFileSync( readiumJsonFile ) );
 
@@ -56,7 +56,7 @@ describe( 'readium-json command', () => {
                 `Test is not set up right.  ${readiumJsonFile} should contain ${countOfExpectedEpubs}` +
                 ' EPUBs before the `delete all` operation.' );
 
-        vorpal.parse( [ null, null, 'readium-json', 'delete', 'delete-3' ] );
+        vorpal.execSync( 'readium-json delete delete-3', { fatal : true } );
 
         let expectedDelete3 = util.jsonStableStringify(
             require( './expected/readiumJsonFiles/expected_delete_delete-3_epub_library.json')
@@ -68,7 +68,7 @@ describe( 'readium-json command', () => {
     } );
 
     it( 'should correctly add all EPUBs to epub_library.json', () => {
-        vorpal.parse( [ null, null, 'readium-json', 'add', 'full-metadataDir' ] );
+        vorpal.execSync( 'readium-json add full-metadataDir', { fatal : true } );
 
         let readiumJsonFile = `${vorpal.em.rootDir}/${vorpal.em.conf.readiumJsonFile}`;
 
@@ -84,7 +84,7 @@ describe( 'readium-json command', () => {
         // and added to.
         fs.writeFileSync( readiumJsonFile, expectedFull, { flag : 'w' } );
 
-        vorpal.parse( [ null, null, 'readium-json', 'add', 'replace-3-new-3' ] );
+        vorpal.execSync( 'readium-json add replace-3-new-3', { fatal : true } );
 
         let expectedReplace3New3 = util.jsonStableStringify(
             require( './expected/readiumJsonFiles/expected_add_replace-3-new-3_epub_library.json')
@@ -107,7 +107,7 @@ describe( 'readium-json command', () => {
                 `Test is not set up right.  ${readiumJsonFile} should contain ${countOfExpectedEpubs}` +
                 ' EPUBs before the `delete all` operation.' );
 
-        vorpal.parse( [ null, null, 'readium-json', 'full-replace', 'replace-3-new-3' ] );
+        vorpal.execSync( 'readium-json full-replace replace-3-new-3', { fatal : true } );
 
         let expectedReplace3New3 = util.jsonStableStringify(
             require( './expected/readiumJsonFiles/expected_full-replace_replace-3-new-3_epub_library.json')

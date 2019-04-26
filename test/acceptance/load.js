@@ -23,7 +23,7 @@ describe( 'load command', () => {
         } );
 
         it( 'should correctly load the corresponding private config file ', () => {
-            vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
+            vorpal.execSync(  'load full-metadataDir', { fatal : true } );
 
             assert.equal(
                 `${vorpal.em.conf.restfulHandleServerUsername}:${vorpal.em.conf.restfulHandleServerPassword}`,
@@ -44,18 +44,18 @@ describe( 'load command', () => {
         } );
 
         beforeEach( ( ) => {
-            vorpal.parse( [ null, null, 'load', 'clear' ] );
+            vorpal.execSync( 'load clear', { fatal : true } );
         } );
 
         it( 'should correctly load from local metadataDir', () => {
-            vorpal.parse( [ null, null, 'load', 'full-metadataDir' ] );
+            vorpal.execSync( 'load full-metadataDir', { fatal : true } );
             let actual = vorpal.em.metadata.dumpCanonical();
 
             assert( actual === expected, 'Metadata loaded from metadataDir did not match expected.' );
         } );
 
         it( 'should correctly load from local metadataRepo', () => {
-            vorpal.parse( [ null, null, 'load', 'full-metadataRepo' ] );
+            vorpal.execSync( 'load full-metadataRepo', { fatal : true } );
             let actual = vorpal.em.metadata.dumpCanonical();
 
             assert( actual === expected, 'Metadata loaded from metadataRepo did not match expected.' );

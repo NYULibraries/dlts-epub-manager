@@ -65,7 +65,7 @@ describe( 'solr command', () => {
             assert.fail( null, null, error );
         }
 
-        vorpal.parse( [ null, null, 'solr', 'delete', 'all' ] );
+        vorpal.execSync( 'solr delete all', { fatal : true } );
 
         let epubs = getEpubs();
 
@@ -81,7 +81,7 @@ describe( 'solr command', () => {
             assert.fail( null, null, error );
         }
 
-        vorpal.parse( [ null, null, 'solr', 'delete', 'delete-3' ] );
+        vorpal.execSync( 'solr delete delete-3', { fatal : true } );
 
         let epubs = getEpubs();
 
@@ -97,7 +97,7 @@ describe( 'solr command', () => {
     } );
 
     it( 'should correctly add all EPUBs to Solr index', () => {
-        vorpal.parse( [ null, null, 'solr', 'add', 'full-metadataDir' ] );
+        vorpal.execSync( 'solr add full-metadataDir', { fatal : true } );
 
         let epubs = getEpubs();
 
@@ -112,7 +112,7 @@ describe( 'solr command', () => {
             assert.fail( null, null, error );
         }
 
-        vorpal.parse( [ null, null, 'solr', 'add', 'replace-3-new-3' ] );
+        vorpal.execSync( 'solr add replace-3-new-3', { fatal : true } );
 
         let epubs = getEpubs();
 
@@ -128,7 +128,7 @@ describe( 'solr command', () => {
             assert.fail( null, null, error );
         }
 
-        vorpal.parse( [ null, null, 'solr', 'full-replace', 'replace-3-new-3' ] );
+        vorpal.execSync( 'solr full-replace replace-3-new-3', { fatal : true } );
 
         let epubs = getEpubs();
 
