@@ -15,7 +15,7 @@
   "dependencies": {
     "adm-zip": "0.4.13",
     "dateformat": "3.0.3",
-    "glob": "https://registry.npmjs.org/glob/-/glob-3.2.3.tgz",
+    "glob": "7.1.3",
     "json-stable-stringify": "1.0.1",
     "lodash": "4.17.11",
     "pixl-xml": "1.0.13",
