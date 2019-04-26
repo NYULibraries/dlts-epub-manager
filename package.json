@@ -13,7 +13,7 @@
   "author": "da70",
   "license": "ISC",
   "dependencies": {
-    "adm-zip": "0.4.11",
+    "adm-zip": "0.4.13",
     "dateformat": "2.0.0",
     "glob": "https://registry.npmjs.org/glob/-/glob-3.2.3.tgz",
     "json-stable-stringify": "1.0.1",
