@@ -19,7 +19,7 @@
     "json-stable-stringify": "1.0.1",
     "lodash": "4.17.11",
     "pixl-xml": "1.0.13",
-    "rimraf": "2.5.2",
+    "rimraf": "2.6.3",
     "striptags": "3.0.1",
     "sync-request": "3.0.1",
     "vorpal": "^1.12.0"
