@@ -16,7 +16,7 @@ const TMP_METADATA     = __dirname + '/tmp/metadata';
 vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
-describe( 'intake command', () => {
+describe( 'metadata command', () => {
 
     it( 'should correctly generate correct metadata files', function() {
         let loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
