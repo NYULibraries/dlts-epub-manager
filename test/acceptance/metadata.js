@@ -18,7 +18,49 @@ vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
 describe( 'metadata command', () => {
 
-    it( 'should correctly generate correct metadata files', function() {
+    it( 'should correctly generate correct metadata files for EPUBs in intakeEpubDir', function() {
+        let loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
+
+        assert( loadSucceeded === true,
+                'ERROR: test is not set up right.  ' +
+                `Failed to load configuration "${CONF_METADATA_FULL}".` );
+
+        assert(
+            // Conf file metadataDir is relative path, have to change it to
+            // absolute for comparison
+            path.dirname( path.dirname ( __dirname ) ) + '/' +
+            vorpal.em.conf.metadataDir === TMP_METADATA,
+            `metadataDir is not ${TMP_METADATA}`
+        );
+
+        let metadataDir = vorpal.em.conf.metadataDir,
+            metadataComparison,
+            metadataExpectedDir = __dirname + '/expected/generated-metadata-files',
+
+            compareOptions = {
+                compareContent : true,
+                excludeFilter  : '.commit-empty-directory',
+            };
+
+        try {
+            rimraf.sync( TMP_METADATA + '/*' );
+        } catch ( error ) {
+            vorpal.log( `ERROR clearing ${TMP_METADATA}: ${error}` );
+
+            process.exit(1);
+        }
+
+        vorpal.execSync(  'metadata add', { fatal : true } );
+
+        metadataComparison = dircompare.compareSync(
+            metadataDir, metadataExpectedDir,
+            compareOptions
+        );
+
+        assert( metadataComparison.same === true, `${metadataDir} does not match ${metadataExpectedDir}` );
+    } );
+
+    it( 'should correctly generate correct metadata files for 1 EPUB in metadataEpubList', function() {
         let loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
 
         assert( loadSucceeded === true,
