@@ -35,7 +35,7 @@ describe( 'intake command', () => {
 
         let metadataDir = vorpal.em.conf.metadataDir,
             metadataComparison,
-            metadataExpectedDir = __dirname + '/expected/metadata-from-intake',
+            metadataExpectedDir = __dirname + '/expected/generated-metadata-files',
 
             compareOptions = {
                 compareContent : true,
