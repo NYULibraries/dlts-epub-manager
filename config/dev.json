@@ -6,6 +6,8 @@
     "metadataRepoBranch"       : "develop",
     "metadataRepoSubdirectory" : "nyupress",
 
+    "readiumJsonFile"          : "/Users/david/Documents/nyu/dlts/projects/nyu-press-readium-epub-content/epub_library.json",
+
     "restfulHandleServerHost" : "devhandle.dlib.nyu.edu",
     "restfulHandleServerPath" : "/id/handle",
 
