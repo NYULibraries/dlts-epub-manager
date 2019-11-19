@@ -2,7 +2,7 @@
     "cacheMetadataInMemory" : true,
 
     "metadataDir"           : "test/acceptance/tmp/metadata",
-    "metadataEpubList"      : [ "9780814706404" ],
+    "metadataEpubList"      : [ "9780814711774", "9781479899982", "9781479892464" ],
 
     "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
 

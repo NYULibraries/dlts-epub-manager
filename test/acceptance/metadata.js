@@ -60,7 +60,7 @@ describe( 'metadata command', () => {
         assert( metadataComparison.same === true, `${metadataDir} does not match ${metadataExpectedDir}` );
     } );
 
-    it( 'should correctly generate correct metadata files for 1 EPUB in metadataEpubList', function() {
+    it( 'should correctly generate correct metadata files for 3 EPUBs in metadataEpubList', function() {
         let loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
 
         assert( loadSucceeded === true,
