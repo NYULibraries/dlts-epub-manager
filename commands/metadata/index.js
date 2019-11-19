@@ -67,7 +67,7 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); }
                     return true;
                 } catch ( error ) {
-                    vorpal.log( 'ERROR in intake of EPUB:\n' +
+                    vorpal.log( 'ERROR in generation of metadata file(s) for EPUB:\n' +
                                 error );
 
                     if ( callback ) { callback(); }
