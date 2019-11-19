@@ -47,14 +47,20 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                if ( ! em.intakeEpubList ) {
-                    vorpal.log( util.ERROR_INTAKE_EPUB_LIST_NOT_LOADED );
+                let epubIdList;
+                if ( em.intakeEpubList ) {
+                    epubIdList = em.intakeEpubList;
+                } else {
+                    try {
+                        epubIdList = getIdsForAllEpubsInCatalog();
+                    } catch( error ) {
+                        vorpal.log( `ERROR in retrieval of EPUB ids in catalog:\n` +
+                                    error );
 
-                    if ( callback ) { callback(); }
-                    return false;
+                        if ( callback ) { callback(); }
+                        return false;
+                    }
                 }
-
-                let epubIdList = em.intakeEpubList;
 
                 try {
                     let epubsCompleted = generateMetadataFiles(
@@ -144,6 +150,10 @@ function createIntakeDescriptiveMetadataFile( supafolioBookMetadata, handle, out
 
 function createDltsAdministrativeMetadataFile( metadata, outputFile ) {
     fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
+}
+
+function getIdsForAllEpubsInCatalog() {
+    // TODO
 }
 
 function getHandleForEpub( epubId ) {
