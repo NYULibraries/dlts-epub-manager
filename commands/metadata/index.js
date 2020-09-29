@@ -1,11 +1,11 @@
 "use strict";
 
-let execSync = require( 'child_process' ).execSync;
-let fs       = require( 'fs' );
-let path     = require( 'path' );
-let rimraf   = require( 'rimraf' );
+const execSync = require( 'child_process' ).execSync;
+const fs       = require( 'fs' );
+const path     = require( 'path' );
+const rimraf   = require( 'rimraf' );
 
-let util     = require( '../../lib/util' );
+const util     = require( '../../lib/util' );
 
 let em;
 
