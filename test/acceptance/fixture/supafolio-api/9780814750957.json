@@ -1,0 +1,10 @@
+{
+  "status": "error",
+  "data": {
+    "errors": [
+      {
+        "message": "Product not in database"
+      }
+    ]
+  }
+}

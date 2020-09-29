@@ -1,0 +1,417 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814751210",
+        "description": "<p>Despite tremendous advances in civil rights, we live in a world where the sexes remain sharply segregated from birth to death: in names, clothing, social groupings, and possessions; in occupations, civic association, and domestic roles. Gender separatism, so pervasive as to be almost invisible, permeates the fabric of our daily social routines. Preferring a notion of gender that is fluid and contextual, and denying that separatism is inevitable, Nancy Levit dismantles the myths of gender essentialism Drawing on a wealth of interdisciplinary data regarding the biological and cultural origins of sex differences, Levit provides a fresh perspective on gendered behaviors and argues the need for careful cultivation of new relations between the sexes.<br> With its focus particularly on men, <b>The Gender Line</b> offers an insightful overview of the construction of gender and the damaging effects of its stereotypes. Levit analyzes the ways in which law legitimizes the social segregation of the sexes through legal decisions regarding custody, employment, education, sexual harassment, and criminal law. In so doing, she illustrates the ways in which men's and women's oppressions are intertwined and how law molds the very definition of masculinity.<br> Applying feminist methodology to the doctrine of feminism itself, Levit artfully demonstrates that gender separatism infects even our contemporary views of feminism. Levit asks questions that have been too long been unspoken--those that lie at the core of the feminist project, yet threaten its very foundations. Revealing masculinity as both a privileged and a victimized condition, she calls for a step forward, past the bounds of contemporary feminism and its conflicts, toward a more egalitarian and inclusive feminism. This brand of feminism would reshape traditional masculinity, invite men into feminist dialogue, and claim men as political allies.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 312,
+        "search_weight": 580,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814751213",
+          "cs_title_group": "9780814751213",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814752715",
+          "ebook": "9780814752951",
+          "hardcover": "9780814751213",
+          "paperback": "9780814751220",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.33682/05qftw3j"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": false,
+        "date": {
+          "__className": "DateTime",
+          "date": "1998-04-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "__className": "DateTime",
+          "date": "1998-04-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 891406800,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 130,
+        "isbn13": "9780814751213",
+        "title": "The Gender Line",
+        "title_without_prefix": "Gender Line",
+        "seo": "the-gender-line",
+        "subtitle": "Men, Women, and the Law",
+        "title_id": "49a2445e162ccf2c18e91c7200807f8d",
+        "reference_id": null,
+        "summary": "Despite tremendous advances in civil rights, we live in a world where the sexes remain sharply segregated from birth to death: in names, clothing, social groupings, and possessions; in occupations,...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "AUD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "__className": "DateTime",
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "GBP",
+            "amount": "74.00",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.080",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "78",
+            "series": {
+              "name": "Critical America",
+              "seo_name": "critical-america",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUWGS000",
+              "code_3": "NYU",
+              "code_6": "NYUWGS",
+              "name": "Women's & Gender Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUWGS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUWGSWL0",
+              "code_3": "NYU",
+              "code_6": "NYUWGS",
+              "name": "Women's & Gender Studies / Women & the Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUWGSWL"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Nancy Levit",
+            "contributor_id": 100081,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100081,
+              "name": "Nancy Levit",
+              "first": "Nancy",
+              "last": "Levit",
+              "seo": "nancy-levit",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Nancy Levit</b> is Curators' and Edward D. Ellison Professor of Law at the University of Missouri-Kansas City School of Law.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "398-130",
+            "asset_id": "398",
+            "asset": {
+              "id": "398",
+              "unique": "7cfe17ddd755db786dfcb5a628fc6289",
+              "name": "648-H-9780814751213.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "130-130",
+            "asset_id": "130",
+            "asset": {
+              "id": "130",
+              "unique": "ac5dfa9c417a44dbbf04935a3bf040c3",
+              "name": "145-W-9780814751213.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "264-130",
+            "asset_id": "264",
+            "asset": {
+              "id": "264",
+              "unique": "b902a7660f8a625e203ad56f9af2f541",
+              "name": "298-W-9780814751213.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB130",
+            "format_id": "BB",
+            "seo_link": "the-gender-line",
+            "detail": "Print PDF",
+            "title_id": "49a2445e162ccf2c18e91c7200807f8d",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814751213",
+            "edition": "",
+            "product_id": 130,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1998-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG63",
+            "format_id": "DG",
+            "seo_link": "the-gender-line",
+            "detail": "",
+            "title_id": "49a2445e162ccf2c18e91c7200807f8d",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814752715",
+            "edition": "",
+            "product_id": 63,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1998-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG318",
+            "format_id": "DG",
+            "seo_link": "the-gender-line",
+            "detail": "",
+            "title_id": "49a2445e162ccf2c18e91c7200807f8d",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814752951",
+            "edition": "",
+            "product_id": 318,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1998-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC319",
+            "format_id": "BC",
+            "seo_link": "the-gender-line",
+            "detail": "Print PDF",
+            "title_id": "49a2445e162ccf2c18e91c7200807f8d",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814751220",
+            "edition": "",
+            "product_id": 319,
+            "primary_format": true,
+            "date": {
+              "__className": "DateTime",
+              "date": "2000-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "130-6953",
+            "review_id": "6953",
+            "review": {
+              "id": "6953",
+              "reviewer": "Choice",
+              "description": "\"Drawing on a variety of disciplines, Levit contends that both society generally and some feminists in particular have exaggerated the evidence of difference between males and females and have overlooked the far more prevalent similarities. . . . A readable, thoughtful, and controversial volume.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814751213-dbabd487dc78abe594289219e593c322",
+              "assets": []
+            }
+          },
+          {
+            "id": "130-6954",
+            "review_id": "6954",
+            "review": {
+              "id": "6954",
+              "reviewer": "June Carbone,Santa Clara Law School",
+              "description": "\"The Gender Line marks feminism's coming of age. Levit tackles the issue of gender not just as it affects women, but as it constrains everyone. Her book brings new insight into the meaning of masculinity and femininity and their role in society.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814751213-80f4019ff8d8c06b8318da9d57e280c5",
+              "assets": []
+            }
+          },
+          {
+            "id": "130-6955",
+            "review_id": "6955",
+            "review": {
+              "id": "6955",
+              "reviewer": "Michael Kimmel,Professor of Sociology, SUNY/Stony Brook, author of Manhood in America",
+              "description": "\"TheGender Line is a rare combinationboth a sober and sensible analysis of how the law constructs gender difference and inequality, and a passionate voice for gender equality and justice. Nancy Levit strikes just the right tone: empowering to women and empathetic to men. I can't wait to use it in class!\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814751213-59cd8b19c942fbe54eeaab7e5b9afdc4",
+              "assets": []
+            }
+          },
+          {
+            "id": "130-6956",
+            "review_id": "6956",
+            "review": {
+              "id": "6956",
+              "reviewer": "Jack M. Balkin,Lafayette S. Foster Professor, Yale Law School",
+              "description": "\"In TheGender Line, Nancy Levit shows how our culture's norms of masculinity and femininity have harmed men as well as women; she offers a new feminist vision that seeks to reshape masculinity for the benefit of all human beings. Here is a book that argues persuasively that men need the insights of feminism as much as feminism needs alliances with men.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814751213-07624354c5830b85ab6c3356e6ff5725",
+              "assets": []
+            }
+          },
+          {
+            "id": "130-6957",
+            "review_id": "6957",
+            "review": {
+              "id": "6957",
+              "reviewer": "Judge Norma L. Shapiro,Jurist",
+              "description": "\"Interesting and important. . . . It should be compulsory reading in preparation for law study to stimulate and inspire individuals aspiring to learn to construct a society more egalitarian than we now know.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814751213-6f053145b8c2f99e25bdcc4fdc3d537b",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

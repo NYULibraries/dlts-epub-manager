@@ -1,0 +1,1 @@
+These are the actual Supafolio API responses as of 2020-09-29.  They are here for initial development of the tests, they are not (necessarily) the final fixture files, as we do not yet know whether the Supafolio API is 100% correct and/or suitable.

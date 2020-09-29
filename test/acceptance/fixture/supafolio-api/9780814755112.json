@@ -1,0 +1,337 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814755119",
+        "description": "<p>What do Catharine MacKinnon, the legacy of Brown v. Board of Education, and Lani Guinier have in common? All have, in recent years, become flashpoints for different approaches to legal reform. In the last quarter century, the study and practice of law have been profoundly influenced by a number of powerful new movements; academics and activists alike are rethinking the interaction between law and society, focusing more on the tangible effects of law on human lives than on its procedural elements.<br> In this wide-ranging and comprehensive volume, Gary Minda surveys the current state of legal scholarship and activism, providing an indispensable guide to the evolution of law in America.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 362,
+        "search_weight": 550,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814755112",
+          "cs_title_group": "9780814755105",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814763223",
+          "ebook": "9780814761014",
+          "hardcover": "9780814755105",
+          "paperback": "9780814755112",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.33682/z612jp24"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "__className": "DateTime",
+          "date": "1996-05-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "__className": "DateTime",
+          "date": "1996-05-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 830923200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 354,
+        "isbn13": "9780814755112",
+        "title": "Postmodern Legal Movements",
+        "title_without_prefix": "Postmodern Legal Movements",
+        "seo": "postmodern-legal-movements",
+        "subtitle": "Law and Jurisprudence At Century's End",
+        "title_id": "df110237ed2587221ccc196f57416fce",
+        "reference_id": null,
+        "summary": "What do Catharine MacKinnon, the legacy of Brown v. Board of Education, and Lani Guinier have in common? All have, in recent years, become flashpoints for different approaches to legal reform. In...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "30.00",
+            "discount": null,
+            "promo_start": {
+              "__className": "DateTime",
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "AUD",
+            "amount": "30.00",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.070",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Gary Minda",
+            "contributor_id": 100042,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100042,
+              "name": "Gary Minda",
+              "first": "Gary",
+              "last": "Minda",
+              "seo": "gary-minda",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "Gary Minda is Professor of Law at Brooklyn Law School.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1126-354",
+            "asset_id": "1126",
+            "asset": {
+              "id": "1126",
+              "unique": "c960743c066da767244bf6733cda7b7e",
+              "name": "648-H-9780814755112.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "874-354",
+            "asset_id": "874",
+            "asset": {
+              "id": "874",
+              "unique": "3661f5772037a009aa5a09a2391e9b46",
+              "name": "145-W-9780814755112.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "1000-354",
+            "asset_id": "1000",
+            "asset": {
+              "id": "1000",
+              "unique": "ba29a8d6304747914f26049fc86a63e7",
+              "name": "298-W-9780814755112.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC354",
+            "format_id": "BC",
+            "seo_link": "postmodern-legal-movements",
+            "detail": "Print PDF",
+            "title_id": "df110237ed2587221ccc196f57416fce",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814755112",
+            "edition": "",
+            "product_id": 354,
+            "primary_format": true,
+            "date": {
+              "__className": "DateTime",
+              "date": "1996-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG32",
+            "format_id": "DG",
+            "seo_link": "postmodern-legal-movements",
+            "detail": "",
+            "title_id": "df110237ed2587221ccc196f57416fce",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814763223",
+            "edition": "",
+            "product_id": 32,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1996-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG353",
+            "format_id": "DG",
+            "seo_link": "postmodern-legal-movements",
+            "detail": "",
+            "title_id": "df110237ed2587221ccc196f57416fce",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814761014",
+            "edition": "",
+            "product_id": 353,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1996-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "354-6751",
+            "review_id": "6751",
+            "review": {
+              "id": "6751",
+              "reviewer": "David Kennedy,Harvard Law School",
+              "description": "\"An exceedingly well-informed look at the most important trend in legal scholarship today. An excellent, readable presentation of the most controversial and difficult ideas about law and legal culture.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814755112-478169fe580e89471878ae19502ccce0",
+              "assets": []
+            }
+          },
+          {
+            "id": "354-6752",
+            "review_id": "6752",
+            "review": {
+              "id": "6752",
+              "reviewer": "Mark Tushnet,Georgetown University Law Center",
+              "description": "\"Deserves the attention of all who are interested in understanding the state of jurisprudence in the 1990s.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814755112-60b1c3ab602370c002ed7f180f6e388a",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

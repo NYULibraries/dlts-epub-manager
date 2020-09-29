@@ -1,0 +1,337 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814742297",
+        "description": "<p>\"When BooBoo stabs Morris Boyle I am reading a news magazine that someone has smuggled into the wing.\"<br> Thus, the protagonist of this novella introduces us to prison, one of the several worlds he inhabits, worlds most of us would rather ignore but which inexorably, through what we see and hear and read and live on uncountable American streets, has become the one world we can no longer avoid. It seduces us with the voice of drugs and violence. Of the disenfranchised. Of those both at once outside and standing within the center of what no longer holds. It informs us of who we are today.</p>",
+        "tagline": null,
+        "type": "Fiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 192,
+        "search_weight": 450,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814742297",
+          "cs_title_group": "9780814742297",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814743980",
+          "ebook": "9780814743218",
+          "hardcover": "9780814742297",
+          "paperback": false,
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.33682/15dv439j"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "__className": "DateTime",
+          "date": "1996-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "__className": "DateTime",
+          "date": "1996-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 825656400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 106,
+        "isbn13": "9780814742297",
+        "title": "Bird-Self Accumulated",
+        "title_without_prefix": "Bird-Self Accumulated",
+        "seo": "bird-self-accumulated",
+        "subtitle": "",
+        "title_id": "95821454aa2c85859092048cc5cc8e4a",
+        "reference_id": null,
+        "summary": "\"When BooBoo stabs Morris Boyle I am reading a news magazine that someone has smuggled into the wing.\" Thus, the protagonist of this novella introduces us to prison, one of the several worlds...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "19.99",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "25.00",
+            "discount": null,
+            "promo_start": {
+              "__className": "DateTime",
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "AUD",
+            "amount": "25.00",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "7.000",
+          "width": "5.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.040",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUC00000",
+              "code_3": "NYU",
+              "code_6": "NYUC00",
+              "name": "Criminology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUC"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULLS000",
+              "code_3": "NYU",
+              "code_6": "NYULLS",
+              "name": "Literature & Literary Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULLS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Don Judson",
+            "contributor_id": 100051,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100051,
+              "name": "Don Judson",
+              "first": "Don",
+              "last": "Judson",
+              "seo": "don-judson",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "After spending four and a half years in a Forida prison, <b>Don Judson</b> attended Brown University. Since graduating, he has published fiction in journals such as <i>Central Park</i> and <i>New Letters</i>. <i>Bird-Self Accumulated</i> is a winner of the Mamdouha S. Bobst Literary Award. This is his first book.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "374-106",
+            "asset_id": "374",
+            "asset": {
+              "id": "374",
+              "unique": "d507603493f1a30d0cc38223cadc1238",
+              "name": "648-H-9780814742297.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "106-106",
+            "asset_id": "106",
+            "asset": {
+              "id": "106",
+              "unique": "3a3af0d895dfe06f79a1328f30574287",
+              "name": "145-W-9780814742297.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "240-106",
+            "asset_id": "240",
+            "asset": {
+              "id": "240",
+              "unique": "f0ee6d3eae7cc6bd6998a2079cc11ab5",
+              "name": "298-W-9780814742297.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB106",
+            "format_id": "BB",
+            "seo_link": "bird-self-accumulated",
+            "detail": "Print PDF",
+            "title_id": "95821454aa2c85859092048cc5cc8e4a",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814742297",
+            "edition": "",
+            "product_id": 106,
+            "primary_format": true,
+            "date": {
+              "__className": "DateTime",
+              "date": "1996-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG39",
+            "format_id": "DG",
+            "seo_link": "bird-self-accumulated",
+            "detail": "",
+            "title_id": "95821454aa2c85859092048cc5cc8e4a",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814743980",
+            "edition": "",
+            "product_id": 39,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1996-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG271",
+            "format_id": "DG",
+            "seo_link": "bird-self-accumulated",
+            "detail": "",
+            "title_id": "95821454aa2c85859092048cc5cc8e4a",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814743218",
+            "edition": "",
+            "product_id": 271,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1996-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "106-6783",
+            "review_id": "6783",
+            "review": {
+              "id": "6783",
+              "reviewer": "Meredith Steinbach",
+              "description": "\"Brilliant, articulate, street-wise. . . Donald Judson's writings are not to be missed.  He understands the difference between lyricism for its own sake and literary dynamics and can make them dance through and around his characters in the highest literary forms.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814742297-b8f42e4edbf007b4ff342ef4f936e4fe",
+              "assets": []
+            }
+          },
+          {
+            "id": "106-6784",
+            "review_id": "6784",
+            "review": {
+              "id": "6784",
+              "reviewer": "Edmund White",
+              "description": "\"Donald Judson is someone who has big writing talent.  His work is action-packed, it's about small-town hoods, it reeks of violence&#151;but the whole is rendered in an exquisite, lyrical prose.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814742297-bb52fc3adf932fb89749c329f37636ed",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

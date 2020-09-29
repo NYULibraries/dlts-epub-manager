@@ -1,0 +1,356 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814755291",
+        "description": "<p>How do survivors of sexual and domestic violence relate to religion and to a higher power?  What are the social and religious contexts that sustain and encourage eating disorders in women?  How do these issues intersect?<br> The relationship between Christian religious discourse, incest, and eating disorders reveals an important, and so far unexamined, psychosocial phenomenon.  Drawing from interviews with incest survivors whose sexual and religious backgrounds are intimately connected with their problematic relationship with food, Jennifer Manlowe here illuminates the connections between female body, weight, and appetite preoccupations.<br>Manlowe offers social and psychological insights into the most common forms of female suffering&#151;incest and body hatred.  The volume is intended as a resource for professionals, advocates, friends of survivors, and most importantly, the survivor of incest herself as she attempts to understand the links of meaning in her mind between her incest experience and her subsequent eating disorder.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 240,
+        "search_weight": 540,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814755297",
+          "cs_title_group": "9780814755174",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814763148",
+          "ebook": "9780814796399",
+          "hardcover": "9780814755174",
+          "paperback": "9780814755297",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.33682/qnk98v8h"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "__className": "DateTime",
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "__className": "DateTime",
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 804571200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 313,
+        "isbn13": "9780814755297",
+        "title": "Faith Born of Seduction",
+        "title_without_prefix": "Faith Born of Seduction",
+        "seo": "faith-born-of-seduction",
+        "subtitle": "Sexual Trauma, Body Image, and Religion",
+        "title_id": "6fb267492a1d75863008910c776215a5",
+        "reference_id": null,
+        "summary": "How do survivors of sexual and domestic violence relate to religion and to a higher power?  What are the social and religious contexts that sustain and encourage eating disorders in women?  How do...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "AUD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "__className": "DateTime",
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.040",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUR00000",
+              "code_3": "NYU",
+              "code_6": "NYUR00",
+              "name": "Religion",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUR"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUR00SR0",
+              "code_3": "NYU",
+              "code_6": "NYUR00",
+              "name": "Religion / Sociology of Religion",
+              "type": "nyuos-subjects",
+              "seo_name": "NYURSR"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Jennifer L Manlowe",
+            "contributor_id": 100086,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100086,
+              "name": "Jennifer L Manlowe",
+              "first": "Jennifer L",
+              "last": "Manlowe",
+              "seo": "jennifer-l-manlowe",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b> Jennifer L. Manlowe</b> is Coordinator of the Brown University AIDS Program. She is the author of <i>Faith Born of Seduction: Sexual Trauma, Body Image, and Religion</i>, also available from NYU Press.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1085-313",
+            "asset_id": "1085",
+            "asset": {
+              "id": "1085",
+              "unique": "eddd8d37215987a8693987a02628d685",
+              "name": "648-H-9780814755297.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "833-313",
+            "asset_id": "833",
+            "asset": {
+              "id": "833",
+              "unique": "2e0bb84b5c4fd712bdc5b41ffb69432e",
+              "name": "145-W-9780814755297.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "959-313",
+            "asset_id": "959",
+            "asset": {
+              "id": "959",
+              "unique": "7520fb66d55fc59060646e972eb4d209",
+              "name": "298-W-9780814755297.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC313",
+            "format_id": "BC",
+            "seo_link": "faith-born-of-seduction",
+            "detail": "Print PDF",
+            "title_id": "6fb267492a1d75863008910c776215a5",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814755297",
+            "edition": "",
+            "product_id": 313,
+            "primary_format": true,
+            "date": {
+              "__className": "DateTime",
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG66",
+            "format_id": "DG",
+            "seo_link": "faith-born-of-seduction",
+            "detail": "",
+            "title_id": "6fb267492a1d75863008910c776215a5",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814763148",
+            "edition": "",
+            "product_id": 66,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB133",
+            "format_id": "BB",
+            "seo_link": "faith-born-of-seduction",
+            "detail": "Print PDF",
+            "title_id": "6fb267492a1d75863008910c776215a5",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814755174",
+            "edition": "",
+            "product_id": 133,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG312",
+            "format_id": "DG",
+            "seo_link": "faith-born-of-seduction",
+            "detail": "",
+            "title_id": "6fb267492a1d75863008910c776215a5",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814796399",
+            "edition": "",
+            "product_id": 312,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "313-6987",
+            "review_id": "6987",
+            "review": {
+              "id": "6987",
+              "reviewer": "Charles B. Strozier,author of Apocalypse: On the Psychology of Fundamentalism in America",
+              "description": "\"This moving and powerful book explores in intricate detail the spiritual consequences for women of early forms of sexual abuse and trauma. It is hard to imagine a more important subject for contemporary Americans. Manlowe's thorough scholarship and original, probing interviews will make her wonderful book a lasting contribution.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814755297-9d114ca7e5b377887f6528839e01099b",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

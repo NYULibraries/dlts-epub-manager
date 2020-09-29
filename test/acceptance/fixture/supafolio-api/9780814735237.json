@@ -1,0 +1,362 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814735231",
+        "description": "<p>The impetus behind California's Proposition 187 clearly reflects the growing anti-immigrant sentiment in this country. Many Americans regard today's new immigrants as not truly American, as somehow less committed to the ideals on which the country was founded. In clear, precise terms, Bill Ong Hing considers immigration in the context of the global economy, a sluggish national economy, and the hard facts about downsizing. Importantly, he also confronts the emphatic claims of immigrant supporters that immigrants do assimilate, take jobs that native workers don't want, and contribute more to the tax coffers than they take out of the system.<br> A major contribution of Hing's book is its emphasis on such often-overlooked issues as the competition between immigrants and African Americans, inter-group tension, and ethnic separatism, issues constantly brushed aside both by immigrant rights groups and the anti-immigrant right. Drawing on Hing's work as a lawyer deeply involved in the day-to-day life of his immigrant clients, <b>To Be An American</b> is a unique blend of substantive analysis, policy, and personal experience.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 256,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814735237",
+          "cs_title_group": "9780814735237",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814744840",
+          "ebook": "9780814773246",
+          "hardcover": "9780814735237",
+          "paperback": "9780814736098",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.33682/2280gcth"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": false,
+        "date": {
+          "__className": "DateTime",
+          "date": "1997-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "__className": "DateTime",
+          "date": "1997-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 857192400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 78,
+        "isbn13": "9780814735237",
+        "title": "To Be An American",
+        "title_without_prefix": "To Be An American",
+        "seo": "to-be-an-american",
+        "subtitle": "Cultural Pluralism and the Rhetoric of Assimilation",
+        "title_id": "116e8a547fa7d83de676b3addf5b5321",
+        "reference_id": null,
+        "summary": "The impetus behind California's Proposition 187 clearly reflects the growing anti-immigrant sentiment in this country. Many Americans regard today's new immigrants as not truly American, as somehow...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "__className": "DateTime",
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "GBP",
+            "amount": "74.00",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "AUD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.070",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "17",
+            "series": {
+              "name": "Critical America",
+              "seo_name": "critical-america",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUAFS000",
+              "code_3": "NYU",
+              "code_6": "NYUAFS",
+              "name": "African American Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUAFS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Bill Ong Hing",
+            "contributor_id": 100013,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100013,
+              "name": "Bill Ong Hing",
+              "first": "Bill Ong",
+              "last": "Hing",
+              "seo": "bill-ong-hing",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Bill Ong Hing</b> is Associate Professor of Law at Stanford Law School.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "346-78",
+            "asset_id": "346",
+            "asset": {
+              "id": "346",
+              "unique": "aea5e941e523214c3fff5a73031e899c",
+              "name": "648-H-9780814735237.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "78-78",
+            "asset_id": "78",
+            "asset": {
+              "id": "78",
+              "unique": "4b2bc3dd1e88fe37316c06cb1b2d4e47",
+              "name": "145-W-9780814735237.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "212-78",
+            "asset_id": "212",
+            "asset": {
+              "id": "212",
+              "unique": "5029498165c955970871b8067c014d60",
+              "name": "298-W-9780814735237.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB78",
+            "format_id": "BB",
+            "seo_link": "to-be-an-american",
+            "detail": "Print PDF",
+            "title_id": "116e8a547fa7d83de676b3addf5b5321",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814735237",
+            "edition": "",
+            "product_id": 78,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG10",
+            "format_id": "DG",
+            "seo_link": "to-be-an-american",
+            "detail": "",
+            "title_id": "116e8a547fa7d83de676b3addf5b5321",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814744840",
+            "edition": "",
+            "product_id": 10,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG381",
+            "format_id": "DG",
+            "seo_link": "to-be-an-american",
+            "detail": "",
+            "title_id": "116e8a547fa7d83de676b3addf5b5321",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814773246",
+            "edition": "",
+            "product_id": 381,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC382",
+            "format_id": "BC",
+            "seo_link": "to-be-an-american",
+            "detail": "Print PDF",
+            "title_id": "116e8a547fa7d83de676b3addf5b5321",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814736098",
+            "edition": "",
+            "product_id": 382,
+            "primary_format": true,
+            "date": {
+              "__className": "DateTime",
+              "date": "2000-01-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

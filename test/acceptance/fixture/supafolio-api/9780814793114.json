@@ -1,0 +1,331 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814793118",
+        "description": "<p>As we approach the 21st century, we also approach the third decade of the AIDS epidemic. Mental health care providers must face the crucial fact that the human immunodeficiency virus (HIV) and the condition it causes, Acquired Immune Deficiency Syndrome (AIDS) is the leading cause of death among Americans aged 25-44 years.<br> HIV Mental Health for the 21st Century provides a roadmap for mental health professionals who seek to develop new strategies aimed at increasing the longevity and quality of life for people living with HIV/AIDS, as well as at controlling the future spread of the disease. Divided into five sections, this volume covers basic concepts in HIV/AIDS mental health; specialized aspects of HIV/AIDS clinical care; models of clinical care; program evaluation; and HIV mental health policy and programs. Chapters treat issues such as feelings of caregivers, the role of spirituality in mental health care, rural practice, mental health home care, and working with children.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 392,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814793114",
+          "cs_title_group": "9780814793121",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814784600",
+          "ebook": "9780814794999",
+          "hardcover": "9780814793121",
+          "paperback": "9780814793114",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.33682/2rbnztw9"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "__className": "DateTime",
+          "date": "1997-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "__className": "DateTime",
+          "date": "1997-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 857192400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 324,
+        "isbn13": "9780814793114",
+        "title": "HIV Mental Health for the 21st Century",
+        "title_without_prefix": "HIV Mental Health for the 21st Century",
+        "seo": "hiv-mental-health-for-the-21st-century",
+        "subtitle": "",
+        "title_id": "e043f3a2ac7af23003c0639c47fd8830",
+        "reference_id": null,
+        "summary": "As we approach the 21st century, we also approach the third decade of the AIDS epidemic. Mental health care providers must face the crucial fact that the human immunodeficiency virus (HIV) and the...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "30.00",
+            "discount": null,
+            "promo_start": {
+              "__className": "DateTime",
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": null,
+            "saving": null
+          },
+          {
+            "locale": "AUD",
+            "amount": "30.00",
+            "discount": null,
+            "promo_start": null,
+            "promo_stop": null,
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.070",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUHM0000",
+              "code_3": "NYU",
+              "code_6": "NYUHM0",
+              "name": "Health & Medicine",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUHM"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100023,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100023,
+              "name": "Mark G. Winiarski",
+              "first": "Mark G.",
+              "last": "Winiarski",
+              "seo": "mark-g-winiarski",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<p>Mark G. Winiarski, Ph.D., is a psychologist active in HIV/AIDS work since 1987, and has been director of the federally funded AIDS Mental Health and Primary Care Integration Project at Montefiore Medical Center in New York City for five years. The author of AIDS-Related Psychotherapy, he is Assistant Professor in the Departments of Family Medicine and Psychiatry at the Albert Einstein College of Medicine.<br> Related Links: Marty Howard's HIV/AIDS HomePage</p>",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1096-324",
+            "asset_id": "1096",
+            "asset": {
+              "id": "1096",
+              "unique": "94e5ebda9a544a5ae955ebd8122f6915",
+              "name": "648-H-9780814793114.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "844-324",
+            "asset_id": "844",
+            "asset": {
+              "id": "844",
+              "unique": "8d915acfa5c846ed6d39f944fb34ad0e",
+              "name": "145-W-9780814793114.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "970-324",
+            "asset_id": "970",
+            "asset": {
+              "id": "970",
+              "unique": "9710ff10df9668e5390a9c42fed2f315",
+              "name": "298-W-9780814793114.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC324",
+            "format_id": "BC",
+            "seo_link": "hiv-mental-health-for-the-21st-century",
+            "detail": "Print PDF",
+            "title_id": "e043f3a2ac7af23003c0639c47fd8830",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814793114",
+            "edition": "",
+            "product_id": 324,
+            "primary_format": true,
+            "date": {
+              "__className": "DateTime",
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG19",
+            "format_id": "DG",
+            "seo_link": "hiv-mental-health-for-the-21st-century",
+            "detail": "",
+            "title_id": "e043f3a2ac7af23003c0639c47fd8830",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814784600",
+            "edition": "",
+            "product_id": 19,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB87",
+            "format_id": "BB",
+            "seo_link": "hiv-mental-health-for-the-21st-century",
+            "detail": "Print PDF",
+            "title_id": "e043f3a2ac7af23003c0639c47fd8830",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814793121",
+            "edition": "",
+            "product_id": 87,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG323",
+            "format_id": "DG",
+            "seo_link": "hiv-mental-health-for-the-21st-century",
+            "detail": "",
+            "title_id": "e043f3a2ac7af23003c0639c47fd8830",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814794999",
+            "edition": "",
+            "product_id": 323,
+            "primary_format": false,
+            "date": {
+              "__className": "DateTime",
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}
