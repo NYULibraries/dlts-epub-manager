@@ -9,10 +9,6 @@ let util     = require( '../../lib/util' );
 
 let em;
 
-// This handle stuff needs to be redone.  See comment in load command file in
-// getMetadataForEpub() function.
-const HANDLE_SERVER = 'http://hdl.handle.net';
-
 module.exports = function( vorpal ){
     em = vorpal.em;
 
