@@ -10,6 +10,8 @@ let path       = require( 'path' );
 let rimraf     = require( 'rimraf' );
 let vorpal     = em.vorpal;
 
+const SupafolioAPIStub = require( './SupafolioAPIStub' );
+
 const CONF_METADATA_FULL = 'metadata-full';
 const TMP_METADATA     = __dirname + '/tmp/metadata';
 
