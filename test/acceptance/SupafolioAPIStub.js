@@ -27,6 +27,18 @@ class SupafolioAPIStub {
         return parts[ parts.length - 1 ];
     }
 
+    static supafolioErrorResponse( message ) {
+        return {
+            status : "error",
+            data   : {
+                errors :
+                    [
+                        { message },
+                    ]
+            }
+        };
+    }
+
     // Example: http://api.supafolio.com/v2/book/9780814706404
     request( method, url, options ) {
         let response;
@@ -46,27 +58,11 @@ class SupafolioAPIStub {
         }
 
         if ( ! ( options && options.headers && options.headers[ 'x-apikey' ] ) ) {
-            return {
-                status : "error",
-                data   : {
-                    errors :
-                        [
-                            { message : "Please provide a API key!" },
-                        ]
-                }
-            };
+            return SupafolioAPIStub.supafolioErrorResponse( 'Please provide a API key!' );
         }
 
         if ( options.headers[ 'x-apikey' ] !== this.apiKey ) {
-            return {
-                status : "error",
-                data   : {
-                    errors :
-                        [
-                            { message : "Please provide a correct API key!" },
-                        ]
-                }
-            };
+            return SupafolioAPIStub.supafolioErrorResponse( 'Please provide a correct API key!' );
         }
 
         const fixtureFile = path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, `${ isbn }.json` );
