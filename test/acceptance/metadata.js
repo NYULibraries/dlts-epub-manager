@@ -18,6 +18,15 @@ vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
 describe( 'metadata command', () => {
 
+    before( ( ) => {
+        const supafolioAPIStub = new SupafolioAPIStub();
+
+        const overriddenRequest = vorpal.em.request;
+
+        vorpal.em.request =
+            supafolioAPIStub.request.bind( supafolioAPIStub );
+    } );
+
     it( 'should correctly generate correct metadata files for EPUBs in intakeEpubDir', function() {
         let loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
 
@@ -101,4 +110,9 @@ describe( 'metadata command', () => {
 
         assert( metadataComparison.same === true, `${metadataDir} does not match ${metadataExpectedDir}` );
     } );
+
+    after( ( ) => {
+        vorpal.em.request = overriddenRequest;
+    } );
+
 } );
