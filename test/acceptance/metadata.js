@@ -20,9 +20,15 @@ vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
 describe( 'metadata command', () => {
     let overriddenRequest;
+    let supafolioAPIKey;
 
     before( ( ) => {
-        const supafolioAPIStub = new SupafolioAPIStub();
+        supafolioAPIKey =
+            require(
+                path.join( vorpal.em.configPrivateDir, 'metadata-full.json' )
+            ).supafolioAPIKey;
+
+        const supafolioAPIStub = new SupafolioAPIStub( supafolioAPIKey );
 
         overriddenRequest = vorpal.em.request;
 
