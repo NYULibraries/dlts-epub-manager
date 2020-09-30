@@ -6,6 +6,12 @@ const SUPAFOLIO_API_FIXTURE_DIRECTORY = __dirname + '/fixture/supafolio-api/';
 const SUPAFOLIO_API_URL = 'http://api.supafolio.com/v2/book/';
 
 class SupafolioAPIStub {
+    #apiKey
+
+    constructor( apiKey ) {
+        this.apiKey = apiKey;
+    }
+
     static error( statusCode, message ) {
         return {
             statusCode,
@@ -32,24 +38,46 @@ class SupafolioAPIStub {
                 400, `url is "${url}" instead of "${expectedUrl}"` );
         }
 
-        if ( method === 'GET' ) {
-            const fixtureFile = path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, `${ isbn }.json` );
-
-            if ( fs.existsSync( fixtureFile ) ) {
-                response = require( fixtureFile );
-            } else {
-                return SupafolioAPIStub.error(
-                    400, `fixture response file ${ fixtureFile } does not exist.`
-                );
-            }
-        } else {
+        if ( method !== 'GET' ) {
             return SupafolioAPIStub.error(
                 400,
                 `method is "${method}" instead of "GET"`
             );
         }
 
-        return response;
+        if ( ! ( options && options.headers && options.headers[ 'x-apikey' ] ) ) {
+            return {
+                status : "error",
+                data   : {
+                    errors :
+                        [
+                            { message : "Please provide a API key!" },
+                        ]
+                }
+            };
+        }
+
+        if ( options.headers[ 'x-apikey' ] !== this.apiKey ) {
+            return {
+                status : "error",
+                data   : {
+                    errors :
+                        [
+                            { message : "Please provide a correct API key!" },
+                        ]
+                }
+            };
+        }
+
+        const fixtureFile = path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, `${ isbn }.json` );
+
+        if ( fs.existsSync( fixtureFile ) ) {
+            return require( fixtureFile );
+        } else {
+            return SupafolioAPIStub.error(
+                400, `fixture response file ${ fixtureFile } does not exist.`
+            );
+        }
     }
 }
 
