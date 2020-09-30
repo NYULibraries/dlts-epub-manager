@@ -20,8 +20,8 @@ class SupafolioAPIStub {
         return parts[ parts.length - 1 ];
     }
 
-    // Example: http://api.supafolio.com/v2/book/9781776143955
-    static request( method, url, options ) {
+    // Example: http://api.supafolio.com/v2/book/9780814706404
+    request( method, url, options ) {
         let response;
 
         const isbn = SupafolioAPIStub.parseIsbn( url );
