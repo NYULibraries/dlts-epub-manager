@@ -10,7 +10,7 @@ let path       = require( 'path' );
 let rimraf     = require( 'rimraf' );
 let vorpal     = em.vorpal;
 
-const SupafolioAPIStub = require( './SupafolioAPIStub' );
+const SupafolioApiStub = require( './SupafolioApiStub' );
 
 const CONF_METADATA_FULL = 'metadata-full';
 const TMP_METADATA     = __dirname + '/tmp/metadata';
@@ -28,7 +28,7 @@ describe( 'metadata command', () => {
                 path.join( vorpal.em.configPrivateDir, 'metadata-full.json' )
             ).supafolioAPIKey;
 
-        const supafolioAPIStub = new SupafolioAPIStub( supafolioAPIKey );
+        const supafolioAPIStub = new SupafolioApiStub( supafolioAPIKey );
 
         overriddenRequest = vorpal.em.request;
 

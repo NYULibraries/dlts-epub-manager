@@ -5,7 +5,7 @@ const url = require( 'url' );
 const SUPAFOLIO_API_FIXTURE_DIRECTORY = __dirname + '/fixture/supafolio-api/';
 const SUPAFOLIO_API_URL = 'http://api.supafolio.com/v2/book/';
 
-class SupafolioAPIStub {
+class SupafolioApiStub {
     #apiKey
 
     constructor( apiKey ) {
@@ -15,7 +15,7 @@ class SupafolioAPIStub {
     static error( statusCode, message ) {
         return {
             statusCode,
-            body: `SupafolioAPIStub ERROR: ${message}`,
+            body: `SupafolioApiStub ERROR: ${message}`,
         };
     }
 
@@ -43,26 +43,26 @@ class SupafolioAPIStub {
     request( method, url, options ) {
         let response;
 
-        const isbn = SupafolioAPIStub.parseIsbn( url );
+        const isbn = SupafolioApiStub.parseIsbn( url );
         const expectedUrl = SUPAFOLIO_API_URL + isbn;
         if ( url !== expectedUrl ) {
-            return SupafolioAPIStub.error(
+            return SupafolioApiStub.error(
                 400, `url is "${url}" instead of "${expectedUrl}"` );
         }
 
         if ( method !== 'GET' ) {
-            return SupafolioAPIStub.error(
+            return SupafolioApiStub.error(
                 400,
                 `method is "${method}" instead of "GET"`
             );
         }
 
         if ( ! ( options && options.headers && options.headers[ 'x-apikey' ] ) ) {
-            return SupafolioAPIStub.supafolioErrorResponse( 'Please provide a API key!' );
+            return SupafolioApiStub.supafolioErrorResponse( 'Please provide a API key!' );
         }
 
         if ( options.headers[ 'x-apikey' ] !== this.apiKey ) {
-            return SupafolioAPIStub.supafolioErrorResponse( 'Please provide a correct API key!' );
+            return SupafolioApiStub.supafolioErrorResponse( 'Please provide a correct API key!' );
         }
 
         const fixtureFile = path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, `${ isbn }.json` );
@@ -70,11 +70,11 @@ class SupafolioAPIStub {
         if ( fs.existsSync( fixtureFile ) ) {
             return require( fixtureFile );
         } else {
-            return SupafolioAPIStub.error(
+            return SupafolioApiStub.error(
                 400, `fixture response file ${ fixtureFile } does not exist.`
             );
         }
     }
 }
 
-module.exports = SupafolioAPIStub;
+module.exports = SupafolioApiStub;
