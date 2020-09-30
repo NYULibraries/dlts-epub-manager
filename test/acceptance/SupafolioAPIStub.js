@@ -1,3 +1,4 @@
+const fs = require( 'fs' );
 const path = require( 'path' );
 const url = require( 'url' );
 
@@ -32,9 +33,15 @@ class SupafolioAPIStub {
         }
 
         if ( method === 'GET' ) {
-            response = require(
-                path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, `${ isbn }.json` )
-            );
+            const fixtureFile = path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, `${ isbn }.json` );
+
+            if ( fs.existsSync( fixtureFile ) ) {
+                response = require( fixtureFile );
+            } else {
+                return SupafolioAPIStub.error(
+                    400, `fixture response file ${ fixtureFile } does not exist.`
+                );
+            }
         } else {
             return SupafolioAPIStub.error(
                 400,
