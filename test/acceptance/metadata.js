@@ -19,11 +19,12 @@ vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 
 describe( 'metadata command', () => {
+    let overriddenRequest;
 
     before( ( ) => {
         const supafolioAPIStub = new SupafolioAPIStub();
 
-        const overriddenRequest = vorpal.em.request;
+        overriddenRequest = vorpal.em.request;
 
         vorpal.em.request =
             supafolioAPIStub.request.bind( supafolioAPIStub );
