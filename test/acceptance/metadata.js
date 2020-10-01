@@ -15,7 +15,10 @@ const SupafolioApiStub = require( './SupafolioApiStub' );
 const CONF_METADATA_FULL = 'metadata-full';
 const TMP_METADATA     = __dirname + '/tmp/metadata';
 
-const EXPECTED_GENERATED_METADATA_FILES_FULL = path
+const EXPECTED_GENERATED_METADATA_FILES_FULL =
+    path.join( __dirname, '/expected/generated-metadata-files-full' )
+const EXPECTED_GENERATED_METADATA_FILES_3 =
+    path.join( __dirname, '/expected/generated-metadata-files-3' )
 
 vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
@@ -54,7 +57,7 @@ describe( 'metadata command', () => {
         );
 
         const metadataDir = vorpal.em.conf.metadataDir;
-        const metadataExpectedDir = __dirname + '/expected/generated-metadata-files-full';
+        const metadataExpectedDir = EXPECTED_GENERATED_METADATA_FILES_FULL;
         const compareOptions = {
             compareContent : true,
             excludeFilter  : '.commit-empty-directory',
@@ -94,7 +97,7 @@ describe( 'metadata command', () => {
         );
 
         const metadataDir = vorpal.em.conf.metadataDir;
-        const metadataExpectedDir = __dirname + '/expected/generated-metadata-files';
+        const metadataExpectedDir = EXPECTED_GENERATED_METADATA_FILES_3;
         const compareOptions = {
                 compareContent : true,
                 excludeFilter  : '.commit-empty-directory',
