@@ -78,7 +78,10 @@ describe( 'metadata command', () => {
             compareOptions
         );
 
-        assert( metadataComparison.same === true, `${metadataDir} does not match ${metadataExpectedDir}` );
+        assert(
+            metadataComparison.same === true,
+            `${metadataDir} does not match ${metadataExpectedDir}`
+        );
     } );
 
     it( 'should correctly generate correct metadata files for 3 EPUBs in metadataEpubList', function() {
@@ -118,7 +121,10 @@ describe( 'metadata command', () => {
             compareOptions
         );
 
-        assert( metadataComparison.same === true, `${metadataDir} does not match ${metadataExpectedDir}` );
+        assert(
+            metadataComparison.same === true,
+            `${metadataDir} does not match ${metadataExpectedDir}`
+        );
     } );
 
     after( ( ) => {
