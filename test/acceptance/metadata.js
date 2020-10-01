@@ -2,18 +2,20 @@
 
 /* global before, beforeEach */
 
-let assert     = require( 'chai' ).assert;
-let dircompare = require( 'dir-compare' );
-let em         = require( '../../lib/bootstrap' );
-let _          = require( 'lodash' );
-let path       = require( 'path' );
-let rimraf     = require( 'rimraf' );
-let vorpal     = em.vorpal;
+const assert     = require( 'chai' ).assert;
+const dircompare = require( 'dir-compare' );
+const em         = require( '../../lib/bootstrap' );
+const _          = require( 'lodash' );
+const path       = require( 'path' );
+const rimraf     = require( 'rimraf' );
+const vorpal     = em.vorpal;
 
 const SupafolioApiStub = require( './SupafolioApiStub' );
 
 const CONF_METADATA_FULL = 'metadata-full';
 const TMP_METADATA     = __dirname + '/tmp/metadata';
+
+const EXPECTED_GENERATED_METADATA_FILES_FULL = path
 
 vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
@@ -37,7 +39,7 @@ describe( 'metadata command', () => {
     } );
 
     it( 'should correctly generate correct metadata files for EPUBs in intakeEpubDir', function() {
-        let loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
+        const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
 
         assert( loadSucceeded === true,
                 'ERROR: test is not set up right.  ' +
@@ -51,14 +53,12 @@ describe( 'metadata command', () => {
             `metadataDir is not ${TMP_METADATA}`
         );
 
-        let metadataDir = vorpal.em.conf.metadataDir,
-            metadataComparison,
-            metadataExpectedDir = __dirname + '/expected/generated-metadata-files',
-
-            compareOptions = {
-                compareContent : true,
-                excludeFilter  : '.commit-empty-directory',
-            };
+        const metadataDir = vorpal.em.conf.metadataDir;
+        const metadataExpectedDir = __dirname + '/expected/generated-metadata-files-full';
+        const compareOptions = {
+            compareContent : true,
+            excludeFilter  : '.commit-empty-directory',
+        };
 
         try {
             rimraf.sync( TMP_METADATA + '/*' );
@@ -70,7 +70,7 @@ describe( 'metadata command', () => {
 
         vorpal.execSync(  'metadata add', { fatal : true } );
 
-        metadataComparison = dircompare.compareSync(
+        const metadataComparison = dircompare.compareSync(
             metadataDir, metadataExpectedDir,
             compareOptions
         );
@@ -79,7 +79,7 @@ describe( 'metadata command', () => {
     } );
 
     it( 'should correctly generate correct metadata files for 3 EPUBs in metadataEpubList', function() {
-        let loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
+        const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
 
         assert( loadSucceeded === true,
                 'ERROR: test is not set up right.  ' +
@@ -93,11 +93,9 @@ describe( 'metadata command', () => {
             `metadataDir is not ${TMP_METADATA}`
         );
 
-        let metadataDir = vorpal.em.conf.metadataDir,
-            metadataComparison,
-            metadataExpectedDir = __dirname + '/expected/generated-metadata-files',
-
-            compareOptions = {
+        const metadataDir = vorpal.em.conf.metadataDir;
+        const metadataExpectedDir = __dirname + '/expected/generated-metadata-files';
+        const compareOptions = {
                 compareContent : true,
                 excludeFilter  : '.commit-empty-directory',
             };
@@ -112,7 +110,7 @@ describe( 'metadata command', () => {
 
         vorpal.execSync(  'metadata add', { fatal : true } );
 
-        metadataComparison = dircompare.compareSync(
+        const metadataComparison = dircompare.compareSync(
             metadataDir, metadataExpectedDir,
             compareOptions
         );
