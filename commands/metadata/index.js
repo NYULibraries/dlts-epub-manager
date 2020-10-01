@@ -5,6 +5,7 @@ const fs       = require( 'fs' );
 const path     = require( 'path' );
 const rimraf   = require( 'rimraf' );
 
+const supafolio = require( '../../lib/supafolio' );
 const util     = require( '../../lib/util' );
 
 let em;
@@ -43,20 +44,14 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubIdList;
-                if ( em.intakeEpubList ) {
-                    epubIdList = em.intakeEpubList;
-                } else {
-                    try {
-                        epubIdList = getIdsForAllEpubsInCatalog();
-                    } catch( error ) {
-                        vorpal.log( `ERROR in retrieval of EPUB ids in catalog:\n` +
-                                    error );
+                if ( ! em.intakeEpubList ) {
+                    vorpal.log( util.ERROR_INTAKE_EPUB_LIST_NOT_LOADED );
 
-                        if ( callback ) { callback(); }
-                        return false;
-                    }
+                    if ( callback ) { callback(); }
+                    return false;
                 }
+
+                const epubIdList = em.intakeEpubList;
 
                 try {
                     let epubsCompleted = generateMetadataFiles(
@@ -85,7 +80,7 @@ function generateMetadataFiles( epubIdList, metadataDir ) {
 
     epubIdList.forEach( ( epubId ) => {
         try {
-            const supafolioMetadata = getSupafolioMetadata( epubId );
+            const supafolioMetadata = supafolio.book( epubId );
             const handle = getHandleForEpub( epubId );
 
             const metadataDirForEpub = `${metadataDir}/${epubId}`;
@@ -148,14 +143,7 @@ function createDltsAdministrativeMetadataFile( metadata, outputFile ) {
     fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
 }
 
-function getIdsForAllEpubsInCatalog() {
-    // TODO
-}
-
 function getHandleForEpub( epubId ) {
     // TODO
 }
 
-function getSupafolioMetadata( epubId ) {
-    // TODO
-}
