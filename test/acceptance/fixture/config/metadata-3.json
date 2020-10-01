@@ -1,15 +1,8 @@
 {
     "cacheMetadataInMemory" : true,
 
-    "metadataDir"           : "test/acceptance/tmp/metadata",
-    "metadataEpubList"      : [ "9780814711774", "9781479899982", "9781479804948" ],
+    "intakeEpubDir"         : "test/acceptance/fixture/intake-epubs/wip",
+    "intakeEpubList"        : [ "9780814711774", "9781479899982", "9781479804948" ],
 
-    "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
-
-    "restfulHandleServerHost" : "handle.dlib.nyu.edu",
-    "restfulHandleServerPath" : "/id/handle",
-
-    "solrHost" : "localhost",
-    "solrPort" : 9001,
-    "solrPath" : "/solr/test-core"
+    "metadataDir"           : "test/acceptance/tmp/metadata"
 }
