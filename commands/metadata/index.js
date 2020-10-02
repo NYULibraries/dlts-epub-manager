@@ -5,10 +5,11 @@ const fs       = require( 'fs' );
 const path     = require( 'path' );
 const rimraf   = require( 'rimraf' );
 
-const supafolio = require( '../../lib/supafolio' );
-const util     = require( '../../lib/util' );
+const Supafolio = require( '../../lib/supafolio/Supafolio' ).Supafolio;
+const util      = require( '../../lib/util' );
 
 let em;
+let supafolio;
 
 module.exports = function( vorpal ){
     em = vorpal.em;
@@ -28,6 +29,8 @@ module.exports = function( vorpal ){
                         return false;
                     }
                 }
+
+                supafolio = new Supafolio( em.supafolioApiKey, em.request );
 
                 let metadataDir = em.conf.metadataDir;
                 if ( ! metadataDir ) {
