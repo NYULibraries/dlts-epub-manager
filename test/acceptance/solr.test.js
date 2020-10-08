@@ -1,14 +1,11 @@
 "use strict";
 
-/* global before, beforeEach */
-
-let assert    = require( 'chai' ).assert;
-let em        = require( '../../lib/bootstrap' );
-let fs        = require( 'fs' );
-let _         = require( 'lodash' );
-let request   = require( 'sync-request' );
-let util      = require( '../../lib/util' );
-let vorpal    = em.vorpal;
+let em      = require( '../../lib/bootstrap' );
+let fs      = require( 'fs' );
+let _       = require( 'lodash' );
+let request = require( 'sync-request' );
+let util    = require( '../../lib/util' );
+let vorpal  = em.vorpal;
 
 const CONF                        = 'full-metadataDir';
 
@@ -22,12 +19,10 @@ let conf;
 
 describe( 'solr command', () => {
 
-    before( ( ) => {
+    beforeAll( ( ) => {
         let loadSucceeded = loadConfiguration( CONF );
 
-        assert( loadSucceeded === true,
-                'ERROR: before() is not set up right.  ' +
-                `Failed to load configuration "${CONF}".` );
+        expect( loadSucceeded === true).toBeTruthy();
 
         let requestError = {};
         if ( ! util.isSolrResponding( conf, requestError ) ) {
@@ -39,103 +34,100 @@ describe( 'solr command', () => {
                 errorMessage += `\n\n${requestError.message}`;
             }
 
-            assert.fail( null, null, errorMessage );
+            expect( false).toBe(true);
         }
-    } );
+    });
 
     beforeEach( ( ) => {
         try {
             clearSolrIndex();
         } catch ( error ) {
-            assert.fail( null, null, error );
+            expect( false).toBe(true);
         }
 
         let epubs = getEpubs();
 
-        assert( epubs.length === 0,
-                'ERROR: beforeEach() is not set up right.  ' +
-                `Test Solr index still contains still contains ${epubs.length} EPUBs.`
-        );
-    } );
+        expect( epubs.length === 0).toBeTruthy();
+    });
 
-    it( 'should correctly delete all EPUBs from Solr index', () => {
+    it('should correctly delete all EPUBs from Solr index', () => {
         try {
             addFixtureSmallSubsetEpubs();
         } catch (error ) {
-            assert.fail( null, null, error );
+            expect( false).toBe(true);
         }
 
         vorpal.execSync( 'solr delete all', { fatal : true } );
 
         let epubs = getEpubs();
 
-        assert( epubs.length === 0,
-                `Test Solr index still contains still contains ${epubs.length} EPUBs.`
-        );
-    } );
+        expect( epubs.length === 0).toBeTruthy();
+    });
 
-    it( 'should correctly delete 3 EPUBs from Solr index', () => {
+    it('should correctly delete 3 EPUBs from Solr index', () => {
         try {
             addFixtureSmallSubsetEpubs();
         } catch (error ) {
-            assert.fail( null, null, error );
+            expect( false).toBe(true);
         }
 
         vorpal.execSync( 'solr delete delete-3', { fatal : true } );
 
         let epubs = getEpubs();
 
-        assert( epubs.length === 1,
-                'Test Solr index should contain only 1 EPUB, and it currently ' +
-                `contains ${epubs.length} EPUBs.`
-        );
+        expect( epubs.length === 1).toBeTruthy();
 
         const EXPECTED_EPUB_ID = '9780814712481';
         let actualEpubId = epubs[ 0 ].identifier;
-        assert( actualEpubId === EXPECTED_EPUB_ID,
-                `Remaining EPUB has identifier "${actualEpubId}" instead of expected "${EXPECTED_EPUB_ID}".` );
-    } );
+        expect( actualEpubId === EXPECTED_EPUB_ID).toBeTruthy();
+    });
 
-    it( 'should correctly add all EPUBs to Solr index', () => {
+    it('should correctly add all EPUBs to Solr index', () => {
         vorpal.execSync( 'solr add full-metadataDir', { fatal : true } );
 
         let epubs = getEpubs();
 
         let expectedDocs = require( './expected/solr-response-docs/expected-full.json' );
-        assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
-    } );
+        expect( _.isEqual( epubs, expectedDocs )).toBeTruthy();
+    });
 
-    it( 'should correctly add 3 replacement EPUBs and 3 new EPUBs to Solr index', () => {
-        try {
-            addFixtureFullEpubs();
-        } catch (error ) {
-            assert.fail( null, null, error );
+    it(
+        'should correctly add 3 replacement EPUBs and 3 new EPUBs to Solr index',
+        () => {
+            try {
+                addFixtureFullEpubs();
+            } catch (error ) {
+                expect( false).toBe(true);
+            }
+
+            vorpal.execSync( 'solr add replace-3-new-3', { fatal : true } );
+
+            let epubs = getEpubs();
+
+            let expectedDocs = require( './expected/solr-response-docs/expected-full-followed-by-replace-3-add-3.json' );
+
+            expect( _.isEqual( epubs, expectedDocs )).toBeTruthy();
         }
+    );
 
-        vorpal.execSync( 'solr add replace-3-new-3', { fatal : true } );
+    it(
+        'should correctly full-replace full EPUBs with replace-3-add-3 EPUBs in Solr index',
+        () => {
+            try {
+                addFixtureSmallSubsetEpubs();
+            } catch (error ) {
+                expect( false).toBe(true);
+            }
 
-        let epubs = getEpubs();
+            vorpal.execSync( 'solr full-replace replace-3-new-3', { fatal : true } );
 
-        let expectedDocs = require( './expected/solr-response-docs/expected-full-followed-by-replace-3-add-3.json' );
+            let epubs = getEpubs();
 
-        assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
-    } );
+            let expectedDocs = require( './expected/solr-response-docs/expected-replace-3-add-3.json' );
 
-    it( 'should correctly full-replace full EPUBs with replace-3-add-3 EPUBs in Solr index', () => {
-        try {
-            addFixtureSmallSubsetEpubs();
-        } catch (error ) {
-            assert.fail( null, null, error );
+            expect( _.isEqual( epubs, expectedDocs )).toBeTruthy();
         }
-
-        vorpal.execSync( 'solr full-replace replace-3-new-3', { fatal : true } );
-
-        let epubs = getEpubs();
-
-        let expectedDocs = require( './expected/solr-response-docs/expected-replace-3-add-3.json' );
-
-        assert( _.isEqual( epubs, expectedDocs ), 'Added EPUBs did not match expected.' );
-    } );
+    );
 } );
 
 function loadConfiguration( confName ) {

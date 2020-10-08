@@ -1,11 +1,8 @@
 "use strict";
 
-/* global after, before, beforeEach */
-
-let assert    = require( 'chai' ).assert;
-let em        = require( '../../lib/bootstrap' );
-let _         = require( 'lodash' );
-let vorpal    = em.vorpal;
+let em     = require( '../../lib/bootstrap' );
+let _      = require( 'lodash' );
+let vorpal = em.vorpal;
 
 let RestfulHandleServerStub = require( './RestfulHandleServerStub' );
 
@@ -22,7 +19,7 @@ describe( 'handles command', () => {
     let restfulHandleServerStub;
     let expectedFullMetadataDirHandles;
 
-    before( ( ) => {
+    beforeAll( ( ) => {
         expectedFullMetadataDirHandles = require( './expected/handles/expected_add_full-metadataDir.json' );
 
         restfulHandleServerStub = new RestfulHandleServerStub();
@@ -31,26 +28,21 @@ describe( 'handles command', () => {
 
         vorpal.em.request =
             restfulHandleServerStub.request.bind( restfulHandleServerStub );
-    } );
+    });
 
     beforeEach( ( ) => {
         let loadSucceeded = loadConfiguration( CONF );
 
-        assert( loadSucceeded === true,
-                'ERROR: beforeEach() is not set up right.  ' +
-                `Failed to load configuration "${CONF}".` );
-    } );
+        expect( loadSucceeded === true).toBeTruthy();
+    });
 
-    it( 'should correctly add all handles to handle server', () => {
+    it('should correctly add all handles to handle server', () => {
         vorpal.execSync(  'handles add full-metadataDir', { fatal : true } );
 
-        assert(
-            restfulHandleServerStub.stateEquals( expectedFullMetadataDirHandles ),
-            'Added handles did not match expected.'
-        );
-    } );
+        expect( restfulHandleServerStub.stateEquals( expectedFullMetadataDirHandles )).toBeTruthy();
+    });
 
-    it( 'should correctly delete 3 handles from handles server', () => {
+    it('should correctly delete 3 handles from handles server', () => {
         let expected = _.cloneDeep( expectedFullMetadataDirHandles );
         expected.splice( 0, 3 );
 
@@ -58,14 +50,12 @@ describe( 'handles command', () => {
         vorpal.execSync(  'handles delete delete-3', { fatal : true } );
 
 
-        assert( restfulHandleServerStub.stateEquals( expected ),
-            "RestfulHandelServerStub object's state does not match expected."
-        );
-    } );
+        expect( restfulHandleServerStub.stateEquals( expected )).toBeTruthy();
+    });
 
-    after( ( ) => {
+    afterAll(( ) => {
         vorpal.em.request = overriddenRequest;
-    } );
+    });
 
 } );
 
