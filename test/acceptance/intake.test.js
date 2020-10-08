@@ -20,7 +20,7 @@ vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
 describe( 'intake command', () => {
 
     // Avoid "Error: timeout of 2000ms exceeded. Ensure the done() callback is being called in this test."
-    this.timeout( 60000 );
+    jest.setTimeout( 60000 );
 
     it(
         'should correctly intake all EPUBs and generate correct Readium versions',
