@@ -24,4 +24,14 @@ describe( 'lib/supafolio/Book', () => {
                 require( path.join( SUPAFOLIO_API_RESPONSES_FIXTURE_FILES_DIR, supafolioApiResponseFixtureFile ) );
         } );
     } );
+
+    it( 'should produce a correct book for a Supafolio API response', () => {
+        Object.keys( supafolioApiResponses ).sort().forEach( epubId => {
+            const supafolioApiResponse = supafolioApiResponses[ epubId ];
+            const book = new Book( supafolioApiResponse );
+
+            expect( book ).toMatchSnapshot();
+        } );
+    } );
+
 } );
