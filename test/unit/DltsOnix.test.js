@@ -4,10 +4,7 @@
 
 let fs   = require( 'fs' ),
     path = require( 'path' ),
-
-    assert   = require( 'chai' ).assert,
-    _        = require( 'lodash' ),
-
+    _    = require( 'lodash' ),
     DltsOnix = require( '../../lib/onix/DltsOnix' ).DltsOnix;
 
 const EXPECTED_DIR = __dirname + '/expected/onix';
@@ -16,7 +13,7 @@ const FIXTURE_DIR  = __dirname + '/fixture/onix';
 describe( 'onix', () => {
     let expectedData = {};
 
-    before( () => {
+    beforeAll( () => {
         let expectedOnixDataFiles = fs.readdirSync( EXPECTED_DIR );
 
         expectedOnixDataFiles.forEach( ( expectedOnixDataFile ) => {
@@ -50,10 +47,7 @@ describe( 'onix', () => {
                         expected = expected.trim();
                     }
 
-                    assert(
-                        _.isEqual( got, expected ) === true,
-                        `${epubId}: got field "${field}" value of "${got}" but was expecting "${expected}"`
-                    );
+                    expect( _.isEqual( got, expected ) === true ).toBeTruthy();
                 }
             }
         } );
