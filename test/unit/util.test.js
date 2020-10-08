@@ -1,8 +1,6 @@
 "use strict";
 
-let assert = require( 'chai' ).assert,
-    _      = require( 'lodash' ),
-    util   = require( '../../lib/util/index' );
+let _ = require( 'lodash' ), util   = require( '../../lib/util/index' );
 
 describe( 'util', () => {
     // Some test authors to add from U. Michigan and U. Minnesota presses, when
@@ -246,10 +244,7 @@ describe( 'util', () => {
                 let expectedAuthors = AUTHORS[ originalAuthors ];
                 let got             = util.getAuthorSortKey( originalAuthors );
 
-                assert(
-                    got === expectedAuthors,
-                    `util.getAuthorSortKey( '${originalAuthors}' ) returned "${got}" ` +
-                    `instead of "${expectedAuthors}"` );
+                expect(got === expectedAuthors).toBeTruthy();
             } );
         } );
     } );
@@ -260,10 +255,7 @@ describe( 'util', () => {
                 let expectedTitle = TITLES[ originalTitle ];
                 let got           = util.getTitleSortKey( originalTitle );
 
-                assert(
-                    got === expectedTitle,
-                    `util.getTitleSortKey( '${originalTitle}' ) returned "${got}" ` +
-                        `instead of "${expectedTitle}"` );
+                expect(got === expectedTitle).toBeTruthy();
             } );
         } );
     } );
@@ -272,22 +264,19 @@ describe( 'util', () => {
 
         it( 'should return true for valid ISBN-13 strings', () => {
             VALID_ISBN_13_STRINGS.forEach( str => {
-                assert( util.isValidIsbn13( str ) === true,
-                        `Did not return true for '${str}'` );
+                expect(util.isValidIsbn13( str ) === true).toBeTruthy();
             } );
         } );
 
         it( 'should return false for valid ISBN-10 strings', () => {
             VALID_ISBN_10_STRINGS.forEach( str => {
-                assert( util.isValidIsbn13( str ) === false,
-                        `Did not return false for '${str}'` );
+                expect(util.isValidIsbn13( str ) === false).toBeTruthy();
             } );
         } );
 
         it( 'should return false for invalid strings', () => {
             INVALID_ISBN_STRINGS.forEach( str => {
-                assert( util.isValidIsbn13( str ) === false,
-                        `Did not return false for '${str}'` );
+                expect(util.isValidIsbn13( str ) === false).toBeTruthy();
             } );
         } );
 
@@ -297,15 +286,13 @@ describe( 'util', () => {
 
         it( 'should return true for valid normalized ISBN-13 strings', () => {
             VALID_NORMALIZED_ISBN_13_STRINGS.forEach( str => {
-                assert( util.isValidNormalizedIsbn13( str ) === true,
-                        `Did not return true for '${str}'` );
+                expect(util.isValidNormalizedIsbn13( str ) === true).toBeTruthy();
             } );
         } );
 
         it( 'should return false for invalid normalized ISBN-13 strings', () => {
             INVALID_NORMALIZED_ISBN_13_STRINGS.forEach( str => {
-                assert( util.isValidNormalizedIsbn13( str ) === false,
-                        `Did not return false for '${str}'` );
+                expect(util.isValidNormalizedIsbn13( str ) === false).toBeTruthy();
             } );
         } );
 
@@ -318,10 +305,7 @@ describe( 'util', () => {
             const expected = '9780814780978';
 
             let got = util.normalizeDltsEpubIdentifier( input );
-            assert(
-                got === expected,
-                `Did not return "${expected}" for "${input}", got: ${got}`
-            );
+            expect(got === expected).toBeTruthy();
         } );
 
     } );
