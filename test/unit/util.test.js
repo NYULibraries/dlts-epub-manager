@@ -1,6 +1,7 @@
 "use strict";
 
-let _ = require( 'lodash' ), util   = require( '../../lib/util/index' );
+let _    = require( 'lodash' ),
+    util = require( '../../lib/util/index' );
 
 describe( 'util', () => {
     // Some test authors to add from U. Michigan and U. Minnesota presses, when
