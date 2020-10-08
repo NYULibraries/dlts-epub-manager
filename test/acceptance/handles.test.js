@@ -1,8 +1,8 @@
 "use strict";
 
-let em        = require( '../../lib/bootstrap' );
-let _         = require( 'lodash' );
-let vorpal    = em.vorpal;
+let em     = require( '../../lib/bootstrap' );
+let _      = require( 'lodash' );
+let vorpal = em.vorpal;
 
 let RestfulHandleServerStub = require( './RestfulHandleServerStub' );
 
@@ -19,7 +19,7 @@ describe( 'handles command', () => {
     let restfulHandleServerStub;
     let expectedFullMetadataDirHandles;
 
-    beforeAll(( ) => {
+    beforeAll( ( ) => {
         expectedFullMetadataDirHandles = require( './expected/handles/expected_add_full-metadataDir.json' );
 
         restfulHandleServerStub = new RestfulHandleServerStub();
@@ -30,16 +30,16 @@ describe( 'handles command', () => {
             restfulHandleServerStub.request.bind( restfulHandleServerStub );
     });
 
-    beforeEach(( ) => {
+    beforeEach( ( ) => {
         let loadSucceeded = loadConfiguration( CONF );
 
-        expect(loadSucceeded === true).toBeTruthy();
+        expect( loadSucceeded === true).toBeTruthy();
     });
 
     it('should correctly add all handles to handle server', () => {
         vorpal.execSync(  'handles add full-metadataDir', { fatal : true } );
 
-        expect(restfulHandleServerStub.stateEquals( expectedFullMetadataDirHandles )).toBeTruthy();
+        expect( restfulHandleServerStub.stateEquals( expectedFullMetadataDirHandles )).toBeTruthy();
     });
 
     it('should correctly delete 3 handles from handles server', () => {
@@ -50,7 +50,7 @@ describe( 'handles command', () => {
         vorpal.execSync(  'handles delete delete-3', { fatal : true } );
 
 
-        expect(restfulHandleServerStub.stateEquals( expected )).toBeTruthy();
+        expect( restfulHandleServerStub.stateEquals( expected )).toBeTruthy();
     });
 
     afterAll(( ) => {

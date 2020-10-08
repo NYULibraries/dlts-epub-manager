@@ -1,8 +1,8 @@
 "use strict";
 
-let em        = require( '../../lib/bootstrap' );
-let util      = require( '../../lib/util' );
-let vorpal    = em.vorpal;
+let em     = require( '../../lib/bootstrap' );
+let util   = require( '../../lib/util' );
+let vorpal = em.vorpal;
 
 vorpal.em.configDir        = __dirname + '/fixture/config';
 vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
@@ -13,7 +13,7 @@ describe( 'load command', () => {
         let expectedRhsUsername;
         let expectedRhsPassword;
 
-        beforeAll(( ) => {
+        beforeAll( ( ) => {
             let privateConfig = require( './fixture/config-private/full-metadataDir.json' );
             expectedRhsUsername = privateConfig.restfulHandleServerUsername;
             expectedRhsPassword = privateConfig.restfulHandleServerPassword;
@@ -32,13 +32,13 @@ describe( 'load command', () => {
     describe( 'metadata loading', () => {
         let expected;
 
-        beforeAll(( ) => {
+        beforeAll( ( ) => {
             expected = util.jsonStableStringify(
                 require( './expected/metadata-dumps/expected-full')
             );
         });
 
-        beforeEach(( ) => {
+        beforeEach( ( ) => {
             vorpal.execSync( 'load clear', { fatal : true } );
         });
 
@@ -46,14 +46,14 @@ describe( 'load command', () => {
             vorpal.execSync( 'load full-metadataDir', { fatal : true } );
             let actual = vorpal.em.metadata.dumpCanonical();
 
-            expect(actual === expected).toBeTruthy();
+            expect( actual === expected).toBeTruthy();
         });
 
         it('should correctly load from local metadataRepo', () => {
             vorpal.execSync( 'load full-metadataRepo', { fatal : true } );
             let actual = vorpal.em.metadata.dumpCanonical();
 
-            expect(actual === expected).toBeTruthy();
+            expect( actual === expected).toBeTruthy();
         });
     } );
 

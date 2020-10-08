@@ -24,7 +24,7 @@ describe( 'metadata command', () => {
     let overriddenRequest;
     let supafolioAPIKey;
 
-    beforeAll(( ) => {
+    beforeAll( ( ) => {
         supafolioAPIKey =
             require(
                 path.join( vorpal.em.configPrivateDir, 'metadata-full.json' )
@@ -43,9 +43,9 @@ describe( 'metadata command', () => {
         () => {
             const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
 
-            expect(loadSucceeded === true).toBeTruthy();
+            expect( loadSucceeded === true).toBeTruthy();
 
-            expect(// Conf file metadataDir is relative path, have to change it to
+            expect( // Conf file metadataDir is relative path, have to change it to
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
             vorpal.em.conf.metadataDir === TMP_METADATA).toBeTruthy();
@@ -72,7 +72,7 @@ describe( 'metadata command', () => {
                 compareOptions
             );
 
-            expect(metadataComparison.same === true).toBeTruthy();
+            expect( metadataComparison.same === true).toBeTruthy();
         }
     );
 
@@ -81,9 +81,9 @@ describe( 'metadata command', () => {
         () => {
             const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
 
-            expect(loadSucceeded === true).toBeTruthy();
+            expect( loadSucceeded === true).toBeTruthy();
 
-            expect(// Conf file metadataDir is relative path, have to change it to
+            expect( // Conf file metadataDir is relative path, have to change it to
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
             vorpal.em.conf.metadataDir === TMP_METADATA).toBeTruthy();
@@ -110,7 +110,7 @@ describe( 'metadata command', () => {
                 compareOptions
             );
 
-            expect(metadataComparison.same === true).toBeTruthy();
+            expect( metadataComparison.same === true).toBeTruthy();
         }
     );
 

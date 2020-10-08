@@ -27,9 +27,9 @@ describe( 'intake command', () => {
         () => {
             let loadSucceeded = vorpal.execSync( `load ${CONF_INTAKE_FULL}`, { fatal : true } );
 
-            expect(loadSucceeded === true).toBeTruthy();
+            expect( loadSucceeded === true).toBeTruthy();
 
-            expect(// Conf file epubOutputDir is relative path, have to change it to
+            expect( // Conf file epubOutputDir is relative path, have to change it to
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
             vorpal.em.conf.intakeOutputDir === TMP_EPUBS).toBeTruthy();
@@ -65,14 +65,14 @@ describe( 'intake command', () => {
             // would like to avoid repeating it unnecessarily.
 
             thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
-            expect(_.isEqual( thumbnailsGot, thumbnailsExpected )).toBeTruthy();
+            expect( _.isEqual( thumbnailsGot, thumbnailsExpected )).toBeTruthy();
 
             epubsComparison = dircompare.compareSync(
                 intakeOutputDir, intakeExpectedDir,
                 compareOptions
             );
 
-            expect(epubsComparison.same === true).toBeTruthy();
+            expect( epubsComparison.same === true).toBeTruthy();
         }
     );
 } );
