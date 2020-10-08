@@ -1,7 +1,5 @@
 "use strict";
 
-/* global before, beforeEach */
-
 let fs = require( 'fs' ),
     _ = require( 'lodash' ),
     DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
