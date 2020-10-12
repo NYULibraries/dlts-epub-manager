@@ -35,12 +35,18 @@ describe( 'lib/supafolio/Book', () => {
     } );
 
     it( 'authors getter', () => {
-        Object.keys( supafolioApiResponses ).sort().forEach( epubId => {
-            const supafolioApiResponse = supafolioApiResponses[ epubId ];
-            const book = new Book( supafolioApiResponse );
-
-            expect( book.authors ).toMatchSnapshot();
-        } );
+        testGetter( supafolioApiResponses, 'authors' );
     } );
 
+    // Don't need a test for authorsForDisplay because that is covered by the book test.
+
 } );
+
+function testGetter( supafolioApiResponses, getter ) {
+    Object.keys( supafolioApiResponses ).sort().forEach( epubId => {
+        const supafolioApiResponse = supafolioApiResponses[ epubId ];
+        const book = new Book( supafolioApiResponse );
+
+        expect( book[ getter ] ).toMatchSnapshot();
+    } );
+}
