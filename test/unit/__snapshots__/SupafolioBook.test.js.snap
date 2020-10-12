@@ -1,5 +1,1002 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`lib/supafolio/Book authors getter 1`] = `
+Array [
+  Object {
+    "first": "Jody David",
+    "last": "Armour",
+    "name": "Jody David Armour",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "jody-david-armour",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 2`] = `
+Array [
+  Object {
+    "first": "Marshall W. Alcorn",
+    "last": "Jr.",
+    "name": "Marshall W. Alcorn Jr.",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "marshall-w-alcorn-jr",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 3`] = `
+Array [
+  Object {
+    "first": "Natalie Clifford",
+    "last": "Barney",
+    "name": "Natalie Clifford Barney",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "natalie-clifford-barney",
+  },
+  Object {
+    "first": "John Spalding",
+    "last": "Gatton",
+    "name": "John Spalding Gatton",
+    "order": 2,
+    "role": "Translated by",
+    "seo": "john-spalding-gatton",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 4`] = `
+Array [
+  Object {
+    "first": "Ellen E.",
+    "last": "Berry",
+    "name": "Ellen E. Berry",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "ellen-e-berry",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 5`] = `
+Array [
+  Object {
+    "first": "Kathleen",
+    "last": "Barry",
+    "name": "Kathleen Barry",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "kathleen-barry",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 6`] = `
+Array [
+  Object {
+    "first": "Gail R.",
+    "last": "Benjamin",
+    "name": "Gail R. Benjamin",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "gail-r-benjamin",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 7`] = `
+Array [
+  Object {
+    "first": "Michael",
+    "last": "Bérubé",
+    "name": "Michael Bérubé",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "michael-berube",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 8`] = `
+Array [
+  Object {
+    "first": "Keith",
+    "last": "Beattie",
+    "name": "Keith Beattie",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "keith-beattie",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 9`] = `
+Array [
+  Object {
+    "first": "John W.",
+    "last": "Chapman",
+    "name": "John W. Chapman",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "john-w-chapman",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 10`] = `
+Array [
+  Object {
+    "first": "John W.",
+    "last": "Chapman",
+    "name": "John W. Chapman",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "john-w-chapman",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 11`] = `
+Array [
+  Object {
+    "first": "Charles B.",
+    "last": "Craver",
+    "name": "Charles B. Craver",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "charles-b-craver",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 12`] = `
+Array [
+  Object {
+    "first": "Thomas",
+    "last": "Cushman",
+    "name": "Thomas Cushman",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "thomas-cushman",
+  },
+  Object {
+    "first": "Stjepan",
+    "last": "Mestrovic",
+    "name": "Stjepan Mestrovic",
+    "order": 2,
+    "role": "Edited by",
+    "seo": "stjepan-mestrovic",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 13`] = `
+Array [
+  Object {
+    "first": "Ruth",
+    "last": "Colker",
+    "name": "Ruth Colker",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "ruth-colker",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 14`] = `
+Array [
+  Object {
+    "first": "Ruth",
+    "last": "Colker",
+    "name": "Ruth Colker",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "ruth-colker",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 15`] = `
+Array [
+  Object {
+    "first": "Joseph",
+    "last": "Dan",
+    "name": "Joseph Dan",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "joseph-dan",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 16`] = `
+Array [
+  Object {
+    "first": "James",
+    "last": "Darsey",
+    "name": "James Darsey",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "james-darsey",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 17`] = `
+Array [
+  Object {
+    "first": "Seth",
+    "last": "Forman",
+    "name": "Seth Forman",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "seth-forman",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 18`] = `
+Array [
+  Object {
+    "first": "Stephen M.",
+    "last": "Feldman",
+    "name": "Stephen M. Feldman",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "stephen-m-feldman",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 19`] = `
+Array [
+  Object {
+    "first": "Steven",
+    "last": "Goldberg",
+    "name": "Steven Goldberg",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "steven-goldberg",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 20`] = `
+Array [
+  Object {
+    "first": "Scott Douglas",
+    "last": "Gerber",
+    "name": "Scott Douglas Gerber",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "scott-douglas-gerber",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 21`] = `
+Array [
+  Object {
+    "first": "Bertha",
+    "last": "Harris",
+    "name": "Bertha Harris",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "bertha-harris",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 22`] = `
+Array [
+  Object {
+    "first": "Jay",
+    "last": "Harris",
+    "name": "Jay Harris",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "jay-harris",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 23`] = `
+Array [
+  Object {
+    "first": "Anselm",
+    "last": "Haverkamp",
+    "name": "Anselm Haverkamp",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "anselm-haverkamp",
+  },
+  Object {
+    "first": "H. R.",
+    "last": "Dodge",
+    "name": "H. R. Dodge",
+    "order": 2,
+    "role": "By (author)",
+    "seo": "h-r-dodge",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 24`] = `
+Array [
+  Object {
+    "first": "Moshe Y.",
+    "last": "Herczl",
+    "name": "Moshe Y. Herczl",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "moshe-y-herczl",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 25`] = `
+Array [
+  Object {
+    "first": "Bill Ong",
+    "last": "Hing",
+    "name": "Bill Ong Hing",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "bill-ong-hing",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 26`] = `
+Array [
+  Object {
+    "first": "David K.",
+    "last": "Holbrook",
+    "name": "David K. Holbrook",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "david-k-holbrook",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 27`] = `
+Array [
+  Object {
+    "first": "Mark",
+    "last": "Hertzog",
+    "name": "Mark Hertzog",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "mark-hertzog",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 28`] = `
+Array [
+  Object {
+    "first": "Robert  L. Hayman",
+    "last": "Jr.",
+    "name": "Robert L. Hayman Jr.",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "robert-l-hayman-jr",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 29`] = `
+Array [
+  Object {
+    "first": "Paul",
+    "last": "Harris",
+    "name": "Paul Harris",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "paul-harris",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 30`] = `
+Array [
+  Object {
+    "first": "Don",
+    "last": "Judson",
+    "name": "Don Judson",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "don-judson",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 31`] = `
+Array [
+  Object {
+    "first": "James B.",
+    "last": "Jacobs",
+    "name": "James B. Jacobs",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "james-b-jacobs",
+  },
+  Object {
+    "first": "Christopher",
+    "last": "Panarella",
+    "name": "Christopher Panarella",
+    "order": 2,
+    "role": "With",
+    "seo": "christopher-panarella",
+  },
+  Object {
+    "first": "Jay",
+    "last": "Worthington",
+    "name": "Jay Worthington",
+    "order": 3,
+    "role": "With",
+    "seo": "jay-worthington",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 32`] = `
+Array [
+  Object {
+    "first": "Peggy Fitzhugh",
+    "last": "Johnstone",
+    "name": "Peggy Fitzhugh Johnstone",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "peggy-fitzhugh-johnstone",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 33`] = `
+Array [
+  Object {
+    "first": "Steve",
+    "last": "Kroll-Smith",
+    "name": "Steve Kroll-Smith",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "steve-kroll-smith",
+  },
+  Object {
+    "first": "H. Hugh",
+    "last": "Floyd",
+    "name": "H. Hugh Floyd",
+    "order": 2,
+    "role": "By (author)",
+    "seo": "h-hugh-floyd",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 34`] = `
+Array [
+  Object {
+    "first": "David",
+    "last": "Kleinbard",
+    "name": "David Kleinbard",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "david-kleinbard",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 35`] = `
+Array [
+  Object {
+    "first": "Steven T.",
+    "last": "Katz",
+    "name": "Steven T. Katz",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "steven-t-katz",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 36`] = `
+Array [
+  Object {
+    "first": "Mark E.",
+    "last": "Kann",
+    "name": "Mark E. Kann",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "mark-e-kann",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 37`] = `
+Array [
+  Object {
+    "first": "Barbara Fass",
+    "last": "Leavy",
+    "name": "Barbara Fass Leavy",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "barbara-fass-leavy",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 38`] = `
+Array [
+  Object {
+    "first": "Nancy",
+    "last": "Levit",
+    "name": "Nancy Levit",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "nancy-levit",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 39`] = `
+Array [
+  Object {
+    "first": "Gary",
+    "last": "Minda",
+    "name": "Gary Minda",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "gary-minda",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 40`] = `
+Array [
+  Object {
+    "first": "Jennifer L",
+    "last": "Manlowe",
+    "name": "Jennifer L Manlowe",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "jennifer-l-manlowe",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 41`] = `
+Array [
+  Object {
+    "first": "Katherine",
+    "last": "Mayberry",
+    "name": "Katherine Mayberry",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "katherine-mayberry",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 42`] = `
+Array [
+  Object {
+    "first": "Diane Helene",
+    "last": "Miller",
+    "name": "Diane Helene Miller",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "diane-helene-miller",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 43`] = `
+Array [
+  Object {
+    "first": "Cary",
+    "last": "Nelson",
+    "name": "Cary Nelson",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "cary-nelson",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 44`] = `
+Array [
+  Object {
+    "first": "Pearl",
+    "last": "Oliner",
+    "name": "Pearl Oliner",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "pearl-oliner",
+  },
+  Object {
+    "first": "Samuel P.",
+    "last": "Oliner",
+    "name": "Samuel P. Oliner",
+    "order": 2,
+    "role": "Edited by",
+    "seo": "samuel-p-oliner",
+  },
+  Object {
+    "first": "Lawrence",
+    "last": "Baron",
+    "name": "Lawrence Baron",
+    "order": 3,
+    "role": "Edited by",
+    "seo": "lawrence-baron",
+  },
+  Object {
+    "first": "Lawrence",
+    "last": "Blum",
+    "name": "Lawrence Blum",
+    "order": 4,
+    "role": "Edited by",
+    "seo": "lawrence-blum",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 45`] = `
+Array [
+  Object {
+    "first": "Bernard Jay",
+    "last": "Paris",
+    "name": "Bernard Jay Paris",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "bernard-jay-paris",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 46`] = `
+Array [
+  Object {
+    "first": "Ronald Jeffrey",
+    "last": "Ringer",
+    "name": "Ronald Jeffrey Ringer",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "ronald-jeffrey-ringer",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 47`] = `
+Array [
+  Object {
+    "first": "Robert",
+    "last": "Rogers",
+    "name": "Robert Rogers",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "robert-rogers",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 48`] = `
+Array [
+  Object {
+    "first": "Paula C",
+    "last": "Rust",
+    "name": "Paula C Rust",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "paula-c-rust",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 49`] = `
+Array [
+  Object {
+    "first": "Stanley A",
+    "last": "Renshon",
+    "name": "Stanley A Renshon",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "stanley-a-renshon",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 50`] = `
+Array [
+  Object {
+    "first": "Stanley A",
+    "last": "Renshon",
+    "name": "Stanley A Renshon",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "stanley-a-renshon",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 51`] = `
+Array [
+  Object {
+    "first": "Peter L.",
+    "last": "Rudnytsky",
+    "name": "Peter L. Rudnytsky",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "peter-l-rudnytsky",
+  },
+  Object {
+    "first": "Antal",
+    "last": "Bokay",
+    "name": "Antal Bokay",
+    "order": 2,
+    "role": "Edited by",
+    "seo": "antal-bokay",
+  },
+  Object {
+    "first": "Patrizia",
+    "last": "Giampieri-Deutsch",
+    "name": "Patrizia Giampieri-Deutsch",
+    "order": 3,
+    "role": "Edited by",
+    "seo": "patrizia-giampieri-deutsch",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 52`] = `
+Array [
+  Object {
+    "first": "Ronald Suresh",
+    "last": "Roberts",
+    "name": "Ronald Suresh Roberts",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "ronald-suresh-roberts",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 53`] = `
+Array [
+  Object {
+    "first": "Daniel",
+    "last": "Rancour-Laferriere",
+    "name": "Daniel Rancour-Laferriere",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "daniel-rancour-laferriere",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 54`] = `
+Array [
+  Object {
+    "first": "Ben-Ami",
+    "last": "Scharfstein",
+    "name": "Ben-Ami Scharfstein",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "ben-ami-scharfstein",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 55`] = `
+Array [
+  Object {
+    "first": "Joe",
+    "last": "Schall",
+    "name": "Joe Schall",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "joe-schall",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 56`] = `
+Array [
+  Object {
+    "first": "Peter N.",
+    "last": "Stearns",
+    "name": "Peter N. Stearns",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "peter-n-stearns",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 57`] = `
+Array [
+  Object {
+    "first": "Robert",
+    "last": "Seltzer",
+    "name": "Robert Seltzer",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "robert-seltzer",
+  },
+  Object {
+    "first": "Norman S.",
+    "last": "Cohen",
+    "name": "Norman S. Cohen",
+    "order": 2,
+    "role": "Edited by",
+    "seo": "norman-s-cohen",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 58`] = `
+Array [
+  Object {
+    "first": "Ryuzo",
+    "last": "Sato",
+    "name": "Ryuzo Sato",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "ryuzo-sato",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 59`] = `
+Array [
+  Object {
+    "first": "Ian",
+    "last": "Shapiro",
+    "name": "Ian Shapiro",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "ian-shapiro",
+  },
+  Object {
+    "first": "Robert",
+    "last": "Adams",
+    "name": "Robert Adams",
+    "order": 2,
+    "role": "Edited by",
+    "seo": "robert-adams",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 60`] = `
+Array [
+  Object {
+    "first": "Michael Guy",
+    "last": "Thompson",
+    "name": "Michael Guy Thompson",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "michael-guy-thompson",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 61`] = `
+Array [
+  Object {
+    "first": "Richard K",
+    "last": "Vedder",
+    "name": "Richard K Vedder",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "richard-k-vedder",
+  },
+  Object {
+    "first": "Lowell E.",
+    "last": "Gallaway",
+    "name": "Lowell E. Gallaway",
+    "order": 2,
+    "role": "By (author)",
+    "seo": "lowell-e-gallaway",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 62`] = `
+Array [
+  Object {
+    "first": "Mark G.",
+    "last": "Winiarski",
+    "name": "Mark G. Winiarski",
+    "order": 1,
+    "role": "Edited by",
+    "seo": "mark-g-winiarski",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 63`] = `
+Array [
+  Object {
+    "first": "Niobe",
+    "last": "Way",
+    "name": "Niobe Way",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "niobe-way",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 64`] = `
+Array [
+  Object {
+    "first": "Sonia",
+    "last": "Livingstone",
+    "name": "Sonia Livingstone",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "sonia-livingstone",
+  },
+  Object {
+    "first": "Julian",
+    "last": "Sefton-Green",
+    "name": "Julian Sefton-Green",
+    "order": 2,
+    "role": "By (author)",
+    "seo": "julian-sefton-green",
+  },
+]
+`;
+
+exports[`lib/supafolio/Book authors getter 65`] = `
+Array [
+  Object {
+    "first": "Henry",
+    "last": "Jenkins",
+    "name": "Henry Jenkins",
+    "order": 1,
+    "role": "By (author)",
+    "seo": "henry-jenkins",
+  },
+  Object {
+    "first": "Sangita",
+    "last": "Shresthova",
+    "name": "Sangita Shresthova",
+    "order": 2,
+    "role": "By (author)",
+    "seo": "sangita-shresthova",
+  },
+  Object {
+    "first": "Liana",
+    "last": "Gamber-Thompson",
+    "name": "Liana Gamber-Thompson",
+    "order": 3,
+    "role": "By (author)",
+    "seo": "liana-gamber-thompson",
+  },
+  Object {
+    "first": "Neta",
+    "last": "Kligler-Vilenchik",
+    "name": "Neta Kligler-Vilenchik",
+    "order": 4,
+    "role": "By (author)",
+    "seo": "neta-kligler-vilenchik",
+  },
+  Object {
+    "first": "Arely",
+    "last": "Zimmerman",
+    "name": "Arely Zimmerman",
+    "order": 5,
+    "role": "By (author)",
+    "seo": "arely-zimmerman",
+  },
+]
+`;
+
 exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 1`] = `Book {}`;
 
 exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 2`] = `Book {}`;

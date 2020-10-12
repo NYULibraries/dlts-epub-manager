@@ -34,4 +34,13 @@ describe( 'lib/supafolio/Book', () => {
         } );
     } );
 
+    it( 'authors getter', () => {
+        Object.keys( supafolioApiResponses ).sort().forEach( epubId => {
+            const supafolioApiResponse = supafolioApiResponses[ epubId ];
+            const book = new Book( supafolioApiResponse );
+
+            expect( book.authors ).toMatchSnapshot();
+        } );
+    } );
+
 } );
