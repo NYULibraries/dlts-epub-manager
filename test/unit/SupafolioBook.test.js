@@ -34,21 +34,33 @@ describe( 'lib/supafolio/Book', () => {
         } );
     } );
 
-    it( 'authors getter', () => {
-        testGetter( supafolioApiResponses, 'authors' );
-    } );
+    it( 'getters should produce the correct metadata', () => {
+        Object.keys( supafolioApiResponses ).sort().forEach( epubId => {
+            const supafolioApiResponse = supafolioApiResponses[ epubId ];
+            const book = new Book( supafolioApiResponse );
 
-    it( 'date getter', () => {
-        testGetter( supafolioApiResponses, 'date' );
+            const gettersInSingleObject = {};
+            [
+                'authors',
+                'authorsForDisplay',
+                'date',
+                'description',
+                'isbn',
+                'languageCode',
+                'license',
+                'pages',
+                'publisher',
+                'subjects',
+                'subtitle',
+                'title',
+                'titleWithoutPrefix',
+            ].forEach( getter => {
+                gettersInSingleObject[ getter ] = book[ getter ];
+            } );
+
+            expect( gettersInSingleObject ).toMatchSnapshot();
+        } );
     } );
 
 } );
 
-function testGetter( supafolioApiResponses, getter ) {
-    Object.keys( supafolioApiResponses ).sort().forEach( epubId => {
-        const supafolioApiResponse = supafolioApiResponses[ epubId ];
-        const book = new Book( supafolioApiResponse );
-
-        expect( book[ getter ] ).toMatchSnapshot();
-    } );
-}
