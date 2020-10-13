@@ -40,6 +40,10 @@ describe( 'lib/supafolio/Book', () => {
 
     // Don't need a test for authorsForDisplay because that is covered by the book test.
 
+    it( 'date getter', () => {
+        testGetter( supafolioApiResponses, 'date' );
+    } );
+
 } );
 
 function testGetter( supafolioApiResponses, getter ) {
