@@ -43,12 +43,12 @@ describe( 'metadata command', () => {
         () => {
             const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
 
-            expect( loadSucceeded === true).toBeTruthy();
+            expect( loadSucceeded ).toBeTruthy();
 
             expect( // Conf file metadataDir is relative path, have to change it to
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
-            vorpal.em.conf.metadataDir === TMP_METADATA).toBeTruthy();
+            vorpal.em.conf.metadataDir ).toEqual( TMP_METADATA );
 
             const metadataDir = vorpal.em.conf.metadataDir;
             const metadataExpectedDir = EXPECTED_GENERATED_METADATA_FILES_FULL;
@@ -72,7 +72,7 @@ describe( 'metadata command', () => {
                 compareOptions
             );
 
-            expect( metadataComparison.same === true).toBeTruthy();
+            expect( metadataComparison.same ).toBeTruthy();
         }
     );
 
@@ -81,7 +81,7 @@ describe( 'metadata command', () => {
         () => {
             const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
 
-            expect( loadSucceeded === true).toBeTruthy();
+            expect( loadSucceeded ).toBeTruthy();
 
             expect( // Conf file metadataDir is relative path, have to change it to
             // absolute for comparison
@@ -110,7 +110,7 @@ describe( 'metadata command', () => {
                 compareOptions
             );
 
-            expect( metadataComparison.same === true).toBeTruthy();
+            expect( metadataComparison.same ).toBeTruthy();
         }
     );
 
