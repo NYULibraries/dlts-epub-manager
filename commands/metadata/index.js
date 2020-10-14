@@ -5,8 +5,9 @@ const fs       = require( 'fs' );
 const path     = require( 'path' );
 const rimraf   = require( 'rimraf' );
 
-const Supafolio = require( '../../lib/supafolio/Supafolio' ).Supafolio;
-const util      = require( '../../lib/util' );
+const legacyHandles = require( '../../lib/legacy/handles' );
+const Supafolio     = require( '../../lib/supafolio/Supafolio' ).Supafolio;
+const util          = require( '../../lib/util' );
 
 let em;
 let supafolio;
@@ -116,7 +117,8 @@ function generateMetadataFiles( epubIdList, metadataDir ) {
     epubIdList.forEach( ( epubId ) => {
         try {
             const supafolioMetadata = supafolio.book( epubId );
-            const handle = getHandleForEpub( epubId );
+            const handle = legacyHandles.getHandleForEpub( epubId );
+            const handleUrl = legacyHandles.getHandleUrlForEpub( epubId );
 
             const metadataDirForEpub = `${metadataDir}/${epubId}`;
             rimraf.sync( metadataDirForEpub );
