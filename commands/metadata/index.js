@@ -78,6 +78,38 @@ module.exports = function( vorpal ){
 
 };
 
+function createDltsAdministrativeMetadataFile( metadata, outputFile ) {
+    fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
+}
+
+function createIntakeDescriptiveMetadataFile( supafolioBookMetadata, handle, outputFile ) {
+        let metadata = {
+            author           : supafolioBookMetadata.author,
+            author_sort      : util.getAuthorSortKey( supafolioBookMetadata.author ),
+            coverage         : supafolioBookMetadata.coverage,
+            coverHref        : supafolioBookMetadata.coverHref,
+            date             : supafolioBookMetadata.date,
+            description      : supafolioBookMetadata.description,
+            description_html : supafolioBookMetadata.description_html,
+            format           : supafolioBookMetadata.format,
+            handle           : `${HANDLE_SERVER}/${handle}`,
+            identifier       : supafolioBookMetadata.identifier,
+            language         : supafolioBookMetadata.language,
+            packageUrl       : supafolioBookMetadata.packageUrl,
+            publisher        : supafolioBookMetadata.publisher,
+            rights           : supafolioBookMetadata.rights,
+            rootUrl          : supafolioBookMetadata.rootUrl,
+            subject          : supafolioBookMetadata.subject,
+            subtitle         : supafolioBookMetadata.subtitle,
+            thumbHref        : supafolioBookMetadata.thumbHref,
+            title            : supafolioBookMetadata.title,
+            title_sort       : util.getTitleSortKey( supafolioBookMetadata.title ),
+            type             : supafolioBookMetadata.type,
+        };
+
+        fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
+}
+
 function generateMetadataFiles( epubIdList, metadataDir ) {
     let metadataFilesCompleted = [];
 
@@ -112,38 +144,6 @@ function generateMetadataFiles( epubIdList, metadataDir ) {
     } );
 
     return metadataFilesCompleted;
-}
-
-function createIntakeDescriptiveMetadataFile( supafolioBookMetadata, handle, outputFile ) {
-        let metadata = {
-            author           : supafolioBookMetadata.author,
-            author_sort      : util.getAuthorSortKey( supafolioBookMetadata.author ),
-            coverage         : supafolioBookMetadata.coverage,
-            coverHref        : supafolioBookMetadata.coverHref,
-            date             : supafolioBookMetadata.date,
-            description      : supafolioBookMetadata.description,
-            description_html : supafolioBookMetadata.description_html,
-            format           : supafolioBookMetadata.format,
-            handle           : `${HANDLE_SERVER}/${handle}`,
-            identifier       : supafolioBookMetadata.identifier,
-            language         : supafolioBookMetadata.language,
-            packageUrl       : supafolioBookMetadata.packageUrl,
-            publisher        : supafolioBookMetadata.publisher,
-            rights           : supafolioBookMetadata.rights,
-            rootUrl          : supafolioBookMetadata.rootUrl,
-            subject          : supafolioBookMetadata.subject,
-            subtitle         : supafolioBookMetadata.subtitle,
-            thumbHref        : supafolioBookMetadata.thumbHref,
-            title            : supafolioBookMetadata.title,
-            title_sort       : util.getTitleSortKey( supafolioBookMetadata.title ),
-            type             : supafolioBookMetadata.type,
-        };
-
-        fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
-}
-
-function createDltsAdministrativeMetadataFile( metadata, outputFile ) {
-    fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
 }
 
 function getHandleForEpub( epubId ) {

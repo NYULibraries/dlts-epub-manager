@@ -1,12 +1,7 @@
 "use strict";
 
-/* global before, beforeEach */
-
 let fs = require( 'fs' ),
-
-    assert   = require( 'chai' ).assert,
-    _        = require( 'lodash' ),
-
+    _ = require( 'lodash' ),
     DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
 
 const EXPECTED_DIR       = __dirname + '/expected/epubs';
@@ -17,7 +12,7 @@ const FIXTURE_DIR = __dirname + '/fixture/epubs';
 describe( 'epub', () => {
     let expectedData = {};
 
-    before( () => {
+    beforeAll( () => {
         let epubId = fs.readdirSync( EXPECTED_DIR );
 
         epubId.forEach( ( epubId ) => {
@@ -41,10 +36,7 @@ describe( 'epub', () => {
                     let got      = dltsEpub.package[ field ];
                     let expected = expectedPackage[ field ];
 
-                    assert(
-                        _.isEqual( got, expected ) === true,
-                        `${epubId}: got field "${field}" value of "${got}" but was expecting "${expected}"`
-                    );
+                    expect( _.isEqual( got, expected ) === true ).toBeTruthy();
                 }
             }
         } );
@@ -62,10 +54,7 @@ describe( 'epub', () => {
                     let got      = dltsEpub.dlts.metadata[ field ];
                     let expected = expectedDltsMetadata[ field ];
 
-                    assert(
-                        _.isEqual( got, expected ) === true,
-                        `${epubId}: got field "${field}" value of "${got}" but was expecting "${expected}"`
-                    );
+                    expect( _.isEqual( got, expected ) === true ).toBeTruthy();
                 }
             }
         } );
@@ -78,11 +67,7 @@ describe( 'epub', () => {
                 let got      = dltsEpub[ field ];
                 let expected = expectedData[ epubId ][ field ];
 
-                assert(
-                    _.isEqual( got, expected ) === true,
-                    `${epubId}: got field "${field}" value of "${got}" but was expecting "${expected}"`
-                );
-            }
-        );
+                expect( _.isEqual( got, expected ) === true ).toBeTruthy();
+        } );
     } );
 } );
