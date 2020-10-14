@@ -79,10 +79,10 @@ module.exports = function( vorpal ){
 
 };
 
-function createDltsAdministrativeMetadataFile( supafolioMetadata, outputFile ) {
+function createDltsAdministrativeMetadataFile( supafolioBookMetadata, outputFile ) {
     const dltsAdministrativeMetadata = {
         handle : legacyHandles.getHandleForEpub.supafolioMetadata.isbn;
-        collection_code : supafolioMetadata.collectionCode,
+        collection_code : supafolioBookMetadata.collectionCode,
     };
 
     fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
@@ -125,18 +125,18 @@ function generateMetadataFiles( epubIdList, metadataDir ) {
 
     epubIdList.forEach( ( epubId ) => {
         try {
-            const supafolioMetadata = supafolio.book( epubId );
+            const supafolioBookMetadata = supafolio.book( epubId );
 
             const metadataDirForEpub = `${metadataDir}/${epubId}`;
             rimraf.sync( metadataDirForEpub );
             fs.mkdirSync( metadataDirForEpub, 0o755 );
 
             createIntakeDescriptiveMetadataFile(
-                supafolioMetadata,`${metadataDirForEpub}/intake-descriptive.json`
+                supafolioBookMetadata,`${metadataDirForEpub}/intake-descriptive.json`
             );
 
             createDltsAdministrativeMetadataFile(
-                supafolioMetadata, `${metadataDirForEpub}/dlts-administrative.json`
+                supafolioBookMetadata, `${metadataDirForEpub}/dlts-administrative.json`
             );
         } catch( e ) {
             throw( e );
