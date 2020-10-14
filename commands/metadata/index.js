@@ -83,8 +83,8 @@ function createDltsAdministrativeMetadataFile( metadata, outputFile ) {
     fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
 }
 
-function createIntakeDescriptiveMetadataFile( supafolioBookMetadata, handle, outputFile ) {
-        let metadata = {
+function createIntakeDescriptiveMetadataFile( supafolioBookMetadata, outputFile ) {
+    const metadata = {
             author           : supafolioBookMetadata.author,
             author_sort      : util.getAuthorSortKey( supafolioBookMetadata.author ),
             coverage         : supafolioBookMetadata.coverage,
@@ -93,7 +93,6 @@ function createIntakeDescriptiveMetadataFile( supafolioBookMetadata, handle, out
             description      : supafolioBookMetadata.description,
             description_html : supafolioBookMetadata.description_html,
             format           : supafolioBookMetadata.format,
-            handle           : `${HANDLE_SERVER}/${handle}`,
             identifier       : supafolioBookMetadata.identifier,
             language         : supafolioBookMetadata.language,
             packageUrl       : supafolioBookMetadata.packageUrl,
@@ -108,6 +107,11 @@ function createIntakeDescriptiveMetadataFile( supafolioBookMetadata, handle, out
             type             : supafolioBookMetadata.type,
         };
 
+        const handleUrl = legacyHandles.getHandleForEpub( supafolioBookMetadata.identifier );
+        if ( handleUrl ) {
+            metadata.handle = handleUrl;
+        }
+
         fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
 }
 
@@ -117,15 +121,13 @@ function generateMetadataFiles( epubIdList, metadataDir ) {
     epubIdList.forEach( ( epubId ) => {
         try {
             const supafolioMetadata = supafolio.book( epubId );
-            const handle = legacyHandles.getHandleForEpub( epubId );
-            const handleUrl = legacyHandles.getHandleUrlForEpub( epubId );
 
             const metadataDirForEpub = `${metadataDir}/${epubId}`;
             rimraf.sync( metadataDirForEpub );
             fs.mkdirSync( metadataDirForEpub, 0o755 );
 
             createIntakeDescriptiveMetadataFile(
-                supafolioMetadata, handle, `${metadataDirForEpub}/intake-descriptive.json`
+                supafolioMetadata,`${metadataDirForEpub}/intake-descriptive.json`
             );
 
             const collectionCode = supafolioMetadata.collectionCode;
