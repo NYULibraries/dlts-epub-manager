@@ -146,7 +146,4 @@ function generateMetadataFiles( epubIdList, metadataDir ) {
     return metadataFilesCompleted;
 }
 
-function getHandleForEpub( epubId ) {
-    // TODO
-}
 
