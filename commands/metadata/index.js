@@ -85,7 +85,7 @@ function createDltsAdministrativeMetadataFile( supafolioBookMetadata, outputFile
         collection_code : supafolioBookMetadata.collectionCode,
     };
 
-    fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
+    fs.writeFileSync( outputFile, util.jsonStableStringify( dltsAdministrativeMetadata ), 'utf8' );
 }
 
 function createIntakeDescriptiveMetadataFile( supafolioBookMetadata, outputFile ) {
