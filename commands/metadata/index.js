@@ -63,7 +63,7 @@ module.exports = function( vorpal ){
                         metadataDir
                     );
 
-                    vorpal.log( `Intake completed for ${epubIdList.length} EPUBs:\n` + epubsCompleted.join( '\n' ) );
+                    vorpal.log( `Metadata files created for ${epubIdList.length} EPUBs:\n` + epubsCompleted.join( '\n' ) );
 
                     if ( callback ) { callback(); }
                     return true;
