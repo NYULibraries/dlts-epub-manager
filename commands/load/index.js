@@ -1,6 +1,5 @@
 "use strict";
 
-let execSync  = require( 'child_process' ).execSync;
 let fs        = require( 'fs' );
 let path      = require( 'path' );
 
@@ -49,7 +48,7 @@ module.exports = function( vorpal ) {
 
                 let metadataDir;
                 try {
-                    metadataDir = getMetadataDir( conf );
+                    metadataDir = util.getMetadataDir( em, conf );
                 } catch( error ) {
                     vorpal.log( `ERROR in ${configFileBasename}: ${error}` );
 
@@ -159,45 +158,6 @@ module.exports = function( vorpal ) {
             }
         );
 };
-
-function getMetadataDir( conf ) {
-    let metadataDir              = conf.metadataDir;
-    let metadataRepo             = conf.metadataRepo;
-    let metadataRepoBranch       = conf.metadataRepoBranch;
-    let metadataRepoSubdirectory = conf.metadataRepoSubdirectory;
-
-    if ( metadataDir ) {
-        // Assume that non-absolute paths are relative to root dir
-        if ( ! path.isAbsolute( metadataDir ) ) {
-            metadataDir = `${em.rootDir}/${metadataDir}`;
-        }
-
-        if ( ! fs.existsSync( metadataDir ) ) {
-            throw `${metadataDir} does not exist!`;
-        }
-
-        return metadataDir;
-    } else if ( metadataRepo ) {
-        let clonedRepoDir = `${em.cacheDir}/metadataRepo`;
-
-        let cmd = `git clone ${metadataRepo} ${clonedRepoDir}`;
-        execSync( cmd );
-
-        if ( metadataRepoBranch ) {
-            cmd = `git checkout ${metadataRepoBranch}`;
-            execSync( cmd , { cwd: clonedRepoDir } );
-        }
-
-        let metadataDirFromRepo = clonedRepoDir;
-        if ( metadataRepoSubdirectory ) {
-            metadataDirFromRepo = `${metadataDirFromRepo}/${metadataRepoSubdirectory}`;
-        }
-
-        return metadataDirFromRepo;
-    } else {
-        throw util.ERROR_CONF_MISSING_METADATA_DIR;
-    }
-}
 
 function getEpubListFromDirectory( dir ) {
     let epubList = fs.readdirSync( dir ).filter(
