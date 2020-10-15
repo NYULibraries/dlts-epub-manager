@@ -45,6 +45,7 @@ module.exports = function( vorpal ) {
                 // the main config file, so we just cherry-pick what we need.
                 conf.restfulHandleServerUsername = confPrivate.restfulHandleServerUsername;
                 conf.restfulHandleServerPassword = confPrivate.restfulHandleServerPassword;
+                conf.supafolioApiKey             = confPrivate.supafolioApiKey;
 
                 let metadataDir;
                 try {
