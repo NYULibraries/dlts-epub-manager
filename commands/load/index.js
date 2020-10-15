@@ -24,7 +24,9 @@ module.exports = function( vorpal ) {
                 let configFile = vorpal.em.configDir + '/' +
                                  args.configuration + util.CONFIG_FILE_EXTENSION;
                 let configFileBasename = path.basename( configFile );
-                let conf = require( configFile );
+
+                em.conf = require( configFile );
+                em.conf.name = args.configuration
 
                 // Get private configuration
                 let configPrivateFile = vorpal.em.configPrivateDir + '/' +
@@ -42,13 +44,13 @@ module.exports = function( vorpal ) {
                 // The private config file is not a general-purpose override file.
                 // We do not want to allow accidental overwriting of values from
                 // the main config file, so we just cherry-pick what we need.
-                conf.restfulHandleServerUsername = confPrivate.restfulHandleServerUsername;
-                conf.restfulHandleServerPassword = confPrivate.restfulHandleServerPassword;
-                conf.supafolioApiKey             = confPrivate.supafolioApiKey;
+                em.conf.restfulHandleServerUsername = confPrivate.restfulHandleServerUsername;
+                em.conf.restfulHandleServerPassword = confPrivate.restfulHandleServerPassword;
+                em.conf.supafolioApiKey             = confPrivate.supafolioApiKey;
 
                 let metadataDir;
                 try {
-                    metadataDir = util.getMetadataDir( em, conf );
+                    metadataDir = util.getMetadataDir( em );
                 } catch( error ) {
                     vorpal.log( `ERROR in ${configFileBasename}: ${error}` );
 
@@ -58,7 +60,7 @@ module.exports = function( vorpal ) {
 
                 let metadataEpubList = [];
                 try {
-                    metadataEpubList = getEpubList( conf, 'metadataEpubList', metadataDir );
+                    metadataEpubList = getEpubList( em.conf, 'metadataEpubList', metadataDir );
                 } catch ( e ) {
                     vorpal.log(
                         `ERROR in ${configFileBasename}: ${e}`
@@ -70,7 +72,7 @@ module.exports = function( vorpal ) {
 
                 let metadata = getMetadataForEpubs( metadataDir, metadataEpubList );
 
-                if ( conf.cacheMetadataInMemory ) {
+                if ( em.conf.cacheMetadataInMemory ) {
                     vorpal.em.metadata = {
                         dump : () => {
                             return JSON.stringify( metadata, null, 4 );
@@ -97,7 +99,7 @@ module.exports = function( vorpal ) {
 
                 em.intakeEpubList = [];
                 try {
-                    em.intakeEpubList = getEpubList( conf, 'intakeEpubList', conf.intakeEpubDir );
+                    em.intakeEpubList = getEpubList( em.conf, 'intakeEpubList', em.conf.intakeEpubDir );
                 } catch ( e ) {
                     vorpal.log(
                         `ERROR in ${configFileBasename}: ${e}`
@@ -106,9 +108,6 @@ module.exports = function( vorpal ) {
                     if ( callback ) { callback(); }
                     return false;
                 }
-                
-                vorpal.em.conf = conf;
-                vorpal.em.conf.name = args.configuration;
 
                 if ( callback ) { callback(); }
                 return true;
