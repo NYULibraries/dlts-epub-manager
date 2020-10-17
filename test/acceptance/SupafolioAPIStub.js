@@ -99,8 +99,8 @@ class SupafolioApiStub {
         if ( fs.existsSync( fixtureFile ) ) {
             return require( fixtureFile );
         } else {
-            return SupafolioApiStub.error(
-                400, `fixture response file ${ fixtureFile } does not exist.`
+            return SupafolioApiStub.supafolioErrorResponse(
+                SupafolioAPIErrorProductNotInDatabase.MESSAGE,
             );
         }
     }
