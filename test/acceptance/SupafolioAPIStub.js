@@ -2,6 +2,9 @@ const fs = require( 'fs' );
 const path = require( 'path' );
 const url = require( 'url' );
 
+const SupafolioAPIErrorResourceNotFound =
+    require( '../../lib/supafolio/SupafolioAPIErrorResourceNotFound' ).SupafolioAPIErrorResourceNotFound;
+
 const SUPAFOLIO_API_FIXTURE_DIRECTORY = __dirname + '/fixture/supafolio-api/';
 const SUPAFOLIO_API_URL = 'http://api.supafolio.com/v2/book/';
 
@@ -52,7 +55,7 @@ class SupafolioApiStub {
 
         if ( isbn === '' ) {
             return SupafolioApiStub.supafolioErrorResponse(
-                'Resource not found.',
+                SupafolioAPIErrorResourceNotFound.MESSAGE,
                 {
                     "error": "error-router-no-match",
                     "exception": [],
