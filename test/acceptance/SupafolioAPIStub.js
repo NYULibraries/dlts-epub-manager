@@ -49,6 +49,17 @@ class SupafolioApiStub {
         let response;
 
         const isbn = SupafolioApiStub.parseIsbn( url );
+
+        if ( isbn === '' ) {
+            return SupafolioApiStub.supafolioErrorResponse(
+                'Resource not found.',
+                {
+                    "error": "error-router-no-match",
+                    "exception": [],
+                }
+            );
+        }
+
         const expectedUrl = SUPAFOLIO_API_URL + isbn;
         if ( url !== expectedUrl ) {
             return SupafolioApiStub.error(
