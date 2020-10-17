@@ -27,14 +27,19 @@ class SupafolioApiStub {
         return parts[ parts.length - 1 ];
     }
 
-    static supafolioErrorResponse( message ) {
+    static supafolioErrorResponse( message, extra ) {
+        const errors = [
+            { message },
+        ];
+
+        if ( extra ) {
+            Object.assign( errors[ 0 ], extra );
+        }
+
         return {
             status : "error",
             data   : {
-                errors :
-                    [
-                        { message },
-                    ]
+                errors,
             }
         };
     }
