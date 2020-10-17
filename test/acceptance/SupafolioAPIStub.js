@@ -2,6 +2,10 @@ const fs = require( 'fs' );
 const path = require( 'path' );
 const url = require( 'url' );
 
+const util = require( '../../lib/util' );
+
+const SupafolioAPIErrorProductNotInDatabase =
+    require( '../../lib/supafolio/SupafolioAPIErrorProductNotInDatabase' ).SupafolioAPIErrorProductNotInDatabase;
 const SupafolioAPIErrorResourceNotFound =
     require( '../../lib/supafolio/SupafolioAPIErrorResourceNotFound' ).SupafolioAPIErrorResourceNotFound;
 
@@ -60,6 +64,12 @@ class SupafolioApiStub {
                     "error": "error-router-no-match",
                     "exception": [],
                 }
+            );
+        }
+
+        if ( ! util.isValidNormalizedIsbn13( isbn ) ) {
+            return SupafolioApiStub.supafolioErrorResponse(
+                SupafolioAPIErrorProductNotInDatabase.MESSAGE,
             );
         }
 
