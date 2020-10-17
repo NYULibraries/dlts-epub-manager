@@ -5,7 +5,7 @@ const url = require( 'url' );
 const util = require( '../../lib/util' );
 
 const SupafolioAPIErrorProductNotInDatabase =
-    require( '../../lib/supafolio/SupafolioAPIErrorProductNotInDatabase' ).SupafolioAPIErrorProductNotInDatabase;
+    require( '../../lib/supafolio/SupafolioApiErrorProductNotInDatabase' ).SupafolioAPIErrorProductNotInDatabase;
 const SupafolioAPIErrorResourceNotFound =
     require( '../../lib/supafolio/SupafolioAPIErrorResourceNotFound' ).SupafolioAPIErrorResourceNotFound;
 
