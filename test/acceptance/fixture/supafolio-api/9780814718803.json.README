@@ -1,0 +1,5 @@
+This actually the Supafolio API response for 9780814718810 but with isbn13 changed to 9780814718803.  See https://jira.nyu.edu/jira/browse/NYUP-733 for the reason why this is necessary.
+
+Originally this file was a symlink to 9780814718803.json.hacked-9780814718810, but unless --preserve-symlinks flag is set Node will apparently not load the file as JSON, which can cause parsing to fail.
+
+
