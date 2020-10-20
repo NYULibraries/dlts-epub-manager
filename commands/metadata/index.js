@@ -33,7 +33,7 @@ module.exports = function( vorpal ){
 
                 supafolio = new Supafolio( em.conf.supafolioApiKey, em.request );
 
-                let metadataDir = em.conf.metadataDir;
+                let metadataDir = util.getMetadataDir( em );
                 if ( ! metadataDir ) {
                     vorpal.log( util.ERROR_CONF_MISSING_METADATA_DIR );
 
