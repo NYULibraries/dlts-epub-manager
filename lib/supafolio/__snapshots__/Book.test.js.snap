@@ -585,6 +585,42 @@ exports[`lib/supafolio/Book getters should produce the correct metadata 17`] = `
 Object {
   "authors": Array [
     Object {
+      "first": "Martha Grace",
+      "last": "Duncan",
+      "name": "Martha Grace Duncan",
+      "order": 1,
+      "role": "By (author)",
+      "seo": "martha-grace-duncan",
+    },
+  ],
+  "authorsForDisplay": "Martha Grace Duncan",
+  "coverage": "TDB",
+  "date": "1999-09-01 00:00:00.000000",
+  "description": "<p>An ex-convict struggles with his addictive yearning for prison. A law-abiding citizen broods over his pleasure in violent, illegal acts. A prison warden loses his job because he is so successful in rehabilitating criminals. These are but a few of the intriguing stories Martha Grace Duncan examines in her bold, interdisciplinary book Romantic Outlaws, Beloved Prisons.<br> Duncan writes: \\"This is a book about paradoxes and mingled yarns - about the bright sides of dark events, the silver linings of sable clouds.\\"  She portrays upright citizens who harbor a strange liking for criminal deeds, and criminals who conceive of prison in positive terms: as a nurturing mother, an academy, a matrix of spiritual rebirth, or a refuge from life's trivia. In developing her unique vision, Duncan draws on literature, history, psychoanalysis, and law. Her work reveals a nonutopian world in which criminals and non-criminals&#8212;while injuring each other in obvious ways&#8212;nonetheless live together in a symbiotic as well as an adversarial relationship, needing each other, serving each other, enriching each other's lives in profound and surprising fashion.</p>",
+  "isbn": "9780814718803",
+  "languageCode": "eng",
+  "license": Object {
+    "link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+  },
+  "pages": 284,
+  "publisher": "NYU Press",
+  "subjects": Array [
+    "Criminology",
+    "Law",
+    "Psychology",
+  ],
+  "subtitle": "The Unconscious Meanings of Crime and Punishment",
+  "title": "Romantic Outlaws, Beloved Prisons",
+  "titleWithoutPrefix": "Romantic Outlaws, Beloved Prisons",
+  "year": 1999,
+}
+`;
+
+exports[`lib/supafolio/Book getters should produce the correct metadata 18`] = `
+Object {
+  "authors": Array [
+    Object {
       "first": "Seth",
       "last": "Forman",
       "name": "Seth Forman",
@@ -617,7 +653,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 18`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 19`] = `
 Object {
   "authors": Array [
     Object {
@@ -652,7 +688,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 19`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 20`] = `
 Object {
   "authors": Array [
     Object {
@@ -687,7 +723,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 20`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 21`] = `
 Object {
   "authors": Array [
     Object {
@@ -722,7 +758,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 21`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 22`] = `
 Object {
   "authors": Array [
     Object {
@@ -757,7 +793,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 22`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 23`] = `
 Object {
   "authors": Array [
     Object {
@@ -792,7 +828,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 23`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 24`] = `
 Object {
   "authors": Array [
     Object {
@@ -835,7 +871,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 24`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 25`] = `
 Object {
   "authors": Array [
     Object {
@@ -871,7 +907,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 25`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 26`] = `
 Object {
   "authors": Array [
     Object {
@@ -908,7 +944,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 26`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 27`] = `
 Object {
   "authors": Array [
     Object {
@@ -943,7 +979,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 27`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 28`] = `
 Object {
   "authors": Array [
     Object {
@@ -978,7 +1014,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 28`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 29`] = `
 Object {
   "authors": Array [
     Object {
@@ -1014,7 +1050,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 29`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 30`] = `
 Object {
   "authors": Array [
     Object {
@@ -1049,7 +1085,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 30`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 31`] = `
 Object {
   "authors": Array [
     Object {
@@ -1084,7 +1120,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 31`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 32`] = `
 Object {
   "authors": Array [
     Object {
@@ -1135,7 +1171,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 32`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 33`] = `
 Object {
   "authors": Array [
     Object {
@@ -1169,7 +1205,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 33`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 34`] = `
 Object {
   "authors": Array [
     Object {
@@ -1212,7 +1248,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 34`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 35`] = `
 Object {
   "authors": Array [
     Object {
@@ -1247,7 +1283,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 35`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 36`] = `
 Object {
   "authors": Array [
     Object {
@@ -1283,7 +1319,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 36`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 37`] = `
 Object {
   "authors": Array [
     Object {
@@ -1319,7 +1355,42 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 37`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 38`] = `
+Object {
+  "authors": Array [
+    Object {
+      "first": "Amia",
+      "last": "Lieblich",
+      "name": "Amia Lieblich",
+      "order": 1,
+      "role": "By (author)",
+      "seo": "amia-lieblich",
+    },
+  ],
+  "authorsForDisplay": "Amia Lieblich",
+  "coverage": "TDB",
+  "date": "1994-01-01 00:00:00.000000",
+  "description": "<p>\\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\\"<br>&#151;<i>Publishers Weekly</i><br> \\"Lieblich has skillfully integrated oral histories to produce a compelling story.\\"<br>&#151;<i>Library Journal</i><br> \\"The minutes of the meetings recorded hereby are an excerpt of the lives of ten men, who had spent all their days and nights together.  Each one observed the other in his grief and joy.Each one, according to his ability and sensitivity, saw it as his duty to contribute to the general welfare, to save our boat from sinking....In fact, we managed to keep afloat most of the time, and if we erred here or there, at least we had the best intentions.\\"<br>&#151;<i>From a secret collective diary kept by ten POWs</i><br> A national bestseller when it first appeared in Israel, <i>Seasons of Captivity</i> is a story of human survival and hope that documents the experience of ten Israeli prisoners of war who shared a single jail cell in Egypt for more than three years.<br> The engrossing chronicle of the prisoners' ordeal is told in their own words&#151;from their capture in 1969, through six months of interrogation, torture, and isolation, to their movement to a common room. A watershed event, their transfer to shared living quarters enabled them to forge a community and an almost utopian social system. They held weekly meetings, kept a common diary, started study classes, and, among other projects, translated <i>The Hobbit</i> into Hebrew.<br> The narrative goes on to describe the re-entry of the POWs into family and social roles upon their release and return to Israel in 1973. An exploration of the personal impact of the experience on the wives of the married prisoners introduces the women's own stories of separation and reunion. Some of them had suddenly found themselves, in effect, single mothers&#151;yet their husbands were alive. Their husbands found stronger, more independent women in place of the traditional ones they had left behind. One of the women remarks, I thought [my husband] had been angry at me, in part unconsciously, for being so strong and competent in his absence...I had managed, well, almost effortlessly.<br> This dramatic and moving account illustrates the resilience of the human spirit in the face of the most dehumanizing circumstances.</p>",
+  "isbn": "9780814750957",
+  "languageCode": "eng",
+  "license": Object {
+    "link": false,
+    "name": false,
+  },
+  "pages": 352,
+  "publisher": "NYU Press",
+  "subjects": Array [
+    "History",
+    "Psychology",
+  ],
+  "subtitle": "The Inner World of POWs",
+  "title": "Seasons of Captivity",
+  "titleWithoutPrefix": "Seasons of Captivity",
+  "year": 1994,
+}
+`;
+
+exports[`lib/supafolio/Book getters should produce the correct metadata 39`] = `
 Object {
   "authors": Array [
     Object {
@@ -1354,7 +1425,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 38`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 40`] = `
 Object {
   "authors": Array [
     Object {
@@ -1389,7 +1460,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 39`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 41`] = `
 Object {
   "authors": Array [
     Object {
@@ -1424,7 +1495,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 40`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 42`] = `
 Object {
   "authors": Array [
     Object {
@@ -1459,7 +1530,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 41`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 43`] = `
 Object {
   "authors": Array [
     Object {
@@ -1495,7 +1566,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 42`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 44`] = `
 Object {
   "authors": Array [
     Object {
@@ -1530,7 +1601,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 43`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 45`] = `
 Object {
   "authors": Array [
     Object {
@@ -1566,7 +1637,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 44`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 46`] = `
 Object {
   "authors": Array [
     Object {
@@ -1625,7 +1696,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 45`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 47`] = `
 Object {
   "authors": Array [
     Object {
@@ -1660,7 +1731,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 46`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 48`] = `
 Object {
   "authors": Array [
     Object {
@@ -1695,7 +1766,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 47`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 49`] = `
 Object {
   "authors": Array [
     Object {
@@ -1730,7 +1801,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 48`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 50`] = `
 Object {
   "authors": Array [
     Object {
@@ -1765,7 +1836,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 49`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 51`] = `
 Object {
   "authors": Array [
     Object {
@@ -1800,7 +1871,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 50`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 52`] = `
 Object {
   "authors": Array [
     Object {
@@ -1835,7 +1906,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 51`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 53`] = `
 Object {
   "authors": Array [
     Object {
@@ -1886,7 +1957,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 52`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 54`] = `
 Object {
   "authors": Array [
     Object {
@@ -1921,7 +1992,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 53`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 55`] = `
 Object {
   "authors": Array [
     Object {
@@ -1956,7 +2027,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 54`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 56`] = `
 Object {
   "authors": Array [
     Object {
@@ -1991,7 +2062,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 55`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 57`] = `
 Object {
   "authors": Array [
     Object {
@@ -2025,7 +2096,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 56`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 58`] = `
 Object {
   "authors": Array [
     Object {
@@ -2061,7 +2132,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 57`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 59`] = `
 Object {
   "authors": Array [
     Object {
@@ -2104,7 +2175,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 58`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 60`] = `
 Object {
   "authors": Array [
     Object {
@@ -2139,7 +2210,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 59`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 61`] = `
 Object {
   "authors": Array [
     Object {
@@ -2182,7 +2253,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 60`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 62`] = `
 Object {
   "authors": Array [
     Object {
@@ -2217,7 +2288,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 61`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 63`] = `
 Object {
   "authors": Array [
     Object {
@@ -2260,7 +2331,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 62`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 64`] = `
 Object {
   "authors": Array [
     Object {
@@ -2295,7 +2366,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 63`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 65`] = `
 Object {
   "authors": Array [
     Object {
@@ -2330,7 +2401,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 64`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 66`] = `
 Object {
   "authors": Array [
     Object {
@@ -2373,7 +2444,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 65`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 67`] = `
 Object {
   "authors": Array [
     Object {
@@ -13639,6 +13710,761 @@ Book {
           "description": null,
           "embed": null,
           "height": 648,
+          "id": "1136",
+          "name": "648-H-9780814718810.jpg",
+          "order": 1,
+          "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+          "schedule": "2020-04-10 19:30:52",
+          "size": null,
+          "source": "s3-image-import",
+          "sub_type": "book-cover",
+          "type": "image",
+          "unique": "d1280e627365a69591000f9a8c2ff2f1",
+          "width": null,
+        },
+        "asset_id": "1136",
+        "id": "1136-364",
+      },
+      Object {
+        "asset": Object {
+          "description": null,
+          "embed": null,
+          "height": null,
+          "id": "884",
+          "name": "145-W-9780814718810.jpg",
+          "order": 1,
+          "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+          "schedule": "2020-04-10 19:30:51",
+          "size": null,
+          "source": "s3-image-import",
+          "sub_type": "book-cover",
+          "type": "image",
+          "unique": "8f3c6af3392dade3d6ab2ca15a2eb14f",
+          "width": 145,
+        },
+        "asset_id": "884",
+        "id": "884-364",
+      },
+      Object {
+        "asset": Object {
+          "description": null,
+          "embed": null,
+          "height": null,
+          "id": "1010",
+          "name": "298-W-9780814718810.jpg",
+          "order": 1,
+          "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+          "schedule": "2020-04-10 19:30:52",
+          "size": null,
+          "source": "s3-image-import",
+          "sub_type": "book-cover",
+          "type": "image",
+          "unique": "e9c6d8c526c5c2e7a587d058eb690724",
+          "width": 298,
+        },
+        "asset_id": "1010",
+        "id": "1010-364",
+      },
+    ],
+    "availability": 4,
+    "availability_status": "Active",
+    "awards": Array [],
+    "categories": Array [
+      Object {
+        "category": Object {
+          "code": "NYUC00000",
+          "code_3": "NYU",
+          "code_6": "NYUC00",
+          "name": "Criminology",
+          "seo_name": "NYUC",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+      Object {
+        "category": Object {
+          "code": "NYUC00CC0",
+          "code_3": "NYU",
+          "code_6": "NYUC00",
+          "name": "Criminology / Cultural Criminology",
+          "seo_name": "NYUCCC",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+      Object {
+        "category": Object {
+          "code": "NYUP00000",
+          "code_3": "NYU",
+          "code_6": "NYUP00",
+          "name": "Psychology",
+          "seo_name": "NYUP",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+      Object {
+        "category": Object {
+          "code": "NYUL00000",
+          "code_3": "NYU",
+          "code_6": "NYUL00",
+          "name": "Law",
+          "seo_name": "NYUL",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+    ],
+    "cd_run_time": "0:0:0",
+    "contributors": Array [
+      Object {
+        "contributor": Object {
+          "bio": "<b>Martha Grace Duncan</b> is Professor of Law at Emory University. She earned a Ph.D. at Columbia University and a law degree from Yale Law School, where she was Article and Book Review Editor of the <i>Yale Law Journal</i>. She was a post-doctoral candidate at NYU Psychoanalytic Institute at New York University Medical Center.",
+          "bio_short": null,
+          "contributor_id": 100065,
+          "custom": null,
+          "deceased": false,
+          "featured": false,
+          "first": "Martha Grace",
+          "hide": false,
+          "image": null,
+          "last": "Duncan",
+          "locale": null,
+          "name": "Martha Grace Duncan",
+          "on_tour": false,
+          "reference_id": null,
+          "role": "A01",
+          "sensitivity": false,
+          "seo": "martha-grace-duncan",
+        },
+        "contributor_id": 100065,
+        "note": "Martha Grace Duncan",
+        "order": 1,
+        "role": Object {
+          "code": "A01",
+          "name": "By (author)",
+        },
+        "role_id": "A01",
+      },
+    ],
+    "custom": Object {
+      "cs_title_group": "9780814718803",
+      "ebook": "9780814744260",
+      "edition_isbn": "9780814718810",
+      "hardcover": "9780814718803",
+      "hi_res_images": false,
+      "language": "eng",
+      "library": "9780814721100",
+      "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+      "open_access_is_downloadable": false,
+      "open_access_series": false,
+      "paperback": "9780814718810",
+      "permanent_url": "https://doi.org/10.33682/n2z34wct",
+      "scheduled_date": "05/29/2014",
+      "video": false,
+    },
+    "date": Object {
+      "date": "1999-09-01 00:00:00.000000",
+      "timezone": "America/New_York",
+      "timezone_type": 3,
+    },
+    "description": "<p>An ex-convict struggles with his addictive yearning for prison. A law-abiding citizen broods over his pleasure in violent, illegal acts. A prison warden loses his job because he is so successful in rehabilitating criminals. These are but a few of the intriguing stories Martha Grace Duncan examines in her bold, interdisciplinary book Romantic Outlaws, Beloved Prisons.<br> Duncan writes: \\"This is a book about paradoxes and mingled yarns - about the bright sides of dark events, the silver linings of sable clouds.\\"  She portrays upright citizens who harbor a strange liking for criminal deeds, and criminals who conceive of prison in positive terms: as a nurturing mother, an academy, a matrix of spiritual rebirth, or a refuge from life's trivia. In developing her unique vision, Duncan draws on literature, history, psychoanalysis, and law. Her work reveals a nonutopian world in which criminals and non-criminals&#8212;while injuring each other in obvious ways&#8212;nonetheless live together in a symbiotic as well as an adversarial relationship, needing each other, serving each other, enriching each other's lives in profound and surprising fashion.</p>",
+    "division": null,
+    "edition": "",
+    "featured": false,
+    "formats": Array [
+      Object {
+        "date": Object {
+          "date": "1999-09-01 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "detail": "Print PDF",
+        "edition": "",
+        "format": Object {
+          "code": "BC",
+          "name": "Paperback",
+        },
+        "format_id": "BC",
+        "id": "BC364",
+        "isbn": "9780814718810",
+        "primary_format": true,
+        "product_id": 364,
+        "seo_link": "romantic-outlaws-beloved-prisons",
+        "title_id": "a70661b2c87b6ecd6456793167e7861a",
+      },
+      Object {
+        "date": Object {
+          "date": "1996-11-01 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "detail": "",
+        "edition": "",
+        "format": Object {
+          "code": "DG",
+          "name": "eBook",
+        },
+        "format_id": "DG",
+        "id": "DG49",
+        "isbn": "9780814721100",
+        "primary_format": false,
+        "product_id": 49,
+        "seo_link": "romantic-outlaws-beloved-prisons",
+        "title_id": "a70661b2c87b6ecd6456793167e7861a",
+      },
+      Object {
+        "date": Object {
+          "date": "1996-11-01 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "detail": "",
+        "edition": "",
+        "format": Object {
+          "code": "DG",
+          "name": "eBook",
+        },
+        "format_id": "DG",
+        "id": "DG363",
+        "isbn": "9780814744260",
+        "primary_format": false,
+        "product_id": 363,
+        "seo_link": "romantic-outlaws-beloved-prisons",
+        "title_id": "a70661b2c87b6ecd6456793167e7861a",
+      },
+    ],
+    "hide": 0,
+    "illustrations_note": "",
+    "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+    "import_notes": "",
+    "imprint": Object {
+      "description": null,
+      "description_short": null,
+      "hide": false,
+      "name": "NYU Press",
+      "seo_name": "nyu-press",
+    },
+    "initial_print_run": null,
+    "isbn10": "0814718817",
+    "isbn13": "9780814718803",
+    "keywords": "",
+    "levels": Array [],
+    "pages": 284,
+    "prices": Array [
+      Object {
+        "amount": "22.99",
+        "discount": null,
+        "locale": "GBP",
+        "promo_start": Array [],
+        "promo_stop": Array [],
+        "saving": null,
+      },
+      Object {
+        "amount": "28.00",
+        "discount": null,
+        "locale": "USD",
+        "promo_start": Object {
+          "date": "2019-08-29 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "promo_stop": Array [],
+        "saving": null,
+      },
+      Object {
+        "amount": "28.00",
+        "discount": null,
+        "locale": "AUD",
+        "promo_start": Array [],
+        "promo_stop": Array [],
+        "saving": null,
+      },
+    ],
+    "primary_format": true,
+    "product_id": 364,
+    "publisher": Object {
+      "name": "NYU Press",
+      "seo_name": "nyu-press",
+    },
+    "rating": null,
+    "reference_id": null,
+    "retailers": null,
+    "reviews": Array [
+      Object {
+        "id": "364-6867",
+        "review": Object {
+          "assets": Array [],
+          "description": "\\"A complex book on the subject of incarceration that embraces both the actual experience of prisoners and the projection in literature of positive prison fantasies. Drawing on a very rich reservoir of illustrations, Duncan offers fascinating developments that will affect the readers' views on the timely question of crime and punishment.\\"",
+          "id": "6867",
+          "reviewer": "Victor Brombert,author of The Romantic Prison",
+          "score": null,
+          "source": "Onix",
+          "unique": "9780814718810-9acf62e145ee7c42fbba6b85a6e94f31",
+        },
+        "review_id": "6867",
+      },
+      Object {
+        "id": "364-6868",
+        "review": Object {
+          "assets": Array [],
+          "description": "\\"Romantic Outlaws, Beloved Prisons is a book that merits the interest of psychanalysts for the contribution it offers to our understanding of the realm of guilt and punishment in human psychology...I recommend the book highly.\\"",
+          "id": "6868",
+          "reviewer": "The Psychoanalytic Quarterly",
+          "score": null,
+          "source": "Onix",
+          "unique": "9780814718810-ade3f6cde47b7c1ff04be286b609f1bf",
+        },
+        "review_id": "6868",
+      },
+      Object {
+        "id": "364-6869",
+        "review": Object {
+          "assets": Array [],
+          "description": "\\"Literature... provides Duncan a rich field in which to explore our 'reluctant,' 'rationalized,' and sometimes outright 'admiration' for the 'noble bandit.' ...The real drama of...Duncan's discussion of metaphor, however, comes with the vivid historical pictograph that gives her book a stirring climax....Duncan readily solves the mystery [of the founding of Botany Bay as a penal colony].\\"",
+          "id": "6869",
+          "reviewer": "New York Times Book Review",
+          "score": null,
+          "source": "Onix",
+          "unique": "9780814718810-0d055414e9efe2ed4ef145fd9c85d1d1",
+        },
+        "review_id": "6869",
+      },
+      Object {
+        "id": "364-6870",
+        "review": Object {
+          "assets": Array [],
+          "description": "\\"Professor Martha Duncan has written an important, creative work.  Her book is elegant, and solidly grounded in literature, psychoanalysis and law.\\"",
+          "id": "6870",
+          "reviewer": "Legal Studies Form",
+          "score": null,
+          "source": "Onix",
+          "unique": "9780814718810-1a623808a2e2d3abb96502e6ecd64fb3",
+        },
+        "review_id": "6870",
+      },
+    ],
+    "sale_date": Object {
+      "date": "1999-09-01 00:00:00.000000",
+      "timezone": "America/New_York",
+      "timezone_type": 3,
+    },
+    "scheduled": Array [],
+    "search_weight": 570,
+    "season": null,
+    "seo": "romantic-outlaws-beloved-prisons",
+    "series": Array [],
+    "sort_date": 936158400,
+    "stock": null,
+    "subtitle": "The Unconscious Meanings of Crime and Punishment",
+    "summary": "An ex-convict struggles with his addictive yearning for prison. A law-abiding citizen broods over his pleasure in violent, illegal acts. A prison warden loses his job because he is so successful...",
+    "tagline": null,
+    "territories": null,
+    "title": "Romantic Outlaws, Beloved Prisons",
+    "title_id": "a70661b2c87b6ecd6456793167e7861a",
+    "title_without_prefix": "Romantic Outlaws, Beloved Prisons",
+    "trim": Object {
+      "depth": null,
+      "height": "9.000",
+      "unit": "in",
+      "weight": "0.050",
+      "weight_unit": "lb",
+      "width": "6.000",
+    },
+    "type": "Nonfiction",
+  },
+  "supafolioApiResponse": Object {
+    "data": Object {
+      "book": Array [
+        Object {
+          "assets": Array [
+            Object {
+              "asset": Object {
+                "description": null,
+                "embed": null,
+                "height": 648,
+                "id": "1136",
+                "name": "648-H-9780814718810.jpg",
+                "order": 1,
+                "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+                "schedule": "2020-04-10 19:30:52",
+                "size": null,
+                "source": "s3-image-import",
+                "sub_type": "book-cover",
+                "type": "image",
+                "unique": "d1280e627365a69591000f9a8c2ff2f1",
+                "width": null,
+              },
+              "asset_id": "1136",
+              "id": "1136-364",
+            },
+            Object {
+              "asset": Object {
+                "description": null,
+                "embed": null,
+                "height": null,
+                "id": "884",
+                "name": "145-W-9780814718810.jpg",
+                "order": 1,
+                "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+                "schedule": "2020-04-10 19:30:51",
+                "size": null,
+                "source": "s3-image-import",
+                "sub_type": "book-cover",
+                "type": "image",
+                "unique": "8f3c6af3392dade3d6ab2ca15a2eb14f",
+                "width": 145,
+              },
+              "asset_id": "884",
+              "id": "884-364",
+            },
+            Object {
+              "asset": Object {
+                "description": null,
+                "embed": null,
+                "height": null,
+                "id": "1010",
+                "name": "298-W-9780814718810.jpg",
+                "order": 1,
+                "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+                "schedule": "2020-04-10 19:30:52",
+                "size": null,
+                "source": "s3-image-import",
+                "sub_type": "book-cover",
+                "type": "image",
+                "unique": "e9c6d8c526c5c2e7a587d058eb690724",
+                "width": 298,
+              },
+              "asset_id": "1010",
+              "id": "1010-364",
+            },
+          ],
+          "availability": 4,
+          "availability_status": "Active",
+          "awards": Array [],
+          "categories": Array [
+            Object {
+              "category": Object {
+                "code": "NYUC00000",
+                "code_3": "NYU",
+                "code_6": "NYUC00",
+                "name": "Criminology",
+                "seo_name": "NYUC",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+            Object {
+              "category": Object {
+                "code": "NYUC00CC0",
+                "code_3": "NYU",
+                "code_6": "NYUC00",
+                "name": "Criminology / Cultural Criminology",
+                "seo_name": "NYUCCC",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+            Object {
+              "category": Object {
+                "code": "NYUP00000",
+                "code_3": "NYU",
+                "code_6": "NYUP00",
+                "name": "Psychology",
+                "seo_name": "NYUP",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+            Object {
+              "category": Object {
+                "code": "NYUL00000",
+                "code_3": "NYU",
+                "code_6": "NYUL00",
+                "name": "Law",
+                "seo_name": "NYUL",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+          ],
+          "cd_run_time": "0:0:0",
+          "contributors": Array [
+            Object {
+              "contributor": Object {
+                "bio": "<b>Martha Grace Duncan</b> is Professor of Law at Emory University. She earned a Ph.D. at Columbia University and a law degree from Yale Law School, where she was Article and Book Review Editor of the <i>Yale Law Journal</i>. She was a post-doctoral candidate at NYU Psychoanalytic Institute at New York University Medical Center.",
+                "bio_short": null,
+                "contributor_id": 100065,
+                "custom": null,
+                "deceased": false,
+                "featured": false,
+                "first": "Martha Grace",
+                "hide": false,
+                "image": null,
+                "last": "Duncan",
+                "locale": null,
+                "name": "Martha Grace Duncan",
+                "on_tour": false,
+                "reference_id": null,
+                "role": "A01",
+                "sensitivity": false,
+                "seo": "martha-grace-duncan",
+              },
+              "contributor_id": 100065,
+              "note": "Martha Grace Duncan",
+              "order": 1,
+              "role": Object {
+                "code": "A01",
+                "name": "By (author)",
+              },
+              "role_id": "A01",
+            },
+          ],
+          "custom": Object {
+            "cs_title_group": "9780814718803",
+            "ebook": "9780814744260",
+            "edition_isbn": "9780814718810",
+            "hardcover": "9780814718803",
+            "hi_res_images": false,
+            "language": "eng",
+            "library": "9780814721100",
+            "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+            "open_access_is_downloadable": false,
+            "open_access_series": false,
+            "paperback": "9780814718810",
+            "permanent_url": "https://doi.org/10.33682/n2z34wct",
+            "scheduled_date": "05/29/2014",
+            "video": false,
+          },
+          "date": Object {
+            "date": "1999-09-01 00:00:00.000000",
+            "timezone": "America/New_York",
+            "timezone_type": 3,
+          },
+          "description": "<p>An ex-convict struggles with his addictive yearning for prison. A law-abiding citizen broods over his pleasure in violent, illegal acts. A prison warden loses his job because he is so successful in rehabilitating criminals. These are but a few of the intriguing stories Martha Grace Duncan examines in her bold, interdisciplinary book Romantic Outlaws, Beloved Prisons.<br> Duncan writes: \\"This is a book about paradoxes and mingled yarns - about the bright sides of dark events, the silver linings of sable clouds.\\"  She portrays upright citizens who harbor a strange liking for criminal deeds, and criminals who conceive of prison in positive terms: as a nurturing mother, an academy, a matrix of spiritual rebirth, or a refuge from life's trivia. In developing her unique vision, Duncan draws on literature, history, psychoanalysis, and law. Her work reveals a nonutopian world in which criminals and non-criminals&#8212;while injuring each other in obvious ways&#8212;nonetheless live together in a symbiotic as well as an adversarial relationship, needing each other, serving each other, enriching each other's lives in profound and surprising fashion.</p>",
+          "division": null,
+          "edition": "",
+          "featured": false,
+          "formats": Array [
+            Object {
+              "date": Object {
+                "date": "1999-09-01 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "detail": "Print PDF",
+              "edition": "",
+              "format": Object {
+                "code": "BC",
+                "name": "Paperback",
+              },
+              "format_id": "BC",
+              "id": "BC364",
+              "isbn": "9780814718810",
+              "primary_format": true,
+              "product_id": 364,
+              "seo_link": "romantic-outlaws-beloved-prisons",
+              "title_id": "a70661b2c87b6ecd6456793167e7861a",
+            },
+            Object {
+              "date": Object {
+                "date": "1996-11-01 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "detail": "",
+              "edition": "",
+              "format": Object {
+                "code": "DG",
+                "name": "eBook",
+              },
+              "format_id": "DG",
+              "id": "DG49",
+              "isbn": "9780814721100",
+              "primary_format": false,
+              "product_id": 49,
+              "seo_link": "romantic-outlaws-beloved-prisons",
+              "title_id": "a70661b2c87b6ecd6456793167e7861a",
+            },
+            Object {
+              "date": Object {
+                "date": "1996-11-01 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "detail": "",
+              "edition": "",
+              "format": Object {
+                "code": "DG",
+                "name": "eBook",
+              },
+              "format_id": "DG",
+              "id": "DG363",
+              "isbn": "9780814744260",
+              "primary_format": false,
+              "product_id": 363,
+              "seo_link": "romantic-outlaws-beloved-prisons",
+              "title_id": "a70661b2c87b6ecd6456793167e7861a",
+            },
+          ],
+          "hide": 0,
+          "illustrations_note": "",
+          "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+          "import_notes": "",
+          "imprint": Object {
+            "description": null,
+            "description_short": null,
+            "hide": false,
+            "name": "NYU Press",
+            "seo_name": "nyu-press",
+          },
+          "initial_print_run": null,
+          "isbn10": "0814718817",
+          "isbn13": "9780814718803",
+          "keywords": "",
+          "levels": Array [],
+          "pages": 284,
+          "prices": Array [
+            Object {
+              "amount": "22.99",
+              "discount": null,
+              "locale": "GBP",
+              "promo_start": Array [],
+              "promo_stop": Array [],
+              "saving": null,
+            },
+            Object {
+              "amount": "28.00",
+              "discount": null,
+              "locale": "USD",
+              "promo_start": Object {
+                "date": "2019-08-29 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "promo_stop": Array [],
+              "saving": null,
+            },
+            Object {
+              "amount": "28.00",
+              "discount": null,
+              "locale": "AUD",
+              "promo_start": Array [],
+              "promo_stop": Array [],
+              "saving": null,
+            },
+          ],
+          "primary_format": true,
+          "product_id": 364,
+          "publisher": Object {
+            "name": "NYU Press",
+            "seo_name": "nyu-press",
+          },
+          "rating": null,
+          "reference_id": null,
+          "retailers": null,
+          "reviews": Array [
+            Object {
+              "id": "364-6867",
+              "review": Object {
+                "assets": Array [],
+                "description": "\\"A complex book on the subject of incarceration that embraces both the actual experience of prisoners and the projection in literature of positive prison fantasies. Drawing on a very rich reservoir of illustrations, Duncan offers fascinating developments that will affect the readers' views on the timely question of crime and punishment.\\"",
+                "id": "6867",
+                "reviewer": "Victor Brombert,author of The Romantic Prison",
+                "score": null,
+                "source": "Onix",
+                "unique": "9780814718810-9acf62e145ee7c42fbba6b85a6e94f31",
+              },
+              "review_id": "6867",
+            },
+            Object {
+              "id": "364-6868",
+              "review": Object {
+                "assets": Array [],
+                "description": "\\"Romantic Outlaws, Beloved Prisons is a book that merits the interest of psychanalysts for the contribution it offers to our understanding of the realm of guilt and punishment in human psychology...I recommend the book highly.\\"",
+                "id": "6868",
+                "reviewer": "The Psychoanalytic Quarterly",
+                "score": null,
+                "source": "Onix",
+                "unique": "9780814718810-ade3f6cde47b7c1ff04be286b609f1bf",
+              },
+              "review_id": "6868",
+            },
+            Object {
+              "id": "364-6869",
+              "review": Object {
+                "assets": Array [],
+                "description": "\\"Literature... provides Duncan a rich field in which to explore our 'reluctant,' 'rationalized,' and sometimes outright 'admiration' for the 'noble bandit.' ...The real drama of...Duncan's discussion of metaphor, however, comes with the vivid historical pictograph that gives her book a stirring climax....Duncan readily solves the mystery [of the founding of Botany Bay as a penal colony].\\"",
+                "id": "6869",
+                "reviewer": "New York Times Book Review",
+                "score": null,
+                "source": "Onix",
+                "unique": "9780814718810-0d055414e9efe2ed4ef145fd9c85d1d1",
+              },
+              "review_id": "6869",
+            },
+            Object {
+              "id": "364-6870",
+              "review": Object {
+                "assets": Array [],
+                "description": "\\"Professor Martha Duncan has written an important, creative work.  Her book is elegant, and solidly grounded in literature, psychoanalysis and law.\\"",
+                "id": "6870",
+                "reviewer": "Legal Studies Form",
+                "score": null,
+                "source": "Onix",
+                "unique": "9780814718810-1a623808a2e2d3abb96502e6ecd64fb3",
+              },
+              "review_id": "6870",
+            },
+          ],
+          "sale_date": Object {
+            "date": "1999-09-01 00:00:00.000000",
+            "timezone": "America/New_York",
+            "timezone_type": 3,
+          },
+          "scheduled": Array [],
+          "search_weight": 570,
+          "season": null,
+          "seo": "romantic-outlaws-beloved-prisons",
+          "series": Array [],
+          "sort_date": 936158400,
+          "stock": null,
+          "subtitle": "The Unconscious Meanings of Crime and Punishment",
+          "summary": "An ex-convict struggles with his addictive yearning for prison. A law-abiding citizen broods over his pleasure in violent, illegal acts. A prison warden loses his job because he is so successful...",
+          "tagline": null,
+          "territories": null,
+          "title": "Romantic Outlaws, Beloved Prisons",
+          "title_id": "a70661b2c87b6ecd6456793167e7861a",
+          "title_without_prefix": "Romantic Outlaws, Beloved Prisons",
+          "trim": Object {
+            "depth": null,
+            "height": "9.000",
+            "unit": "in",
+            "weight": "0.050",
+            "weight_unit": "lb",
+            "width": "6.000",
+          },
+          "type": "Nonfiction",
+        },
+      ],
+      "catalogId": 10150,
+    },
+    "status": "success",
+  },
+}
+`;
+
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 18`] = `
+Book {
+  "book": Object {
+    "assets": Array [
+      Object {
+        "asset": Object {
+          "description": null,
+          "embed": null,
+          "height": 648,
           "id": "1049",
           "name": "648-H-9780814726815.jpg",
           "order": 1,
@@ -14443,7 +15269,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 18`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 19`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -15142,7 +15968,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 19`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 20`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -15907,7 +16733,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 20`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 21`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -16720,7 +17546,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 21`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 22`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -17529,7 +18355,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 22`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 23`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -18186,7 +19012,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 23`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 24`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -18983,7 +19809,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 24`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 25`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -19796,7 +20622,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 25`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 26`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -20517,7 +21343,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 26`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 27`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -21176,7 +22002,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 27`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 28`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -21835,7 +22661,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 28`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 29`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -22640,7 +23466,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 29`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 30`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -23445,7 +24271,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 30`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 31`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -24116,7 +24942,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 31`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 32`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -25023,7 +25849,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 32`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 33`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -25706,7 +26532,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 33`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 34`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -26577,7 +27403,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 34`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 35`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -27236,7 +28062,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 35`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 36`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -27897,7 +28723,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 36`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 37`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -28578,7 +29404,556 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 37`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 38`] = `
+Book {
+  "book": Object {
+    "assets": Array [
+      Object {
+        "asset": Object {
+          "description": null,
+          "embed": null,
+          "height": 648,
+          "id": "1218",
+          "name": "648-H-9780814752739.jpg",
+          "order": 1,
+          "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+          "schedule": "2020-06-23 19:30:51",
+          "size": null,
+          "source": "s3-image-import",
+          "sub_type": "book-cover",
+          "type": "image",
+          "unique": "9194ffc8278827d10123ae0a132e7b26",
+          "width": null,
+        },
+        "asset_id": "1218",
+        "id": "1218-404",
+      },
+      Object {
+        "asset": Object {
+          "description": null,
+          "embed": null,
+          "height": null,
+          "id": "1176",
+          "name": "145-W-9780814752739.jpg",
+          "order": 1,
+          "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+          "schedule": "2020-06-23 19:30:51",
+          "size": null,
+          "source": "s3-image-import",
+          "sub_type": "book-cover",
+          "type": "image",
+          "unique": "6e542df4e37ec235e318abc91fb2ee4a",
+          "width": 145,
+        },
+        "asset_id": "1176",
+        "id": "1176-404",
+      },
+      Object {
+        "asset": Object {
+          "description": null,
+          "embed": null,
+          "height": null,
+          "id": "1197",
+          "name": "298-W-9780814752739.jpg",
+          "order": 1,
+          "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+          "schedule": "2020-06-23 19:30:51",
+          "size": null,
+          "source": "s3-image-import",
+          "sub_type": "book-cover",
+          "type": "image",
+          "unique": "9210acf84e4d5cf3c68a5983f9fe863d",
+          "width": 298,
+        },
+        "asset_id": "1197",
+        "id": "1197-404",
+      },
+    ],
+    "availability": 2,
+    "availability_status": "Forthcoming",
+    "awards": Array [],
+    "categories": Array [
+      Object {
+        "category": Object {
+          "code": "NYUH00000",
+          "code_3": "NYU",
+          "code_6": "NYUH00",
+          "name": "History",
+          "seo_name": "NYUH",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+      Object {
+        "category": Object {
+          "code": "NYUP00000",
+          "code_3": "NYU",
+          "code_6": "NYUP00",
+          "name": "Psychology",
+          "seo_name": "NYUP",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+    ],
+    "cd_run_time": "0:0:0",
+    "contributors": Array [
+      Object {
+        "contributor": Object {
+          "bio": "<b>Amia Lieblich</b> is Artery Professor of Personality Studies in the Psychology Department and head of the Lafer Center for the Study of Women at the Hebrew University of Jerusalem, coeditor of the <i>Annual on the Narrative Study of Lives</i>, and author of several books, most recently <i>Transition to Adulthood during Military Service</i>.",
+          "bio_short": null,
+          "contributor_id": 100097,
+          "custom": null,
+          "deceased": false,
+          "featured": false,
+          "first": "Amia",
+          "hide": false,
+          "image": null,
+          "last": "Lieblich",
+          "locale": null,
+          "name": "Amia Lieblich",
+          "on_tour": false,
+          "reference_id": null,
+          "role": "A01",
+          "sensitivity": false,
+          "seo": "amia-lieblich",
+        },
+        "contributor_id": 100097,
+        "note": "Amia Lieblich",
+        "order": 1,
+        "role": Object {
+          "code": "A01",
+          "name": "By (author)",
+        },
+        "role_id": "A01",
+      },
+    ],
+    "custom": Object {
+      "cs_title_group": "9780814750797",
+      "edition_isbn": "9780814752739",
+      "hi_res_images": false,
+      "language": "eng",
+      "license_link": false,
+      "license_name": false,
+      "open_access_is_downloadable": false,
+      "open_access_series": false,
+      "permanent_url": "https://doi.org/10.33682/vdncjvrd",
+      "scheduled_date": "05/29/2014",
+      "video": false,
+    },
+    "date": Object {
+      "date": "1994-01-01 00:00:00.000000",
+      "timezone": "America/New_York",
+      "timezone_type": 3,
+    },
+    "description": "<p>\\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\\"<br>&#151;<i>Publishers Weekly</i><br> \\"Lieblich has skillfully integrated oral histories to produce a compelling story.\\"<br>&#151;<i>Library Journal</i><br> \\"The minutes of the meetings recorded hereby are an excerpt of the lives of ten men, who had spent all their days and nights together.  Each one observed the other in his grief and joy.Each one, according to his ability and sensitivity, saw it as his duty to contribute to the general welfare, to save our boat from sinking....In fact, we managed to keep afloat most of the time, and if we erred here or there, at least we had the best intentions.\\"<br>&#151;<i>From a secret collective diary kept by ten POWs</i><br> A national bestseller when it first appeared in Israel, <i>Seasons of Captivity</i> is a story of human survival and hope that documents the experience of ten Israeli prisoners of war who shared a single jail cell in Egypt for more than three years.<br> The engrossing chronicle of the prisoners' ordeal is told in their own words&#151;from their capture in 1969, through six months of interrogation, torture, and isolation, to their movement to a common room. A watershed event, their transfer to shared living quarters enabled them to forge a community and an almost utopian social system. They held weekly meetings, kept a common diary, started study classes, and, among other projects, translated <i>The Hobbit</i> into Hebrew.<br> The narrative goes on to describe the re-entry of the POWs into family and social roles upon their release and return to Israel in 1973. An exploration of the personal impact of the experience on the wives of the married prisoners introduces the women's own stories of separation and reunion. Some of them had suddenly found themselves, in effect, single mothers&#151;yet their husbands were alive. Their husbands found stronger, more independent women in place of the traditional ones they had left behind. One of the women remarks, I thought [my husband] had been angry at me, in part unconsciously, for being so strong and competent in his absence...I had managed, well, almost effortlessly.<br> This dramatic and moving account illustrates the resilience of the human spirit in the face of the most dehumanizing circumstances.</p>",
+    "division": null,
+    "edition": "",
+    "featured": false,
+    "formats": Array [
+      Object {
+        "date": Object {
+          "date": "1994-01-01 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "detail": "",
+        "edition": "",
+        "format": Object {
+          "code": "DG",
+          "name": "eBook",
+        },
+        "format_id": "DG",
+        "id": "DG404",
+        "isbn": "9780814752739",
+        "primary_format": false,
+        "product_id": 404,
+        "seo_link": "seasons-of-captivity",
+        "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
+      },
+      Object {
+        "date": Object {
+          "date": "1994-01-01 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "detail": "",
+        "edition": "",
+        "format": Object {
+          "code": "DG",
+          "name": "eBook",
+        },
+        "format_id": "DG",
+        "id": "DG405",
+        "isbn": "9781479898626",
+        "primary_format": true,
+        "product_id": 405,
+        "seo_link": "seasons-of-captivity",
+        "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
+      },
+    ],
+    "hide": 0,
+    "illustrations_note": "",
+    "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+    "import_notes": "",
+    "imprint": Object {
+      "description": null,
+      "description_short": null,
+      "hide": false,
+      "name": "NYU Press",
+      "seo_name": "nyu-press",
+    },
+    "initial_print_run": null,
+    "isbn10": "081475273X",
+    "isbn13": "9780814750957",
+    "keywords": "",
+    "levels": Array [],
+    "pages": 352,
+    "prices": Array [
+      Object {
+        "amount": "23.00",
+        "discount": null,
+        "locale": "AUD",
+        "promo_start": Array [],
+        "promo_stop": Array [],
+        "saving": null,
+      },
+      Object {
+        "amount": "23.00",
+        "discount": null,
+        "locale": "USD",
+        "promo_start": Array [],
+        "promo_stop": Array [],
+        "saving": null,
+      },
+      Object {
+        "amount": "17.99",
+        "discount": null,
+        "locale": "GBP",
+        "promo_start": Array [],
+        "promo_stop": Array [],
+        "saving": null,
+      },
+    ],
+    "primary_format": false,
+    "product_id": 404,
+    "publisher": Object {
+      "name": "NYU Press",
+      "seo_name": "nyu-press",
+    },
+    "rating": null,
+    "reference_id": null,
+    "retailers": null,
+    "reviews": Array [],
+    "sale_date": Object {
+      "date": "1994-01-01 00:00:00.000000",
+      "timezone": "America/New_York",
+      "timezone_type": 3,
+    },
+    "scheduled": Array [],
+    "search_weight": 530,
+    "season": null,
+    "seo": "seasons-of-captivity",
+    "series": Array [],
+    "sort_date": 757400400,
+    "stock": null,
+    "subtitle": "The Inner World of POWs",
+    "summary": "\\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\\"&#151;Publishers Weekly...",
+    "tagline": null,
+    "territories": null,
+    "title": "Seasons of Captivity",
+    "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
+    "title_without_prefix": "Seasons of Captivity",
+    "trim": Object {
+      "depth": null,
+      "height": null,
+      "unit": null,
+      "weight": null,
+      "weight_unit": null,
+      "width": null,
+    },
+    "type": "Nonfiction",
+  },
+  "supafolioApiResponse": Object {
+    "data": Object {
+      "book": Array [
+        Object {
+          "assets": Array [
+            Object {
+              "asset": Object {
+                "description": null,
+                "embed": null,
+                "height": 648,
+                "id": "1218",
+                "name": "648-H-9780814752739.jpg",
+                "order": 1,
+                "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+                "schedule": "2020-06-23 19:30:51",
+                "size": null,
+                "source": "s3-image-import",
+                "sub_type": "book-cover",
+                "type": "image",
+                "unique": "9194ffc8278827d10123ae0a132e7b26",
+                "width": null,
+              },
+              "asset_id": "1218",
+              "id": "1218-404",
+            },
+            Object {
+              "asset": Object {
+                "description": null,
+                "embed": null,
+                "height": null,
+                "id": "1176",
+                "name": "145-W-9780814752739.jpg",
+                "order": 1,
+                "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+                "schedule": "2020-06-23 19:30:51",
+                "size": null,
+                "source": "s3-image-import",
+                "sub_type": "book-cover",
+                "type": "image",
+                "unique": "6e542df4e37ec235e318abc91fb2ee4a",
+                "width": 145,
+              },
+              "asset_id": "1176",
+              "id": "1176-404",
+            },
+            Object {
+              "asset": Object {
+                "description": null,
+                "embed": null,
+                "height": null,
+                "id": "1197",
+                "name": "298-W-9780814752739.jpg",
+                "order": 1,
+                "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+                "schedule": "2020-06-23 19:30:51",
+                "size": null,
+                "source": "s3-image-import",
+                "sub_type": "book-cover",
+                "type": "image",
+                "unique": "9210acf84e4d5cf3c68a5983f9fe863d",
+                "width": 298,
+              },
+              "asset_id": "1197",
+              "id": "1197-404",
+            },
+          ],
+          "availability": 2,
+          "availability_status": "Forthcoming",
+          "awards": Array [],
+          "categories": Array [
+            Object {
+              "category": Object {
+                "code": "NYUH00000",
+                "code_3": "NYU",
+                "code_6": "NYUH00",
+                "name": "History",
+                "seo_name": "NYUH",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+            Object {
+              "category": Object {
+                "code": "NYUP00000",
+                "code_3": "NYU",
+                "code_6": "NYUP00",
+                "name": "Psychology",
+                "seo_name": "NYUP",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+          ],
+          "cd_run_time": "0:0:0",
+          "contributors": Array [
+            Object {
+              "contributor": Object {
+                "bio": "<b>Amia Lieblich</b> is Artery Professor of Personality Studies in the Psychology Department and head of the Lafer Center for the Study of Women at the Hebrew University of Jerusalem, coeditor of the <i>Annual on the Narrative Study of Lives</i>, and author of several books, most recently <i>Transition to Adulthood during Military Service</i>.",
+                "bio_short": null,
+                "contributor_id": 100097,
+                "custom": null,
+                "deceased": false,
+                "featured": false,
+                "first": "Amia",
+                "hide": false,
+                "image": null,
+                "last": "Lieblich",
+                "locale": null,
+                "name": "Amia Lieblich",
+                "on_tour": false,
+                "reference_id": null,
+                "role": "A01",
+                "sensitivity": false,
+                "seo": "amia-lieblich",
+              },
+              "contributor_id": 100097,
+              "note": "Amia Lieblich",
+              "order": 1,
+              "role": Object {
+                "code": "A01",
+                "name": "By (author)",
+              },
+              "role_id": "A01",
+            },
+          ],
+          "custom": Object {
+            "cs_title_group": "9780814750797",
+            "edition_isbn": "9780814752739",
+            "hi_res_images": false,
+            "language": "eng",
+            "license_link": false,
+            "license_name": false,
+            "open_access_is_downloadable": false,
+            "open_access_series": false,
+            "permanent_url": "https://doi.org/10.33682/vdncjvrd",
+            "scheduled_date": "05/29/2014",
+            "video": false,
+          },
+          "date": Object {
+            "date": "1994-01-01 00:00:00.000000",
+            "timezone": "America/New_York",
+            "timezone_type": 3,
+          },
+          "description": "<p>\\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\\"<br>&#151;<i>Publishers Weekly</i><br> \\"Lieblich has skillfully integrated oral histories to produce a compelling story.\\"<br>&#151;<i>Library Journal</i><br> \\"The minutes of the meetings recorded hereby are an excerpt of the lives of ten men, who had spent all their days and nights together.  Each one observed the other in his grief and joy.Each one, according to his ability and sensitivity, saw it as his duty to contribute to the general welfare, to save our boat from sinking....In fact, we managed to keep afloat most of the time, and if we erred here or there, at least we had the best intentions.\\"<br>&#151;<i>From a secret collective diary kept by ten POWs</i><br> A national bestseller when it first appeared in Israel, <i>Seasons of Captivity</i> is a story of human survival and hope that documents the experience of ten Israeli prisoners of war who shared a single jail cell in Egypt for more than three years.<br> The engrossing chronicle of the prisoners' ordeal is told in their own words&#151;from their capture in 1969, through six months of interrogation, torture, and isolation, to their movement to a common room. A watershed event, their transfer to shared living quarters enabled them to forge a community and an almost utopian social system. They held weekly meetings, kept a common diary, started study classes, and, among other projects, translated <i>The Hobbit</i> into Hebrew.<br> The narrative goes on to describe the re-entry of the POWs into family and social roles upon their release and return to Israel in 1973. An exploration of the personal impact of the experience on the wives of the married prisoners introduces the women's own stories of separation and reunion. Some of them had suddenly found themselves, in effect, single mothers&#151;yet their husbands were alive. Their husbands found stronger, more independent women in place of the traditional ones they had left behind. One of the women remarks, I thought [my husband] had been angry at me, in part unconsciously, for being so strong and competent in his absence...I had managed, well, almost effortlessly.<br> This dramatic and moving account illustrates the resilience of the human spirit in the face of the most dehumanizing circumstances.</p>",
+          "division": null,
+          "edition": "",
+          "featured": false,
+          "formats": Array [
+            Object {
+              "date": Object {
+                "date": "1994-01-01 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "detail": "",
+              "edition": "",
+              "format": Object {
+                "code": "DG",
+                "name": "eBook",
+              },
+              "format_id": "DG",
+              "id": "DG404",
+              "isbn": "9780814752739",
+              "primary_format": false,
+              "product_id": 404,
+              "seo_link": "seasons-of-captivity",
+              "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
+            },
+            Object {
+              "date": Object {
+                "date": "1994-01-01 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "detail": "",
+              "edition": "",
+              "format": Object {
+                "code": "DG",
+                "name": "eBook",
+              },
+              "format_id": "DG",
+              "id": "DG405",
+              "isbn": "9781479898626",
+              "primary_format": true,
+              "product_id": 405,
+              "seo_link": "seasons-of-captivity",
+              "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
+            },
+          ],
+          "hide": 0,
+          "illustrations_note": "",
+          "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+          "import_notes": "",
+          "imprint": Object {
+            "description": null,
+            "description_short": null,
+            "hide": false,
+            "name": "NYU Press",
+            "seo_name": "nyu-press",
+          },
+          "initial_print_run": null,
+          "isbn10": "081475273X",
+          "isbn13": "9780814750957",
+          "keywords": "",
+          "levels": Array [],
+          "pages": 352,
+          "prices": Array [
+            Object {
+              "amount": "23.00",
+              "discount": null,
+              "locale": "AUD",
+              "promo_start": Array [],
+              "promo_stop": Array [],
+              "saving": null,
+            },
+            Object {
+              "amount": "23.00",
+              "discount": null,
+              "locale": "USD",
+              "promo_start": Array [],
+              "promo_stop": Array [],
+              "saving": null,
+            },
+            Object {
+              "amount": "17.99",
+              "discount": null,
+              "locale": "GBP",
+              "promo_start": Array [],
+              "promo_stop": Array [],
+              "saving": null,
+            },
+          ],
+          "primary_format": false,
+          "product_id": 404,
+          "publisher": Object {
+            "name": "NYU Press",
+            "seo_name": "nyu-press",
+          },
+          "rating": null,
+          "reference_id": null,
+          "retailers": null,
+          "reviews": Array [],
+          "sale_date": Object {
+            "date": "1994-01-01 00:00:00.000000",
+            "timezone": "America/New_York",
+            "timezone_type": 3,
+          },
+          "scheduled": Array [],
+          "search_weight": 530,
+          "season": null,
+          "seo": "seasons-of-captivity",
+          "series": Array [],
+          "sort_date": 757400400,
+          "stock": null,
+          "subtitle": "The Inner World of POWs",
+          "summary": "\\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\\"&#151;Publishers Weekly...",
+          "tagline": null,
+          "territories": null,
+          "title": "Seasons of Captivity",
+          "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
+          "title_without_prefix": "Seasons of Captivity",
+          "trim": Object {
+            "depth": null,
+            "height": null,
+            "unit": null,
+            "weight": null,
+            "weight_unit": null,
+            "width": null,
+          },
+          "type": "Nonfiction",
+        },
+      ],
+      "catalogId": 10150,
+    },
+    "status": "success",
+  },
+}
+`;
+
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 39`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -29195,7 +30570,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 38`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 40`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -30026,7 +31401,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 39`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 41`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -30697,7 +32072,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 40`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 42`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -31406,7 +32781,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 41`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 43`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -32067,7 +33442,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 42`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 44`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -32776,7 +34151,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 43`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 45`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -33511,7 +34886,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 44`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 46`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -34372,7 +35747,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 45`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 47`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -35059,7 +36434,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 46`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 48`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -35726,7 +37101,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 47`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 49`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -36343,7 +37718,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 48`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 50`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -37042,7 +38417,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 49`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 51`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -37679,7 +39054,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 50`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 52`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -38288,7 +39663,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 51`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 53`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -39117,7 +40492,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 52`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 54`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -39882,7 +41257,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 53`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 55`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -40621,7 +41996,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 54`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 56`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -41302,7 +42677,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 55`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 57`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -41897,7 +43272,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 56`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 58`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -42616,7 +43991,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 57`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 59`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -43313,7 +44688,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 58`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 60`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -44048,7 +45423,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 59`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 61`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -44741,7 +46116,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 60`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 62`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -45400,7 +46775,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 61`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 63`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -46203,7 +47578,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 62`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 64`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -46862,7 +48237,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 63`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 65`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -47595,7 +48970,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 64`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 66`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -48454,7 +49829,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 65`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 67`] = `
 Book {
   "book": Object {
     "assets": Array [
