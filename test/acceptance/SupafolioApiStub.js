@@ -4,6 +4,8 @@ const url = require( 'url' );
 
 const util = require( '../../lib/util' );
 
+const SupafolioApiErrorInvalidApiKey =
+    require( '../../lib/supafolio/SupafolioApiErrorInvalidApiKey' ).SupafolioApiErrorInvalidApiKey;
 const SupafolioApiErrorProductNotInDatabase =
     require( '../../lib/supafolio/SupafolioApiErrorProductNotInDatabase' ).SupafolioApiErrorProductNotInDatabase;
 const SupafolioApiErrorResourceNotFound =
@@ -91,7 +93,9 @@ class SupafolioApiStub {
         }
 
         if ( options.headers[ 'x-apikey' ] !== this.apiKey ) {
-            return SupafolioApiStub.supafolioErrorResponse( 'Please provide a correct API key!' );
+            return SupafolioApiStub.supafolioErrorResponse(
+                SupafolioApiErrorInvalidApiKey.MESSAGE,
+            );
         }
 
         const fixtureFile = path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, `${ isbn }.json` );
