@@ -4,10 +4,10 @@ const url = require( 'url' );
 
 const util = require( '../../lib/util' );
 
-const SupafolioAPIErrorProductNotInDatabase =
-    require( '../../lib/supafolio/SupafolioApiErrorProductNotInDatabase' ).SupafolioAPIErrorProductNotInDatabase;
-const SupafolioAPIErrorResourceNotFound =
-    require( '../../lib/supafolio/SupafolioAPIErrorResourceNotFound' ).SupafolioAPIErrorResourceNotFound;
+const SupafolioApiErrorProductNotInDatabase =
+    require( '../../lib/supafolio/SupafolioApiErrorProductNotInDatabase' ).SupafolioApiErrorProductNotInDatabase;
+const SupafolioApiErrorResourceNotFound =
+    require( '../../lib/supafolio/SupafolioApiErrorResourceNotFound' ).SupafolioApiErrorResourceNotFound;
 
 const SUPAFOLIO_API_FIXTURE_DIRECTORY = __dirname + '/fixture/supafolio-api/';
 const SUPAFOLIO_API_URL = 'http://api.supafolio.com/v2/book/';
@@ -59,7 +59,7 @@ class SupafolioApiStub {
 
         if ( isbn === '' ) {
             return SupafolioApiStub.supafolioErrorResponse(
-                SupafolioAPIErrorResourceNotFound.MESSAGE,
+                SupafolioApiErrorResourceNotFound.MESSAGE,
                 {
                     "error": "error-router-no-match",
                     "exception": [],
@@ -69,7 +69,7 @@ class SupafolioApiStub {
 
         if ( ! util.isValidNormalizedIsbn13( isbn ) ) {
             return SupafolioApiStub.supafolioErrorResponse(
-                SupafolioAPIErrorProductNotInDatabase.MESSAGE,
+                SupafolioApiErrorProductNotInDatabase.MESSAGE,
             );
         }
 
@@ -100,7 +100,7 @@ class SupafolioApiStub {
             return require( fixtureFile );
         } else {
             return SupafolioApiStub.supafolioErrorResponse(
-                SupafolioAPIErrorProductNotInDatabase.MESSAGE,
+                SupafolioApiErrorProductNotInDatabase.MESSAGE,
             );
         }
     }
