@@ -88,36 +88,56 @@ function createDltsAdministrativeMetadataFile( supafolioBookMetadata, outputFile
     fs.writeFileSync( outputFile, util.jsonStableStringify( dltsAdministrativeMetadata ), 'utf8' );
 }
 
-function createIntakeDescriptiveMetadataFile( supafolioBookMetadata, outputFile ) {
+function createIntakeDescriptiveMetadataFile( book, outputFile ) {
+    const isbn = book.isbn;
+    // TODO: Remove this after license data is fixed.
+    // const licenseData = util.getLicenseData( book.license.name );
+    const licenseData = {
+        abbreviation: 'CC BY-ND',
+        icon: 'https://i.creativecommons.org/l/by-nd/4.0/80x15.png',
+        link: 'https://creativecommons.org/licenses/by-nd/4.0/'
+    };
+
     const metadata = {
-            author           : supafolioBookMetadata.author,
-            author_sort      : util.getAuthorSortKey( supafolioBookMetadata.author ),
-            coverage         : supafolioBookMetadata.coverage,
-            coverHref        : supafolioBookMetadata.coverHref,
-            date             : supafolioBookMetadata.date,
-            description      : supafolioBookMetadata.description,
-            description_html : supafolioBookMetadata.description_html,
-            format           : supafolioBookMetadata.format,
-            identifier       : supafolioBookMetadata.identifier,
-            language         : supafolioBookMetadata.language,
-            packageUrl       : supafolioBookMetadata.packageUrl,
-            publisher        : supafolioBookMetadata.publisher,
-            rights           : supafolioBookMetadata.rights,
-            rootUrl          : supafolioBookMetadata.rootUrl,
-            subject          : supafolioBookMetadata.subject,
-            subtitle         : supafolioBookMetadata.subtitle,
-            thumbHref        : supafolioBookMetadata.thumbHref,
-            title            : supafolioBookMetadata.title,
-            title_sort       : util.getTitleSortKey( supafolioBookMetadata.title ),
-            type             : supafolioBookMetadata.type,
-        };
+        author               : book.authorsForDisplay,
+        author_sort          : util.getAuthorSortKey( book.authorsForDisplay ),
+        coverage             : book.coverage,
+        coverHref            : `epub_content/${isbn}/${util.OPS_DIRECTORY_NAME}/images/${isbn}.jpg`,
+        date                 : book.year,
+        description          : book.description,
+        description_html     : book.description_html,
+        format               : `${book.pages} pages`,
+        identifier           : isbn,
+        language             : book.languageCode,
+        // TODO: Remove this after license data is fixed.
+        // license              : book.license.name,
+        license              : 'Creative Commons Attribution-NoDerivatives 4.0 International License',
+        license_abbreviation : licenseData.abbreviation,
+        license_icon         : licenseData.icon,
+        license_link         : licenseData.link,
+        packageUrl           : `epub_content/${isbn}`,
+        publisher            : book.publisher,
+        // We used to get this from <dc.type> in EPUB manifest.  Currently
+        // is the only values used in Open Square are slight variations on
+        // this wording.
+        rights               : 'All rights reserved',
+        rootUrl              : book.rootUrl,
+        subject              : book.subjects.join( ' / ' ),
+        subtitle             : book.subtitle,
+        thumbHref            : `epub_content/${isbn}/ops/images/${isbn}-th.jpg`,
+        title                : book.title,
+        title_sort           : util.getTitleSortKey( book.title ),
+        // We used to get this from <dc.type> in EPUB manifest.  Currently "Text"
+        // is the only value used in Open Square.
+        type                 : 'Text',
+    };
 
-        const handleUrl = legacyHandles.getHandleForEpub( supafolioBookMetadata.identifier );
-        if ( handleUrl ) {
-            metadata.handle = handleUrl;
-        }
+    const handleUrl = legacyHandles.getHandleForEpub( book.identifier );
+    if ( handleUrl ) {
+        metadata.handle = handleUrl;
+    }
 
-        fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
+    fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
 }
 
 function generateMetadataFiles( epubIdList, metadataDir ) {
