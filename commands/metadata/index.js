@@ -31,7 +31,7 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                supafolio = new Supafolio( em.supafolioApiKey, em.request );
+                supafolio = new Supafolio( em.conf.supafolioApiKey, em.request );
 
                 let metadataDir = em.conf.metadataDir;
                 if ( ! metadataDir ) {
