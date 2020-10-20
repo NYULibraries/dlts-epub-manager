@@ -81,7 +81,7 @@ module.exports = function( vorpal ){
 
 function createDltsAdministrativeMetadataFile( supafolioBookMetadata, outputFile ) {
     const dltsAdministrativeMetadata = {
-        handle : legacyHandles.getHandleForEpub.supafolioMetadata.isbn,
+        handle : legacyHandles.getHandleForEpub( supafolioBookMetadata.isbn ),
         collection_code : supafolioBookMetadata.collectionCode,
     };
 
