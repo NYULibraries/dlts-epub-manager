@@ -6,7 +6,6 @@ let assert    = require( 'chai' ).assert;
 let em        = require( '../../lib/bootstrap' );
 let fs        = require( 'fs' );
 let _         = require( 'lodash' );
-let request   = require( 'sync-request' );
 let util      = require( '../../lib/util' );
 let vorpal    = em.vorpal;
 
@@ -161,7 +160,7 @@ function clearSolrIndex() {
     let solrDeleteAllUrl = util.getSolrUpdateUrl( conf ) +
                            '/?commit=true&stream.body=<delete><query>*:*</query></delete>';
 
-    let response = request( 'GET', solrDeleteAllUrl );
+    let response = util.request( 'GET', solrDeleteAllUrl );
 
     if ( response.statusCode !== 200 ) {
         throw response.body.toString();
@@ -199,7 +198,7 @@ function addFixtureEpubs( json ) {
     }
 }
 
-// This needs to be synchronous, so using `sync-request` instead of `solr-client`.
+// This needs to be synchronous, so using util.request instead of `solr-client`.
 function addEpubs( epubs ) {
     let solrUpdateUrl = util.getSolrUpdateUrl( conf ) + '/json?commit=true';
 
@@ -223,7 +222,7 @@ function addEpubs( epubs ) {
         }
     );
 
-    let response = request(
+    let response = util.request(
         'POST', solrUpdateUrl, {
             body : JSON.stringify( addRequest )
         }
@@ -240,7 +239,7 @@ function getEpubs() {
     let solrSelectUrl = util.getSolrSelectUrl( conf ) + '?q=*:*&rows=100&wt=json';
     solrSelectUrl += '&fl=' + util.SOLR_FIELDS.join( ',' );
 
-    let response = request( 'GET', solrSelectUrl );
+    let response = util.request( 'GET', solrSelectUrl );
 
     if ( response.statusCode !== 200 ) {
         throw response.body.toString();
