@@ -5,8 +5,8 @@
   "main": "em.js",
   "scripts": {
     "test": "yarn run test:unit && yarn run test:acceptance",
-    "test:acceptance": "node_modules/.bin/jest --detectOpenHandles test/acceptance/",
-    "test:unit": "node_modules/.bin/jest --detectOpenHandles test/unit/"
+    "test:acceptance": "node_modules/.bin/jest test/acceptance/",
+    "test:unit": "node_modules/.bin/jest test/unit/"
   },
   "repository": {
     "type": "git",
