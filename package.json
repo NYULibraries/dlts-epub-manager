@@ -4,9 +4,9 @@
   "description": "DLTS EPUB Manager",
   "main": "em.js",
   "scripts": {
-    "test": "yarn run test:unit && yarn run test:acceptance",
+    "test": "yarn run test:lib && yarn run test:acceptance",
     "test:acceptance": "node_modules/.bin/jest test/acceptance/",
-    "test:unit": "node_modules/.bin/jest test/unit/"
+    "test:lib": "node_modules/.bin/jest lib/"
   },
   "repository": {
     "type": "git",
