@@ -4,9 +4,9 @@
   "description": "DLTS EPUB Manager",
   "main": "em.js",
   "scripts": {
-    "test": "yarn run test:unit && yarn run test:acceptance",
-    "test:acceptance": "node_modules/.bin/jest --detectOpenHandles test/acceptance/",
-    "test:unit": "node_modules/.bin/jest --detectOpenHandles test/unit/"
+    "test": "yarn run test:lib && yarn run test:acceptance",
+    "test:acceptance": "node_modules/.bin/jest --runInBand test/acceptance/",
+    "test:lib": "node_modules/.bin/jest lib/"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "pixl-xml": "1.0.13",
     "rimraf": "3.0.2",
     "striptags": "3.1.1",
-    "sync-request": "6.1.0",
+    "sync-fetch": "da70/sync-fetch#master",
     "vorpal": "^1.12.0"
   },
   "devDependencies": {
