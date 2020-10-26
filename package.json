@@ -5,7 +5,7 @@
   "main": "em.js",
   "scripts": {
     "test": "yarn run test:lib && yarn run test:acceptance",
-    "test:acceptance": "node_modules/.bin/jest test/acceptance/",
+    "test:acceptance": "node_modules/.bin/jest --runInBand test/acceptance/",
     "test:lib": "node_modules/.bin/jest lib/"
   },
   "repository": {
