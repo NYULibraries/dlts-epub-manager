@@ -112,12 +112,12 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
         // TODO: After NYUP-684 work has been verified, switch back to book.languageCode
         // or to whatever normalized language code we decide upon.
         language             : book.languageCode === 'eng' ? 'En' : book.languageCode,
-        // TODO: Remove this after license data is fixed.
+        // TODO: Enable this after NYUP-684 work has been verified.
+        // NOTE: book.license.name is currently not correct -- see https://jira.nyu.edu/jira/browse/NYUP-737.
         // license              : book.license.name,
-        license              : 'Creative Commons Attribution-NoDerivatives 4.0 International License',
-        license_abbreviation : licenseData.abbreviation,
-        license_icon         : licenseData.icon,
-        license_link         : licenseData.link,
+        // license_abbreviation : licenseData.abbreviation,
+        // license_icon         : licenseData.icon,
+        // license_link         : licenseData.link,
         packageUrl           : `epub_content/${isbn}`,
         publisher            : book.publisher,
         // We used to get this from <dc.type> in EPUB manifest.  Currently
