@@ -79,10 +79,10 @@ module.exports = function( vorpal ){
 
 };
 
-function createDltsAdministrativeMetadataFile( supafolioBookMetadata, outputFile ) {
+function createDltsAdministrativeMetadataFile( book, outputFile ) {
     const dltsAdministrativeMetadata = {
-        handle : legacyHandles.getHandleForEpub( supafolioBookMetadata.isbn ),
-        collection_code : supafolioBookMetadata.collectionCode,
+        handle : legacyHandles.getHandleForEpub( book.isbn ),
+        collection_code : book.collectionCode,
     };
 
     fs.writeFileSync( outputFile, util.jsonStableStringify( dltsAdministrativeMetadata ), 'utf8' );
