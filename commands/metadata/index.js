@@ -4,6 +4,7 @@ const execSync = require( 'child_process' ).execSync;
 const fs       = require( 'fs' );
 const path     = require( 'path' );
 const rimraf   = require( 'rimraf' );
+const striptags = require( 'striptags' );
 
 const legacyHandles = require( '../../lib/legacy/handles' );
 const Supafolio     = require( '../../lib/supafolio/Supafolio' ).Supafolio;
@@ -103,8 +104,8 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
         author_sort          : util.getAuthorSortKey( book.authorsForDisplay ),
         coverage             : book.coverage,
         coverHref            : `epub_content/${isbn}/${util.OPS_DIRECTORY_NAME}/images/${isbn}.jpg`,
-        description          : book.description,
-        description_html     : book.description_html,
+        description          : striptags( book.description ),
+        description_html     : book.description,
         date                 : book.year.toString(),
         format               : `${book.pages} pages`,
         handle               : legacyHandles.getHandleUrlForEpub( book.isbn ),
