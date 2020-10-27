@@ -107,6 +107,7 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
         description_html     : book.description_html,
         date                 : book.year.toString(),
         format               : `${book.pages} pages`,
+        handle               : legacyHandles.getHandleUrlForEpub( book.isbn ),
         identifier           : isbn,
         language             : book.languageCode,
         // TODO: Remove this after license data is fixed.
