@@ -1,9 +1,9 @@
 "use strict";
 
-const execSync = require( 'child_process' ).execSync;
-const fs       = require( 'fs' );
-const path     = require( 'path' );
-const rimraf   = require( 'rimraf' );
+const execSync  = require( 'child_process' ).execSync;
+const fs        = require( 'fs' );
+const path      = require( 'path' );
+const rimraf    = require( 'rimraf' );
 const striptags = require( 'striptags' );
 
 const legacyHandles = require( '../../lib/legacy/handles' );
