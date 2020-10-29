@@ -91,13 +91,7 @@ function createDltsAdministrativeMetadataFile( book, outputFile ) {
 
 function createIntakeDescriptiveMetadataFile( book, outputFile ) {
     const isbn = book.isbn;
-    // TODO: Remove this after license data is fixed.
-    // const licenseData = util.getLicenseData( book.license.name );
-    const licenseData = {
-        abbreviation: 'CC BY-ND',
-        icon: 'https://i.creativecommons.org/l/by-nd/4.0/80x15.png',
-        link: 'https://creativecommons.org/licenses/by-nd/4.0/'
-    };
+    const licenseData = util.getLicenseData( book.license.name );
 
     const metadata = {
         author               : book.authorsForDisplay,
@@ -113,12 +107,10 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
         // TODO: After NYUP-684 work has been verified, switch back to book.languageCode
         // or to whatever normalized language code we decide upon.
         language             : book.languageCode === 'eng' ? 'En' : book.languageCode,
-        // TODO: Enable this after NYUP-684 work has been verified.
-        // NOTE: book.license.name is currently not correct -- see https://jira.nyu.edu/jira/browse/NYUP-737.
-        // license              : book.license.name,
-        // license_abbreviation : licenseData.abbreviation,
-        // license_icon         : licenseData.icon,
-        // license_link         : licenseData.link,
+        license              : book.license.name,
+        license_abbreviation : licenseData.abbreviation,
+        license_icon         : licenseData.icon,
+        license_link         : licenseData.link,
         packageUrl           : `epub_content/${isbn}`,
         publisher            : book.publisher,
         // We used to get this from <dc.type> in EPUB manifest.  Currently
