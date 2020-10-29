@@ -9,7 +9,6 @@ let rimraf     = require( 'rimraf' );
 let vorpal     = em.vorpal;
 
 const CONF_INTAKE_FULL = 'intake-full';
-const CONF_INTAKE_1    = 'intake-1';
 const TMP_EPUBS        = __dirname + '/tmp/epubs';
 
 vorpal.em.configDir        = __dirname + '/fixture/config';
