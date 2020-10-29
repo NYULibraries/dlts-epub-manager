@@ -58,7 +58,7 @@ describe( 'metadata command', () => {
             };
 
             try {
-                rimraf.sync( TMP_METADATA + '/*' );
+                rimraf.sync( path.join( metadataDir, '*' ) );
             } catch ( error ) {
                 vorpal.log( `ERROR clearing ${TMP_METADATA}: ${error}` );
 
@@ -96,7 +96,7 @@ describe( 'metadata command', () => {
                 };
 
             try {
-                rimraf.sync( TMP_METADATA + '/*' );
+                rimraf.sync( path.join( metadataDir, '*' ) );
             } catch ( error ) {
                 vorpal.log( `ERROR clearing ${TMP_METADATA}: ${error}` );
 
