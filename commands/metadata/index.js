@@ -125,7 +125,7 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
         // is the only values used in Open Square are slight variations on
         // this wording.
         rights               : 'All rights reserved',
-        rootUrl              : book.rootUrl,
+        rootUrl              : `epub_content/${ isbn }`,
         subject              : book.subjects.join( ' / ' ),
         subtitle             : book.subtitle,
         thumbHref            : `epub_content/${isbn}/ops/images/${isbn}-th.jpg`,
