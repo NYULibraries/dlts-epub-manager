@@ -9,6 +9,7 @@ const vorpal     = em.vorpal;
 
 const SupafolioApiStub = require( './SupafolioApiStub' );
 
+const CONF_METADATA_3    = 'metadata-3';
 const CONF_METADATA_FULL = 'metadata-full';
 const TMP_METADATA     = __dirname + '/tmp/metadata';
 
@@ -79,7 +80,7 @@ describe( 'metadata command', () => {
     it(
         'should correctly generate correct metadata files for 3 EPUBs in metadataEpubList',
         () => {
-            const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
+            const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_3}`, { fatal : true } );
 
             expect( loadSucceeded ).toBeTruthy();
 
