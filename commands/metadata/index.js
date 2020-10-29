@@ -127,7 +127,6 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
         rights               : 'All rights reserved',
         rootUrl              : `epub_content/${ isbn }`,
         subject              : book.subjects.join( ' / ' ),
-        subtitle             : book.subtitle,
         thumbHref            : `epub_content/${isbn}/ops/images/${isbn}-th.jpg`,
         title                : book.title,
         title_sort           : util.getTitleSortKey( book.title ),
@@ -139,6 +138,10 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
     const handleUrl = legacyHandles.getHandleForEpub( book.identifier );
     if ( handleUrl ) {
         metadata.handle = handleUrl;
+    }
+
+    if ( book.subtitle ) {
+        metadata.subtitle = book.subtitle;
     }
 
     fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
