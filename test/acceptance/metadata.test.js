@@ -42,7 +42,7 @@ describe( 'metadata command', () => {
     it(
         'should correctly generate correct metadata files for EPUBs in intakeEpubDir',
         () => {
-            const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_FULL}`, { fatal : true } );
+            const loadSucceeded = vorpal.execSync( `load ${ CONF_METADATA_FULL }`, { fatal : true } );
 
             expect( loadSucceeded ).toBeTruthy();
 
@@ -80,7 +80,7 @@ describe( 'metadata command', () => {
     it(
         'should correctly generate correct metadata files for 3 EPUBs in metadataEpubList',
         () => {
-            const loadSucceeded = vorpal.execSync( `load ${CONF_METADATA_3}`, { fatal : true } );
+            const loadSucceeded = vorpal.execSync( `load ${ CONF_METADATA_3 }`, { fatal : true } );
 
             expect( loadSucceeded ).toBeTruthy();
 
