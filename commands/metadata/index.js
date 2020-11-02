@@ -132,6 +132,10 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
         metadata.handle = handleUrl;
     }
 
+    if ( book.seriesName ) {
+        metadata.series_names = [ book.seriesName ];
+    }
+
     if ( book.subtitle ) {
         metadata.subtitle = book.subtitle;
     }
