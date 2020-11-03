@@ -15,10 +15,14 @@ const SUPAFOLIO_API_FIXTURE_DIRECTORY = __dirname + '/fixture/supafolio-api/';
 const SUPAFOLIO_API_URL = 'http://api.supafolio.com/v2/book/';
 
 class SupafolioApiStub {
+    static TRIGGER_HTTP_ERROR_ISBN = '0000000000000';
+
     #apiKey
+    #triggerHttpErrorResponse
 
     constructor( apiKey ) {
         this.apiKey = apiKey;
+        this.#triggerHttpErrorResponse = false;
     }
 
     static error( statusCode, message ) {
@@ -60,6 +64,11 @@ class SupafolioApiStub {
         let response;
 
         const isbn = SupafolioApiStub.parseIsbn( url );
+
+        if ( isbn === SupafolioApiStub.TRIGGER_HTTP_ERROR_ISBN ) {
+            return SupafolioApiStub.error(
+                500, 'Internal Server Error' );
+        }
 
         if ( isbn === '' ) {
             return SupafolioApiStub.supafolioErrorResponse(
