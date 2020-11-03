@@ -102,13 +102,19 @@ class SupafolioApiStub {
 
         const fixtureFile = path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, `${ isbn }.json` );
 
+        let body;
         if ( fs.existsSync( fixtureFile ) ) {
-            return require( fixtureFile );
+            body = require( fixtureFile );
         } else {
             return SupafolioApiStub.supafolioErrorResponse(
                 SupafolioApiErrorProductNotInDatabase.MESSAGE,
             );
         }
+
+        return createResponse( body );
+    }
+}
+
 function createResponse( body ) {
     return {
         statusCode : 200,
