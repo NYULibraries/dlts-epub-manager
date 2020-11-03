@@ -45,12 +45,14 @@ class SupafolioApiStub {
             Object.assign( errors[ 0 ], extra );
         }
 
-        return {
-            status : "error",
-            data   : {
-                errors,
+        return createResponse(
+            {
+                status : "error",
+                data   : {
+                    errors,
+                }
             }
-        };
+        );
     }
 
     // Example: http://api.supafolio.com/v2/book/9780814706404
@@ -107,6 +109,11 @@ class SupafolioApiStub {
                 SupafolioApiErrorProductNotInDatabase.MESSAGE,
             );
         }
+function createResponse( body ) {
+    return {
+        statusCode : 200,
+        // Following node_modules/sync-fetch/shared.js: parseBody() for type String
+        body       : Buffer.from( String( JSON.stringify( body ) ) ),
     }
 }
 
