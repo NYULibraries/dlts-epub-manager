@@ -91,7 +91,11 @@ function createDltsAdministrativeMetadataFile( book, outputFile ) {
 
 function createIntakeDescriptiveMetadataFile( book, outputFile ) {
     const isbn = book.isbn;
-    const licenseData = util.getLicenseData( book.license.name );
+    const licenseData = util.getLicenseData( book.license.link );
+
+    if ( ! licenseData ) {
+        throw( `Unable to retrieve license data for ${ isbn }.` );
+    }
 
     const metadata = {
         author               : book.authorsForDisplay,
