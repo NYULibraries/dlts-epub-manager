@@ -111,10 +111,10 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
         // TODO: After NYUP-684 work has been verified, switch back to book.languageCode
         // or to whatever normalized language code we decide upon.
         language             : book.languageCode === 'eng' ? 'En' : book.languageCode,
-        license              : book.license.name,
+        license              : licenseData.name,
         license_abbreviation : licenseData.abbreviation,
         license_icon         : licenseData.icon,
-        license_link         : licenseData.link,
+        license_link         : book.license.link,
         packageUrl           : `epub_content/${isbn}`,
         publisher            : book.publisher,
         // We used to get this from <dc.type> in EPUB manifest.  Currently
