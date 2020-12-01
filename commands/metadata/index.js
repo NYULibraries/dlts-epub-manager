@@ -69,7 +69,7 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); }
                     return true;
                 } catch ( error ) {
-                    vorpal.log( 'ERROR in generation of metadata file(s) for EPUB:\n' +
+                    vorpal.log( 'ERROR in generation of metadata file for EPUBs:\n' +
                                 error );
 
                     if ( callback ) { callback(); }
@@ -164,7 +164,7 @@ function generateMetadataFiles( epubIdList, metadataDir ) {
                 supafolioBookMetadata, `${metadataDirForEpub}/dlts-administrative.json`
             );
         } catch( e ) {
-            throw( e );
+            throw( `[ ${ epubId } ] ${ e }` );
         }
 
         metadataFilesCompleted.push( epubId );
