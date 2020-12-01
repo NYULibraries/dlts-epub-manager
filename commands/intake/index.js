@@ -96,7 +96,7 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); }
                     return true;
                 } catch ( error ) {
-                    vorpal.log( 'ERROR in intake of EPUB:\n' +
+                    vorpal.log( 'ERROR in intake of EPUBs:\n' +
                                 error );
 
                     if ( callback ) { callback(); }
@@ -187,7 +187,7 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, options ) {
                 `${outputEpubDir}/ops/images/${epubId}-th.jpg`
             );
         } catch( e ) {
-            throw( e );
+            throw( `[ ${ epubId } ] ${ e }` );
         }
 
         epubsCompleted.push( epubId );
