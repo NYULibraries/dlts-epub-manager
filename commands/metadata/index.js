@@ -108,9 +108,7 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
         format               : `${book.pages} pages`,
         handle               : legacyHandles.getHandleUrlForEpub( book.isbn ),
         identifier           : isbn,
-        // TODO: After NYUP-684 work has been verified, switch back to book.languageCode
-        // or to whatever normalized language code we decide upon.
-        language             : book.languageCode === 'eng' ? 'En' : book.languageCode,
+        language             : book.languageCode,
         license              : licenseData.name,
         license_abbreviation : licenseData.abbreviation,
         license_icon         : licenseData.icon,
