@@ -30,22 +30,20 @@
           "ebook": "9780814772126",
           "hardcover": "9780814714539",
           "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/xgxd26xf"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814790144.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1991-09-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1991-09-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "62.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "75.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "75.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "5.500",
           "depth": null,
           "unit": "in",
-          "weight": "0.070",
+          "weight": "1.190",
           "weight_unit": "lb"
         },
         "series": [
@@ -131,23 +120,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUL00000",
-              "code_3": "NYU",
-              "code_6": "NYUL00",
-              "name": "Law",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUL"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
               "code": "NYUPOL000",
               "code_3": "NYU",
               "code_6": "NYUPOL",
               "name": "Politics",
               "type": "nyuos-subjects",
               "seo_name": "NYUPOL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
             }
           }
         ],
@@ -156,10 +145,10 @@
           {
             "order": 1,
             "note": "",
-            "contributor_id": 100008,
+            "contributor_id": 100009,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100008,
+              "contributor_id": 100009,
               "name": "John W. Chapman",
               "first": "John W.",
               "last": "Chapman",
@@ -261,7 +250,6 @@
             "product_id": 116,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1991-09-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -282,7 +270,6 @@
             "product_id": 48,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1991-09-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -303,7 +290,6 @@
             "product_id": 296,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1991-09-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"

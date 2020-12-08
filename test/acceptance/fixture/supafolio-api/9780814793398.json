@@ -22,9 +22,9 @@
           "ebook": "9780814794876",
           "hardcover": "9780814793206",
           "paperback": "9780814793398",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/b8gthvz5",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814784891.001.0001",
           "language": "eng",
           "edition_isbn": "9780814793398",
           "cs_title_group": "9780814793206",
@@ -39,13 +39,11 @@
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1998-04-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1998-04-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.060",
+          "weight": "0.950",
           "weight_unit": "lb"
         },
         "series": [
@@ -131,23 +120,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUP00000",
-              "code_3": "NYU",
-              "code_6": "NYUP00",
-              "name": "Psychology",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUP"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUS00000",
+              "code": "NYUS00US0",
               "code_3": "NYU",
               "code_6": "NYUS00",
-              "name": "Sociology",
+              "name": "Sociology / Urban Sociology",
               "type": "nyuos-subjects",
-              "seo_name": "NYUS"
+              "seo_name": "NYUSUS"
             }
           },
           {
@@ -164,12 +142,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUS00US0",
+              "code": "NYUS00000",
               "code_3": "NYU",
               "code_6": "NYUS00",
-              "name": "Sociology / Urban Sociology",
+              "name": "Sociology",
               "type": "nyuos-subjects",
-              "seo_name": "NYUSUS"
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
             }
           }
         ],
@@ -178,10 +167,10 @@
           {
             "order": 1,
             "note": "Niobe Way",
-            "contributor_id": 100043,
+            "contributor_id": 100048,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100043,
+              "contributor_id": 100048,
               "name": "Niobe Way",
               "first": "Niobe",
               "last": "Way",
@@ -283,7 +272,6 @@
             "product_id": 311,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -304,7 +292,6 @@
             "product_id": 33,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -325,7 +312,6 @@
             "product_id": 310,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -334,10 +320,10 @@
         ],
         "reviews": [
           {
-            "id": "311-6755",
-            "review_id": "6755",
+            "id": "311-11689",
+            "review_id": "11689",
             "review": {
-              "id": "6755",
+              "id": "11689",
               "reviewer": "Library Journal",
               "description": "\"Recommended for anyone who works with inner-city youth.\"",
               "score": null,
@@ -347,10 +333,10 @@
             }
           },
           {
-            "id": "311-6756",
-            "review_id": "6756",
+            "id": "311-11690",
+            "review_id": "11690",
             "review": {
-              "id": "6756",
+              "id": "11690",
               "reviewer": "Carol Gilligan,author of In a Different Voice: Psychological Theory and Women's Development",
               "description": "\"This exceptionally important book will set the standard for powerful writing about urban teenagers for years to come. Privileging the voices of inner-city teens and presenting their experiences of themselves and their worlds, Niobe Way's intelligent, subtle voice leads us to listen freshly to this group whose views are so often not heard or are distorted. She presents a brilliant example of voice-centered research and essential reading for anyone hoping to work effectively with adolescents.\"",
               "score": null,

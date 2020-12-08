@@ -18,9 +18,9 @@
         "illustrations_note": "",
         "initial_print_run": null,
         "custom": {
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/zgmsbf5k",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814725078.001.0001",
           "language": "eng",
           "edition_isbn": "9780814711774",
           "cs_title_group": "9780814711774",
@@ -35,13 +35,11 @@
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1992-06-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1992-06-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -66,8 +64,8 @@
             "locale": "GBP",
             "amount": "74.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -75,20 +73,11 @@
             "amount": "89.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "89.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -108,7 +97,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.060",
+          "weight": "0.880",
           "weight_unit": "lb"
         },
         "series": [
@@ -127,12 +116,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUS00000",
+              "code": "NYUWGS000",
               "code_3": "NYU",
-              "code_6": "NYUS00",
-              "name": "Sociology",
+              "code_6": "NYUWGS",
+              "name": "Women's & Gender Studies",
               "type": "nyuos-subjects",
-              "seo_name": "NYUS"
+              "seo_name": "NYUWGS"
             }
           },
           {
@@ -149,12 +138,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUWGS000",
+              "code": "NYUS00000",
               "code_3": "NYU",
-              "code_6": "NYUWGS",
-              "name": "Women's & Gender Studies",
+              "code_6": "NYUS00",
+              "name": "Sociology",
               "type": "nyuos-subjects",
-              "seo_name": "NYUWGS"
+              "seo_name": "NYUS"
             }
           }
         ],
@@ -163,10 +152,10 @@
           {
             "order": 1,
             "note": "Natalie Clifford Barney",
-            "contributor_id": 100095,
+            "contributor_id": 100042,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100095,
+              "contributor_id": 100042,
               "name": "Natalie Clifford Barney",
               "first": "Natalie Clifford",
               "last": "Barney",
@@ -192,10 +181,10 @@
           {
             "order": 2,
             "note": "",
-            "contributor_id": 100096,
+            "contributor_id": 100043,
             "role_id": "B06",
             "contributor": {
-              "contributor_id": 100096,
+              "contributor_id": 100043,
               "name": "John Spalding Gatton",
               "first": "John Spalding",
               "last": "Gatton",
@@ -297,7 +286,6 @@
             "product_id": 393,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1992-06-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -318,7 +306,6 @@
             "product_id": 400,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1992-06-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -339,7 +326,6 @@
             "product_id": 401,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1992-06-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"

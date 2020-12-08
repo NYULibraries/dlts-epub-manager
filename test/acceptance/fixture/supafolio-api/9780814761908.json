@@ -30,22 +30,20 @@
           "ebook": "9780814762295",
           "hardcover": "9780814761755",
           "paperback": "9780814761908",
-          "license_name": false,
-          "license_link": false,
-          "permanent_url": "https://doi.org/10.33682/f4qrfm0w"
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814762622.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.090",
+          "weight": "1.380",
           "weight_unit": "lb"
         },
         "series": [],
@@ -147,10 +136,10 @@
           {
             "order": 1,
             "note": "",
-            "contributor_id": 100077,
+            "contributor_id": 100083,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100077,
+              "contributor_id": 100083,
               "name": "Pearl Oliner",
               "first": "Pearl",
               "last": "Oliner",
@@ -176,10 +165,10 @@
           {
             "order": 2,
             "note": "",
-            "contributor_id": 100078,
+            "contributor_id": 100084,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100078,
+              "contributor_id": 100084,
               "name": "Samuel P. Oliner",
               "first": "Samuel P.",
               "last": "Oliner",
@@ -205,10 +194,10 @@
           {
             "order": 3,
             "note": "",
-            "contributor_id": 100079,
+            "contributor_id": 100085,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100079,
+              "contributor_id": 100085,
               "name": "Lawrence Baron",
               "first": "Lawrence",
               "last": "Baron",
@@ -234,10 +223,10 @@
           {
             "order": 4,
             "note": "",
-            "contributor_id": 100080,
+            "contributor_id": 100086,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100080,
+              "contributor_id": 100086,
               "name": "Lawrence Blum",
               "first": "Lawrence",
               "last": "Blum",
@@ -339,7 +328,6 @@
             "product_id": 306,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -360,7 +348,6 @@
             "product_id": 62,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1992-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -381,7 +368,6 @@
             "product_id": 129,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1992-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -402,7 +388,6 @@
             "product_id": 305,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1992-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -411,10 +396,10 @@
         ],
         "reviews": [
           {
-            "id": "306-6937",
-            "review_id": "6937",
+            "id": "306-11875",
+            "review_id": "11875",
             "review": {
-              "id": "6937",
+              "id": "11875",
               "reviewer": "The Journal of Politics",
               "description": "\"Intelligently addresses several of the most important unresolved issues and controversies about altruism.\"",
               "score": null,

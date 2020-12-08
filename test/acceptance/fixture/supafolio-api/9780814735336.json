@@ -30,22 +30,20 @@
           "ebook": "9780814773178",
           "hardcover": "9780814735336",
           "paperback": "9780814735343",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/fbg79fcf"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744789.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": false,
         "date": {
-          "__className": "DateTime",
           "date": "1997-11-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1997-11-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "74.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "89.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "89.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.100",
+          "weight": "1.560",
           "weight_unit": "lb"
         },
         "series": [
@@ -131,12 +120,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUS00000",
+              "code": "NYUP00000",
               "code_3": "NYU",
-              "code_6": "NYUS00",
-              "name": "Sociology",
+              "code_6": "NYUP00",
+              "name": "Psychology",
               "type": "nyuos-subjects",
-              "seo_name": "NYUS"
+              "seo_name": "NYUP"
             }
           },
           {
@@ -153,12 +142,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUP00000",
+              "code": "NYUS00000",
               "code_3": "NYU",
-              "code_6": "NYUP00",
-              "name": "Psychology",
+              "code_6": "NYUS00",
+              "name": "Sociology",
               "type": "nyuos-subjects",
-              "seo_name": "NYUP"
+              "seo_name": "NYUS"
             }
           }
         ],
@@ -171,9 +160,9 @@
             "role_id": "A01",
             "contributor": {
               "contributor_id": 100000,
-              "name": "Robert L. Hayman Jr.",
-              "first": "Robert  L. Hayman",
-              "last": "Jr.",
+              "name": "Robert L. Hayman, Jr.",
+              "first": "Robert L.",
+              "last": "Hayman, Jr.",
               "seo": "robert-l-hayman-jr",
               "role": "A01",
               "hide": false,
@@ -272,7 +261,6 @@
             "product_id": 68,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-11-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -293,7 +281,6 @@
             "product_id": 1,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-11-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -314,7 +301,6 @@
             "product_id": 375,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-11-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -335,7 +321,6 @@
             "product_id": 376,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "2000-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -344,10 +329,10 @@
         ],
         "reviews": [
           {
-            "id": "68-6502",
-            "review_id": "6502",
+            "id": "68-11969",
+            "review_id": "11969",
             "review": {
-              "id": "6502",
+              "id": "11969",
               "reviewer": "Mary Frances Berry, Journal of American History",
               "description": "\"Powerful.\"",
               "score": null,
@@ -357,10 +342,10 @@
             }
           },
           {
-            "id": "68-6503",
-            "review_id": "6503",
+            "id": "68-11970",
+            "review_id": "11970",
             "review": {
-              "id": "6503",
+              "id": "11970",
               "reviewer": "J. M. Balkin,Lafayette S. Foster Professor, Yale Law School",
               "description": "\"Robert Hayman writes passionately and sensitively about our attitudes toward intelligence and how those attitudes shape the conditions of social equality in this country. . . . Intelligence is one area where Americans have remained relatively complacent about outmoded stereotypes and caste-like social structures. With this book, perhaps they will be no longer.\"",
               "score": null,
@@ -370,10 +355,10 @@
             }
           },
           {
-            "id": "68-6504",
-            "review_id": "6504",
+            "id": "68-11971",
+            "review_id": "11971",
             "review": {
-              "id": "6504",
+              "id": "11971",
               "reviewer": "Choice",
               "description": "\"A passionate attack on pervasive American cultural assumptions of natural inequality. The book provides a fine history of antiblack discrimination and of the racist and nativist bases of the developers of standardized intelligence tests.\"",
               "score": null,
@@ -383,10 +368,10 @@
             }
           },
           {
-            "id": "68-6505",
-            "review_id": "6505",
+            "id": "68-11972",
+            "review_id": "11972",
             "review": {
-              "id": "6505",
+              "id": "11972",
               "reviewer": "Law and Politics Book Review",
               "description": "\"A painstakingly researched, scientific, psychological, sociocultural, and constitutional history of race, Smart Culture is one of our generation's most powerful indictments of insidious racism and meritocracies.\"",
               "score": null,

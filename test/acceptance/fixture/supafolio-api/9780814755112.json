@@ -30,22 +30,20 @@
           "ebook": "9780814761014",
           "hardcover": "9780814755105",
           "paperback": "9780814755112",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/z612jp24"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814763223.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1996-05-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1996-05-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "30.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
-            "locale": "AUD",
-            "amount": "30.00",
+            "locale": "GBP",
+            "amount": "23.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,24 +101,13 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.070",
+          "weight": "1.100",
           "weight_unit": "lb"
         },
         "series": [],
         "awards": [],
         "levels": [],
         "categories": [
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUL00000",
-              "code_3": "NYU",
-              "code_6": "NYUL00",
-              "name": "Law",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUL"
-            }
-          },
           {
             "primary": false,
             "category": {
@@ -140,6 +118,17 @@
               "type": "nyuos-subjects",
               "seo_name": "NYUPOL"
             }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
           }
         ],
         "retailers": null,
@@ -147,10 +136,10 @@
           {
             "order": 1,
             "note": "Gary Minda",
-            "contributor_id": 100042,
+            "contributor_id": 100047,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100042,
+              "contributor_id": 100047,
               "name": "Gary Minda",
               "first": "Gary",
               "last": "Minda",
@@ -252,7 +241,6 @@
             "product_id": 354,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -273,7 +261,6 @@
             "product_id": 32,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -294,7 +281,6 @@
             "product_id": 353,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -303,10 +289,10 @@
         ],
         "reviews": [
           {
-            "id": "354-6751",
-            "review_id": "6751",
+            "id": "354-11685",
+            "review_id": "11685",
             "review": {
-              "id": "6751",
+              "id": "11685",
               "reviewer": "David Kennedy,Harvard Law School",
               "description": "\"An exceedingly well-informed look at the most important trend in legal scholarship today. An excellent, readable presentation of the most controversial and difficult ideas about law and legal culture.\"",
               "score": null,
@@ -316,10 +302,10 @@
             }
           },
           {
-            "id": "354-6752",
-            "review_id": "6752",
+            "id": "354-11686",
+            "review_id": "11686",
             "review": {
-              "id": "6752",
+              "id": "11686",
               "reviewer": "Mark Tushnet,Georgetown University Law Center",
               "description": "\"Deserves the attention of all who are interested in understanding the state of jurisprudence in the 1990s.\"",
               "score": null,

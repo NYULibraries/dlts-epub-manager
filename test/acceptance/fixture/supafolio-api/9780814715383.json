@@ -30,22 +30,20 @@
           "ebook": "9780814723661",
           "hardcover": "9780814715208",
           "paperback": "9780814715383",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/djh9w2k9"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814772195.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1996-05-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1996-05-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.050",
+          "weight": "0.810",
           "weight_unit": "lb"
         },
         "series": [
@@ -131,12 +120,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUL00000",
+              "code": "NYUAS0RRI",
               "code_3": "NYU",
-              "code_6": "NYUL00",
-              "name": "Law",
+              "code_6": "NYUAS0",
+              "name": "American Studies / Race & Racial Identity",
               "type": "nyuos-subjects",
-              "seo_name": "NYUL"
+              "seo_name": "NYUASRRI"
             }
           },
           {
@@ -153,12 +142,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUAS0RRI",
+              "code": "NYUL00000",
               "code_3": "NYU",
-              "code_6": "NYUAS0",
-              "name": "American Studies / Race & Racial Identity",
+              "code_6": "NYUL00",
+              "name": "Law",
               "type": "nyuos-subjects",
-              "seo_name": "NYUASRRI"
+              "seo_name": "NYUL"
             }
           }
         ],
@@ -167,10 +156,10 @@
           {
             "order": 1,
             "note": "Ruth Colker",
-            "contributor_id": 100012,
+            "contributor_id": 100013,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100012,
+              "contributor_id": 100013,
               "name": "Ruth Colker",
               "first": "Ruth",
               "last": "Colker",
@@ -272,7 +261,6 @@
             "product_id": 326,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -293,7 +281,6 @@
             "product_id": 9,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -314,7 +301,6 @@
             "product_id": 325,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -323,10 +309,10 @@
         ],
         "reviews": [
           {
-            "id": "326-6611",
-            "review_id": "6611",
+            "id": "326-11563",
+            "review_id": "11563",
             "review": {
-              "id": "6611",
+              "id": "11563",
               "reviewer": "Lesbian and Gay History Newsletter",
               "description": "\"Ruth Colker's Hybrid is an ambitious study of the U.S. legal system and the binary lens through which it determines justice.  U.S. Courts, according to Colker, not only neglect to address the reality of bisexuals, multiracials, transgenderists, and many people with disabilities, but also fail to acknowldedge the varied ways that race, sex and ability are constructed in U.S. society.  She offers a critique of the U.S. legal system and suggests strategies for working with these issues in the future.\"",
               "score": null,

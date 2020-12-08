@@ -30,22 +30,20 @@
           "ebook": "9780814761007",
           "hardcover": "9780814755952",
           "paperback": "9780814755969",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/2z34tpd1"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814759714.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1998-08-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1998-08-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "21.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "27.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "27.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.040",
+          "weight": "0.690",
           "weight_unit": "lb"
         },
         "series": [],
@@ -122,12 +111,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYULGBTQS",
+              "code": "NYUH00000",
               "code_3": "NYU",
-              "code_6": "NYULGB",
-              "name": "LGBTQ & Sexuality",
+              "code_6": "NYUH00",
+              "name": "History",
               "type": "nyuos-subjects",
-              "seo_name": "NYULGBTQS"
+              "seo_name": "NYUH"
             }
           },
           {
@@ -144,12 +133,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUH00000",
+              "code": "NYULGBTQS",
               "code_3": "NYU",
-              "code_6": "NYUH00",
-              "name": "History",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality",
               "type": "nyuos-subjects",
-              "seo_name": "NYUH"
+              "seo_name": "NYULGBTQS"
             }
           }
         ],
@@ -158,10 +147,10 @@
           {
             "order": 1,
             "note": "Diane Helene Miller",
-            "contributor_id": 100018,
+            "contributor_id": 100020,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100018,
+              "contributor_id": 100020,
               "name": "Diane Helene Miller",
               "first": "Diane Helene",
               "last": "Miller",
@@ -263,7 +252,6 @@
             "product_id": 317,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1998-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -284,7 +272,6 @@
             "product_id": 14,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -305,7 +292,6 @@
             "product_id": 82,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -326,7 +312,6 @@
             "product_id": 316,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -335,10 +320,10 @@
         ],
         "reviews": [
           {
-            "id": "317-6646",
-            "review_id": "6646",
+            "id": "317-11579",
+            "review_id": "11579",
             "review": {
-              "id": "6646",
+              "id": "11579",
               "reviewer": "Women's Studies in Communication",
               "description": "\"This book makes important contributions to Women's Studies and Speech Communication and deserves our critical attention.\"",
               "score": null,

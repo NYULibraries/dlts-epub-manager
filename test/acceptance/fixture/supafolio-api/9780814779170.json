@@ -30,22 +30,20 @@
           "ebook": "9780814788721",
           "hardcover": "9780814779170",
           "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/c866t382"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814741498.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1990-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1990-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "AUD",
-            "amount": "50.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "50.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
             "locale": "GBP",
             "amount": "41.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.040",
+          "weight": "0.690",
           "weight_unit": "lb"
         },
         "series": [],
@@ -136,10 +125,10 @@
           {
             "order": 1,
             "note": "Joe Schall",
-            "contributor_id": 100074,
+            "contributor_id": 100080,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100074,
+              "contributor_id": 100080,
               "name": "Joe Schall",
               "first": "Joe",
               "last": "Schall",
@@ -241,7 +230,6 @@
             "product_id": 126,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1990-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -262,7 +250,6 @@
             "product_id": 59,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1990-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -283,7 +270,6 @@
             "product_id": 331,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1990-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"

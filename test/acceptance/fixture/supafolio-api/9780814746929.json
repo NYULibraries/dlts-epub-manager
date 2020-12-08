@@ -30,22 +30,20 @@
           "ebook": "9780814748503",
           "hardcover": "9780814746929",
           "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/rn8pk2gc"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814763551.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1997-03-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1997-03-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "74.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "89.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "89.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.130",
+          "weight": "2.060",
           "weight_unit": "lb"
         },
         "series": [],
@@ -122,23 +111,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUR00000",
+              "code": "NYUH00JH0",
               "code_3": "NYU",
-              "code_6": "NYUR00",
-              "name": "Religion",
+              "code_6": "NYUH00",
+              "name": "History / Jewish History",
               "type": "nyuos-subjects",
-              "seo_name": "NYUR"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUJS0000",
-              "code_3": "NYU",
-              "code_6": "NYUJS0",
-              "name": "Jewish Studies",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUJS"
+              "seo_name": "NYUHJH"
             }
           },
           {
@@ -155,12 +133,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUH00JH0",
+              "code": "NYUJS0000",
               "code_3": "NYU",
-              "code_6": "NYUH00",
-              "name": "History / Jewish History",
+              "code_6": "NYUJS0",
+              "name": "Jewish Studies",
               "type": "nyuos-subjects",
-              "seo_name": "NYUHJH"
+              "seo_name": "NYUJS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUR00000",
+              "code_3": "NYU",
+              "code_6": "NYUR00",
+              "name": "Religion",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUR"
             }
           }
         ],
@@ -169,10 +158,10 @@
           {
             "order": 1,
             "note": "Steven T. Katz",
-            "contributor_id": 100017,
+            "contributor_id": 100018,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100017,
+              "contributor_id": 100018,
               "name": "Steven T. Katz",
               "first": "Steven T.",
               "last": "Katz",
@@ -274,7 +263,6 @@
             "product_id": 81,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1997-03-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -295,7 +283,6 @@
             "product_id": 13,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-03-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -316,7 +303,6 @@
             "product_id": 309,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-03-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"

@@ -30,22 +30,20 @@
           "ebook": "9780814744826",
           "hardcover": "9780814735299",
           "paperback": "9780814735305",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/5tb2rd9k"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814773215.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1996-08-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1996-08-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,24 +101,13 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.060",
+          "weight": "0.880",
           "weight_unit": "lb"
         },
         "series": [],
         "awards": [],
         "levels": [],
         "categories": [
-          {
-            "primary": false,
-            "category": {
-              "code": "NYULGBTQS",
-              "code_3": "NYU",
-              "code_6": "NYULGB",
-              "name": "LGBTQ & Sexuality",
-              "type": "nyuos-subjects",
-              "seo_name": "NYULGBTQS"
-            }
-          },
           {
             "primary": false,
             "category": {
@@ -140,6 +118,17 @@
               "type": "nyuos-subjects",
               "seo_name": "NYUPOL"
             }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULGBTQS",
+              "code_3": "NYU",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULGBTQS"
+            }
           }
         ],
         "retailers": null,
@@ -147,10 +136,10 @@
           {
             "order": 1,
             "note": "Mark Hertzog",
-            "contributor_id": 100040,
+            "contributor_id": 100045,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100040,
+              "contributor_id": 100045,
               "name": "Mark Hertzog",
               "first": "Mark",
               "last": "Hertzog",
@@ -252,7 +241,6 @@
             "product_id": 336,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1996-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -273,7 +261,6 @@
             "product_id": 30,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -294,7 +281,6 @@
             "product_id": 98,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -315,7 +301,6 @@
             "product_id": 335,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"

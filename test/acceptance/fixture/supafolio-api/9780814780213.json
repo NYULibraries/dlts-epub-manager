@@ -30,22 +30,20 @@
           "ebook": "9780814741474",
           "hardcover": "9780814779712",
           "paperback": "9780814780213",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/msbcc48d"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814788707.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "21.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "27.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "27.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.040",
+          "weight": "0.630",
           "weight_unit": "lb"
         },
         "series": [],
@@ -122,12 +111,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUPOL000",
+              "code": "NYUS00000",
               "code_3": "NYU",
-              "code_6": "NYUPOL",
-              "name": "Politics",
+              "code_6": "NYUS00",
+              "name": "Sociology",
               "type": "nyuos-subjects",
-              "seo_name": "NYUPOL"
+              "seo_name": "NYUS"
             }
           },
           {
@@ -144,12 +133,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUS00000",
+              "code": "NYUPOL000",
               "code_3": "NYU",
-              "code_6": "NYUS00",
-              "name": "Sociology",
+              "code_6": "NYUPOL",
+              "name": "Politics",
               "type": "nyuos-subjects",
-              "seo_name": "NYUS"
+              "seo_name": "NYUPOL"
             }
           }
         ],
@@ -158,10 +147,10 @@
           {
             "order": 1,
             "note": "Ryuzo Sato",
-            "contributor_id": 100002,
+            "contributor_id": 100003,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100002,
+              "contributor_id": 100003,
               "name": "Ryuzo Sato",
               "first": "Ryuzo",
               "last": "Sato",
@@ -263,7 +252,6 @@
             "product_id": 291,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -284,7 +272,6 @@
             "product_id": 3,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -305,7 +292,6 @@
             "product_id": 71,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -326,7 +312,6 @@
             "product_id": 290,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -335,10 +320,10 @@
         ],
         "reviews": [
           {
-            "id": "291-6532",
-            "review_id": "6532",
+            "id": "291-11465",
+            "review_id": "11465",
             "review": {
-              "id": "6532",
+              "id": "11465",
               "reviewer": "Masamichi Hanabusa ,Former Japanese Consul General, author of Trade Problems Between Japan and Western Europe",
               "description": "\"Sato knows both Japanese realities and American dissatisfactions.  He sees things from a rare vantage point.  Some Japanese may feel he is too critical of Japan, while more Americans may think he overly values the Japanese model.  But both can learn much from his book and, after reading it, will be convinced that he talks a great deal of sense and conclude that united, the two nations stand to gain, divided, to lose.\"",
               "score": null,
@@ -348,10 +333,10 @@
             }
           },
           {
-            "id": "291-6533",
-            "review_id": "6533",
+            "id": "291-11466",
+            "review_id": "11466",
             "review": {
-              "id": "6533",
+              "id": "11466",
               "reviewer": "Far Eastern Economic Review",
               "description": "\"[Sato] sets out to tell Japanese readers how their country looks from the U.S. and whyin his opinionsome American criticisms of Japan are right ... [Sato] strikes gold with a list of things Japan can do to put itself right with the rest of the world.\"",
               "score": null,

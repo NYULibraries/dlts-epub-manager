@@ -30,22 +30,20 @@
           "ebook": "9780814743218",
           "hardcover": "9780814742297",
           "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/15dv439j"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814743980.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1996-03-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1996-03-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "19.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "25.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "25.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,24 +101,13 @@
           "width": "5.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.040",
+          "weight": "0.630",
           "weight_unit": "lb"
         },
         "series": [],
         "awards": [],
         "levels": [],
         "categories": [
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUC00000",
-              "code_3": "NYU",
-              "code_6": "NYUC00",
-              "name": "Criminology",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUC"
-            }
-          },
           {
             "primary": false,
             "category": {
@@ -140,6 +118,17 @@
               "type": "nyuos-subjects",
               "seo_name": "NYULLS"
             }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUC00000",
+              "code_3": "NYU",
+              "code_6": "NYUC00",
+              "name": "Criminology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUC"
+            }
           }
         ],
         "retailers": null,
@@ -147,10 +136,10 @@
           {
             "order": 1,
             "note": "Don Judson",
-            "contributor_id": 100051,
+            "contributor_id": 100056,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100051,
+              "contributor_id": 100056,
               "name": "Don Judson",
               "first": "Don",
               "last": "Judson",
@@ -252,7 +241,6 @@
             "product_id": 106,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1996-03-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -273,7 +261,6 @@
             "product_id": 39,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-03-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -294,7 +281,6 @@
             "product_id": 271,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-03-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -303,10 +289,10 @@
         ],
         "reviews": [
           {
-            "id": "106-6783",
-            "review_id": "6783",
+            "id": "106-11721",
+            "review_id": "11721",
             "review": {
-              "id": "6783",
+              "id": "11721",
               "reviewer": "Meredith Steinbach",
               "description": "\"Brilliant, articulate, street-wise. . . Donald Judson's writings are not to be missed.  He understands the difference between lyricism for its own sake and literary dynamics and can make them dance through and around his characters in the highest literary forms.\"",
               "score": null,
@@ -316,10 +302,10 @@
             }
           },
           {
-            "id": "106-6784",
-            "review_id": "6784",
+            "id": "106-11722",
+            "review_id": "11722",
             "review": {
-              "id": "6784",
+              "id": "11722",
               "reviewer": "Edmund White",
               "description": "\"Donald Judson is someone who has big writing talent.  His work is action-packed, it's about small-town hoods, it reeks of violence&#151;but the whole is rendered in an exquisite, lyrical prose.\"",
               "score": null,

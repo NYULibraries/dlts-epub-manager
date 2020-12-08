@@ -30,22 +30,20 @@
           "ebook": "9780814772225",
           "hardcover": "9780814714980",
           "paperback": "9780814715123",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/51c5b1k3"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814723715.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1995-03-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1995-03-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.050",
+          "weight": "0.750",
           "weight_unit": "lb"
         },
         "series": [],
@@ -122,12 +111,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUL00000",
+              "code": "NYUS00SWL",
               "code_3": "NYU",
-              "code_6": "NYUL00",
-              "name": "Law",
+              "code_6": "NYUS00",
+              "name": "Sociology / Sociology of Work & Labor",
               "type": "nyuos-subjects",
-              "seo_name": "NYUL"
+              "seo_name": "NYUSSWL"
             }
           },
           {
@@ -144,12 +133,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUS00SWL",
+              "code": "NYUL00000",
               "code_3": "NYU",
-              "code_6": "NYUS00",
-              "name": "Sociology / Sociology of Work & Labor",
+              "code_6": "NYUL00",
+              "name": "Law",
               "type": "nyuos-subjects",
-              "seo_name": "NYUSSWL"
+              "seo_name": "NYUL"
             }
           }
         ],
@@ -158,10 +147,10 @@
           {
             "order": 1,
             "note": "",
-            "contributor_id": 100021,
+            "contributor_id": 100023,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100021,
+              "contributor_id": 100023,
               "name": "Charles B. Craver",
               "first": "Charles B.",
               "last": "Craver",
@@ -263,7 +252,6 @@
             "product_id": 285,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1995-03-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -284,7 +272,6 @@
             "product_id": 17,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1993-06-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -305,7 +292,6 @@
             "product_id": 284,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1993-06-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"

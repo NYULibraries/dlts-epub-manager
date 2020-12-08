@@ -30,22 +30,20 @@
           "ebook": "9780814732519",
           "hardcover": "9780814731147",
           "paperback": "9780814731437",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/qv9s4pmq"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814738573.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "2000-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "2000-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.080",
+          "weight": "1.250",
           "weight_unit": "lb"
         },
         "series": [],
@@ -158,10 +147,10 @@
           {
             "order": 1,
             "note": "",
-            "contributor_id": 100076,
+            "contributor_id": 100082,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100076,
+              "contributor_id": 100082,
               "name": "Scott Douglas Gerber",
               "first": "Scott Douglas",
               "last": "Gerber",
@@ -263,7 +252,6 @@
             "product_id": 370,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "2000-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -284,7 +272,6 @@
             "product_id": 61,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -305,7 +292,6 @@
             "product_id": 128,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -326,7 +312,6 @@
             "product_id": 369,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -335,10 +320,10 @@
         ],
         "reviews": [
           {
-            "id": "370-6930",
-            "review_id": "6930",
+            "id": "370-11868",
+            "review_id": "11868",
             "review": {
-              "id": "6930",
+              "id": "11868",
               "reviewer": "Law and Politics Book Review",
               "description": "\"This absorbing collection of essays . . . goes far toward filling a void in the literature on the early justices of the world's most significant tribunal.\"",
               "score": null,
@@ -348,10 +333,10 @@
             }
           },
           {
-            "id": "370-6931",
-            "review_id": "6931",
+            "id": "370-11869",
+            "review_id": "11869",
             "review": {
-              "id": "6931",
+              "id": "11869",
               "reviewer": "Choice",
               "description": "\"This creative and imaginative analysis of America's first national jurists is recommended for all students of Supreme Court history.\"",
               "score": null,
@@ -361,10 +346,10 @@
             }
           },
           {
-            "id": "370-6932",
-            "review_id": "6932",
+            "id": "370-11870",
+            "review_id": "11870",
             "review": {
-              "id": "6932",
+              "id": "11870",
               "reviewer": "Henry J. Abraham,James Hart Professor of Government and Foreign Affairs, Emeritus, University of Virginia",
               "description": "\"Professor Gerber's Seriatim is a genuinely welcome work, an imaginative one, and a distinctly needed one. The pre-Marshall period had all-too-long been neglected and when addressed at all, it was usually done in cursory, brief compass. Gerber has done a splendid job in securing experts to analyze the labors and persona of the ten pre-Marshall jurists on our highest bench, and his introduction to the essays is a model of synthesis and clarity.\"",
               "score": null,
@@ -374,10 +359,10 @@
             }
           },
           {
-            "id": "370-6933",
-            "review_id": "6933",
+            "id": "370-11871",
+            "review_id": "11871",
             "review": {
-              "id": "6933",
+              "id": "11871",
               "reviewer": "Mark Tushnet,Georgetown University Law Center",
               "description": "\"This useful collection of biographical essays, bracketed by splendid treatments of John Jay and Oliver Elsworth, goes a long way toward establishing that the first justices of the Supreme Court were an impressive collection of political and constitutional thinkers who did much, before and during their service on the Court, to construct the constitutional order.\"",
               "score": null,
@@ -387,10 +372,10 @@
             }
           },
           {
-            "id": "370-6934",
-            "review_id": "6934",
+            "id": "370-11872",
+            "review_id": "11872",
             "review": {
-              "id": "6934",
+              "id": "11872",
               "reviewer": "Supreme Court Historical Society Quarterly",
               "description": "\"A wonderful book that challenges the idea that the Court did nothing of importance prior to Marshall's appointment; ..&nbsp. it seems destined to become a staple source for the Court's first decade.\"",
               "score": null,

@@ -30,22 +30,20 @@
           "ebook": "9780814743201",
           "hardcover": "9780814741948",
           "paperback": "9780814742358",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/8kprr6mx"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814743973.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1997-06-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1997-06-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "20.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "27.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "27.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.040",
+          "weight": "0.690",
           "weight_unit": "lb"
         },
         "series": [
@@ -145,10 +134,10 @@
           {
             "order": 1,
             "note": "Peggy Fitzhugh Johnstone",
-            "contributor_id": 100031,
+            "contributor_id": 100034,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100031,
+              "contributor_id": 100034,
               "name": "Peggy Fitzhugh Johnstone",
               "first": "Peggy Fitzhugh",
               "last": "Johnstone",
@@ -250,7 +239,6 @@
             "product_id": 384,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1997-06-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -271,7 +259,6 @@
             "product_id": 26,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -292,7 +279,6 @@
             "product_id": 94,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -313,7 +299,6 @@
             "product_id": 383,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -322,10 +307,10 @@
         ],
         "reviews": [
           {
-            "id": "384-6714",
-            "review_id": "6714",
+            "id": "384-11643",
+            "review_id": "11643",
             "review": {
-              "id": "6714",
+              "id": "11643",
               "reviewer": "George H. Pollock, M.D., Ph.D., Psychoanalytic Books",
               "description": "\"Johnstone's description of the tumultuous events in George Eliot's work is an excellent illustration of applied psychoanalysis.\"",
               "score": null,

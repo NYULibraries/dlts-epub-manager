@@ -18,9 +18,9 @@
         "illustrations_note": "",
         "initial_print_run": null,
         "custom": {
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/d7wm39fk",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814776636.001.0001",
           "language": "eng",
           "edition_isbn": "9780814774694",
           "cs_title_group": "9780814774694",
@@ -35,13 +35,11 @@
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1996-05-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1996-05-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -66,8 +64,8 @@
             "locale": "GBP",
             "amount": "74.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -75,20 +73,11 @@
             "amount": "89.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "89.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -108,24 +97,13 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.120",
+          "weight": "1.880",
           "weight_unit": "lb"
         },
         "series": [],
         "awards": [],
         "levels": [],
         "categories": [
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUPOL000",
-              "code_3": "NYU",
-              "code_6": "NYUPOL",
-              "name": "Politics",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUPOL"
-            }
-          },
           {
             "primary": false,
             "category": {
@@ -136,6 +114,17 @@
               "type": "nyuos-subjects",
               "seo_name": "NYUP"
             }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
           }
         ],
         "retailers": null,
@@ -143,10 +132,10 @@
           {
             "order": 1,
             "note": "Stanley A Renshon",
-            "contributor_id": 100093,
+            "contributor_id": 100019,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100093,
+              "contributor_id": 100019,
               "name": "Stanley A Renshon",
               "first": "Stanley A",
               "last": "Renshon",
@@ -248,7 +237,6 @@
             "product_id": 388,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -269,7 +257,6 @@
             "product_id": 406,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -290,7 +277,6 @@
             "product_id": 407,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"

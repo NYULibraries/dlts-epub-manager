@@ -30,22 +30,20 @@
           "ebook": "9780814788837",
           "hardcover": "9780814780978",
           "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/000001ns"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814739617.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1998-04-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1998-04-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "74.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "89.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "89.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "5.500",
           "depth": null,
           "unit": "in",
-          "weight": "0.070",
+          "weight": "1.130",
           "weight_unit": "lb"
         },
         "series": [
@@ -131,23 +120,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUL00000",
-              "code_3": "NYU",
-              "code_6": "NYUL00",
-              "name": "Law",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUL"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
               "code": "NYUP00000",
               "code_3": "NYU",
               "code_6": "NYUP00",
               "name": "Psychology",
               "type": "nyuos-subjects",
               "seo_name": "NYUP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
             }
           }
         ],
@@ -156,10 +145,10 @@
           {
             "order": 1,
             "note": "",
-            "contributor_id": 100024,
+            "contributor_id": 100027,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100024,
+              "contributor_id": 100027,
               "name": "Ian Shapiro",
               "first": "Ian",
               "last": "Shapiro",
@@ -185,10 +174,10 @@
           {
             "order": 2,
             "note": "",
-            "contributor_id": 100025,
+            "contributor_id": 100028,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100025,
+              "contributor_id": 100028,
               "name": "Robert Adams",
               "first": "Robert",
               "last": "Adams",
@@ -290,7 +279,6 @@
             "product_id": 88,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -311,7 +299,6 @@
             "product_id": 20,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -332,7 +319,6 @@
             "product_id": 332,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
