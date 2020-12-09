@@ -19,7 +19,7 @@
         "initial_print_run": null,
         "custom": {
           "language": "eng",
-          "edition_isbn": "9780814721100",
+          "edition_isbn": "9780814718803",
           "cs_title_group": "9780814718803",
           "scheduled_date": "05/29/2014",
           "hi_res_images": false,
@@ -53,7 +53,7 @@
         "territories": null,
         "keywords": "",
         "product_id": 49,
-        "isbn13": "9780814721100",
+        "isbn13": "9780814718803",
         "title": "Romantic Outlaws, Beloved Prisons",
         "title_without_prefix": "Romantic Outlaws, Beloved Prisons",
         "seo": "romantic-outlaws-beloved-prisons",
@@ -184,7 +184,7 @@
             "asset": {
               "id": "317",
               "unique": "8784a6f4f202275923c36e3cf019f4fd",
-              "name": "648-H-9780814721100.jpg",
+              "name": "648-H-9780814718803.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -204,7 +204,7 @@
             "asset": {
               "id": "49",
               "unique": "831fc8c5ae64a531bf3d7df40d7dd0aa",
-              "name": "145-W-9780814721100.jpg",
+              "name": "145-W-9780814718803.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -224,7 +224,7 @@
             "asset": {
               "id": "183",
               "unique": "04f42a7784194a1ccbb6fc1ad0268608",
-              "name": "298-W-9780814721100.jpg",
+              "name": "298-W-9780814718803.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -250,7 +250,7 @@
               "code": "DG",
               "name": "eBook"
             },
-            "isbn": "9780814721100",
+            "isbn": "9780814718803",
             "edition": "",
             "product_id": 49,
             "primary_format": false,
@@ -311,7 +311,7 @@
               "description": "\"A complex book on the subject of incarceration that embraces both the actual experience of prisoners and the projection in literature of positive prison fantasies. Drawing on a very rich reservoir of illustrations, Duncan offers fascinating developments that will affect the readers' views on the timely question of crime and punishment.\"",
               "score": null,
               "source": "Onix",
-              "unique": "9780814721100-9acf62e145ee7c42fbba6b85a6e94f31",
+              "unique": "9780814718803-9acf62e145ee7c42fbba6b85a6e94f31",
               "assets": []
             }
           },
@@ -324,7 +324,7 @@
               "description": "\"Romantic Outlaws, Beloved Prisons is a book that merits the interest of psychanalysts for the contribution it offers to our understanding of the realm of guilt and punishment in human psychology...I recommend the book highly.\"",
               "score": null,
               "source": "Onix",
-              "unique": "9780814721100-ade3f6cde47b7c1ff04be286b609f1bf",
+              "unique": "9780814718803-ade3f6cde47b7c1ff04be286b609f1bf",
               "assets": []
             }
           },
@@ -337,7 +337,7 @@
               "description": "\"Literature... provides Duncan a rich field in which to explore our 'reluctant,' 'rationalized,' and sometimes outright 'admiration' for the 'noble bandit.' ...The real drama of...Duncan's discussion of metaphor, however, comes with the vivid historical pictograph that gives her book a stirring climax....Duncan readily solves the mystery [of the founding of Botany Bay as a penal colony].\"",
               "score": null,
               "source": "Onix",
-              "unique": "9780814721100-0d055414e9efe2ed4ef145fd9c85d1d1",
+              "unique": "9780814718803-0d055414e9efe2ed4ef145fd9c85d1d1",
               "assets": []
             }
           },
@@ -350,7 +350,7 @@
               "description": "\"Professor Martha Duncan has written an important, creative work.  Her book is elegant, and solidly grounded in literature, psychoanalysis and law.\"",
               "score": null,
               "source": "Onix",
-              "unique": "9780814721100-1a623808a2e2d3abb96502e6ecd64fb3",
+              "unique": "9780814718803-1a623808a2e2d3abb96502e6ecd64fb3",
               "assets": []
             }
           }

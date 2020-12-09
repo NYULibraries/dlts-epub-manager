@@ -20,9 +20,9 @@
         "custom": {
           "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9781479898626.001.0001",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814750957.001.0001",
           "language": "eng",
-          "edition_isbn": "9781479898626",
+          "edition_isbn": "9780814750957",
           "cs_title_group": "9780814750797",
           "scheduled_date": "05/29/2014",
           "hi_res_images": false,
@@ -49,7 +49,7 @@
         "territories": null,
         "keywords": "",
         "product_id": 405,
-        "isbn13": "9781479898626",
+        "isbn13": "9780814750957",
         "title": "Seasons of Captivity",
         "title_without_prefix": "Seasons of Captivity",
         "seo": "seasons-of-captivity",
@@ -162,7 +162,7 @@
             "asset": {
               "id": "1219",
               "unique": "594020cff7a696b453a7623bffdceb9d",
-              "name": "648-H-9781479898626.jpg",
+              "name": "648-H-9780814750957.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -182,7 +182,7 @@
             "asset": {
               "id": "1177",
               "unique": "832bec45300b3a249daa0c335a022ed9",
-              "name": "145-W-9781479898626.jpg",
+              "name": "145-W-9780814750957.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -202,7 +202,7 @@
             "asset": {
               "id": "1198",
               "unique": "3b25c0a1d0c7cc491c5bb7520c23d580",
-              "name": "298-W-9781479898626.jpg",
+              "name": "298-W-9780814750957.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -228,7 +228,7 @@
               "code": "DG",
               "name": "eBook"
             },
-            "isbn": "9781479898626",
+            "isbn": "9780814750957",
             "edition": "",
             "product_id": 405,
             "primary_format": true,
