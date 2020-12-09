@@ -30,22 +30,20 @@
           "ebook": "9780814776711",
           "hardcover": "9780814774755",
           "paperback": "9780814775455",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/w6m907jq"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814771501.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": false,
         "date": {
-          "__className": "DateTime",
           "date": "1996-11-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1996-11-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "AUD",
-            "amount": "89.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "89.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
             "locale": "GBP",
             "amount": "74.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.080",
+          "weight": "1.250",
           "weight_unit": "lb"
         },
         "series": [],
@@ -147,10 +136,10 @@
           {
             "order": 1,
             "note": "",
-            "contributor_id": 100082,
+            "contributor_id": 100088,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100082,
+              "contributor_id": 100088,
               "name": "Peter L. Rudnytsky",
               "first": "Peter L.",
               "last": "Rudnytsky",
@@ -176,10 +165,10 @@
           {
             "order": 2,
             "note": "",
-            "contributor_id": 100083,
+            "contributor_id": 100089,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100083,
+              "contributor_id": 100089,
               "name": "Antal Bokay",
               "first": "Antal",
               "last": "Bokay",
@@ -205,10 +194,10 @@
           {
             "order": 3,
             "note": "",
-            "contributor_id": 100084,
+            "contributor_id": 100090,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100084,
+              "contributor_id": 100090,
               "name": "Patrizia Giampieri-Deutsch",
               "first": "Patrizia",
               "last": "Giampieri-Deutsch",
@@ -310,7 +299,6 @@
             "product_id": 131,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-11-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -331,7 +319,6 @@
             "product_id": 64,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-11-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -352,7 +339,6 @@
             "product_id": 314,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1996-11-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -373,7 +359,6 @@
             "product_id": 315,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "2000-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -382,10 +367,10 @@
         ],
         "reviews": [
           {
-            "id": "131-7002",
-            "review_id": "7002",
+            "id": "131-11944",
+            "review_id": "11944",
             "review": {
-              "id": "7002",
+              "id": "11944",
               "reviewer": "Rosemary Balsam, Choice",
               "description": "\"A fascinating collection of essays by both European and North American psychoanalysts. . . . A major contribution to the growing knowledge about Ferenczi, his inspirations, creativity, and risky directions.\"",
               "score": null,
@@ -395,10 +380,10 @@
             }
           },
           {
-            "id": "131-7003",
-            "review_id": "7003",
+            "id": "131-11945",
+            "review_id": "11945",
             "review": {
-              "id": "7003",
+              "id": "11945",
               "reviewer": "Psychoanalytic Books",
               "description": "\"Highly recommended.\"",
               "score": null,

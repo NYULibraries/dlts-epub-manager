@@ -30,22 +30,20 @@
           "ebook": "9780814796399",
           "hardcover": "9780814755174",
           "paperback": "9780814755297",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/qnk98v8h"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814763148.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "AUD",
-            "amount": "29.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "29.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
             "locale": "GBP",
             "amount": "23.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.040",
+          "weight": "0.690",
           "weight_unit": "lb"
         },
         "series": [],
@@ -158,10 +147,10 @@
           {
             "order": 1,
             "note": "Jennifer L Manlowe",
-            "contributor_id": 100086,
+            "contributor_id": 100092,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100086,
+              "contributor_id": 100092,
               "name": "Jennifer L Manlowe",
               "first": "Jennifer L",
               "last": "Manlowe",
@@ -263,7 +252,6 @@
             "product_id": 313,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -284,7 +272,6 @@
             "product_id": 66,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -305,7 +292,6 @@
             "product_id": 133,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -326,7 +312,6 @@
             "product_id": 312,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -335,10 +320,10 @@
         ],
         "reviews": [
           {
-            "id": "313-6987",
-            "review_id": "6987",
+            "id": "313-11925",
+            "review_id": "11925",
             "review": {
-              "id": "6987",
+              "id": "11925",
               "reviewer": "Charles B. Strozier,author of Apocalypse: On the Psychology of Fundamentalism in America",
               "description": "\"This moving and powerful book explores in intricate detail the spiritual consequences for women of early forms of sexual abuse and trauma. It is hard to imagine a more important subject for contemporary Americans. Manlowe's thorough scholarship and original, probing interviews will make her wonderful book a lasting contribution.\"",
               "score": null,

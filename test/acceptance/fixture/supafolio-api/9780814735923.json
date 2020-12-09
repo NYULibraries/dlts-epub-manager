@@ -30,22 +30,20 @@
           "ebook": "9780814773154",
           "hardcover": "9780814735275",
           "paperback": "9780814735923",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/pvmcvgdw"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744765.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1999-05-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1999-05-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.050",
+          "weight": "0.810",
           "weight_unit": "lb"
         },
         "series": [
@@ -131,12 +120,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUAFS000",
+              "code": "NYUAFSL00",
               "code_3": "NYU",
-              "code_6": "NYUAFS",
-              "name": "African American Studies",
+              "code_6": "NYUAS0",
+              "name": "African American Studies / Law",
               "type": "nyuos-subjects",
-              "seo_name": "NYUAFS"
+              "seo_name": "NYUAFSL"
             }
           },
           {
@@ -153,12 +142,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUAFSL00",
+              "code": "NYUAFS000",
               "code_3": "NYU",
-              "code_6": "NYUAS0",
-              "name": "African American Studies / Law",
+              "code_6": "NYUAFS",
+              "name": "African American Studies",
               "type": "nyuos-subjects",
-              "seo_name": "NYUAFSL"
+              "seo_name": "NYUAFS"
             }
           }
         ],
@@ -167,10 +156,10 @@
           {
             "order": 1,
             "note": "Paul Harris",
-            "contributor_id": 100020,
+            "contributor_id": 100022,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100020,
+              "contributor_id": 100022,
               "name": "Paul Harris",
               "first": "Paul",
               "last": "Harris",
@@ -272,7 +261,6 @@
             "product_id": 275,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1999-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -293,7 +281,6 @@
             "product_id": 16,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -314,7 +301,6 @@
             "product_id": 84,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -335,7 +321,6 @@
             "product_id": 274,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-05-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -344,10 +329,10 @@
         ],
         "reviews": [
           {
-            "id": "275-6659",
-            "review_id": "6659",
+            "id": "275-11592",
+            "review_id": "11592",
             "review": {
-              "id": "6659",
+              "id": "11592",
               "reviewer": "Mumia Abu-Jamal,author of Live from Death Row",
               "description": "\"Within Harris's reasoned, cogent analysis lurks a legal strategy tethered to the nation's tattered and perennial traditions of white supremacy, which aims to acknowledge it, use it to explain its devastating effects on the black psyche, and provide a legal tool for some degree of amelioration. Ultimately, Black Rage Confronts the Law is more about U. S. power relations than law.Therefore, it will be damned.Therefore, it will be praised.Therefore, it should be read.\"",
               "score": null,
@@ -357,10 +342,10 @@
             }
           },
           {
-            "id": "275-6660",
-            "review_id": "6660",
+            "id": "275-11593",
+            "review_id": "11593",
             "review": {
-              "id": "6660",
+              "id": "11593",
               "reviewer": "California Lawyer",
               "description": "\"Paul Harris made an impact just two years out of law school with his innovative `black rage' defense. Harris convinced the jury that, in America, unemployment for a proud and talented black man can cause . . . a kind of temporary insanity. The theory not only gained Harris's client an acquittal, it left the man's integrity intact.\"",
               "score": null,
@@ -370,10 +355,10 @@
             }
           },
           {
-            "id": "275-6661",
-            "review_id": "6661",
+            "id": "275-11594",
+            "review_id": "11594",
             "review": {
-              "id": "6661",
+              "id": "11594",
               "reviewer": "Library Journal",
               "description": "\"On a deeper and more profound level [this book] illustrates the degree to which social and economic hardship and deprivation can justify human misconduct.\"",
               "score": null,
@@ -383,10 +368,10 @@
             }
           },
           {
-            "id": "275-6662",
-            "review_id": "6662",
+            "id": "275-11595",
+            "review_id": "11595",
             "review": {
-              "id": "6662",
+              "id": "11595",
               "reviewer": "New York Amsterdam News",
               "description": "\"Any lawyer who deals within the Black community needs to read it.\"",
               "score": null,

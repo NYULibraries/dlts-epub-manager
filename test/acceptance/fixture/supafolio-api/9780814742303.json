@@ -30,22 +30,20 @@
           "ebook": "9780814743171",
           "hardcover": "9780814741955",
           "paperback": "9780814742303",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/dbrv175n"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814743959.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1996-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1996-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,24 +101,13 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.050",
+          "weight": "0.850",
           "weight_unit": "lb"
         },
         "series": [],
         "awards": [],
         "levels": [],
         "categories": [
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUL00000",
-              "code_3": "NYU",
-              "code_6": "NYUL00",
-              "name": "Law",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUL"
-            }
-          },
           {
             "primary": false,
             "category": {
@@ -140,6 +118,17 @@
               "type": "nyuos-subjects",
               "seo_name": "NYUH"
             }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
           }
         ],
         "retailers": null,
@@ -147,10 +136,10 @@
           {
             "order": 1,
             "note": "James B.   Jacobs",
-            "contributor_id": 100005,
+            "contributor_id": 100006,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100005,
+              "contributor_id": 100006,
               "name": "James B. Jacobs",
               "first": "James B.",
               "last": "Jacobs",
@@ -176,10 +165,10 @@
           {
             "order": 2,
             "note": "",
-            "contributor_id": 100006,
+            "contributor_id": 100007,
             "role_id": "A02",
             "contributor": {
-              "contributor_id": 100006,
+              "contributor_id": 100007,
               "name": "Christopher Panarella",
               "first": "Christopher",
               "last": "Panarella",
@@ -205,10 +194,10 @@
           {
             "order": 3,
             "note": "",
-            "contributor_id": 100007,
+            "contributor_id": 100008,
             "role_id": "A02",
             "contributor": {
-              "contributor_id": 100007,
+              "contributor_id": 100008,
               "name": "Jay Worthington",
               "first": "Jay",
               "last": "Worthington",
@@ -310,7 +299,6 @@
             "product_id": 281,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1996-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -331,7 +319,6 @@
             "product_id": 5,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -352,7 +339,6 @@
             "product_id": 73,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -373,7 +359,6 @@
             "product_id": 280,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -382,10 +367,10 @@
         ],
         "reviews": [
           {
-            "id": "281-6565",
-            "review_id": "6565",
+            "id": "281-11502",
+            "review_id": "11502",
             "review": {
-              "id": "6565",
+              "id": "11502",
               "reviewer": "Times Literary Supplement",
               "description": "\"Jacobs quotes . . . verbatim trial testimony and bugged conversations. . . . [T]renchant materials for budding prosecutors and investigators.\"",
               "score": null,
@@ -395,10 +380,10 @@
             }
           },
           {
-            "id": "281-6566",
-            "review_id": "6566",
+            "id": "281-11503",
+            "review_id": "11503",
             "review": {
-              "id": "6566",
+              "id": "11503",
               "reviewer": "Times Literary Supplement",
               "description": "\"John Gotti's downfall is one of the five major criminal and civil cases cited in Busting the Mob which illustrate the grand strategy devised by the Federal Government to cripple, if not destroy, America's entrenched Mafia groups. . . Jacobs believes it is premature to prepare an obituary for America's Mob families.\"",
               "score": null,
@@ -408,10 +393,10 @@
             }
           },
           {
-            "id": "281-6567",
-            "review_id": "6567",
+            "id": "281-11504",
+            "review_id": "11504",
             "review": {
-              "id": "6567",
+              "id": "11504",
               "reviewer": "G. Robert Blakey,Professor, Notre Dame Law School, author of Rico, the federal anti-racketeering statue",
               "description": "\"Busting the Mob is a must read on organized crime for academics, prosecutors, and concerned citizens, in particular because it includes the text of primary material: indictments, trial testimony, etc.\"",
               "score": null,
@@ -421,10 +406,10 @@
             }
           },
           {
-            "id": "281-6568",
-            "review_id": "6568",
+            "id": "281-11505",
+            "review_id": "11505",
             "review": {
-              "id": "6568",
+              "id": "11505",
               "reviewer": "Freda Adler,Rutgers University,Former President, American Society of Criminology",
               "description": "\"In Busting the Mob, Jacobs proves that sound historical and analytical criminology are not incompatible with entertaining&#151;often gripping&#151;narrative.\"",
               "score": null,
@@ -434,10 +419,10 @@
             }
           },
           {
-            "id": "281-6569",
-            "review_id": "6569",
+            "id": "281-11506",
+            "review_id": "11506",
             "review": {
-              "id": "6569",
+              "id": "11506",
               "reviewer": "Norval Morris,Professor of Law and Criminology, University of Chicago",
               "description": "\"Busting the Mob by Jim Jacobs is both enlightening and entertaining.  It is immensely refreshing that at long last scholarship, as distinct from sensationalism, comes to the analysis of Organized Crime&#151;and scholarship with a sprightly style.\"",
               "score": null,

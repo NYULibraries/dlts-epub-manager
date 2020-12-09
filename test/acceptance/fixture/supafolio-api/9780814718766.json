@@ -30,22 +30,20 @@
           "ebook": "9780814744154",
           "hardcover": "9780814718766",
           "paperback": "9780814719244",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/rr4xh056"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814720981.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": false,
         "date": {
-          "__className": "DateTime",
           "date": "1997-08-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1997-08-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "74.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "89.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "89.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.070",
+          "weight": "1.190",
           "weight_unit": "lb"
         },
         "series": [],
@@ -122,12 +111,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUR00000",
+              "code": "NYUS00000",
               "code_3": "NYU",
-              "code_6": "NYUR00",
-              "name": "Religion",
+              "code_6": "NYUS00",
+              "name": "Sociology",
               "type": "nyuos-subjects",
-              "seo_name": "NYUR"
+              "seo_name": "NYUS"
             }
           },
           {
@@ -144,12 +133,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUS00000",
+              "code": "NYUR00000",
               "code_3": "NYU",
-              "code_6": "NYUS00",
-              "name": "Sociology",
+              "code_6": "NYUR00",
+              "name": "Religion",
               "type": "nyuos-subjects",
-              "seo_name": "NYUS"
+              "seo_name": "NYUR"
             }
           }
         ],
@@ -158,10 +147,10 @@
           {
             "order": 1,
             "note": "James Darsey",
-            "contributor_id": 100053,
+            "contributor_id": 100058,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100053,
+              "contributor_id": 100058,
               "name": "James Darsey",
               "first": "James",
               "last": "Darsey",
@@ -263,7 +252,6 @@
             "product_id": 108,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -284,7 +272,6 @@
             "product_id": 41,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -305,7 +292,6 @@
             "product_id": 355,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1999-09-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -326,7 +312,6 @@
             "product_id": 356,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1999-09-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -335,10 +320,10 @@
         ],
         "reviews": [
           {
-            "id": "108-6788",
-            "review_id": "6788",
+            "id": "108-11724",
+            "review_id": "11724",
             "review": {
-              "id": "6788",
+              "id": "11724",
               "reviewer": "Daniel Boyarin,author of A Radical Jew: Paul and the Politics of Identity",
               "description": "\"<b>The Prophetic Tradition and Radical Rhetoric in America</b> importantly connects the radical rhetorical tradition with biblical (prophetic) roots as an alternative to the Greek rhetorical tradition. . . . The book also makes an important contribution to the history of the present in showing that contemporary radical movements are grounded in American tradition and ethos. The story tells of a direct, actual, and unbroken line from Paine and the revolution to Phillips to Debs [that] is simply riveting.\"",
               "score": null,

@@ -30,22 +30,20 @@
           "ebook": "9781479840106",
           "hardcover": "9781479884575",
           "paperback": "9781479824243",
-          "license_name": "Creative Commons Attribution-NonCommercial-NoDerivs-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-          "permanent_url": "https://doi.org/10.33682/73n5tfjs"
+          "permanent_url": "https://doi.org/10.18574/nyu/9781479863570.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "2016-05-03 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "2016-05-03 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
-            "locale": "AUD",
-            "amount": "28.00",
+            "locale": "GBP",
+            "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.070",
+          "weight": "1.100",
           "weight_unit": "lb"
         },
         "series": [
@@ -131,23 +120,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUMT0C00",
+              "code": "NYUMT0TI0",
               "code_3": "NYU",
               "code_6": "NYUMT0",
-              "name": "Media & Technology / Communications",
+              "name": "Media & Technology / The Internet",
               "type": "nyuos-subjects",
-              "seo_name": "NYUMTC"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUE00000",
-              "code_3": "NYU",
-              "code_6": "NYUE00",
-              "name": "Education",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUE"
+              "seo_name": "NYUMTTI"
             }
           },
           {
@@ -164,12 +142,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUMT0TI0",
+              "code": "NYUE00000",
+              "code_3": "NYU",
+              "code_6": "NYUE00",
+              "name": "Education",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUE"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUMT0C00",
               "code_3": "NYU",
               "code_6": "NYUMT0",
-              "name": "Media & Technology / The Internet",
+              "name": "Media & Technology / Communications",
               "type": "nyuos-subjects",
-              "seo_name": "NYUMTTI"
+              "seo_name": "NYUMTC"
             }
           }
         ],
@@ -178,10 +167,10 @@
           {
             "order": 1,
             "note": "Sonia Livingstone, Julian Sefton-Green",
-            "contributor_id": 100003,
+            "contributor_id": 100004,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100003,
+              "contributor_id": 100004,
               "name": "Sonia Livingstone",
               "first": "Sonia",
               "last": "Livingstone",
@@ -207,10 +196,10 @@
           {
             "order": 2,
             "note": "",
-            "contributor_id": 100004,
+            "contributor_id": 100005,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100004,
+              "contributor_id": 100005,
               "name": "Julian Sefton-Green",
               "first": "Julian",
               "last": "Sefton-Green",
@@ -312,7 +301,6 @@
             "product_id": 295,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "2016-05-03 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -333,7 +321,6 @@
             "product_id": 4,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "2016-05-03 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -354,7 +341,6 @@
             "product_id": 72,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "2016-05-03 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -375,7 +361,6 @@
             "product_id": 294,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "2016-05-03 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -384,10 +369,10 @@
         ],
         "reviews": [
           {
-            "id": "295-6547",
-            "review_id": "6547",
+            "id": "295-11484",
+            "review_id": "11484",
             "review": {
-              "id": "6547",
+              "id": "11484",
               "reviewer": "Daniel Miller,author of Social Media in an English Village",
               "description": "\"An exemplary ethnography whose holistic engagement with children at home as well as at school allow for judicious appraisals of what actually matters, motivates, and has consequences for their lives. By fully respecting the childrens attempts to control the impact of digital technologies, negotiate their relationships and internalise but tame institutional pressures, this book gives us precisely the kind of empathetic sense of the child that we need to retain as adults.\"",
               "score": null,
@@ -397,10 +382,10 @@
             }
           },
           {
-            "id": "295-6548",
-            "review_id": "6548",
+            "id": "295-11485",
+            "review_id": "11485",
             "review": {
-              "id": "6548",
+              "id": "11485",
               "reviewer": "Kirsten Drotner,co-editor of Informal Learning and Digital Media",
               "description": "\"In a richly textured account,The Classunpacks many of the grand claims made in public discourse about the perceived impactpositive and negativeof new media technologies on young peoples lives and future prospects. Intellectually engaging, lucidly written, and emotionally engrossing,The Classis required reading for policy makers, parents, and teachers alike.\"",
               "score": null,
@@ -410,10 +395,10 @@
             }
           },
           {
-            "id": "295-6549",
-            "review_id": "6549",
+            "id": "295-11486",
+            "review_id": "11486",
             "review": {
-              "id": "6549",
+              "id": "11486",
               "reviewer": "Dorothy Holland,co-author of Identity and Agency in Cultural Worlds",
               "description": "\"One of the richest investigations to date of young people across the major sites of their livesschool, family, and among their peersThe Classwill be a distinctive contribution to media and youth studies. Displaying an impressive breadth of knowledge, the authors showcase lively ethnographic vignettes to draw significant, convincing, and exciting insights.\"",
               "score": null,

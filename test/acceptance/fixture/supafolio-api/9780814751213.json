@@ -30,22 +30,20 @@
           "ebook": "9780814752951",
           "hardcover": "9780814751213",
           "paperback": "9780814751220",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/05qftw3j"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814752715.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": false,
         "date": {
-          "__className": "DateTime",
           "date": "1998-04-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1998-04-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "AUD",
-            "amount": "89.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "89.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
             "locale": "GBP",
             "amount": "74.00",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.080",
+          "weight": "1.250",
           "weight_unit": "lb"
         },
         "series": [
@@ -167,10 +156,10 @@
           {
             "order": 1,
             "note": "Nancy Levit",
-            "contributor_id": 100081,
+            "contributor_id": 100087,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100081,
+              "contributor_id": 100087,
               "name": "Nancy Levit",
               "first": "Nancy",
               "last": "Levit",
@@ -272,7 +261,6 @@
             "product_id": 130,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -293,7 +281,6 @@
             "product_id": 63,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -314,7 +301,6 @@
             "product_id": 318,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -335,7 +321,6 @@
             "product_id": 319,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "2000-03-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -344,10 +329,10 @@
         ],
         "reviews": [
           {
-            "id": "130-6953",
-            "review_id": "6953",
+            "id": "130-11891",
+            "review_id": "11891",
             "review": {
-              "id": "6953",
+              "id": "11891",
               "reviewer": "Choice",
               "description": "\"Drawing on a variety of disciplines, Levit contends that both society generally and some feminists in particular have exaggerated the evidence of difference between males and females and have overlooked the far more prevalent similarities. . . . A readable, thoughtful, and controversial volume.\"",
               "score": null,
@@ -357,10 +342,10 @@
             }
           },
           {
-            "id": "130-6954",
-            "review_id": "6954",
+            "id": "130-11892",
+            "review_id": "11892",
             "review": {
-              "id": "6954",
+              "id": "11892",
               "reviewer": "June Carbone,Santa Clara Law School",
               "description": "\"The Gender Line marks feminism's coming of age. Levit tackles the issue of gender not just as it affects women, but as it constrains everyone. Her book brings new insight into the meaning of masculinity and femininity and their role in society.\"",
               "score": null,
@@ -370,10 +355,10 @@
             }
           },
           {
-            "id": "130-6955",
-            "review_id": "6955",
+            "id": "130-11893",
+            "review_id": "11893",
             "review": {
-              "id": "6955",
+              "id": "11893",
               "reviewer": "Michael Kimmel,Professor of Sociology, SUNY/Stony Brook, author of Manhood in America",
               "description": "\"TheGender Line is a rare combinationboth a sober and sensible analysis of how the law constructs gender difference and inequality, and a passionate voice for gender equality and justice. Nancy Levit strikes just the right tone: empowering to women and empathetic to men. I can't wait to use it in class!\"",
               "score": null,
@@ -383,10 +368,10 @@
             }
           },
           {
-            "id": "130-6956",
-            "review_id": "6956",
+            "id": "130-11894",
+            "review_id": "11894",
             "review": {
-              "id": "6956",
+              "id": "11894",
               "reviewer": "Jack M. Balkin,Lafayette S. Foster Professor, Yale Law School",
               "description": "\"In TheGender Line, Nancy Levit shows how our culture's norms of masculinity and femininity have harmed men as well as women; she offers a new feminist vision that seeks to reshape masculinity for the benefit of all human beings. Here is a book that argues persuasively that men need the insights of feminism as much as feminism needs alliances with men.\"",
               "score": null,
@@ -396,10 +381,10 @@
             }
           },
           {
-            "id": "130-6957",
-            "review_id": "6957",
+            "id": "130-11895",
+            "review_id": "11895",
             "review": {
-              "id": "6957",
+              "id": "11895",
               "reviewer": "Judge Norma L. Shapiro,Jurist",
               "description": "\"Interesting and important. . . . It should be compulsory reading in preparation for law study to stimulate and inspire individuals aspiring to learn to construct a society more egalitarian than we now know.\"",
               "score": null,

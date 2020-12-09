@@ -30,22 +30,20 @@
           "ebook": "9780814773161",
           "hardcover": "9780814735183",
           "paperback": "9780814735190",
-          "license_name": false,
-          "license_link": false,
-          "permanent_url": "https://doi.org/10.33682/k3j9kfwk"
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744772.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1996-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1996-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
             "locale": "USD",
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,24 +101,13 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.050",
+          "weight": "0.810",
           "weight_unit": "lb"
         },
         "series": [],
         "awards": [],
         "levels": [],
         "categories": [
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUPOL000",
-              "code_3": "NYU",
-              "code_6": "NYUPOL",
-              "name": "Politics",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUPOL"
-            }
-          },
           {
             "primary": false,
             "category": {
@@ -140,6 +118,17 @@
               "type": "nyuos-subjects",
               "seo_name": "NYUAS"
             }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
           }
         ],
         "retailers": null,
@@ -147,10 +136,10 @@
           {
             "order": 1,
             "note": "Anselm Haverkamp, H. R. Dodge",
-            "contributor_id": 100014,
+            "contributor_id": 100015,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100014,
+              "contributor_id": 100015,
               "name": "Anselm Haverkamp",
               "first": "Anselm",
               "last": "Haverkamp",
@@ -176,10 +165,10 @@
           {
             "order": 2,
             "note": "",
-            "contributor_id": 100015,
+            "contributor_id": 100016,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100015,
+              "contributor_id": 100016,
               "name": "H. R. Dodge",
               "first": "H. R.",
               "last": "Dodge",
@@ -281,7 +270,6 @@
             "product_id": 300,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1996-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -302,7 +290,6 @@
             "product_id": 11,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1995-01-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -323,7 +310,6 @@
             "product_id": 79,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1995-01-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -344,7 +330,6 @@
             "product_id": 299,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1995-01-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -353,10 +338,10 @@
         ],
         "reviews": [
           {
-            "id": "300-6624",
-            "review_id": "6624",
+            "id": "300-11557",
+            "review_id": "11557",
             "review": {
-              "id": "6624",
+              "id": "11557",
               "reviewer": "Geoffrey Hartman,English and Comparative Literature, Yale University",
               "description": "\"Deconstruction is not like foreign imports now 'made in America' but claims a more original relation to American literary and critical thought.  These essays, which include a fascinating deconstructive analysis of a recent Supreme Court decision on hate speech, are engaging and provocative dispatches from practitioners of this controversial movement, and take up crucial issues in architecture, law, feminism, philosophy and literature.\"",
               "score": null,
@@ -366,10 +351,10 @@
             }
           },
           {
-            "id": "300-6625",
-            "review_id": "6625",
+            "id": "300-11558",
+            "review_id": "11558",
             "review": {
-              "id": "6625",
+              "id": "11558",
               "reviewer": "Henry Sussman,author of Afterimages of Modernity",
               "description": "\"Written by some of the most accomplished critical theorists in the world, including Derrida himself, Deconstruction is/in America is more of a celebration than a defense.  Excellently edited, {Niko, I think this is a dangling participle - KS} one reads of new horizons and of fresh dislocations.  The resilience and pointedness of the contributions set the tone for the volume as a whole.\"",
               "score": null,
@@ -379,10 +364,10 @@
             }
           },
           {
-            "id": "300-6626",
-            "review_id": "6626",
+            "id": "300-11559",
+            "review_id": "11559",
             "review": {
-              "id": "6626",
+              "id": "11559",
               "reviewer": "Steven Rendall,Editor, Comparative Literature",
               "description": "\"It has become common to speak of deconstruction as having been simply displaced by political concerns.  The essays in this volume seek to bring out what was&#151;dare I say?&#151;always already political in deconstruction, while at the same time suggesting that politics is, or could be, deconstructive.  Deconstruction Is/In America offers a provocative vision of a different politics.\"",
               "score": null,

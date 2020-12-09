@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "081475273X",
-        "description": "<p>\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\"<br>&#151;<i>Publishers Weekly</i><br> \"Lieblich has skillfully integrated oral histories to produce a compelling story.\"<br>&#151;<i>Library Journal</i><br> \"The minutes of the meetings recorded hereby are an excerpt of the lives of ten men, who had spent all their days and nights together.  Each one observed the other in his grief and joy.Each one, according to his ability and sensitivity, saw it as his duty to contribute to the general welfare, to save our boat from sinking....In fact, we managed to keep afloat most of the time, and if we erred here or there, at least we had the best intentions.\"<br>&#151;<i>From a secret collective diary kept by ten POWs</i><br> A national bestseller when it first appeared in Israel, <i>Seasons of Captivity</i> is a story of human survival and hope that documents the experience of ten Israeli prisoners of war who shared a single jail cell in Egypt for more than three years.<br> The engrossing chronicle of the prisoners' ordeal is told in their own words&#151;from their capture in 1969, through six months of interrogation, torture, and isolation, to their movement to a common room. A watershed event, their transfer to shared living quarters enabled them to forge a community and an almost utopian social system. They held weekly meetings, kept a common diary, started study classes, and, among other projects, translated <i>The Hobbit</i> into Hebrew.<br> The narrative goes on to describe the re-entry of the POWs into family and social roles upon their release and return to Israel in 1973. An exploration of the personal impact of the experience on the wives of the married prisoners introduces the women's own stories of separation and reunion. Some of them had suddenly found themselves, in effect, single mothers&#151;yet their husbands were alive. Their husbands found stronger, more independent women in place of the traditional ones they had left behind. One of the women remarks, I thought [my husband] had been angry at me, in part unconsciously, for being so strong and competent in his absence...I had managed, well, almost effortlessly.<br> This dramatic and moving account illustrates the resilience of the human spirit in the face of the most dehumanizing circumstances.</p>",
+        "isbn10": "1479898627",
+        "description": "<p>\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\"<br>—<i>Publishers Weekly</i><br> \"Lieblich has skillfully integrated oral histories to produce a compelling story.\"<br>—<i>Library Journal</i><br> \"The minutes of the meetings recorded hereby are an excerpt of the lives of ten men, who had spent all their days and nights together.  Each one observed the other in his grief and joy.Each one, according to his ability and sensitivity, saw it as his duty to contribute to the general welfare, to save our boat from sinking....In fact, we managed to keep afloat most of the time, and if we erred here or there, at least we had the best intentions.\"<br>—<i>From a secret collective diary kept by ten POWs</i><br> A national bestseller when it first appeared in Israel, <i>Seasons of Captivity</i> is a story of human survival and hope that documents the experience of ten Israeli prisoners of war who shared a single jail cell in Egypt for more than three years.<br> The engrossing chronicle of the prisoners' ordeal is told in their own words—from their capture in 1969, through six months of interrogation, torture, and isolation, to their movement to a common room. A watershed event, their transfer to shared living quarters enabled them to forge a community and an almost utopian social system. They held weekly meetings, kept a common diary, started study classes, and, among other projects, translated <i>The Hobbit</i> into Hebrew.<br> The narrative goes on to describe the re-entry of the POWs into family and social roles upon their release and return to Israel in 1973. An exploration of the personal impact of the experience on the wives of the married prisoners introduces the women's own stories of separation and reunion. Some of them had suddenly found themselves, in effect, single mothers—yet their husbands were alive. Their husbands found stronger, more independent women in place of the traditional ones they had left behind. One of the women remarks, I thought [my husband] had been angry at me, in part unconsciously, for being so strong and competent in his absence...I had managed, well, almost effortlessly.<br> This dramatic and moving account illustrates the resilience of the human spirit in the face of the most dehumanizing circumstances.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -18,11 +18,11 @@
         "illustrations_note": "",
         "initial_print_run": null,
         "custom": {
-          "license_name": false,
-          "license_link": false,
-          "permanent_url": "https://doi.org/10.33682/vdncjvrd",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814750957.001.0001",
           "language": "eng",
-          "edition_isbn": "9780814752739",
+          "edition_isbn": "9780814750957",
           "cs_title_group": "9780814750797",
           "scheduled_date": "05/29/2014",
           "hi_res_images": false,
@@ -33,7 +33,7 @@
         "stock": null,
         "availability": 2,
         "availability_status": "Forthcoming",
-        "primary_format": false,
+        "primary_format": true,
         "date": {
           "date": "1994-01-01 00:00:00.000000",
           "timezone_type": 3,
@@ -48,7 +48,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 404,
+        "product_id": 405,
         "isbn13": "9780814750957",
         "title": "Seasons of Captivity",
         "title_without_prefix": "Seasons of Captivity",
@@ -56,21 +56,13 @@
         "subtitle": "The Inner World of POWs",
         "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
         "reference_id": null,
-        "summary": "\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\"&#151;Publishers Weekly...",
+        "summary": "\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\"—Publishers Weekly...",
         "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
         "hide": 0,
         "prices": [
           {
-            "locale": "AUD",
-            "amount": "23.00",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "23.00",
+            "amount": "99.00",
             "discount": null,
             "promo_start": [],
             "promo_stop": [],
@@ -78,7 +70,7 @@
           },
           {
             "locale": "GBP",
-            "amount": "17.99",
+            "amount": "82.00",
             "discount": null,
             "promo_start": [],
             "promo_stop": [],
@@ -111,23 +103,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUH00000",
-              "code_3": "NYU",
-              "code_6": "NYUH00",
-              "name": "History",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUH"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
               "code": "NYUP00000",
               "code_3": "NYU",
               "code_6": "NYUP00",
               "name": "Psychology",
               "type": "nyuos-subjects",
               "seo_name": "NYUP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
             }
           }
         ],
@@ -136,10 +128,10 @@
           {
             "order": 1,
             "note": "Amia Lieblich",
-            "contributor_id": 100097,
+            "contributor_id": 100051,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100097,
+              "contributor_id": 100051,
               "name": "Amia Lieblich",
               "first": "Amia",
               "last": "Lieblich",
@@ -165,12 +157,12 @@
         ],
         "assets": [
           {
-            "id": "1218-404",
-            "asset_id": "1218",
+            "id": "1219-405",
+            "asset_id": "1219",
             "asset": {
-              "id": "1218",
-              "unique": "9194ffc8278827d10123ae0a132e7b26",
-              "name": "648-H-9780814752739.jpg",
+              "id": "1219",
+              "unique": "594020cff7a696b453a7623bffdceb9d",
+              "name": "648-H-9780814750957.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -185,12 +177,12 @@
             }
           },
           {
-            "id": "1176-404",
-            "asset_id": "1176",
+            "id": "1177-405",
+            "asset_id": "1177",
             "asset": {
-              "id": "1176",
-              "unique": "6e542df4e37ec235e318abc91fb2ee4a",
-              "name": "145-W-9780814752739.jpg",
+              "id": "1177",
+              "unique": "832bec45300b3a249daa0c335a022ed9",
+              "name": "145-W-9780814750957.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -205,12 +197,12 @@
             }
           },
           {
-            "id": "1197-404",
-            "asset_id": "1197",
+            "id": "1198-405",
+            "asset_id": "1198",
             "asset": {
-              "id": "1197",
-              "unique": "9210acf84e4d5cf3c68a5983f9fe863d",
-              "name": "298-W-9780814752739.jpg",
+              "id": "1198",
+              "unique": "3b25c0a1d0c7cc491c5bb7520c23d580",
+              "name": "298-W-9780814750957.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -227,6 +219,26 @@
         ],
         "formats": [
           {
+            "id": "DG405",
+            "format_id": "DG",
+            "seo_link": "seasons-of-captivity",
+            "detail": "",
+            "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814750957",
+            "edition": "",
+            "product_id": 405,
+            "primary_format": true,
+            "date": {
+              "date": "1994-01-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
             "id": "DG404",
             "format_id": "DG",
             "seo_link": "seasons-of-captivity",
@@ -240,26 +252,6 @@
             "edition": "",
             "product_id": 404,
             "primary_format": false,
-            "date": {
-              "date": "1994-01-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
-          {
-            "id": "DG405",
-            "format_id": "DG",
-            "seo_link": "seasons-of-captivity",
-            "detail": "",
-            "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
-            "format": {
-              "code": "DG",
-              "name": "eBook"
-            },
-            "isbn": "9781479898626",
-            "edition": "",
-            "product_id": 405,
-            "primary_format": true,
             "date": {
               "date": "1994-01-01 00:00:00.000000",
               "timezone_type": 3,

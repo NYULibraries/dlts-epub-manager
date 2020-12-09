@@ -26,9 +26,9 @@
           "video": false,
           "open_access_is_downloadable": false,
           "open_access_series": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/g1jwswgh",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814788462.001.0001",
           "library": "9780814788462",
           "ebook": "9780814788332",
           "hardcover": false,
@@ -39,13 +39,11 @@
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1997-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1997-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "23.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "29.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "29.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.070",
+          "weight": "1.190",
           "weight_unit": "lb"
         },
         "series": [],
@@ -122,12 +111,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUS00000",
+              "code": "NYUPOL000",
               "code_3": "NYU",
-              "code_6": "NYUS00",
-              "name": "Sociology",
+              "code_6": "NYUPOL",
+              "name": "Politics",
               "type": "nyuos-subjects",
-              "seo_name": "NYUS"
+              "seo_name": "NYUPOL"
             }
           },
           {
@@ -144,12 +133,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUPOL000",
+              "code": "NYUS00000",
               "code_3": "NYU",
-              "code_6": "NYUPOL",
-              "name": "Politics",
+              "code_6": "NYUS00",
+              "name": "Sociology",
               "type": "nyuos-subjects",
-              "seo_name": "NYUPOL"
+              "seo_name": "NYUS"
             }
           }
         ],
@@ -158,10 +147,10 @@
           {
             "order": 1,
             "note": "Richard K Vedder, Lowell E. Gallaway",
-            "contributor_id": 100044,
+            "contributor_id": 100049,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100044,
+              "contributor_id": 100049,
               "name": "Richard K Vedder",
               "first": "Richard K",
               "last": "Vedder",
@@ -187,10 +176,10 @@
           {
             "order": 2,
             "note": "",
-            "contributor_id": 100045,
+            "contributor_id": 100050,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100045,
+              "contributor_id": 100050,
               "name": "Lowell E. Gallaway",
               "first": "Lowell E.",
               "last": "Gallaway",
@@ -292,7 +281,6 @@
             "product_id": 102,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1997-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -313,7 +301,6 @@
             "product_id": 34,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -334,7 +321,6 @@
             "product_id": 350,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -343,10 +329,10 @@
         ],
         "reviews": [
           {
-            "id": "102-6769",
-            "review_id": "6769",
+            "id": "102-11703",
+            "review_id": "11703",
             "review": {
-              "id": "6769",
+              "id": "11703",
               "reviewer": "Kenneth Boulding",
               "description": "\"A book of great interest.\"",
               "score": null,
@@ -356,10 +342,10 @@
             }
           },
           {
-            "id": "102-6770",
-            "review_id": "6770",
+            "id": "102-11704",
+            "review_id": "11704",
             "review": {
-              "id": "6770",
+              "id": "11704",
               "reviewer": "Anna J. Schwartz,National Bureau of Economic Research",
               "description": "\"A triple hit: an engaging narrative of a century of U.S. economic history . . . an attack on the mythology that high wage rates and government spending reduce unemployment and a critique on wrong-headed public policies since 1930 that have raised unemployment levels.\"",
               "score": null,
@@ -369,10 +355,10 @@
             }
           },
           {
-            "id": "102-6771",
-            "review_id": "6771",
+            "id": "102-11705",
+            "review_id": "11705",
             "review": {
-              "id": "6771",
+              "id": "11705",
               "reviewer": "George Gilder,author of Wealth and Poverty",
               "description": "\"The most comprehensive book ever to appear on unemployment in the United States.\"",
               "score": null,
@@ -382,10 +368,10 @@
             }
           },
           {
-            "id": "102-6772",
-            "review_id": "6772",
+            "id": "102-11706",
+            "review_id": "11706",
             "review": {
-              "id": "6772",
+              "id": "11706",
               "reviewer": "Jonathan R. T. Hughes,Northwestern University",
               "description": "\"Vedder and Gallaway show convincingly that we need once again to rethink our entire notion of unemployment.\"",
               "score": null,

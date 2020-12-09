@@ -22,9 +22,9 @@
           "ebook": "9780814765395",
           "hardcover": "9780814750681",
           "paperback": "9780814751008",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/3xsj3wkj",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814752685.001.0001",
           "language": "eng",
           "edition_isbn": "9780814751008",
           "cs_title_group": "9780814750681",
@@ -39,13 +39,11 @@
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "AUD",
-            "amount": "29.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "29.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
             "locale": "GBP",
             "amount": "23.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,24 +101,13 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.070",
+          "weight": "1.190",
           "weight_unit": "lb"
         },
         "series": [],
         "awards": [],
         "levels": [],
         "categories": [
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUWGS000",
-              "code_3": "NYU",
-              "code_6": "NYUWGS",
-              "name": "Women's & Gender Studies",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUWGS"
-            }
-          },
           {
             "primary": false,
             "category": {
@@ -140,6 +118,17 @@
               "type": "nyuos-subjects",
               "seo_name": "NYULLS"
             }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUWGS000",
+              "code_3": "NYU",
+              "code_6": "NYUWGS",
+              "name": "Women's & Gender Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUWGS"
+            }
           }
         ],
         "retailers": null,
@@ -147,10 +136,10 @@
           {
             "order": 1,
             "note": "Barbara Fass Leavy",
-            "contributor_id": 100073,
+            "contributor_id": 100079,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100073,
+              "contributor_id": 100079,
               "name": "Barbara Fass Leavy",
               "first": "Barbara Fass",
               "last": "Leavy",
@@ -252,7 +241,6 @@
             "product_id": 330,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -273,7 +261,6 @@
             "product_id": 58,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -294,7 +281,6 @@
             "product_id": 329,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"

@@ -26,9 +26,9 @@
           "video": false,
           "open_access_is_downloadable": false,
           "open_access_series": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/wh70s0pf",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744147.001.0001",
           "library": "9780814744147",
           "ebook": "9780814720974",
           "hardcover": false,
@@ -39,13 +39,11 @@
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1988-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1988-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "23.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "29.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "29.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.060",
+          "weight": "0.880",
           "weight_unit": "lb"
         },
         "series": [
@@ -131,23 +120,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUR00000",
+              "code": "NYUH00JH0",
               "code_3": "NYU",
-              "code_6": "NYUR00",
-              "name": "Religion",
+              "code_6": "NYUH00",
+              "name": "History / Jewish History",
               "type": "nyuos-subjects",
-              "seo_name": "NYUR"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUJS0000",
-              "code_3": "NYU",
-              "code_6": "NYUJS0",
-              "name": "Jewish Studies",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUJS"
+              "seo_name": "NYUHJH"
             }
           },
           {
@@ -164,12 +142,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUH00JH0",
+              "code": "NYUJS0000",
               "code_3": "NYU",
-              "code_6": "NYUH00",
-              "name": "History / Jewish History",
+              "code_6": "NYUJS0",
+              "name": "Jewish Studies",
               "type": "nyuos-subjects",
-              "seo_name": "NYUHJH"
+              "seo_name": "NYUJS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUR00000",
+              "code_3": "NYU",
+              "code_6": "NYUR00",
+              "name": "Religion",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUR"
             }
           }
         ],
@@ -178,10 +167,10 @@
           {
             "order": 1,
             "note": "",
-            "contributor_id": 100066,
+            "contributor_id": 100073,
             "role_id": "B01",
             "contributor": {
-              "contributor_id": 100066,
+              "contributor_id": 100073,
               "name": "Joseph Dan",
               "first": "Joseph",
               "last": "Dan",
@@ -283,7 +272,6 @@
             "product_id": 118,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1988-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -304,7 +292,6 @@
             "product_id": 50,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1987-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -325,7 +312,6 @@
             "product_id": 322,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1987-04-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"

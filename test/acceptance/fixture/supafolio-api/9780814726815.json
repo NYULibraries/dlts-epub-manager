@@ -30,22 +30,20 @@
           "ebook": "9780814728093",
           "hardcover": "9780814726808",
           "paperback": "9780814726815",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/n2z34wct"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814728901.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "2000-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "2000-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.060",
+          "weight": "0.880",
           "weight_unit": "lb"
         },
         "series": [],
@@ -122,12 +111,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUJS0000",
+              "code": "NYUR00SR0",
               "code_3": "NYU",
-              "code_6": "NYUJS0",
-              "name": "Jewish Studies",
+              "code_6": "NYUR00",
+              "name": "Religion / Sociology of Religion",
               "type": "nyuos-subjects",
-              "seo_name": "NYUJS"
+              "seo_name": "NYURSR"
             }
           },
           {
@@ -144,12 +133,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUR00SR0",
+              "code": "NYUJS0000",
               "code_3": "NYU",
-              "code_6": "NYUR00",
-              "name": "Religion / Sociology of Religion",
+              "code_6": "NYUJS0",
+              "name": "Jewish Studies",
               "type": "nyuos-subjects",
-              "seo_name": "NYURSR"
+              "seo_name": "NYUJS"
             }
           }
         ],
@@ -158,10 +147,10 @@
           {
             "order": 1,
             "note": "Seth Forman",
-            "contributor_id": 100060,
+            "contributor_id": 100066,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100060,
+              "contributor_id": 100066,
               "name": "Seth Forman",
               "first": "Seth",
               "last": "Forman",
@@ -263,7 +252,6 @@
             "product_id": 277,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "2000-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -284,7 +272,6 @@
             "product_id": 44,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -305,7 +292,6 @@
             "product_id": 111,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -326,7 +312,6 @@
             "product_id": 276,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1998-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -335,10 +320,10 @@
         ],
         "reviews": [
           {
-            "id": "277-6826",
-            "review_id": "6826",
+            "id": "277-11763",
+            "review_id": "11763",
             "review": {
-              "id": "6826",
+              "id": "11763",
               "reviewer": "Murray Friedman,author of What Went Wrong: The Creation and Collapse of the Black-Jewish Alliance",
               "description": "\"In an area where deep emotions and strong ideological feelings pass for information, Seth Forman's book is a model of calm, rational thought. He puts the black-Jewish relationship in a deeper historical perspective than has existed up to this point. Blacks in the Jewish Mind will be welcome to a broad public generally as well as scholars in the field.\"",
               "score": null,
@@ -348,10 +333,10 @@
             }
           },
           {
-            "id": "277-6827",
-            "review_id": "6827",
+            "id": "277-11764",
+            "review_id": "11764",
             "review": {
-              "id": "6827",
+              "id": "11764",
               "reviewer": "Stephen Whitfield,Brandeis University",
               "description": "\"Insight, authority and scrupulousness are among the virtues of Seth Forman's account of the interaction of two conspicuous minorities in the postwar era. In its clarity and its wisdom, Blacks in the Jewish Mind constitutes a marvelous advance over previous scholarship; and in showing how frequently Jews misunderstood their own communal interests, this book offers a challenge to the present even as the past is luminated.\"",
               "score": null,
@@ -361,10 +346,10 @@
             }
           },
           {
-            "id": "277-6828",
-            "review_id": "6828",
+            "id": "277-11765",
+            "review_id": "11765",
             "review": {
-              "id": "6828",
+              "id": "11765",
               "reviewer": "Stephen Whitfield,Brandeis University",
               "description": "\"Insight, authority and scrupulousness are among the virtues of Seth Forman's account of the interaction of two conspicuous minorities in the postwar era. In its clarity and its wisdom, Blacks in the Jewish Mind constitutes a marvelous advance over previous scholarship; and in showing how frequently Jews misunderstood their own communal interests, this book offers a challenge to the present even as the past is illuminated.\"",
               "score": null,
@@ -374,10 +359,10 @@
             }
           },
           {
-            "id": "277-6829",
-            "review_id": "6829",
+            "id": "277-11766",
+            "review_id": "11766",
             "review": {
-              "id": "6829",
+              "id": "11766",
               "reviewer": "MultiCultural Review",
               "description": "\"[A] rich, engaging, scholarly, and nuanced chronicle of an . . . often-tormented interethnic, interreligious, interracial relationship.\"",
               "score": null,
@@ -387,10 +372,10 @@
             }
           },
           {
-            "id": "277-6830",
-            "review_id": "6830",
+            "id": "277-11767",
+            "review_id": "11767",
             "review": {
-              "id": "6830",
+              "id": "11767",
               "reviewer": "Patterns of Prejudice",
               "description": "\"Bold and uncompromising.  Cleverly, he turns a lot of revisionist race history on its head.\"",
               "score": null,

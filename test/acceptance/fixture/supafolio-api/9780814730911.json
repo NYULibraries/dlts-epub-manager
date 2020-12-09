@@ -30,22 +30,20 @@
           "ebook": "9780814732540",
           "hardcover": "9780814730577",
           "paperback": "9780814730911",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/gb5mknmc"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814733486.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1996-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1996-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -70,8 +68,8 @@
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           },
           {
@@ -79,20 +77,11 @@
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,24 +101,13 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.050",
+          "weight": "0.810",
           "weight_unit": "lb"
         },
         "series": [],
         "awards": [],
         "levels": [],
         "categories": [
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUL00000",
-              "code_3": "NYU",
-              "code_6": "NYUL00",
-              "name": "Law",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUL"
-            }
-          },
           {
             "primary": false,
             "category": {
@@ -140,6 +118,17 @@
               "type": "nyuos-subjects",
               "seo_name": "NYUS"
             }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
           }
         ],
         "retailers": null,
@@ -147,10 +136,10 @@
           {
             "order": 1,
             "note": "Steven Goldberg",
-            "contributor_id": 100069,
+            "contributor_id": 100076,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100069,
+              "contributor_id": 100076,
               "name": "Steven Goldberg",
               "first": "Steven",
               "last": "Goldberg",
@@ -252,7 +241,6 @@
             "product_id": 298,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1996-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -273,7 +261,6 @@
             "product_id": 54,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-09-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -294,7 +281,6 @@
             "product_id": 122,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-09-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -315,7 +301,6 @@
             "product_id": 297,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1994-09-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -324,10 +309,10 @@
         ],
         "reviews": [
           {
-            "id": "298-6887",
-            "review_id": "6887",
+            "id": "298-11831",
+            "review_id": "11831",
             "review": {
-              "id": "6887",
+              "id": "11831",
               "reviewer": "New York Law Journal",
               "description": "\"Culture Clashwith its rare blend of creativity, verbal skill and balanced judgement--helps to clarify the understanding of law and science in American life.\"",
               "score": null,
@@ -337,10 +322,10 @@
             }
           },
           {
-            "id": "298-6888",
-            "review_id": "6888",
+            "id": "298-11832",
+            "review_id": "11832",
             "review": {
-              "id": "6888",
+              "id": "11832",
               "reviewer": "American Journal of Human Genetics",
               "description": "\"A lucid and entertaining mix of constitutional law and history.\"",
               "score": null,
@@ -350,10 +335,10 @@
             }
           },
           {
-            "id": "298-6889",
-            "review_id": "6889",
+            "id": "298-11833",
+            "review_id": "11833",
             "review": {
-              "id": "6889",
+              "id": "11833",
               "reviewer": "Ira Mark Ellman,Professor of Law, Arizona State University",
               "description": "\"Draws on more than a decade's work to bring together in one place a remarkably broad treatment of the relationship between law and science. All of the well-known issues are addressed: the legal questions likely to arise from current research aimed at mapping the human genome, the legal debates over the public schools' treatment of creationism and evolution, the effect of federal agency practices on the course of scientific research, and the use of scientific evidence in legal disputes...Certain to enrich all future discussion of these topics.\"",
               "score": null,
@@ -363,10 +348,10 @@
             }
           },
           {
-            "id": "298-6890",
-            "review_id": "6890",
+            "id": "298-11834",
+            "review_id": "11834",
             "review": {
-              "id": "6890",
+              "id": "11834",
               "reviewer": "Nancy Levit,Associate Professor of Law, University of Missouri-Kansas City,Co-author of Jurisprudence",
               "description": "\"One of the most vital interdisciplinary works of this generation.  A trenchant, thought-provoking, and immensely readable analysis of the important issues at the intersection of law, science, and morality.  Goldberg, perhaps the most prominent and certainly the most prolific legal scholar in the law and science field, explores the most contemporary topics at the frontiers of current scientific, technological, legal, and moral inquiry.  An accomplished and important book.\"",
               "score": null,

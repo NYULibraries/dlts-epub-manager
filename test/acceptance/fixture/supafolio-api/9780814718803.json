@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814718817",
-        "description": "<p>An ex-convict struggles with his addictive yearning for prison. A law-abiding citizen broods over his pleasure in violent, illegal acts. A prison warden loses his job because he is so successful in rehabilitating criminals. These are but a few of the intriguing stories Martha Grace Duncan examines in her bold, interdisciplinary book Romantic Outlaws, Beloved Prisons.<br> Duncan writes: \"This is a book about paradoxes and mingled yarns - about the bright sides of dark events, the silver linings of sable clouds.\"  She portrays upright citizens who harbor a strange liking for criminal deeds, and criminals who conceive of prison in positive terms: as a nurturing mother, an academy, a matrix of spiritual rebirth, or a refuge from life's trivia. In developing her unique vision, Duncan draws on literature, history, psychoanalysis, and law. Her work reveals a nonutopian world in which criminals and non-criminals&#8212;while injuring each other in obvious ways&#8212;nonetheless live together in a symbiotic as well as an adversarial relationship, needing each other, serving each other, enriching each other's lives in profound and surprising fashion.</p>",
+        "isbn10": "0814721109",
+        "description": "<p>An ex-convict struggles with his addictive yearning for prison. A law-abiding citizen broods over his pleasure in violent, illegal acts. A prison warden loses his job because he is so successful in rehabilitating criminals. These are but a few of the intriguing stories Martha Grace Duncan examines in her bold, interdisciplinary book <b>Romantic Outlaws, Beloved Prisons</b>.<br> Duncan writes: \"This is a book about paradoxes and mingled yarns - about the bright sides of dark events, the silver linings of sable clouds.\"  She portrays upright citizens who harbor a strange liking for criminal deeds, and criminals who conceive of prison in positive terms: as a nurturing mother, an academy, a matrix of spiritual rebirth, or a refuge from life's trivia. In developing her unique vision, Duncan draws on literature, history, psychoanalysis, and law. Her work reveals a nonutopian world in which criminals and non-criminals--while injuring each other in obvious ways--nonetheless live together in a symbiotic as well as an adversarial relationship, needing each other, serving each other, enriching each other's lives in profound and surprising fashion.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -19,7 +19,7 @@
         "initial_print_run": null,
         "custom": {
           "language": "eng",
-          "edition_isbn": "9780814718810",
+          "edition_isbn": "9780814718803",
           "cs_title_group": "9780814718803",
           "scheduled_date": "05/29/2014",
           "hi_res_images": false,
@@ -37,22 +37,22 @@
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1999-09-01 00:00:00.000000",
+          "date": "1996-11-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1999-09-01 00:00:00.000000",
+          "date": "1996-11-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 936158400,
+        "sort_date": 846824400,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 364,
+        "product_id": 49,
         "isbn13": "9780814718803",
         "title": "Romantic Outlaws, Beloved Prisons",
         "title_without_prefix": "Romantic Outlaws, Beloved Prisons",
@@ -65,30 +65,14 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -105,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.050",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -119,23 +103,12 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUC00000",
+              "code": "NYUL00000",
               "code_3": "NYU",
-              "code_6": "NYUC00",
-              "name": "Criminology",
+              "code_6": "NYUL00",
+              "name": "Law",
               "type": "nyuos-subjects",
-              "seo_name": "NYUC"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUC00CC0",
-              "code_3": "NYU",
-              "code_6": "NYUC00",
-              "name": "Criminology / Cultural Criminology",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUCCC"
+              "seo_name": "NYUL"
             }
           },
           {
@@ -152,12 +125,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUL00000",
+              "code": "NYUC00CC0",
               "code_3": "NYU",
-              "code_6": "NYUL00",
-              "name": "Law",
+              "code_6": "NYUC00",
+              "name": "Criminology / Cultural Criminology",
               "type": "nyuos-subjects",
-              "seo_name": "NYUL"
+              "seo_name": "NYUCCC"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUC00000",
+              "code_3": "NYU",
+              "code_6": "NYUC00",
+              "name": "Criminology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUC"
             }
           }
         ],
@@ -166,10 +150,10 @@
           {
             "order": 1,
             "note": "Martha Grace Duncan",
-            "contributor_id": 100065,
+            "contributor_id": 100072,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100065,
+              "contributor_id": 100072,
               "name": "Martha Grace Duncan",
               "first": "Martha Grace",
               "last": "Duncan",
@@ -195,12 +179,12 @@
         ],
         "assets": [
           {
-            "id": "1136-364",
-            "asset_id": "1136",
+            "id": "317-49",
+            "asset_id": "317",
             "asset": {
-              "id": "1136",
-              "unique": "d1280e627365a69591000f9a8c2ff2f1",
-              "name": "648-H-9780814718810.jpg",
+              "id": "317",
+              "unique": "8784a6f4f202275923c36e3cf019f4fd",
+              "name": "648-H-9780814718803.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -211,16 +195,16 @@
               "embed": null,
               "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-01-20 10:44:25"
             }
           },
           {
-            "id": "884-364",
-            "asset_id": "884",
+            "id": "49-49",
+            "asset_id": "49",
             "asset": {
-              "id": "884",
-              "unique": "8f3c6af3392dade3d6ab2ca15a2eb14f",
-              "name": "145-W-9780814718810.jpg",
+              "id": "49",
+              "unique": "831fc8c5ae64a531bf3d7df40d7dd0aa",
+              "name": "145-W-9780814718803.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -231,16 +215,16 @@
               "embed": null,
               "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-01-20 10:44:25"
             }
           },
           {
-            "id": "1010-364",
-            "asset_id": "1010",
+            "id": "183-49",
+            "asset_id": "183",
             "asset": {
-              "id": "1010",
-              "unique": "e9c6d8c526c5c2e7a587d058eb690724",
-              "name": "298-W-9780814718810.jpg",
+              "id": "183",
+              "unique": "04f42a7784194a1ccbb6fc1ad0268608",
+              "name": "298-W-9780814718803.jpg",
               "description": null,
               "type": "image",
               "sub_type": "book-cover",
@@ -251,31 +235,11 @@
               "embed": null,
               "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-01-20 10:44:25"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC364",
-            "format_id": "BC",
-            "seo_link": "romantic-outlaws-beloved-prisons",
-            "detail": "Print PDF",
-            "title_id": "a70661b2c87b6ecd6456793167e7861a",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814718810",
-            "edition": "",
-            "product_id": 364,
-            "primary_format": true,
-            "date": {
-              "date": "1999-09-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG49",
             "format_id": "DG",
@@ -286,7 +250,7 @@
               "code": "DG",
               "name": "eBook"
             },
-            "isbn": "9780814721100",
+            "isbn": "9780814718803",
             "edition": "",
             "product_id": 49,
             "primary_format": false,
@@ -315,58 +279,78 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC364",
+            "format_id": "BC",
+            "seo_link": "romantic-outlaws-beloved-prisons",
+            "detail": "Print PDF",
+            "title_id": "a70661b2c87b6ecd6456793167e7861a",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814718810",
+            "edition": "",
+            "product_id": 364,
+            "primary_format": true,
+            "date": {
+              "date": "1999-09-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "364-6867",
-            "review_id": "6867",
+            "id": "49-11815",
+            "review_id": "11815",
             "review": {
-              "id": "6867",
+              "id": "11815",
               "reviewer": "Victor Brombert,author of The Romantic Prison",
               "description": "\"A complex book on the subject of incarceration that embraces both the actual experience of prisoners and the projection in literature of positive prison fantasies. Drawing on a very rich reservoir of illustrations, Duncan offers fascinating developments that will affect the readers' views on the timely question of crime and punishment.\"",
               "score": null,
               "source": "Onix",
-              "unique": "9780814718810-9acf62e145ee7c42fbba6b85a6e94f31",
+              "unique": "9780814718803-9acf62e145ee7c42fbba6b85a6e94f31",
               "assets": []
             }
           },
           {
-            "id": "364-6868",
-            "review_id": "6868",
+            "id": "49-11816",
+            "review_id": "11816",
             "review": {
-              "id": "6868",
+              "id": "11816",
               "reviewer": "The Psychoanalytic Quarterly",
               "description": "\"Romantic Outlaws, Beloved Prisons is a book that merits the interest of psychanalysts for the contribution it offers to our understanding of the realm of guilt and punishment in human psychology...I recommend the book highly.\"",
               "score": null,
               "source": "Onix",
-              "unique": "9780814718810-ade3f6cde47b7c1ff04be286b609f1bf",
+              "unique": "9780814718803-ade3f6cde47b7c1ff04be286b609f1bf",
               "assets": []
             }
           },
           {
-            "id": "364-6869",
-            "review_id": "6869",
+            "id": "49-11817",
+            "review_id": "11817",
             "review": {
-              "id": "6869",
+              "id": "11817",
               "reviewer": "New York Times Book Review",
               "description": "\"Literature... provides Duncan a rich field in which to explore our 'reluctant,' 'rationalized,' and sometimes outright 'admiration' for the 'noble bandit.' ...The real drama of...Duncan's discussion of metaphor, however, comes with the vivid historical pictograph that gives her book a stirring climax....Duncan readily solves the mystery [of the founding of Botany Bay as a penal colony].\"",
               "score": null,
               "source": "Onix",
-              "unique": "9780814718810-0d055414e9efe2ed4ef145fd9c85d1d1",
+              "unique": "9780814718803-0d055414e9efe2ed4ef145fd9c85d1d1",
               "assets": []
             }
           },
           {
-            "id": "364-6870",
-            "review_id": "6870",
+            "id": "49-11818",
+            "review_id": "11818",
             "review": {
-              "id": "6870",
+              "id": "11818",
               "reviewer": "Legal Studies Form",
               "description": "\"Professor Martha Duncan has written an important, creative work.  Her book is elegant, and solidly grounded in literature, psychoanalysis and law.\"",
               "score": null,
               "source": "Onix",
-              "unique": "9780814718810-1a623808a2e2d3abb96502e6ecd64fb3",
+              "unique": "9780814718803-1a623808a2e2d3abb96502e6ecd64fb3",
               "assets": []
             }
           }

@@ -30,22 +30,20 @@
           "ebook": "9780814786147",
           "hardcover": "9780814713006",
           "paperback": "9780814713013",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/612jm7ss"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814723425.001.0001"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
         "primary_format": true,
         "date": {
-          "__className": "DateTime",
           "date": "1997-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "__className": "DateTime",
           "date": "1997-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
@@ -67,32 +65,23 @@
         "hide": 0,
         "prices": [
           {
-            "locale": "AUD",
-            "amount": "28.00",
-            "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
-            "saving": null
-          },
-          {
             "locale": "USD",
             "amount": "28.00",
             "discount": null,
             "promo_start": {
-              "__className": "DateTime",
               "date": "2019-08-29 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": null,
+            "promo_stop": [],
             "saving": null
           },
           {
             "locale": "GBP",
             "amount": "22.99",
             "discount": null,
-            "promo_start": null,
-            "promo_stop": null,
+            "promo_start": [],
+            "promo_stop": [],
             "saving": null
           }
         ],
@@ -112,7 +101,7 @@
           "width": "6.000",
           "depth": null,
           "unit": "in",
-          "weight": "0.050",
+          "weight": "0.810",
           "weight_unit": "lb"
         },
         "series": [
@@ -131,23 +120,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYUE00000",
-              "code_3": "NYU",
-              "code_6": "NYUE00",
-              "name": "Education",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUE"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
               "code": "NYULLS000",
               "code_3": "NYU",
               "code_6": "NYULLS",
               "name": "Literature & Literary Studies",
               "type": "nyuos-subjects",
               "seo_name": "NYULLS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUE00000",
+              "code_3": "NYU",
+              "code_6": "NYUE00",
+              "name": "Education",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUE"
             }
           }
         ],
@@ -156,10 +145,10 @@
           {
             "order": 1,
             "note": "Michael   Bérubé",
-            "contributor_id": 100075,
+            "contributor_id": 100081,
             "role_id": "A01",
             "contributor": {
-              "contributor_id": 100075,
+              "contributor_id": 100081,
               "name": "Michael Bérubé",
               "first": "Michael",
               "last": "Bérubé",
@@ -261,7 +250,6 @@
             "product_id": 308,
             "primary_format": true,
             "date": {
-              "__className": "DateTime",
               "date": "1997-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -282,7 +270,6 @@
             "product_id": 60,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -303,7 +290,6 @@
             "product_id": 127,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
@@ -324,7 +310,6 @@
             "product_id": 307,
             "primary_format": false,
             "date": {
-              "__className": "DateTime",
               "date": "1997-12-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
