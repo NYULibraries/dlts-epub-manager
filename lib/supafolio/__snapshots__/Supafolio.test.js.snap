@@ -71,11 +71,11 @@ Book {
     "categories": Array [
       Object {
         "category": Object {
-          "code": "NYUS00000",
+          "code": "NYUWGS000",
           "code_3": "NYU",
-          "code_6": "NYUS00",
-          "name": "Sociology",
-          "seo_name": "NYUS",
+          "code_6": "NYUWGS",
+          "name": "Women's & Gender Studies",
+          "seo_name": "NYUWGS",
           "type": "nyuos-subjects",
         },
         "primary": false,
@@ -93,11 +93,11 @@ Book {
       },
       Object {
         "category": Object {
-          "code": "NYUWGS000",
+          "code": "NYUS00000",
           "code_3": "NYU",
-          "code_6": "NYUWGS",
-          "name": "Women's & Gender Studies",
-          "seo_name": "NYUWGS",
+          "code_6": "NYUS00",
+          "name": "Sociology",
+          "seo_name": "NYUS",
           "type": "nyuos-subjects",
         },
         "primary": false,
@@ -109,7 +109,7 @@ Book {
         "contributor": Object {
           "bio": null,
           "bio_short": null,
-          "contributor_id": 100095,
+          "contributor_id": 100042,
           "custom": null,
           "deceased": false,
           "featured": false,
@@ -125,7 +125,7 @@ Book {
           "sensitivity": false,
           "seo": "natalie-clifford-barney",
         },
-        "contributor_id": 100095,
+        "contributor_id": 100042,
         "note": "Natalie Clifford Barney",
         "order": 1,
         "role": Object {
@@ -138,7 +138,7 @@ Book {
         "contributor": Object {
           "bio": "Translator <b>John Spalding Gatton</b> is Assistant Professor in the Department of English at Bellarmine College.",
           "bio_short": null,
-          "contributor_id": 100096,
+          "contributor_id": 100043,
           "custom": null,
           "deceased": false,
           "featured": false,
@@ -154,7 +154,7 @@ Book {
           "sensitivity": false,
           "seo": "john-spalding-gatton",
         },
-        "contributor_id": 100096,
+        "contributor_id": 100043,
         "note": "",
         "order": 2,
         "role": Object {
@@ -170,15 +170,14 @@ Book {
       "hi_res_images": false,
       "language": "eng",
       "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-      "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+      "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
       "open_access_is_downloadable": false,
       "open_access_series": false,
-      "permanent_url": "https://doi.org/10.33682/zgmsbf5k",
+      "permanent_url": "https://doi.org/10.18574/nyu/9780814725078.001.0001",
       "scheduled_date": "05/29/2014",
       "video": false,
     },
     "date": Object {
-      "__className": "DateTime",
       "date": "1992-06-01 00:00:00.000000",
       "timezone": "America/New_York",
       "timezone_type": 3,
@@ -190,7 +189,6 @@ Book {
     "formats": Array [
       Object {
         "date": Object {
-          "__className": "DateTime",
           "date": "1992-06-01 00:00:00.000000",
           "timezone": "America/New_York",
           "timezone_type": 3,
@@ -211,7 +209,6 @@ Book {
       },
       Object {
         "date": Object {
-          "__className": "DateTime",
           "date": "1992-06-01 00:00:00.000000",
           "timezone": "America/New_York",
           "timezone_type": 3,
@@ -232,7 +229,6 @@ Book {
       },
       Object {
         "date": Object {
-          "__className": "DateTime",
           "date": "1992-06-01 00:00:00.000000",
           "timezone": "America/New_York",
           "timezone_type": 3,
@@ -274,8 +270,8 @@ Book {
         "amount": "74.00",
         "discount": null,
         "locale": "GBP",
-        "promo_start": null,
-        "promo_stop": null,
+        "promo_start": Array [],
+        "promo_stop": Array [],
         "saving": null,
       },
       Object {
@@ -283,20 +279,11 @@ Book {
         "discount": null,
         "locale": "USD",
         "promo_start": Object {
-          "__className": "DateTime",
           "date": "2019-03-31 00:00:00.000000",
           "timezone": "America/New_York",
           "timezone_type": 3,
         },
-        "promo_stop": null,
-        "saving": null,
-      },
-      Object {
-        "amount": "89.00",
-        "discount": null,
-        "locale": "AUD",
-        "promo_start": null,
-        "promo_stop": null,
+        "promo_stop": Array [],
         "saving": null,
       },
     ],
@@ -311,7 +298,6 @@ Book {
     "retailers": null,
     "reviews": Array [],
     "sale_date": Object {
-      "__className": "DateTime",
       "date": "1992-06-01 00:00:00.000000",
       "timezone": "America/New_York",
       "timezone_type": 3,
@@ -343,7 +329,7 @@ Book {
       "depth": null,
       "height": "9.000",
       "unit": "in",
-      "weight": "0.060",
+      "weight": "0.880",
       "weight_unit": "lb",
       "width": "6.000",
     },
@@ -421,11 +407,11 @@ Book {
           "categories": Array [
             Object {
               "category": Object {
-                "code": "NYUS00000",
+                "code": "NYUWGS000",
                 "code_3": "NYU",
-                "code_6": "NYUS00",
-                "name": "Sociology",
-                "seo_name": "NYUS",
+                "code_6": "NYUWGS",
+                "name": "Women's & Gender Studies",
+                "seo_name": "NYUWGS",
                 "type": "nyuos-subjects",
               },
               "primary": false,
@@ -443,11 +429,11 @@ Book {
             },
             Object {
               "category": Object {
-                "code": "NYUWGS000",
+                "code": "NYUS00000",
                 "code_3": "NYU",
-                "code_6": "NYUWGS",
-                "name": "Women's & Gender Studies",
-                "seo_name": "NYUWGS",
+                "code_6": "NYUS00",
+                "name": "Sociology",
+                "seo_name": "NYUS",
                 "type": "nyuos-subjects",
               },
               "primary": false,
@@ -459,7 +445,7 @@ Book {
               "contributor": Object {
                 "bio": null,
                 "bio_short": null,
-                "contributor_id": 100095,
+                "contributor_id": 100042,
                 "custom": null,
                 "deceased": false,
                 "featured": false,
@@ -475,7 +461,7 @@ Book {
                 "sensitivity": false,
                 "seo": "natalie-clifford-barney",
               },
-              "contributor_id": 100095,
+              "contributor_id": 100042,
               "note": "Natalie Clifford Barney",
               "order": 1,
               "role": Object {
@@ -488,7 +474,7 @@ Book {
               "contributor": Object {
                 "bio": "Translator <b>John Spalding Gatton</b> is Assistant Professor in the Department of English at Bellarmine College.",
                 "bio_short": null,
-                "contributor_id": 100096,
+                "contributor_id": 100043,
                 "custom": null,
                 "deceased": false,
                 "featured": false,
@@ -504,7 +490,7 @@ Book {
                 "sensitivity": false,
                 "seo": "john-spalding-gatton",
               },
-              "contributor_id": 100096,
+              "contributor_id": 100043,
               "note": "",
               "order": 2,
               "role": Object {
@@ -520,15 +506,14 @@ Book {
             "hi_res_images": false,
             "language": "eng",
             "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-            "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
+            "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
             "open_access_is_downloadable": false,
             "open_access_series": false,
-            "permanent_url": "https://doi.org/10.33682/zgmsbf5k",
+            "permanent_url": "https://doi.org/10.18574/nyu/9780814725078.001.0001",
             "scheduled_date": "05/29/2014",
             "video": false,
           },
           "date": Object {
-            "__className": "DateTime",
             "date": "1992-06-01 00:00:00.000000",
             "timezone": "America/New_York",
             "timezone_type": 3,
@@ -540,7 +525,6 @@ Book {
           "formats": Array [
             Object {
               "date": Object {
-                "__className": "DateTime",
                 "date": "1992-06-01 00:00:00.000000",
                 "timezone": "America/New_York",
                 "timezone_type": 3,
@@ -561,7 +545,6 @@ Book {
             },
             Object {
               "date": Object {
-                "__className": "DateTime",
                 "date": "1992-06-01 00:00:00.000000",
                 "timezone": "America/New_York",
                 "timezone_type": 3,
@@ -582,7 +565,6 @@ Book {
             },
             Object {
               "date": Object {
-                "__className": "DateTime",
                 "date": "1992-06-01 00:00:00.000000",
                 "timezone": "America/New_York",
                 "timezone_type": 3,
@@ -624,8 +606,8 @@ Book {
               "amount": "74.00",
               "discount": null,
               "locale": "GBP",
-              "promo_start": null,
-              "promo_stop": null,
+              "promo_start": Array [],
+              "promo_stop": Array [],
               "saving": null,
             },
             Object {
@@ -633,20 +615,11 @@ Book {
               "discount": null,
               "locale": "USD",
               "promo_start": Object {
-                "__className": "DateTime",
                 "date": "2019-03-31 00:00:00.000000",
                 "timezone": "America/New_York",
                 "timezone_type": 3,
               },
-              "promo_stop": null,
-              "saving": null,
-            },
-            Object {
-              "amount": "89.00",
-              "discount": null,
-              "locale": "AUD",
-              "promo_start": null,
-              "promo_stop": null,
+              "promo_stop": Array [],
               "saving": null,
             },
           ],
@@ -661,7 +634,6 @@ Book {
           "retailers": null,
           "reviews": Array [],
           "sale_date": Object {
-            "__className": "DateTime",
             "date": "1992-06-01 00:00:00.000000",
             "timezone": "America/New_York",
             "timezone_type": 3,
@@ -693,7 +665,7 @@ Book {
             "depth": null,
             "height": "9.000",
             "unit": "in",
-            "weight": "0.060",
+            "weight": "0.880",
             "weight_unit": "lb",
             "width": "6.000",
           },
