@@ -33,7 +33,7 @@ describe( 'handles command', () => {
     beforeEach( ( ) => {
         let loadSucceeded = loadConfiguration( CONF );
 
-        expect( loadSucceeded === true).toBeTruthy();
+        expect( loadSucceeded ).toBeTruthy();
     });
 
     it('should correctly add all handles to handle server', () => {
