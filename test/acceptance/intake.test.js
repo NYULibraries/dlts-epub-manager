@@ -54,7 +54,7 @@ describe( 'intake command', () => {
             } catch ( error ) {
                 vorpal.log( `ERROR clearing ${intakeOutputDir}: ${error}` );
 
-                process.exit(1);
+                process.exit(1 );
             }
 
             vorpal.execSync(  'intake add', { fatal : true } );
@@ -64,7 +64,7 @@ describe( 'intake command', () => {
             // would like to avoid repeating it unnecessarily.
 
             thumbnailsGot = glob.sync( '**/*-th.jpg', {cwd : intakeOutputDir} );
-            expect( _.isEqual( thumbnailsGot, thumbnailsExpected )).toBeTruthy();
+            expect( _.isEqual( thumbnailsGot, thumbnailsExpected ) ).toBeTruthy();
 
             epubsComparison = dircompare.compareSync(
                 intakeOutputDir, intakeExpectedDir,
