@@ -9,7 +9,6 @@ let em;
 
 const HANDLE_SERVER = 'http://hdl.handle.net';
 
-
 module.exports = function( vorpal ) {
     em = vorpal.em;
 
