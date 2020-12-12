@@ -33,7 +33,7 @@ describe( 'solr command', () => {
                 errorMessage += `\n\n${requestError.message}`;
             }
 
-            expect( false).toBe(true);
+            expect( false ).toBe(true );
         }
     });
 
@@ -41,7 +41,7 @@ describe( 'solr command', () => {
         try {
             clearSolrIndex();
         } catch ( error ) {
-            expect( false).toBe(true);
+            expect( false ).toBe(true );
         }
 
         let epubs = getEpubs();
@@ -53,7 +53,7 @@ describe( 'solr command', () => {
         try {
             addFixtureSmallSubsetEpubs();
         } catch (error ) {
-            expect( false).toBe(true);
+            expect( false ).toBe(true );
         }
 
         vorpal.execSync( 'solr delete all', { fatal : true } );
@@ -67,7 +67,7 @@ describe( 'solr command', () => {
         try {
             addFixtureSmallSubsetEpubs();
         } catch (error ) {
-            expect( false).toBe(true);
+            expect( false ).toBe(true );
         }
 
         vorpal.execSync( 'solr delete delete-3', { fatal : true } );
@@ -87,7 +87,7 @@ describe( 'solr command', () => {
         let epubs = getEpubs();
 
         let expectedDocs = require( './expected/solr-response-docs/expected-full.json' );
-        expect( _.isEqual( epubs, expectedDocs )).toBeTruthy();
+        expect( _.isEqual( epubs, expectedDocs ) ).toBeTruthy();
     });
 
     it(
@@ -96,7 +96,7 @@ describe( 'solr command', () => {
             try {
                 addFixtureFullEpubs();
             } catch (error ) {
-                expect( false).toBe(true);
+                expect( false ).toBe(true );
             }
 
             vorpal.execSync( 'solr add replace-3-new-3', { fatal : true } );
@@ -105,7 +105,7 @@ describe( 'solr command', () => {
 
             let expectedDocs = require( './expected/solr-response-docs/expected-full-followed-by-replace-3-add-3.json' );
 
-            expect( _.isEqual( epubs, expectedDocs )).toBeTruthy();
+            expect( _.isEqual( epubs, expectedDocs ) ).toBeTruthy();
         }
     );
 
@@ -115,7 +115,7 @@ describe( 'solr command', () => {
             try {
                 addFixtureSmallSubsetEpubs();
             } catch (error ) {
-                expect( false).toBe(true);
+                expect( false ).toBe(true );
             }
 
             vorpal.execSync( 'solr full-replace replace-3-new-3', { fatal : true } );
@@ -124,7 +124,7 @@ describe( 'solr command', () => {
 
             let expectedDocs = require( './expected/solr-response-docs/expected-replace-3-add-3.json' );
 
-            expect( _.isEqual( epubs, expectedDocs )).toBeTruthy();
+            expect( _.isEqual( epubs, expectedDocs ) ).toBeTruthy();
         }
     );
 } );
