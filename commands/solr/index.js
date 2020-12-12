@@ -2,7 +2,7 @@
 
 const _ = require( 'lodash' );
 
-let util  = require( '../../lib/util' );
+const util  = require( '../../lib/util' );
 
 let em;
 
@@ -15,7 +15,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -32,10 +32,10 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = vorpal.em.metadata.getAll();
 
                 try {
-                    let epubsAdded = addEpubs( epubMetadataAll );
+                    const epubsAdded = addEpubs( epubMetadataAll );
 
                     vorpal.log( `Added ${epubMetadataAll.size} EPUBs to Solr index:\n` + epubsAdded.join( '\n' ) );
 
@@ -58,7 +58,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -75,7 +75,7 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = vorpal.em.metadata.getAll();
 
                 epubMetadataAll.forEach( ( epubMetadata ) => {
                     try {
@@ -104,7 +104,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -138,7 +138,7 @@ module.exports = function( vorpal ){
                 let result = false;
 
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -155,10 +155,10 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let deleteAllSucceeded = vorpal.execSync( `solr delete all ${vorpal.em.conf.name}`, { fatal : true } );
+                const deleteAllSucceeded = vorpal.execSync( `solr delete all ${vorpal.em.conf.name}`, { fatal : true } );
 
                 if ( deleteAllSucceeded ) {
-                    let addSucceeded = vorpal.execSync( `solr add ${vorpal.em.conf.name}`, { fatal : true } );
+                    const addSucceeded = vorpal.execSync( `solr add ${vorpal.em.conf.name}`, { fatal : true } );
 
                     if ( addSucceeded ) {
                         vorpal.log( `Fully replaced all EPUBs for conf ${vorpal.em.conf.name}.` );
@@ -179,10 +179,10 @@ module.exports = function( vorpal ){
 };
 
 function addEpubs( epubMetadataAll) {
-    let solrUpdateUrl = util.getSolrUpdateUrl( em.conf ) + '/json?commit=true';
+    const solrUpdateUrl = util.getSolrUpdateUrl( em.conf ) + '/json?commit=true';
 
-    let addRequest = [];
-    let epubsAdded = [];
+    const addRequest = [];
+    const epubsAdded = [];
 
     epubMetadataAll.forEach( ( epubMetadata ) => {
         let doc = { id : epubMetadata.identifier };
@@ -200,7 +200,7 @@ function addEpubs( epubMetadataAll) {
         epubsAdded.push( epubMetadata.identifier );
     } );
 
-    let response = em.request(
+    const response = em.request(
         'POST', solrUpdateUrl, {
             body : JSON.stringify( addRequest )
         }
@@ -230,10 +230,10 @@ function deleteAllEpubs() {
 }
 
 function deleteEpubsByQuery( query ) {
-    let requestUrl = util.getSolrUpdateUrl( em.conf ) +
+    const requestUrl = util.getSolrUpdateUrl( em.conf ) +
                         `/?commit=true&stream.body=<delete><query>${query}</query></delete>`;
 
-    let response = em.request( 'GET', requestUrl );
+    const response = em.request( 'GET', requestUrl );
 
     if ( response.statusCode !== 200 ) {
         throw response.body.toString();
