@@ -101,7 +101,7 @@ describe( 'metadata command', () => {
             } catch ( error ) {
                 vorpal.log( `ERROR clearing ${TMP_METADATA}: ${error}` );
 
-                process.exit(1);
+                process.exit(1 );
             }
 
             vorpal.execSync(  'metadata add', { fatal : true } );
