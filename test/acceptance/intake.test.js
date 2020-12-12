@@ -26,12 +26,12 @@ describe( 'intake command', () => {
         () => {
             let loadSucceeded = vorpal.execSync( `load ${CONF_INTAKE_FULL}`, { fatal : true } );
 
-            expect( loadSucceeded === true).toBeTruthy();
+            expect( loadSucceeded ).toBeTruthy();
 
             expect( // Conf file epubOutputDir is relative path, have to change it to
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
-            vorpal.em.conf.intakeOutputDir === TMP_EPUBS).toBeTruthy();
+            vorpal.em.conf.intakeOutputDir ).toEqual( TMP_EPUBS ).toBeTruthy();
 
             let epubsComparison,
 
@@ -71,7 +71,7 @@ describe( 'intake command', () => {
                 compareOptions
             );
 
-            expect( epubsComparison.same === true).toBeTruthy();
+            expect( epubsComparison.same ).toBeTruthy();
         }
     );
 } );
