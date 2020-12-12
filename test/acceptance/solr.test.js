@@ -1,7 +1,6 @@
 "use strict";
 
 const em      = require( '../../lib/bootstrap' );
-const fs      = require( 'fs' );
 const _       = require( 'lodash' );
 const util    = require( '../../lib/util' );
 const vorpal  = em.vorpal;
