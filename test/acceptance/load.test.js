@@ -50,14 +50,14 @@ describe( 'load command', () => {
             vorpal.execSync( 'load full-metadataDir', { fatal : true } );
             let actual = vorpal.em.metadata.dumpCanonical();
 
-            expect( actual === expectedFullLocalMetadataDir ).toBeTruthy();
+            expect( actual ).toEqual( expectedFullLocalMetadataDir );
         });
 
         it('should correctly load from local metadataRepo', () => {
             vorpal.execSync( 'load full-metadataRepo', { fatal : true } );
             let actual = vorpal.em.metadata.dumpCanonical();
 
-            expect( actual === expectedFullLocalMetadataRepo ).toBeTruthy();
+            expect( actual ).toEqual( expectedFullLocalMetadataRepo );
         });
     } );
 
