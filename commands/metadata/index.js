@@ -20,7 +20,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -32,7 +32,7 @@ module.exports = function( vorpal ){
 
                 supafolio = new Supafolio( em.conf.supafolioApiKey, em.request );
 
-                let metadataDir = util.getMetadataDir( em );
+                const metadataDir = util.getMetadataDir( em );
                 if ( ! metadataDir ) {
                     vorpal.log( util.ERROR_CONF_MISSING_METADATA_DIR );
 
@@ -57,7 +57,7 @@ module.exports = function( vorpal ){
                 const epubIdList = em.intakeEpubList;
 
                 try {
-                    let epubsCompleted = generateMetadataFiles(
+                    const epubsCompleted = generateMetadataFiles(
                         epubIdList,
                         metadataDir
                     );
@@ -144,7 +144,7 @@ function createIntakeDescriptiveMetadataFile( book, outputFile ) {
 }
 
 function generateMetadataFiles( epubIdList, metadataDir ) {
-    let metadataFilesCompleted = [];
+    const metadataFilesCompleted = [];
 
     epubIdList.forEach( ( epubId ) => {
         try {
