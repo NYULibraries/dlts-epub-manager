@@ -31,7 +31,7 @@ describe( 'intake command', () => {
             expect( // Conf file epubOutputDir is relative path, have to change it to
             // absolute for comparison
             path.dirname( path.dirname ( __dirname ) ) + '/' +
-            vorpal.em.conf.intakeOutputDir ).toEqual( TMP_EPUBS ).toBeTruthy();
+            vorpal.em.conf.intakeOutputDir ).toEqual( TMP_EPUBS );
 
             let epubsComparison,
 
