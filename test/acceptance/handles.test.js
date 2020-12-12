@@ -39,7 +39,7 @@ describe( 'handles command', () => {
     it('should correctly add all handles to handle server', () => {
         vorpal.execSync(  'handles add full-metadataDir', { fatal : true } );
 
-        expect( restfulHandleServerStub.stateEquals( expectedFullMetadataDirHandles )).toBeTruthy();
+        expect( restfulHandleServerStub.stateEquals( expectedFullMetadataDirHandles ) ).toBeTruthy();
     });
 
     it('should correctly delete 3 handles from handles server', () => {
@@ -50,7 +50,7 @@ describe( 'handles command', () => {
         vorpal.execSync(  'handles delete delete-3', { fatal : true } );
 
 
-        expect( restfulHandleServerStub.stateEquals( expected )).toBeTruthy();
+        expect( restfulHandleServerStub.stateEquals( expected ) ).toBeTruthy();
     });
 
     afterAll(( ) => {
