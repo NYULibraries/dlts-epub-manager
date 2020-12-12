@@ -30,11 +30,15 @@ describe( 'load command', () => {
     } );
 
     describe( 'metadata loading', () => {
-        let expected;
+        let expectedFullLocalMetadataDir;
+        let expectedFullLocalMetadataRepo;
 
         beforeAll( ( ) => {
-            expected = util.jsonStableStringify(
-                require( './expected/metadata-dumps/expected-full')
+            expectedFullLocalMetadataDir = util.jsonStableStringify(
+                require( './expected/metadata-dumps/expected-full-local-metadatadir.json' )
+            );
+            expectedFullLocalMetadataRepo = util.jsonStableStringify(
+                require( './expected/metadata-dumps/expected-full-local-metadatarepo.json' )
             );
         });
 
@@ -46,14 +50,14 @@ describe( 'load command', () => {
             vorpal.execSync( 'load full-metadataDir', { fatal : true } );
             let actual = vorpal.em.metadata.dumpCanonical();
 
-            expect( actual === expected).toBeTruthy();
+            expect( actual === expectedFullLocalMetadataDir ).toBeTruthy();
         });
 
         it('should correctly load from local metadataRepo', () => {
             vorpal.execSync( 'load full-metadataRepo', { fatal : true } );
             let actual = vorpal.em.metadata.dumpCanonical();
 
-            expect( actual === expected).toBeTruthy();
+            expect( actual === expectedFullLocalMetadataRepo ).toBeTruthy();
         });
     } );
 

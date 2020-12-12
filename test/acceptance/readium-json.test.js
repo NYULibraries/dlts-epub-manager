@@ -13,7 +13,7 @@ describe( 'readium-json command', () => {
 
     beforeAll( ( ) => {
         expectedFull = util.jsonStableStringify(
-            require( './expected/readiumJsonFiles/expected_add_full-metadataDir_epub_library.json')
+            require( './expected/readiumJsonFiles/expected_add_full-metadataDir_epub_library.json' )
         );
     });
 
@@ -29,13 +29,13 @@ describe( 'readium-json command', () => {
         let countOfExpectedEpubs = JSON.parse( expectedFull ).length;
         fs.writeFileSync( readiumJsonFile, expectedFull, { flag : 'w' } );
         let epubsBefore = util.getJsonFromFile( readiumJsonFile );
-        expect( epubsBefore.length === countOfExpectedEpubs).toBeTruthy();
+        expect( epubsBefore.length ).toEqual( countOfExpectedEpubs );
 
         vorpal.execSync(  'readium-json delete all full-metadataDir', { fatal : true } );
 
         let epubsAfter = JSON.parse( fs.readFileSync( readiumJsonFile ) );
 
-        expect( epubsAfter.length === 0).toBeTruthy();
+        expect( epubsAfter.length ).toBe( 0 );
     });
 
     it('should correctly delete 3 EPUBs from epub_library.json', () => {
@@ -46,17 +46,17 @@ describe( 'readium-json command', () => {
         let countOfExpectedEpubs = JSON.parse( expectedFull ).length;
         fs.writeFileSync( readiumJsonFile, expectedFull, { flag : 'w' } );
         let epubsBefore = util.getJsonFromFile( readiumJsonFile );
-        expect( epubsBefore.length === countOfExpectedEpubs).toBeTruthy();
+        expect( epubsBefore.length ).toEqual( countOfExpectedEpubs );
 
         vorpal.execSync( 'readium-json delete delete-3', { fatal : true } );
 
         let expectedDelete3 = util.jsonStableStringify(
-            require( './expected/readiumJsonFiles/expected_delete_delete-3_epub_library.json')
+            require( './expected/readiumJsonFiles/expected_delete_delete-3_epub_library.json' )
         );
 
         let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
 
-        expect( actual === expectedDelete3).toBeTruthy();
+        expect( actual ).toEqual( expectedDelete3 );
     });
 
     it('should correctly add all EPUBs to epub_library.json', () => {
@@ -66,8 +66,8 @@ describe( 'readium-json command', () => {
 
         let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
 
-        expect( actual === expectedFull).toBeTruthy();
-    });
+        expect( actual ).toEqual( expectedFull );
+    } );
 
     it(
         'should correctly add 3 replacement EPUBs and 3 new EPUBs to epub_library.json',
@@ -86,7 +86,7 @@ describe( 'readium-json command', () => {
 
             let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
 
-            expect( actual === expectedReplace3New3).toBeTruthy();
+            expect( actual ).toEqual( expectedReplace3New3 );
         }
     );
 
@@ -98,7 +98,7 @@ describe( 'readium-json command', () => {
         let countOfExpectedEpubs = JSON.parse( expectedFull ).length;
         fs.writeFileSync( readiumJsonFile, expectedFull, { flag : 'w' } );
         let epubsBefore = util.getJsonFromFile( readiumJsonFile );
-        expect( epubsBefore.length === countOfExpectedEpubs).toBeTruthy();
+        expect( epubsBefore.length ).toEqual( countOfExpectedEpubs );
 
         vorpal.execSync( 'readium-json full-replace replace-3-new-3', { fatal : true } );
 
@@ -108,7 +108,7 @@ describe( 'readium-json command', () => {
 
         let actual = util.jsonStableStringify( util.getJsonFromFile( readiumJsonFile ) );
 
-        expect( actual === expectedReplace3New3).toBeTruthy();
-    });
+        expect( actual ).toEqual( expectedReplace3New3 );
+    } );
 } );
 
