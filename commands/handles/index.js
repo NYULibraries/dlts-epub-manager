@@ -1,6 +1,6 @@
 "use strict";
 
-let util  = require( '../../lib/util' );
+const util  = require( '../../lib/util' );
 
 let em;
 
@@ -13,7 +13,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -30,11 +30,11 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = vorpal.em.metadata.getAll();
 
                 try {
 
-                    let handlesAdded = addHandles( epubMetadataAll );
+                    const handlesAdded = addHandles( epubMetadataAll );
 
                     vorpal.log(
                         `Added ${epubMetadataAll.size} handles to handles server:\n` + handlesAdded.join( '\n' )
@@ -59,7 +59,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -76,11 +76,11 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = vorpal.em.metadata.getAll();
 
                 try {
 
-                    let handlesDeleted = deleteHandles( epubMetadataAll );
+                    const handlesDeleted = deleteHandles( epubMetadataAll );
 
                     vorpal.log(
                         `Deleted ${epubMetadataAll.size} handles from handles server:\n` + handlesDeleted.join( '\n' )
@@ -108,25 +108,25 @@ function getAuthorizationHeader() {
 }
 
 function addHandles( epubMetadataAll ) {
-    let handlesAdded = [];
+    const handlesAdded = [];
 
     epubMetadataAll.forEach( ( epubMetadata ) => {
-            let bindingHostnameFor = {
+            const bindingHostnameFor = {
                 'oa-books'        : 'openaccessbooks.nyupress.org',
                 'connected-youth' : 'connectedyouth.nyupress.org',
             };
 
-            let body = `<?xml version="1.0" encoding="UTF-8"?>
+            const body = `<?xml version="1.0" encoding="UTF-8"?>
     <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handle">
         <hs:binding>http://${bindingHostnameFor[ epubMetadata.collection_code ]}/details/${epubMetadata.identifier}</hs:binding>
         <hs:description></hs:description>
     </hs:info>`;
 
-            let url = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
+            const url = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
                       epubMetadata.handle_local_name_and_prefix;
-            let authorization = getAuthorizationHeader( em.conf );
+            const authorization = getAuthorizationHeader( em.conf );
 
-            let response = em.request(
+            const response = em.request(
                 'PUT',
                 url,
                 {
@@ -153,7 +153,7 @@ function addHandles( epubMetadataAll ) {
 }
 
 function deleteHandles( epubMetadataAll ) {
-    let handlesDeleted = [];
+    const handlesDeleted = [];
 
     epubMetadataAll.forEach( ( epubMetatdata ) => {
         try {
@@ -171,12 +171,12 @@ function deleteHandles( epubMetadataAll ) {
 }
 
 function deleteHandle( epubMetadata ) {
-    let requestUrl = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
+    const requestUrl = util.getRestfulHandleServerFullPath( em.conf ) + '/' +
                      epubMetadata.handle_local_name_and_prefix;
 
-    let authorization = getAuthorizationHeader();
+    const authorization = getAuthorizationHeader();
 
-    let response = em.request( 'DELETE', requestUrl,
+    const response = em.request( 'DELETE', requestUrl,
         { headers: { authorization } } );
 
     if ( response.statusCode !== 200 ) {

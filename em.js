@@ -1,8 +1,8 @@
 "use strict";
 
-let em = require( './lib/bootstrap' );
+const em = require( './lib/bootstrap' );
 
-let vorpal = em.vorpal;
+const vorpal = em.vorpal;
 
 if ( process.argv.length > 2 ) {
     // Process command immediately

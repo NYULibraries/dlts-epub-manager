@@ -1,10 +1,9 @@
 "use strict";
 
-let em      = require( '../../lib/bootstrap' );
-let fs      = require( 'fs' );
-let _       = require( 'lodash' );
-let util    = require( '../../lib/util' );
-let vorpal  = em.vorpal;
+const em      = require( '../../lib/bootstrap' );
+const _       = require( 'lodash' );
+const util    = require( '../../lib/util' );
+const vorpal  = em.vorpal;
 
 const CONF                        = 'full-metadataDir';
 
@@ -19,11 +18,11 @@ let conf;
 describe( 'solr command', () => {
 
     beforeAll( ( ) => {
-        let loadSucceeded = loadConfiguration( CONF );
+        const loadSucceeded = loadConfiguration( CONF );
 
         expect( loadSucceeded ).toBeTruthy();
 
-        let requestError = {};
+        const requestError = {};
         if ( ! util.isSolrResponding( conf, requestError ) ) {
             let errorMessage = '\n\nSolr is not responding.  '                  +
                                'Try running Solr setup and start script:\n\n\t' +
@@ -44,7 +43,7 @@ describe( 'solr command', () => {
             expect( false ).toBe(true );
         }
 
-        let epubs = getEpubs();
+        const epubs = getEpubs();
 
         expect( epubs.length ).toBe( 0 );
     });
@@ -58,7 +57,7 @@ describe( 'solr command', () => {
 
         vorpal.execSync( 'solr delete all', { fatal : true } );
 
-        let epubs = getEpubs();
+        const epubs = getEpubs();
 
         expect( epubs.length ).toBe( 0 );
     });
@@ -72,21 +71,21 @@ describe( 'solr command', () => {
 
         vorpal.execSync( 'solr delete delete-3', { fatal : true } );
 
-        let epubs = getEpubs();
+        const epubs = getEpubs();
 
         expect( epubs.length ).toBe( 1 );
 
         const EXPECTED_EPUB_ID = '9780814712481';
-        let actualEpubId = epubs[ 0 ].identifier;
+        const actualEpubId = epubs[ 0 ].identifier;
         expect( actualEpubId ).toEqual( EXPECTED_EPUB_ID );
     });
 
     it('should correctly add all EPUBs to Solr index', () => {
         vorpal.execSync( 'solr add full-metadataDir', { fatal : true } );
 
-        let epubs = getEpubs();
+        const epubs = getEpubs();
 
-        let expectedDocs = require( './expected/solr-response-docs/expected-full.json' );
+        const expectedDocs = require( './expected/solr-response-docs/expected-full.json' );
         expect( _.isEqual( epubs, expectedDocs ) ).toBeTruthy();
     });
 
@@ -101,9 +100,9 @@ describe( 'solr command', () => {
 
             vorpal.execSync( 'solr add replace-3-new-3', { fatal : true } );
 
-            let epubs = getEpubs();
+            const epubs = getEpubs();
 
-            let expectedDocs = require( './expected/solr-response-docs/expected-full-followed-by-replace-3-add-3.json' );
+            const expectedDocs = require( './expected/solr-response-docs/expected-full-followed-by-replace-3-add-3.json' );
 
             expect( _.isEqual( epubs, expectedDocs ) ).toBeTruthy();
         }
@@ -120,9 +119,9 @@ describe( 'solr command', () => {
 
             vorpal.execSync( 'solr full-replace replace-3-new-3', { fatal : true } );
 
-            let epubs = getEpubs();
+            const epubs = getEpubs();
 
-            let expectedDocs = require( './expected/solr-response-docs/expected-replace-3-add-3.json' );
+            const expectedDocs = require( './expected/solr-response-docs/expected-replace-3-add-3.json' );
 
             expect( _.isEqual( epubs, expectedDocs ) ).toBeTruthy();
         }
@@ -130,10 +129,10 @@ describe( 'solr command', () => {
 } );
 
 function loadConfiguration( confName ) {
-    let loadSucceeded = vorpal.execSync( `load ${confName}`, { fatal : true } );
+    const loadSucceeded = vorpal.execSync( `load ${confName}`, { fatal : true } );
 
     if ( loadSucceeded ) {
-        let solrPath = vorpal.em.conf.solrPath ;
+        const solrPath = vorpal.em.conf.solrPath ;
 
         if ( ! solrPath.endsWith( SOLR_TEST_CORE ) ) {
             console.log( `ERROR: solrPath option ${solrPath} does not end with required "${SOLR_TEST_CORE}".` );
@@ -149,10 +148,10 @@ function loadConfiguration( confName ) {
 }
 
 function clearSolrIndex() {
-    let solrDeleteAllUrl = util.getSolrUpdateUrl( conf ) +
+    const solrDeleteAllUrl = util.getSolrUpdateUrl( conf ) +
                            '/?commit=true&stream.body=<delete><query>*:*</query></delete>';
 
-    let response = util.request( 'GET', solrDeleteAllUrl );
+    const response = util.request( 'GET', solrDeleteAllUrl );
 
     if ( response.statusCode !== 200 ) {
         throw response.body.toString();
@@ -160,14 +159,14 @@ function clearSolrIndex() {
 }
 
 function addFixtureSmallSubsetEpubs() {
-    let smallSubsetJson = require( `./fixture/epub-json/small-subset-epubs.json` );
+    const smallSubsetJson = require( `./fixture/epub-json/small-subset-epubs.json` );
 
-    // This function throws errors.  Let caller handle them.
+    // This function throws errors.  const caller handle them.
     addFixtureEpubs( smallSubsetJson );
 }
 
 function addFixtureFullEpubs() {
-    let fullEpubs = require( `./fixture/epub-json/full-epubs.json` );
+    const fullEpubs = require( `./fixture/epub-json/full-epubs.json` );
 
     // This function throws errors.  Let caller handle them.
     addFixtureEpubs( fullEpubs );
@@ -182,7 +181,7 @@ function addFixtureEpubs( json ) {
         throw error.message;
     }
 
-    let epubs = getEpubs();
+    const epubs = getEpubs();
 
     if ( epubs.length !== NUM_FIXTURE_EPUBS ) {
         throw `ERROR: attempted to add ${NUM_FIXTURE_EPUBS} fixture EPUBs, but there ` +
@@ -192,14 +191,14 @@ function addFixtureEpubs( json ) {
 
 // This needs to be synchronous, so using util.request instead of `solr-client`.
 function addEpubs( epubs ) {
-    let solrUpdateUrl = util.getSolrUpdateUrl( conf ) + '/json?commit=true';
+    const solrUpdateUrl = util.getSolrUpdateUrl( conf ) + '/json?commit=true';
 
-    let addRequest = [];
+    const addRequest = [];
 
     Object.keys( epubs ).forEach(
         ( id ) => {
-            let metadata = epubs[ id ];
-            let doc      = { id };
+            const metadata = epubs[ id ];
+            const doc      = { id };
 
             Object.keys( metadata ).forEach(
                 ( key ) => {
@@ -214,7 +213,7 @@ function addEpubs( epubs ) {
         }
     );
 
-    let response = util.request(
+    const response = util.request(
         'POST', solrUpdateUrl, {
             body : JSON.stringify( addRequest )
         }
@@ -231,7 +230,7 @@ function getEpubs() {
     let solrSelectUrl = util.getSolrSelectUrl( conf ) + '?q=*:*&rows=100&wt=json';
     solrSelectUrl += '&fl=' + util.SOLR_FIELDS.join( ',' );
 
-    let response = util.request( 'GET', solrSelectUrl );
+    const response = util.request( 'GET', solrSelectUrl );
 
     if ( response.statusCode !== 200 ) {
         throw response.body.toString();

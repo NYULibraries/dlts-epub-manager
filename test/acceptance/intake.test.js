@@ -1,12 +1,12 @@
 "use strict";
 
-let dircompare = require( 'dir-compare' );
-let em         = require( '../../lib/bootstrap' );
-let glob       = require( 'glob' );
-let _          = require( 'lodash' );
-let path       = require( 'path' );
-let rimraf     = require( 'rimraf' );
-let vorpal     = em.vorpal;
+const dircompare = require( 'dir-compare' );
+const em         = require( '../../lib/bootstrap' );
+const glob       = require( 'glob' );
+const _          = require( 'lodash' );
+const path       = require( 'path' );
+const rimraf     = require( 'rimraf' );
+const vorpal     = em.vorpal;
 
 const CONF_INTAKE_FULL = 'intake-full';
 const TMP_EPUBS        = __dirname + '/tmp/epubs';
@@ -24,7 +24,7 @@ describe( 'intake command', () => {
     it(
         'should correctly intake all EPUBs and generate correct Readium versions',
         () => {
-            let loadSucceeded = vorpal.execSync( `load ${CONF_INTAKE_FULL}`, { fatal : true } );
+            const loadSucceeded = vorpal.execSync( `load ${CONF_INTAKE_FULL}`, { fatal : true } );
 
             expect( loadSucceeded ).toBeTruthy();
 

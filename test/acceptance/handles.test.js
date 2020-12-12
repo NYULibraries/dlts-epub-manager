@@ -1,10 +1,10 @@
 "use strict";
 
-let em     = require( '../../lib/bootstrap' );
-let _      = require( 'lodash' );
-let vorpal = em.vorpal;
+const em     = require( '../../lib/bootstrap' );
+const _      = require( 'lodash' );
+const vorpal = em.vorpal;
 
-let RestfulHandleServerStub = require( './RestfulHandleServerStub' );
+const RestfulHandleServerStub = require( './RestfulHandleServerStub' );
 
 const CONF                       = 'full-metadataDir';
 const RESTFUL_HANDLE_TEST_SERVER = 'handle';
@@ -31,7 +31,7 @@ describe( 'handles command', () => {
     });
 
     beforeEach( ( ) => {
-        let loadSucceeded = loadConfiguration( CONF );
+        const loadSucceeded = loadConfiguration( CONF );
 
         expect( loadSucceeded ).toBeTruthy();
     });
@@ -43,7 +43,7 @@ describe( 'handles command', () => {
     });
 
     it('should correctly delete 3 handles from handles server', () => {
-        let expected = _.cloneDeep( expectedFullMetadataDirHandles );
+        const expected = _.cloneDeep( expectedFullMetadataDirHandles );
         expected.splice( 0, 3 );
 
         vorpal.execSync(  'handles add full-metadataDir', { fatal : true } );
@@ -60,10 +60,10 @@ describe( 'handles command', () => {
 } );
 
 function loadConfiguration( confName ) {
-    let loadSucceeded = vorpal.execSync( `load ${confName}`, { fatal : true } );
+    const loadSucceeded = vorpal.execSync( `load ${confName}`, { fatal : true } );
 
     if ( loadSucceeded ) {
-        let restfulHandleServerPath = vorpal.em.conf.restfulHandleServerPath;
+        const restfulHandleServerPath = vorpal.em.conf.restfulHandleServerPath;
 
         if ( ! restfulHandleServerPath.endsWith( RESTFUL_HANDLE_TEST_SERVER ) ) {
             console.log(
