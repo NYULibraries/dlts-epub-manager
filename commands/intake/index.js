@@ -1,14 +1,14 @@
 "use strict";
 
-let AdmZip   = require( 'adm-zip' );
-let execSync = require( 'child_process' ).execSync;
-let fs       = require( 'fs' );
-let path     = require( 'path' );
-let rimraf   = require( 'rimraf' );
+const AdmZip   = require( 'adm-zip' );
+const execSync = require( 'child_process' ).execSync;
+const fs       = require( 'fs' );
+const path     = require( 'path' );
+const rimraf   = require( 'rimraf' );
 
-let DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
-let DltsOnix = require( '../../lib/onix/DltsOnix' ).DltsOnix;
-let util     = require( '../../lib/util' );
+const DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
+const DltsOnix = require( '../../lib/onix/DltsOnix' ).DltsOnix;
+const util     = require( '../../lib/util' );
 
 let em;
 
@@ -28,7 +28,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -81,10 +81,10 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubIdList = em.intakeEpubList;
+                const epubIdList = em.intakeEpubList;
 
                 try {
-                    let epubsCompleted = intakeEpubs(
+                    const epubsCompleted = intakeEpubs(
                         intakeEpubDir,
                         epubIdList,
                         intakeOutputDir,
@@ -153,22 +153,22 @@ function getNormalizedIntakeDir( dir ) {
 }
 
 function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, options ) {
-    let epubsCompleted = [];
+    const epubsCompleted = [];
 
     epubIdList.forEach( ( epubId ) => {
-        let intakeEpubDir  = `${intakeEpubsDir}/${epubId}`;
-        let intakeEpubFile = `${intakeEpubDir}/data/${epubId}.epub`;
-        let outputEpubDir = `${outputEpubsDir}/${epubId}`;
+        const intakeEpubDir  = `${intakeEpubsDir}/${epubId}`;
+        const intakeEpubFile = `${intakeEpubDir}/data/${epubId}.epub`;
+        const outputEpubDir = `${outputEpubsDir}/${epubId}`;
 
         try {
             rimraf.sync( outputEpubDir );
 
             unzipEpub( intakeEpubFile, outputEpubDir );
 
-            let epub = new DltsEpub( outputEpubDir );
+            const epub = new DltsEpub( outputEpubDir );
 
-            let coverHtmlFile  = `${outputEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
-            let coverXhtmlFile = `${outputEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
+            const coverHtmlFile  = `${outputEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
+            const coverXhtmlFile = `${outputEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
 
             if ( ! fs.existsSync( coverHtmlFile ) && ! fs.existsSync( coverXhtmlFile ) ) {
                 throw( `Cover file not found: expected either ${coverHtmlFile} or ${coverXhtmlFile}` );
@@ -197,15 +197,15 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, options ) {
 }
 
 function unzipEpub( epubFile, outputEpub ) {
-    let zip = new AdmZip( epubFile );
+    const zip = new AdmZip( epubFile );
 
     zip.extractAllTo( outputEpub, true );
 }
 
 function updateReferencesToCoverHtmlFile( epub ) {
-    let rootDirectory = epub.rootDirectory;
+    const rootDirectory = epub.rootDirectory;
 
-    let filesToUpdate = epub.package._xml.manifest.item
+    const filesToUpdate = epub.package._xml.manifest.item
         .filter(
             ( item ) => {
                 return item[ 'media-type' ].match( /text|xml/ );
@@ -219,8 +219,8 @@ function updateReferencesToCoverHtmlFile( epub ) {
 
     filesToUpdate.push( epub.package._filePath );
     filesToUpdate.forEach( ( fileToUpdate ) => {
-            let fileContents = fs.readFileSync( fileToUpdate, 'utf8' );
-            let newFileContents = fileContents.replace(
+            const fileContents = fs.readFileSync( fileToUpdate, 'utf8' );
+            const newFileContents = fileContents.replace(
                 new RegExp( OLD_COVER_PAGE_FILE_NAME, 'g' ),
                 NEW_COVER_PAGE_FILE_NAME
             );
@@ -230,7 +230,7 @@ function updateReferencesToCoverHtmlFile( epub ) {
 }
 
 function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
-    let cmd = `convert ${fullsizeJpg} -strip -resize 160\\> ${thumbnailJpg}`;
+    const cmd = `convert ${fullsizeJpg} -strip -resize 160\\> ${thumbnailJpg}`;
 
     // From https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback:
     //    "If the process times out, or has a non-zero exit code, this method will throw.
