@@ -21,7 +21,7 @@ describe( 'solr command', () => {
     beforeAll( ( ) => {
         let loadSucceeded = loadConfiguration( CONF );
 
-        expect( loadSucceeded === true).toBeTruthy();
+        expect( loadSucceeded ).toBeTruthy();
 
         let requestError = {};
         if ( ! util.isSolrResponding( conf, requestError ) ) {
@@ -46,7 +46,7 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        expect( epubs.length === 0).toBeTruthy();
+        expect( epubs.length ).toBe( 0 );
     });
 
     it('should correctly delete all EPUBs from Solr index', () => {
@@ -60,7 +60,7 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        expect( epubs.length === 0).toBeTruthy();
+        expect( epubs.length ).toBe( 0 );
     });
 
     it('should correctly delete 3 EPUBs from Solr index', () => {
@@ -74,11 +74,11 @@ describe( 'solr command', () => {
 
         let epubs = getEpubs();
 
-        expect( epubs.length === 1).toBeTruthy();
+        expect( epubs.length ).toBe( 1 );
 
         const EXPECTED_EPUB_ID = '9780814712481';
         let actualEpubId = epubs[ 0 ].identifier;
-        expect( actualEpubId === EXPECTED_EPUB_ID).toBeTruthy();
+        expect( actualEpubId ).toEqual( EXPECTED_EPUB_ID );
     });
 
     it('should correctly add all EPUBs to Solr index', () => {
