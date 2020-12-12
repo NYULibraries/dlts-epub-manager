@@ -7,7 +7,6 @@ const path     = require( 'path' );
 const rimraf   = require( 'rimraf' );
 
 const DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
-const DltsOnix = require( '../../lib/onix/DltsOnix' ).DltsOnix;
 const util     = require( '../../lib/util' );
 
 let em;
