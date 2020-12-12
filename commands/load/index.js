@@ -1,9 +1,9 @@
 "use strict";
 
-let fs        = require( 'fs' );
-let path      = require( 'path' );
+const fs        = require( 'fs' );
+const path      = require( 'path' );
 
-let util = require( '../../lib/util' );
+const util = require( '../../lib/util' );
 
 let em;
 
@@ -21,15 +21,15 @@ module.exports = function( vorpal ) {
                 em.clearCache();
 
                 // Get configuration
-                let configFile = vorpal.em.configDir + '/' +
+                const configFile = vorpal.em.configDir + '/' +
                                  args.configuration + util.CONFIG_FILE_EXTENSION;
-                let configFileBasename = path.basename( configFile );
+                const configFileBasename = path.basename( configFile );
 
                 em.conf = require( configFile );
                 em.conf.name = args.configuration
 
                 // Get private configuration
-                let configPrivateFile = vorpal.em.configPrivateDir + '/' +
+                const configPrivateFile = vorpal.em.configPrivateDir + '/' +
                                         args.configuration + util.CONFIG_FILE_EXTENSION;
                 if ( ! fs.existsSync( configPrivateFile ) ) {
                     vorpal.log( `ERROR: ${configPrivateFile} does not exist.` +
@@ -40,7 +40,7 @@ module.exports = function( vorpal ) {
                     if ( callback ) { callback(); }
                     return false;
                 }
-                let confPrivate = require( configPrivateFile );
+                const confPrivate = require( configPrivateFile );
                 // The private config file is not a general-purpose override file.
                 // We do not want to allow accidental overwriting of values from
                 // the main config file, so we just cherry-pick what we need.
@@ -70,7 +70,7 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
-                let metadata = getMetadataForEpubs( metadataDir, metadataEpubList );
+                const metadata = getMetadataForEpubs( metadataDir, metadataEpubList );
 
                 if ( em.conf.cacheMetadataInMemory ) {
                     vorpal.em.metadata = {
@@ -119,7 +119,7 @@ module.exports = function( vorpal ) {
         .action(
             ( args, callback ) => {
                 let result = false;
-                let dumpFile = args.file ? args.file : `${vorpal.em.cacheDir}/metadata.json`;
+                const dumpFile = args.file ? args.file : `${vorpal.em.cacheDir}/metadata.json`;
 
                 if ( vorpal.em.metadata ) {
                     try {
@@ -159,7 +159,7 @@ module.exports = function( vorpal ) {
 };
 
 function getEpubListFromDirectory( dir ) {
-    let epubList = fs.readdirSync( dir ).filter(
+    const epubList = fs.readdirSync( dir ).filter(
         ( filename ) => {
             return util.isValidNormalizedIsbn13( filename );
         }
@@ -169,7 +169,7 @@ function getEpubListFromDirectory( dir ) {
 }
 
 function getInvalidEpubIds( epubIds ) {
-    let invalidEpubIds = [];
+    const invalidEpubIds = [];
 
     epubIds.forEach( ( epubId )=> {
         if ( ! util.isValidNormalizedIsbn13( epubId ) ) {
@@ -181,7 +181,7 @@ function getInvalidEpubIds( epubIds ) {
 }
 
 function getMetadataForEpubs( metadataDir, epubList ) {
-    let metadata = new Map();
+    const metadata = new Map();
 
     if ( ! epubList ) {
         return metadata;
@@ -196,7 +196,7 @@ function getMetadataForEpubs( metadataDir, epubList ) {
 
 function getMetadataForEpub( explodedEpubDir ) {
     // Order is lowest priority to highest priority
-    let metadataFilesInPriorityOrder =
+    const metadataFilesInPriorityOrder =
         [
             'intake-descriptive.json',
             'dlts-descriptive.json',
@@ -204,7 +204,7 @@ function getMetadataForEpub( explodedEpubDir ) {
         ]
         .map( ( file ) => { return `${explodedEpubDir}/${file}`; } );
 
-    let metadata = {};
+    const metadata = {};
     metadataFilesInPriorityOrder.forEach( ( file ) => {
         if ( fs.existsSync( file ) ) {
             Object.assign( metadata, require( file ) );
@@ -228,7 +228,7 @@ function getEpubList( conf, epubListType, directory ) {
             throw( `"${epubListType}" must be an array.` );
         }
 
-        let invalidEpubIds = getInvalidEpubIds( confEpubList );
+        const invalidEpubIds = getInvalidEpubIds( confEpubList );
 
         if ( invalidEpubIds ) {
             throw( 'The following EPUB ids are invalid:\n' +
