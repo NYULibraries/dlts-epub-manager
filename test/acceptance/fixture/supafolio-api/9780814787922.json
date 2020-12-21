@@ -1,0 +1,389 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814787924",
+        "description": "<p>Redefining the way we think about unemployment in America today, Out of Work offers devastating evidence that the major cause of high unemployment in the United States is the government itself.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 408,
+        "search_weight": 470,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814787922",
+          "cs_title_group": "9780814787922",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814788462.001.0001",
+          "library": "9780814788462",
+          "ebook": "9780814788332",
+          "hardcover": false,
+          "paperback": "9780814787922"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1997-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1997-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 867729600,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 102,
+        "isbn13": "9780814787922",
+        "title": "Out of Work",
+        "title_without_prefix": "Out of Work",
+        "seo": "out-of-work",
+        "subtitle": "Unemployment and Government in Twentieth-Century America",
+        "title_id": "6ae53bcfec1e4c3f05a507178721a651",
+        "reference_id": null,
+        "summary": "Redefining the way we think about unemployment in America today, Out of Work offers devastating evidence that the major cause of high unemployment in the United States is the government itself.",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.190",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00SWL",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology / Sociology of Work & Labor",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUSSWL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Richard K Vedder, Lowell E. Gallaway",
+            "contributor_id": 100049,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100049,
+              "name": "Richard K Vedder",
+              "first": "Richard K",
+              "last": "Vedder",
+              "seo": "richard-k-vedder",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Richard K. Vedder</b> is Distinguished Professor of Economics and Faculty Associate at the Contemporary History Institute of Ohio University, and is the author of numerous books and articles.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          },
+          {
+            "order": 2,
+            "note": "",
+            "contributor_id": 100050,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100050,
+              "name": "Lowell E. Gallaway",
+              "first": "Lowell E.",
+              "last": "Gallaway",
+              "seo": "lowell-e-gallaway",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Lowell E. Galloway</b> is Distinguished Professor of Economics at Ohio University and a former staff economist on the Joint Economic Committee of the United States Congress.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "370-102",
+            "asset_id": "370",
+            "asset": {
+              "id": "370",
+              "unique": "e74c6cf930026e8a0168cd7f0df34bb7",
+              "name": "648-H-9780814787922.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "102-102",
+            "asset_id": "102",
+            "asset": {
+              "id": "102",
+              "unique": "fb461b06fc5775b20cb57305381ac5df",
+              "name": "145-W-9780814787922.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "236-102",
+            "asset_id": "236",
+            "asset": {
+              "id": "236",
+              "unique": "f3e7b63a8cff4f737a254fbd955afa4c",
+              "name": "298-W-9780814787922.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC102",
+            "format_id": "BC",
+            "seo_link": "out-of-work",
+            "detail": "Print PDF",
+            "title_id": "6ae53bcfec1e4c3f05a507178721a651",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814787922",
+            "edition": "",
+            "product_id": 102,
+            "primary_format": true,
+            "date": {
+              "date": "1997-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG34",
+            "format_id": "DG",
+            "seo_link": "out-of-work",
+            "detail": "",
+            "title_id": "6ae53bcfec1e4c3f05a507178721a651",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814788462",
+            "edition": "",
+            "product_id": 34,
+            "primary_format": false,
+            "date": {
+              "date": "1997-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG350",
+            "format_id": "DG",
+            "seo_link": "out-of-work",
+            "detail": "",
+            "title_id": "6ae53bcfec1e4c3f05a507178721a651",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814788332",
+            "edition": "",
+            "product_id": 350,
+            "primary_format": false,
+            "date": {
+              "date": "1997-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "102-11703",
+            "review_id": "11703",
+            "review": {
+              "id": "11703",
+              "reviewer": "Kenneth Boulding",
+              "description": "\"A book of great interest.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814787922-30b791a35cc1741aab367fc32b512246",
+              "assets": []
+            }
+          },
+          {
+            "id": "102-11704",
+            "review_id": "11704",
+            "review": {
+              "id": "11704",
+              "reviewer": "Anna J. Schwartz,National Bureau of Economic Research",
+              "description": "\"A triple hit: an engaging narrative of a century of U.S. economic history . . . an attack on the mythology that high wage rates and government spending reduce unemployment and a critique on wrong-headed public policies since 1930 that have raised unemployment levels.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814787922-83cbbfeacf4fb31940e8136d2c2e5e73",
+              "assets": []
+            }
+          },
+          {
+            "id": "102-11705",
+            "review_id": "11705",
+            "review": {
+              "id": "11705",
+              "reviewer": "George Gilder,author of Wealth and Poverty",
+              "description": "\"The most comprehensive book ever to appear on unemployment in the United States.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814787922-f0fcf575a34ca17391d0fe38c98d8996",
+              "assets": []
+            }
+          },
+          {
+            "id": "102-11706",
+            "review_id": "11706",
+            "review": {
+              "id": "11706",
+              "reviewer": "Jonathan R. T. Hughes,Northwestern University",
+              "description": "\"Vedder and Gallaway show convincingly that we need once again to rethink our entire notion of unemployment.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814787922-89b29cfb3e2edd1cf6e0fb080cb1ff0b",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

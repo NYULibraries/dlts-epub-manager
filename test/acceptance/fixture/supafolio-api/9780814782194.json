@@ -1,0 +1,316 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814782191",
+        "description": "<p>In this unusual and much-needed reappraisal of Freud's clinical technique, M. Guy Thompson challenges the conventional notion that psychoanalysis promotes relief from suffering and replaces it with a more radical assertion, that psychoanalysis seeks to mend our relationship with the real that has been fractured by our avoidance of the same.  Thompson suggests that, while avoiding reality may help to relieve our experience of suffering, this short-term solution inevitably leads to a split in our existence.<br> M. Guy Thompson forcefully disagrees with the recent trend that dismisses Freud as an historical figure who is out of step with the times.  He argues, instead, for a return to the forgotten Freud, a man inherently philosophical and rooted in a Greek preoccupation with the nature of truth, ethics, the purpose of life and our relationship with reality.  Thompson's argument is situated in a stunning re-reading of Freud's technical papers, including a new evaluation of his analyses of Dora and the Rat Man in the context of Heidegger's understanding of truth.<br> In this remarkable examination of Freud's technical recommendations, M. Guy Thompson explains how psychoanalysis was originally designed to re-acquaint us with realities we had  abandoned by encountering them in the contest of the analytic experience.  This provocative examination of Freud's conception of psychoanalysis reveals a more personal Freud than we had previously supposed, one that is more humanistic and real.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 318,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814782194",
+          "cs_title_group": "9780814782064",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814784488",
+          "ebook": "9780814783337",
+          "hardcover": "9780814782064",
+          "paperback": "9780814782194",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814784488.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 804571200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 386,
+        "isbn13": "9780814782194",
+        "title": "The Truth About Freud's Technique",
+        "title_without_prefix": "Truth About Freud's Technique",
+        "seo": "the-truth-about-freuds-technique",
+        "subtitle": "The Encounter With the Real",
+        "title_id": "ac2a904dde3340d51f8e8a6615619f91",
+        "reference_id": null,
+        "summary": "In this unusual and much-needed reappraisal of Freud's clinical technique, M. Guy Thompson challenges the conventional notion that psychoanalysis promotes relief from suffering and replaces it with...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.000",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Michael Guy Thompson",
+            "contributor_id": 100068,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100068,
+              "name": "Michael Guy Thompson",
+              "first": "Michael Guy",
+              "last": "Thompson",
+              "seo": "michael-guy-thompson",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>M. Guy Thompson</b>, Ph.D founded the Free Association in San Francisco, an analytic training scheme devoted to integrating phenomenology and psychoanalysis. He is the author of <i>The Death of Desire: A Study in Psychopathology</i>, also published by New York University Press. He currently practices psychoanalysis in San Francisco.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1158-386",
+            "asset_id": "1158",
+            "asset": {
+              "id": "1158",
+              "unique": "07a4b252e93462423812431cb78e72ca",
+              "name": "648-H-9780814782194.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "906-386",
+            "asset_id": "906",
+            "asset": {
+              "id": "906",
+              "unique": "b6b0b743f0f12d682fb6d961d5995077",
+              "name": "145-W-9780814782194.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "1032-386",
+            "asset_id": "1032",
+            "asset": {
+              "id": "1032",
+              "unique": "c786ab8c9d7bf90eeebc0cb143641e03",
+              "name": "298-W-9780814782194.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC386",
+            "format_id": "BC",
+            "seo_link": "the-truth-about-freuds-technique",
+            "detail": "Print PDF",
+            "title_id": "ac2a904dde3340d51f8e8a6615619f91",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814782194",
+            "edition": "",
+            "product_id": 386,
+            "primary_format": true,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG46",
+            "format_id": "DG",
+            "seo_link": "the-truth-about-freuds-technique",
+            "detail": "",
+            "title_id": "ac2a904dde3340d51f8e8a6615619f91",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814784488",
+            "edition": "",
+            "product_id": 46,
+            "primary_format": false,
+            "date": {
+              "date": "1994-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB113",
+            "format_id": "BB",
+            "seo_link": "the-truth-about-freuds-technique",
+            "detail": "Print PDF",
+            "title_id": "ac2a904dde3340d51f8e8a6615619f91",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814782064",
+            "edition": "",
+            "product_id": 113,
+            "primary_format": false,
+            "date": {
+              "date": "1994-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG385",
+            "format_id": "DG",
+            "seo_link": "the-truth-about-freuds-technique",
+            "detail": "",
+            "title_id": "ac2a904dde3340d51f8e8a6615619f91",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814783337",
+            "edition": "",
+            "product_id": 385,
+            "primary_format": false,
+            "date": {
+              "date": "1994-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

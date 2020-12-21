@@ -1,0 +1,369 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814774814",
+        "description": "<p>In recent years, black neoconservatism has captured the national imagination.  Clarence Thomas sits on the Supreme Court.  Stephen Carter's opinions on topics ranging from religion to the confirmation process are widely quoted.  <i>The New Republic </i>has written that black neoconservative Thomas Sowell was having a greater influence on the discussion of matters of race and ethnicity than any other writer of the past ten years. <br> In this compelling and vividly argued book, Ronald Roberts reveals how this attention has turned an eccentricity into a movement.  Black neoconservatives, Roberts believes, have no real constituency but, as was the case with Clarence Thomas, are held up&#151;and proclaim themselves&#151;as simply and ruthlessly honest, as above mere self-interest and crude political loyalties.  They profess a concern for those they criticize, claiming to possess an objective truth which sets them apart from their critics in the establishment Left.  They claim to be outsiders even while sustained by the culture's most powerful institutions. As they level attacks at the activist organizations they perceive as moribund, every significant argument they advance rests on fervent mantras of harsh truths and simple realities. <br> Enlisting the ideal of impartiality as a partisan weapon, this Tough Love Crowd has elevated the familiar wisdom of Spare the rod and spoil the child to the arena of national politics.  Turning to their own writings and proclamations, Roberts here serves up a devastating critique of such figures as Clarence Thomas, Shelby Steele, Stephen Carter, and V. S. Naipaul (Tough Love International).  Clarence Thomas and the Tough Love Crowd marks the emergence of a provocative and powerful voice on our cultural and political landscape, a voice which holds those who subscribe to this polemically powerful ideology accountable for their opinions and actions.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 236,
+        "search_weight": 570,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814774816",
+          "cs_title_group": "9780814774540",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814769461",
+          "ebook": "9780814776667",
+          "hardcover": "9780814774540",
+          "paperback": "9780814774816",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814769461.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1996-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1996-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 844142400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 293,
+        "isbn13": "9780814774816",
+        "title": "Clarence Thomas and the Tough Love Crowd",
+        "title_without_prefix": "Clarence Thomas and the Tough Love Crowd",
+        "seo": "clarence-thomas-and-the-tough-love-crowd",
+        "subtitle": "Counterfeit Heroes and Unhappy Truths",
+        "title_id": "af715977fd43cfda3393272ecf1aea39",
+        "reference_id": null,
+        "summary": "In recent years, black neoconservatism has captured the national imagination.  Clarence Thomas sits on the Supreme Court.  Stephen Carter's opinions on topics ranging from religion to the confirmation...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "8.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.750",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Ronald Suresh Roberts",
+            "contributor_id": 100010,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100010,
+              "name": "Ronald Suresh Roberts",
+              "first": "Ronald Suresh",
+              "last": "Roberts",
+              "seo": "ronald-suresh-roberts",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Ronald Suresh Roberts</b>, a graduate of Balliol College, Oxford, and Harvard Law School, is currently on leave from the law firm of Winthrop, Stimson, Putnam & Roberts, working with the National Association of Democratic Lawyers (NADEL) in Cape Town, South Africa, and to establish the Finance Literary Project at Funda Community College in Soweto, South Africa.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1065-293",
+            "asset_id": "1065",
+            "asset": {
+              "id": "1065",
+              "unique": "03955d30d77ab4dd0c58e050446f6eb4",
+              "name": "648-H-9780814774816.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "813-293",
+            "asset_id": "813",
+            "asset": {
+              "id": "813",
+              "unique": "a8d4e222802fc80339ea0ee2d42af2f7",
+              "name": "145-W-9780814774816.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "939-293",
+            "asset_id": "939",
+            "asset": {
+              "id": "939",
+              "unique": "bfae1e52cf4e274cc2b81764c25b24dc",
+              "name": "298-W-9780814774816.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC293",
+            "format_id": "BC",
+            "seo_link": "clarence-thomas-and-the-tough-love-crowd",
+            "detail": "Print PDF",
+            "title_id": "af715977fd43cfda3393272ecf1aea39",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814774816",
+            "edition": "",
+            "product_id": 293,
+            "primary_format": true,
+            "date": {
+              "date": "1996-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG7",
+            "format_id": "DG",
+            "seo_link": "clarence-thomas-and-the-tough-love-crowd",
+            "detail": "",
+            "title_id": "af715977fd43cfda3393272ecf1aea39",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814769461",
+            "edition": "",
+            "product_id": 7,
+            "primary_format": false,
+            "date": {
+              "date": "1994-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB75",
+            "format_id": "BB",
+            "seo_link": "clarence-thomas-and-the-tough-love-crowd",
+            "detail": "Print PDF",
+            "title_id": "af715977fd43cfda3393272ecf1aea39",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814774540",
+            "edition": "",
+            "product_id": 75,
+            "primary_format": false,
+            "date": {
+              "date": "1994-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG292",
+            "format_id": "DG",
+            "seo_link": "clarence-thomas-and-the-tough-love-crowd",
+            "detail": "",
+            "title_id": "af715977fd43cfda3393272ecf1aea39",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814776667",
+            "edition": "",
+            "product_id": 292,
+            "primary_format": false,
+            "date": {
+              "date": "1994-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "293-11523",
+            "review_id": "11523",
+            "review": {
+              "id": "11523",
+              "reviewer": "Andrew Ross,Director, American Studies Program, New York University",
+              "description": "\"In this elegantly written book, Ronald Roberts establishes a lineage for the Tough Love Crowd intellectuals that is both revealing and persuasive.  The result is a timely and original contribution to the scholarly debates about critical race theory and to the public debate about black neo-conservatism.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814774816-b56518b8644092a4de6d19e3721e9084",
+              "assets": []
+            }
+          },
+          {
+            "id": "293-11524",
+            "review_id": "11524",
+            "review": {
+              "id": "11524",
+              "reviewer": "Girardeau A. Spann,Georgetown University Law Center",
+              "description": "\"Ronald Roberts is refreshingly brash, brilliantly bold, and creatively intelligent.  And he is unmistakably on to something.  Clarence Thomas and the Tough Love Crowd carefully documents the manner in which the white majority is consistently able to divert the best minds in the minority community to the cause of continued racial oppression, by infiltrating minority conceptions of truth, meaning, and reality.  Roberts manages to transcend the stale liberal-conservative debate without falling into the morass of postmodern paralysis.  Social observers who pass up this book will be missing a front-row seat to the unfolding epistemological revolution.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814774816-0b90a31e355514be78d76a08b7c57ba5",
+              "assets": []
+            }
+          },
+          {
+            "id": "293-11525",
+            "review_id": "11525",
+            "review": {
+              "id": "11525",
+              "reviewer": "Drucilla Cornell,Yeshiva University",
+              "description": "\"Timely and original. Roberts is an excellent writer and the lineage he traces for the black Tough Love intellectuals is revealing and persuasive.  There is a real need for this book.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814774816-d09c24ca7dd9c15af0eb67976f1f9e17",
+              "assets": []
+            }
+          },
+          {
+            "id": "293-11526",
+            "review_id": "11526",
+            "review": {
+              "id": "11526",
+              "reviewer": "Angela P. Harris,University of California, Berkeley",
+              "description": "\"Will provoke a lively and vigorous debate among liberals, conservatives, and radicals of many different colors.  Roberts is a cultural critic in the tradition of Cornel West, Trey Ellis, Michele Wallace, and bell hooks, with a powerful, passionate, and brash voice.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814774816-745c712dd7cca1f3a7118009e88a6028",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

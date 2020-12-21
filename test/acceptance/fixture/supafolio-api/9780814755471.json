@@ -1,0 +1,318 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "081475547X",
+        "description": "<p><b>Examines the roles of historical, cultural, and personal identities in the classroom</b><br><br>Can whites teach African-American literature effectively and legitimately? What is at issue when a man teaches a women's studies course? How effectively can a straight woman educate students about gay and lesbian history? What are the political implications of the study of the colonizers by the colonized? More generally, how does the identity of an educator affect his or her credibility with students and with other educators?<br><br> In incident after well-publicized incident, these abstract questions have turned up in America's classrooms and in national media, often trivialized as the latest example of PC excess. Going beyond simplistic headlines, <i>Teaching What You're Not</i> broaches these and many other difficult questions. With contributions from scholars in a variety of disciplines, the book examines the ways in which historical, cultural, and personal identities impact pedagogy and scholarship. Essays cover such topics as the outsider's gaze as it applies to the study of non-white literature; an able-bodied woman's reflections on teaching literature by disabled women; and the challenges of teaching the Western canon at an African American college.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 382,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814755471",
+          "cs_title_group": "9780814755310",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814763179",
+          "ebook": "9780814796429",
+          "hardcover": "9780814755310",
+          "paperback": "9780814755471",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814763179.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1996-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1996-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 836193600,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 378,
+        "isbn13": "9780814755471",
+        "title": "Teaching What You're Not",
+        "title_without_prefix": "Teaching What You're Not",
+        "seo": "teaching-what-youre-not",
+        "subtitle": "Identity Politics in Higher Education",
+        "title_id": "432de558c26100aead921f0dc5c240ae",
+        "reference_id": null,
+        "summary": "Examines the roles of historical, cultural, and personal identities in the classroomCan whites teach African-American literature effectively and legitimately? What is at issue when...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.130",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00SE0",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology / Sociology of Education",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUSSE"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUE00000",
+              "code_3": "NYU",
+              "code_6": "NYUE00",
+              "name": "Education",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUE"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100021,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100021,
+              "name": "Katherine Mayberry",
+              "first": "Katherine",
+              "last": "Mayberry",
+              "seo": "katherine-mayberry",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "Katherine Mayberry is Professor of Language and Literature at Rochester Institute of Technology, College of Liberal Arts.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1150-378",
+            "asset_id": "1150",
+            "asset": {
+              "id": "1150",
+              "unique": "c970eb907f02ab0aad82420d2793013e",
+              "name": "648-H-9780814755471.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "898-378",
+            "asset_id": "898",
+            "asset": {
+              "id": "898",
+              "unique": "42051cef2898afa52db2d522e5ace813",
+              "name": "145-W-9780814755471.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "1024-378",
+            "asset_id": "1024",
+            "asset": {
+              "id": "1024",
+              "unique": "9b787b0e5165f56e9727993f9620406e",
+              "name": "298-W-9780814755471.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC378",
+            "format_id": "BC",
+            "seo_link": "teaching-what-youre-not",
+            "detail": "Print PDF",
+            "title_id": "432de558c26100aead921f0dc5c240ae",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814755471",
+            "edition": "",
+            "product_id": 378,
+            "primary_format": true,
+            "date": {
+              "date": "1996-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG15",
+            "format_id": "DG",
+            "seo_link": "teaching-what-youre-not",
+            "detail": "",
+            "title_id": "432de558c26100aead921f0dc5c240ae",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814763179",
+            "edition": "",
+            "product_id": 15,
+            "primary_format": false,
+            "date": {
+              "date": "1996-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG377",
+            "format_id": "DG",
+            "seo_link": "teaching-what-youre-not",
+            "detail": "",
+            "title_id": "432de558c26100aead921f0dc5c240ae",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814796429",
+            "edition": "",
+            "product_id": 377,
+            "primary_format": false,
+            "date": {
+              "date": "1996-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

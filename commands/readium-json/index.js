@@ -1,8 +1,8 @@
 "use strict";
 
-let fs        = require( 'fs' );
-let path      = require( 'path' );
-let util      = require( '../../lib/util' );
+const fs        = require( 'fs' );
+const path      = require( 'path' );
+const util      = require( '../../lib/util' );
 
 let em;
 
@@ -15,7 +15,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -32,7 +32,7 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = vorpal.em.metadata.getAll();
 
                 let readiumJsonFile;
                 try {
@@ -52,7 +52,7 @@ module.exports = function( vorpal ){
 
                 readiumJson = getReadiumJsonEpubsAdded( readiumJson, epubMetadataAll );
 
-                let readiumJsonString = util.jsonStableStringify( readiumJson );
+                const readiumJsonString = util.jsonStableStringify( readiumJson );
 
                 fs.writeFileSync( readiumJsonFile, readiumJsonString );
 
@@ -70,7 +70,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -87,7 +87,7 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = vorpal.em.metadata.getAll();
 
                 let readiumJsonFile;
                 try {
@@ -107,7 +107,7 @@ module.exports = function( vorpal ){
 
                 readiumJson = getReadiumJsonEpubsDeleted( readiumJson, epubMetadataAll );
 
-                let readiumJsonString = util.jsonStableStringify( readiumJson );
+                const readiumJsonString = util.jsonStableStringify( readiumJson );
 
                 fs.writeFileSync( readiumJsonFile, readiumJsonString );
 
@@ -126,7 +126,7 @@ module.exports = function( vorpal ){
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -163,7 +163,7 @@ module.exports = function( vorpal ){
                 let result = false;
 
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -190,13 +190,13 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let deleteAllSucceeded = vorpal.execSync(
+                const deleteAllSucceeded = vorpal.execSync(
                     `readium-json delete all ${vorpal.em.conf.name}`,
                     { fatal : true }
                 );
 
                 if ( deleteAllSucceeded ) {
-                    let addSucceeded = vorpal.execSync(
+                    const addSucceeded = vorpal.execSync(
                         `readium-json add ${vorpal.em.conf.name}`,
                         { fatal : true }
                     );

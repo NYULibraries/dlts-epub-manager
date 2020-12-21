@@ -1,0 +1,5 @@
+This actually the Supafolio API response for 9781479898626 but with various occurrences of this value changed to 9780814750957.  See https://jira.nyu.edu/jira/browse/NYUP-733 for the reason why this is necessary.
+
+Originally this file was a symlink to a JSON file named after 9781479898626, but unless --preserve-symlinks flag is set Node will apparently not load the file as JSON, which can cause parsing to fail.
+
+

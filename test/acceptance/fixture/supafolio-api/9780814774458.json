@@ -1,0 +1,336 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814774458",
+        "description": "<p>The subject of bisexuality continues to divide the lesbian and gay community.  At pride marches, in films such as Go Fish, at academic conferences, the role and status of bisexuals is hotly contested.<br> Within lesbian communities, formed to support lesbians in a patriarchal and heterosexist society, bisexual women are often perceived as a threat or as a political weakness.  Bisexual women feel that they are regarded with suspicion and distrust, if not openly scorned.  Drawing on her research with over 400 bisexual and lesbian women, surveying the treatment of bisexuality in the lesbian and gay press, and examining the recent growth of a self-consciously political bisexual movement, Paula Rust addresses a range of questions pertaining to the political and social relationships between lesbians and bisexual women.<br> By tracing the roots of the controversy over bisexuality among lesbians back to the early lesbian feminist debates of the 1970s, Rust argues that those debates created the circumstances in which bisexuality became an inevitable challenge to lesbian politics.  She also traces it forward, predicting the future of sexual politics.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 388,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814774458",
+          "cs_title_group": "9780814774441",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814771518",
+          "ebook": "9780814776728",
+          "hardcover": "9780814774441",
+          "paperback": "9780814774458",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814771518.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1995-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1995-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 812520000,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 273,
+        "isbn13": "9780814774458",
+        "title": "Bisexuality and the Challenge to Lesbian Politics",
+        "title_without_prefix": "Bisexuality and the Challenge to Lesbian Politics",
+        "seo": "bisexuality-and-the-challenge-to-lesbian-politics",
+        "subtitle": "Sex, Loyalty, and Revolution",
+        "title_id": "ed76e5ba9ed23e0f7ef7e3f21d890cca",
+        "reference_id": null,
+        "summary": "The subject of bisexuality continues to divide the lesbian and gay community.  At pride marches, in films such as Go Fish, at academic conferences, the role and status of bisexuals is hotly contested....",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.130",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "0",
+            "series": {
+              "name": "The Cutting Edge: Lesbian Life and Literature Series",
+              "seo_name": "the-cutting-edge-lesbian-life-and-literature-series",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULGBTQSLP",
+              "code_3": "NYU",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality / Law & Policy",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULGBTQSLP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULGBTQS",
+              "code_3": "NYU",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULGBTQS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Paula C Rust",
+            "contributor_id": 100057,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100057,
+              "name": "Paula C Rust",
+              "first": "Paula C",
+              "last": "Rust",
+              "seo": "paula-c-rust",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Paula C. Rust</b> is Assistant Professor in the Department of Sociology at Hamilton College.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1045-273",
+            "asset_id": "1045",
+            "asset": {
+              "id": "1045",
+              "unique": "168fd86291e49d53e2155bd5d7bdd69e",
+              "name": "648-H-9780814774458.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "793-273",
+            "asset_id": "793",
+            "asset": {
+              "id": "793",
+              "unique": "5e9e62e155d306d9b2a6b694fd14c408",
+              "name": "145-W-9780814774458.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "919-273",
+            "asset_id": "919",
+            "asset": {
+              "id": "919",
+              "unique": "f5f4a87b26b05bdcb601c7c0fa5fff7a",
+              "name": "298-W-9780814774458.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC273",
+            "format_id": "BC",
+            "seo_link": "bisexuality-and-the-challenge-to-lesbian-politics",
+            "detail": "Print PDF",
+            "title_id": "ed76e5ba9ed23e0f7ef7e3f21d890cca",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814774458",
+            "edition": "",
+            "product_id": 273,
+            "primary_format": true,
+            "date": {
+              "date": "1995-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG40",
+            "format_id": "DG",
+            "seo_link": "bisexuality-and-the-challenge-to-lesbian-politics",
+            "detail": "",
+            "title_id": "ed76e5ba9ed23e0f7ef7e3f21d890cca",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814771518",
+            "edition": "",
+            "product_id": 40,
+            "primary_format": false,
+            "date": {
+              "date": "1995-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB107",
+            "format_id": "BB",
+            "seo_link": "bisexuality-and-the-challenge-to-lesbian-politics",
+            "detail": "Print PDF",
+            "title_id": "ed76e5ba9ed23e0f7ef7e3f21d890cca",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814774441",
+            "edition": "",
+            "product_id": 107,
+            "primary_format": false,
+            "date": {
+              "date": "1995-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG272",
+            "format_id": "DG",
+            "seo_link": "bisexuality-and-the-challenge-to-lesbian-politics",
+            "detail": "",
+            "title_id": "ed76e5ba9ed23e0f7ef7e3f21d890cca",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814776728",
+            "edition": "",
+            "product_id": 272,
+            "primary_format": false,
+            "date": {
+              "date": "1995-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

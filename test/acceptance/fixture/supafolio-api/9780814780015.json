@@ -1,0 +1,336 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814780016",
+        "description": "<p>How did Judaism, a religion so often defined by its minority status, attain equal footing in the trinity of Catholicism, Protestantism, and Judaism that now dominates modern American religious life?<br>THE AMERICANIZATION OF THE JEWS seeks out the effects of this evolution on both Jews in America and an America with Jews. Although English, French, and Dutch Jewries are usually considered the principal forerunners of modern Jewry, Jews have lived as long in North America as they have in post- medieval Britain and France and only sixty years less than in Amsterdam. <br>As one of the four especially creative Jewish communities that has helped re-shape and re-formulate modern Judaism, American Judaism is the most complex and least understood. German Jewry is recognized for its contribution to modern Jewish theology and philosophy, Russian and Polish Jewry is known for its secular influence in literature, and Israel clearly offers Judaism a new stance as a homeland. But how does one capture the interplay between America and Judaism?<br>Immigration to America meant that much of Judaism was discarded, and much was retained. Acculturation did not always lead to assimilation: Jewishness was honed as an independent variable in the motivations of many of its American adherents- -and has remained so, even though Jewish institutions, ideologies, and even Jewish values have been reshaped by America to such an degree that many Jews of the past might not recognize as Jewish some of what constitutes American Jewishness. <br>This collection of essays explores the paradoxes that abound in the America/Judaism relationship, focusing on such specific issues as Jews and American politics in the twentieth century, the adaptation of Jewish religious life to the American environment, the contributions and impact of the women's movement, and commentaries on the Jewish future in America.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 486,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "library": "9780814788806",
+          "ebook": "9780814739570",
+          "hardcover": "9780814780008",
+          "paperback": "9780814780015",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814788806.001.0001",
+          "language": "eng",
+          "edition_isbn": "9780814780015",
+          "cs_title_group": "9780814780008",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1995-02-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1995-02-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 791614800,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 268,
+        "isbn13": "9780814780015",
+        "title": "The Americanization of the Jews",
+        "title_without_prefix": "Americanization of the Jews",
+        "seo": "the-americanization-of-the-jews",
+        "subtitle": "",
+        "title_id": "32567964c4b359a3e22366d8ffbd9781",
+        "reference_id": null,
+        "summary": "How did Judaism, a religion so often defined by its minority status, attain equal footing in the trinity of Catholicism, Protestantism, and Judaism that now dominates modern American religious life?THE...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.440",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00JH0",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History / Jewish History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUHJH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUJS0000",
+              "code_3": "NYU",
+              "code_6": "NYUJS0",
+              "name": "Jewish Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUJS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100070,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100070,
+              "name": "Robert Seltzer",
+              "first": "Robert",
+              "last": "Seltzer",
+              "seo": "robert-seltzer",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "ROBERT M. SELTZER is Professor of History at Hunter College, Chair of the Hunter Jewish Social Studies Program, and the author of Jewish People, Jewish Thought.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          },
+          {
+            "order": 2,
+            "note": "",
+            "contributor_id": 100071,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100071,
+              "name": "Norman S. Cohen",
+              "first": "Norman S.",
+              "last": "Cohen",
+              "seo": "norman-s-cohen",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "NORMAN J. COHEN is Dean of the Hebrew Union College--Jewish Institute of Religion, New York, and Professor of Midrash.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1040-268",
+            "asset_id": "1040",
+            "asset": {
+              "id": "1040",
+              "unique": "3872d10f681f87727db0519764ed19f8",
+              "name": "648-H-9780814780015.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "788-268",
+            "asset_id": "788",
+            "asset": {
+              "id": "788",
+              "unique": "00d6684e03e464c4cabb6899c962b61a",
+              "name": "145-W-9780814780015.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "914-268",
+            "asset_id": "914",
+            "asset": {
+              "id": "914",
+              "unique": "e6b024990f177657b7cd3509bff0afdf",
+              "name": "298-W-9780814780015.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC268",
+            "format_id": "BC",
+            "seo_link": "the-americanization-of-the-jews",
+            "detail": "Print PDF",
+            "title_id": "32567964c4b359a3e22366d8ffbd9781",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814780015",
+            "edition": "",
+            "product_id": 268,
+            "primary_format": true,
+            "date": {
+              "date": "1995-02-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG47",
+            "format_id": "DG",
+            "seo_link": "the-americanization-of-the-jews",
+            "detail": "",
+            "title_id": "32567964c4b359a3e22366d8ffbd9781",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814788806",
+            "edition": "",
+            "product_id": 47,
+            "primary_format": false,
+            "date": {
+              "date": "1995-02-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG267",
+            "format_id": "DG",
+            "seo_link": "the-americanization-of-the-jews",
+            "detail": "",
+            "title_id": "32567964c4b359a3e22366d8ffbd9781",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814739570",
+            "edition": "",
+            "product_id": 267,
+            "primary_format": false,
+            "date": {
+              "date": "1995-02-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

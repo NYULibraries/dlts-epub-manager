@@ -1,0 +1,296 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814774431",
+        "description": "<p>In <i>Self and Other</i>, Robert Rogers presents a powerful argument for the adoption of a theory of object relations, combining the best features of traditional psychoanalytic theory with contemporary views on attachment behavior and intersubjectivity. Rogers discusses theory in relation both to actual psychoanalytic case histories and imagined selves found in literature, and provides a critical rereading of the case histories of Freud, Winnicott, Lichtenstein, Sechehaye, and Bettelheim.<br> At once scientific and humanistic, Self and Other engagingly draws from theoretical, clinical, and literary traditions.  It will appeal to psychoanalysts as well as to literary scholars interested in the application of psychoanalysis to literature.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 214,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "library": "9780814769485",
+          "ebook": "9780814776681",
+          "hardcover": "9780814774182",
+          "paperback": "9780814774434",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814769485.001.0001",
+          "language": "eng",
+          "edition_isbn": "9780814774434",
+          "cs_title_group": "9780814774182",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1993-08-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1993-08-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 744177600,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 368,
+        "isbn13": "9780814774434",
+        "title": "Self and Other",
+        "title_without_prefix": "Self and Other",
+        "seo": "self-and-other",
+        "subtitle": "Object Relations in Psychoanalysis and Literature",
+        "title_id": "60b8c436d4dd188351c2e3b0b12cc968",
+        "reference_id": null,
+        "summary": "In Self and Other, Robert Rogers presents a powerful argument for the adoption of a theory of object relations, combining the best features of traditional psychoanalytic theory with contemporary...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.630",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULLS000",
+              "code_3": "NYU",
+              "code_6": "NYULLS",
+              "name": "Literature & Literary Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULLS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Robert Rogers",
+            "contributor_id": 100052,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100052,
+              "name": "Robert Rogers",
+              "first": "Robert",
+              "last": "Rogers",
+              "seo": "robert-rogers",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Robert Rogers</b> is Professor of English at the Center for the Psychological Study of the Arts at the State University of New York at Buffalo. His previous books include The Double in Literature and Metaphor: A Psychoanalytic View.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1140-368",
+            "asset_id": "1140",
+            "asset": {
+              "id": "1140",
+              "unique": "4616632f5509a26398f68b29b284c5cf",
+              "name": "648-H-9780814774434.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "888-368",
+            "asset_id": "888",
+            "asset": {
+              "id": "888",
+              "unique": "efb7ce650c2a55f4c7fa13355f595fa1",
+              "name": "145-W-9780814774434.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "1014-368",
+            "asset_id": "1014",
+            "asset": {
+              "id": "1014",
+              "unique": "256915e7ae14d489ce7ee07a979bff55",
+              "name": "298-W-9780814774434.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC368",
+            "format_id": "BC",
+            "seo_link": "self-and-other",
+            "detail": "Print PDF",
+            "title_id": "60b8c436d4dd188351c2e3b0b12cc968",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814774434",
+            "edition": "",
+            "product_id": 368,
+            "primary_format": true,
+            "date": {
+              "date": "1993-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG36",
+            "format_id": "DG",
+            "seo_link": "self-and-other",
+            "detail": "",
+            "title_id": "60b8c436d4dd188351c2e3b0b12cc968",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814769485",
+            "edition": "",
+            "product_id": 36,
+            "primary_format": false,
+            "date": {
+              "date": "1991-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG367",
+            "format_id": "DG",
+            "seo_link": "self-and-other",
+            "detail": "",
+            "title_id": "60b8c436d4dd188351c2e3b0b12cc968",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814776681",
+            "edition": "",
+            "product_id": 367,
+            "primary_format": false,
+            "date": {
+              "date": "1991-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

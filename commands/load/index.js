@@ -1,15 +1,13 @@
 "use strict";
 
-let execSync  = require( 'child_process' ).execSync;
-let fs        = require( 'fs' );
-let path      = require( 'path' );
+const fs        = require( 'fs' );
+const path      = require( 'path' );
 
-let util = require( '../../lib/util' );
+const util = require( '../../lib/util' );
 
 let em;
 
 const HANDLE_SERVER = 'http://hdl.handle.net';
-
 
 module.exports = function( vorpal ) {
     em = vorpal.em;
@@ -22,13 +20,15 @@ module.exports = function( vorpal ) {
                 em.clearCache();
 
                 // Get configuration
-                let configFile = vorpal.em.configDir + '/' +
+                const configFile = vorpal.em.configDir + '/' +
                                  args.configuration + util.CONFIG_FILE_EXTENSION;
-                let configFileBasename = path.basename( configFile );
-                let conf = require( configFile );
+                const configFileBasename = path.basename( configFile );
+
+                em.conf = require( configFile );
+                em.conf.name = args.configuration
 
                 // Get private configuration
-                let configPrivateFile = vorpal.em.configPrivateDir + '/' +
+                const configPrivateFile = vorpal.em.configPrivateDir + '/' +
                                         args.configuration + util.CONFIG_FILE_EXTENSION;
                 if ( ! fs.existsSync( configPrivateFile ) ) {
                     vorpal.log( `ERROR: ${configPrivateFile} does not exist.` +
@@ -39,16 +39,17 @@ module.exports = function( vorpal ) {
                     if ( callback ) { callback(); }
                     return false;
                 }
-                let confPrivate = require( configPrivateFile );
+                const confPrivate = require( configPrivateFile );
                 // The private config file is not a general-purpose override file.
                 // We do not want to allow accidental overwriting of values from
                 // the main config file, so we just cherry-pick what we need.
-                conf.restfulHandleServerUsername = confPrivate.restfulHandleServerUsername;
-                conf.restfulHandleServerPassword = confPrivate.restfulHandleServerPassword;
+                em.conf.restfulHandleServerUsername = confPrivate.restfulHandleServerUsername;
+                em.conf.restfulHandleServerPassword = confPrivate.restfulHandleServerPassword;
+                em.conf.supafolioApiKey             = confPrivate.supafolioApiKey;
 
                 let metadataDir;
                 try {
-                    metadataDir = getMetadataDir( conf );
+                    metadataDir = util.getMetadataDir( em );
                 } catch( error ) {
                     vorpal.log( `ERROR in ${configFileBasename}: ${error}` );
 
@@ -58,7 +59,7 @@ module.exports = function( vorpal ) {
 
                 let metadataEpubList = [];
                 try {
-                    metadataEpubList = getEpubList( conf, 'metadataEpubList', metadataDir );
+                    metadataEpubList = getEpubList( em.conf, 'metadataEpubList', metadataDir );
                 } catch ( e ) {
                     vorpal.log(
                         `ERROR in ${configFileBasename}: ${e}`
@@ -68,9 +69,9 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
-                let metadata = getMetadataForEpubs( metadataDir, metadataEpubList );
+                const metadata = getMetadataForEpubs( metadataDir, metadataEpubList );
 
-                if ( conf.cacheMetadataInMemory ) {
+                if ( em.conf.cacheMetadataInMemory ) {
                     vorpal.em.metadata = {
                         dump : () => {
                             return JSON.stringify( metadata, null, 4 );
@@ -97,7 +98,7 @@ module.exports = function( vorpal ) {
 
                 em.intakeEpubList = [];
                 try {
-                    em.intakeEpubList = getEpubList( conf, 'intakeEpubList', conf.intakeEpubDir );
+                    em.intakeEpubList = getEpubList( em.conf, 'intakeEpubList', em.conf.intakeEpubDir );
                 } catch ( e ) {
                     vorpal.log(
                         `ERROR in ${configFileBasename}: ${e}`
@@ -106,9 +107,6 @@ module.exports = function( vorpal ) {
                     if ( callback ) { callback(); }
                     return false;
                 }
-                
-                vorpal.em.conf = conf;
-                vorpal.em.conf.name = args.configuration;
 
                 if ( callback ) { callback(); }
                 return true;
@@ -120,7 +118,7 @@ module.exports = function( vorpal ) {
         .action(
             ( args, callback ) => {
                 let result = false;
-                let dumpFile = args.file ? args.file : `${vorpal.em.cacheDir}/metadata.json`;
+                const dumpFile = args.file ? args.file : `${vorpal.em.cacheDir}/metadata.json`;
 
                 if ( vorpal.em.metadata ) {
                     try {
@@ -159,47 +157,8 @@ module.exports = function( vorpal ) {
         );
 };
 
-function getMetadataDir( conf ) {
-    let metadataDir              = conf.metadataDir;
-    let metadataRepo             = conf.metadataRepo;
-    let metadataRepoBranch       = conf.metadataRepoBranch;
-    let metadataRepoSubdirectory = conf.metadataRepoSubdirectory;
-
-    if ( metadataDir ) {
-        // Assume that non-absolute paths are relative to root dir
-        if ( ! path.isAbsolute( metadataDir ) ) {
-            metadataDir = `${em.rootDir}/${metadataDir}`;
-        }
-
-        if ( ! fs.existsSync( metadataDir ) ) {
-            throw `${metadataDir} does not exist!`;
-        }
-
-        return metadataDir;
-    } else if ( metadataRepo ) {
-        let clonedRepoDir = `${em.cacheDir}/metadataRepo`;
-
-        let cmd = `git clone ${metadataRepo} ${clonedRepoDir}`;
-        execSync( cmd );
-
-        if ( metadataRepoBranch ) {
-            cmd = `git checkout ${metadataRepoBranch}`;
-            execSync( cmd , { cwd: clonedRepoDir } );
-        }
-
-        let metadataDirFromRepo = clonedRepoDir;
-        if ( metadataRepoSubdirectory ) {
-            metadataDirFromRepo = `${metadataDirFromRepo}/${metadataRepoSubdirectory}`;
-        }
-
-        return metadataDirFromRepo;
-    } else {
-        throw util.ERROR_CONF_MISSING_METADATA_DIR;
-    }
-}
-
 function getEpubListFromDirectory( dir ) {
-    let epubList = fs.readdirSync( dir ).filter(
+    const epubList = fs.readdirSync( dir ).filter(
         ( filename ) => {
             return util.isValidNormalizedIsbn13( filename );
         }
@@ -209,7 +168,7 @@ function getEpubListFromDirectory( dir ) {
 }
 
 function getInvalidEpubIds( epubIds ) {
-    let invalidEpubIds = [];
+    const invalidEpubIds = [];
 
     epubIds.forEach( ( epubId )=> {
         if ( ! util.isValidNormalizedIsbn13( epubId ) ) {
@@ -221,7 +180,7 @@ function getInvalidEpubIds( epubIds ) {
 }
 
 function getMetadataForEpubs( metadataDir, epubList ) {
-    let metadata = new Map();
+    const metadata = new Map();
 
     if ( ! epubList ) {
         return metadata;
@@ -236,7 +195,7 @@ function getMetadataForEpubs( metadataDir, epubList ) {
 
 function getMetadataForEpub( explodedEpubDir ) {
     // Order is lowest priority to highest priority
-    let metadataFilesInPriorityOrder =
+    const metadataFilesInPriorityOrder =
         [
             'intake-descriptive.json',
             'dlts-descriptive.json',
@@ -244,7 +203,7 @@ function getMetadataForEpub( explodedEpubDir ) {
         ]
         .map( ( file ) => { return `${explodedEpubDir}/${file}`; } );
 
-    let metadata = {};
+    const metadata = {};
     metadataFilesInPriorityOrder.forEach( ( file ) => {
         if ( fs.existsSync( file ) ) {
             Object.assign( metadata, require( file ) );
@@ -268,7 +227,7 @@ function getEpubList( conf, epubListType, directory ) {
             throw( `"${epubListType}" must be an array.` );
         }
 
-        let invalidEpubIds = getInvalidEpubIds( confEpubList );
+        const invalidEpubIds = getInvalidEpubIds( confEpubList );
 
         if ( invalidEpubIds ) {
             throw( 'The following EPUB ids are invalid:\n' +

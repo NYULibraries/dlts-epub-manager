@@ -20,11 +20,11 @@ class RestfulHandleServerStub {
     }
 
     static parseHandleId( urlString ) {
-        let urlObject = url.parse( urlString );
+        const urlObject = url.parse( urlString );
 
-        let parts     = urlObject.pathname.split( '/' );
-        let prefix    = parts[ parts.length - 2 ];
-        let localName = parts[ parts.length - 1 ];
+        const parts     = urlObject.pathname.split( '/' );
+        const prefix    = parts[ parts.length - 2 ];
+        const localName = parts[ parts.length - 1 ];
 
         return `${prefix}/${localName}`;
     }
@@ -32,7 +32,7 @@ class RestfulHandleServerStub {
     static parseTargetUrl( content ) {
         // Let's not bother with full XML parsing unless it proves necessary.
         // This is a very controlled situation.
-        let matches = /<hs:binding>\s*([^<]+)\s*<\/hs:binding>/.exec( content );
+        const matches = /<hs:binding>\s*([^<]+)\s*<\/hs:binding>/.exec( content );
 
         if ( matches ) {
             return matches[ 1 ];
@@ -42,7 +42,7 @@ class RestfulHandleServerStub {
     }
 
     stateEquals( arrayArg ) {
-        let handlesDataArray = Array.from( this.handlesData );
+        const handlesDataArray = Array.from( this.handlesData );
 
         return _.isEqual( handlesDataArray, arrayArg );
     }
@@ -70,8 +70,8 @@ class RestfulHandleServerStub {
     request( method, url, options ) {
         let response;
 
-        let handleId = RestfulHandleServerStub.parseHandleId( url );
-        let expectedUrl = RESTFUL_HANDLE_SERVER_URL + handleId;
+        const handleId = RestfulHandleServerStub.parseHandleId( url );
+        const expectedUrl = RESTFUL_HANDLE_SERVER_URL + handleId;
         if ( url !== expectedUrl ) {
             return RestfulHandleServerStub.error(
                 400, `url is "${url}" instead of "${expectedUrl}"` );
@@ -93,7 +93,7 @@ class RestfulHandleServerStub {
 
     requestDelete( url, handleId, options ) {
         if ( options.headers.authorization !== AUTHORIZATION_STRING ) {
-            let body = `<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+            const body = `<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
 <title>401 Authorization Required</title>
 </head><body>
@@ -110,7 +110,7 @@ the credentials required.</p>
             return RestfulHandleServerStub.error( 401, body );
         }
 
-        let handleUrl = HANDLE_SERVER_URL + handleId;
+        const handleUrl = HANDLE_SERVER_URL + handleId;
 
         this.delete( handleUrl );
 
@@ -121,7 +121,7 @@ the credentials required.</p>
 
     requestPut( url, handleId, options ) {
         if ( options.headers.authorization !== AUTHORIZATION_STRING ) {
-            let body = `<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+            const body = `<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
 <title>401 Authorization Required</title>
 </head><body>
@@ -138,29 +138,29 @@ the credentials required.</p>
             return RestfulHandleServerStub.error( 401, body );
         }
 
-        let contentType = options.headers[ 'content-type' ];
+        const contentType = options.headers[ 'content-type' ];
         if ( contentType !== 'text/xml' ) {
             return RestfulHandleServerStub.error( 400, `content-type header is "${contentType}" instead of "text/xml"` );
         }
 
-        let handleUrl = HANDLE_SERVER_URL + handleId;
+        const handleUrl = HANDLE_SERVER_URL + handleId;
 
         if ( ! options.body ) {
             return RestfulHandleServerStub.error( 400, 'No request content' );
         }
 
-        let targetUrl = RestfulHandleServerStub.parseTargetUrl( options.body );
+        const targetUrl = RestfulHandleServerStub.parseTargetUrl( options.body );
 
         this.set( handleUrl, targetUrl );
 
-        let twelveHoursLater = new Date(
+        const twelveHoursLater = new Date(
             new Date().getTime() + ( 12 * 60 * 60 * 1000 )
         );
 
         // Ex.: "Fri Dec 16 05:54:45 EST 2016"
-        let expires = dateFormat( twelveHoursLater, 'ddd mmm dd HH:MM:ss Z yyyy');
+        const expires = dateFormat( twelveHoursLater, 'ddd mmm dd HH:MM:ss Z yyyy');
 
-        let response = {
+        const response = {
             body       : `<?xml version="1.0"?>
     <hs:info xmlns:hs="info:nyu/dl/v1.0/identifiers/handles">
     <hs:binding> ${targetUrl} </hs:binding>

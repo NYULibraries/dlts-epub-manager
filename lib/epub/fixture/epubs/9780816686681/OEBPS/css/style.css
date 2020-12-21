@@ -1,0 +1,336 @@
+/* nook needs some padding, by default there isn't enough */
+@font-face
+{
+    font-family: 'DejaVu Sans';
+    src: url(lib/epub/fixture/epubs/9780816686681/OEBPS/css/Fonts/DejaVuSans.ttf);
+}
+body
+{
+    padding: 1em;
+    adobe-hyphenate: none;
+}
+
+/* first and second level headers are centered by default */
+h1
+{
+    text-align: center;
+}
+h2
+{
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+h3
+{
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+    font-weight: lighter;
+}
+h4
+{
+    margin-bottom: 3em;
+    margin-left: 3em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+h3.centered
+{
+    font-weight: lighter;
+    text-align: center;
+}
+h4.centered, h5.centered
+{
+    text-align: center;
+    font-weight: lighter;
+}
+
+h1.rightAligned, h2.rightAligned, h3.rightAligned, h4.rightAligned, h5.rightAligned
+{
+    text-align: right;
+}
+span.drop
+{
+    float: left;
+    font-size: 3em;
+    line-height: 0.7em;
+    padding-top: 0.1em;
+}
+span.smallCaps
+{
+    font-variant: small-caps;
+}
+
+/* pull up and indent paragraphs which follow paragraphs */
+p
+{
+    text-indent: 0;
+    font-size: 1em;
+    margin: 0;
+}
+p + p
+{
+    text-indent: 1em;
+}
+p
+{
+    text-align: justify;
+}
+/* literallayout should render in default font */
+pre
+{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* backlinks in footnotes */
+p.backLink
+{
+    text-indent: 0;
+    font-size: 80%;
+}
+
+/* lists */
+ol.lowerAlpha
+{
+    list-style-type: lower-alpha;
+}
+ol.upperAlpha
+{
+    list-style-type: upper-alpha;
+}
+ol.lowerRoman
+{
+    list-style-type: lower-roman;
+}
+ol.upperRoman
+{
+    list-style-type: upper-roman;
+}
+ol.decimal
+{
+    list-style-type: decimal;
+}
+ol.noStyle
+{
+    list-style-type: none;
+}
+
+ul.disc
+{
+    list-style-type: disc;
+}
+ul.circle
+{
+    list-style-type: circle;
+}
+ul.noStyle
+{
+    list-style-type: none;
+}
+ul.toc, ul.toc ul
+{
+    list-style-type: none;
+}
+ul, ol
+{
+    margin: 1em 0 1em 2em;
+}
+li p
+{
+    text-indent: 0;
+    margin-top: 1em;
+}
+
+li p + p
+{
+    margin-top: 0.5em;
+}
+ol.footnotes li
+{
+    font-size: 80%;
+}
+
+/* img caption */
+div.imageCaption p
+{
+    text-indent: 0;
+    margin-top: .5em;
+    text-align: left;
+}
+/* images */
+div.centeredImage
+{
+    text-align: center;
+    margin: 1em;
+}
+
+
+div.rightImage
+{
+    float: right;
+    margin: 0 0 0 1em;
+    page-break-inside: avoid;
+}
+div.leftImage
+{
+    float: left;
+    margin: 0 1em 0 0;
+    page-break-inside: avoid;
+}
+
+div.background
+{
+    background-color: #DDD;
+    margin: 1em;
+    padding: 1em;
+}
+div.sidebar
+{
+    background-color: #DDD;
+    width: 50%;
+    float: right;
+    margin: 1em;
+    padding: 1em;
+}
+div.border
+{
+    border: 1px solid #666;
+    margin: 1em;
+    padding: 1em;
+}
+div.scaledBlockquoteParent
+{
+    width: 100%;
+    margin: 1em 0 1em 0;
+    text-align: center;
+}
+div.scaledBlockquote
+{
+    text-align: left;
+    display: inline-block;
+}
+
+div.blockquote
+{
+    margin: 1em 1em 1em 2em;
+    padding: 1em;
+}
+div.blockquote p
+{
+  font-size: 85%;
+}
+div.poetry
+{
+    margin: 1em 1em 1em 2em;
+    padding: 1em;
+}
+
+div.poetry p.noIndent
+{
+    margin-left: 1em;
+    text-indent: -1em;
+}
+div.poetry p.extraIndent
+{
+    margin-left: 1em;
+    text-indent: -1em;
+    padding-left: 1.5em;
+}
+
+div.poetry p.doubleIndent {
+    margin-left: 1em;
+    text-indent: -1em;
+    padding-left: 3em;
+}
+
+/* blockquotes */
+p.attribution
+{
+    text-align: right;
+    margin-top: 0.5em;
+}
+
+/* special paragraph roles */
+p.noIndent
+{
+    text-indent: 0;
+}
+p.extraIndent
+{
+    text-indent: 1em;
+}
+p.doubleIndent
+{
+    text-indent: 3em;
+}
+p.spaceAbove
+{
+    margin-top: 1em;
+}
+p.extraSpace
+{
+    margin-top: 2em;
+}
+p.alignCenter
+{
+    text-align: center;
+    text-indent: 0;
+}
+p.alignRight
+{
+    text-align: right;
+    text-indent: 0;
+}
+span.specialChar
+{
+    font-family: 'DejaVu Sans' , serif;
+}
+span.bold
+{
+    font-weight: bold;
+}
+span.italic
+{
+    font-style: italic;
+}
+span.color-red
+{
+    color: #ff0000;
+}
+span.color-green
+{
+    color: #008000;
+}
+span.color-blue
+{
+    color: #0000ff;
+}
+span.color-purple
+{
+    color: #800080;
+}
+span.color-orange
+{
+    color: #ffa500;
+}
+span.color-brown
+{
+    color: #a52a2a;
+}
+span.underline
+{
+    text-decoration: underline;
+}
+sup
+{
+    font-size: 70%;
+    vertical-align: text-top;
+}
+sub
+{
+    font-size: 70%;
+    vertical-align: text-bottom;
+}

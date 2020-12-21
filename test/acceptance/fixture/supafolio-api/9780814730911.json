@@ -1,0 +1,369 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814730914",
+        "description": "<p>It is an article of faith in America that scientific advances will lead to wondrous progress in our daily lives.  Americans proudly support scientific research that yields stunning breakthroughs and Nobel prizes.  We relish the ensuing debate about the implications&#151;moral, ethical, practical&#151;of these advances.  Will genetic engineering change our basic nature? Will artificial intelligence challenge our sense of human uniqueness?  And yet the actual implementation of these technologies is often sluggish and much-delayed.  From Star Trek to Jurassic Park, the American imagination has always been fascinated by the power of scientific technology. But what does the reality of scientific progress mean for our society?  <br> In this controversial book, Steven Goldberg provides a compelling look at the intersection of two of America's most powerful communities&#151;law and science&#151;to explain this apparent contradiction.  Rarely considered in tandem, law and science highlight a fundamental paradox in the American character, the struggle between progress and process.  Science, with its ethic of endless progress, has long fit beautifully with America's self image.  Law, in accordance with the American ideal of giving everyone a fair say, stresses process above all else, seeking an acceptable, rather than a scientifically correct, result. This characteristic has been especially influential in light of the explosive growth of the legal community in recent years.<br> Exposing how the legal system both supports and restricts American science and technology, Goldberg considers the role and future of three projects&#151;artificial intelligence, nuclear fusion, and the human genome initiative&#151;to argue for a scientific vision that infuses research with social goals beyond the pure search for truth.  Certain to provoke debate within a wide range of academic and professional communities, Culture Clash reveals one of the most important and defining conflicts in contemporary American life.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 270,
+        "search_weight": 570,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814730911",
+          "cs_title_group": "9780814730577",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814733486",
+          "ebook": "9780814732540",
+          "hardcover": "9780814730577",
+          "paperback": "9780814730911",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814733486.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1996-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1996-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 844142400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 298,
+        "isbn13": "9780814730911",
+        "title": "Culture Clash",
+        "title_without_prefix": "Culture Clash",
+        "seo": "culture-clash",
+        "subtitle": "Law and Science in America",
+        "title_id": "43aee8121e969813a2e32ebf681ba79a",
+        "reference_id": null,
+        "summary": "It is an article of faith in America that scientific advances will lead to wondrous progress in our daily lives.  Americans proudly support scientific research that yields stunning breakthroughs...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.810",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Steven Goldberg",
+            "contributor_id": 100076,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100076,
+              "name": "Steven Goldberg",
+              "first": "Steven",
+              "last": "Goldberg",
+              "seo": "steven-goldberg",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Steven Goldberg</b> is a Professor of Law at the Georgetown University Law Center. He is the author of <i>Culture Clash: Law and Science in America</i>, winner of the Alpha Sigma Nu Book Award, also available from NYU Press.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1070-298",
+            "asset_id": "1070",
+            "asset": {
+              "id": "1070",
+              "unique": "e5c29b66427db50a4d49d8e2e281c1e5",
+              "name": "648-H-9780814730911.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "818-298",
+            "asset_id": "818",
+            "asset": {
+              "id": "818",
+              "unique": "054385152c4182e6ffa553f729e2b18c",
+              "name": "145-W-9780814730911.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "944-298",
+            "asset_id": "944",
+            "asset": {
+              "id": "944",
+              "unique": "971d67d31c0eb406fdccf63b938a9055",
+              "name": "298-W-9780814730911.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC298",
+            "format_id": "BC",
+            "seo_link": "culture-clash",
+            "detail": "Print PDF",
+            "title_id": "43aee8121e969813a2e32ebf681ba79a",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814730911",
+            "edition": "",
+            "product_id": 298,
+            "primary_format": true,
+            "date": {
+              "date": "1996-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG54",
+            "format_id": "DG",
+            "seo_link": "culture-clash",
+            "detail": "",
+            "title_id": "43aee8121e969813a2e32ebf681ba79a",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814733486",
+            "edition": "",
+            "product_id": 54,
+            "primary_format": false,
+            "date": {
+              "date": "1994-09-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB122",
+            "format_id": "BB",
+            "seo_link": "culture-clash",
+            "detail": "Print PDF",
+            "title_id": "43aee8121e969813a2e32ebf681ba79a",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814730577",
+            "edition": "",
+            "product_id": 122,
+            "primary_format": false,
+            "date": {
+              "date": "1994-09-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG297",
+            "format_id": "DG",
+            "seo_link": "culture-clash",
+            "detail": "",
+            "title_id": "43aee8121e969813a2e32ebf681ba79a",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814732540",
+            "edition": "",
+            "product_id": 297,
+            "primary_format": false,
+            "date": {
+              "date": "1994-09-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "298-11831",
+            "review_id": "11831",
+            "review": {
+              "id": "11831",
+              "reviewer": "New York Law Journal",
+              "description": "\"Culture Clashwith its rare blend of creativity, verbal skill and balanced judgement--helps to clarify the understanding of law and science in American life.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814730911-0aeab53759c2e2b20eb1b6628b125f50",
+              "assets": []
+            }
+          },
+          {
+            "id": "298-11832",
+            "review_id": "11832",
+            "review": {
+              "id": "11832",
+              "reviewer": "American Journal of Human Genetics",
+              "description": "\"A lucid and entertaining mix of constitutional law and history.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814730911-a041c8c3aaeb248fbe4d8f13472eaf94",
+              "assets": []
+            }
+          },
+          {
+            "id": "298-11833",
+            "review_id": "11833",
+            "review": {
+              "id": "11833",
+              "reviewer": "Ira Mark Ellman,Professor of Law, Arizona State University",
+              "description": "\"Draws on more than a decade's work to bring together in one place a remarkably broad treatment of the relationship between law and science. All of the well-known issues are addressed: the legal questions likely to arise from current research aimed at mapping the human genome, the legal debates over the public schools' treatment of creationism and evolution, the effect of federal agency practices on the course of scientific research, and the use of scientific evidence in legal disputes...Certain to enrich all future discussion of these topics.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814730911-65f541cd21a7617eed725bdb7f776fc8",
+              "assets": []
+            }
+          },
+          {
+            "id": "298-11834",
+            "review_id": "11834",
+            "review": {
+              "id": "11834",
+              "reviewer": "Nancy Levit,Associate Professor of Law, University of Missouri-Kansas City,Co-author of Jurisprudence",
+              "description": "\"One of the most vital interdisciplinary works of this generation.  A trenchant, thought-provoking, and immensely readable analysis of the important issues at the intersection of law, science, and morality.  Goldberg, perhaps the most prominent and certainly the most prolific legal scholar in the law and science field, explores the most contemporary topics at the frontiers of current scientific, technological, legal, and moral inquiry.  An accomplished and important book.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814730911-7e6ec7f607fc8f4735adcf3a0204fb6e",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814715354",
+        "description": "<p>We didn't know. For half a century, Western politicians and intellectuals have so explained away their inaction in the face of genocide in World War II. In stark contrast, Western observers today face a daily barrage of information and images, from CNN, the Internet, and newspapers about the parties and individuals responsible for the current Balkan War and crimes against humanity. The stories, often accompanied by video or pictures of rape, torture, mass graves, and ethnic cleansing, available almost instantaneously, do not allow even the most uninterested viewer to ignore the grim reality of genocide. <br>And yet, while information abounds, so do rationalizations for non-intervention in Balkan affairs - the threshold of real genocide has yet to be reached in Bosnia; all sides are equally guilty; Islamic fundamentalism in Bosnia is a threat to the West; it will only end when they all tire of killing each other - to name but a few.<br> In <b>This Time We Knew</b>, Thomas Cushman and Stjepan G. Mestrovic have put together a collection of critical, reflective, essays that offer detailed sociological, political, and historical analyses of western responses to the war. This volume punctures once and for all common excuses for Western inaction. <b>This Time We Knew</b> further reveals the reasons why these rationalizations have persisted and led to the West's failure to intercede, in the face of incontrovertible evidence, in the most egregious crimes against humanity to occur in Europe since World War II.<br>Contributors to the volume include Kai Erickson, Jean Baudrillard, Mark Almond, David Riesman, Daniel Kofman, Brendan Simms, Daniele Conversi, Brad Kagan Blitz, James J. Sadkovich, and Sheri Fink.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 422,
+        "search_weight": 550,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814715352",
+          "cs_title_group": "9780814715345",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814723708",
+          "ebook": "9780814772249",
+          "hardcover": "9780814715345",
+          "paperback": "9780814715352",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814723708.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1996-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1996-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 844142400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 380,
+        "isbn13": "9780814715352",
+        "title": "This Time We Knew",
+        "title_without_prefix": "This Time We Knew",
+        "seo": "this-time-we-knew",
+        "subtitle": "Western Responses to Genocide in Bosnia",
+        "title_id": "c9311ed627c72e61ea2c6a1ff471fb30",
+        "reference_id": null,
+        "summary": "We didn't know. For half a century, Western politicians and intellectuals have so explained away their inaction in the face of genocide in World War II. In stark contrast, Western observers today...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.250",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00WH0",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History / World History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUHWH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100053,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100053,
+              "name": "Thomas Cushman",
+              "first": "Thomas",
+              "last": "Cushman",
+              "seo": "thomas-cushman",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Thomas Cushman</b> is Professor of Sociology at Wellesley College in Massachusetts and the founder and editor-at-large of the <i>Journal of Human Rights</i>. He has written or edited numerous books, including <i>George Orwell Into the 21st Century</i>, <i>A Matter of Principle: Humanitarian Arguments for War in Iraq</i>, and <i>This Time We Knew: Western Responses to Genocide in Bosnia</i> (NYU Press).",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          },
+          {
+            "order": 2,
+            "note": "",
+            "contributor_id": 100054,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100054,
+              "name": "Stjepan Mestrovic",
+              "first": "Stjepan",
+              "last": "Mestrovic",
+              "seo": "stjepan-mestrovic",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Stjepan G. Mestrovic</b> is Professor of Sociology at Texas A & M University and the author of numerous books including <i>The Balkanization of the West</i>.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1152-380",
+            "asset_id": "1152",
+            "asset": {
+              "id": "1152",
+              "unique": "336c7b8f6086fc958873cc9aa94fbcbd",
+              "name": "648-H-9780814715352.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "900-380",
+            "asset_id": "900",
+            "asset": {
+              "id": "900",
+              "unique": "8583663e8fcd296ea24967ad47b1ceea",
+              "name": "145-W-9780814715352.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "1026-380",
+            "asset_id": "1026",
+            "asset": {
+              "id": "1026",
+              "unique": "4ae449f4847ba596d5048a737969c3d7",
+              "name": "298-W-9780814715352.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC380",
+            "format_id": "BC",
+            "seo_link": "this-time-we-knew",
+            "detail": "Print PDF",
+            "title_id": "c9311ed627c72e61ea2c6a1ff471fb30",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814715352",
+            "edition": "",
+            "product_id": 380,
+            "primary_format": true,
+            "date": {
+              "date": "1996-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG37",
+            "format_id": "DG",
+            "seo_link": "this-time-we-knew",
+            "detail": "",
+            "title_id": "c9311ed627c72e61ea2c6a1ff471fb30",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814723708",
+            "edition": "",
+            "product_id": 37,
+            "primary_format": false,
+            "date": {
+              "date": "1996-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB104",
+            "format_id": "BB",
+            "seo_link": "this-time-we-knew",
+            "detail": "Print PDF",
+            "title_id": "c9311ed627c72e61ea2c6a1ff471fb30",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814715345",
+            "edition": "",
+            "product_id": 104,
+            "primary_format": false,
+            "date": {
+              "date": "1996-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG379",
+            "format_id": "DG",
+            "seo_link": "this-time-we-knew",
+            "detail": "",
+            "title_id": "c9311ed627c72e61ea2c6a1ff471fb30",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814772249",
+            "edition": "",
+            "product_id": 379,
+            "primary_format": false,
+            "date": {
+              "date": "1996-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "380-11713",
+            "review_id": "11713",
+            "review": {
+              "id": "11713",
+              "reviewer": "Universal Press Syndicate",
+              "description": "\"For people who still are wondering what was happening to the conscience of the West toward Bosnia since 1991, <b>This Time We Knew: Western Responses to Genocide in Bosnia</b> is must reading.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814715352-59d3a1cc20108cdce2bf08f7734d1138",
+              "assets": []
+            }
+          },
+          {
+            "id": "380-11714",
+            "review_id": "11714",
+            "review": {
+              "id": "11714",
+              "reviewer": "Los Angeles Times",
+              "description": "\"<b>This Time We Knew</b> is a work of scholarship that aspires to be an act of conscienceand succeeds in its aspirations.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814715352-5ae76321e79e5f030a759d9c97121eca",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}
