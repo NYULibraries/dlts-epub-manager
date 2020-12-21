@@ -1,0 +1,307 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814715125",
+        "description": "<p>\"Defines the challenges facing the movement and offers comprehensive prescriptions for its successful transformation.\"<br>&#151;<i>The George Washington Law Review</i><br>A valuable analysis of the rise, fall, and--hopefully&#151;the revival of unionism in America.  [The book] distills into readable form a mass of legal and empirical analysis of what has been happening in the workplaces of the United States and other industrial democracies.  Most important, Craver has drawn a blueprint of what must be done to save collective bargaining in this century&#151;must reading for scholars, lawmakers, and, especially, union leaders themselves.<br>&#151;<i>Paul C. Weiler, Harvard Law SchoolAuthor of Governing the Workplace:  The Future of Labor and  Employment Law</i><br>\"A thoroughly researched, insightful, and readable look at why American unions have declined. . . . This is a very informative analyis of a vital topic, and it will have a multidisciplinary appeal to anyone interested in union- management relations.<br>&#151;Peter Feuille, Institute of Labor and Industrial Relations,  University of Illinois</i>When employees at firms like Greyhound and Eastern Airlines walk out to protest wage and benefit reductions, they are permanently replaced and their representative labor unions destroyed.  Every year, the threat or drama of a high-profile strike&#151;in air traffic control towers, at Amtrak, or at Caterpillar&#151;makes national headlines and, every year, several hundred thousand unrepresented American employees are discharged without good cause.<br>During the past decade, employer opposition to unions has increased.  Industrial and demographic changes have eroded traditional blue-collar labor support, and class-based myths have discouraged organization among white-collar workers.  As the American labor movement begins its second century, it is confronted by challenges that threaten its very existence.  Is the decline of the American labor movement symptomatic of a terminal condition?<br>In this work, Charles Craver presents an incisive analysis of the current state of the American labor movement and a manifesto for how this crucial institution can be revitalized.  Journeying with the reader from the inception of labor unions through their heyday and to the present, Craver examines the roots of their decline, the current factors which contribute to their dismal condition, and the actions that are needed--such as the recruitment of female and minority employees and appeals to white-collar personnel--that are necessary to ensure union viability in the 21st century.<br>  Craver thoughtfully discusses what labor organizations must do to organize new workers, to enhance their economic and political power, and to adapt to modern-day advances and to an increasingly global economy.  He also suggests changes that must be made in the National Labor Relations Act.  This book is essential reading for lawyers, scholars, and policy-makers, as well as all those concerned with the future of the labor movement.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 226,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814715123",
+          "cs_title_group": "9780814714980",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814723715",
+          "ebook": "9780814772225",
+          "hardcover": "9780814714980",
+          "paperback": "9780814715123",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814723715.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1995-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1995-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 794034000,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 285,
+        "isbn13": "9780814715123",
+        "title": "Can Unions Survive?",
+        "title_without_prefix": "Can Unions Survive?",
+        "seo": "can-unions-survive",
+        "subtitle": "The Rejuvenation of the American Labor Movement",
+        "title_id": "a498cc3311aa0a48fa491642aac5fcd7",
+        "reference_id": null,
+        "summary": "\"Defines the challenges facing the movement and offers comprehensive prescriptions for its successful transformation.\"&#151;The George Washington Law ReviewA valuable analysis of the...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.750",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00SWL",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology / Sociology of Work & Labor",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUSSWL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100023,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100023,
+              "name": "Charles B. Craver",
+              "first": "Charles B.",
+              "last": "Craver",
+              "seo": "charles-b-craver",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Charles B. Craver</b> is Leroy S. Merrifield Research Professor of Law at The National Law Center at George Washington University. A past Secretary of the ABA Labor and Employment Law Section, he is co-author of four books and numerous law journal articles covering various areas of labor and employment law.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1057-285",
+            "asset_id": "1057",
+            "asset": {
+              "id": "1057",
+              "unique": "26a583e8bd793dd44058fd69068a00a7",
+              "name": "648-H-9780814715123.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "805-285",
+            "asset_id": "805",
+            "asset": {
+              "id": "805",
+              "unique": "b3c338fb8d4e0c5a0ed10a3623b051d8",
+              "name": "145-W-9780814715123.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "931-285",
+            "asset_id": "931",
+            "asset": {
+              "id": "931",
+              "unique": "b7f787cf570a9a39cbe8e99abfd12ba2",
+              "name": "298-W-9780814715123.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC285",
+            "format_id": "BC",
+            "seo_link": "can-unions-survive",
+            "detail": "Print PDF",
+            "title_id": "a498cc3311aa0a48fa491642aac5fcd7",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814715123",
+            "edition": "",
+            "product_id": 285,
+            "primary_format": true,
+            "date": {
+              "date": "1995-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG17",
+            "format_id": "DG",
+            "seo_link": "can-unions-survive",
+            "detail": "",
+            "title_id": "a498cc3311aa0a48fa491642aac5fcd7",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814723715",
+            "edition": "",
+            "product_id": 17,
+            "primary_format": false,
+            "date": {
+              "date": "1993-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG284",
+            "format_id": "DG",
+            "seo_link": "can-unions-survive",
+            "detail": "",
+            "title_id": "a498cc3311aa0a48fa491642aac5fcd7",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814772225",
+            "edition": "",
+            "product_id": 284,
+            "primary_format": false,
+            "date": {
+              "date": "1993-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

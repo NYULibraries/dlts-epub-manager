@@ -1,0 +1,327 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814718124",
+        "description": "<p>\"An excellent overview of the history of Jewish mysticism from its early beginnings to contemporary Hasidism...scholarly and complex.\"<br>—<i>Library Journal</i><br> \"An excellent work, clear and solidly documented by Joseph Dan on Gershom Scholem and on his work.\"<br>—<i>Notes Bibliographiques</i><br> \"An excellent guide to Scholem's work.\"<br>—<i>Christian Century</i></p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 340,
+        "search_weight": 430,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814718124",
+          "cs_title_group": "9780814718124",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744147.001.0001",
+          "library": "9780814744147",
+          "ebook": "9780814720974",
+          "hardcover": false,
+          "paperback": "9780814718124"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1988-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1988-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 591681600,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 118,
+        "isbn13": "9780814718124",
+        "title": "Gershom Scholem and the Mystical Dimension of Jewish History",
+        "title_without_prefix": "Gershom Scholem and the Mystical Dimension of Jewish History",
+        "seo": "gershom-scholem-and-the-mystical-dimension-of-jewish-history",
+        "subtitle": "",
+        "title_id": "a360772a51ccab689ac06e0e39b7e0d6",
+        "reference_id": null,
+        "summary": "\"An excellent overview of the history of Jewish mysticism from its early beginnings to contemporary Hasidism...scholarly and complex.\"—Library Journal \"An excellent work, clear and...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.880",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "4",
+            "series": {
+              "name": "Modern Jewish Masters",
+              "seo_name": "modern-jewish-masters",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00JH0",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History / Jewish History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUHJH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUJS0000",
+              "code_3": "NYU",
+              "code_6": "NYUJS0",
+              "name": "Jewish Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUJS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUR00000",
+              "code_3": "NYU",
+              "code_6": "NYUR00",
+              "name": "Religion",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUR"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100073,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100073,
+              "name": "Joseph Dan",
+              "first": "Joseph",
+              "last": "Dan",
+              "seo": "joseph-dan",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Joseph Dan</b>, Gershom Scholem Professor of Kabbalah at the Hebrew University, Jerusalem, is author of <i>The Teachigns of Hasidism</i> and coeditor of <i>Studies in Jewish Mysticism</i>.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "386-118",
+            "asset_id": "386",
+            "asset": {
+              "id": "386",
+              "unique": "745e982701a59dfc01e41ec13edd0b30",
+              "name": "648-H-9780814718124.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "118-118",
+            "asset_id": "118",
+            "asset": {
+              "id": "118",
+              "unique": "183f43ecc461843ccf4de7d95773bfe2",
+              "name": "145-W-9780814718124.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "252-118",
+            "asset_id": "252",
+            "asset": {
+              "id": "252",
+              "unique": "13e0f8b21464c4d4a62445c9902cf1ab",
+              "name": "298-W-9780814718124.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC118",
+            "format_id": "BC",
+            "seo_link": "gershom-scholem-and-the-mystical-dimension-of-jewish-history",
+            "detail": "Print PDF",
+            "title_id": "a360772a51ccab689ac06e0e39b7e0d6",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814718124",
+            "edition": "",
+            "product_id": 118,
+            "primary_format": true,
+            "date": {
+              "date": "1988-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG50",
+            "format_id": "DG",
+            "seo_link": "gershom-scholem-and-the-mystical-dimension-of-jewish-history",
+            "detail": "",
+            "title_id": "a360772a51ccab689ac06e0e39b7e0d6",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814744147",
+            "edition": "",
+            "product_id": 50,
+            "primary_format": false,
+            "date": {
+              "date": "1987-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG322",
+            "format_id": "DG",
+            "seo_link": "gershom-scholem-and-the-mystical-dimension-of-jewish-history",
+            "detail": "",
+            "title_id": "a360772a51ccab689ac06e0e39b7e0d6",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814720974",
+            "edition": "",
+            "product_id": 322,
+            "primary_format": false,
+            "date": {
+              "date": "1987-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

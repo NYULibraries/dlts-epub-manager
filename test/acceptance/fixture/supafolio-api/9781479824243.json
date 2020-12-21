@@ -1,0 +1,416 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "1479824240",
+        "description": "<p><b>An intimate look at how children network, identify, learn and grow in a connected world.</b><br><br><br>Read Online at connectedyouth.nyupress.org<br><br><br><br><br>Do today&#8217;s youth have more opportunities than their parents? As they build their own social and digital networks, does that offer new routes to learning and friendship? How do they navigate the meaning of education in a digitally connected but fiercely competitive, highly individualized world?<br><br><br><br><br><br>Based upon fieldwork at an ordinary London school, The Class examines young people's experiences of growing up and learning in a digital world. In this original and engaging study, Livingstone and Sefton-Green explore youth values, teenagers&#8217; perspectives on their futures, and their tactics for facing the opportunities and challenges that lie ahead. The authors follow the students as they move across their different social worlds&#8212;in school, at home, and with their friends, engaging in a range of activities from video games to drama clubs and music lessons. By portraying the texture of the students&#8217; everyday lives, The Class seeks to understand how the structures of social class and cultural capital shape the development of personal interests, relationships and autonomy. Providing insights into how young people&#8217;s social, digital, and learning networks enable or disempower them, Livingstone and Sefton-Green reveal that the experience of disconnections and blocked pathways is often more common than that of connections and new opportunities.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 368,
+        "search_weight": 1060,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "11 black and white illustrations",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9781479824243",
+          "cs_title_group": "9781479884575",
+          "scheduled_date": "05/03/2016",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": "Connected Youth and Digital Futures",
+          "library": "9781479863570",
+          "ebook": "9781479840106",
+          "hardcover": "9781479884575",
+          "paperback": "9781479824243",
+          "license_name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9781479863570.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "2016-05-03 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "2016-05-03 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 1462248000,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 295,
+        "isbn13": "9781479824243",
+        "title": "The Class",
+        "title_without_prefix": "Class",
+        "seo": "the-class",
+        "subtitle": "Living and Learning in the Digital Age",
+        "title_id": "8b725c31fd24a9cefb6d036a57e9e080",
+        "reference_id": null,
+        "summary": "An intimate look at how children network, identify, learn and grow in a connected world.Read Online at connectedyouth.nyupress.orgDo today&#8217;s youth have...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.100",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "1",
+            "series": {
+              "name": "Connected Youth and Digital Futures",
+              "seo_name": "connected-youth-and-digital-futures",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUMT0TI0",
+              "code_3": "NYU",
+              "code_6": "NYUMT0",
+              "name": "Media & Technology / The Internet",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUMTTI"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUMT0000",
+              "code_3": "NYU",
+              "code_6": "NYUMT0",
+              "name": "Media & Technology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUMT"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUE00000",
+              "code_3": "NYU",
+              "code_6": "NYUE00",
+              "name": "Education",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUE"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUMT0C00",
+              "code_3": "NYU",
+              "code_6": "NYUMT0",
+              "name": "Media & Technology / Communications",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUMTC"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Sonia Livingstone, Julian Sefton-Green",
+            "contributor_id": 100004,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100004,
+              "name": "Sonia Livingstone",
+              "first": "Sonia",
+              "last": "Livingstone",
+              "seo": "sonia-livingstone",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Sonia Livingstone</b> is Professor in the Department of Media and Communications at LSE and the author or editor of nineteen books.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          },
+          {
+            "order": 2,
+            "note": "",
+            "contributor_id": 100005,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100005,
+              "name": "Julian Sefton-Green",
+              "first": "Julian",
+              "last": "Sefton-Green",
+              "seo": "julian-sefton-green",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Julian Sefton-Green</b> is Principal Research Fellow at the Department of Media & Communication, LSE and an associate professor at the University of Oslo, and the author or editor of eleven books.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1067-295",
+            "asset_id": "1067",
+            "asset": {
+              "id": "1067",
+              "unique": "23027d0ee9e5290f7cc59912335a2c05",
+              "name": "648-H-9781479824243.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "815-295",
+            "asset_id": "815",
+            "asset": {
+              "id": "815",
+              "unique": "5bea26abb51b0a8bc2a617a1c04dd881",
+              "name": "145-W-9781479824243.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "941-295",
+            "asset_id": "941",
+            "asset": {
+              "id": "941",
+              "unique": "bd7e221b6b307fb5c11d95c4185ccfeb",
+              "name": "298-W-9781479824243.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC295",
+            "format_id": "BC",
+            "seo_link": "the-class",
+            "detail": "Print PDF",
+            "title_id": "8b725c31fd24a9cefb6d036a57e9e080",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9781479824243",
+            "edition": "",
+            "product_id": 295,
+            "primary_format": true,
+            "date": {
+              "date": "2016-05-03 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG4",
+            "format_id": "DG",
+            "seo_link": "the-class",
+            "detail": "",
+            "title_id": "8b725c31fd24a9cefb6d036a57e9e080",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9781479863570",
+            "edition": "",
+            "product_id": 4,
+            "primary_format": false,
+            "date": {
+              "date": "2016-05-03 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB72",
+            "format_id": "BB",
+            "seo_link": "the-class",
+            "detail": "Print PDF",
+            "title_id": "8b725c31fd24a9cefb6d036a57e9e080",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9781479884575",
+            "edition": "",
+            "product_id": 72,
+            "primary_format": false,
+            "date": {
+              "date": "2016-05-03 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG294",
+            "format_id": "DG",
+            "seo_link": "the-class",
+            "detail": "",
+            "title_id": "8b725c31fd24a9cefb6d036a57e9e080",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9781479840106",
+            "edition": "",
+            "product_id": 294,
+            "primary_format": false,
+            "date": {
+              "date": "2016-05-03 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "295-11484",
+            "review_id": "11484",
+            "review": {
+              "id": "11484",
+              "reviewer": "Daniel Miller,author of Social Media in an English Village",
+              "description": "\"An exemplary ethnography whose holistic engagement with children at home as well as at school allow for judicious appraisals of what actually matters, motivates, and has consequences for their lives. By fully respecting the childrens attempts to control the impact of digital technologies, negotiate their relationships and internalise but tame institutional pressures, this book gives us precisely the kind of empathetic sense of the child that we need to retain as adults.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9781479824243-53d28ad4d6eb50067c0af5ae499a69d3",
+              "assets": []
+            }
+          },
+          {
+            "id": "295-11485",
+            "review_id": "11485",
+            "review": {
+              "id": "11485",
+              "reviewer": "Kirsten Drotner,co-editor of Informal Learning and Digital Media",
+              "description": "\"In a richly textured account,The Classunpacks many of the grand claims made in public discourse about the perceived impactpositive and negativeof new media technologies on young peoples lives and future prospects. Intellectually engaging, lucidly written, and emotionally engrossing,The Classis required reading for policy makers, parents, and teachers alike.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9781479824243-31319f327463ecf62961ae26489047bb",
+              "assets": []
+            }
+          },
+          {
+            "id": "295-11486",
+            "review_id": "11486",
+            "review": {
+              "id": "11486",
+              "reviewer": "Dorothy Holland,co-author of Identity and Agency in Cultural Worlds",
+              "description": "\"One of the richest investigations to date of young people across the major sites of their livesschool, family, and among their peersThe Classwill be a distinctive contribution to media and youth studies. Displaying an impressive breadth of knowledge, the authors showcase lively ethnographic vignettes to draw significant, convincing, and exciting insights.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9781479824243-8edd9d03e81b647752324d59df509e8f",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

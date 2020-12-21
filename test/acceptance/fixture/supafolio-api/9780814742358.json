@@ -1,0 +1,328 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814742351",
+        "description": "<p>George Eliot has been widely praised both for the richness of her prose and the universality of her themes. In this compelling study, Peggy Fitzhugh Johnstone goes beyond these traditional foci to examine the role of aggression in Eliot's fiction and to find its source in the author's unconscious sense of loss stemming from traumatic family separations and deaths during her childhood and adolescence. Johnstone demonstrates that Eliot's creative work was a constructive response to her sense of loss and that the repeating patterns in her novels reflect the process of release from her state of mourning for lost loved ones.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 224,
+        "search_weight": 540,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814742358",
+          "cs_title_group": "9780814741948",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814743973",
+          "ebook": "9780814743201",
+          "hardcover": "9780814741948",
+          "paperback": "9780814742358",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814743973.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1997-06-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1997-06-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 865137600,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 384,
+        "isbn13": "9780814742358",
+        "title": "Transformation of Rage",
+        "title_without_prefix": "Transformation of Rage",
+        "seo": "transformation-of-rage",
+        "subtitle": "Mourning and Creativity in George Eliot's Fiction",
+        "title_id": "3fa30f46226a7624da3b163fc1c0e614",
+        "reference_id": null,
+        "summary": "George Eliot has been widely praised both for the richness of her prose and the universality of her themes. In this compelling study, Peggy Fitzhugh Johnstone goes beyond these traditional foci to...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "20.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "27.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.690",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "9",
+            "series": {
+              "name": "Literature and Psychoanalysis",
+              "seo_name": "literature-and-psychoanalysis",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULLS000",
+              "code_3": "NYU",
+              "code_6": "NYULLS",
+              "name": "Literature & Literary Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULLS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Peggy Fitzhugh Johnstone",
+            "contributor_id": 100034,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100034,
+              "name": "Peggy Fitzhugh Johnstone",
+              "first": "Peggy Fitzhugh",
+              "last": "Johnstone",
+              "seo": "peggy-fitzhugh-johnstone",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Peggy Fitzhugh Johnstone</b> is an independent scholar in Saratoga Springs, New York. She has published essays on George Eliot in Hartford Studies, Literature and Psychology, and Mosaic.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1156-384",
+            "asset_id": "1156",
+            "asset": {
+              "id": "1156",
+              "unique": "652322e7eec66bdcaad825730c0779b9",
+              "name": "648-H-9780814742358.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "904-384",
+            "asset_id": "904",
+            "asset": {
+              "id": "904",
+              "unique": "2dab0f87de25405907fbc458a660ce83",
+              "name": "145-W-9780814742358.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "1030-384",
+            "asset_id": "1030",
+            "asset": {
+              "id": "1030",
+              "unique": "813babe6c9a4d68963f596d9fa096207",
+              "name": "298-W-9780814742358.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC384",
+            "format_id": "BC",
+            "seo_link": "transformation-of-rage",
+            "detail": "Print PDF",
+            "title_id": "3fa30f46226a7624da3b163fc1c0e614",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814742358",
+            "edition": "",
+            "product_id": 384,
+            "primary_format": true,
+            "date": {
+              "date": "1997-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG26",
+            "format_id": "DG",
+            "seo_link": "transformation-of-rage",
+            "detail": "",
+            "title_id": "3fa30f46226a7624da3b163fc1c0e614",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814743973",
+            "edition": "",
+            "product_id": 26,
+            "primary_format": false,
+            "date": {
+              "date": "1994-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB94",
+            "format_id": "BB",
+            "seo_link": "transformation-of-rage",
+            "detail": "Print PDF",
+            "title_id": "3fa30f46226a7624da3b163fc1c0e614",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814741948",
+            "edition": "",
+            "product_id": 94,
+            "primary_format": false,
+            "date": {
+              "date": "1994-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG383",
+            "format_id": "DG",
+            "seo_link": "transformation-of-rage",
+            "detail": "",
+            "title_id": "3fa30f46226a7624da3b163fc1c0e614",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814743201",
+            "edition": "",
+            "product_id": 383,
+            "primary_format": false,
+            "date": {
+              "date": "1994-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "384-11643",
+            "review_id": "11643",
+            "review": {
+              "id": "11643",
+              "reviewer": "George H. Pollock, M.D., Ph.D., Psychoanalytic Books",
+              "description": "\"Johnstone's description of the tumultuous events in George Eliot's work is an excellent illustration of applied psychoanalysis.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814742358-a67f754c4642af1d37152a22fdbdd0a7",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

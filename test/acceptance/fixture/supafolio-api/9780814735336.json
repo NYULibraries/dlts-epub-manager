@@ -1,0 +1,389 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814735339",
+        "description": "<p>What exactly is intelligence? Is it social achievement? Professional success? Is it common sense? Or the number on an IQ test?<br> Interweaving engaging narratives with dramatic case studies, Robert L. Hayman, Jr., has written a history of intelligence that will forever change the way we think about who is smart and who is not. To give weight to his assertion that intelligence is not simply an inherent characteristic but rather one which reflects the interests and predispositions of those doing the measuring, Hayman traces numerous campaigns to classify human intelligence. His tour takes us through the early craniometric movement, eugenics, the development of the IQ, Spearman's \"general\" intelligence, and more recent works claiming a genetic basis for intelligence differences.<br> What Hayman uncovers is the maddening irony of intelligence: that \"scientific\" efforts to reduce intelligence to a single, ordinal quantity have persisted--and at times captured our cultural imagination--not because of their scientific legitimacy, but because of their longstanding political appeal. The belief in a natural intellectual order was pervasive in \"scientific\" and \"political\" thought both at the founding of the Republic and throughout its nineteenth-century Reconstruction. And while we are today formally committed to the notion of equality under the law, our culture retains its central belief in the natural inequality of its members. Consequently, Hayman argues, the promise of a genuine equality can be realized only when the mythology of \"intelligence\" is debunked--only, that is, when we recognize the decisive role of culture in defining intelligence and creating intelligence differences. Only culture can give meaning to the statement that one person-- or one group--is smarter than another. And only culture can provide our motivation for saying it.<br> With a keen wit and a sharp eye, Hayman highlights the inescapable contradictions that arise in a society committed both to liberty and to equality and traces how the resulting tensions manifest themselves in the ways we conceive of identity, community, and merit.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 414,
+        "search_weight": 570,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814735336",
+          "cs_title_group": "9780814735336",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814744789",
+          "ebook": "9780814773178",
+          "hardcover": "9780814735336",
+          "paperback": "9780814735343",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744789.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": false,
+        "date": {
+          "date": "1997-11-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1997-11-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 878360400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 68,
+        "isbn13": "9780814735336",
+        "title": "The Smart Culture",
+        "title_without_prefix": "Smart Culture",
+        "seo": "the-smart-culture",
+        "subtitle": "Society, Intelligence, and Law",
+        "title_id": "be6ac29fdfbe4dfe78e4ca46b796939f",
+        "reference_id": null,
+        "summary": "What exactly is intelligence? Is it social achievement? Professional success? Is it common sense? Or the number on an IQ test? Interweaving engaging narratives with dramatic case studies, Robert...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "74.00",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.560",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "3",
+            "series": {
+              "name": "Critical America",
+              "seo_name": "critical-america",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Robert  L. Hayman Jr.",
+            "contributor_id": 100000,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100000,
+              "name": "Robert L. Hayman, Jr.",
+              "first": "Robert L.",
+              "last": "Hayman, Jr.",
+              "seo": "robert-l-hayman-jr",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<p><b>Robert L. Hayman, Jr.</b> is Professor of Law at Widener University in Deleware and has taught at Georgetown University, Temple University, and the University of Missouri.</p>",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "336-68",
+            "asset_id": "336",
+            "asset": {
+              "id": "336",
+              "unique": "6f75438ba70d0bb683e49a3e10a8d93c",
+              "name": "648-H-9780814735336.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "68-68",
+            "asset_id": "68",
+            "asset": {
+              "id": "68",
+              "unique": "4f07ca19e39a6fc18541ed3f4546cacc",
+              "name": "145-W-9780814735336.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "202-68",
+            "asset_id": "202",
+            "asset": {
+              "id": "202",
+              "unique": "df6e00570562c8541af8a9e4ef6cae08",
+              "name": "298-W-9780814735336.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB68",
+            "format_id": "BB",
+            "seo_link": "the-smart-culture",
+            "detail": "Print PDF",
+            "title_id": "be6ac29fdfbe4dfe78e4ca46b796939f",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814735336",
+            "edition": "",
+            "product_id": 68,
+            "primary_format": false,
+            "date": {
+              "date": "1997-11-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG1",
+            "format_id": "DG",
+            "seo_link": "the-smart-culture",
+            "detail": "",
+            "title_id": "be6ac29fdfbe4dfe78e4ca46b796939f",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814744789",
+            "edition": "",
+            "product_id": 1,
+            "primary_format": false,
+            "date": {
+              "date": "1997-11-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG375",
+            "format_id": "DG",
+            "seo_link": "the-smart-culture",
+            "detail": "",
+            "title_id": "be6ac29fdfbe4dfe78e4ca46b796939f",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814773178",
+            "edition": "",
+            "product_id": 375,
+            "primary_format": false,
+            "date": {
+              "date": "1997-11-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC376",
+            "format_id": "BC",
+            "seo_link": "the-smart-culture",
+            "detail": "Print PDF",
+            "title_id": "be6ac29fdfbe4dfe78e4ca46b796939f",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814735343",
+            "edition": "",
+            "product_id": 376,
+            "primary_format": true,
+            "date": {
+              "date": "2000-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "68-11969",
+            "review_id": "11969",
+            "review": {
+              "id": "11969",
+              "reviewer": "Mary Frances Berry, Journal of American History",
+              "description": "\"Powerful.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814735336-886ca7875e1d7fe1dc11ee2d46f1ad67",
+              "assets": []
+            }
+          },
+          {
+            "id": "68-11970",
+            "review_id": "11970",
+            "review": {
+              "id": "11970",
+              "reviewer": "J. M. Balkin,Lafayette S. Foster Professor, Yale Law School",
+              "description": "\"Robert Hayman writes passionately and sensitively about our attitudes toward intelligence and how those attitudes shape the conditions of social equality in this country. . . . Intelligence is one area where Americans have remained relatively complacent about outmoded stereotypes and caste-like social structures. With this book, perhaps they will be no longer.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814735336-5aba74d1712c5a56c256a514f49fa9cc",
+              "assets": []
+            }
+          },
+          {
+            "id": "68-11971",
+            "review_id": "11971",
+            "review": {
+              "id": "11971",
+              "reviewer": "Choice",
+              "description": "\"A passionate attack on pervasive American cultural assumptions of natural inequality. The book provides a fine history of antiblack discrimination and of the racist and nativist bases of the developers of standardized intelligence tests.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814735336-e1fff8d1f96186070098e505f50f5f2e",
+              "assets": []
+            }
+          },
+          {
+            "id": "68-11972",
+            "review_id": "11972",
+            "review": {
+              "id": "11972",
+              "reviewer": "Law and Politics Book Review",
+              "description": "\"A painstakingly researched, scientific, psychological, sociocultural, and constitutional history of race, Smart Culture is one of our generation's most powerful indictments of insidious racism and meritocracies.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814735336-31728206cdd6934abb5cb3ec3f5e8668",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

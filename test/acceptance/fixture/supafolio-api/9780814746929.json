@@ -1,0 +1,318 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814746926",
+        "description": "<p>Rabbi Jacob Agus' (1911-1986) intellectual production spanned nearly a half century and covered an enormous historical and conceptual range, from the biblical to the modern era. Best known as an important Jewish scholar, he also held important rabbinic, teaching, and public positions. Although born and raised within an orthodox setting, Agus was strongly influenced by American liberalism and his work displayed modernizing sympathies, reservations about nationalism--including some forms of Zionism--and often severe criticisms of kabbalah. Agus crafted a unique, quite American, modernizing vision that ardently sought to remain in touch with the wellsprings of the rabbinic tradition while remaining open to the intellectual and moral currents of his own time.The Essential Agus brings together a sampling of Agus' most important published and unpublished material in one easily accessible volume. It will be an invaluable resource for students and researchers seeking to experience Agus' intellectual legacy.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 588,
+        "search_weight": 430,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814746929",
+          "cs_title_group": "9780814746929",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814763551",
+          "ebook": "9780814748503",
+          "hardcover": "9780814746929",
+          "paperback": false,
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814763551.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1997-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1997-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 857192400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 81,
+        "isbn13": "9780814746929",
+        "title": "The Essential Agus",
+        "title_without_prefix": "Essential Agus",
+        "seo": "the-essential-agus",
+        "subtitle": "The Writings of Jacob B. Agus",
+        "title_id": "189f0239d996000c8dbef3e39821bebc",
+        "reference_id": null,
+        "summary": "Rabbi Jacob Agus' (1911-1986) intellectual production spanned nearly a half century and covered an enormous historical and conceptual range, from the biblical to the modern era. Best known as an...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "74.00",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "2.060",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00JH0",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History / Jewish History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUHJH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUJS0000",
+              "code_3": "NYU",
+              "code_6": "NYUJS0",
+              "name": "Jewish Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUJS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUR00000",
+              "code_3": "NYU",
+              "code_6": "NYUR00",
+              "name": "Religion",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUR"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Steven T. Katz",
+            "contributor_id": 100018,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100018,
+              "name": "Steven T. Katz",
+              "first": "Steven T.",
+              "last": "Katz",
+              "seo": "steven-t-katz",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Steven T. Katz</b> is Slater Professor of Jewish and Holocaust Studies and former Director of the Elie Wiesel Center for Judaic Studies at Boston University. His many publications include The Holocaust in Historical Context.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "349-81",
+            "asset_id": "349",
+            "asset": {
+              "id": "349",
+              "unique": "7e4fb0257799601eeaf2b9a1ea04c2c0",
+              "name": "648-H-9780814746929.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "81-81",
+            "asset_id": "81",
+            "asset": {
+              "id": "81",
+              "unique": "4a80ca342df62ecde4b54d81446aa152",
+              "name": "145-W-9780814746929.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "215-81",
+            "asset_id": "215",
+            "asset": {
+              "id": "215",
+              "unique": "9e333e1ae1c97b8f3bdd52ea792bd984",
+              "name": "298-W-9780814746929.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB81",
+            "format_id": "BB",
+            "seo_link": "the-essential-agus",
+            "detail": "Print PDF",
+            "title_id": "189f0239d996000c8dbef3e39821bebc",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814746929",
+            "edition": "",
+            "product_id": 81,
+            "primary_format": true,
+            "date": {
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG13",
+            "format_id": "DG",
+            "seo_link": "the-essential-agus",
+            "detail": "",
+            "title_id": "189f0239d996000c8dbef3e39821bebc",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814763551",
+            "edition": "",
+            "product_id": 13,
+            "primary_format": false,
+            "date": {
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG309",
+            "format_id": "DG",
+            "seo_link": "the-essential-agus",
+            "detail": "",
+            "title_id": "189f0239d996000c8dbef3e39821bebc",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814748503",
+            "edition": "",
+            "product_id": 309,
+            "primary_format": false,
+            "date": {
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

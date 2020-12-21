@@ -1,0 +1,417 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814761909",
+        "description": "<p>All but buried for most of the twentieth century, the concept of altruism has re-emerged in this last quarter as a focus of intense scholarly inquiry and general public interest.  In the wake of increased consciousness of the human potential for destructiveness, both scholars and the general public are seeking interventions which will not only inhibit the process, but may in fact chart a new creative path toward a global community.  Largely initiated by a group of pioneering social psychologists, early questions on altruism centered on its motivation and development primarily in the context of contrived laboratory experiments.  Although publications on the topic have been considerable over the last several years, and now represent the work of representatives from many disciplines of inquiry, this volume is distinguished from others in several ways.<br><i>Embracing the Other</i> emerged primarily as a response to recent research on an extraordinary manifestation of real-life altruism, namely to recent studies of non-Jewish rescuers of Jews during World War II. It is the work of a multi-disciplinary and international group of scholars, including philosophers, social psychologists, historians, sociologists, and educators,  challenging several prevailing conceptual definitions and motivational sources of altruism.  The book combines both new empirical and historical research as well as theoretical and philosophical approaches and includes a lengthy section addressing the practical implications of current thinking on altruism for society at large.  The result is a multi-textured work, addressing critical issues in varied disciplines, while centered on shared themes.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 474,
+        "search_weight": 540,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814761908",
+          "cs_title_group": "9780814761755",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814762622",
+          "ebook": "9780814762295",
+          "hardcover": "9780814761755",
+          "paperback": "9780814761908",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814762622.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 804571200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 306,
+        "isbn13": "9780814761908",
+        "title": "Embracing the Other",
+        "title_without_prefix": "Embracing the Other",
+        "seo": "embracing-the-other",
+        "subtitle": "Philosophical, Psychological, and Historical Perspectives on Altruism",
+        "title_id": "82657dd9fea17637b245eedb82d74982",
+        "reference_id": null,
+        "summary": "All but buried for most of the twentieth century, the concept of altruism has re-emerged in this last quarter as a focus of intense scholarly inquiry and general public interest.  In the wake of...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.380",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100083,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100083,
+              "name": "Pearl Oliner",
+              "first": "Pearl",
+              "last": "Oliner",
+              "seo": "pearl-oliner",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Pearl M. Oliner</b> and <b>Samuel P. Oliner</b> are Professor of Education and Professor of Sociology, respectively, at Humboldt State University and co-authors of The Altruistic Personality: Rescuers of Jews in Nazi Europe.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          },
+          {
+            "order": 2,
+            "note": "",
+            "contributor_id": 100084,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100084,
+              "name": "Samuel P. Oliner",
+              "first": "Samuel P.",
+              "last": "Oliner",
+              "seo": "samuel-p-oliner",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<p><b>Pearl M. Oliner</b> and <b>Samuel P. Oliner</b> are Professor of Education and Professor of Sociology, respectively, at Humboldt State University and co-authors of The Altruistic Personality: Rescuers of Jews in Nazi Europe. <b>Lawrence Baron</b> is the Director of the Lipinsky Institute for Judaic Studies and Nasir Professor of Modern Jewish History at San Diego State University.<br> <b>Dennis L. Krebs</b> is Chair and Professor of Psychology at S</p>",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          },
+          {
+            "order": 3,
+            "note": "",
+            "contributor_id": 100085,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100085,
+              "name": "Lawrence Baron",
+              "first": "Lawrence",
+              "last": "Baron",
+              "seo": "lawrence-baron",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Lawrence Baron</b> is the Director of the Lipinsky Institute for Judaic Studies and Nasir Professor of Modern Jewish History at San Diego State University.  <b>Dennis L. Krebs</b> is Chair and Professor of Psychology at Simon Fraser University. <b>Lawrence A. Blum</b> is Professor of Philosophy and Women's studies at the University of Massachusetts at Boston. <b>M Zuzanna Smolenska</b> is Assistant Professor, Polish Academy of Science.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          },
+          {
+            "order": 4,
+            "note": "",
+            "contributor_id": 100086,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100086,
+              "name": "Lawrence Blum",
+              "first": "Lawrence",
+              "last": "Blum",
+              "seo": "lawrence-blum",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Dennis L. Krebs</b> is Chair and Professor of Psychology at Simon Fraser University. <b>Lawrence A. Blum</b> is Professor of Philosophy and Women's studies at the University of Massachusetts at Boston. <b>M Zuzanna Smolenska</b> is Assistant Professor, Polish Academy of Science.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1078-306",
+            "asset_id": "1078",
+            "asset": {
+              "id": "1078",
+              "unique": "8d6e0b6d2449f15a2e0e6a122bd82138",
+              "name": "648-H-9780814761908.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "826-306",
+            "asset_id": "826",
+            "asset": {
+              "id": "826",
+              "unique": "5b7c84dd9a89236d25a0091197a90485",
+              "name": "145-W-9780814761908.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "952-306",
+            "asset_id": "952",
+            "asset": {
+              "id": "952",
+              "unique": "d9b4f75f52a23a9745ea3ac9eb87ecc5",
+              "name": "298-W-9780814761908.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC306",
+            "format_id": "BC",
+            "seo_link": "embracing-the-other",
+            "detail": "Print PDF",
+            "title_id": "82657dd9fea17637b245eedb82d74982",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814761908",
+            "edition": "",
+            "product_id": 306,
+            "primary_format": true,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG62",
+            "format_id": "DG",
+            "seo_link": "embracing-the-other",
+            "detail": "",
+            "title_id": "82657dd9fea17637b245eedb82d74982",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814762622",
+            "edition": "",
+            "product_id": 62,
+            "primary_format": false,
+            "date": {
+              "date": "1992-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB129",
+            "format_id": "BB",
+            "seo_link": "embracing-the-other",
+            "detail": "Print PDF",
+            "title_id": "82657dd9fea17637b245eedb82d74982",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814761755",
+            "edition": "",
+            "product_id": 129,
+            "primary_format": false,
+            "date": {
+              "date": "1992-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG305",
+            "format_id": "DG",
+            "seo_link": "embracing-the-other",
+            "detail": "",
+            "title_id": "82657dd9fea17637b245eedb82d74982",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814762295",
+            "edition": "",
+            "product_id": 305,
+            "primary_format": false,
+            "date": {
+              "date": "1992-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "306-11875",
+            "review_id": "11875",
+            "review": {
+              "id": "11875",
+              "reviewer": "The Journal of Politics",
+              "description": "\"Intelligently addresses several of the most important unresolved issues and controversies about altruism.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814761908-9be6b245f75137cb262994851c9508e2",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

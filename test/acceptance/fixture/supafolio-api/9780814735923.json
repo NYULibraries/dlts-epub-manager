@@ -1,0 +1,389 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814735924",
+        "description": "<p>In 1971, Paul Harris pioneered the modern version of the black rage defense when he successfully defended a young black man charged with armed bank robbery. Dubbed one of the most novel criminal defenses in American history  by Vanity Fair, the black rage defense is enormously controversial, frequently dismissed as irresponsible, nothing less than a harbinger of anarchy. Consider the firestorm of protest that resulted when the defense for Colin Ferguson, the gunman who murdered numerous passengers on a New York commuter train, claimed it was considering a black rage defense.<br> In this thought-provoking book, Harris traces the origins of the black rage defense back through American history, recreating numerous dramatic trials along the way. For example, he recounts in vivid detail how Clarence Darrow, defense attorney in the famous Scopes Monkey trial, first introduced the notion of an environmental hardship defense in 1925 while defending a black family who shot into a drunken white mob that had encircled their home.<br> Emphasizing that the black rage defense must be enlisted responsibly and selectively, Harris skillfully distinguishes between applying an environmental defense and simply blaming society, in the abstract, for individual crimes. If Ferguson had invoked such a defense, in Harris's words, it would have sent a superficial, wrong-headed, blame-everything-on-racism message. Careful not to succumb to easy generalizations, Harris also addresses the possibilities of a white rage defense and the more recent phenomenon of cultural defenses. He illustrates how a person's environment can, and does, affect his or her life and actions, how even the most rational person can become criminally deranged, when bludgeoned into hopelessness by exploitation, racism, and relentless poverty.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 306,
+        "search_weight": 570,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814735923",
+          "cs_title_group": "9780814735275",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814744765",
+          "ebook": "9780814773154",
+          "hardcover": "9780814735275",
+          "paperback": "9780814735923",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744765.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1999-05-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1999-05-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 925531200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 275,
+        "isbn13": "9780814735923",
+        "title": "Black Rage Confronts the Law",
+        "title_without_prefix": "Black Rage Confronts the Law",
+        "seo": "black-rage-confronts-the-law",
+        "subtitle": "",
+        "title_id": "e5fc1a3d26ddf2b97501804774661b80",
+        "reference_id": null,
+        "summary": "In 1971, Paul Harris pioneered the modern version of the black rage defense when he successfully defended a young black man charged with armed bank robbery. Dubbed one of the most novel criminal...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.810",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "19",
+            "series": {
+              "name": "Critical America",
+              "seo_name": "critical-america",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUAFSL00",
+              "code_3": "NYU",
+              "code_6": "NYUAS0",
+              "name": "African American Studies / Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUAFSL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUAFS000",
+              "code_3": "NYU",
+              "code_6": "NYUAFS",
+              "name": "African American Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUAFS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Paul Harris",
+            "contributor_id": 100022,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100022,
+              "name": "Paul Harris",
+              "first": "Paul",
+              "last": "Harris",
+              "seo": "paul-harris",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Paul Harris</b> worked with the San Francisco Community Law Collective for sixteen years, during which time he was described as one of the best criminal defense lawyers in America. A past president of the National Lawyers Guild, he is Charles Garry Professor of Law at New College, a public-interest law school in San Francisco. He received his J.D. from the University of California at Berkeley.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1047-275",
+            "asset_id": "1047",
+            "asset": {
+              "id": "1047",
+              "unique": "d26a04184047148060d33e3943ad9d52",
+              "name": "648-H-9780814735923.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "795-275",
+            "asset_id": "795",
+            "asset": {
+              "id": "795",
+              "unique": "87fe94803e77f52b226eaac404818885",
+              "name": "145-W-9780814735923.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "921-275",
+            "asset_id": "921",
+            "asset": {
+              "id": "921",
+              "unique": "a40d71563fa18d207691ce653b2c7a71",
+              "name": "298-W-9780814735923.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC275",
+            "format_id": "BC",
+            "seo_link": "black-rage-confronts-the-law",
+            "detail": "Print PDF",
+            "title_id": "e5fc1a3d26ddf2b97501804774661b80",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814735923",
+            "edition": "",
+            "product_id": 275,
+            "primary_format": true,
+            "date": {
+              "date": "1999-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG16",
+            "format_id": "DG",
+            "seo_link": "black-rage-confronts-the-law",
+            "detail": "",
+            "title_id": "e5fc1a3d26ddf2b97501804774661b80",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814744765",
+            "edition": "",
+            "product_id": 16,
+            "primary_format": false,
+            "date": {
+              "date": "1997-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB84",
+            "format_id": "BB",
+            "seo_link": "black-rage-confronts-the-law",
+            "detail": "Print PDF",
+            "title_id": "e5fc1a3d26ddf2b97501804774661b80",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814735275",
+            "edition": "",
+            "product_id": 84,
+            "primary_format": false,
+            "date": {
+              "date": "1997-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG274",
+            "format_id": "DG",
+            "seo_link": "black-rage-confronts-the-law",
+            "detail": "",
+            "title_id": "e5fc1a3d26ddf2b97501804774661b80",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814773154",
+            "edition": "",
+            "product_id": 274,
+            "primary_format": false,
+            "date": {
+              "date": "1997-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "275-11592",
+            "review_id": "11592",
+            "review": {
+              "id": "11592",
+              "reviewer": "Mumia Abu-Jamal,author of Live from Death Row",
+              "description": "\"Within Harris's reasoned, cogent analysis lurks a legal strategy tethered to the nation's tattered and perennial traditions of white supremacy, which aims to acknowledge it, use it to explain its devastating effects on the black psyche, and provide a legal tool for some degree of amelioration. Ultimately, Black Rage Confronts the Law is more about U. S. power relations than law.Therefore, it will be damned.Therefore, it will be praised.Therefore, it should be read.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814735923-ecf161f2cd31651323e30cc5f0907e60",
+              "assets": []
+            }
+          },
+          {
+            "id": "275-11593",
+            "review_id": "11593",
+            "review": {
+              "id": "11593",
+              "reviewer": "California Lawyer",
+              "description": "\"Paul Harris made an impact just two years out of law school with his innovative `black rage' defense. Harris convinced the jury that, in America, unemployment for a proud and talented black man can cause . . . a kind of temporary insanity. The theory not only gained Harris's client an acquittal, it left the man's integrity intact.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814735923-ae9123b81c986f5fd86a4aedc8f64947",
+              "assets": []
+            }
+          },
+          {
+            "id": "275-11594",
+            "review_id": "11594",
+            "review": {
+              "id": "11594",
+              "reviewer": "Library Journal",
+              "description": "\"On a deeper and more profound level [this book] illustrates the degree to which social and economic hardship and deprivation can justify human misconduct.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814735923-fe84bce2ede9d7e06cb66d3e0f1de8f1",
+              "assets": []
+            }
+          },
+          {
+            "id": "275-11595",
+            "review_id": "11595",
+            "review": {
+              "id": "11595",
+              "reviewer": "New York Amsterdam News",
+              "description": "\"Any lawyer who deals within the Black community needs to read it.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814735923-f3330c70a9e064e256b46609dfe5a028",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

@@ -1,14 +1,13 @@
 "use strict";
 
-let AdmZip   = require( 'adm-zip' );
-let execSync = require( 'child_process' ).execSync;
-let fs       = require( 'fs' );
-let path     = require( 'path' );
-let rimraf   = require( 'rimraf' );
+const AdmZip   = require( 'adm-zip' );
+const execSync = require( 'child_process' ).execSync;
+const fs       = require( 'fs' );
+const path     = require( 'path' );
+const rimraf   = require( 'rimraf' );
 
-let DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
-let DltsOnix = require( '../../lib/onix/DltsOnix' ).DltsOnix;
-let util     = require( '../../lib/util' );
+const DltsEpub = require( '../../lib/epub/DltsEpub' ).DltsEpub;
+const util     = require( '../../lib/util' );
 
 let em;
 
@@ -23,13 +22,12 @@ module.exports = function( vorpal ){
     em = vorpal.em;
 
     vorpal.command( 'intake add [configuration]' )
-        .option( '--skip-metadata', 'Skip processing of metadata (ONIX, EPUB manifest, etc.)' )
-        .description( 'Intake EPUBs and generate Readium versions and associated metadata files.' )
+        .description( 'Intake EPUBs and generate Readium versions.' )
         .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
-                    let loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
+                    const loadSucceeded = vorpal.execSync( `load ${args.configuration}`, { fatal : true } );
 
                     if ( ! loadSucceeded ) {
                         vorpal.log( `ERROR: \`load ${args.configuration}\` failed.` );
@@ -75,29 +73,6 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let metadataDir = em.conf.metadataDir;
-                if ( ! metadataDir ) {
-                    vorpal.log( util.ERROR_CONF_MISSING_METADATA_DIR );
-
-                    if ( callback ) { callback(); }
-                    return false;
-                }
-
-                if ( ! fs.existsSync( metadataDir ) ) {
-                    vorpal.log( `ERROR: metadataDir "${metadataDir}" does not exist.`);
-
-                    if ( callback ) { callback(); }
-                    return false;
-                }
-
-                stats = fs.statSync( metadataDir );
-                if ( ! stats.isDirectory() ) {
-                    vorpal.log( `ERROR: metadataDir "${metadataDir}" is not a directory.`);
-
-                    if ( callback ) { callback(); }
-                    return false;
-                }
-
                 if ( ! em.intakeEpubList ) {
                     vorpal.log( util.ERROR_INTAKE_EPUB_LIST_NOT_LOADED );
 
@@ -105,14 +80,13 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                let epubIdList = em.intakeEpubList;
+                const epubIdList = em.intakeEpubList;
 
                 try {
-                    let epubsCompleted = intakeEpubs(
+                    const epubsCompleted = intakeEpubs(
                         intakeEpubDir,
                         epubIdList,
                         intakeOutputDir,
-                        metadataDir,
                         args.options
                     );
 
@@ -121,7 +95,7 @@ module.exports = function( vorpal ){
                     if ( callback ) { callback(); }
                     return true;
                 } catch ( error ) {
-                    vorpal.log( 'ERROR in intake of EPUB:\n' +
+                    vorpal.log( 'ERROR in intake of EPUBs:\n' +
                                 error );
 
                     if ( callback ) { callback(); }
@@ -177,25 +151,23 @@ function getNormalizedIntakeDir( dir ) {
     return normalizedIntakeDir;
 }
 
-function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir, options ) {
-    let epubsCompleted = [];
-
-    const createMetadataFiles = ! ( options && options[ 'skip-metadata' ] );
+function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, options ) {
+    const epubsCompleted = [];
 
     epubIdList.forEach( ( epubId ) => {
-        let intakeEpubDir  = `${intakeEpubsDir}/${epubId}`;
-        let intakeEpubFile = `${intakeEpubDir}/data/${epubId}.epub`;
-        let outputEpubDir = `${outputEpubsDir}/${epubId}`;
+        const intakeEpubDir  = `${intakeEpubsDir}/${epubId}`;
+        const intakeEpubFile = `${intakeEpubDir}/data/${epubId}.epub`;
+        const outputEpubDir = `${outputEpubsDir}/${epubId}`;
 
         try {
             rimraf.sync( outputEpubDir );
 
             unzipEpub( intakeEpubFile, outputEpubDir );
 
-            let epub = new DltsEpub( outputEpubDir );
+            const epub = new DltsEpub( outputEpubDir );
 
-            let coverHtmlFile  = `${outputEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
-            let coverXhtmlFile = `${outputEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
+            const coverHtmlFile  = `${outputEpubDir}/ops/xhtml/${OLD_COVER_PAGE_FILE_NAME}`;
+            const coverXhtmlFile = `${outputEpubDir}/ops/xhtml/${NEW_COVER_PAGE_FILE_NAME}`;
 
             if ( ! fs.existsSync( coverHtmlFile ) && ! fs.existsSync( coverXhtmlFile ) ) {
                 throw( `Cover file not found: expected either ${coverHtmlFile} or ${coverXhtmlFile}` );
@@ -213,35 +185,8 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir, o
                 `${outputEpubDir}/ops/images/${epubId}.jpg`,
                 `${outputEpubDir}/ops/images/${epubId}-th.jpg`
             );
-
-            if ( createMetadataFiles ) {
-                // This handle stuff needs to be redone.  See comment in load command file in
-                // getMetadataForEpub() function.
-                let handleFile   = `${intakeEpubDir}/handle`;
-                let handle       = fs.readFileSync( handleFile, 'utf8' ).trim();
-
-                let onixFile     = `${intakeEpubDir}/data/${epubId}_onix.xml`;
-                let onix         = new DltsOnix( onixFile );
-
-                let extraMetadataFile = `${intakeEpubDir}/data/extra-metadata.json`;
-                let extraMetadata     = require( extraMetadataFile );
-
-                extraMetadata.handle = handle;
-
-                let metadataDirForEpub = `${metadataDir}/${epubId}`;
-                rimraf.sync( metadataDirForEpub );
-                fs.mkdirSync( metadataDirForEpub, 0o755 );
-
-                createIntakeDescriptiveMetadataFile(
-                    epub, onix, handle, `${metadataDirForEpub}/intake-descriptive.json`
-                );
-
-                createDltsAdministrativeMetadataFile(
-                    extraMetadata, `${metadataDirForEpub}/dlts-administrative.json`
-                );
-            }
         } catch( e ) {
-            throw( e );
+            throw( `[ ${ epubId } ] ${ e }` );
         }
 
         epubsCompleted.push( epubId );
@@ -251,15 +196,15 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, metadataDir, o
 }
 
 function unzipEpub( epubFile, outputEpub ) {
-    let zip = new AdmZip( epubFile );
+    const zip = new AdmZip( epubFile );
 
     zip.extractAllTo( outputEpub, true );
 }
 
 function updateReferencesToCoverHtmlFile( epub ) {
-    let rootDirectory = epub.rootDirectory;
+    const rootDirectory = epub.rootDirectory;
 
-    let filesToUpdate = epub.package._xml.manifest.item
+    const filesToUpdate = epub.package._xml.manifest.item
         .filter(
             ( item ) => {
                 return item[ 'media-type' ].match( /text|xml/ );
@@ -273,8 +218,8 @@ function updateReferencesToCoverHtmlFile( epub ) {
 
     filesToUpdate.push( epub.package._filePath );
     filesToUpdate.forEach( ( fileToUpdate ) => {
-            let fileContents = fs.readFileSync( fileToUpdate, 'utf8' );
-            let newFileContents = fileContents.replace(
+            const fileContents = fs.readFileSync( fileToUpdate, 'utf8' );
+            const newFileContents = fileContents.replace(
                 new RegExp( OLD_COVER_PAGE_FILE_NAME, 'g' ),
                 NEW_COVER_PAGE_FILE_NAME
             );
@@ -284,7 +229,7 @@ function updateReferencesToCoverHtmlFile( epub ) {
 }
 
 function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
-    let cmd = `convert ${fullsizeJpg} -strip -resize 160\\> ${thumbnailJpg}`;
+    const cmd = `convert ${fullsizeJpg} -strip -resize 160\\> ${thumbnailJpg}`;
 
     // From https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback:
     //    "If the process times out, or has a non-zero exit code, this method will throw.
@@ -296,39 +241,3 @@ function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
     }
 }
 
-function createIntakeDescriptiveMetadataFile( epub, onix, handle, outputFile ) {
-        let epubMetadata = epub.dlts.metadata;
-        let onixMetadata = onix.dlts.metadata;
-
-        let author = onixMetadata.author[ 0 ] || epub.author;
-        let title  = onixMetadata.title || epubMetadata.title;
-        let metadata = {
-            author           : author,
-            author_sort      : util.getAuthorSortKey( author ),
-            coverage         : epubMetadata.coverage,
-            coverHref        : epubMetadata.coverHref,
-            date             : epubMetadata.date,
-            description      : onixMetadata.description,
-            description_html : onixMetadata.description_html,
-            format           : epubMetadata.format,
-            handle           : `${HANDLE_SERVER}/${handle}`,
-            identifier       : epubMetadata.identifier,
-            language         : epubMetadata.language,
-            packageUrl       : epubMetadata.packageUrl,
-            publisher        : epubMetadata.publisher,
-            rights           : epubMetadata.rights,
-            rootUrl          : epubMetadata.rootUrl,
-            subject          : onixMetadata.subject,
-            subtitle         : onixMetadata.subtitle,
-            thumbHref        : epubMetadata.thumbHref,
-            title            : title,
-            title_sort       : util.getTitleSortKey( title ),
-            type             : epubMetadata.type,
-        };
-
-        fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
-}
-
-function createDltsAdministrativeMetadataFile( metadata, outputFile ) {
-    fs.writeFileSync( outputFile, util.jsonStableStringify( metadata ), 'utf8' );
-}

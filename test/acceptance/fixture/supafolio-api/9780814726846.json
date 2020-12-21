@@ -1,0 +1,336 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814726844",
+        "description": "<p>Whether in the form of Christmas trees in town squares or prayer in school, fierce disputes over the separation of church and state have long bedeviled this country. Both decried and celebrated, this principle is considered by many, for right or wrong, a defining aspect of American national identity.<br> Nearly all discussions regarding the role of religion in American life build on two dominant assumptions: first, the separation of church and state is a constitutional principle that promotes democracy and equally protects the religious freedom of all Americans, especially religious outgroups; and second, this principle emerges as a uniquely American contribution to political theory.<br> In Please Don't Wish Me a Merry Christmas, Stephen M. Feldman challenges both these assumptions. He argues that the separation of church and state primarily manifests and reinforces Christian domination in American society. Furthermore, Feldman reveals that the separation of church and state did not first arise in the United States. Rather, it has slowly evolved as a political and religious development through western history, beginning with the initial appearance of Christianity as it contentiously separated from Judaism.<br>In tracing the historical roots of the separation of church and state within the Western world, Feldman begins with the Roman Empire and names Augustine as the first political theorist to suggest the idea. Feldman next examines how the roles of church and state variously merged and divided throughout history, during the Crusades, the Italian Renaissance, the Protestant Reformation, the British Civil War and Restoration, the early North American colonies, nineteenth-century America, and up to the present day. In challenging the dominant story of the separation of church and state, Feldman interprets the development of Christian social power vis-a-vis the state and religious minorities, particularly the prototypical religious outgroup, Jews.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 408,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814726846",
+          "cs_title_group": "9780814726372",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814728048",
+          "ebook": "9780814728857",
+          "hardcover": "9780814726372",
+          "paperback": "9780814726846",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814728048.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1998-08-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1998-08-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 901944000,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 352,
+        "isbn13": "9780814726846",
+        "title": "Please Don't Wish Me a Merry Christmas",
+        "title_without_prefix": "Please Don't Wish Me a Merry Christmas",
+        "seo": "please-dont-wish-me-a-merry-christmas",
+        "subtitle": "A Critical History of the Separation of Church and State",
+        "title_id": "9fdcf02f0281a151961591d230facafa",
+        "reference_id": null,
+        "summary": "Whether in the form of Christmas trees in town squares or prayer in school, fierce disputes over the separation of church and state have long bedeviled this country. Both decried and celebrated,...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.190",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "30",
+            "series": {
+              "name": "Critical America",
+              "seo_name": "critical-america",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOLR00",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics / Religion",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOLR"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100031,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100031,
+              "name": "Stephen M. Feldman",
+              "first": "Stephen M.",
+              "last": "Feldman",
+              "seo": "stephen-m-feldman",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Stephen M. Feldman</b> is Jerry W. Housel/Carl F. Arnold Distinguished Professor of Law and Adjunct Professor of Political Science at the University of Wyoming. His previous titles include Please Don’t Wish Me a Merry Christmas: A Critical History of the Separation of Church and State (NYU Press, 1997) and Law and Religion: A Critical Anthology (NYU Press, 2000).",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1124-352",
+            "asset_id": "1124",
+            "asset": {
+              "id": "1124",
+              "unique": "a70738318d9ce6d8034f596b585db49e",
+              "name": "648-H-9780814726846.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "872-352",
+            "asset_id": "872",
+            "asset": {
+              "id": "872",
+              "unique": "82c94e17763c009d40de1ceb0f731b24",
+              "name": "145-W-9780814726846.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "998-352",
+            "asset_id": "998",
+            "asset": {
+              "id": "998",
+              "unique": "f964a1c234701fec0855a108494d59ad",
+              "name": "298-W-9780814726846.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC352",
+            "format_id": "BC",
+            "seo_link": "please-dont-wish-me-a-merry-christmas",
+            "detail": "Print PDF",
+            "title_id": "9fdcf02f0281a151961591d230facafa",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814726846",
+            "edition": "",
+            "product_id": 352,
+            "primary_format": true,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG23",
+            "format_id": "DG",
+            "seo_link": "please-dont-wish-me-a-merry-christmas",
+            "detail": "",
+            "title_id": "9fdcf02f0281a151961591d230facafa",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814728048",
+            "edition": "",
+            "product_id": 23,
+            "primary_format": false,
+            "date": {
+              "date": "1996-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB91",
+            "format_id": "BB",
+            "seo_link": "please-dont-wish-me-a-merry-christmas",
+            "detail": "Print PDF",
+            "title_id": "9fdcf02f0281a151961591d230facafa",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814726372",
+            "edition": "",
+            "product_id": 91,
+            "primary_format": false,
+            "date": {
+              "date": "1996-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG351",
+            "format_id": "DG",
+            "seo_link": "please-dont-wish-me-a-merry-christmas",
+            "detail": "",
+            "title_id": "9fdcf02f0281a151961591d230facafa",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814728857",
+            "edition": "",
+            "product_id": 351,
+            "primary_format": false,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814779174",
+        "description": "<p><i>Indentation and Other Stories</i> is a collection of nine stories ranging from the wildly funny and idiosyncratic to the downright bizarre.  The title story features a pathological dentist who seeks a quirky catharsis by decorating his apartment in hygienic dental paraphernalia.  Other tales frolic through the lives of characters who border on the delightfully absurd: a woman, after going through menopause, struggles to recreate her menstrual periods by altering her diet; a former New York street reporter, fired because of his \"ideals,\" aspires to become a credible street person and decides, tentatively, to have a religious experience; an English major turned psychologist writes a pseudoscientific \"article\"&#151;complete with footnotes and a University of New Jersey cover letter&#151;which argues, by example, for the use of figurative language in scientific journal writing.  Other stories are more humanizing: \"The Perils of Asthma\" is a sympathetic lok at a twelve-year-old boy struggling to grow up amidst his perplexing asthma, his eccentric Catholic parents, and his mystifying quasi-erections.  All of the stories are grounded in the allure of language, the luxuriance of detail, and the celebration of human compulsion and obsession.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 182,
+        "search_weight": 430,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814779170",
+          "cs_title_group": "9780814779170",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814741498",
+          "ebook": "9780814788721",
+          "hardcover": "9780814779170",
+          "paperback": false,
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814741498.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1990-12-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1990-12-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 660027600,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 126,
+        "isbn13": "9780814779170",
+        "title": "Indentations and Other Stories",
+        "title_without_prefix": "Indentations and Other Stories",
+        "seo": "indentations-and-other-stories",
+        "subtitle": "",
+        "title_id": "b5b55648689084c5dde5f45a509fa797",
+        "reference_id": null,
+        "summary": "Indentation and Other Stories is a collection of nine stories ranging from the wildly funny and idiosyncratic to the downright bizarre.  The title story features a pathological dentist who...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "USD",
+            "amount": "50.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "GBP",
+            "amount": "41.00",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.690",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULLS000",
+              "code_3": "NYU",
+              "code_6": "NYULLS",
+              "name": "Literature & Literary Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULLS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Joe Schall",
+            "contributor_id": 100080,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100080,
+              "name": "Joe Schall",
+              "first": "Joe",
+              "last": "Schall",
+              "seo": "joe-schall",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "The author,<b>Joe Schall</b>, is thirty-one years old and currently teaches fiction writing at Penn State University. While a student at Penn State, he studied under Paul West and Bob Downs. Schall's stories have been published in various journals, including <i>The Macguffin</i>,<i>Flipside</i>,and <i>The Ligourian</i>.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "394-126",
+            "asset_id": "394",
+            "asset": {
+              "id": "394",
+              "unique": "e97040e031b683f0ff40609497b60d4e",
+              "name": "648-H-9780814779170.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "126-126",
+            "asset_id": "126",
+            "asset": {
+              "id": "126",
+              "unique": "1e4161dad9745bce011e9ed7f66b2a55",
+              "name": "145-W-9780814779170.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "260-126",
+            "asset_id": "260",
+            "asset": {
+              "id": "260",
+              "unique": "6e6a6ed9693bbddfece29b0d529520fc",
+              "name": "298-W-9780814779170.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB126",
+            "format_id": "BB",
+            "seo_link": "indentations-and-other-stories",
+            "detail": "Print PDF",
+            "title_id": "b5b55648689084c5dde5f45a509fa797",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814779170",
+            "edition": "",
+            "product_id": 126,
+            "primary_format": true,
+            "date": {
+              "date": "1990-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG59",
+            "format_id": "DG",
+            "seo_link": "indentations-and-other-stories",
+            "detail": "",
+            "title_id": "b5b55648689084c5dde5f45a509fa797",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814741498",
+            "edition": "",
+            "product_id": 59,
+            "primary_format": false,
+            "date": {
+              "date": "1990-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG331",
+            "format_id": "DG",
+            "seo_link": "indentations-and-other-stories",
+            "detail": "",
+            "title_id": "b5b55648689084c5dde5f45a509fa797",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814788721",
+            "edition": "",
+            "product_id": 331,
+            "primary_format": false,
+            "date": {
+              "date": "1990-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}
