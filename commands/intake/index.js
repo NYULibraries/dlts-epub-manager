@@ -180,11 +180,6 @@ function intakeEpubs( intakeEpubsDir, epubIdList, outputEpubsDir, options ) {
                 updateReferencesToCoverHtmlFile( epub );
                 fs.renameSync( coverHtmlFile, coverXhtmlFile );
             }
-
-            createCoverImageThumbnail(
-                `${outputEpubDir}/ops/images/${epubId}.jpg`,
-                `${outputEpubDir}/ops/images/${epubId}-th.jpg`
-            );
         } catch( e ) {
             throw( `[ ${ epubId } ] ${ e }` );
         }
@@ -227,17 +222,3 @@ function updateReferencesToCoverHtmlFile( epub ) {
         }
     );
 }
-
-function createCoverImageThumbnail( fullsizeJpg, thumbnailJpg ) {
-    const cmd = `convert ${fullsizeJpg} -strip -resize 160\\> ${thumbnailJpg}`;
-
-    // From https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback:
-    //    "If the process times out, or has a non-zero exit code, this method will throw.
-    //     The Error object will contain the entire result from child_process.spawnSync()"
-    try {
-        execSync( cmd );
-    } catch ( e ) {
-        throw( e );
-    }
-}
-
