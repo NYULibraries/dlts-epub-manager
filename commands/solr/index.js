@@ -1,8 +1,7 @@
 "use strict";
 
-const _ = require( 'lodash' );
-
-const util  = require( '../../lib/util' );
+const helpers = require( '../../lib/command-helpers/solr' );
+const util    = require( '../../lib/util' );
 
 let em;
 
@@ -35,7 +34,7 @@ module.exports = function( vorpal ){
                 const epubMetadataAll = vorpal.em.metadata.getAll();
 
                 try {
-                    const epubsAdded = addEpubs( epubMetadataAll );
+                    const epubsAdded = helpers.addEpubs( em.conf, em.request, epubMetadataAll );
 
                     vorpal.log( `Added ${epubMetadataAll.size} EPUBs to Solr index:\n` + epubsAdded.join( '\n' ) );
 
@@ -79,7 +78,7 @@ module.exports = function( vorpal ){
 
                 epubMetadataAll.forEach( ( epubMetadata ) => {
                     try {
-                        deleteEpub( epubMetadata );
+                        helpers.deleteEpub( em.conf, em.request, epubMetadata );
 
                         vorpal.log( `Deleted ${epubMetadata.identifier} from Solr index.` );
 
@@ -115,7 +114,7 @@ module.exports = function( vorpal ){
                 }
 
                 try {
-                    deleteAllEpubs();
+                    helpers.deleteAllEpubs( em.conf, em.request );
 
                     vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
 
@@ -177,65 +176,3 @@ module.exports = function( vorpal ){
             }
         );
 };
-
-function addEpubs( epubMetadataAll) {
-    const solrUpdateUrl = util.getSolrUpdateUrl( em.conf ) + '/json?commit=true';
-
-    const addRequest = [];
-    const epubsAdded = [];
-
-    epubMetadataAll.forEach( ( epubMetadata ) => {
-        let doc = { id : epubMetadata.identifier };
-
-        Object.keys( epubMetadata ).forEach(
-            ( key ) => {
-                doc[ key ] = epubMetadata[ key ];
-            }
-        );
-
-        // Filter out any metadata fields that don't need to go into Solr
-        doc = _.pick( doc, util.SOLR_FIELDS );
-
-        addRequest.push( doc );
-        epubsAdded.push( epubMetadata.identifier );
-    } );
-
-    const response = em.request(
-        'POST', solrUpdateUrl, {
-            body : JSON.stringify( addRequest )
-        }
-    );
-
-    if ( response.statusCode !== 200 ) {
-        throw response.body.toString();
-    }
-
-    return epubsAdded;
-}
-
-function deleteEpub( epubMetadata ) {
-    try {
-        deleteEpubsByQuery( 'identifier:' + epubMetadata.identifier );
-    } catch ( error ) {
-        throw error;
-    }
-}
-
-function deleteAllEpubs() {
-    try {
-        deleteEpubsByQuery( '*:*' );
-    } catch ( error ) {
-        throw error;
-    }
-}
-
-function deleteEpubsByQuery( query ) {
-    const requestUrl = util.getSolrUpdateUrl( em.conf ) +
-                        `/?commit=true&stream.body=<delete><query>${query}</query></delete>`;
-
-    const response = em.request( 'GET', requestUrl );
-
-    if ( response.statusCode !== 200 ) {
-        throw response.body.toString();
-    }
-}
