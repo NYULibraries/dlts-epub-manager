@@ -1,8 +1,7 @@
 "use strict";
 
-const _ = require( 'lodash' );
-
-const util  = require( '../../lib/util' );
+const helpers = require( '../../lib/command-helpers/solr' );
+const util    = require( '../../lib/util' );
 
 let em;
 
@@ -11,7 +10,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'solr add [configuration]' )
         .description( 'Add EPUBs to Solr index.' )
-        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -25,17 +24,17 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
+                if ( ! em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return false;
                 }
 
-                const epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = em.metadata.getAll();
 
                 try {
-                    const epubsAdded = addEpubs( epubMetadataAll );
+                    const epubsAdded = helpers.addEpubs( em.conf, em.request, epubMetadataAll );
 
                     vorpal.log( `Added ${epubMetadataAll.size} EPUBs to Solr index:\n` + epubsAdded.join( '\n' ) );
 
@@ -54,7 +53,7 @@ module.exports = function( vorpal ){
     vorpal.command( 'solr delete [configuration]' )
         .description( 'Delete EPUBs from Solr index.' )
         // This doesn't work right now.  Vorpal automatically expands to 'delete all'.
-        // .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        // .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -68,18 +67,18 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
+                if ( ! em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return false;
                 }
 
-                const epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = em.metadata.getAll();
 
                 epubMetadataAll.forEach( ( epubMetadata ) => {
                     try {
-                        deleteEpub( epubMetadata );
+                        helpers.deleteEpub( em.conf, em.request, epubMetadata );
 
                         vorpal.log( `Deleted ${epubMetadata.identifier} from Solr index.` );
 
@@ -100,7 +99,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'solr delete all [configuration]' )
         .description( 'Delete all EPUBs from Solr index.' )
-        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -115,9 +114,9 @@ module.exports = function( vorpal ){
                 }
 
                 try {
-                    deleteAllEpubs();
+                    helpers.deleteAllEpubs( em.conf, em.request );
 
-                    vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
+                    vorpal.log( `Deleted all documents from Solr index for conf "${em.conf.name}".` );
 
                     if ( callback ) { callback(); } else { return true; }
                 } catch( error ) {
@@ -148,27 +147,27 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
+                if ( ! em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return false;
                 }
 
-                const deleteAllSucceeded = vorpal.execSync( `solr delete all ${vorpal.em.conf.name}`, { fatal : true } );
+                const deleteAllSucceeded = vorpal.execSync( `solr delete all ${em.conf.name}`, { fatal : true } );
 
                 if ( deleteAllSucceeded ) {
-                    const addSucceeded = vorpal.execSync( `solr add ${vorpal.em.conf.name}`, { fatal : true } );
+                    const addSucceeded = vorpal.execSync( `solr add ${em.conf.name}`, { fatal : true } );
 
                     if ( addSucceeded ) {
-                        vorpal.log( `Fully replaced all EPUBs for conf ${vorpal.em.conf.name}.` );
+                        vorpal.log( `Fully replaced all EPUBs for conf ${em.conf.name}.` );
 
                         result = true;
                     } else {
                         result = false;
                     }
                 } else {
-                    vorpal.log( `Aborting \`full-replace\` for ${vorpal.em.conf.name}.` );
+                    vorpal.log( `Aborting \`full-replace\` for ${em.conf.name}.` );
 
                     result = false;
                 }
@@ -177,65 +176,3 @@ module.exports = function( vorpal ){
             }
         );
 };
-
-function addEpubs( epubMetadataAll) {
-    const solrUpdateUrl = util.getSolrUpdateUrl( em.conf ) + '/json?commit=true';
-
-    const addRequest = [];
-    const epubsAdded = [];
-
-    epubMetadataAll.forEach( ( epubMetadata ) => {
-        let doc = { id : epubMetadata.identifier };
-
-        Object.keys( epubMetadata ).forEach(
-            ( key ) => {
-                doc[ key ] = epubMetadata[ key ];
-            }
-        );
-
-        // Filter out any metadata fields that don't need to go into Solr
-        doc = _.pick( doc, util.SOLR_FIELDS );
-
-        addRequest.push( doc );
-        epubsAdded.push( epubMetadata.identifier );
-    } );
-
-    const response = em.request(
-        'POST', solrUpdateUrl, {
-            body : JSON.stringify( addRequest )
-        }
-    );
-
-    if ( response.statusCode !== 200 ) {
-        throw response.body.toString();
-    }
-
-    return epubsAdded;
-}
-
-function deleteEpub( epubMetadata ) {
-    try {
-        deleteEpubsByQuery( 'identifier:' + epubMetadata.identifier );
-    } catch ( error ) {
-        throw error;
-    }
-}
-
-function deleteAllEpubs() {
-    try {
-        deleteEpubsByQuery( '*:*' );
-    } catch ( error ) {
-        throw error;
-    }
-}
-
-function deleteEpubsByQuery( query ) {
-    const requestUrl = util.getSolrUpdateUrl( em.conf ) +
-                        `/?commit=true&stream.body=<delete><query>${query}</query></delete>`;
-
-    const response = em.request( 'GET', requestUrl );
-
-    if ( response.statusCode !== 200 ) {
-        throw response.body.toString();
-    }
-}
