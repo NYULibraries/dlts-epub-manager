@@ -3,11 +3,10 @@
 const fs        = require( 'fs' );
 const path      = require( 'path' );
 
+const helpers = require( '../../lib/command-helpers/load' );
 const util = require( '../../lib/util' );
 
 let em;
-
-const HANDLE_SERVER = 'http://hdl.handle.net';
 
 module.exports = function( vorpal ) {
     em = vorpal.em;
@@ -59,7 +58,7 @@ module.exports = function( vorpal ) {
 
                 let metadataEpubList = [];
                 try {
-                    metadataEpubList = getEpubList( em.conf, 'metadataEpubList', metadataDir );
+                    metadataEpubList = helpers.getEpubList( em.conf, 'metadataEpubList', metadataDir );
                 } catch ( e ) {
                     vorpal.log(
                         `ERROR in ${configFileBasename}: ${e}`
@@ -69,7 +68,7 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
-                const metadata = getMetadataForEpubs( metadataDir, metadataEpubList );
+                const metadata = helpers.getMetadataForEpubs( metadataDir, metadataEpubList );
 
                 if ( em.conf.cacheMetadataInMemory ) {
                     vorpal.em.metadata = {
@@ -98,7 +97,7 @@ module.exports = function( vorpal ) {
 
                 em.intakeEpubList = [];
                 try {
-                    em.intakeEpubList = getEpubList( em.conf, 'intakeEpubList', em.conf.intakeEpubDir );
+                    em.intakeEpubList = helpers.getEpubList( em.conf, 'intakeEpubList', em.conf.intakeEpubDir );
                 } catch ( e ) {
                     vorpal.log(
                         `ERROR in ${configFileBasename}: ${e}`
@@ -156,96 +155,3 @@ module.exports = function( vorpal ) {
             }
         );
 };
-
-function getEpubListFromDirectory( dir ) {
-    const epubList = fs.readdirSync( dir ).filter(
-        ( filename ) => {
-            return util.isValidNormalizedIsbn13( filename );
-        }
-    );
-
-    return epubList.length > 0 ? epubList : null;
-}
-
-function getInvalidEpubIds( epubIds ) {
-    const invalidEpubIds = [];
-
-    epubIds.forEach( ( epubId )=> {
-        if ( ! util.isValidNormalizedIsbn13( epubId ) ) {
-            invalidEpubIds.push( epubId );
-        }
-    } );
-
-    return invalidEpubIds.length > 0 ? invalidEpubIds : null;
-}
-
-function getMetadataForEpubs( metadataDir, epubList ) {
-    const metadata = new Map();
-
-    if ( ! epubList ) {
-        return metadata;
-    }
-
-    epubList.forEach( ( epubId ) => {
-        metadata.set( epubId, getMetadataForEpub( `${metadataDir}/${epubId}` ) );
-    } );
-
-    return metadata;
-}
-
-function getMetadataForEpub( explodedEpubDir ) {
-    // Order is lowest priority to highest priority
-    const metadataFilesInPriorityOrder =
-        [
-            'intake-descriptive.json',
-            'dlts-descriptive.json',
-            `dlts-administrative.json`
-        ]
-        .map( ( file ) => { return `${explodedEpubDir}/${file}`; } );
-
-    const metadata = {};
-    metadataFilesInPriorityOrder.forEach( ( file ) => {
-        if ( fs.existsSync( file ) ) {
-            Object.assign( metadata, require( file ) );
-        }
-    } );
-
-    // TODO: Maybe figure out a better way to do this.  Maybe add "handleUrl" to
-    // metadata and change Solr schema and website queries to use that instead of
-    // handle.
-    metadata.handle_local_name_and_prefix = metadata.handle;
-    metadata.handle = `${HANDLE_SERVER}/${metadata.handle}`;
-
-    return metadata;
-}
-
-function getEpubList( conf, epubListType, directory ) {
-    var confEpubList = conf[ epubListType ];
-
-    if ( confEpubList ) {
-        if ( ! Array.isArray( confEpubList ) ) {
-            throw( `"${epubListType}" must be an array.` );
-        }
-
-        const invalidEpubIds = getInvalidEpubIds( confEpubList );
-
-        if ( invalidEpubIds ) {
-            throw( 'The following EPUB ids are invalid:\n' +
-                invalidEpubIds.map(
-                    ( epubId ) => { return '  ' + epubId + '\n'; }
-                )
-            );
-        }
-
-        return confEpubList;
-    } else {
-        // Not required that there be a directory if no explicit epub list is
-        // given in the conf file.  We assume that caller is making the decision
-        // about what epub list stuff is mandatory in the conf file.
-        if ( directory ) {
-            return getEpubListFromDirectory( directory );
-        } else {
-            return [];
-        }
-    }
-}
