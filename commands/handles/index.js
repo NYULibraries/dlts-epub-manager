@@ -1,7 +1,7 @@
 "use strict";
 
 const helpers = require( '../../lib/command-helpers/handles' );
-const util  = require( '../../lib/util' );
+const util    = require( '../../lib/util' );
 
 let em;
 

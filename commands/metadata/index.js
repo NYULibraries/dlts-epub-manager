@@ -2,9 +2,9 @@
 
 const fs        = require( 'fs' );
 
-const helpers = require( '../../lib/command-helpers/metadata' );
+const helpers   = require( '../../lib/command-helpers/metadata' );
 const Supafolio = require( '../../lib/supafolio/Supafolio' ).Supafolio;
-const util = require( '../../lib/util' );
+const util      = require( '../../lib/util' );
 
 let em;
 

@@ -4,7 +4,7 @@ const fs        = require( 'fs' );
 const path      = require( 'path' );
 
 const helpers = require( '../../lib/command-helpers/load' );
-const util = require( '../../lib/util' );
+const util    = require( '../../lib/util' );
 
 let em;
 
