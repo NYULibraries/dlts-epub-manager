@@ -10,7 +10,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'solr add [configuration]' )
         .description( 'Add EPUBs to Solr index.' )
-        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -24,14 +24,14 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
+                if ( ! em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return false;
                 }
 
-                const epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = em.metadata.getAll();
 
                 try {
                     const epubsAdded = helpers.addEpubs( em.conf, em.request, epubMetadataAll );
@@ -53,7 +53,7 @@ module.exports = function( vorpal ){
     vorpal.command( 'solr delete [configuration]' )
         .description( 'Delete EPUBs from Solr index.' )
         // This doesn't work right now.  Vorpal automatically expands to 'delete all'.
-        // .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        // .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -67,14 +67,14 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
+                if ( ! em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return false;
                 }
 
-                const epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = em.metadata.getAll();
 
                 epubMetadataAll.forEach( ( epubMetadata ) => {
                     try {
@@ -99,7 +99,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'solr delete all [configuration]' )
         .description( 'Delete all EPUBs from Solr index.' )
-        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -116,7 +116,7 @@ module.exports = function( vorpal ){
                 try {
                     helpers.deleteAllEpubs( em.conf, em.request );
 
-                    vorpal.log( `Deleted all documents from Solr index for conf "${vorpal.em.conf.name}".` );
+                    vorpal.log( `Deleted all documents from Solr index for conf "${em.conf.name}".` );
 
                     if ( callback ) { callback(); } else { return true; }
                 } catch( error ) {
@@ -147,27 +147,27 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
+                if ( ! em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return false;
                 }
 
-                const deleteAllSucceeded = vorpal.execSync( `solr delete all ${vorpal.em.conf.name}`, { fatal : true } );
+                const deleteAllSucceeded = vorpal.execSync( `solr delete all ${em.conf.name}`, { fatal : true } );
 
                 if ( deleteAllSucceeded ) {
-                    const addSucceeded = vorpal.execSync( `solr add ${vorpal.em.conf.name}`, { fatal : true } );
+                    const addSucceeded = vorpal.execSync( `solr add ${em.conf.name}`, { fatal : true } );
 
                     if ( addSucceeded ) {
-                        vorpal.log( `Fully replaced all EPUBs for conf ${vorpal.em.conf.name}.` );
+                        vorpal.log( `Fully replaced all EPUBs for conf ${em.conf.name}.` );
 
                         result = true;
                     } else {
                         result = false;
                     }
                 } else {
-                    vorpal.log( `Aborting \`full-replace\` for ${vorpal.em.conf.name}.` );
+                    vorpal.log( `Aborting \`full-replace\` for ${em.conf.name}.` );
 
                     result = false;
                 }
