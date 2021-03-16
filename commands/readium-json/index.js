@@ -12,7 +12,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'readium-json add [configuration]' )
         .description( 'Add EPUBs to `epub_library.json` file.' )
-        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -26,20 +26,20 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
+                if ( ! em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return false;
                 }
 
-                const epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = em.metadata.getAll();
 
                 let readiumJsonFile;
                 try {
-                    readiumJsonFile = helpers.getReadiumJsonFile( vorpal.em.rootDir, vorpal.em.conf );
+                    readiumJsonFile = helpers.getReadiumJsonFile( em.rootDir, em.conf );
                 } catch ( error ) {
-                    vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
+                    vorpal.log( `ERROR in configuration "${em.conf.name}": ${error}` );
 
                     if ( callback ) { callback(); }
                     return false;
@@ -58,7 +58,7 @@ module.exports = function( vorpal ){
                 fs.writeFileSync( readiumJsonFile, readiumJsonString );
 
                 vorpal.log( `Added to Readium JSON file ${readiumJsonFile} ` +
-                            `for conf "${vorpal.em.conf.name}": ${epubMetadataAll.size } EPUBs.` );
+                            `for conf "${em.conf.name}": ${epubMetadataAll.size } EPUBs.` );
 
                 if ( callback ) { callback(); }
                 return true;
@@ -67,7 +67,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'readium-json delete [configuration]' )
         .description( 'Delete EPUBs from `epub_library.json` file.' )
-        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -81,20 +81,20 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
+                if ( ! em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
                     return false;
                 }
 
-                const epubMetadataAll = vorpal.em.metadata.getAll();
+                const epubMetadataAll = em.metadata.getAll();
 
                 let readiumJsonFile;
                 try {
-                    readiumJsonFile = helpers.getReadiumJsonFile( vorpal.em.rootDir, vorpal.em.conf );
+                    readiumJsonFile = helpers.getReadiumJsonFile( em.rootDir, em.conf );
                 } catch ( error ) {
-                    vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
+                    vorpal.log( `ERROR in configuration "${em.conf.name}": ${error}` );
 
                     if ( callback ) { callback(); }
                     return false;
@@ -113,7 +113,7 @@ module.exports = function( vorpal ){
                 fs.writeFileSync( readiumJsonFile, readiumJsonString );
 
                 vorpal.log( `Deleted from Readium JSON file ${readiumJsonFile} ` +
-                            `for conf "${vorpal.em.conf.name}": ${epubMetadataAll.size } EPUBs.` );
+                            `for conf "${em.conf.name}": ${epubMetadataAll.size } EPUBs.` );
 
                 if ( callback ) { callback(); }
                 return true;
@@ -123,7 +123,7 @@ module.exports = function( vorpal ){
     vorpal.command( 'readium-json delete all [configuration]' )
         .description( 'Delete all EPUBs from `epub_library.json` file.' )
         // This doesn't work right now.  Vorpal automatically expands to 'delete all'.
-        // .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        // .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 if ( args.configuration ) {
@@ -139,9 +139,9 @@ module.exports = function( vorpal ){
 
                 let readiumJsonFile;
                 try {
-                    readiumJsonFile = helpers.getReadiumJsonFile( vorpal.em.rootDir, vorpal.em.conf );
+                    readiumJsonFile = helpers.getReadiumJsonFile( em.rootDir, em.conf );
                 } catch ( error ) {
-                    vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
+                    vorpal.log( `ERROR in configuration "${em.conf.name}": ${error}` );
 
                     if ( callback ) { callback(); }
                     return false;
@@ -158,7 +158,7 @@ module.exports = function( vorpal ){
 
     vorpal.command( 'readium-json full-replace [configuration]' )
         .description( 'Replace entire `epub_library.json` file.' )
-        .autocomplete( util.getConfigFileBasenames( vorpal.em.configDir ) )
+        .autocomplete( util.getConfigFileBasenames( em.configDir ) )
         .action(
             function( args, callback ) {
                 let result = false;
@@ -174,7 +174,7 @@ module.exports = function( vorpal ){
                     }
                 }
 
-                if ( ! vorpal.em.metadata ) {
+                if ( ! em.metadata ) {
                     vorpal.log( util.ERROR_METADATA_NOT_LOADED );
 
                     if ( callback ) { callback(); }
@@ -183,34 +183,34 @@ module.exports = function( vorpal ){
 
                 let readiumJsonFile;
                 try {
-                    readiumJsonFile = helpers.getReadiumJsonFile( vorpal.em.rootDir, vorpal.em.conf );
+                    readiumJsonFile = helpers.getReadiumJsonFile( em.rootDir, em.conf );
                 } catch ( error ) {
-                    vorpal.log( `ERROR in configuration "${vorpal.em.conf.name}": ${error}` );
+                    vorpal.log( `ERROR in configuration "${em.conf.name}": ${error}` );
 
                     if ( callback ) { callback(); }
                     return false;
                 }
 
                 const deleteAllSucceeded = vorpal.execSync(
-                    `readium-json delete all ${vorpal.em.conf.name}`,
+                    `readium-json delete all ${em.conf.name}`,
                     { fatal : true }
                 );
 
                 if ( deleteAllSucceeded ) {
                     const addSucceeded = vorpal.execSync(
-                        `readium-json add ${vorpal.em.conf.name}`,
+                        `readium-json add ${em.conf.name}`,
                         { fatal : true }
                     );
 
                     if ( addSucceeded ) {
-                        vorpal.log( `Fully replaced all EPUBs in Readium JSON for conf ${vorpal.em.conf.name}.` );
+                        vorpal.log( `Fully replaced all EPUBs in Readium JSON for conf ${em.conf.name}.` );
 
                         result = true;
                     } else {
                         result = false;
                     }
                 } else {
-                    vorpal.log( `Aborting \`full-replace\` for ${vorpal.em.conf.name}.` );
+                    vorpal.log( `Aborting \`full-replace\` for ${em.conf.name}.` );
 
                     result = false;
                 }
