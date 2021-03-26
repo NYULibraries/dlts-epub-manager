@@ -61,8 +61,6 @@ class SupafolioApiStub {
 
     // Example: http://api.supafolio.com/v2/book/9780814706404
     request( method, url, options ) {
-        let response;
-
         const isbn = SupafolioApiStub.parseIsbn( url );
 
         if ( isbn === SupafolioApiStub.TRIGGER_HTTP_ERROR_ISBN ) {
