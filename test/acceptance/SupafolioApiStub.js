@@ -11,7 +11,7 @@ const SupafolioApiErrorProductNotInDatabase =
 const SupafolioApiErrorResourceNotFound =
     require( '../../lib/supafolio/SupafolioApiErrorResourceNotFound' ).SupafolioApiErrorResourceNotFound;
 
-const SUPAFOLIO_API_FIXTURE_DIRECTORY = __dirname + '/fixture/supafolio-api/';
+const SUPAFOLIO_API_FIXTURE_DIRECTORY = path.join( __dirname, '/fixture/supafolio-api/' );
 const SUPAFOLIO_API_URL = 'http://api.supafolio.com/v2/book/';
 
 class SupafolioApiStub {
