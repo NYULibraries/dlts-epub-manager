@@ -32,6 +32,24 @@ class SupafolioApiStub {
         };
     }
 
+    static getAllBookResponses() {
+        const supafolioApiResponses = {};
+        const supafolioApiResponsesFixtureFiles = fs.readdirSync( SUPAFOLIO_API_FIXTURE_DIRECTORY );
+
+        supafolioApiResponsesFixtureFiles.forEach( ( supafolioApiResponseFixtureFile ) => {
+            if ( ! supafolioApiResponseFixtureFile.endsWith( '.json' ) ) {
+                return;
+            }
+
+            const epubId = path.basename( supafolioApiResponseFixtureFile, '.json' );
+
+            supafolioApiResponses[ epubId ] =
+                require( path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, supafolioApiResponseFixtureFile ) );
+        } );
+
+        return supafolioApiResponses;
+    }
+
     static parseIsbn( urlString ) {
         const urlObject = url.parse( urlString );
 
