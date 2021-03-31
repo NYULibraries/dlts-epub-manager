@@ -11,7 +11,7 @@ const SupafolioApiErrorProductNotInDatabase =
 const SupafolioApiErrorResourceNotFound =
     require( '../../lib/supafolio/SupafolioApiErrorResourceNotFound' ).SupafolioApiErrorResourceNotFound;
 
-const SUPAFOLIO_API_FIXTURE_DIRECTORY = __dirname + '/fixture/supafolio-api/';
+const SUPAFOLIO_API_FIXTURE_DIRECTORY = path.join( __dirname, '/fixture/supafolio-api/' );
 const SUPAFOLIO_API_URL = 'http://api.supafolio.com/v2/book/';
 
 class SupafolioApiStub {
@@ -30,6 +30,24 @@ class SupafolioApiStub {
             statusCode,
             body: `SupafolioApiStub ERROR: ${message}`,
         };
+    }
+
+    static getAllBookResponses() {
+        const supafolioApiResponses = {};
+        const supafolioApiResponsesFixtureFiles = fs.readdirSync( SUPAFOLIO_API_FIXTURE_DIRECTORY );
+
+        supafolioApiResponsesFixtureFiles.forEach( ( supafolioApiResponseFixtureFile ) => {
+            if ( ! supafolioApiResponseFixtureFile.endsWith( '.json' ) ) {
+                return;
+            }
+
+            const epubId = path.basename( supafolioApiResponseFixtureFile, '.json' );
+
+            supafolioApiResponses[ epubId ] =
+                require( path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, supafolioApiResponseFixtureFile ) );
+        } );
+
+        return supafolioApiResponses;
     }
 
     static parseIsbn( urlString ) {
@@ -61,8 +79,6 @@ class SupafolioApiStub {
 
     // Example: http://api.supafolio.com/v2/book/9780814706404
     request( method, url, options ) {
-        let response;
-
         const isbn = SupafolioApiStub.parseIsbn( url );
 
         if ( isbn === SupafolioApiStub.TRIGGER_HTTP_ERROR_ISBN ) {
