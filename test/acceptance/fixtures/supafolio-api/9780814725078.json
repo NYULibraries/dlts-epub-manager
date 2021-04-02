@@ -1,0 +1,341 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814711774",
+        "description": "<p>In this book, Barney explores her family tree, chronicles her friendships and associations through reprinted correspondence and recreated conversations, and evokes the golden age of her salon in  gallery of literary portraits.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 308,
+        "search_weight": 430,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814725078.001.0001",
+          "language": "eng",
+          "edition_isbn": "9780814725078",
+          "cs_title_group": "9780814725078",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1992-06-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1992-06-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 707371200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 393,
+        "isbn13": "9780814725078",
+        "title": "Adventures of the Mind",
+        "title_without_prefix": "Adventures of the Mind",
+        "seo": "adventures-of-the-mind",
+        "subtitle": "The Memoirs of Natalie Clifford Barney",
+        "title_id": "82c52cf3f3159afd0078fd9096d43bb4",
+        "reference_id": null,
+        "summary": "In this book, Barney explores her family tree, chronicles her friendships and associations through reprinted correspondence and recreated conversations, and evokes the golden age of her salon in...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "74.00",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.880",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "0",
+            "series": {
+              "name": "The Cutting Edge: Lesbian Life and Literature Series",
+              "seo_name": "the-cutting-edge-lesbian-life-and-literature-series",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUWGS000",
+              "code_3": "NYU",
+              "code_6": "NYUWGS",
+              "name": "Women's & Gender Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUWGS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULLS000",
+              "code_3": "NYU",
+              "code_6": "NYULLS",
+              "name": "Literature & Literary Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULLS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Natalie Clifford Barney",
+            "contributor_id": 100042,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100042,
+              "name": "Natalie Clifford Barney",
+              "first": "Natalie Clifford",
+              "last": "Barney",
+              "seo": "natalie-clifford-barney",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": null,
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          },
+          {
+            "order": 2,
+            "note": "",
+            "contributor_id": 100043,
+            "role_id": "B06",
+            "contributor": {
+              "contributor_id": 100043,
+              "name": "John Spalding Gatton",
+              "first": "John Spalding",
+              "last": "Gatton",
+              "seo": "john-spalding-gatton",
+              "role": "B06",
+              "hide": false,
+              "reference_id": null,
+              "bio": "Translator <b>John Spalding Gatton</b> is Assistant Professor in the Department of English at Bellarmine College.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B06",
+              "name": "Translated by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1207-393",
+            "asset_id": "1207",
+            "asset": {
+              "id": "1207",
+              "unique": "a8914ada8bad55448df5726d885a522d",
+              "name": "648-H-9780814725078.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-06-23 19:30:51"
+            }
+          },
+          {
+            "id": "1165-393",
+            "asset_id": "1165",
+            "asset": {
+              "id": "1165",
+              "unique": "dd73da987b9eb946a2c159863e588657",
+              "name": "145-W-9780814725078.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-06-23 19:30:51"
+            }
+          },
+          {
+            "id": "1186-393",
+            "asset_id": "1186",
+            "asset": {
+              "id": "1186",
+              "unique": "93431ff324b214bf02464c601ab5336a",
+              "name": "298-W-9780814725078.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-06-23 19:30:51"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB393",
+            "format_id": "BB",
+            "seo_link": "adventures-of-the-mind",
+            "detail": "Print PDF",
+            "title_id": "82c52cf3f3159afd0078fd9096d43bb4",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814725078",
+            "edition": "",
+            "product_id": 393,
+            "primary_format": true,
+            "date": {
+              "date": "1992-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG400",
+            "format_id": "DG",
+            "seo_link": "adventures-of-the-mind",
+            "detail": "",
+            "title_id": "82c52cf3f3159afd0078fd9096d43bb4",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814787281",
+            "edition": "",
+            "product_id": 400,
+            "primary_format": false,
+            "date": {
+              "date": "1992-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG401",
+            "format_id": "DG",
+            "seo_link": "adventures-of-the-mind",
+            "detail": "",
+            "title_id": "82c52cf3f3159afd0078fd9096d43bb4",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814725078",
+            "edition": "",
+            "product_id": 401,
+            "primary_format": false,
+            "date": {
+              "date": "1992-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

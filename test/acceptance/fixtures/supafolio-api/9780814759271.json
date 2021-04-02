@@ -1,0 +1,354 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814757979",
+        "description": "<p>In an age when innovative scholarly work is at an all-time high, the academy itself is being rocked by structural change. Funding is plummeting. Tenure increasingly seems a prospect for only the elite few. Ph.D.'s are going begging for even adjunct work. Into this tumult steps Cary Nelson, with a no- holds-barred account of recent developments in higher education.<br> Eloquent and witty, <b>Manifesto of a Tenured Radical</b> urges academics to apply the theoretical advances of the last twenty years to an analysis of their own practices and standards of behavior. In the process, Nelson offers a devastating critique of current inequities and a detailed proposal for change in the form of A Twelve-Step Program for Academia.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 254,
+        "search_weight": 550,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814759271",
+          "cs_title_group": "9780814757949",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814759271",
+          "ebook": "9780814758731",
+          "hardcover": "9780814757949",
+          "paperback": "9780814759271",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814759271.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1997-04-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1997-04-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 859870800,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 340,
+        "isbn13": "9780814759271",
+        "title": "Manifesto of a Tenured Radical",
+        "title_without_prefix": "Manifesto of a Tenured Radical",
+        "seo": "manifesto-of-a-tenured-radical",
+        "subtitle": "",
+        "title_id": "32a01c1559866482567d01a31fcb3d36",
+        "reference_id": null,
+        "summary": "In an age when innovative scholarly work is at an all-time high, the academy itself is being rocked by structural change. Funding is plummeting. Tenure increasingly seems a prospect for only the...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.750",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUE00000",
+              "code_3": "NYU",
+              "code_6": "NYUE00",
+              "name": "Education",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUE"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Cary Nelson",
+            "contributor_id": 100067,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100067,
+              "name": "Cary Nelson",
+              "first": "Cary",
+              "last": "Nelson",
+              "seo": "cary-nelson",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Cary Nelson</b> is Jublilee Professor of Liberal Arts and Sciences at the University of Illinois at Urbana-Champaign. He is also the national president of the American Association of University Professors (AAUP). Among his twenty-five books are Manifesto of a Tenured Radical (also published by NYU) and the landmark coedited collection Cultural Studies.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1112-340",
+            "asset_id": "1112",
+            "asset": {
+              "id": "1112",
+              "unique": "14e144fbf387889d869fce1231c2ee63",
+              "name": "648-H-9780814759271.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "860-340",
+            "asset_id": "860",
+            "asset": {
+              "id": "860",
+              "unique": "830c02f6f93bfda7da63dada83de5670",
+              "name": "145-W-9780814759271.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "986-340",
+            "asset_id": "986",
+            "asset": {
+              "id": "986",
+              "unique": "7f370243c5bff21b6cc2b8f4095e1a5a",
+              "name": "298-W-9780814759271.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC340",
+            "format_id": "BC",
+            "seo_link": "manifesto-of-a-tenured-radical",
+            "detail": "Print PDF",
+            "title_id": "32a01c1559866482567d01a31fcb3d36",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814759271",
+            "edition": "",
+            "product_id": 340,
+            "primary_format": true,
+            "date": {
+              "date": "1997-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG45",
+            "format_id": "DG",
+            "seo_link": "manifesto-of-a-tenured-radical",
+            "detail": "",
+            "title_id": "32a01c1559866482567d01a31fcb3d36",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814759271",
+            "edition": "",
+            "product_id": 45,
+            "primary_format": false,
+            "date": {
+              "date": "1997-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB112",
+            "format_id": "BB",
+            "seo_link": "manifesto-of-a-tenured-radical",
+            "detail": "Print PDF",
+            "title_id": "32a01c1559866482567d01a31fcb3d36",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814757949",
+            "edition": "",
+            "product_id": 112,
+            "primary_format": false,
+            "date": {
+              "date": "1997-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG339",
+            "format_id": "DG",
+            "seo_link": "manifesto-of-a-tenured-radical",
+            "detail": "",
+            "title_id": "32a01c1559866482567d01a31fcb3d36",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814758731",
+            "edition": "",
+            "product_id": 339,
+            "primary_format": false,
+            "date": {
+              "date": "1997-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "340-11786",
+            "review_id": "11786",
+            "review": {
+              "id": "11786",
+              "reviewer": "Constance Penley,University of California at Santa Barbara",
+              "description": "\"Manifesto of a Tenured Radicalis the Silent Spring of higher education.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814759271-c0099954aa66d37b124dbe8f4025c1d9",
+              "assets": []
+            }
+          },
+          {
+            "id": "340-11787",
+            "review_id": "11787",
+            "review": {
+              "id": "11787",
+              "reviewer": "Andrew Ross,author of Real Love and The Chicago Gangster Theory of Life",
+              "description": "\"Armed with a keen conscience and a fearless wit, Cary Nelson exposes the moral bankruptcy that underpins the current crisis of academic labor. From underpaid cafeteria workers and underemployed Ph.D.'s to overindulged professors and CEO- wannabe university presidents, Nelson's groves of academe are littered with inequality and injustice. Whether on the topic of the future of literary studies or the unionization of graduate students, Manifesto of a Tenured Radical presents a devastating case for the correction of the profession.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814759271-9ded68a56cffa12c3a79c4e4282e954b",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

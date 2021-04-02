@@ -1,7 +1,7 @@
 {
     "cacheMetadataInMemory" : true,
     "metadataDir"           : "test/acceptance/fixtures/metadataDirs/full",
-    "metadataEpubList"      : [ "9780814706404", "9780814706657", "9780814711774" ],
+    "metadataEpubList"      : [ "9780814707821", "9780814707517", "9780814725078" ],
 
     "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
 

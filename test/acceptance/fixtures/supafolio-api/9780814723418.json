@@ -1,0 +1,327 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814712487",
+        "description": "<p>The epidemic of mass rape in the former Yugoslavia has illustrated once again, and in particularly brutal fashion, the inextricable relationship between national politics, sexual politics, and body politics.  The nexus of these three forces is highly charged in any culture, at any time in history, but especially so among cultures in which rapid, even cataclysmic, changes in material realities and national self-conceptions are eroding or overwhelming previously secure boundaries.<br>The postcommunist moment in the so-called Second World--Central and Eastern Europe and the former Soviet Union--has dramatically exposed the opportunities and dangers that arise when the political, cultural, and economic foundations of a society are de- and then re-structured. Gender roles and relations, expressions of sexuality or attempts to recontain them, representations of the body, especially the female body, and the larger, cultural meanings it assumes, are particularly marked sites to witness the performance of complex national dramas of crisis and change.<br>This groundbreaking volume turns its attention to the Second World, specifically to such subjects as the birth of the sex media and porn industry in Russia; Russian women and alcoholism; cinema in post-communist Hungary; patriotism and gender in Poland; sexual dissidence in Eastern Europe; and women in the former Yugoslavia.<br> >[ go to the Genders website ]</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 328,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "language": "eng",
+          "edition_isbn": "9780814723418",
+          "cs_title_group": "9780814712474",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814723418",
+          "ebook": "9780814786130",
+          "hardcover": "9780814712474",
+          "paperback": "9780814723418",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814723418.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 804571200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 321,
+        "isbn13": "9780814723418",
+        "title": "Genders 22",
+        "title_without_prefix": "Genders 22",
+        "seo": "genders-22",
+        "subtitle": "Postcommunism and the Body Politic",
+        "title_id": "19e03540a4106ffde3c53cac81ee6e50",
+        "reference_id": null,
+        "summary": "The epidemic of mass rape in the former Yugoslavia has illustrated once again, and in particularly brutal fashion, the inextricable relationship between national politics, sexual politics, and body...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.940",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULGBTQS",
+              "code_3": "NYU",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULGBTQS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUWGS000",
+              "code_3": "NYU",
+              "code_6": "NYUWGS",
+              "name": "Women's & Gender Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUWGS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Ellen E. Berry",
+            "contributor_id": 100044,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100044,
+              "name": "Ellen E. Berry",
+              "first": "Ellen E.",
+              "last": "Berry",
+              "seo": "ellen-e-berry",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Ellen E. Berry</b> is Associate Professor of English and Director of the Women's Studies program at Bowling Green State University.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1093-321",
+            "asset_id": "1093",
+            "asset": {
+              "id": "1093",
+              "unique": "6f0fbe435dee473554b2f86e20395581",
+              "name": "648-H-9780814723418.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "841-321",
+            "asset_id": "841",
+            "asset": {
+              "id": "841",
+              "unique": "2829dc4887b82ee86735cbe45d333db8",
+              "name": "145-W-9780814723418.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "967-321",
+            "asset_id": "967",
+            "asset": {
+              "id": "967",
+              "unique": "71cddba1a6a8166d57248c8850e1b0b7",
+              "name": "298-W-9780814723418.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC321",
+            "format_id": "BC",
+            "seo_link": "genders-22",
+            "detail": "Print PDF",
+            "title_id": "19e03540a4106ffde3c53cac81ee6e50",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814723418",
+            "edition": "",
+            "product_id": 321,
+            "primary_format": true,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG29",
+            "format_id": "DG",
+            "seo_link": "genders-22",
+            "detail": "",
+            "title_id": "19e03540a4106ffde3c53cac81ee6e50",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814723418",
+            "edition": "",
+            "product_id": 29,
+            "primary_format": false,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB97",
+            "format_id": "BB",
+            "seo_link": "genders-22",
+            "detail": "Print PDF",
+            "title_id": "19e03540a4106ffde3c53cac81ee6e50",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814712474",
+            "edition": "",
+            "product_id": 97,
+            "primary_format": false,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG320",
+            "format_id": "DG",
+            "seo_link": "genders-22",
+            "detail": "",
+            "title_id": "19e03540a4106ffde3c53cac81ee6e50",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814786130",
+            "edition": "",
+            "product_id": 320,
+            "primary_format": false,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814718760",
+        "description": "<p>This expansive volume traces the rhetoric of reform across American history, examining such pivotal periods as the American Revolution, slavery, McCarthyism, and today's gay liberation movement. At a time when social movements led by religious leaders, from Louis Farrakhan to Pat Buchanan, are playing a central role in American politics, James Darsey connects this radical tradition with its prophetic roots.<br>Public discourse in the West is derived from the Greek principles of civility, diplomacy, compromise, and negotiation. On this model, radical speech is often taken to be a sympton of social disorder. Not so, contends Darsey, who argues that the rhetoric of reform in America represents the continuation of a tradition separate from the commonly accepted principles of the Greeks. Though the links have gone unrecognized, the American radical tradition stems not from Aristotle, he maintains, but from the prophets of the Hebrew Bible.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 292,
+        "search_weight": 540,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814720981",
+          "cs_title_group": "9780814720981",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814720981",
+          "ebook": "9780814744154",
+          "hardcover": "9780814720981",
+          "paperback": "9780814719244",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814720981.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": false,
+        "date": {
+          "date": "1997-08-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1997-08-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 870408000,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 108,
+        "isbn13": "9780814720981",
+        "title": "The Prophetic Tradition and Radical Rhetoric in America",
+        "title_without_prefix": "Prophetic Tradition and Radical Rhetoric in America",
+        "seo": "the-prophetic-tradition-and-radical-rhetoric-in-america",
+        "subtitle": "",
+        "title_id": "c1cc8f05a5c17adc9ae772289e2f670c",
+        "reference_id": null,
+        "summary": "This expansive volume traces the rhetoric of reform across American history, examining such pivotal periods as the American Revolution, slavery, McCarthyism, and today's gay liberation movement....",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "74.00",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.190",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUR00000",
+              "code_3": "NYU",
+              "code_6": "NYUR00",
+              "name": "Religion",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUR"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "James Darsey",
+            "contributor_id": 100058,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100058,
+              "name": "James Darsey",
+              "first": "James",
+              "last": "Darsey",
+              "seo": "james-darsey",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>James Darsey</b> is Assistant Professor of Communication at Northern Illinois University.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "376-108",
+            "asset_id": "376",
+            "asset": {
+              "id": "376",
+              "unique": "9c9914a01312f4c14f11d2650be0f559",
+              "name": "648-H-9780814720981.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "108-108",
+            "asset_id": "108",
+            "asset": {
+              "id": "108",
+              "unique": "cc3a824a4c491527e9654c7174ee8f49",
+              "name": "145-W-9780814720981.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "242-108",
+            "asset_id": "242",
+            "asset": {
+              "id": "242",
+              "unique": "cce955dd9baf9b7c95d1ac16e685477d",
+              "name": "298-W-9780814720981.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB108",
+            "format_id": "BB",
+            "seo_link": "the-prophetic-tradition-and-radical-rhetoric-in-america",
+            "detail": "Print PDF",
+            "title_id": "c1cc8f05a5c17adc9ae772289e2f670c",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814720981",
+            "edition": "",
+            "product_id": 108,
+            "primary_format": false,
+            "date": {
+              "date": "1997-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG41",
+            "format_id": "DG",
+            "seo_link": "the-prophetic-tradition-and-radical-rhetoric-in-america",
+            "detail": "",
+            "title_id": "c1cc8f05a5c17adc9ae772289e2f670c",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814720981",
+            "edition": "",
+            "product_id": 41,
+            "primary_format": false,
+            "date": {
+              "date": "1997-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG355",
+            "format_id": "DG",
+            "seo_link": "the-prophetic-tradition-and-radical-rhetoric-in-america",
+            "detail": "",
+            "title_id": "c1cc8f05a5c17adc9ae772289e2f670c",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814744154",
+            "edition": "",
+            "product_id": 355,
+            "primary_format": false,
+            "date": {
+              "date": "1999-09-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC356",
+            "format_id": "BC",
+            "seo_link": "the-prophetic-tradition-and-radical-rhetoric-in-america",
+            "detail": "Print PDF",
+            "title_id": "c1cc8f05a5c17adc9ae772289e2f670c",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814719244",
+            "edition": "",
+            "product_id": 356,
+            "primary_format": true,
+            "date": {
+              "date": "1999-09-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "108-11724",
+            "review_id": "11724",
+            "review": {
+              "id": "11724",
+              "reviewer": "Daniel Boyarin,author of A Radical Jew: Paul and the Politics of Identity",
+              "description": "\"<b>The Prophetic Tradition and Radical Rhetoric in America</b> importantly connects the radical rhetorical tradition with biblical (prophetic) roots as an alternative to the Greek rhetorical tradition. . . . The book also makes an important contribution to the history of the present in showing that contemporary radical movements are grounded in American tradition and ethos. The story tells of a direct, actual, and unbroken line from Paine and the revolution to Phillips to Debs [that] is simply riveting.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814720981-b2ee7885192ef2f6803e0bae63941655",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814712916",
+        "description": "<p>Gail R. Benjamin reaches beyond predictable images of authoritarian Japanese educators and automaton schoolchildren to show the advantages and disadvantages of a system remarkably different from the American one... --<i>The New York Times Book Review</i><br> Americans regard the Japanese educational system and the lives of Japanese children with a mixture of awe and indignance. We respect a system that produces higher literacy rates and superior math skills, but we reject the excesses of a system that leaves children with little free time and few outlets for creativity and self-expression.<br> In <b>Japanese Lessons</b>, Gail R. Benjamin recounts her experiences as a American parent with two children in a Japanese elementary school. An anthropologist, Benjamin successfully weds the roles of observer and parent, illuminating the strengths of the Japanese system and suggesting ways in which Americans might learn from it.<br> With an anthropologist's keen eye, Benjamin takes us through a full year in a Japanese public elementary school, bringing us into the classroom with its comforting structure, lively participation, varied teaching styles, and non-authoritarian teachers. We follow the children on class trips and Sports Days and through the rigors of summer vacation homework. We share the experiences of her young son and daughter as they react to Japanese schools, friends, and teachers. Through Benjamin we learn what it means to be a mother in Japan--how minute details, such as the way mothers prepare lunches for children, reflect cultural understandings of family and education. <br> Table of Contents<br>                    Acknowledgments<br>                     1. Getting Started<br>                    2. Why Study Japanese Education?<br>                    3. Day-to-Day Routines<br>                    4. Together at School, Together in Life<br>                    5. A Working Vacation and Special Events <br>                    6. The Three R's, Japanese Style<br>                    7. The Rest of the Day <br>                    8. Nagging, Preaching, and Discussions<br>                    9. Enlisting Mothers' Efforts<br>                    10. Education in Japanese Society<br>                    11. Themes and Suggestions<br>                    12. Sayonara<br>                    Appendix. Reading and Writing in Japanese<br>                    References <br>                    Index</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 272,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814786123",
+          "cs_title_group": "9780814786123",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814786123",
+          "ebook": "9780814723401",
+          "hardcover": "9780814786123",
+          "paperback": "9780814713341",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814786123.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": false,
+        "date": {
+          "date": "1997-01-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1997-01-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 852094800,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 89,
+        "isbn13": "9780814786123",
+        "title": "Japanese Lessons",
+        "title_without_prefix": "Japanese Lessons",
+        "seo": "japanese-lessons",
+        "subtitle": "A Year in a Japanese School Through the Eyes of An American Anthropologist and Her Children",
+        "title_id": "ba0a0b4fd540a4111265e0c4e9d21ce3",
+        "reference_id": null,
+        "summary": "Gail R. Benjamin reaches beyond predictable images of authoritarian Japanese educators and automaton schoolchildren to show the advantages and disadvantages of a system remarkably different from...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "74.00",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.940",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUA00000",
+              "code_3": "NYU",
+              "code_6": "NYUA00",
+              "name": "Anthropology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUA"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Gail R. Benjamin",
+            "contributor_id": 100029,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100029,
+              "name": "Gail R. Benjamin",
+              "first": "Gail R.",
+              "last": "Benjamin",
+              "seo": "gail-r-benjamin",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Gail R. Benjamin</b> is Lecturer in the Department of Anthropology at the University of Pittsburgh and has taught at Saitama University and Tsukuba University in Japan.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "357-89",
+            "asset_id": "357",
+            "asset": {
+              "id": "357",
+              "unique": "555d7156964c65cdedf5e958ba207c42",
+              "name": "648-H-9780814786123.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "89-89",
+            "asset_id": "89",
+            "asset": {
+              "id": "89",
+              "unique": "5ff07c4f3e8fc90cadf7b82a3e11f5df",
+              "name": "145-W-9780814786123.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "223-89",
+            "asset_id": "223",
+            "asset": {
+              "id": "223",
+              "unique": "c5c36ec002f3c4a9329ff4080022bc4a",
+              "name": "298-W-9780814786123.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB89",
+            "format_id": "BB",
+            "seo_link": "japanese-lessons",
+            "detail": "Print PDF",
+            "title_id": "ba0a0b4fd540a4111265e0c4e9d21ce3",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814786123",
+            "edition": "",
+            "product_id": 89,
+            "primary_format": false,
+            "date": {
+              "date": "1997-01-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG21",
+            "format_id": "DG",
+            "seo_link": "japanese-lessons",
+            "detail": "",
+            "title_id": "ba0a0b4fd540a4111265e0c4e9d21ce3",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814786123",
+            "edition": "",
+            "product_id": 21,
+            "primary_format": false,
+            "date": {
+              "date": "1997-01-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG333",
+            "format_id": "DG",
+            "seo_link": "japanese-lessons",
+            "detail": "",
+            "title_id": "ba0a0b4fd540a4111265e0c4e9d21ce3",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814723401",
+            "edition": "",
+            "product_id": 333,
+            "primary_format": false,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC334",
+            "format_id": "BC",
+            "seo_link": "japanese-lessons",
+            "detail": "Print PDF",
+            "title_id": "ba0a0b4fd540a4111265e0c4e9d21ce3",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814713341",
+            "edition": "",
+            "product_id": 334,
+            "primary_format": true,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814766560",
+        "description": "<p>One of literature's greatest gifts is its portrayal of realistically drawn characters--human beings in whom we can recognize motivations and emotions. In <b>Imagined Human Beings</b>, Bernard J. Paris explores the inner conflicts of some of literature's most famous characters, using Karen Horney's psychoanalytic theories to understand the behavior of these characters as we would the behavior of real people.<br> When realistically drawn characters are understood in psychological terms, they tend to escape their roles in the plot and thus subvert the view of them advanced by the author. A Horneyan approach both alerts us to conflicts between plot and characterization, rhetoric and mimesis, and helps us understand the forces in the author's personalty that generate them. The Horneyan model can make sense of thematic inconsistencies by seeing them as the product of the author's inner divisions. Paris uses this approach to explore a wide range of texts, including <i>Antigone, </i> \"The Clerk's Tale,\" <i>The Merchant of Venice, A Doll's House, Hedda Gabler, Great Expectations, Jane Eyre, The Mayor of Casterbridge, Wuthering Heights, Madame Bovary, The Awakening, </i>and <i>The End of the Road.</i></p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 304,
+        "search_weight": 540,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814767917",
+          "cs_title_group": "9780814766552",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814767917",
+          "ebook": "9780814768853",
+          "hardcover": "9780814766552",
+          "paperback": "9780814767917",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814767917.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1997-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1997-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 875678400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 328,
+        "isbn13": "9780814767917",
+        "title": "Imagined Human Beings",
+        "title_without_prefix": "Imagined Human Beings",
+        "seo": "imagined-human-beings",
+        "subtitle": "A Psychological Approach to Character and Conflict in Literature",
+        "title_id": "926014fbfdff0d0db02755981314baae",
+        "reference_id": null,
+        "summary": "One of literature's greatest gifts is its portrayal of realistically drawn characters--human beings in whom we can recognize motivations and emotions. In Imagined Human Beings, Bernard J....",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "22.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "28.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.940",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULLS000",
+              "code_3": "NYU",
+              "code_6": "NYULLS",
+              "name": "Literature & Literary Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULLS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Bernard Jay Paris",
+            "contributor_id": 100030,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100030,
+              "name": "Bernard Jay Paris",
+              "first": "Bernard Jay",
+              "last": "Paris",
+              "seo": "bernard-jay-paris",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Bernard J. Paris</b> is the author of seven books, including <i>Karen Horney: A Psychoanalyst's Search for Self-Understanding</i> (selected by the <i>New York Times</i> as a Notable Book for 1994), and director of the International Karen Horney Society.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1100-328",
+            "asset_id": "1100",
+            "asset": {
+              "id": "1100",
+              "unique": "164ff34e038adcfdb87a753494d91ec8",
+              "name": "648-H-9780814767917.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "848-328",
+            "asset_id": "848",
+            "asset": {
+              "id": "848",
+              "unique": "60a3a7f5485309902fc92f09cbd7de07",
+              "name": "145-W-9780814767917.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "974-328",
+            "asset_id": "974",
+            "asset": {
+              "id": "974",
+              "unique": "ed9338e663dfc8fd193b6f7c030468e2",
+              "name": "298-W-9780814767917.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC328",
+            "format_id": "BC",
+            "seo_link": "imagined-human-beings",
+            "detail": "Print PDF",
+            "title_id": "926014fbfdff0d0db02755981314baae",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814767917",
+            "edition": "",
+            "product_id": 328,
+            "primary_format": true,
+            "date": {
+              "date": "1997-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG22",
+            "format_id": "DG",
+            "seo_link": "imagined-human-beings",
+            "detail": "",
+            "title_id": "926014fbfdff0d0db02755981314baae",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814767917",
+            "edition": "",
+            "product_id": 22,
+            "primary_format": false,
+            "date": {
+              "date": "1997-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB90",
+            "format_id": "BB",
+            "seo_link": "imagined-human-beings",
+            "detail": "Print PDF",
+            "title_id": "926014fbfdff0d0db02755981314baae",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814766552",
+            "edition": "",
+            "product_id": 90,
+            "primary_format": false,
+            "date": {
+              "date": "1997-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG327",
+            "format_id": "DG",
+            "seo_link": "imagined-human-beings",
+            "detail": "",
+            "title_id": "926014fbfdff0d0db02755981314baae",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814768853",
+            "edition": "",
+            "product_id": 327,
+            "primary_format": false,
+            "date": {
+              "date": "1997-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "328-11636",
+            "review_id": "11636",
+            "review": {
+              "id": "11636",
+              "reviewer": "Phyllis Grosskurth,author of Byron, The Flawed Angel",
+              "description": "\"This is literary criticism at its most perceptive. Theory is subservient to a deeply engaged reading of works Professor Paris clearly loves. To read his analysis of Emma Bovary or Hedda Gabler is to gain an enriched insight into characters whom we thought we knew so well.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814767917-988f377663f1d69ecfd20649ab7319cc",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}
