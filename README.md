@@ -359,9 +359,9 @@ somebody@host:~/epub-manager$ ./em
 em$ load local
 em$ solr add
 Added 67 EPUBs to Solr index:
-9780814706404
-9780814706657
-9780814711774
+9780814707821
+9780814707517
+9780814725078
 ...
 [SNIPPED]
 em$ readium-json add
@@ -371,9 +371,9 @@ Cloning into '/home/somebody/epub-manager/cache/metadataRepo'...
 Switched to a new branch 'develop'
 em$ solr add
 Added 67 EPUBs to Solr index:
-9780814706404
-9780814706657
-9780814711774
+9780814707821
+9780814707517
+9780814725078
 ...
 [SNIPPED]
 em$ quit
@@ -386,9 +386,9 @@ em$ quit
 somebody@host:~/epub-manager$ ./em
 em$ solr add local
 Added 67 EPUBs to Solr index:
-9780814706404
-9780814706657
-9780814711774
+9780814707821
+9780814707517
+9780814725078
 ...
 [SNIPPED]
 em$ readium-json add local
@@ -400,9 +400,9 @@ em$ solr add dev
 Cloning into '/Users/david/Documents/programming/src/dlts/epub-manager/cache/metadataRepo'...
 Switched to a new branch 'develop'
 Added 67 EPUBs to Solr index:
-9780814706404
-9780814706657
-9780814711774
+9780814707821
+9780814707517
+9780814725078
 ...
 [SNIPPED]
 em$ quit
@@ -440,7 +440,7 @@ to `config/ad-hoc.json` (for example) and change:
 ...to:
 
 ```
-"metadataEpubList"              : [ "9780814706404", "9780814706657", "9780814711774" ],
+"metadataEpubList"              : [ "9780814707821", "9780814707517", "9780814725078" ],
 ```
 
 ...then:
@@ -459,9 +459,9 @@ somebody@host:~/epub-manager$ ./em
 em$ solr delete ad-hoc
 Cloning into '/home/somebody/epub-manager/cache/metadataRepo'...
 Switched to a new branch 'stage'
-Deleted 9780814706404 from Solr index.
-Deleted 9780814706657 from Solr index.
-Deleted 9780814711774 from Solr index.
+Deleted 9780814707821 from Solr index.
+Deleted 9780814707517 from Solr index.
+Deleted 9780814725078 from Solr index.
 Deleted 3 EPUBs.
 em$ quit
 somebody@host:~/epub-manager$ cat cache/3-epubs.json
@@ -489,21 +489,21 @@ em$ handles add prod
 Cloning into '/Users/david/Documents/programming/src/dlts/epub-manager/cache/metadataRepo'...
 Already on 'master'
 Added 67 handles to handles server:
-9780814706404: 2333.1/37pvmfhh
-9780814706657: 2333.1/4tmpg641
-9780814711774: 2333.1/zgmsbf5k
-9780814712481: 2333.1/9s4mw88v
-9780814712771: 2333.1/tqjq2dn7
-9780814712917: 2333.1/ffbg7c4r
+9780814707821: 2333.1/37pvmfhh
+9780814707517: 2333.1/4tmpg641
+9780814725078: 2333.1/zgmsbf5k
+9780814723418: 2333.1/9s4mw88v
+9780814786086: 2333.1/tqjq2dn7
+9780814786123: 2333.1/ffbg7c4r
 ...
 [SNIPPED]
 em$ handles delete ad-hoc 
 Cloning into '/Users/david/Documents/programming/src/dlts/epub-manager/cache/metadataRepo'...
 Switched to a new branch 'develop'
 Added 3 handles to handles server:
-9780814793398: 2333.1/b8gthvz5
-9781479824243: 2333.1/73n5tfjs
-9781479899982: 2333.1/brv15j8p
+9780814784891: 2333.1/b8gthvz5
+9781479863570: 2333.1/73n5tfjs
+9781479829712: 2333.1/brv15j8p
 em$ quit
 ```
 
@@ -643,7 +643,7 @@ faster processing, otherwise `false`.  Currently only `true` is supported.
 The subdirectory names are also used as the ISBN list for the `metadata` command.
 * **intakeEpubList**: array of EPUB ids specifying the EPUBs to be processed.  All others
 will be ignored.  This option is used by both the `intake` and `metadata` commands.
-Example: [ "9780814706404", "9780814706657", "9780814711774" ]
+Example: [ "9780814707821", "9780814707517", "9780814725078" ]
 * **intakeOutputDir**: directory to output the normalized, exploded EPUBs to 
 * **metadataDir**: full path to the directory containing the metadata files.  For
 NYU Press collections, this would be the `nyupress` directory in the local clone
@@ -651,7 +651,7 @@ of the [dlts-epub-metadata](https://github.com/NYULibraries/dlts-epub-metadata) 
 If this option is specified, metadata repo options will be ignored.
 Example: "/home/somebody/epub-metadata/nyupress"
 * **metadataEpubList**: array of EPUB ids specifying the EPUBs to be processed.  All others
-will be ignored.  Example: [ "9780814706404", "9780814706657", "9780814711774" ]
+will be ignored.  Example: [ "9780814707821", "9780814707517", "9780814725078" ]
 * Metadata repo options -- these will be ignored if **metadataDir** has been specified.
   * **metadataRepo**: URL for the git repo containing the metadata.  The repo will
 be cloned locally using `git clone [metadataRepo]`.
