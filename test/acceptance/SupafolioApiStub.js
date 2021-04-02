@@ -77,7 +77,7 @@ class SupafolioApiStub {
         );
     }
 
-    // Example: http://api.supafolio.com/v2/book/9780814706404
+    // Example: http://api.supafolio.com/v2/book/9780814707821
     request( method, url, options ) {
         const isbn = SupafolioApiStub.parseIsbn( url );
 
