@@ -11,8 +11,8 @@ const vorpal     = em.vorpal;
 const CONF_INTAKE_FULL = 'intake-full';
 const TMP_EPUBS        = __dirname + '/tmp/epubs';
 
-vorpal.em.configDir        = __dirname + '/fixture/config';
-vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
+vorpal.em.configDir        = __dirname + '/fixtures/config';
+vorpal.em.configPrivateDir = __dirname + '/fixtures/config-private';
 
 // NOTE: using `function()` instead of arrow functions because using the latter
 // causes `this` to be bound incorrectly, and this test suite needs `this.timeout()`.

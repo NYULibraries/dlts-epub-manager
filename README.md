@@ -684,7 +684,7 @@ For example configuration files that illustrate the correct usage of all the abo
 look in
 [config/](https://github.com/NYULibraries/dlts-epub-manager/tree/master/config)
 and
-[test/acceptance/fixture/config/](https://github.com/NYULibraries/dlts-epub-manager/tree/master/test).
+[test/acceptance/fixtures/config/](https://github.com/NYULibraries/dlts-epub-manager/tree/master/test).
 
 ### Special note about configuration of `intake`
 

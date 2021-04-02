@@ -12,8 +12,8 @@ const RESTFUL_HANDLE_TEST_SERVER = 'handle';
 let conf;
 let overriddenRequest;
 
-vorpal.em.configDir        = __dirname + '/fixture/config';
-vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
+vorpal.em.configDir        = __dirname + '/fixtures/config';
+vorpal.em.configPrivateDir = __dirname + '/fixtures/config-private';
 
 describe( 'handles command', () => {
     let restfulHandleServerStub;
