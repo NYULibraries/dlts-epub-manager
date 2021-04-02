@@ -9,12 +9,12 @@
     "coverage"           : "New York",
     "date"               : "1998",
     "format"             : "351 Pages",
-    "identifiers"        : [ "9780814780978" ],
+    "identifiers"        : [ "9780814739617" ],
     "language"           : "En",
     "publisher"          : "New York University Press",
     "rights"             : "All rights reserved.",
     "title"              : "Integrity and Conscience",
-    "uniqueIdentifier"   : "9780814780978"
+    "uniqueIdentifier"   : "9780814739617"
   },
 
   "dlts" : {
@@ -23,7 +23,7 @@
         "Ian Shapiro",
         "Robert Adams"
       ],
-      "identifier" : "9780814780978",
+      "identifier" : "9780814739617",
 
       "coverage"    : "New York",
       "date"        : "1998",
@@ -34,11 +34,11 @@
       "title"       : "Integrity and Conscience",
       "type"        : "Text",
 
-      "rootUrl"   : "epub_content/9780814780978",
-      "coverHref" : "epub_content/9780814780978/ops/images/9780814780978.jpg",
-      "thumbHref" : "epub_content/9780814780978/ops/images/9780814780978-th.jpg",
+      "rootUrl"   : "epub_content/9780814739617",
+      "coverHref" : "epub_content/9780814739617/ops/images/9780814739617.jpg",
+      "thumbHref" : "epub_content/9780814739617/ops/images/9780814739617-th.jpg",
 
-      "packageUrl" : "epub_content/9780814780978"
+      "packageUrl" : "epub_content/9780814739617"
     }
   }
 }
