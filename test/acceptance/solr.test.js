@@ -75,7 +75,7 @@ describe( 'solr command', () => {
 
         expect( epubs.length ).toBe( 1 );
 
-        const EXPECTED_EPUB_ID = '9780814712481';
+        const EXPECTED_EPUB_ID = '9780814723418';
         const actualEpubId = epubs[ 0 ].identifier;
         expect( actualEpubId ).toEqual( EXPECTED_EPUB_ID );
     });
