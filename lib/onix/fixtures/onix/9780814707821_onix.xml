@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814707821</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814706401</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814707821</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BB</ProductForm>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Negrophobia and Reasonable Racism</TitleText>
+      <Subtitle>The Hidden Costs of Being Black in America</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Jody David Armour</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Jody David Armour &lt;/b>is Professor of Law at the School of Law, University of Southern California.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>216</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>SOC001000</SubjectCode>
+      <SubjectHeadingText>SOCIAL SCIENCE / Ethnic Studies / African-American Studies</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Tackling the ugly secret of unconscious racism in American society, this book provides specific solutions to counter this entrenched phenomenon.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"[C]ommendable in important respects. [Armour] points out problems in the theory of rational racial discrimination that many of its proponents ignore or overlook."&lt;/p>-Randall Kennedy,&lt;i> Los Angeles Times Book Review&lt;/i>;
+&lt;p>"A patient meditation."&lt;/p>-&lt;i>The Nation&lt;/i>,;
+&lt;p>"A crucial book, at a critical time, just as white America is gradually coming to understand the hidden travails of African American life."&lt;/p> -&lt;i>Bookwatch&lt;/i>,;
+&lt;p>"Skillfully drawing on a wide range of referents from Greek mythology to Thomas Byes, the father of statistics, Armour plumbs our racial psychology and in the process explores the racialized nature of our daily life and our legal system."&lt;/p>-&lt;I>Norfolk Virginia Journal and Guide&lt;/i>,</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19970501</PublicationDate>
+    <CopyrightYear>1997</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>8</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>5</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19970401</ExpectedShipDate>
+      <OnSaleDate>19970501</OnSaleDate>
+      <PackQuantity>36</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>75.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

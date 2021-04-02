@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814744758</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814735088</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814744758</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Nachman Krochmal</TitleText>
+      <Subtitle>Guiding the Perplexed of the Modern Age</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Jay Harris</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Jay M. Harris&lt;/b> is Assistant Professor of Jewish Studies at Harvard University.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>REL040030</SubjectCode>
+      <SubjectHeadingText>RELIGION / Judaism / History</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"A well-organized and engaging read."&lt;BR>&amp;#151;&lt;I>Religious Studies Review&lt;/I>&lt;/p>&lt;p>The first in-depth look at...an important nineteenth century Jewish thinker and historian. Well-written [and] well- researched."&lt;BR>&amp;#151;&lt;I>The Jerusalem Post Magazine&lt;/I>&lt;/p>&lt;p>"A significant contribution to our understanding of the rise of modern Judaism in its East European manifestation."&lt;BR>&amp;#151;&lt;I>Choice&lt;/I>&lt;/p>&lt;p>Harris examines Nachman Krochmal's work, particularly as it aimed to guide Jews through the modern revolution in metaphysical and historical thinking, thus enabling them to commit themselves to Judaism without sacrificing intellectual integrity.&lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19930801</PublicationDate>
+    <CopyrightYear>1993</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19930702</ExpectedShipDate>
+      <OnSaleDate>19930801</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>27.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

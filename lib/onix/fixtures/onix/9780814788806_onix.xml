@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814788806</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814780016</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814788806</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814788806</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">The Americanization of the Jews</TitleText>
+      <TitlePrefix>The</TitlePrefix>
+      <TitleWithoutPrefix>Americanization of the Jews</TitleWithoutPrefix>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Robert Seltzer</PersonName>
+      <BiographicalNote>
+&lt;p>ROBERT M. SELTZER is Professor of History at Hunter College, Chair of the Hunter Jewish Social Studies Program, and the author of Jewish People, Jewish Thought.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>02</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Norman S. Cohen</PersonName>
+      <BiographicalNote>
+&lt;p>NORMAN J. COHEN is Dean of the Hebrew Union College--Jewish Institute of Religion, New York, and Professor of Midrash. &lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>468</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>SOC008000</SubjectCode>
+      <SubjectHeadingText>SOCIAL SCIENCE / Ethnic Studies / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>How did Judaism, a religion so often defined by its minority status, attain equal footing in the trinity of Catholicism, Protestantism, and Judaism that now dominates modern American religious life?&lt;BR>THE AMERICANIZATION OF THE JEWS seeks out the effects of this evolution on both Jews in America and an America with Jews. Although English, French, and Dutch Jewries are usually considered the principal forerunners of modern Jewry, Jews have lived as long in North America as they have in post- medieval Britain and France and only sixty years less than in Amsterdam. &lt;BR>As one of the four especially creative Jewish communities that has helped re-shape and re-formulate modern Judaism, American Judaism is the most complex and least understood. German Jewry is recognized for its contribution to modern Jewish theology and philosophy, Russian and Polish Jewry is known for its secular influence in literature, and Israel clearly offers Judaism a new stance as a homeland. But how does one capture the interplay between America and Judaism?&lt;BR>Immigration to America meant that much of Judaism was discarded, and much was retained. Acculturation did not always lead to assimilation: Jewishness was honed as an independent variable in the motivations of many of its American adherents- -and has remained so, even though Jewish institutions, ideologies, and even Jewish values have been reshaped by America to such an degree that many Jews of the past might not recognize as Jewish some of what constitutes American Jewishness. &lt;BR>This collection of essays explores the paradoxes that abound in the America/Judaism relationship, focusing on such specific issues as Jews and American politics in the twentieth century, the adaptation of Jewish religious life to the American environment, the contributions and impact of the women's movement, and commentaries on the Jewish future in America. &lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19950201</PublicationDate>
+    <CopyrightYear>1995</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19950102</ExpectedShipDate>
+      <OnSaleDate>19950201</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>24.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

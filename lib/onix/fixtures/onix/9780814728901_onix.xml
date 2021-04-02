@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814728901</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>081472681X</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814728901</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814728901</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Blacks in the Jewish Mind</TitleText>
+      <Subtitle>A Crisis of Liberalism</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Seth Forman</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Seth Forman&lt;/b> teaches in the Department of Political Science at SUNY at Stony Brook. His work on politics and culture has appeared in Partisan Review, the American Scholar, Midstream, and Newsday, and he is the coeditor of &lt;i>Great Jewish Speeches Throughout History.&lt;/i>&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>320</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>REL040000</SubjectCode>
+      <SubjectHeadingText>RELIGION / Judaism / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Since the 1960s the relationship between Blacks and Jews has been a contentious one. While others have attempted to explain or repair the break-up of the Jewish alliance on civil rights, Seth Forman here sets out to determine what Jewish thinking on the subject of Black Americans reveals about Jewish identity in the U.S. Why did American Jews get involved in Black causes in the first place? What did they have to gain from it? And what does that tell us about American Jews?&lt;/p> &lt;p>In an extremely provocative analysis, Forman argues that the commitment of American Jews to liberalism, and their historic definition of themselves as victims, has caused them to behave in ways that were defined as good for Blacks, but which in essence were contrary to Jewish interests. They have not been able to dissociate their needs--religious, spiritual, communal, political--from those of African Americans, and have therefore acted in ways which have threatened their own cultural vitality.&lt;/p> &lt;p>Avoiding the focus on Black victimization and white racism that often infuses work on Blacks and Jews, Forman emphasizes the complexities inherent in one distinct white ethnic group's involvement in America's racial dilemma.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"Insight, authority and scrupulousness are among the virtues of Seth Forman's account of the interaction of two conspicuous minorities in the postwar era. In its clarity and its wisdom, Blacks in the Jewish Mind constitutes a marvelous advance over previous scholarship; and in showing how frequently Jews misunderstood their own communal interests, this book offers a challenge to the present even as the past is illuminated."&lt;/p>-Stephen Whitfield,Brandeis University;
+&lt;p>"In an area where deep emotions and strong ideological feelings pass for information, Seth Forman's book is a model of calm, rational thought. He puts the black-Jewish relationship in a deeper historical perspective than has existed up to this point. Blacks in the Jewish Mind will be welcome to a broad public generally as well as scholars in the field."&lt;/p>-Murray Friedman,author of &lt;i>What Went Wrong: The Creation and Collapse of the Black-Jewish Alliance&lt;/i>;
+&lt;p>"[A] rich, engaging, scholarly, and nuanced chronicle of an . . . often-tormented interethnic, interreligious, interracial relationship."&lt;/p>-&lt;i>MultiCultural Review&lt;/I>,;
+&lt;p>"Bold and uncompromising. Cleverly, he turns a lot of revisionist race history on its head."&lt;/p>-&lt;i>Patterns of Prejudice&lt;/i>,;
+&lt;p>"Insight, authority and scrupulousness are among the virtues of Seth Forman's account of the interaction of two conspicuous minorities in the postwar era. In its clarity and its wisdom, &lt;I>Blacks in the Jewish Mind&lt;/I> constitutes a marvelous advance over previous scholarship; and in showing how frequently Jews misunderstood their own communal interests, this book offers a challenge to the present even as the past is luminated."&lt;/p>-Stephen Whitfield,Brandeis University</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>20001001</PublicationDate>
+    <CopyrightYear>2000</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>20000901</ExpectedShipDate>
+      <OnSaleDate>20001001</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>24.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>
