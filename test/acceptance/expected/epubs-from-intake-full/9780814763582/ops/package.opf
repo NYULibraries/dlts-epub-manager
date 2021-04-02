@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814746677">
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814763582">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 <dc:title>The Beginning of Terror</dc:title>
 <dc:creator>David Kleinbard</dc:creator>
 <dc:date>1993</dc:date>
-<dc:identifier id="p9780814746677">9780814746677</dc:identifier>
+<dc:identifier id="p9780814763582">9780814763582</dc:identifier>
 <dc:coverage>New York</dc:coverage>
 <dc:language>EN</dc:language>
 <dc:type>Text</dc:type>
@@ -40,8 +40,8 @@
 <item id="ch10_notes" href="xhtml/ch10_notes.html" media-type="application/xhtml+xml"/>
 <item id="ch11_sel" href="xhtml/ch11_sel.html" media-type="application/xhtml+xml"/>
 <item id="ch12_index" href="xhtml/ch12_index.html" media-type="application/xhtml+xml"/>
-<item id="stylesheet" href="styles/9780814746677.css" media-type="text/css"/>
-<item id="cover-image" href="images/9780814746677.jpg" media-type="image/jpeg"/>
+<item id="stylesheet" href="styles/9780814763582.css" media-type="text/css"/>
+<item id="cover-image" href="images/9780814763582.jpg" media-type="image/jpeg"/>
 <item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
 <item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
 <item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>

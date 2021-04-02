@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814771518">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Bisexuality and the Challenge to Lesbian Politics</dc:title>
+<dc:creator>Paula C. Rust</dc:creator>
+<dc:date>1995</dc:date>
+<dc:identifier id="p9780814771518">9780814771518</dc:identifier>
+<dc:coverage>New York</dc:coverage>
+<dc:coverage>London</dc:coverage>
+<dc:format>388 pages</dc:format>
+<dc:type>Text</dc:type>
+<dc:language>en</dc:language>
+<dc:rights>All rights reserved</dc:rights>
+<dc:publisher>New York University Press</dc:publisher>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
+<item id="css" href="styles/9780814771518.css" media-type="text/css"/>
+<item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="halftitle" href="xhtml/halftitle.html" media-type="application/xhtml+xml"/>
+<item id="fm1" href="xhtml/fm1.html" media-type="application/xhtml+xml"/>
+<item id="fm2" href="xhtml/fm2.html" media-type="application/xhtml+xml"/>
+<item id="title" href="xhtml/title.html" media-type="application/xhtml+xml"/>
+<item id="copyright" href="xhtml/copyright.html" media-type="application/xhtml+xml"/>
+<item id="dedication" href="xhtml/dedication.html" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/contents.html" media-type="application/xhtml+xml"/>
+<item id="foreword" href="xhtml/foreword.html" media-type="application/xhtml+xml"/>
+<item id="acknowledgments" href="xhtml/acknowledgments.html" media-type="application/xhtml+xml"/>
+<item id="introduction" href="xhtml/introduction.html" media-type="application/xhtml+xml"/>
+<item id="ch1" href="xhtml/ch1.html" media-type="application/xhtml+xml"/>
+<item id="ch2" href="xhtml/ch2.html" media-type="application/xhtml+xml"/>
+<item id="ch3" href="xhtml/ch3.html" media-type="application/xhtml+xml"/>
+<item id="ch4" href="xhtml/ch4.html" media-type="application/xhtml+xml"/>
+<item id="ch5" href="xhtml/ch5.html" media-type="application/xhtml+xml"/>
+<item id="ch6" href="xhtml/ch6.html" media-type="application/xhtml+xml"/>
+<item id="ch7" href="xhtml/ch7.html" media-type="application/xhtml+xml"/>
+<item id="ch8" href="xhtml/ch8.html" media-type="application/xhtml+xml"/>
+<item id="appendixa" href="xhtml/appendixa.html" media-type="application/xhtml+xml"/>
+<item id="appendixb" href="xhtml/appendixb.html" media-type="application/xhtml+xml"/>
+<item id="notes" href="xhtml/notes.html" media-type="application/xhtml+xml"/>
+<item id="bibliography" href="xhtml/bibliography.html" media-type="application/xhtml+xml"/>
+<item id="sindex" href="xhtml/sindex.html" media-type="application/xhtml+xml"/>
+<item id="aindex" href="xhtml/aindex.html" media-type="application/xhtml+xml"/>
+<item id="cover-image" href="images/9780814771518.jpg" media-type="image/jpeg"/>
+<item id="f0262-01" href="images/f0262-01.jpg" media-type="image/jpeg"/>
+<item id="f0263-01" href="images/f0263-01.jpg" media-type="image/jpeg"/>
+<item id="f0264-01" href="images/f0264-01.jpg" media-type="image/jpeg"/>
+<item id="f0265-01" href="images/f0265-01.jpg" media-type="image/jpeg"/>
+<item id="f0266-01" href="images/f0266-01.jpg" media-type="image/jpeg"/>
+<item id="f0267-01" href="images/f0267-01.jpg" media-type="image/jpeg"/>
+<item id="f0268-01" href="images/f0268-01.jpg" media-type="image/jpeg"/>
+<item id="f0269-01" href="images/f0269-01.jpg" media-type="image/jpeg"/>
+<item id="f0270-01" href="images/f0270-01.jpg" media-type="image/jpeg"/>
+<item id="f0271-01" href="images/f0271-01.jpg" media-type="image/jpeg"/>
+<item id="f0272-01" href="images/f0272-01.jpg" media-type="image/jpeg"/>
+<item id="f0273-01" href="images/f0273-01.jpg" media-type="image/jpeg"/>
+<item id="f0274-01" href="images/f0274-01.jpg" media-type="image/jpeg"/>
+<item id="f0275-01" href="images/f0275-01.jpg" media-type="image/jpeg"/>
+<item id="f0276-01" href="images/f0276-01.jpg" media-type="image/jpeg"/>
+<item id="f0277-01" href="images/f0277-01.jpg" media-type="image/jpeg"/>
+<item id="f0278-01" href="images/f0278-01.jpg" media-type="image/jpeg"/>
+<item id="f0279-01" href="images/f0279-01.jpg" media-type="image/jpeg"/>
+<item id="f0280-01" href="images/f0280-01.jpg" media-type="image/jpeg"/>
+<item id="f0281-01" href="images/f0281-01.jpg" media-type="image/jpeg"/>
+<item id="f0282-01" href="images/f0282-01.jpg" media-type="image/jpeg"/>
+<item id="f0283-01" href="images/f0283-01.jpg" media-type="image/jpeg"/>
+<item id="f0284-01" href="images/f0284-01.jpg" media-type="image/jpeg"/>
+<item id="f0285-01" href="images/f0285-01.jpg" media-type="image/jpeg"/>
+<item id="f0286-01" href="images/f0286-01.jpg" media-type="image/jpeg"/>
+<item id="f0287-01" href="images/f0287-01.jpg" media-type="image/jpeg"/>
+<item id="f0288-01" href="images/f0288-01.jpg" media-type="image/jpeg"/>
+<item id="f0289-01" href="images/f0289-01.jpg" media-type="image/jpeg"/>
+<item id="f0290-01" href="images/f0290-01.jpg" media-type="image/jpeg"/>
+<item id="f0291-01" href="images/f0291-01.jpg" media-type="image/jpeg"/>
+<item id="f0292-01" href="images/f0292-01.jpg" media-type="image/jpeg"/>
+<item id="f0293-01" href="images/f0293-01.jpg" media-type="image/jpeg"/>
+<item id="f0294-01" href="images/f0294-01.jpg" media-type="image/jpeg"/>
+<item id="f0295-01" href="images/f0295-01.jpg" media-type="image/jpeg"/>
+<item id="f0296-01" href="images/f0296-01.jpg" media-type="image/jpeg"/>
+<item id="f0297-01" href="images/f0297-01.jpg" media-type="image/jpeg"/>
+<item id="f0298-01" href="images/f0298-01.jpg" media-type="image/jpeg"/>
+<item id="f0299-01" href="images/f0299-01.jpg" media-type="image/jpeg"/>
+<item id="f0300-01" href="images/f0300-01.jpg" media-type="image/jpeg"/>
+<item id="f0301-01" href="images/f0301-01.jpg" media-type="image/jpeg"/>
+<item id="f0302-01" href="images/f0302-01.jpg" media-type="image/jpeg"/>
+<item id="f0303-01" href="images/f0303-01.jpg" media-type="image/jpeg"/>
+<item id="f0304-01" href="images/f0304-01.jpg" media-type="image/jpeg"/>
+<item id="f0305-01" href="images/f0305-01.jpg" media-type="image/jpeg"/>
+<item id="f0306-01" href="images/f0306-01.jpg" media-type="image/jpeg"/>
+<item id="f0307-01" href="images/f0307-01.jpg" media-type="image/jpeg"/>
+<item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
+<item id="t0310-01" href="images/t0310-01.jpg" media-type="image/jpeg"/>
+<item id="t0310-02" href="images/t0310-02.jpg" media-type="image/jpeg"/>
+<item id="t0311-01" href="images/t0311-01.jpg" media-type="image/jpeg"/>
+<item id="t0311-02" href="images/t0311-02.jpg" media-type="image/jpeg"/>
+<item id="t0312-01" href="images/t0312-01.jpg" media-type="image/jpeg"/>
+<item id="t0313-01" href="images/t0313-01.jpg" media-type="image/jpeg"/>
+<item id="t0314-01" href="images/t0314-01.jpg" media-type="image/jpeg"/>
+<item id="t0315-01" href="images/t0315-01.jpg" media-type="image/jpeg"/>
+<item id="t0316-01" href="images/t0316-01.jpg" media-type="image/jpeg"/>
+<item id="t0317-01" href="images/t0317-01.jpg" media-type="image/jpeg"/>
+<item id="t0318-01" href="images/t0318-01.jpg" media-type="image/jpeg"/>
+<item id="t0319-01" href="images/t0319-01.jpg" media-type="image/jpeg"/>
+<item id="CharisSILB" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="CharisSILBI" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="CharisSILI" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="CharisSILR" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+</manifest>
+<spine xmlns="http://www.idpf.org/2007/opf" toc="ncx" page-map="map">
+<itemref idref="cover"/>
+<itemref idref="halftitle"/>
+<itemref idref="fm1"/>
+<itemref idref="fm2"/>
+<itemref idref="title"/>
+<itemref idref="copyright"/>
+<itemref idref="dedication"/>
+<itemref idref="contents"/>
+<itemref idref="foreword"/>
+<itemref idref="acknowledgments"/>
+<itemref idref="introduction"/>
+<itemref idref="ch1"/>
+<itemref idref="ch2"/>
+<itemref idref="ch3"/>
+<itemref idref="ch4"/>
+<itemref idref="ch5"/>
+<itemref idref="ch6"/>
+<itemref idref="ch7"/>
+<itemref idref="ch8"/>
+<itemref idref="appendixa"/>
+<itemref idref="appendixb"/>
+<itemref idref="notes"/>
+<itemref idref="bibliography"/>
+<itemref idref="sindex"/>
+<itemref idref="aindex"/>
+</spine>
+<guide>
+<reference href="xhtml/contents.html" type="toc" title="Contents"/>
+</guide>
+</package>

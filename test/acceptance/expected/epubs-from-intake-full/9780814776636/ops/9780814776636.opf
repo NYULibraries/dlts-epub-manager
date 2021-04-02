@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814776636">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>The Psychological Assessment of Presidential Candidates</dc:title>
+<dc:creator>Stanley A. Renshon</dc:creator>
+<dc:date>1996</dc:date>
+<dc:identifier id="p9780814776636">9780814776636</dc:identifier>
+<dc:coverage>New York</dc:coverage>
+<dc:language>En</dc:language>
+<dc:type>Text</dc:type>
+<dc:format>530 Pages</dc:format>
+<dc:rights>All rights reserved</dc:rights>
+<dc:publisher>New York University Press</dc:publisher>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="ch00_fm01_half" href="xhtml/ch00_fm01_half.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm02_title" href="xhtml/ch00_fm02_title.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm03_copy" href="xhtml/ch00_fm03_copy.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm04_dedi" href="xhtml/ch00_fm04_dedi.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm05_con" href="xhtml/ch00_fm05_con.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm06_fore" href="xhtml/ch00_fm06_fore.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm07_ack" href="xhtml/ch00_fm07_ack.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm08_prolo" href="xhtml/ch00_fm08_prolo.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm09_intro" href="xhtml/ch00_fm09_intro.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm10_part1" href="xhtml/ch00_fm10_part1.html" media-type="application/xhtml+xml"/>
+<item id="ch01" href="xhtml/ch01.html" media-type="application/xhtml+xml"/>
+<item id="ch02" href="xhtml/ch02.html" media-type="application/xhtml+xml"/>
+<item id="ch02_part2" href="xhtml/ch02_part2.html" media-type="application/xhtml+xml"/>
+<item id="ch03" href="xhtml/ch03.html" media-type="application/xhtml+xml"/>
+<item id="ch04" href="xhtml/ch04.html" media-type="application/xhtml+xml"/>
+<item id="ch05" href="xhtml/ch05.html" media-type="application/xhtml+xml"/>
+<item id="ch06" href="xhtml/ch06.html" media-type="application/xhtml+xml"/>
+<item id="ch06_part3" href="xhtml/ch06_part3.html" media-type="application/xhtml+xml"/>
+<item id="ch07" href="xhtml/ch07.html" media-type="application/xhtml+xml"/>
+<item id="ch08" href="xhtml/ch08.html" media-type="application/xhtml+xml"/>
+<item id="ch09" href="xhtml/ch09.html" media-type="application/xhtml+xml"/>
+<item id="ch10" href="xhtml/ch10.html" media-type="application/xhtml+xml"/>
+<item id="ch11" href="xhtml/ch11.html" media-type="application/xhtml+xml"/>
+<item id="ch11_part4" href="xhtml/ch11_part4.html" media-type="application/xhtml+xml"/>
+<item id="ch12" href="xhtml/ch12.html" media-type="application/xhtml+xml"/>
+<item id="ch13" href="xhtml/ch13.html" media-type="application/xhtml+xml"/>
+<item id="ch13_part5" href="xhtml/ch13_part5.html" media-type="application/xhtml+xml"/>
+<item id="ch14" href="xhtml/ch14.html" media-type="application/xhtml+xml"/>
+<item id="ch15" href="xhtml/ch15.html" media-type="application/xhtml+xml"/>
+<item id="ch16_app1" href="xhtml/ch16_app1.html" media-type="application/xhtml+xml"/>
+<item id="ch17_app2" href="xhtml/ch17_app2.html" media-type="application/xhtml+xml"/>
+<item id="ch18_app3" href="xhtml/ch18_app3.html" media-type="application/xhtml+xml"/>
+<item id="ch18_fn01" href="xhtml/ch18_fn01.html" media-type="application/xhtml+xml"/>
+<item id="ch19_notes" href="xhtml/ch19_notes.html" media-type="application/xhtml+xml"/>
+<item id="ch20_bib" href="xhtml/ch20_bib.html" media-type="application/xhtml+xml"/>
+<item id="ch21_sindex" href="xhtml/ch21_sindex.html" media-type="application/xhtml+xml"/>
+<item id="ch22_nameindex" href="xhtml/ch22_nameindex.html" media-type="application/xhtml+xml"/>
+<item id="stylesheet" href="styles/9780814776636.css" media-type="text/css"/>
+<item id="cover-image" href="images/9780814776636.jpg" media-type="image/jpeg"/>
+<item id="common" href="images/common.jpg" media-type="image/jpeg"/>
+<item id="common1" href="images/common1.jpg" media-type="image/jpeg"/>
+<item id="f0409-01" href="images/f0409-01.jpg" media-type="image/jpeg"/>
+<item id="f0409-02" href="images/f0409-02.jpg" media-type="image/jpeg"/>
+<item id="f0410-01" href="images/f0410-01.jpg" media-type="image/jpeg"/>
+<item id="f0410-02" href="images/f0410-02.jpg" media-type="image/jpeg"/>
+<item id="f0410-04" href="images/f0410-04.jpg" media-type="image/jpeg"/>
+<item id="f0411-01" href="images/f0411-01.jpg" media-type="image/jpeg"/>
+<item id="f0411-02" href="images/f0411-02.jpg" media-type="image/jpeg"/>
+<item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
+<item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
+<item id="font1" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="font2" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="font3" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="font4" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+</manifest>
+<spine toc="ncx" page-map="map">
+<itemref idref="cover"/>
+<itemref idref="ch00_fm01_half"/>
+<itemref idref="ch00_fm02_title"/>
+<itemref idref="ch00_fm03_copy"/>
+<itemref idref="ch00_fm04_dedi"/>
+<itemref idref="ch00_fm05_con"/>
+<itemref idref="ch00_fm06_fore"/>
+<itemref idref="ch00_fm07_ack"/>
+<itemref idref="ch00_fm08_prolo"/>
+<itemref idref="ch00_fm09_intro"/>
+<itemref idref="ch00_fm10_part1"/>
+<itemref idref="ch01"/>
+<itemref idref="ch02"/>
+<itemref idref="ch02_part2"/>
+<itemref idref="ch03"/>
+<itemref idref="ch04"/>
+<itemref idref="ch05"/>
+<itemref idref="ch06"/>
+<itemref idref="ch06_part3"/>
+<itemref idref="ch07"/>
+<itemref idref="ch08"/>
+<itemref idref="ch09"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="ch11_part4"/>
+<itemref idref="ch12"/>
+<itemref idref="ch13"/>
+<itemref idref="ch13_part5"/>
+<itemref idref="ch14"/>
+<itemref idref="ch15"/>
+<itemref idref="ch16_app1"/>
+<itemref idref="ch17_app2"/>
+<itemref idref="ch18_app3"/>
+<itemref idref="ch18_fn01"/>
+<itemref idref="ch19_notes"/>
+<itemref idref="ch20_bib"/>
+<itemref idref="ch21_sindex"/>
+<itemref idref="ch22_nameindex"/>
+</spine>
+<guide>
+<reference href="xhtml/ch00_fm05_con.html#ch00_fm05_con" type="toc" title="Contents"/>
+</guide>
+</package>

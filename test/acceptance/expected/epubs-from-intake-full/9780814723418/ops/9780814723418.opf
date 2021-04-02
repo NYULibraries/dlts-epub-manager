@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814723418">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Postcommunism And The Body Politic</dc:title>
+<dc:creator>Ellen E. Berry</dc:creator>
+<dc:date>1995</dc:date>
+<dc:identifier id="p9780814723418">9780814723418</dc:identifier>
+<dc:coverage>New York</dc:coverage>
+<dc:coverage>London</dc:coverage>
+<dc:language>en</dc:language>
+<dc:type>Text</dc:type>
+<dc:format>367</dc:format>
+<dc:rights>All rights reserved.</dc:rights>
+<dc:publisher>New York University Press</dc:publisher>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="stylesheet" href="styles/9780814723418.css" media-type="text/css"/>
+<item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
+<item id="font1" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="font2" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="font3" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="font4" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+<item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="halftitle" href="xhtml/halftitle.html" media-type="application/xhtml+xml"/>
+<item id="seriespage" href="xhtml/seriespage.html" media-type="application/xhtml+xml"/>
+<item id="title" href="xhtml/title.html" media-type="application/xhtml+xml"/>
+<item id="copyright" href="xhtml/copyright.html" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/contents.html" media-type="application/xhtml+xml"/>
+<item id="intro" href="xhtml/intro.html" media-type="application/xhtml+xml"/>
+<item id="part01" href="xhtml/part01.html" media-type="application/xhtml+xml"/>
+<item id="ch01" href="xhtml/ch01.html" media-type="application/xhtml+xml"/>
+<item id="ch02" href="xhtml/ch02.html" media-type="application/xhtml+xml"/>
+<item id="ch03" href="xhtml/ch03.html" media-type="application/xhtml+xml"/>
+<item id="ch04" href="xhtml/ch04.html" media-type="application/xhtml+xml"/>
+<item id="ch05" href="xhtml/ch05.html" media-type="application/xhtml+xml"/>
+<item id="ch06" href="xhtml/ch06.html" media-type="application/xhtml+xml"/>
+<item id="ch07" href="xhtml/ch07.html" media-type="application/xhtml+xml"/>
+<item id="part02" href="xhtml/part02.html" media-type="application/xhtml+xml"/>
+<item id="ch08" href="xhtml/ch08.html" media-type="application/xhtml+xml"/>
+<item id="ch09" href="xhtml/ch09.html" media-type="application/xhtml+xml"/>
+<item id="ch10" href="xhtml/ch10.html" media-type="application/xhtml+xml"/>
+<item id="ch11" href="xhtml/ch11.html" media-type="application/xhtml+xml"/>
+<item id="ch12" href="xhtml/ch12.html" media-type="application/xhtml+xml"/>
+<item id="contributors" href="xhtml/contributors.html" media-type="application/xhtml+xml"/>
+<item id="guidelines" href="xhtml/guidelines.html" media-type="application/xhtml+xml"/>
+<item id="cover-image" href="images/9780814723418.jpg" media-type="image/jpeg"/>
+<item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
+<item id="f0232-01" href="images/f0232-01.jpg" media-type="image/jpeg"/>
+<item id="f0232-02" href="images/f0232-02.jpg" media-type="image/jpeg"/>
+<item id="f0232-03" href="images/f0232-03.jpg" media-type="image/jpeg"/>
+<item id="f0232-04" href="images/f0232-04.jpg" media-type="image/jpeg"/>
+<item id="f0232-05" href="images/f0232-05.jpg" media-type="image/jpeg"/>
+<item id="f0232-06" href="images/f0232-06.jpg" media-type="image/jpeg"/>
+<item id="f0232-07" href="images/f0232-07.jpg" media-type="image/jpeg"/>
+<item id="f0233-01" href="images/f0233-01.jpg" media-type="image/jpeg"/>
+<item id="f0233-02" href="images/f0233-02.jpg" media-type="image/jpeg"/>
+<item id="f0233-03" href="images/f0233-03.jpg" media-type="image/jpeg"/>
+<item id="f0233-04" href="images/f0233-04.jpg" media-type="image/jpeg"/>
+<item id="f0233-05" href="images/f0233-05.jpg" media-type="image/jpeg"/>
+<item id="f0233-06" href="images/f0233-06.jpg" media-type="image/jpeg"/>
+</manifest>
+<spine toc="ncx" page-map="map">
+<itemref idref="cover"/>
+<itemref idref="halftitle"/>
+<itemref idref="seriespage"/>
+<itemref idref="title"/>
+<itemref idref="copyright"/>
+<itemref idref="contents"/>
+<itemref idref="intro"/>
+<itemref idref="part01"/>
+<itemref idref="ch01"/>
+<itemref idref="ch02"/>
+<itemref idref="ch03"/>
+<itemref idref="ch04"/>
+<itemref idref="ch05"/>
+<itemref idref="ch06"/>
+<itemref idref="ch07"/>
+<itemref idref="part02"/>
+<itemref idref="ch08"/>
+<itemref idref="ch09"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="ch12"/>
+<itemref idref="contributors"/>
+<itemref idref="guidelines"/>
+</spine>
+<guide> 
+<reference type="toc" title="Contents" href="xhtml/contents.html#contents"/>
+</guide>
+</package>

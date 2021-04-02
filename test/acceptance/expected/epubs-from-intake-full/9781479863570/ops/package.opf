@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 <dc:title id="title">The Class: Living and Learning in the Digital Age</dc:title>
-<dc:identifier id="pub-id">urn:isbn:9781479824243</dc:identifier>
+<dc:identifier id="pub-id">urn:isbn:9781479863570</dc:identifier>
 <dc:language>en-US</dc:language>
 <dc:creator id="creator">Sonia Livingstone and Julian Sefton-Green</dc:creator>
 <dc:publisher>New York University Press</dc:publisher>
@@ -44,7 +44,7 @@
 <item id="index" href="xhtml/index.xhtml" media-type="application/xhtml+xml"/>
 <item id="abouttheauthor" href="xhtml/abouttheauthor.xhtml" media-type="application/xhtml+xml"/>
 <item id="css" href="styles/stylesheet.css" media-type="text/css"/>
-<item id="cover-image" href="images/9781479824243.jpg" media-type="image/jpeg"/>
+<item id="cover-image" href="images/9781479863570.jpg" media-type="image/jpeg"/>
 <item id="image-001" href="images/F_03_01_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
 <item id="image-002" href="images/F_03_02_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
 <item id="image-003" href="images/F_03_03_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>

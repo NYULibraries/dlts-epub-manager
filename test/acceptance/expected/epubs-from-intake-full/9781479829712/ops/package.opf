@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 <dc:title id="title">By Any Media Necessary</dc:title>
-<dc:identifier id="pub-id">urn:isbn:9781479899982</dc:identifier>
+<dc:identifier id="pub-id">urn:isbn:9781479829712</dc:identifier>
 <dc:language>en-US</dc:language>
 <dc:creator id="creator">Henry Jenkins et al</dc:creator>
 <dc:publisher>New York University Press</dc:publisher>
@@ -38,7 +38,7 @@
 <item id="index" href="xhtml/index.xhtml" media-type="application/xhtml+xml"/>
 <item id="abouttheauthor" href="xhtml/abouttheauthor.xhtml" media-type="application/xhtml+xml"/>
 <item id="css" href="styles/stylesheet.css" media-type="text/css"/>
-<item id="cover-image" href="images/9781479899982.jpg" media-type="image/jpeg"/>
+<item id="cover-image" href="images/9781479829712.jpg" media-type="image/jpeg"/>
 <item id="image-001" href="images/F_01_01_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
 <item id="image-002" href="images/F_01_02_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>
 <item id="image-003" href="images/F_01_03_JENKINS_ET_AL_fmt.jpeg" media-type="image/jpeg"/>

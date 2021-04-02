@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814774410">
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814769447">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 <dc:title>Queer Words, Queer Images: Communication and the Construction of Homosexuality</dc:title>
 <dc:creator>R. Jeffrey Ringer</dc:creator>
 <dc:creator>Cara Shores</dc:creator>
 <dc:date>1994</dc:date>
-<dc:identifier id="p9780814774410">9780814774410</dc:identifier>
+<dc:identifier id="p9780814769447">9780814769447</dc:identifier>
 <dc:coverage></dc:coverage>
 <dc:language>EN</dc:language>
 <dc:type>Text</dc:type>
@@ -53,8 +53,8 @@
 <item id="ch21" href="xhtml/ch21.html" media-type="application/xhtml+xml"/>
 <item id="ch22_nindex" href="xhtml/ch22_nindex.html" media-type="application/xhtml+xml"/>
 <item id="ch23_index" href="xhtml/ch23_index.html" media-type="application/xhtml+xml"/>
-<item id="stylesheet" href="styles/9780814774410.css" media-type="text/css"/>
-<item id="cover-image" href="images/9780814774410.jpg" media-type="image/jpeg"/>
+<item id="stylesheet" href="styles/9780814769447.css" media-type="text/css"/>
+<item id="cover-image" href="images/9780814769447.jpg" media-type="image/jpeg"/>
 <item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
 <item id="t0243-01" href="images/t0243-01.jpg" media-type="image/jpeg"/>
 <item id="t0250-01" href="images/t0250-01.jpg" media-type="image/jpeg"/>

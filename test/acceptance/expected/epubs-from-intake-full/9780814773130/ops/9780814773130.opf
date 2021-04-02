@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814773130">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>Lover</dc:title>
+<dc:creator>Bertha Harris</dc:creator>
+<dc:date>1976</dc:date>
+<dc:identifier id="p9780814773130">9780814773130</dc:identifier>
+<dc:coverage>New York</dc:coverage>
+<dc:type>Text</dc:type>
+<dc:format>296 Pages</dc:format>
+<dc:language>en</dc:language>
+<dc:rights>All rights reserved.</dc:rights>
+<dc:publisher>New York University Press</dc:publisher>
+<meta name="cover" content="cover-image" />
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="stylesheet" href="styles/9780814773130.css" media-type="text/css"/>
+<item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="cover-image" href="images/9780814773130.jpg" media-type="image/jpeg"/>
+<item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
+<item id="font1" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="font2" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="font3" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="font4" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+<item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="title" href="xhtml/title.html" media-type="application/xhtml+xml"/>
+<item id="copyright" href="xhtml/copyright.html" media-type="application/xhtml+xml"/>
+<item id="fm1" href="xhtml/fm1.html" media-type="application/xhtml+xml"/>
+<item id="fm2" href="xhtml/fm2.html" media-type="application/xhtml+xml"/>
+<item id="fm3" href="xhtml/fm3.html" media-type="application/xhtml+xml"/>
+<item id="dedication" href="xhtml/dedication.html" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/contents.html" media-type="application/xhtml+xml"/>
+<item id="foreword" href="xhtml/foreword.html" media-type="application/xhtml+xml"/>
+<item id="introduction" href="xhtml/introduction.html" media-type="application/xhtml+xml"/>
+<item id="chapter1" href="xhtml/chapter1.html" media-type="application/xhtml+xml"/>
+<item id="chapter.01" href="xhtml/chapter.01.html" media-type="application/xhtml+xml"/>
+<item id="f0001-01" href="images/f0001-01.jpg" media-type="image/jpeg"/>
+<item id="f0003-01" href="images/f0003-01.jpg" media-type="image/jpeg"/>
+<item id="f0005-01" href="images/f0005-01.jpg" media-type="image/jpeg"/>
+<item id="f0010-01" href="images/f0010-01.jpg" media-type="image/jpeg"/>
+<item id="f0012-01" href="images/f0012-01.jpg" media-type="image/jpeg"/>
+<item id="f0015-01" href="images/f0015-01.jpg" media-type="image/jpeg"/>
+<item id="f0016-01" href="images/f0016-01.jpg" media-type="image/jpeg"/>
+<item id="f0021-01" href="images/f0021-01.jpg" media-type="image/jpeg"/>
+<item id="f0026-01" href="images/f0026-01.jpg" media-type="image/jpeg"/>
+<item id="f0033-01" href="images/f0033-01.jpg" media-type="image/jpeg"/>
+<item id="f0036-01" href="images/f0036-01.jpg" media-type="image/jpeg"/>
+<item id="f0039-01" href="images/f0039-01.jpg" media-type="image/jpeg"/>
+<item id="f0043-01" href="images/f0043-01.jpg" media-type="image/jpeg"/>
+<item id="f0046-01" href="images/f0046-01.jpg" media-type="image/jpeg"/>
+<item id="f0048-01" href="images/f0048-01.jpg" media-type="image/jpeg"/>
+<item id="f0055-01" href="images/f0055-01.jpg" media-type="image/jpeg"/>
+<item id="f0056-01" href="images/f0056-01.jpg" media-type="image/jpeg"/>
+<item id="f0058-01" href="images/f0058-01.jpg" media-type="image/jpeg"/>
+<item id="f0060-01" href="images/f0060-01.jpg" media-type="image/jpeg"/>
+<item id="f0063-01" href="images/f0063-01.jpg" media-type="image/jpeg"/>
+<item id="f0067-01" href="images/f0067-01.jpg" media-type="image/jpeg"/>
+<item id="f0071-01" href="images/f0071-01.jpg" media-type="image/jpeg"/>
+<item id="f0074-01" href="images/f0074-01.jpg" media-type="image/jpeg"/>
+<item id="f0076-01" href="images/f0076-01.jpg" media-type="image/jpeg"/>
+<item id="f0083-01" href="images/f0083-01.jpg" media-type="image/jpeg"/>
+<item id="f0086-01" href="images/f0086-01.jpg" media-type="image/jpeg"/>
+<item id="f0088-01" href="images/f0088-01.jpg" media-type="image/jpeg"/>
+<item id="f0096-01" href="images/f0096-01.jpg" media-type="image/jpeg"/>
+<item id="f0104-01" href="images/f0104-01.jpg" media-type="image/jpeg"/>
+<item id="f0108-01" href="images/f0108-01.jpg" media-type="image/jpeg"/>
+<item id="f0114-01" href="images/f0114-01.jpg" media-type="image/jpeg"/>
+<item id="f0115-01" href="images/f0115-01.jpg" media-type="image/jpeg"/>
+<item id="f0122-01" href="images/f0122-01.jpg" media-type="image/jpeg"/>
+<item id="f0124-01" href="images/f0124-01.jpg" media-type="image/jpeg"/>
+<item id="f0134-01" href="images/f0134-01.jpg" media-type="image/jpeg"/>
+<item id="f0139-01" href="images/f0139-01.jpg" media-type="image/jpeg"/>
+<item id="f0143-01" href="images/f0143-01.jpg" media-type="image/jpeg"/>
+<item id="f0146-01" href="images/f0146-01.jpg" media-type="image/jpeg"/>
+<item id="f0152-01" href="images/f0152-01.jpg" media-type="image/jpeg"/>
+<item id="f0156-01" href="images/f0156-01.jpg" media-type="image/jpeg"/>
+<item id="f0173-01" href="images/f0173-01.jpg" media-type="image/jpeg"/>
+<item id="f0178-01" href="images/f0178-01.jpg" media-type="image/jpeg"/>
+<item id="f0181-01" href="images/f0181-01.jpg" media-type="image/jpeg"/>
+<item id="f0188-01" href="images/f0188-01.jpg" media-type="image/jpeg"/>
+<item id="f0192-01" href="images/f0192-01.jpg" media-type="image/jpeg"/>
+<item id="f0203-01" href="images/f0203-01.jpg" media-type="image/jpeg"/>
+<item id="f0207-01" href="images/f0207-01.jpg" media-type="image/jpeg"/>
+<item id="f0216-01" href="images/f0216-01.jpg" media-type="image/jpeg"/>
+<item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
+</manifest>
+<spine xmlns="http://www.idpf.org/2007/opf" toc="ncx" page-map="map">
+<itemref idref="cover"/>
+<itemref idref="title"/>
+<itemref idref="copyright"/>
+<itemref idref="fm1"/>
+<itemref idref="fm2"/>
+<itemref idref="fm3"/>
+<itemref idref="dedication"/>
+<itemref idref="contents"/>
+<itemref idref="foreword"/>
+<itemref idref="introduction"/>
+<itemref idref="chapter1"/>
+<itemref idref="chapter.01"/>
+</spine>
+<guide>
+<reference href="xhtml/contents.html" type="toc" title="Contents"/>
+</guide>
+</package>

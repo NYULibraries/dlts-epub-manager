@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814718124">
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814744147">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 <dc:title>Gershom Scholem and the Mystical Dimension of Jewish History</dc:title>
 <dc:creator>Joseph Dan</dc:creator>
 <dc:date>1987</dc:date>
-<dc:identifier id="p9780814718124">9780814718124</dc:identifier>
+<dc:identifier id="p9780814744147">9780814744147</dc:identifier>
 <dc:coverage>New York</dc:coverage>
 <dc:language>En</dc:language>
 <dc:type>Text</dc:type>
@@ -35,8 +35,8 @@
 <item id="backmatter01" href="xhtml/backmatter01.html" media-type="application/xhtml+xml"/>	
 <item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
 <item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
-<item id="stylesheet" href="styles/9780814718124.css" media-type="text/css"/>
-<item id="cover-image" href="images/9780814718124.jpg" media-type="image/jpeg"/>
+<item id="stylesheet" href="styles/9780814744147.css" media-type="text/css"/>
+<item id="cover-image" href="images/9780814744147.jpg" media-type="image/jpeg"/>
 <item id="h1dot" href="images/h1dot.jpg" media-type="image/jpeg"/>
 <item id="hdot" href="images/hdot.jpg" media-type="image/jpeg"/>
 <item id="lring" href="images/lring.jpg" media-type="image/jpeg"/>
