@@ -2112,36 +2112,6 @@
         "type": "Text"
     },
     {
-        "id": "9780814707821",
-        "author": [
-            "Jody David Armour"
-        ],
-        "author_sort": "Armour, Jody David",
-        "collection_code": "oa-books",
-        "coverage": "New York",
-        "coverHref": "epub_content/9780814707821/ops/images/9780814707821.jpg",
-        "date": "1997",
-        "description": "Tackling the ugly secret of unconscious racism in American society, this book provides specific solutions to counter this entrenched phenomenon.",
-        "description_html": "<p>Tackling the ugly secret of unconscious racism in American society, this book provides specific solutions to counter this entrenched phenomenon.</p>",
-        "format": "216 pages",
-        "handle": "http://hdl.handle.net/2333.1/37pvmfhh",
-        "identifier": "9780814707821",
-        "language": "eng",
-        "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
-        "license_abbreviation": "CC BY-NC-SA",
-        "license_icon": "https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png",
-        "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-        "packageUrl": "epub_content/9780814707821",
-        "publisher": "NYU Press",
-        "rights": "All rights reserved",
-        "subject": "African American Studies / Law / Sociology",
-        "subtitle": "The Hidden Costs of Being Black in America",
-        "thumbHref": "epub_content/9780814707821/ops/images/9780814707821-th.jpg",
-        "title": "Negrophobia and Reasonable Racism",
-        "title_sort": "Negrophobia and Reasonable Racism",
-        "type": "Text"
-    },
-    {
         "id": "9780814707517",
         "author": [
             "Marshall W. Alcorn Jr."
@@ -2169,6 +2139,36 @@
         "thumbHref": "epub_content/9780814707517/ops/images/9780814707517-th.jpg",
         "title": "Narcissism and the Literary Libido",
         "title_sort": "Narcissism and the Literary Libido",
+        "type": "Text"
+    },
+    {
+        "id": "9780814707821",
+        "author": [
+            "Jody David Armour"
+        ],
+        "author_sort": "Armour, Jody David",
+        "collection_code": "oa-books",
+        "coverage": "New York",
+        "coverHref": "epub_content/9780814707821/ops/images/9780814707821.jpg",
+        "date": "1997",
+        "description": "Tackling the ugly secret of unconscious racism in American society, this book provides specific solutions to counter this entrenched phenomenon.",
+        "description_html": "<p>Tackling the ugly secret of unconscious racism in American society, this book provides specific solutions to counter this entrenched phenomenon.</p>",
+        "format": "216 pages",
+        "handle": "http://hdl.handle.net/2333.1/37pvmfhh",
+        "identifier": "9780814707821",
+        "language": "eng",
+        "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+        "license_abbreviation": "CC BY-NC-SA",
+        "license_icon": "https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png",
+        "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "packageUrl": "epub_content/9780814707821",
+        "publisher": "NYU Press",
+        "rights": "All rights reserved",
+        "subject": "African American Studies / Law / Sociology",
+        "subtitle": "The Hidden Costs of Being Black in America",
+        "thumbHref": "epub_content/9780814707821/ops/images/9780814707821-th.jpg",
+        "title": "Negrophobia and Reasonable Racism",
+        "title_sort": "Negrophobia and Reasonable Racism",
         "type": "Text"
     },
     {
