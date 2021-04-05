@@ -1,0 +1,401 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "081477475X",
+        "description": "<p>Sigmund Freud's role in the history and development of psychoanalysis continues to be the standard by which others are judged. One of the most remarkable features of that history, however, is the exceptional caliber of the men and women Freud attracted as disciples and coworkers. One of the most influential, and perhaps overlooked, of them was the Hungarian analyst Sndor Ferenczi. Apart from Freud, Ferenczi is the analyst from that pioneering generation who addresses most immediately the concerns of contemporary psychoanalysts.<br> In Ferenczi's Turn in Psychoanalysis fifteen eminent scholars and clinicians from six different countries provide a comprehensive and rigorous examination of Ferenczi's legacy. Although the contributors concur in their assessment of Ferenczi's stature, they often disagree in their judgments about his views and his place in the history of psychoanalysis. For some, he is a radically iconoclastic figure, whose greatest contributions lie in his challenge to Freudian orthodoxy; for others, he is ultimately a classical analyst, who built on Freud's foundations. Divided into three sections, Contexts and Continuities, Disciple and Dissident, and Theory and Technique, the essays in Ferenczi's Turn in Psychoanalysis invite the reader to take part in a dialogue, in which the questions are many and the answers open-ended.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 306,
+        "search_weight": 550,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814771501",
+          "cs_title_group": "9780814771501",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814771501",
+          "ebook": "9780814776711",
+          "hardcover": "9780814771501",
+          "paperback": "9780814775455",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814771501.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": false,
+        "date": {
+          "date": "1996-11-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1996-11-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 846824400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 131,
+        "isbn13": "9780814771501",
+        "title": "Ferenczi's Turn in Psychoanalysis",
+        "title_without_prefix": "Ferenczi's Turn in Psychoanalysis",
+        "seo": "ferenczis-turn-in-psychoanalysis",
+        "subtitle": "",
+        "title_id": "765fdfe3072d366e3524d18dc9eb6733",
+        "reference_id": null,
+        "summary": "Sigmund Freud's role in the history and development of psychoanalysis continues to be the standard by which others are judged. One of the most remarkable features of that history, however, is the...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "GBP",
+            "amount": "74.00",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.250",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100088,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100088,
+              "name": "Peter L. Rudnytsky",
+              "first": "Peter L.",
+              "last": "Rudnytsky",
+              "seo": "peter-l-rudnytsky",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Peter L. Rudnytsky</b> is Professor of English at the University of Florida and a Corresponding Member of the Institute of Contemporary Psychoanalysis in Los Angeles.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          },
+          {
+            "order": 2,
+            "note": "",
+            "contributor_id": 100089,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100089,
+              "name": "Antal Bokay",
+              "first": "Antal",
+              "last": "Bokay",
+              "seo": "antal-bokay",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Antal BÓKAY</b> is Professor of Literature at Janus Pannonius University in Pécs, Hungary, and a founding member of the Sándor Ferenczi Society. <b>Patrizia Giampieri-Deutsch</b> is a member of the Viennese Psychoanalytical Society and a lecturer in philosophy at the University of Vienna. She is an editor of the Freud\"",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          },
+          {
+            "order": 3,
+            "note": "",
+            "contributor_id": 100090,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100090,
+              "name": "Patrizia Giampieri-Deutsch",
+              "first": "Patrizia",
+              "last": "Giampieri-Deutsch",
+              "seo": "patrizia-giampieri-deutsch",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Patrizia Giampieri-Deutsch</b> is a member of the Viennese Psychoanalytical Society and a lecturer in philosophy at the University of Vienna. She is an editor of the Freud-Ferenczi correspondence.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "399-131",
+            "asset_id": "399",
+            "asset": {
+              "id": "399",
+              "unique": "bce7ebde130535b1f526e2c5976dfc38",
+              "name": "648-H-9780814771501.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "131-131",
+            "asset_id": "131",
+            "asset": {
+              "id": "131",
+              "unique": "606daa63c73adcdcfc24d953bac3fad6",
+              "name": "145-W-9780814771501.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "265-131",
+            "asset_id": "265",
+            "asset": {
+              "id": "265",
+              "unique": "010f11a20cb866a7a73efa15ad586ca4",
+              "name": "298-W-9780814771501.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB131",
+            "format_id": "BB",
+            "seo_link": "ferenczis-turn-in-psychoanalysis",
+            "detail": "Print PDF",
+            "title_id": "765fdfe3072d366e3524d18dc9eb6733",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814771501",
+            "edition": "",
+            "product_id": 131,
+            "primary_format": false,
+            "date": {
+              "date": "1996-11-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG64",
+            "format_id": "DG",
+            "seo_link": "ferenczis-turn-in-psychoanalysis",
+            "detail": "",
+            "title_id": "765fdfe3072d366e3524d18dc9eb6733",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814771501",
+            "edition": "",
+            "product_id": 64,
+            "primary_format": false,
+            "date": {
+              "date": "1996-11-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG314",
+            "format_id": "DG",
+            "seo_link": "ferenczis-turn-in-psychoanalysis",
+            "detail": "",
+            "title_id": "765fdfe3072d366e3524d18dc9eb6733",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814776711",
+            "edition": "",
+            "product_id": 314,
+            "primary_format": false,
+            "date": {
+              "date": "1996-11-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC315",
+            "format_id": "BC",
+            "seo_link": "ferenczis-turn-in-psychoanalysis",
+            "detail": "Print PDF",
+            "title_id": "765fdfe3072d366e3524d18dc9eb6733",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814775455",
+            "edition": "",
+            "product_id": 315,
+            "primary_format": true,
+            "date": {
+              "date": "2000-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "131-11944",
+            "review_id": "11944",
+            "review": {
+              "id": "11944",
+              "reviewer": "Rosemary Balsam, Choice",
+              "description": "\"A fascinating collection of essays by both European and North American psychoanalysts. . . . A major contribution to the growing knowledge about Ferenczi, his inspirations, creativity, and risky directions.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814771501-9a975936703ac2209e5c6fa107150ae2",
+              "assets": []
+            }
+          },
+          {
+            "id": "131-11945",
+            "review_id": "11945",
+            "review": {
+              "id": "11945",
+              "reviewer": "Psychoanalytic Books",
+              "description": "\"Highly recommended.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814771501-321c8421f14eb54d209e1f48dc86bdb5",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

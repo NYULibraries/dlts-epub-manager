@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814763520</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814747140</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814763520</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">A Republic of Men</TitleText>
+      <TitlePrefix>A</TitlePrefix>
+      <TitleWithoutPrefix>Republic of Men</TitleWithoutPrefix>
+      <Subtitle>The American Founders, Gendered Language, and Patriarchal Politics</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Mark E. Kann</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;strong>Mark E. Kann,&lt;/strong> Professor Emeritus of Political Science and History, held the USC Associates Chair in Social Science at the University of Southern California. He is the author of&amp;nbsp;&lt;em>Republic of Men&amp;nbsp;&lt;/em>(NYU Press, 1998) and&amp;nbsp;&lt;em>Punishment, Prisons, and Patriarchy&lt;/em>&amp;nbsp;(NYU Press, 2005).&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>232</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>POL010000</SubjectCode>
+      <SubjectHeadingText>POLITICAL SCIENCE / History &amp; Theory</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>What role did manhood play in early American Politics? In &lt;B>A Republic of Men&lt;/B>, Mark E. Kann argues that the American founders aspired to create a "republic of men" but feared that "disorderly men" threatened its birth, health, and longevity. Kann demonstrates how hegemonic norms of manhood-exemplified by "the Family Man," for instance--were deployed as a means of stigmatizing unworthy men, rewarding responsible men with citizenship, and empowering exceptional men with positions of leadership and authority, while excluding women from public life.&lt;/p> &lt;p>Kann suggests that the founders committed themselves in theory to the democratic proposition that all men were created free and equal and could not be governed without their own consent, but that they in no way believed that "all men" could be trusted with equal liberty, equal citizenship, or equal authority. The founders developed a "grammar of manhood" to address some difficult questions about public order. Were America's disorderly men qualified for citizenship? Were they likely to recognize manly leaders, consent to their authority, and defer to their wisdom? A &lt;B>Republic of Men&lt;/B> compellingly analyzes the ways in which the founders used a rhetoric of manhood to stabilize American politics.&lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19980401</PublicationDate>
+    <CopyrightYear>1998</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19980302</ExpectedShipDate>
+      <OnSaleDate>19980401</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>26.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

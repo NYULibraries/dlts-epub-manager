@@ -1,0 +1,296 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814751008",
+        "description": "<p>In her compendious study, [of the folktale of the runaway wife] Leavy argues that the contradictory claims of nature and culture are embodied in the legendary figure of the swan maiden, a woman torn between the human and bestial worlds.  <br>--<i>The New York Times Book Review</i><br><br> This is a study of the meaning of gender as framed by the swan maiden tale, a story found in the folklore of virtually every culture. The swan maiden is a supernatural woman forced to marry, keep house, and bear children for a mortal man who holds the key to her imprisonment. When she manages to regain this key, she escapes to the otherworld, never to return.<br><br> These tales have most often been interpreted as depicting exogamous marriages, describing the girl from another tribe trapped in a world where she will always be the outsider.  Barbara Fass Leavy believes that, in the societies in which the tale and its variants endured, woman was the other--the outsider trapped in a society that could never be her own. Leavy shows how the tale, though rarely explicitly recognized, is frequently replayed in modern literature.<br><br> Beautifully written, this book reveals the myriad ways in which the folktales of a society reflect its cultural values, and particularly how folktales are allegories of gender relations. It will interest anyone involved in literary, gender, and cultural studies.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 388,
+        "search_weight": 530,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "library": "9780814752685",
+          "ebook": "9780814765395",
+          "hardcover": "9780814750681",
+          "paperback": "9780814752685",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814752685.001.0001",
+          "language": "eng",
+          "edition_isbn": "9780814752685",
+          "cs_title_group": "9780814750681",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1995-07-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 804571200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 330,
+        "isbn13": "9780814752685",
+        "title": "In Search of the Swan Maiden",
+        "title_without_prefix": "In Search of the Swan Maiden",
+        "seo": "in-search-of-the-swan-maiden",
+        "subtitle": "A Narrative on Folklore and Gender",
+        "title_id": "55b5d5398760b794ee8f86173e112bef",
+        "reference_id": null,
+        "summary": "In her compendious study, [of the folktale of the runaway wife] Leavy argues that the contradictory claims of nature and culture are embodied in the legendary figure of the swan maiden, a woman torn...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.190",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULLS000",
+              "code_3": "NYU",
+              "code_6": "NYULLS",
+              "name": "Literature & Literary Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULLS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUWGS000",
+              "code_3": "NYU",
+              "code_6": "NYUWGS",
+              "name": "Women's & Gender Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUWGS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Barbara Fass Leavy",
+            "contributor_id": 100079,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100079,
+              "name": "Barbara Fass Leavy",
+              "first": "Barbara Fass",
+              "last": "Leavy",
+              "seo": "barbara-fass-leavy",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Barbara Fass Leavy</b> is Professor of English at Queens College, City University of New York and Adjunct Professor of English in Psychiatry at Cornell University Medical College. She is the author of To Blight with Plague: Studies in a Literary Theme and, with Per Schelde Jacobsen, of <i>Ibsen's Forsaken Merman: Folklore in the Late Plays</i>.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1102-330",
+            "asset_id": "1102",
+            "asset": {
+              "id": "1102",
+              "unique": "630b4dac0b68b2df445ba09c6ac9a476",
+              "name": "648-H-9780814752685.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "850-330",
+            "asset_id": "850",
+            "asset": {
+              "id": "850",
+              "unique": "e0fe825b80fb0f74fb7dba5357f95246",
+              "name": "145-W-9780814752685.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "976-330",
+            "asset_id": "976",
+            "asset": {
+              "id": "976",
+              "unique": "0a1ce701231d6393d8016326eb1aa44e",
+              "name": "298-W-9780814752685.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC330",
+            "format_id": "BC",
+            "seo_link": "in-search-of-the-swan-maiden",
+            "detail": "Print PDF",
+            "title_id": "55b5d5398760b794ee8f86173e112bef",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814752685",
+            "edition": "",
+            "product_id": 330,
+            "primary_format": true,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG58",
+            "format_id": "DG",
+            "seo_link": "in-search-of-the-swan-maiden",
+            "detail": "",
+            "title_id": "55b5d5398760b794ee8f86173e112bef",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814752685",
+            "edition": "",
+            "product_id": 58,
+            "primary_format": false,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG329",
+            "format_id": "DG",
+            "seo_link": "in-search-of-the-swan-maiden",
+            "detail": "",
+            "title_id": "55b5d5398760b794ee8f86173e112bef",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814765395",
+            "edition": "",
+            "product_id": 329,
+            "primary_format": false,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

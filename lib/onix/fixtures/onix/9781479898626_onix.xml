@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9781479898626</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814750958</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9781479898626</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Seasons of Captivity</TitleText>
+      <Subtitle>The Inner World of Pows</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Amia Lieblich</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B>Amia Lieblich&lt;/B> is Artery Professor of Personality Studies in the Psychology Department and head of the Lafer Center for the Study of Women at the Hebrew University of Jerusalem, coeditor of the &lt;I>Annual on the Narrative Study of Lives&lt;/I>, and author of several books, most recently &lt;I>Transition to Adulthood during Military Service&lt;/I>.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>344</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>PSY023000</SubjectCode>
+      <SubjectHeadingText>PSYCHOLOGY / Personality</SubjectHeadingText>
+    </Subject>
+    <Subject>
+      <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+      <SubjectCode>PSY000000</SubjectCode>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity."&lt;BR>&amp;#151;&lt;I>Publishers Weekly&lt;/I>&lt;/p> &lt;p>"Lieblich has skillfully integrated oral histories to produce a compelling story."&lt;BR>&amp;#151;&lt;I>Library Journal&lt;/I>&lt;/p> &lt;p>"The minutes of the meetings recorded hereby are an excerpt of the lives of ten men, who had spent all their days and nights together. Each one observed the other in his grief and joy.Each one, according to his ability and sensitivity, saw it as his duty to contribute to the general welfare, to save our boat from sinking....In fact, we managed to keep afloat most of the time, and if we erred here or there, at least we had the best intentions."&lt;/p>&amp;#151;&lt;I>From a secret collective diary kept by ten POWs&lt;/I>&lt;/p> &lt;p>A national bestseller when it first appeared in Israel, &lt;I>Seasons of Captivity&lt;/I> is a story of human survival and hope that documents the experience of ten Israeli prisoners of war who shared a single jail cell in Egypt for more than three years.&lt;/p> &lt;p>The engrossing chronicle of the prisoners' ordeal is told in their own words&amp;#151;from their capture in 1969, through six months of interrogation, torture, and isolation, to their movement to a common room. A watershed event, their transfer to shared living quarters enabled them to forge a community and an almost utopian social system. They held weekly meetings, kept a common diary, started study classes, and, among other projects, translated &lt;I>The Hobbit&lt;/I> into Hebrew.&lt;/p> &lt;p>The narrative goes on to describe the re-entry of the POWs into family and social roles upon their release and return to Israel in 1973. An exploration of the personal impact of the experience on the wives of the married prisoners introduces the women's own stories of separation and reunion. Some of them had suddenly found themselves, in effect, single mothers&amp;#151;yet their husbands were alive. Their husbands found stronger, more independent women in place of the traditional ones they had left behind. One of the women remarks, I thought [my husband] had been angry at me, in part unconsciously, for being so strong and competent in his absence...I had managed, well, almost effortlessly.&lt;/p> &lt;p>This dramatic and moving account illustrates the resilience of the human spirit in the face of the most dehumanizing circumstances.&lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19950401</PublicationDate>
+    <CopyrightYear>1995</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>OP</AvailabilityCode>
+      <ExpectedShipDate>19950302</ExpectedShipDate>
+      <OnSaleDate>19950401</OnSaleDate>
+      <PackQuantity>28</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>23.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

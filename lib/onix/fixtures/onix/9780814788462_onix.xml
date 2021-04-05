@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814788462</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814787924</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814788462</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Out of Work</TitleText>
+      <Subtitle>Unemployment and Government in Twentieth-Century America</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Richard K Vedder</PersonName>
+      <BiographicalNote>
+&lt;p>A Distinguished Professor of Economics and Faculty Associate at the Contemporary History Institute of Ohio University, Richard K. Vedder is the author of numerous books and articles.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>02</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Lowell E. Gallaway</PersonName>
+      <BiographicalNote>
+&lt;p>Lowell E. Galloway is Distinguished Professor of Economics at Ohio University and a former staff economist on the Joint Economic Committee of the United States Congress. Both authors are Research Fellows at the Independent Institute in Oakland, California.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>336</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>BUS079000</SubjectCode>
+      <SubjectHeadingText>BUSINESS &amp; ECONOMICS / Government &amp; Business</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Redefining the way we think about unemployment in America today, Out of Work offers devastating evidence that the major cause of high unemployment in the United States is the government itself.&lt;/p> &lt;p>An Independent Institute Book&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"The most comprehensive book ever to appear on unemployment in the United States."&lt;/p> -George Gilder,author of &lt;i>Wealth and Poverty&lt;/i>;
+&lt;p>"A triple hit: an engaging narrative of a century of U.S. economic history . . . an attack on the mythology that high wage rates and government spending reduce unemployment and a critique on wrong-headed public policies since 1930 that have raised unemployment levels."&lt;/p>-Anna J. Schwartz,National Bureau of Economic Research;
+&lt;p>"Vedder and Gallaway show convincingly that we need once again to rethink our entire notion of unemployment."&lt;/p> -Jonathan R. T. Hughes,Northwestern University;
+&lt;p>"A book of great interest."&lt;/P>-Kenneth Boulding,</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19970701</PublicationDate>
+    <CopyrightYear>1997</CopyrightYear>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19970601</ExpectedShipDate>
+      <OnSaleDate>19970701</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>26.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

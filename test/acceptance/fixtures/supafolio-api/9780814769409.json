@@ -1,0 +1,356 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814774822",
+        "description": "<p>Why, asks Daniel Rancour-Laferriere in this controversial book, has Russia been a country of suffering?  Russian history, religion, folklore, and literature are rife with suffering. The plight of Anna Karenina, the submissiveness of serfs in the 16th and 17th centuries, ancient religious tracts emphasizing humility as the mother of virtues, the trauma of the Bolshevik revolution, the current economic upheavals wracking the country-- these are only a few of the symptoms of what The Slave Soul of Russia identifies as a veritable cult of suffering that has been centuries in the making.<br> Bringing to light dozens of examples of self-defeating activities and behaviors that have become an integral component of the Russian psyche, Rancour-Laferriere convincingly illustrates how masochism has become a fact of everyday life in Russia.  Until now, much attention has been paid to the psychology of Russia's leaders and their impact on the country's condition.  Here, for the first time, is a compelling portrait of the Russian people's psychology.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 344,
+        "search_weight": 560,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814769409",
+          "cs_title_group": "9780814774588",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814769409",
+          "ebook": "9780814776605",
+          "hardcover": "9780814774588",
+          "paperback": "9780814769409",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814769409.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1996-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1996-10-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 844142400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 374,
+        "isbn13": "9780814769409",
+        "title": "The Slave Soul of Russia",
+        "title_without_prefix": "Slave Soul of Russia",
+        "seo": "the-slave-soul-of-russia",
+        "subtitle": "Moral Masochism and the Cult of Suffering",
+        "title_id": "105b6725105cd0fa8c2b58bd3e1060cc",
+        "reference_id": null,
+        "summary": "Why, asks Daniel Rancour-Laferriere in this controversial book, has Russia been a country of suffering?  Russian history, religion, folklore, and literature are rife with suffering. The plight of...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.060",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Daniel Rancour-Laferriere",
+            "contributor_id": 100017,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100017,
+              "name": "Daniel Rancour-Laferriere",
+              "first": "Daniel",
+              "last": "Rancour-Laferriere",
+              "seo": "daniel-rancour-laferriere",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Daniel Rancour-Laferriere</b> is Professor of Russian at the University of California, Davis. He is the author of many books, including The Slave Soul of Russia and Self-Analysis in Literary Study, both available from NYU Press.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1146-374",
+            "asset_id": "1146",
+            "asset": {
+              "id": "1146",
+              "unique": "bb3e4a833f48f99bdcd1d4c4cc91ca38",
+              "name": "648-H-9780814769409.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "894-374",
+            "asset_id": "894",
+            "asset": {
+              "id": "894",
+              "unique": "d33de1ef07650f4f27e1ba386adc3695",
+              "name": "145-W-9780814769409.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "1020-374",
+            "asset_id": "1020",
+            "asset": {
+              "id": "1020",
+              "unique": "478abe0cf59d0a6f423f4f6ffacaa0c9",
+              "name": "298-W-9780814769409.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC374",
+            "format_id": "BC",
+            "seo_link": "the-slave-soul-of-russia",
+            "detail": "Print PDF",
+            "title_id": "105b6725105cd0fa8c2b58bd3e1060cc",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814769409",
+            "edition": "",
+            "product_id": 374,
+            "primary_format": true,
+            "date": {
+              "date": "1996-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG12",
+            "format_id": "DG",
+            "seo_link": "the-slave-soul-of-russia",
+            "detail": "",
+            "title_id": "105b6725105cd0fa8c2b58bd3e1060cc",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814769409",
+            "edition": "",
+            "product_id": 12,
+            "primary_format": false,
+            "date": {
+              "date": "1995-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB80",
+            "format_id": "BB",
+            "seo_link": "the-slave-soul-of-russia",
+            "detail": "Print PDF",
+            "title_id": "105b6725105cd0fa8c2b58bd3e1060cc",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814774588",
+            "edition": "",
+            "product_id": 80,
+            "primary_format": false,
+            "date": {
+              "date": "1995-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG373",
+            "format_id": "DG",
+            "seo_link": "the-slave-soul-of-russia",
+            "detail": "",
+            "title_id": "105b6725105cd0fa8c2b58bd3e1060cc",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814776605",
+            "edition": "",
+            "product_id": 373,
+            "primary_format": false,
+            "date": {
+              "date": "1995-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "374-11567",
+            "review_id": "11567",
+            "review": {
+              "id": "11567",
+              "reviewer": "Joanna Hubbs,author of Mother Russia: The Feminine Myth in Russian Culture",
+              "description": "\"A provocative exploration of moral masochism as an undercurrent in the tragic history of the Russian people.  Rancour-Laferriere's study should be read by all those interested in the nature of Russian nationalism and the myths surrounding Russian national character.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814769409-c30dfc2ca666750d3370d1e6d1b07531",
+              "assets": []
+            }
+          },
+          {
+            "id": "374-11568",
+            "review_id": "11568",
+            "review": {
+              "id": "11568",
+              "reviewer": "Times Literary Supplement",
+              "description": "\"A vast, provocative study . . . psychologically illuminating.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814769409-e9314a26746a813d0d4c445141bfc44a",
+              "assets": []
+            }
+          },
+          {
+            "id": "374-11569",
+            "review_id": "11569",
+            "review": {
+              "id": "11569",
+              "reviewer": "Library Journal",
+              "description": "\"[Rancour-Laferriere] sees in Russian masochism one of the attractions and beauties of Russian culture. Sure to raise eyebrows, if not hackles.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814769409-f0bc992799501170960418b5746f4405",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

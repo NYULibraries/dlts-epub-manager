@@ -10,8 +10,8 @@ const CONF                        = 'full-metadataDir';
 const SOLR_SETUP_AND_START_SCRIPT = 'test/solr/start-solr-test-server.sh';
 const SOLR_TEST_CORE              = 'test-core';
 
-vorpal.em.configDir        = __dirname + '/fixture/config';
-vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
+vorpal.em.configDir        = __dirname + '/fixtures/config';
+vorpal.em.configPrivateDir = __dirname + '/fixtures/config-private';
 
 let conf;
 
@@ -75,7 +75,7 @@ describe( 'solr command', () => {
 
         expect( epubs.length ).toBe( 1 );
 
-        const EXPECTED_EPUB_ID = '9780814712481';
+        const EXPECTED_EPUB_ID = '9780814723418';
         const actualEpubId = epubs[ 0 ].identifier;
         expect( actualEpubId ).toEqual( EXPECTED_EPUB_ID );
     });
@@ -159,14 +159,14 @@ function clearSolrIndex() {
 }
 
 function addFixtureSmallSubsetEpubs() {
-    const smallSubsetJson = require( `./fixture/epub-json/small-subset-epubs.json` );
+    const smallSubsetJson = require( `./fixtures/epub-json/small-subset-epubs.json` );
 
     // This function throws errors.  const caller handle them.
     addFixtureEpubs( smallSubsetJson );
 }
 
 function addFixtureFullEpubs() {
-    const fullEpubs = require( `./fixture/epub-json/full-epubs.json` );
+    const fullEpubs = require( `./fixtures/epub-json/full-epubs.json` );
 
     // This function throws errors.  Let caller handle them.
     addFixtureEpubs( fullEpubs );

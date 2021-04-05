@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814741498</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814779174</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814741498</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BB</ProductForm>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Indentations and Other Stories</TitleText>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Joe Schall</PersonName>
+      <BiographicalNote>
+&lt;p>The author,&lt;b>Joe Schall&lt;/b>, is thirty-one years old and currently teaches fiction writing at Penn State University. While a student at Penn State, he studied under Paul West and Bob Downs. Schall's stories have been published in various journals, including &lt;i>The Macguffin&lt;/i>,&lt;i>Flipside&lt;/i>,and &lt;i>The Ligourian&lt;/i>.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>LCO000000</SubjectCode>
+      <SubjectHeadingText>LITERARY COLLECTIONS / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>&lt;i>Indentation and Other Stories&lt;/i> is a collection of nine stories ranging from the wildly funny and idiosyncratic to the downright bizarre. The title story features a pathological dentist who seeks a quirky catharsis by decorating his apartment in hygienic dental paraphernalia. Other tales frolic through the lives of characters who border on the delightfully absurd: a woman, after going through menopause, struggles to recreate her menstrual periods by altering her diet; a former New York street reporter, fired because of his "ideals," aspires to become a credible street person and decides, tentatively, to have a religious experience; an English major turned psychologist writes a pseudoscientific "article"&amp;#151;complete with footnotes and a University of New Jersey cover letter&amp;#151;which argues, by example, for the use of figurative language in scientific journal writing. Other stories are more humanizing: "The Perils of Asthma" is a sympathetic lok at a twelve-year-old boy struggling to grow up amidst his perplexing asthma, his eccentric Catholic parents, and his mystifying quasi-erections. All of the stories are grounded in the allure of language, the luxuriance of detail, and the celebration of human compulsion and obsession.&lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19901201</PublicationDate>
+    <CopyrightYear>1990</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19901101</ExpectedShipDate>
+      <OnSaleDate>19901201</OnSaleDate>
+      <PackQuantity>48</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>45.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

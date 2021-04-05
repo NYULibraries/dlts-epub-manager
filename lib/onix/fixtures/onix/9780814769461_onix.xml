@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814769461</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814774814</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814769461</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814769461</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Clarence Thomas and the Tough Love Crowd</TitleText>
+      <Subtitle>Counterfeit Heroes and Unhappy Truths</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Ronald Suresh Roberts</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Ronald Suresh Roberts&lt;/b>, a graduate of Balliol College, Oxford, and Harvard Law School, is currently on leave from the law firm of Winthrop, Stimson, Putnam &amp; Roberts, working with the National Association of Democratic Lawyers (NADEL) in Cape Town, South Africa, and to establish the Finance Literary Project at Funda Community College in Soweto, South Africa.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>235</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>POL040030</SubjectCode>
+      <SubjectHeadingText>POLITICAL SCIENCE / Government / Judicial Branch</SubjectHeadingText>
+    </Subject>
+    <Subject>
+      <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+      <SubjectCode>SOC031000</SubjectCode>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>In recent years, black neoconservatism has captured the national imagination. Clarence Thomas sits on the Supreme Court. Stephen Carter's opinions on topics ranging from religion to the confirmation process are widely quoted. &lt;i>The New Republic &lt;/i>has written that black neoconservative Thomas Sowell was having a greater influence on the discussion of matters of race and ethnicity than any other writer of the past ten years. &lt;/p> &lt;p>In this compelling and vividly argued book, Ronald Roberts reveals how this attention has turned an eccentricity into a movement. Black neoconservatives, Roberts believes, have no real constituency but, as was the case with Clarence Thomas, are held up&amp;#151;and proclaim themselves&amp;#151;as simply and ruthlessly honest, as above mere self-interest and crude political loyalties. They profess a concern for those they criticize, claiming to possess an objective truth which sets them apart from their critics in the establishment Left. They claim to be outsiders even while sustained by the culture's most powerful institutions. As they level attacks at the activist organizations they perceive as moribund, every significant argument they advance rests on fervent mantras of harsh truths and simple realities. &lt;/p> &lt;p>Enlisting the ideal of impartiality as a partisan weapon, this Tough Love Crowd has elevated the familiar wisdom of Spare the rod and spoil the child to the arena of national politics. Turning to their own writings and proclamations, Roberts here serves up a devastating critique of such figures as Clarence Thomas, Shelby Steele, Stephen Carter, and V. S. Naipaul (Tough Love International). Clarence Thomas and the Tough Love Crowd marks the emergence of a provocative and powerful voice on our cultural and political landscape, a voice which holds those who subscribe to this polemically powerful ideology accountable for their opinions and actions.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"In this elegantly written book, Ronald Roberts establishes a lineage for the Tough Love Crowd intellectuals that is both revealing and persuasive. The result is a timely and original contribution to the scholarly debates about critical race theory and to the public debate about black neo-conservatism."&lt;/p> -Andrew Ross,Director, American Studies Program, New York University;
+&lt;p>"Will provoke a lively and vigorous debate among liberals, conservatives, and radicals of many different colors. Roberts is a cultural critic in the tradition of Cornel West, Trey Ellis, Michele Wallace, and bell hooks, with a powerful, passionate, and brash voice."&lt;/p> -Angela P. Harris,University of California, Berkeley;
+&lt;p>"Ronald Roberts is refreshingly brash, brilliantly bold, and creatively intelligent. And he is unmistakably on to something. &lt;i>Clarence Thomas and the Tough Love Crowd&lt;/i> carefully documents the manner in which the white majority is consistently able to divert the best minds in the minority community to the cause of continued racial oppression, by infiltrating minority conceptions of truth, meaning, and reality. Roberts manages to transcend the stale liberal-conservative debate without falling into the morass of postmodern paralysis. Social observers who pass up this book will be missing a front-row seat to the unfolding epistemological revolution."-Girardeau A. Spann,Georgetown University Law Center;
+&lt;p>"Timely and original. Roberts is an excellent writer and the lineage he traces for the black Tough Love intellectuals is revealing and persuasive. There is a real need for this book."&lt;/p> -Drucilla Cornell,Yeshiva University</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19961001</PublicationDate>
+    <CopyrightYear>1996</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>8</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19960901</ExpectedShipDate>
+      <OnSaleDate>19961001</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

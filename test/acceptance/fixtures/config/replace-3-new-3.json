@@ -1,0 +1,12 @@
+{
+    "cacheMetadataInMemory" : true,
+
+    "metadataDir"           : "test/acceptance/fixtures/metadataDirs/replace-3-new-3",
+    "metadataEpubList"      : null,
+
+    "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
+
+    "solrHost" : "localhost",
+    "solrPort" : 9001,
+    "solrPath" : "/solr/test-core"
+}

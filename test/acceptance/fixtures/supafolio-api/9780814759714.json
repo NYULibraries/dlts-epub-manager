@@ -1,0 +1,341 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814755968",
+        "description": "<p>Many of us have grown up with the language of civil rights, yet rarely consider how the construction of civil rights claims affects those who are trying to attain them. Diane Miller examines arguments lesbians and gay men make for civil rights, revealing the ways these arguments are both progressive&#8212;in terms of helping to win court cases seeking basic human rights&#8212;and limiting&#8212;in terms of framing representations of gay men and lesbians.<br><br>Miller incorporates case studies of lesbians in the military and in politics into her argument.  She discusses in detail the experiences of Colonel Margarethe Cammermeyer, who was dishonorably discharged from the National Guard after 27 years of service when she revealed that she was a lesbian, and Roberta Achtenberg, who was nominated by Clinton for the job of Assistant Director of Housing and Urban Development and became the first gay or lesbian to face the confirmation process.  Drawing on these cases and their outcomes, Miller evaluates the advantages and disadvantages of privileging civil rights strategies in the struggle for gay and lesbian rights.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 212,
+        "search_weight": 540,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814759714",
+          "cs_title_group": "9780814755952",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814759714",
+          "ebook": "9780814761007",
+          "hardcover": "9780814755952",
+          "paperback": "9780814759714",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814759714.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1998-08-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1998-08-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 901944000,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 317,
+        "isbn13": "9780814759714",
+        "title": "Freedom to Differ",
+        "title_without_prefix": "Freedom to Differ",
+        "seo": "freedom-to-differ",
+        "subtitle": "The Shaping of the Gay and Lesbian Struggle for Civil Rights",
+        "title_id": "2a006e2372295328dc1be7a0562d81a8",
+        "reference_id": null,
+        "summary": "Many of us have grown up with the language of civil rights, yet rarely consider how the construction of civil rights claims affects those who are trying to attain them. Diane Miller examines arguments...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "21.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "27.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "0.690",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUH00000",
+              "code_3": "NYU",
+              "code_6": "NYUH00",
+              "name": "History",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUH"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULGBTQSLP",
+              "code_3": "NYU",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality / Law & Policy",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULGBTQSLP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULGBTQS",
+              "code_3": "NYU",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULGBTQS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Diane Helene Miller",
+            "contributor_id": 100020,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100020,
+              "name": "Diane Helene Miller",
+              "first": "Diane Helene",
+              "last": "Miller",
+              "seo": "diane-helene-miller",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Diane Helene Miller</b> received her Ph.D. in Speech Communication and a Graduate Certificate in Women's Studies from the University of Georgia. She has served as the Director of the Writing and Communication Center at East Tennessee University and is currently a writer living in Athens, Georgia.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1089-317",
+            "asset_id": "1089",
+            "asset": {
+              "id": "1089",
+              "unique": "d6da00ad2d724507807c2f30cddec2a0",
+              "name": "648-H-9780814759714.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "837-317",
+            "asset_id": "837",
+            "asset": {
+              "id": "837",
+              "unique": "1474935d2bf5bdc76d93c93cb012f507",
+              "name": "145-W-9780814759714.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "963-317",
+            "asset_id": "963",
+            "asset": {
+              "id": "963",
+              "unique": "66e43b87b88c280005e5ad135a84edd1",
+              "name": "298-W-9780814759714.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC317",
+            "format_id": "BC",
+            "seo_link": "freedom-to-differ",
+            "detail": "Print PDF",
+            "title_id": "2a006e2372295328dc1be7a0562d81a8",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814759714",
+            "edition": "",
+            "product_id": 317,
+            "primary_format": true,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG14",
+            "format_id": "DG",
+            "seo_link": "freedom-to-differ",
+            "detail": "",
+            "title_id": "2a006e2372295328dc1be7a0562d81a8",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814759714",
+            "edition": "",
+            "product_id": 14,
+            "primary_format": false,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB82",
+            "format_id": "BB",
+            "seo_link": "freedom-to-differ",
+            "detail": "Print PDF",
+            "title_id": "2a006e2372295328dc1be7a0562d81a8",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814755952",
+            "edition": "",
+            "product_id": 82,
+            "primary_format": false,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG316",
+            "format_id": "DG",
+            "seo_link": "freedom-to-differ",
+            "detail": "",
+            "title_id": "2a006e2372295328dc1be7a0562d81a8",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814761007",
+            "edition": "",
+            "product_id": 316,
+            "primary_format": false,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "317-11579",
+            "review_id": "11579",
+            "review": {
+              "id": "11579",
+              "reviewer": "Women's Studies in Communication",
+              "description": "\"This book makes important contributions to Women's Studies and Speech Communication and deserves our critical attention.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814759714-e216a0e48313e99046cbc41ddc554bec",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

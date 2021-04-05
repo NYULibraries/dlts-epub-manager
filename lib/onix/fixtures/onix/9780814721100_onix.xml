@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814721100</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814718809</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814721100</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BB</ProductForm>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Romantic Outlaws, Beloved Prisons</TitleText>
+      <Subtitle>The Unconscious Meanings of Crime and Punishment</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Martha Grace Duncan</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B>Martha Grace Duncan&lt;/B> is Professor of Law at Emory University. She earned a Ph.D. at Columbia University and a law degree from Yale Law School, where she was Article and Book Review Editor of the &lt;I>Yale Law Journal&lt;/I>. She was a post-doctoral candidate at NYU Psychoanalytic Institute at New York University Medical Center.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>280</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>SOC004000</SubjectCode>
+      <SubjectHeadingText>SOCIAL SCIENCE / Criminology</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>An ex-convict struggles with his addictive yearning for prison. A law-abiding citizen broods over his pleasure in violent, illegal acts. A prison warden loses his job because he is so successful in rehabilitating criminals. These are but a few of the intriguing stories Martha Grace Duncan examines in her bold, interdisciplinary book &lt;B>Romantic Outlaws, Beloved Prisons&lt;/B>.&lt;/p> &lt;p>Duncan writes: "This is a book about paradoxes and mingled yarns - about the bright sides of dark events, the silver linings of sable clouds." She portrays upright citizens who harbor a strange liking for criminal deeds, and criminals who conceive of prison in positive terms: as a nurturing mother, an academy, a matrix of spiritual rebirth, or a refuge from life's trivia. In developing her unique vision, Duncan draws on literature, history, psychoanalysis, and law. Her work reveals a nonutopian world in which criminals and non-criminals--while injuring each other in obvious ways--nonetheless live together in a symbiotic as well as an adversarial relationship, needing each other, serving each other, enriching each other's lives in profound and surprising fashion.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"Literature... provides Duncan a rich field in which to explore our 'reluctant,' 'rationalized,' and sometimes outright 'admiration' for the 'noble bandit.' ...The real drama of...Duncan's discussion of metaphor, however, comes with the vivid historical pictograph that gives her book a stirring climax....Duncan readily solves the mystery [of the founding of Botany Bay as a penal colony]."&lt;/p>-&lt;I>New York Times Book Review&lt;/I>,;
+&lt;p>"&lt;B>Romantic Outlaws, Beloved Prisons&lt;/B> is a book that merits the interest of psychanalysts for the contribution it offers to our understanding of the realm of guilt and punishment in human psychology...I recommend the book highly."&lt;/p> -&lt;i>The Psychoanalytic Quarterly&lt;/i>,;
+&lt;p>"Professor Martha Duncan has written an important, creative work. Her book is elegant, and solidly grounded in literature, psychoanalysis and law."&lt;/p>-&lt;I>Legal Studies Form&lt;/I>,;
+&lt;p>"A complex book on the subject of incarceration that embraces both the actual experience of prisoners and the projection in literature of positive prison fantasies. Drawing on a very rich reservoir of illustrations, Duncan offers fascinating developments that will affect the readers' views on the timely question of crime and punishment."&lt;/p>-Victor Brombert,author of &lt;I>The Romantic Prison&lt;/I></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19961101</PublicationDate>
+    <CopyrightYear>1996</CopyrightYear>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>OP</AvailabilityCode>
+      <ExpectedShipDate>19961002</ExpectedShipDate>
+      <OnSaleDate>19961101</OnSaleDate>
+      <PackQuantity>26</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>65.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

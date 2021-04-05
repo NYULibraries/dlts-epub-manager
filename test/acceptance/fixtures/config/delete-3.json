@@ -1,0 +1,14 @@
+{
+    "cacheMetadataInMemory" : true,
+    "metadataDir"           : "test/acceptance/fixtures/metadataDirs/full",
+    "metadataEpubList"      : [ "9780814707517", "9780814707821", "9780814709108" ],
+
+    "readiumJsonFile"       : "test/acceptance/tmp/epub_library.json",
+
+    "restfulHandleServerHost" : "handle.dlib.nyu.edu",
+    "restfulHandleServerPath" : "/id/handle",
+
+    "solrHost" : "localhost",
+    "solrPort" : 9001,
+    "solrPath" : "/solr/test-core"
+}

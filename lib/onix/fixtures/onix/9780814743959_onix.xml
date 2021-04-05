@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814743959</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814742300</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814743959</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814743959</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Busting the Mob</TitleText>
+      <Subtitle>The United States v. Cosa Nostra</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>James B. Jacobs</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>James B. Jacobs&lt;/b>, legal scholar and sociologist, is Warren E. Burger Professor of Law and Director, Center for Research in Crime and Justice, NYU School of Law. Among his books are &lt;a style="font-style: italic;" href="http://nyupress.org/books/book-details.aspx?bookId=9611">Mobsters, Unions &amp;amp; Fed: The Mafia and the American Labor Movement&lt;/a>, &lt;a href="http://nyupress.org/books/book-details.aspx?bookId=6309">&lt;i>Gotham Unbound: How New York City Was Liberated from the Grip of Organized Crime&lt;/i>&lt;/a>, &lt;a href="http://nyupress.org/books/book-details.aspx?bookId=2048">&lt;i>Busting the Mob: United States v. Cosa Nostra&lt;/i>&lt;/a>, and &lt;i>&lt;a href="http://nyupress.org/books/book-details.aspx?bookId=2188">Corruption and Racketeering in the New York City Construction Industry&lt;/a>&lt;/i>, all published by NYU Press.&lt;/i>&lt;/p></BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>02</SequenceNumber>
+      <ContributorRole>A02</ContributorRole>
+      <PersonName>Christopher Panarella</PersonName>
+      <BiographicalNote>
+&lt;p> &lt;b>Chris Panarella&lt;/b> is a Fellows at Center for Research in Crime and Justice at New York University.&lt;/p>&lt;p>Jay Worthington&lt;/b> is aFellows at Center for Research in Crime and Justice at New York University.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>03</SequenceNumber>
+      <ContributorRole>A02</ContributorRole>
+      <PersonName>Jay Worthington</PersonName>
+      <BiographicalNote>
+&lt;p>Jay Worthington&lt;/b> is aFellows at Center for Research in Crime and Justice at New York University.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>292</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>LAW026000</SubjectCode>
+      <SubjectHeadingText>LAW / Criminal Law</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Since Prohibition, the Mafia has captivated the media and, indeed, the American imagination. From Al Capone to John Gotti, organized crime bosses have achieved notoriety as anti- heroes in popular culture. In practice, organized crime grew strong and wealthy by supplying illicit goods and services and by obtaining control over labor unions and key industries.&lt;/p> &lt;p>Despite, or perhaps because of, its power and high profile, Cosa Nostra faced little opposition from law enforcement. Yet, in the last 15 years, the very foundations of the mob have been shaken, its bosses imprisoned, its profits diminished, and its influence badly weakened.&lt;/p> &lt;p>In this vivid and dramatic book, James B. Jacobs, Christopher Panarella, and Jay Worthington document the government's relentless attack on organized crime. The authors present an overview of the forces and events that led in the 1980s to the most successful organized crime control initiatives in American history. Enlisting trial testimony, secretly taped conversations, court documents, and depositions, they document five landmark cases, representing the most important organized crime prosecutions of the modern era&amp;#151;Teamsters Local 560, The Pizza Connection, The Commission, the International Teamsters, and the prosecution of John Gotti.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"John Gotti's downfall is one of the five major criminal and civil cases cited in &lt;i>Busting the Mob&lt;/i> which illustrate the grand strategy devised by the Federal Government to cripple, if not destroy, America's entrenched Mafia groups. . . Jacobs believes it is premature to prepare an obituary for America's Mob families."&lt;/p>-&lt;I>Times Literary Supplement&lt;/I>,;
+&lt;p>"In &lt;i>Busting the Mob&lt;/i>, Jacobs proves that sound historical and analytical criminology are not incompatible with entertaining&amp;#151;often gripping&amp;#151;narrative."&lt;/p>-Freda Adler,Rutgers University,Former President, American Society of Criminology;
+&lt;p>"&lt;i>Busting the Mob&lt;/i> by Jim Jacobs is both enlightening and entertaining. It is immensely refreshing that at long last scholarship, as distinct from sensationalism, comes to the analysis of Organized Crime&amp;#151;and scholarship with a sprightly style."&lt;/p>-Norval Morris,Professor of Law and Criminology, University of Chicago;
+&lt;p>"&lt;i>Busting the Mob&lt;/I> is a must read on organized crime for academics, prosecutors, and concerned citizens, in particular because it includes the text of primary material: indictments, trial testimony, etc."&lt;/p> -G. Robert Blakey,Professor, Notre Dame Law School, author of &lt;I>Rico&lt;/I>, the federal anti-racketeering statue;
+&lt;p>"Jacobs quotes . . . verbatim trial testimony and bugged conversations. . . . [T]renchant materials for budding prosecutors and investigators."&lt;/p>-&lt;i>Times Literary Supplement&lt;/i>,</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19961001</PublicationDate>
+    <CopyrightYear>1996</CopyrightYear>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19960901</ExpectedShipDate>
+      <OnSaleDate>19961001</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

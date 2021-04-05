@@ -11,7 +11,7 @@ const SupafolioApiErrorProductNotInDatabase =
 const SupafolioApiErrorResourceNotFound =
     require( '../../lib/supafolio/SupafolioApiErrorResourceNotFound' ).SupafolioApiErrorResourceNotFound;
 
-const SUPAFOLIO_API_FIXTURE_DIRECTORY = path.join( __dirname, '/fixture/supafolio-api/' );
+const SUPAFOLIO_API_FIXTURES_DIRECTORY = path.join( __dirname, '/fixtures/supafolio-api/' );
 const SUPAFOLIO_API_URL = 'http://api.supafolio.com/v2/book/';
 
 class SupafolioApiStub {
@@ -34,7 +34,7 @@ class SupafolioApiStub {
 
     static getAllBookResponses() {
         const supafolioApiResponses = {};
-        const supafolioApiResponsesFixtureFiles = fs.readdirSync( SUPAFOLIO_API_FIXTURE_DIRECTORY );
+        const supafolioApiResponsesFixtureFiles = fs.readdirSync( SUPAFOLIO_API_FIXTURES_DIRECTORY );
 
         supafolioApiResponsesFixtureFiles.forEach( ( supafolioApiResponseFixtureFile ) => {
             if ( ! supafolioApiResponseFixtureFile.endsWith( '.json' ) ) {
@@ -44,7 +44,7 @@ class SupafolioApiStub {
             const epubId = path.basename( supafolioApiResponseFixtureFile, '.json' );
 
             supafolioApiResponses[ epubId ] =
-                require( path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, supafolioApiResponseFixtureFile ) );
+                require( path.join( SUPAFOLIO_API_FIXTURES_DIRECTORY, supafolioApiResponseFixtureFile ) );
         } );
 
         return supafolioApiResponses;
@@ -77,7 +77,7 @@ class SupafolioApiStub {
         );
     }
 
-    // Example: http://api.supafolio.com/v2/book/9780814706404
+    // Example: http://api.supafolio.com/v2/book/9780814707821
     request( method, url, options ) {
         const isbn = SupafolioApiStub.parseIsbn( url );
 
@@ -125,7 +125,7 @@ class SupafolioApiStub {
             );
         }
 
-        const fixtureFile = path.join( SUPAFOLIO_API_FIXTURE_DIRECTORY, `${ isbn }.json` );
+        const fixtureFile = path.join( SUPAFOLIO_API_FIXTURES_DIRECTORY, `${ isbn }.json` );
 
         let body;
         if ( fs.existsSync( fixtureFile ) ) {

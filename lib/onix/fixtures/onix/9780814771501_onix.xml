@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814771501</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>081477475X</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814771501</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814771501</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BB</ProductForm>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Ferenczi's Turn in Psychoanalysis</TitleText>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Peter L. Rudnytsky</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Peter L. Rudnytsky&lt;/b> is Professor of English at the University of Florida and a Corresponding Member of the Institute of Contemporary Psychoanalysis in Los Angeles. &lt;/p></BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>02</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Antal Bokay</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Antal BÓKAY&lt;/b> is Professor of Literature at Janus Pannonius University in Pécs, Hungary, and a founding member of the Sándor Ferenczi Society. &lt;/p> &lt;p>&lt;b>Patrizia Giampieri-Deutsch&lt;/b> is a member of the Viennese Psychoanalytical Society and a lecturer in philosophy at the University of Vienna. She is an editor of the Freud</BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>03</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Patrizia Giampieri-Deutsch</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Patrizia Giampieri-Deutsch&lt;/b> is a member of the Viennese Psychoanalytical Society and a lecturer in philosophy at the University of Vienna. She is an editor of the Freud-Ferenczi correspondence.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>450</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>PSY000000</SubjectCode>
+      <SubjectHeadingText>PSYCHOLOGY / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Sigmund Freud's role in the history and development of psychoanalysis continues to be the standard by which others are judged. One of the most remarkable features of that history, however, is the exceptional caliber of the men and women Freud attracted as disciples and coworkers. One of the most influential, and perhaps overlooked, of them was the Hungarian analyst Sndor Ferenczi. Apart from Freud, Ferenczi is the analyst from that pioneering generation who addresses most immediately the concerns of contemporary psychoanalysts.&lt;/p> &lt;p>In Ferenczi's Turn in Psychoanalysis fifteen eminent scholars and clinicians from six different countries provide a comprehensive and rigorous examination of Ferenczi's legacy. Although the contributors concur in their assessment of Ferenczi's stature, they often disagree in their judgments about his views and his place in the history of psychoanalysis. For some, he is a radically iconoclastic figure, whose greatest contributions lie in his challenge to Freudian orthodoxy; for others, he is ultimately a classical analyst, who built on Freud's foundations. Divided into three sections, Contexts and Continuities, Disciple and Dissident, and Theory and Technique, the essays in Ferenczi's Turn in Psychoanalysis invite the reader to take part in a dialogue, in which the questions are many and the answers open-ended.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"Highly recommended."&lt;/p> -&lt;I>Psychoanalytic Books&lt;/i>,;
+&lt;p>"A fascinating collection of essays by both European and North American psychoanalysts. . . . A major contribution to the growing knowledge about Ferenczi, his inspirations, creativity, and risky directions."&lt;/p> -Rosemary Balsam,&lt;i>Choice&lt;/i></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19961101</PublicationDate>
+    <CopyrightYear>1996</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19961002</ExpectedShipDate>
+      <OnSaleDate>19961101</OnSaleDate>
+      <PackQuantity>24</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>75.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

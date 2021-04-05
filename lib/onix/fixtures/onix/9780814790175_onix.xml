@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814790175</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>081471563X</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814790175</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814790175</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">American Law in the Age of Hypercapitalism</TitleText>
+      <Subtitle>The Worker, the Family, and the State</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Ruth Colker</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;strong>Ruth Colker&lt;/strong> is a&amp;nbsp;Distinguished University Professor&amp;nbsp;and the Heck-Faust Memorial Chair in Constitutional Law at the Michael E. Moritz College of Law, Ohio State University. She is the author of &lt;em>Hybrid, The Disability Pendulum,&lt;/em> and &lt;em>American Law in the Age of Hypercapitalism&lt;/em>, all available from NYU Press.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>251</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>LAW000000</SubjectCode>
+      <SubjectHeadingText>LAW / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Since the fall of communism, laissez-faire capitalism has experienced renewed popularity. Flush with victory, the United States has embraced a particularly narrow and single-minded definition of capitalism and aggressively exported it worldwide. The defining trait of this brand of capitalism is an unwavering reverence for the icons of the market. Although promoted as a laissez-faire form of capitalism, it actually reflects the very evils of selfishness and greed by entrepreneurs that concerned Adam Smith.&lt;/p> &lt;p>Capitalism, however, can thrive without an extreme emphasis on efficiency and personal autonomy. Americans often forget that theirs is a rather peculiar form of capitalism, that other Western nations successfully maintain capitalistic systems that are fundamentally more balanced and nuanced in their effect on society. The unnecessarily inhumane aspects of American capitalism become apparent when compared to Canadian and Western European societies, with their more generous policies regarding affirmative action, accommodation for disabled persons, and family and medical leave for pregnant woman and their partners.&lt;/p> &lt;p>&lt;B>In American Law in the Age of Hypercapitalism&lt;/B>, Ruth Colker examines how American law purports to reflect--and actively promotes--a laissez-faire capitalism that disproportionately benefits the entrepreneurial class. Colker proposes that the quality of American life depends also on fairness and equality rather than simply the single-minded and formulaic pursuit of efficiency and utility.&lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19980301</PublicationDate>
+    <CopyrightYear>1998</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19980130</ExpectedShipDate>
+      <OnSaleDate>19980301</OnSaleDate>
+      <PackQuantity>48</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

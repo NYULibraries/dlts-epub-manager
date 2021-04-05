@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814728048</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814726844</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814728048</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Please Don't Wish Me a Merry Christmas</TitleText>
+      <Subtitle>A Critical History of the Separation of Church and State</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Stephen M. Feldman</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;strong>&lt;/strong>&lt;strong>Stephen M. Feldman&lt;/strong> is the Jerry W. Housel/Carl F. Arnold Distinguished Professor of Law and Adjunct Professor of Political Science at the University of Wyoming. Previous titles include &lt;em>Please Don&amp;#8217;t Wish Me a Merry Christmas: &amp;nbsp;A Critical History of the Separation of Church and State&lt;/em> (NYU Press, 1997) and &lt;em>Law and Religion: &amp;nbsp;A Critical Anthology&lt;/em> (NYU Press, 2000).&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>395</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>LAW060000</SubjectCode>
+      <SubjectHeadingText>LAW / Legal History</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Whether in the form of Christmas trees in town squares or prayer in school, fierce disputes over the separation of church and state have long bedeviled this country. Both decried and celebrated, this principle is considered by many, for right or wrong, a defining aspect of American national identity.&lt;/p> &lt;p>Nearly all discussions regarding the role of religion in American life build on two dominant assumptions: first, the separation of church and state is a constitutional principle that promotes democracy and equally protects the religious freedom of all Americans, especially religious outgroups; and second, this principle emerges as a uniquely American contribution to political theory.&lt;/p> &lt;p>In &lt;B>Please Don't Wish Me a Merry Christmas&lt;/B>, Stephen M. Feldman challenges both these assumptions. He argues that the separation of church and state primarily manifests and reinforces Christian domination in American society. Furthermore, Feldman reveals that the separation of church and state did not first arise in the United States. Rather, it has slowly evolved as a political and religious development through western history, beginning with the initial appearance of Christianity as it contentiously separated from Judaism.&lt;p>In tracing the historical roots of the separation of church and state within the Western world, Feldman begins with the Roman Empire and names Augustine as the first political theorist to suggest the idea. Feldman next examines how the roles of church and state variously merged and divided throughout history, during the Crusades, the Italian Renaissance, the Protestant Reformation, the British Civil War and Restoration, the early North American colonies, nineteenth-century America, and up to the present day. In challenging the dominant story of the separation of church and state, Feldman interprets the development of Christian social power vis--vis the state and religious minorities, particularly the prototypical religious outgroup, Jews. &lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19980801</PublicationDate>
+    <CopyrightYear>1998</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19980702</ExpectedShipDate>
+      <OnSaleDate>19980801</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>24.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>
