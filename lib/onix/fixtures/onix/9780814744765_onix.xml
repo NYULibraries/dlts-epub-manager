@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814744765</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814735924</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814744765</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814744765</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Black Rage Confronts the Law</TitleText>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Paul Harris</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B>Paul Harris&lt;/B> worked with the San Francisco Community Law Collective for sixteen years, during which time he was described as one of the best criminal defense lawyers in America. A past president of the National Lawyers Guild, he is Charles Garry Professor of Law at New College, a public-interest law school in San Francisco. He received his J.D. from the University of California at Berkeley.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>320</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>LAW013000</SubjectCode>
+      <SubjectHeadingText>LAW / Civil Rights</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>In 1971, &lt;B>Paul Harris&lt;/B> pioneered the modern version of the black rage defense when he successfully defended a young black man charged with armed bank robbery. Dubbed one of the most novel criminal defenses in American history by Vanity Fair, the black rage defense is enormously controversial, frequently dismissed as irresponsible, nothing less than a harbinger of anarchy. Consider the firestorm of protest that resulted when the defense for Colin Ferguson, the gunman who murdered numerous passengers on a New York commuter train, claimed it was considering a black rage defense.&lt;/p> &lt;p>In this thought-provoking book, Harris traces the origins of the black rage defense back through American history, recreating numerous dramatic trials along the way. For example, he recounts in vivid detail how Clarence Darrow, defense attorney in the famous Scopes Monkey trial, first introduced the notion of an environmental hardship defense in 1925 while defending a black family who shot into a drunken white mob that had encircled their home.&lt;/p> &lt;p>Emphasizing that the black rage defense must be enlisted responsibly and selectively, Harris skillfully distinguishes between applying an environmental defense and simply blaming society, in the abstract, for individual crimes. If Ferguson had invoked such a defense, in Harris's words, it would have sent a superficial, wrong-headed, blame-everything-on-racism message. Careful not to succumb to easy generalizations, Harris also addresses the possibilities of a white rage defense and the more recent phenomenon of cultural defenses. He illustrates how a person's environment can, and does, affect his or her life and actions, how even the most rational person can become criminally deranged, when bludgeoned into hopelessness by exploitation, racism, and relentless poverty.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p> "Any lawyer who deals within the Black community needs to read it."&lt;/p> -&lt;i>New York Amsterdam News&lt;/i>,;
+&lt;p>"Within Harris's reasoned, cogent analysis lurks a legal strategy tethered to the nation's tattered and perennial traditions of white supremacy, which aims to acknowledge it, use it to explain its devastating effects on the black psyche, and provide a legal tool for some degree of amelioration. Ultimately, &lt;B>Black Rage Confronts the Law&lt;/B> is more about U. S. power relations than law.&lt;br>Therefore, it will be damned.&lt;br>Therefore, it will be praised.&lt;br>Therefore, it should be read."&lt;/p> -Mumia Abu-Jamal,author of &lt;i>Live from Death Row&lt;/i>;
+&lt;p>"On a deeper and more profound level [this book] illustrates the degree to which social and economic hardship and deprivation can justify human misconduct."&lt;/p> -&lt;I>Library Journal&lt;/I>,;
+&lt;p>"Paul Harris made an impact just two years out of law school with his innovative `black rage' defense. Harris convinced the jury that, in America, unemployment for a proud and talented black man can cause . . . a kind of temporary insanity. The theory not only gained Harris's client an acquittal, it left the man's integrity intact."&lt;/p> -&lt;I>California Lawyer&lt;/I>,</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19990501</PublicationDate>
+    <CopyrightYear>1999</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <Measure>
+      <MeasureTypeCode>01</MeasureTypeCode>
+      <Measurement>9</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <Measure>
+      <MeasureTypeCode>02</MeasureTypeCode>
+      <Measurement>6</Measurement>
+      <MeasureUnitCode>in</MeasureUnitCode>
+    </Measure>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19990401</ExpectedShipDate>
+      <OnSaleDate>19990501</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>24.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

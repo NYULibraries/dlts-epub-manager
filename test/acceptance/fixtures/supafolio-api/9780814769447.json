@@ -1,0 +1,321 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814774415",
+        "description": "<p>In many arenas the debate is raging over the nature of sexual orientation.  <i>Queer Words, Queer Images</i> addresses this debate, but with a difference, arguing that homosexuality has become an issue precisely because of the way in which we discuss, debate, and communicate about the concept and experience of homosexuality.  The debate over homosexuality is fundamentally an issue of communication&#151;as we can see by the recent controversy over gays in the military.  This controversy, termed by one gay man as the annoying habit of heterosexual men to overestimate their own attractiveness, has been debated in communication-sensitive terms, such as morale and discipline.<br> The twenty chapters address such subjects as gay political language, homosexuality and AIDS on prime-time television, the politics of male homosexuality in young adult fiction, the identification of female athleticism with lesbianism, the politics of identity in the works of Edmund White, and coming out strategies. This is must reading for students of communication practices and theory, and for everyone interested in human sexuality.<br> Contributing to the book are:  James Chesebro (Indiana State), James Darsey (Ohio State), Joseph A. Devito (Hunter College, CUNY), Timothy Edgar (Purdue), Mary Anne Fitzpatrick (Wisconsin, Madison), Karen A. Foss (Humboldt State), Kirk Fuoss (St. Lawrence), Larry Gross (Pennsylvania), Darlene Hantzis (Indiana State), Fred E. Jandt (California State, San Bernardino), Mercilee Jenkins (San Francisco State), Valerie Lehr (St. Lawrence), Lynn C. Miller (Texas, Austin), Marguerite Moritz (Colorado, Boulder), Fred L. Myrick (Spring Hill), Emile Netzhammer (Buffalo State), Elenie Opffer, Dorothy S. Painter (Ohio State), Karen Peper (Michigan), Nicholas F. Radel (Furman), R. Jeffrey Ringer (St. Cloud State), Scott Shamp (Georgia), Paul Siegel (Gallaudet), Jacqueline Taylor (Depaul), Julia T. Wood (North Carolina, Chapel Hill).</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 360,
+        "search_weight": 540,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "library": "9780814769447",
+          "ebook": "9780814776643",
+          "hardcover": "9780814774403",
+          "paperback": "9780814769447",
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814769447.001.0001",
+          "language": "eng",
+          "edition_isbn": "9780814769447",
+          "cs_title_group": "9780814774403",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1994-01-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1994-01-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 757400400,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 360,
+        "isbn13": "9780814769447",
+        "title": "Queer Words, Queer Images",
+        "title_without_prefix": "Queer Words, Queer Images",
+        "seo": "queer-words-queer-images",
+        "subtitle": "Communication and the Construction of Homosexuality",
+        "title_id": "0028149cb031b46f5471a898a8a3da57",
+        "reference_id": null,
+        "summary": "In many arenas the debate is raging over the nature of sexual orientation.  Queer Words, Queer Images addresses this debate, but with a difference, arguing that homosexuality has become an...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "23.99",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "29.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-08-29 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.130",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULGBTQSS",
+              "code_3": "NYU",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality / Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULGBTQSS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULGBTQS",
+              "code_3": "NYU",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULGBTQS"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100002,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100002,
+              "name": "Ronald Jeffrey Ringer",
+              "first": "Ronald Jeffrey",
+              "last": "Ringer",
+              "seo": "ronald-jeffrey-ringer",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>R. Jeffrey Ringer</b> is Associate Professor of Speech Communication at St. Cloud State University in Minnesota.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1132-360",
+            "asset_id": "1132",
+            "asset": {
+              "id": "1132",
+              "unique": "25be743947f9d32380e934be64379cda",
+              "name": "648-H-9780814769447.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          },
+          {
+            "id": "880-360",
+            "asset_id": "880",
+            "asset": {
+              "id": "880",
+              "unique": "a54c249f92ead5a4b1092bd7c86fc76b",
+              "name": "145-W-9780814769447.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:51"
+            }
+          },
+          {
+            "id": "1006-360",
+            "asset_id": "1006",
+            "asset": {
+              "id": "1006",
+              "unique": "761627c999b920fe6e3ca622c22d55dd",
+              "name": "298-W-9780814769447.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-04-10 19:30:52"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BC360",
+            "format_id": "BC",
+            "seo_link": "queer-words-queer-images",
+            "detail": "Print PDF",
+            "title_id": "0028149cb031b46f5471a898a8a3da57",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814769447",
+            "edition": "",
+            "product_id": 360,
+            "primary_format": true,
+            "date": {
+              "date": "1994-01-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG35",
+            "format_id": "DG",
+            "seo_link": "queer-words-queer-images",
+            "detail": "",
+            "title_id": "0028149cb031b46f5471a898a8a3da57",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814769447",
+            "edition": "",
+            "product_id": 35,
+            "primary_format": false,
+            "date": {
+              "date": "1994-01-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG359",
+            "format_id": "DG",
+            "seo_link": "queer-words-queer-images",
+            "detail": "",
+            "title_id": "0028149cb031b46f5471a898a8a3da57",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814776643",
+            "edition": "",
+            "product_id": 359,
+            "primary_format": false,
+            "date": {
+              "date": "1994-01-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "360-11463",
+            "review_id": "11463",
+            "review": {
+              "id": "11463",
+              "reviewer": "Karla Jay,Professor of English and Women's Studies, Pace University, co-Editor, Out of the Closets: Voices of Gay Liberation",
+              "description": "\"...Bound to become the definitive work on [this subject]...The essays cover an extraordinary range of topics, from television to the very personal language shared by couples...Queer Words, Queer Images is must reading for anyone interested in the gentle art of communication.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9780814769447-aeaa91ce6cd82eb1820d5216fec197bf",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

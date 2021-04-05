@@ -18,8 +18,8 @@ const EXPECTED_GENERATED_METADATA_FILES_FULL =
 const EXPECTED_GENERATED_METADATA_FILES_3 =
     path.join( __dirname, '/expected/generated-metadata-files-3' )
 
-vorpal.em.configDir        = __dirname + '/fixture/config';
-vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
+vorpal.em.configDir        = __dirname + '/fixtures/config';
+vorpal.em.configPrivateDir = __dirname + '/fixtures/config-private';
 
 describe( 'metadata command', () => {
     let overriddenRequest;

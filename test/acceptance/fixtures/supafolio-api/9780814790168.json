@@ -1,0 +1,327 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814714218",
+        "description": "<p>In this thirty-first annual volume in the American Society of Legal and Political Philosophy's NOMOS series, entitled Markets and Justice, a number of distinguished authors consider a variety of topics in the area where economics, philosophy, and political science join paths.  Included are essays such as \"Contractarian Method, Private Property, and the Market Economy,\" \"Justice Under Capitalism,\" and \"Market Choice and Human Choice.\" Authors include Joshua Cohen, MIT; Gerald F. Gaus, University of Queensland; Margaret Jane Radin, University of Southern California; and Andrzej Rapaczynski, Columbia University.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 348,
+        "search_weight": 430,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "edition_isbn": "9780814790168",
+          "cs_title_group": "9780814790168",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false,
+          "library": "9780814790168",
+          "ebook": "9780814772157",
+          "hardcover": "9780814790168",
+          "paperback": false,
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814790168.001.0001"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1989-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1989-03-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 604731600,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 74,
+        "isbn13": "9780814790168",
+        "title": "Markets and Justice",
+        "title_without_prefix": "Markets and Justice",
+        "seo": "markets-and-justice",
+        "subtitle": "Nomos XXXI",
+        "title_id": "1718a816c96c123910343590d66ebf67",
+        "reference_id": null,
+        "summary": "In this thirty-first annual volume in the American Society of Legal and Political Philosophy's NOMOS series, entitled Markets and Justice, a number of distinguished authors consider a variety of...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "50.00",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "60.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "8.250",
+          "width": "5.500",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.500",
+          "weight_unit": "lb"
+        },
+        "series": [
+          {
+            "number_in_series": "5",
+            "series": {
+              "name": "NOMOS - American Society for Political and Legal Philosophy",
+              "seo_name": "nomos-american-society-for-political-and-legal-philosophy",
+              "description": ""
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00E00",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law / Economics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULE"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUL00000",
+              "code_3": "NYU",
+              "code_6": "NYUL00",
+              "name": "Law",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOLE00",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics / Economics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOLE"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "",
+            "contributor_id": 100009,
+            "role_id": "B01",
+            "contributor": {
+              "contributor_id": 100009,
+              "name": "John W. Chapman",
+              "first": "John W.",
+              "last": "Chapman",
+              "seo": "john-w-chapman",
+              "role": "B01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>John W. Chapman</b> is retired from the University of Pittsburgh where he taught political science.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "B01",
+              "name": "Edited by"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "342-74",
+            "asset_id": "342",
+            "asset": {
+              "id": "342",
+              "unique": "d85eace483e344f2d2e9ef3f11e1a58f",
+              "name": "648-H-9780814790168.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "74-74",
+            "asset_id": "74",
+            "asset": {
+              "id": "74",
+              "unique": "4848f53b32628225b0396def92019434",
+              "name": "145-W-9780814790168.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          },
+          {
+            "id": "208-74",
+            "asset_id": "208",
+            "asset": {
+              "id": "208",
+              "unique": "50a1aa5bacbcf949be6434dabfe97b1e",
+              "name": "298-W-9780814790168.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-01-20 10:44:25"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB74",
+            "format_id": "BB",
+            "seo_link": "markets-and-justice",
+            "detail": "Print PDF",
+            "title_id": "1718a816c96c123910343590d66ebf67",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814790168",
+            "edition": "",
+            "product_id": 74,
+            "primary_format": true,
+            "date": {
+              "date": "1989-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG6",
+            "format_id": "DG",
+            "seo_link": "markets-and-justice",
+            "detail": "",
+            "title_id": "1718a816c96c123910343590d66ebf67",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814790168",
+            "edition": "",
+            "product_id": 6,
+            "primary_format": false,
+            "date": {
+              "date": "1989-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG341",
+            "format_id": "DG",
+            "seo_link": "markets-and-justice",
+            "detail": "",
+            "title_id": "1718a816c96c123910343590d66ebf67",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814772157",
+            "edition": "",
+            "product_id": 341,
+            "primary_format": false,
+            "date": {
+              "date": "1989-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

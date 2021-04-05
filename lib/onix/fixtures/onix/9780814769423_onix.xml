@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814769423</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814774636</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814769423</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814769423</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BB</ProductForm>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">High Hopes</TitleText>
+      <Subtitle>Bill Clinton and the Politics of Ambition</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Stanley A Renshon</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Stanley Renshon&lt;/b> is Professor of Political Science at the City University of New York and developer and coordinator of the Interdisciplinary Program in the Psychology of Political Behavior at the CUNY Graduate School. He is the author and editor of several books, most recently the award-winning &lt;i>High Hopes: The Clinton Presidency and the Politics of Ambition&lt;/i>.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>320</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>POL000000</SubjectCode>
+      <SubjectHeadingText>POLITICAL SCIENCE / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>The Clinton presidency is pivotal, occurring at a particularly sensitive time in American and world history. The Cold War has ended; yet Americans face daunting social and economic problems and are increasingly divided about how to address them. In this perceptive psychological portrait of Clinton and his presidency, expert Stanley Renshon investigates whether Clinton has demonstrated the requisite qualities of judgment, vision, character, and skill to meet the challenges he faces, domestically and internationally, and whether he merits another term.&lt;/p> &lt;p>Renshon incisively analyzes Clinton's sweeping ambitions, his enormous confidence in himself and his goals, and his success in convincing people that he genuinely cares about them. He reveals a Bill Clinton whose capacity for political success is often undermined by the very traits for which many praise him. His unusually high self-confidence, for instance, leads him to believe that he can accomplish what others have not, that he can, for instance, reconcile polar opposites such as liberal Democrats and conservative Republicans. Remarkably persistent throughout Clinton's career are certain character traits which have defined him to the public--his tendency to make promises he can't keep, his ability to win people over in person, his sudden blind rages.&lt;/p> &lt;p>Renshon traces the development of Clinton's character from his early family experiences to his highly successful adolescence and long political career. He illustrates how each step along the way--Clinton's inconsistent experiences as an adored but disregarded child, his attempt to avoid the draft and the consequences of doing so, his marriage to Hillary Rodham whose own psychology has both helped and hurt him, and his tenure as governor during which his character first became a political issue--is crucial to understanding his erratic and controversial presidency. Renshon explores the nature of the Clinton marriage as a political partnership and looks at Hillary Clinton as an associate president.&lt;/p> &lt;p>High Hopes gives us a new understanding of why a man with so many talents has become a president whose performance has not measured up to his promise.&lt;p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"Bill Clinton is a man whose inconsistencies have profoundly puzzled reporters, pundits, and this reviewer. The author sets out to make sense of these contradictions. He looks at President Clinton's character form the perspective of ambition, integrity, and his relationship with others. It is in Renshon's examination of these characteristics that make &lt;i>High Hopes&lt;/i> so intriguing and educational."&lt;/p>-&lt;i>The American Reporter Book Review&lt;/i>,</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19960401</PublicationDate>
+    <CopyrightYear>1996</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19960302</ExpectedShipDate>
+      <OnSaleDate>19960401</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>50.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

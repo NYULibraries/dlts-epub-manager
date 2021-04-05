@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814769409</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814774822</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814769409</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">The Slave Soul of Russia</TitleText>
+      <TitlePrefix>The</TitlePrefix>
+      <TitleWithoutPrefix>Slave Soul of Russia</TitleWithoutPrefix>
+      <Subtitle>Moral Masochism and the Cult of Suffering</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Daniel Rancour-Laferriere</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B>Daniel Rancour-Laferriere&lt;/B> is Professor of Russian at the University of California, Davis. He is the author of many books, including &lt;A HREF="authbook.msql?$string&amp;book=081477458X">The Slave Soul of Russia&lt;/A> and &lt;A HREF="authbook.msql?$string&amp;book=0814774393">Self-Analysis in Literary Study&lt;/A>, both available from NYU Press.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>336</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>HIS032000</SubjectCode>
+      <SubjectHeadingText>HISTORY / Europe / Russia &amp; the Former Soviet Union</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>Why, asks Daniel Rancour-Laferriere in this controversial book, has Russia been a country of suffering? Russian history, religion, folklore, and literature are rife with suffering. The plight of Anna Karenina, the submissiveness of serfs in the 16th and 17th centuries, ancient religious tracts emphasizing humility as the mother of virtues, the trauma of the Bolshevik revolution, the current economic upheavals wracking the country-- these are only a few of the symptoms of what The Slave Soul of Russia identifies as a veritable cult of suffering that has been centuries in the making.&lt;/p> &lt;p>Bringing to light dozens of examples of self-defeating activities and behaviors that have become an integral component of the Russian psyche, Rancour-Laferriere convincingly illustrates how masochism has become a fact of everyday life in Russia. Until now, much attention has been paid to the psychology of Russia's leaders and their impact on the country's condition. Here, for the first time, is a compelling portrait of the Russian people's psychology.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"A vast, provocative study . . . psychologically illuminating."&lt;/p>-&lt;I>Times Literary Supplement&lt;/I>,;
+&lt;p>"[Rancour-Laferriere] sees in Russian masochism one of the attractions and beauties of Russian culture. Sure to raise eyebrows, if not hackles."&lt;/p>-&lt;I>Library Journal&lt;/I>,;
+&lt;p>"A provocative exploration of moral masochism as an undercurrent in the tragic history of the Russian people. Rancour-Laferriere's study should be read by all those interested in the nature of Russian nationalism and the myths surrounding Russian national character."&lt;/p> -Joanna Hubbs,author of &lt;I>Mother Russia: The Feminine Myth in Russian Culture&lt;/I></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19961001</PublicationDate>
+    <CopyrightYear>1996</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19960901</ExpectedShipDate>
+      <OnSaleDate>19961001</OnSaleDate>
+      <PackQuantity>28</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

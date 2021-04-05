@@ -1,0 +1,8 @@
+{
+    "cacheMetadataInMemory" : true,
+
+    "intakeEpubDir"         : "test/acceptance/fixtures/intake-epubs",
+    "intakeEpubList"        : [ "9780814725078", "9781479829712", "9780814762622" ],
+
+    "metadataDir"           : "test/acceptance/tmp/metadata"
+}

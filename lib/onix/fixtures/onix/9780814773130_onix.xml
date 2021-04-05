@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814773130</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814735053</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814773130</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Lover</TitleText>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Bertha Harris</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B>Bertha Harris&lt;/B> is also the author of &lt;I>Confessions of Cherubino&lt;/I> and &lt;I>Catching Saradove&lt;/I>. She lives in Tennyson, Massachusetts, and continues to write compelling, eccentric and faintly indecent fiction.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>304</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>FIC018000</SubjectCode>
+      <SubjectHeadingText>FICTION / Lesbian</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>A landmark work of lesbian literature, Lover was first published in 1972 by the now-defunct feminist press, Daughters, to tremendous critical acclaim. Emerging out of the women's and gay liberation movement alongside the early work of such writers as Rita Mae Brown and Jill Johnston, the novel features fictional and historical characters who run the gamut from saint to poor white trash, and who are by turn vulnerable and strong. One of the finest examples of early post-Stonewall lesbian fiction, Lover is poised to entice a new generation of readers.&lt;/p> &lt;p>In this new edition, Harris reintroduces her work, providing engaging background on the cultural and personal milieu in which it was produced and painting a scathing and witty picture of the book's original publisher. Revealing the real-life personalities behind some of the novel's characters, the introduction is an amusing retrospective sure to entertain those who remember the heady post-Stonewall days, and to enlighten younger readers.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"A wonder...I was seduced by its tantalizing elusiveness, its audacity, its sheer brio...a spellbinding, verbal sleight of hand as satisfying as it is serpentine."&lt;/p>-&lt;I>The Washington Post Book World&lt;/I>,;
+&lt;p>"Bertha Harris has created a woman's world as relaxed and sisterly and funny as [Joan] Didion's is tense and controlled. [She] presents a utopian vision of a world where women are in charge of themselves, and where, it is nice to note, they are very good company indeed."&lt;/p> -&lt;I>The New York Review of Books&lt;/I>,;
+&lt;p>"Violent, funny, beautiful, intelligent."&lt;/p>-Jane Rule,;
+&lt;p>"Harris, an American equivalent of Monique Wittig,...is ingenious, sardonic, parodic. [She] explores the various roles women have played: grandmother, mother, daughter, sister, wife and second wife, businesswoman in man's clothing, prostitute, factory worker, movie star, muse and tutelary spirit, warrior, artist, fake saint, martyr."&lt;/p>-Catharine R. Stimpson,;
+&lt;p>"The introduction [is] by turns funny, sad, moving, and outrageous...[Harris] illuminates the New York women's art and literary scene of the late sixties and seventies; the introduction alone is worth the price of the book. Altogether, Lover is everything a seduction should be&amp;#8212;smart, unpredictable, witty, provocative&amp;#151:and sexy."&lt;/p> -Carolyn Allen,University of Washington</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19931001</PublicationDate>
+    <CopyrightYear>1993</CopyrightYear>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19930901</ExpectedShipDate>
+      <OnSaleDate>19931001</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>24.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

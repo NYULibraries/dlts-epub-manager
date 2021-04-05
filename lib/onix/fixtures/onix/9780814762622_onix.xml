@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814762622</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814761909</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814762622</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814762622</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Embracing the Other</TitleText>
+      <Subtitle>Philosophical, Psychological, and Historical Perspectives on Altruism</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Pearl Oliner</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Pearl M. Oliner&lt;/b> and &lt;b>Samuel P. Oliner&lt;/b> are Professor of Education and Professor of Sociology, respectively, at Humboldt State University and co-authors of The Altruistic Personality: Rescuers of Jews in Nazi Europe.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>02</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Samuel P. Oliner</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Pearl M. Oliner&lt;/b> and &lt;b>Samuel P. Oliner&lt;/b> are Professor of Education and Professor of Sociology, respectively, at Humboldt State University and co-authors of The Altruistic Personality: Rescuers of Jews in Nazi Europe.&lt;/p> &lt;p>&lt;b>Lawrence Baron&lt;/b> is the Director of the Lipinsky Institute for Judaic Studies and Nasir Professor of Modern Jewish History at San Diego State University.&lt;/p> &lt;p>&lt;b>Dennis L. Krebs&lt;/b> is Chair and Professor of Psychology at S &lt;/p></BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>03</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Lawrence Baron</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Lawrence Baron&lt;/b> is the Director of the Lipinsky Institute for Judaic Studies and Nasir Professor of Modern Jewish History at San Diego State University.&lt;/p> &lt;p>&lt;b>Dennis L. Krebs&lt;/b> is Chair and Professor of Psychology at Simon Fraser University. &lt;b>Lawrence A. Blum&lt;/b> is Professor of Philosophy and Women's studies at the University of Massachusetts at Boston. &lt;b>M Zuzanna Smolenska&lt;/b> is Assistant Professor, Polish Academy of Science.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Contributor>
+      <SequenceNumber>04</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Lawrence Blum</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;b>Dennis L. Krebs&lt;/b> is Chair and Professor of Psychology at Simon Fraser University. &lt;b>Lawrence A. Blum&lt;/b> is Professor of Philosophy and Women's studies at the University of Massachusetts at Boston. &lt;b>M Zuzanna Smolenska&lt;/b> is Assistant Professor, Polish Academy of Science.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>456</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>SOC026000</SubjectCode>
+      <SubjectHeadingText>SOCIAL SCIENCE / Sociology / General</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>All but buried for most of the twentieth century, the concept of altruism has re-emerged in this last quarter as a focus of intense scholarly inquiry and general public interest. In the wake of increased consciousness of the human potential for destructiveness, both scholars and the general public are seeking interventions which will not only inhibit the process, but may in fact chart a new creative path toward a global community. Largely initiated by a group of pioneering social psychologists, early questions on altruism centered on its motivation and development primarily in the context of contrived laboratory experiments. Although publications on the topic have been considerable over the last several years, and now represent the work of representatives from many disciplines of inquiry, this volume is distinguished from others in several ways.&lt;/p>&lt;p>&lt;i>Embracing the Other&lt;/i> emerged primarily as a response to recent research on an extraordinary manifestation of real-life altruism, namely to recent studies of non-Jewish rescuers of Jews during World War II. It is the work of a multi-disciplinary and international group of scholars, including philosophers, social psychologists, historians, sociologists, and educators, challenging several prevailing conceptual definitions and motivational sources of altruism. The book combines both new empirical and historical research as well as theoretical and philosophical approaches and includes a lengthy section addressing the practical implications of current thinking on altruism for society at large. The result is a multi-textured work, addressing critical issues in varied disciplines, while centered on shared themes.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"Intelligently addresses several of the most important unresolved issues and controversies about altruism."&lt;/p> -&lt;i>The Journal of Politics&lt;/i>,</Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19950701</PublicationDate>
+    <CopyrightYear>1995</CopyrightYear>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19950601</ExpectedShipDate>
+      <OnSaleDate>19950701</OnSaleDate>
+      <PackQuantity>20</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

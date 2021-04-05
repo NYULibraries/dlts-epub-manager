@@ -5,8 +5,8 @@ const fs     = require( 'fs' );
 const util   = require( '../../lib/util' );
 const vorpal = em.vorpal;
 
-vorpal.em.configDir        = __dirname + '/fixture/config';
-vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
+vorpal.em.configDir        = __dirname + '/fixtures/config';
+vorpal.em.configPrivateDir = __dirname + '/fixtures/config-private';
 
 describe( 'readium-json command', () => {
     let expectedFull;

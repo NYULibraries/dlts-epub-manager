@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814784488</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814782191</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814784488</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">The Truth About Freud's Technique</TitleText>
+      <TitlePrefix>The</TitlePrefix>
+      <TitleWithoutPrefix>Truth About Freud's Technique</TitleWithoutPrefix>
+      <Subtitle>The Encounter With the Real</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Michael Guy Thompson</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B>M. Guy Thompson&lt;/B>, Ph.D founded the Free Association in San Francisco, an analytic training scheme devoted to integrating phenomenology and psychoanalysis. He is the author of &lt;I>The Death of Desire: A Study in Psychopathology&lt;/I>, also published by New York University Press. He currently practices psychoanalysis in San Francisco.&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>296</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>PSY026000</SubjectCode>
+      <SubjectHeadingText>PSYCHOLOGY / Movements / Psychoanalysis</SubjectHeadingText>
+    </Subject>
+    <Subject>
+      <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+      <SubjectCode>PSY000000</SubjectCode>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>In this unusual and much-needed reappraisal of Freud's clinical technique, M. Guy Thompson challenges the conventional notion that psychoanalysis promotes relief from suffering and replaces it with a more radical assertion, that psychoanalysis seeks to mend our relationship with the real that has been fractured by our avoidance of the same. Thompson suggests that, while avoiding reality may help to relieve our experience of suffering, this short-term solution inevitably leads to a split in our existence.&lt;/p> &lt;p>M. Guy Thompson forcefully disagrees with the recent trend that dismisses Freud as an historical figure who is out of step with the times. He argues, instead, for a return to the forgotten Freud, a man inherently philosophical and rooted in a Greek preoccupation with the nature of truth, ethics, the purpose of life and our relationship with reality. Thompson's argument is situated in a stunning re-reading of Freud's technical papers, including a new evaluation of his analyses of Dora and the Rat Man in the context of Heidegger's understanding of truth.&lt;/p> &lt;p>In this remarkable examination of Freud's technical recommendations, M. Guy Thompson explains how psychoanalysis was originally designed to re-acquaint us with realities we had abandoned by encountering them in the contest of the analytic experience. This provocative examination of Freud's conception of psychoanalysis reveals a more personal Freud than we had previously supposed, one that is more humanistic and real. &lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19950701</PublicationDate>
+    <CopyrightYear>1995</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19950601</ExpectedShipDate>
+      <OnSaleDate>19950701</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

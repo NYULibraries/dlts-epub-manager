@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title id="title">The Class: Living and Learning in the Digital Age</dc:title>
+<dc:identifier id="pub-id">urn:isbn:9781479863570</dc:identifier>
+<dc:language>en-US</dc:language>
+<dc:creator id="creator">Sonia Livingstone and Julian Sefton-Green</dc:creator>
+<dc:publisher>New York University Press</dc:publisher>
+<dc:rights>All rights reserved</dc:rights>
+<dc:format>368 Pages</dc:format>
+<meta property="dcterms:modified">2016-02-09T11:26:51Z</meta>
+<meta property="dcterms:creator" id="auth">Sonia Livingstone and Julian Sefton-Green</meta>
+<meta property="dcterms:date">2016</meta>
+<meta property="rendition:orientation">auto</meta>
+<meta property="rendition:spread">auto</meta>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item properties="nav" id="nav" href="nav.xhtml" media-type="application/xhtml+xml"/>
+<item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="html-cover-page" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="halftitle" href="xhtml/halftitle.xhtml" media-type="application/xhtml+xml"/>
+<item id="serialpage" href="xhtml/serialpage.xhtml" media-type="application/xhtml+xml"/>
+<item id="tit" href="xhtml/title.xhtml" media-type="application/xhtml+xml"/>
+<item id="copyright" href="xhtml/copyright.xhtml" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/contents.xhtml" media-type="application/xhtml+xml"/>
+<item id="figureandtables" href="xhtml/figureandtables.xhtml" media-type="application/xhtml+xml"/>
+<item id="acknowledgments" href="xhtml/acknowledgments.xhtml" media-type="application/xhtml+xml"/>
+<item id="introduction" href="xhtml/introduction.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter1" href="xhtml/chapter1.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter2" href="xhtml/chapter2.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter3" href="xhtml/chapter3.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter4" href="xhtml/chapter4.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter5" href="xhtml/chapter5.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter6" href="xhtml/chapter6.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter7" href="xhtml/chapter7.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter8" href="xhtml/chapter8.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter9" href="xhtml/chapter9.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter10" href="xhtml/chapter10.xhtml" media-type="application/xhtml+xml"/>
+<item id="conclusion" href="xhtml/conclusion.xhtml" media-type="application/xhtml+xml"/>
+<item id="appendix" href="xhtml/appendix.xhtml" media-type="application/xhtml+xml"/>
+<item id="notes" href="xhtml/notes.xhtml" media-type="application/xhtml+xml"/>
+<item id="references" href="xhtml/references.xhtml" media-type="application/xhtml+xml"/>
+<item id="index" href="xhtml/index.xhtml" media-type="application/xhtml+xml"/>
+<item id="abouttheauthor" href="xhtml/abouttheauthor.xhtml" media-type="application/xhtml+xml"/>
+<item id="css" href="styles/stylesheet.css" media-type="text/css"/>
+<item id="cover-image" href="images/9781479863570.jpg" media-type="image/jpeg"/>
+<item id="image-001" href="images/F_03_01_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-002" href="images/F_03_02_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-003" href="images/F_03_03_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-004" href="images/F_05_01_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-005" href="images/F_05_02_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-006" href="images/F_05_03_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-007" href="images/F_09_01_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-008" href="images/F_09_02a_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-009" href="images/F_09_02b_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0010" href="images/F_09_03_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0011" href="images/F_A_01_LIVINGSTONE_fmt.jpeg" media-type="image/jpeg"/>
+<item id="image-0012" href="images/NYU_TitlePage_Logo_fmt.jpeg" media-type="image/jpeg"/>
+</manifest>
+<spine toc="toc" page-progression-direction="ltr">
+<itemref idref="html-cover-page" linear="yes"/>
+<itemref idref="halftitle"/>
+<itemref idref="serialpage"/>
+<itemref idref="tit"/>
+<itemref idref="copyright"/>
+<itemref idref="contents"/>
+<itemref idref="figureandtables"/>
+<itemref idref="acknowledgments"/>
+<itemref idref="introduction"/>
+<itemref idref="chapter1"/>
+<itemref idref="chapter2"/>
+<itemref idref="chapter3"/>
+<itemref idref="chapter4"/>
+<itemref idref="chapter5"/>
+<itemref idref="chapter6"/>
+<itemref idref="chapter7"/>
+<itemref idref="chapter8"/>
+<itemref idref="chapter9"/>
+<itemref idref="chapter10"/>
+<itemref idref="conclusion"/>
+<itemref idref="appendix"/>
+<itemref idref="notes"/>
+<itemref idref="references"/>
+<itemref idref="index" linear="yes"/>
+<itemref idref="abouttheauthor"/>
+</spine>
+<guide>
+<reference type="text" title="Cover Image" href="xhtml/cover.xhtml"/>
+<reference type="toc" title="Contents" href="xhtml/contents.xhtml"/>
+<reference type="cover" title="Cover Image" href="xhtml/cover.xhtml"/>
+</guide>
+</package>

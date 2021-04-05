@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9780814744819">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Christianity and the Holocaust of Hungarian Jewry</dc:title>
+<dc:creator>Moshe Y. Herczl</dc:creator>
+<dc:date>1993</dc:date>
+<dc:identifier id="p9780814744819">9780814744819</dc:identifier>
+<dc:coverage>New York</dc:coverage>
+<dc:coverage>London</dc:coverage>
+<dc:language>En</dc:language>
+<dc:type>Text</dc:type>
+<dc:format>310 Pages</dc:format>
+<dc:rights>All rights reserved</dc:rights>
+<dc:publisher>New York University Press New York and London</dc:publisher>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="ch00_fm01" href="xhtml/ch00_fm01.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm02" href="xhtml/ch00_fm02.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm03" href="xhtml/ch00_fm03.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm04" href="xhtml/ch00_fm04.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm05" href="xhtml/ch00_fm05.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm06" href="xhtml/ch00_fm06.html" media-type="application/xhtml+xml"/>
+<item id="ch00_fm07" href="xhtml/ch00_fm07.html" media-type="application/xhtml+xml"/>
+<item id="ch01" href="xhtml/ch01.html" media-type="application/xhtml+xml"/>
+<item id="ch02" href="xhtml/ch02.html" media-type="application/xhtml+xml"/>
+<item id="ch03" href="xhtml/ch03.html" media-type="application/xhtml+xml"/>
+<item id="ch04_notes" href="xhtml/ch04_notes.html" media-type="application/xhtml+xml"/>
+<item id="ch05_index" href="xhtml/ch05_index.html" media-type="application/xhtml+xml"/>
+<item id="stylesheet" href="styles/9780814744819.css" media-type="text/css"/>
+<item id="cover-image" href="images/9780814744819.jpg" media-type="image/jpeg"/>
+<item id="pub" href="images/pub.jpg" media-type="image/jpeg"/>
+<item id="pt" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="map" href="page-map.xml" media-type="application/oebps-page-map+xml"/>
+<item id="font1" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="font2" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="font3" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="font4" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+</manifest>
+<spine toc="ncx" page-map="map">
+<itemref idref="cover"/>
+<itemref idref="ch00_fm01"/>
+<itemref idref="ch00_fm02"/>
+<itemref idref="ch00_fm03"/>
+<itemref idref="ch00_fm04"/>
+<itemref idref="ch00_fm05"/>
+<itemref idref="ch00_fm06"/>
+<itemref idref="ch00_fm07"/>
+<itemref idref="ch01"/>
+<itemref idref="ch02"/>
+<itemref idref="ch03"/>
+<itemref idref="ch04_notes"/>
+<itemref idref="ch05_index"/>
+</spine>
+<guide>
+	<reference type="toc" title="Contents" href="xhtml/ch00_fm06.html#ch00_fm06"/>
+	</guide>
+</package>

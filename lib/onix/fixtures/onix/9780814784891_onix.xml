@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814784891</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814793398</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814784891</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814784891</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Everyday Courage</TitleText>
+      <Subtitle>The Lives and Stories of Urban Teenagers</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Niobe Way</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B>Niobe Way&lt;/B> is professor of applied psychology at New York University's Steinhardt School of Education. She is a three-time NYU Press author/editor, having written &lt;I>Everyday Courage&lt;/I> and edited &lt;I>Adolescent Boys&lt;/I> as well as having co-edited &lt;I>Urban Girls&lt;/I> with Bonnie Leadbeater in 1996. She is also co-editor of &lt;I>The Experience of Close Friendship in Adolescence.&lt;/I>&lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>306</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>SOC026030</SubjectCode>
+      <SubjectHeadingText>SOCIAL SCIENCE / Sociology / Urban</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>What does it mean to be a teenager in an American city at the close of the twentieth century? How do urban surroundings affect the ways in which teens grow up, and what do their stories tell us about human development? In particular, how do the negative images of themselves on television and in the newspaper affect their perspectives about themselves? Psychologists typically have shown little interest in urban youth, preferring instead to generalize about adolescent development from studies of their middle-class, suburban counterparts. In &lt;B>Everyday Courage&lt;/B> Niobe Way, a developmental psychologist, looks beyond the stereotypes to reveal how the personal worldviews of inner-city poor and working-class adolescents develop over time. In the process, she challenges much conventional wisdom about inner-city youth and about adolescents more generally.&lt;/p> &lt;p>She introduces us to Malcolm, a sensitive and proud young man full of contradictions. We follow him as he makes the honor roll, becomes a teenage father, and falls into depression as his younger sister is dying of cancer. We meet Eva, an intelligent and confident young women full of questions, who grows increasingly alienated from her mother and comes to rely on her best friends for support. We watch her blossom as a ball player and a poet. We share her triumph when she receives a scholarship to the college of her choice.&lt;/p> &lt;p>In these 24 adolescents, Way finds a cross-section of youngsters who want to make positive changes in their lives and communities while struggling with concerns about betrayal, trust, racism, violence, and death. Each adolescent wants most of all to &amp;#34;be somebody,&amp;#34; to have her or his voice heard.&lt;/p></Text>
+    </OtherText>
+    <OtherText>
+      <TextTypeCode>08</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"Recommended for anyone who works with inner-city youth."&lt;/p> -&lt;i>Library Journal&lt;/i>,;
+&lt;p>"This exceptionally important book will set the standard for powerful writing about urban teenagers for years to come. Privileging the voices of inner-city teens and presenting their experiences of themselves and their worlds, Niobe Way's intelligent, subtle voice leads us to listen freshly to this group whose views are so often not heard or are distorted. She presents a brilliant example of voice-centered research and essential reading for anyone hoping to work effectively with adolescents."&lt;/p> -Carol Gilligan,author of &lt;i>In a Different Voice: Psychological Theory&lt;/i> and &lt;i>Women's Development&lt;/i></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19980401</PublicationDate>
+    <CopyrightYear>1998</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>IP</AvailabilityCode>
+      <ExpectedShipDate>19980302</ExpectedShipDate>
+      <OnSaleDate>19980401</OnSaleDate>
+      <PackQuantity>28</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>ACADEMIC</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>25.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>

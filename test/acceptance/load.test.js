@@ -4,8 +4,8 @@ const em     = require( '../../lib/bootstrap' );
 const util   = require( '../../lib/util' );
 const vorpal = em.vorpal;
 
-vorpal.em.configDir        = __dirname + '/fixture/config';
-vorpal.em.configPrivateDir = __dirname + '/fixture/config-private';
+vorpal.em.configDir        = __dirname + '/fixtures/config';
+vorpal.em.configPrivateDir = __dirname + '/fixtures/config-private';
 
 describe( 'load command', () => {
 
@@ -14,7 +14,7 @@ describe( 'load command', () => {
         let expectedRhsPassword;
 
         beforeAll( ( ) => {
-            const privateConfig = require( './fixture/config-private/full-metadataDir.json' );
+            const privateConfig = require( './fixtures/config-private/full-metadataDir.json' );
             expectedRhsUsername = privateConfig.restfulHandleServerUsername;
             expectedRhsPassword = privateConfig.restfulHandleServerPassword;
         });

@@ -1,0 +1,292 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "0814774695",
+        "description": "<p>Debate on public issues--and where candidates stand on them-- have traditionally represented the focal point of presidential campaigns.  In recent decades, however, rather than asking where candidates stand on the issues, the public increasingly wants to know who they are.  The issue of character has thus come to dominate presidential elections.<br> While there is increasing public awareness that the psychology, judgment, and leadership qualities of presidential candidates count, the basis on which these judgments should made remains unclear.  Does it matter that Gary Hart changed his name or had an affair?  Should Ed Muskie's loss of composure while defending his wife during a campaign speech, or Thomas Eagleton's hospitalization for depression, have counted against them?<br> Looking back over the past 25 years, Stanley Renshon, a political scientist and psychoanalyst, provides the first comprehensive accounting of how character has become an increasingly important issue in a presidential campaign.  He traces two related but distinctive approaches to the issue of presidential character and psychology.  The first concerns the mental health of our candidates and presidents.  Are they emotionally and personally stable?  Is their temperament suitable for the presidency?  The second concerns character.  Is the candidate honest?  Does he possess the necessary judgment and motivation to deal with the tremendous responsibilities and pressures of the office?<br> Drawing on his clinical and political science training, Renshon has devised a theory which will allow the public to better evaluate presidential candidates.  Why are honesty, integrity, and personal ideals so important in judging candidates?  Is personal and political ambition necessarily a bad trait? Do extra-marital affairs really matter?  Finally, and most importantly, how can the public tell whether a candidate's leadership will be enhanced or impeded by aspects of his personality?With this sweeping volume, Stanley Renshon has provided us with the most comprehensive account to date of how the public judges, and should judge, our future presidents.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 530,
+        "search_weight": 430,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "",
+        "initial_print_run": null,
+        "custom": {
+          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814776636.001.0001",
+          "language": "eng",
+          "edition_isbn": "9780814776636",
+          "cs_title_group": "9780814776636",
+          "scheduled_date": "05/29/2014",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": false
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": true,
+        "date": {
+          "date": "1996-05-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "1996-05-01 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 830923200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "",
+        "product_id": 388,
+        "isbn13": "9780814776636",
+        "title": "The Psychological Assessment of Presidential Candidates",
+        "title_without_prefix": "Psychological Assessment of Presidential Candidates",
+        "seo": "the-psychological-assessment-of-presidential-candidates",
+        "subtitle": "",
+        "title_id": "c473bb1fdf4bd643558ceb78e5950199",
+        "reference_id": null,
+        "summary": "Debate on public issues--and where candidates stand on them-- have traditionally represented the focal point of presidential campaigns.  In recent decades, however, rather than asking where candidates...",
+        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "GBP",
+            "amount": "74.00",
+            "discount": null,
+            "promo_start": [],
+            "promo_stop": [],
+            "saving": null
+          },
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2019-03-31 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "9.000",
+          "width": "6.000",
+          "depth": null,
+          "unit": "in",
+          "weight": "1.880",
+          "weight_unit": "lb"
+        },
+        "series": [],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUP00000",
+              "code_3": "NYU",
+              "code_6": "NYUP00",
+              "name": "Psychology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUPOL000",
+              "code_3": "NYU",
+              "code_6": "NYUPOL",
+              "name": "Politics",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUPOL"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Stanley A Renshon",
+            "contributor_id": 100019,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100019,
+              "name": "Stanley A Renshon",
+              "first": "Stanley A",
+              "last": "Renshon",
+              "seo": "stanley-a-renshon",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Stanley Renshon</b> is Professor of Political Science at the City University of New York and developer and coordinator of the Interdisciplinary Program in the Psychology of Political Behavior at the CUNY Graduate School. He is the author and editor of several books, most recently the award-winning <i>High Hopes: The Clinton Presidency and the Politics of Ambition</i>.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": null,
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1202-388",
+            "asset_id": "1202",
+            "asset": {
+              "id": "1202",
+              "unique": "026e4de0d8f3c80ee2f4ff74cf95b530",
+              "name": "648-H-9780814776636.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-06-23 19:30:51"
+            }
+          },
+          {
+            "id": "1160-388",
+            "asset_id": "1160",
+            "asset": {
+              "id": "1160",
+              "unique": "bab8babe60903e6e35149bab6ad87fce",
+              "name": "145-W-9780814776636.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-06-23 19:30:51"
+            }
+          },
+          {
+            "id": "1181-388",
+            "asset_id": "1181",
+            "asset": {
+              "id": "1181",
+              "unique": "d0ac7192e6813e006a2b83758600b4af",
+              "name": "298-W-9780814776636.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2020-06-23 19:30:51"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "BB388",
+            "format_id": "BB",
+            "seo_link": "the-psychological-assessment-of-presidential-candidates",
+            "detail": "Print PDF",
+            "title_id": "c473bb1fdf4bd643558ceb78e5950199",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814776636",
+            "edition": "",
+            "product_id": 388,
+            "primary_format": true,
+            "date": {
+              "date": "1996-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG406",
+            "format_id": "DG",
+            "seo_link": "the-psychological-assessment-of-presidential-candidates",
+            "detail": "",
+            "title_id": "c473bb1fdf4bd643558ceb78e5950199",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814769430",
+            "edition": "",
+            "product_id": 406,
+            "primary_format": false,
+            "date": {
+              "date": "1996-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG407",
+            "format_id": "DG",
+            "seo_link": "the-psychological-assessment-of-presidential-candidates",
+            "detail": "",
+            "title_id": "c473bb1fdf4bd643558ceb78e5950199",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814776636",
+            "edition": "",
+            "product_id": 407,
+            "primary_format": false,
+            "date": {
+              "date": "1996-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}

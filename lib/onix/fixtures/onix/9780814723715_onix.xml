@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ONIXMessage SYSTEM "http://www.editeur.org/onix/2.1/reference/onix-international.dtd">
+<ONIXMessage release="2.1">
+  <Header>
+    <FromCompany>CodeMantra</FromCompany>
+    <FromPerson>cpsupport</FromPerson>
+    <FromEmail>cpsupport@codemantra.com</FromEmail>
+    <SentDate>20130412</SentDate>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+    <DefaultClassOfTrade>General</DefaultClassOfTrade>
+  </Header>
+  <Product>
+    <RecordReference>9780814723715</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0814715125</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780814723715</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780814723715</IDValue>
+    </ProductIdentifier>
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B102</ProductFormDetail>
+    <Title>
+      <TitleType>01</TitleType>
+      <TitleText textcase="02">Can Unions Survive?</TitleText>
+      <Subtitle>The Rejuvenation of the American Labor Movement</Subtitle>
+    </Title>
+    <Contributor>
+      <SequenceNumber>01</SequenceNumber>
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Charles B. Craver</PersonName>
+      <BiographicalNote>
+&lt;p>&lt;B>Charles B. Craver&lt;/B> is Leroy S. Merrifield Research Professor of Law at The National Law Center at George Washington University. A past Secretary of the ABA Labor and Employment Law Section, he is co-author of four books and numerous law journal articles covering various areas of labor and employment law.&lt;BR>&amp;nbsp;&amp;nbsp;&lt;FONT SIZE="-1">&lt;A HREF= "authors/craver_ch.html?$string">[Author Bio]&lt;/A>&lt;/FONT> &lt;/p></BiographicalNote>
+    </Contributor>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <NumberOfPages>213</NumberOfPages>
+    <Subject>
+      <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+      <SubjectCode>BUS038000</SubjectCode>
+      <SubjectHeadingText>BUSINESS &amp; ECONOMICS / Labor</SubjectHeadingText>
+    </Subject>
+    <OtherText>
+      <TextTypeCode>01</TextTypeCode>
+      <Text textformat="06">
+&lt;p>"Defines the challenges facing the movement and offers comprehensive prescriptions for its successful transformation."&lt;BR>&amp;#151;&lt;I>The George Washington Law Review&lt;/I>&lt;/p>&lt;p>A valuable analysis of the rise, fall, and--hopefully&amp;#151;the revival of unionism in America. [The book] distills into readable form a mass of legal and empirical analysis of what has been happening in the workplaces of the United States and other industrial democracies. Most important, Craver has drawn a blueprint of what must be done to save collective bargaining in this century&amp;#151;must reading for scholars, lawmakers, and, especially, union leaders themselves.&lt;BR>&amp;#151;&lt;I>Paul C. Weiler, Harvard Law SchoolAuthor of Governing the Workplace: The Future of Labor and Employment Law&lt;/I>&lt;/p>&lt;p>"A thoroughly researched, insightful, and readable look at why American unions have declined. . . . This is a very informative analyis of a vital topic, and it will have a multidisciplinary appeal to anyone interested in union- management relations.&lt;br>&amp;#151;Peter Feuille, Institute of Labor and Industrial Relations, University of Illinois&lt;/I>&lt;p>When employees at firms like Greyhound and Eastern Airlines walk out to protest wage and benefit reductions, they are permanently replaced and their representative labor unions destroyed. Every year, the threat or drama of a high-profile strike&amp;#151;in air traffic control towers, at Amtrak, or at Caterpillar&amp;#151;makes national headlines and, every year, several hundred thousand unrepresented American employees are discharged without good cause.&lt;/p>&lt;p>During the past decade, employer opposition to unions has increased. Industrial and demographic changes have eroded traditional blue-collar labor support, and class-based myths have discouraged organization among white-collar workers. As the American labor movement begins its second century, it is confronted by challenges that threaten its very existence. Is the decline of the American labor movement symptomatic of a terminal condition?&lt;/p>&lt;p>In this work, Charles Craver presents an incisive analysis of the current state of the American labor movement and a manifesto for how this crucial institution can be revitalized. Journeying with the reader from the inception of labor unions through their heyday and to the present, Craver examines the roots of their decline, the current factors which contribute to their dismal condition, and the actions that are needed--such as the recruitment of female and minority employees and appeals to white-collar personnel--that are necessary to ensure union viability in the 21st century.&lt;/p> &lt;p>Craver thoughtfully discusses what labor organizations must do to organize new workers, to enhance their economic and political power, and to adapt to modern-day advances and to an increasingly global economy. He also suggests changes that must be made in the National Labor Relations Act. This book is essential reading for lawyers, scholars, and policy-makers, as well as all those concerned with the future of the labor movement. &lt;/p></Text>
+    </OtherText>
+    <Imprint>
+      <NameCodeType>02</NameCodeType>
+      <NameCodeTypeName>NYU Press</NameCodeTypeName>
+      <NameCodeValue>NEWY004</NameCodeValue>
+      <ImprintName>NYU Press</ImprintName>
+    </Imprint>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>NYU Press</PublisherName>
+    </Publisher>
+    <PublicationDate>19950301</PublicationDate>
+    <CopyrightYear>1995</CopyrightYear>
+    <SalesRights>
+      <SalesRightsType>01</SalesRightsType>
+      <RightsTerritory>WORLD</RightsTerritory>
+    </SalesRights>
+    <SupplyDetail>
+      <SupplierName>NYU Press</SupplierName>
+      <ReturnsCodeType>02</ReturnsCodeType>
+      <ReturnsCode>Yes</ReturnsCode>
+      <AvailabilityCode>MD</AvailabilityCode>
+      <ExpectedShipDate>19950130</ExpectedShipDate>
+      <OnSaleDate>19950301</OnSaleDate>
+      <PackQuantity>1</PackQuantity>
+      <Price>
+        <PriceTypeCode>01</PriceTypeCode>
+        <DiscountCoded>
+          <DiscountCodeType>02</DiscountCodeType>
+          <DiscountCodeTypeName>NYU Press</DiscountCodeTypeName>
+          <DiscountCode>SUPER SHORT</DiscountCode>
+        </DiscountCoded>
+        <PriceAmount>24.00</PriceAmount>
+        <CurrencyCode>USD</CurrencyCode>
+        <PriceEffectiveFrom>20130307</PriceEffectiveFrom>
+      </Price>
+    </SupplyDetail>
+  </Product>
+</ONIXMessage>
