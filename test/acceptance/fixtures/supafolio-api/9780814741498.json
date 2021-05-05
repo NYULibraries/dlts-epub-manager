@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814779174",
-        "description": "<p><i>Indentation and Other Stories</i> is a collection of nine stories ranging from the wildly funny and idiosyncratic to the downright bizarre.  The title story features a pathological dentist who seeks a quirky catharsis by decorating his apartment in hygienic dental paraphernalia.  Other tales frolic through the lives of characters who border on the delightfully absurd: a woman, after going through menopause, struggles to recreate her menstrual periods by altering her diet; a former New York street reporter, fired because of his \"ideals,\" aspires to become a credible street person and decides, tentatively, to have a religious experience; an English major turned psychologist writes a pseudoscientific \"article\"&#151;complete with footnotes and a University of New Jersey cover letter&#151;which argues, by example, for the use of figurative language in scientific journal writing.  Other stories are more humanizing: \"The Perils of Asthma\" is a sympathetic lok at a twelve-year-old boy struggling to grow up amidst his perplexing asthma, his eccentric Catholic parents, and his mystifying quasi-erections.  All of the stories are grounded in the allure of language, the luxuriance of detail, and the celebration of human compulsion and obsession.</p>",
+        "isbn10": "0814741495",
+        "description": "<i>Indentation and Other Stories</i> is a collection of nine stories ranging from the wildly funny and idiosyncratic to the downright bizarre.  The title story features a pathological dentist who seeks a quirky catharsis by decorating his apartment in hygienic dental paraphernalia.  Other tales frolic through the lives of characters who border on the delightfully absurd: a woman, after going through menopause, struggles to recreate her menstrual periods by altering her diet; a former New York street reporter, fired because of his \"ideals,\" aspires to become a credible street person and decides, tentatively, to have a religious experience; an English major turned psychologist writes a pseudoscientific \"article\"—complete with footnotes and a University of New Jersey cover letter—which argues, by example, for the use of figurative language in scientific journal writing.  Other stories are more humanizing: \"The Perils of Asthma\" is a sympathetic lok at a twelve-year-old boy struggling to grow up amidst his perplexing asthma, his eccentric Catholic parents, and his mystifying quasi-erections.  All of the stories are grounded in the allure of language, the luxuriance of detail, and the celebration of human compulsion and obsession.",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -20,24 +20,24 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814741498",
-          "cs_title_group": "9780814741498",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814779170",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814741498",
           "ebook": "9780814788721",
-          "hardcover": "9780814741498",
-          "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "hardcover": "9780814779170",
+          "paperback": null,
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814741498.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814741498.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1990-12-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 126,
+        "product_id": 59,
         "isbn13": "9780814741498",
         "title": "Indentations and Other Stories",
         "title_without_prefix": "Indentations and Other Stories",
@@ -60,27 +60,19 @@
         "subtitle": "",
         "title_id": "b5b55648689084c5dde5f45a509fa797",
         "reference_id": null,
-        "summary": "Indentation and Other Stories is a collection of nine stories ranging from the wildly funny and idiosyncratic to the downright bizarre.  The title story features a pathological dentist who...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "summary": "Indentation and Other Stories is a collection of nine stories ranging from the wildly funny and idiosyncratic to the downright bizarre.  The title story features a pathological dentist who seeks...",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814741498.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "50.00",
+            "amount": "99.00",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "41.00",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.690",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -154,11 +146,11 @@
         ],
         "assets": [
           {
-            "id": "394-126",
-            "asset_id": "394",
+            "id": "327-59",
+            "asset_id": "327",
             "asset": {
-              "id": "394",
-              "unique": "e97040e031b683f0ff40609497b60d4e",
+              "id": "327",
+              "unique": "53b761a4ce05585216ce8eae87821143",
               "name": "648-H-9780814741498.jpg",
               "description": null,
               "type": "image",
@@ -168,17 +160,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814741498.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "126-126",
-            "asset_id": "126",
+            "id": "59-59",
+            "asset_id": "59",
             "asset": {
-              "id": "126",
-              "unique": "1e4161dad9745bce011e9ed7f66b2a55",
+              "id": "59",
+              "unique": "9bf5b17952d4c6544e59e11c0298bd3c",
               "name": "145-W-9780814741498.jpg",
               "description": null,
               "type": "image",
@@ -188,17 +180,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814741498.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "260-126",
-            "asset_id": "260",
+            "id": "193-59",
+            "asset_id": "193",
             "asset": {
-              "id": "260",
-              "unique": "6e6a6ed9693bbddfece29b0d529520fc",
+              "id": "193",
+              "unique": "4db63aadb0f9b54fbdf23ed3276211cf",
               "name": "298-W-9780814741498.jpg",
               "description": null,
               "type": "image",
@@ -208,33 +200,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814741498.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB126",
-            "format_id": "BB",
-            "seo_link": "indentations-and-other-stories",
-            "detail": "Print PDF",
-            "title_id": "b5b55648689084c5dde5f45a509fa797",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814741498",
-            "edition": "",
-            "product_id": 126,
-            "primary_format": true,
-            "date": {
-              "date": "1990-12-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG59",
             "format_id": "DG",
@@ -249,6 +221,26 @@
             "edition": "",
             "product_id": 59,
             "primary_format": false,
+            "date": {
+              "date": "1990-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB126",
+            "format_id": "BB",
+            "seo_link": "indentations-and-other-stories",
+            "detail": "Print PDF",
+            "title_id": "b5b55648689084c5dde5f45a509fa797",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814779170",
+            "edition": "",
+            "product_id": 126,
+            "primary_format": true,
             "date": {
               "date": "1990-12-01 00:00:00.000000",
               "timezone_type": 3,

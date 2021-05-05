@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814735193",
+        "isbn10": "081474477X",
         "description": "<p>What impact has deconstruction had on the way we read American culture?  And how is American culture itself peculiarly deconstructive?<br> To address these questions, this volume brings together some of the most provocative thinkers associated with deconstruction, among them Jacques Derrida, Judith Butler, and Avital Ronnel.  Ranging across a wide field, from the ethics of reading to the rhetoric of performance, the contributors offer provocative insights into a new sense of the political.  The America of the volume's title turns out to be the place where the politics and poetics of responsibility meet.  It is also the place where we confront the tension between difference and profound otherness.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814744772",
           "cs_title_group": "9780814735183",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814744772",
           "ebook": "9780814773161",
           "hardcover": "9780814735183",
-          "paperback": "9780814744772",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814735190",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814744772.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744772.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1996-10-01 00:00:00.000000",
+          "date": "1995-01-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1996-10-01 00:00:00.000000",
+          "date": "1995-01-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 844142400,
+        "sort_date": 788936400,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 300,
+        "product_id": 11,
         "isbn13": "9780814744772",
         "title": "Deconstruction Is/In America",
         "title_without_prefix": "Deconstruction Is/In America",
@@ -61,23 +61,15 @@
         "title_id": "2e27361198b5a5a715d4860120c3975a",
         "reference_id": null,
         "summary": "What impact has deconstruction had on the way we read American culture?  And how is American culture itself peculiarly deconstructive? To address these questions, this volume brings together...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814744772.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.810",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -194,11 +186,11 @@
         ],
         "assets": [
           {
-            "id": "1072-300",
-            "asset_id": "1072",
+            "id": "279-11",
+            "asset_id": "279",
             "asset": {
-              "id": "1072",
-              "unique": "3c113d55f63e2b939b46f2b41ace60b0",
+              "id": "279",
+              "unique": "ffab66a90e5abcddf581b8d17de0dab7",
               "name": "648-H-9780814744772.jpg",
               "description": null,
               "type": "image",
@@ -208,17 +200,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744772.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "820-300",
-            "asset_id": "820",
+            "id": "11-11",
+            "asset_id": "11",
             "asset": {
-              "id": "820",
-              "unique": "eb527cfa2c6e2a78ae8b71034cf4508d",
+              "id": "11",
+              "unique": "b9393a59be59b0bd7d451c226182f22c",
               "name": "145-W-9780814744772.jpg",
               "description": null,
               "type": "image",
@@ -228,17 +220,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744772.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "946-300",
-            "asset_id": "946",
+            "id": "145-11",
+            "asset_id": "145",
             "asset": {
-              "id": "946",
-              "unique": "1534a9d6ba25639bebcf27797e8d4963",
+              "id": "145",
+              "unique": "8e8f568fff869f31936f827e344059e8",
               "name": "298-W-9780814744772.jpg",
               "description": null,
               "type": "image",
@@ -248,33 +240,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744772.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC300",
-            "format_id": "BC",
-            "seo_link": "deconstruction-isin-america",
-            "detail": "Print PDF",
-            "title_id": "2e27361198b5a5a715d4860120c3975a",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814744772",
-            "edition": "",
-            "product_id": 300,
-            "primary_format": true,
-            "date": {
-              "date": "1996-10-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG11",
             "format_id": "DG",
@@ -334,14 +306,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC300",
+            "format_id": "BC",
+            "seo_link": "deconstruction-isin-america",
+            "detail": "Print PDF",
+            "title_id": "2e27361198b5a5a715d4860120c3975a",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814735190",
+            "edition": "",
+            "product_id": 300,
+            "primary_format": true,
+            "date": {
+              "date": "1996-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "300-11557",
-            "review_id": "11557",
+            "id": "11-12254",
+            "review_id": "12254",
             "review": {
-              "id": "11557",
+              "id": "12254",
               "reviewer": "Geoffrey Hartman,English and Comparative Literature, Yale University",
               "description": "\"Deconstruction is not like foreign imports now 'made in America' but claims a more original relation to American literary and critical thought.  These essays, which include a fascinating deconstructive analysis of a recent Supreme Court decision on hate speech, are engaging and provocative dispatches from practitioners of this controversial movement, and take up crucial issues in architecture, law, feminism, philosophy and literature.\"",
               "score": null,
@@ -351,10 +343,10 @@
             }
           },
           {
-            "id": "300-11558",
-            "review_id": "11558",
+            "id": "11-12255",
+            "review_id": "12255",
             "review": {
-              "id": "11558",
+              "id": "12255",
               "reviewer": "Henry Sussman,author of Afterimages of Modernity",
               "description": "\"Written by some of the most accomplished critical theorists in the world, including Derrida himself, Deconstruction is/in America is more of a celebration than a defense.  Excellently edited, {Niko, I think this is a dangling participle - KS} one reads of new horizons and of fresh dislocations.  The resilience and pointedness of the contributions set the tone for the volume as a whole.\"",
               "score": null,
@@ -364,10 +356,10 @@
             }
           },
           {
-            "id": "300-11559",
-            "review_id": "11559",
+            "id": "11-12256",
+            "review_id": "12256",
             "review": {
-              "id": "11559",
+              "id": "12256",
               "reviewer": "Steven Rendall,Editor, Comparative Literature",
               "description": "\"It has become common to speak of deconstruction as having been simply displaced by political concerns.  The essays in this volume seek to bring out what was&#151;dare I say?&#151;always already political in deconstruction, while at the same time suggesting that politics is, or could be, deconstructive.  Deconstruction Is/In America offers a provocative vision of a different politics.\"",
               "score": null,

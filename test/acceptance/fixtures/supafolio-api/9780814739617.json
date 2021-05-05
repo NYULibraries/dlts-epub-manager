@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814780970",
+        "isbn10": "081473961X",
         "description": "<p>Can individuals believe that they are acting with integrity, yet in disobedience to the dictates of their conscience? Can they retain fidelity to their conscience while ignoring a sense of what integrity requires?  Integrity and conscience are often thought to be closely related, perhaps even different aspects of a single impulse. This timely book supports a different and more complicated view. Acting with integrity and obeying one's conscience might be mutually reinforcing in some settings, but in others they can live in varying degrees of mutual tension. Bringing together prominent scholars of legal theory and political philosophy, the volume addresses both classic ruminations on integrity and conscience by Plato, Hume, and Kant as well as more contemporary examinations of professional ethics and the complex relations among politics, law and personal morality.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -20,24 +20,24 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814739617",
-          "cs_title_group": "9780814739617",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814780978",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814739617",
           "ebook": "9780814788837",
-          "hardcover": "9780814739617",
-          "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "hardcover": "9780814780978",
+          "paperback": null,
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814739617.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814739617.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1998-04-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 88,
+        "product_id": 20,
         "isbn13": "9780814739617",
         "title": "Integrity and Conscience",
         "title_without_prefix": "Integrity and Conscience",
@@ -61,20 +61,12 @@
         "title_id": "f95af50d41a60acd975baafd0df0eb61",
         "reference_id": null,
         "summary": "Can individuals believe that they are acting with integrity, yet in disobedience to the dictates of their conscience? Can they retain fidelity to their conscience while ignoring a sense of what integrity...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814739617.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "74.00",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "89.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "8.250",
-          "width": "5.500",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.130",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -203,11 +195,11 @@
         ],
         "assets": [
           {
-            "id": "356-88",
-            "asset_id": "356",
+            "id": "288-20",
+            "asset_id": "288",
             "asset": {
-              "id": "356",
-              "unique": "3508bf32d573744fd3e48554315839c0",
+              "id": "288",
+              "unique": "64c2a6c1b61f2127663302ae5eb236ac",
               "name": "648-H-9780814739617.jpg",
               "description": null,
               "type": "image",
@@ -217,17 +209,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814739617.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "88-88",
-            "asset_id": "88",
+            "id": "20-20",
+            "asset_id": "20",
             "asset": {
-              "id": "88",
-              "unique": "3d81f81de26e4f3fe62d133e7fe6943f",
+              "id": "20",
+              "unique": "2eb3817078b6b6befd10a3302835d95d",
               "name": "145-W-9780814739617.jpg",
               "description": null,
               "type": "image",
@@ -237,17 +229,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814739617.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "222-88",
-            "asset_id": "222",
+            "id": "154-20",
+            "asset_id": "154",
             "asset": {
-              "id": "222",
-              "unique": "dae76c8a46c39308c1c9a7b59a6658f3",
+              "id": "154",
+              "unique": "e9fe7cc6fec085221c54242784c07d42",
               "name": "298-W-9780814739617.jpg",
               "description": null,
               "type": "image",
@@ -257,33 +249,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814739617.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB88",
-            "format_id": "BB",
-            "seo_link": "integrity-and-conscience",
-            "detail": "Print PDF",
-            "title_id": "f95af50d41a60acd975baafd0df0eb61",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814739617",
-            "edition": "",
-            "product_id": 88,
-            "primary_format": true,
-            "date": {
-              "date": "1998-04-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG20",
             "format_id": "DG",
@@ -298,6 +270,26 @@
             "edition": "",
             "product_id": 20,
             "primary_format": false,
+            "date": {
+              "date": "1998-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB88",
+            "format_id": "BB",
+            "seo_link": "integrity-and-conscience",
+            "detail": "Print PDF",
+            "title_id": "f95af50d41a60acd975baafd0df0eb61",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814780978",
+            "edition": "",
+            "product_id": 88,
+            "primary_format": true,
             "date": {
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,

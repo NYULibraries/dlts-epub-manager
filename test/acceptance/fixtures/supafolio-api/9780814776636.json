@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814774695",
+        "isbn10": "0814776639",
         "description": "<p>Debate on public issues--and where candidates stand on them-- have traditionally represented the focal point of presidential campaigns.  In recent decades, however, rather than asking where candidates stand on the issues, the public increasingly wants to know who they are.  The issue of character has thus come to dominate presidential elections.<br> While there is increasing public awareness that the psychology, judgment, and leadership qualities of presidential candidates count, the basis on which these judgments should made remains unclear.  Does it matter that Gary Hart changed his name or had an affair?  Should Ed Muskie's loss of composure while defending his wife during a campaign speech, or Thomas Eagleton's hospitalization for depression, have counted against them?<br> Looking back over the past 25 years, Stanley Renshon, a political scientist and psychoanalyst, provides the first comprehensive accounting of how character has become an increasingly important issue in a presidential campaign.  He traces two related but distinctive approaches to the issue of presidential character and psychology.  The first concerns the mental health of our candidates and presidents.  Are they emotionally and personally stable?  Is their temperament suitable for the presidency?  The second concerns character.  Is the candidate honest?  Does he possess the necessary judgment and motivation to deal with the tremendous responsibilities and pressures of the office?<br> Drawing on his clinical and political science training, Renshon has devised a theory which will allow the public to better evaluate presidential candidates.  Why are honesty, integrity, and personal ideals so important in judging candidates?  Is personal and political ambition necessarily a bad trait? Do extra-marital affairs really matter?  Finally, and most importantly, how can the public tell whether a candidate's leadership will be enhanced or impeded by aspects of his personality?With this sweeping volume, Stanley Renshon has provided us with the most comprehensive account to date of how the public judges, and should judge, our future presidents.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -18,22 +18,26 @@
         "illustrations_note": "",
         "initial_print_run": null,
         "custom": {
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814776636.001.0001",
           "language": "eng",
           "edition_isbn": "9780814776636",
-          "cs_title_group": "9780814776636",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814774694",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false
+          "open_access_series": null,
+          "imageUpdated": "2020-12-20 14:31:01",
+          "library": "9780814776636",
+          "ebook": "9780814769430",
+          "hardcover": "9780814774694",
+          "paperback": null
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1996-05-01 00:00:00.000000",
           "timezone_type": 3,
@@ -48,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 388,
+        "product_id": 407,
         "isbn13": "9780814776636",
         "title": "The Psychological Assessment of Presidential Candidates",
         "title_without_prefix": "Psychological Assessment of Presidential Candidates",
@@ -57,12 +61,12 @@
         "title_id": "c473bb1fdf4bd643558ceb78e5950199",
         "reference_id": null,
         "summary": "Debate on public issues--and where candidates stand on them-- have traditionally represented the focal point of presidential campaigns.  In recent decades, however, rather than asking where candidates...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814776636.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "GBP",
-            "amount": "74.00",
+            "amount": "110.00",
             "discount": null,
             "promo_start": [],
             "promo_stop": [],
@@ -70,13 +74,9 @@
           },
           {
             "locale": "USD",
-            "amount": "89.00",
+            "amount": "133.50",
             "discount": null,
-            "promo_start": {
-              "date": "2019-03-31 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            },
+            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -93,12 +93,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.880",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -161,11 +161,11 @@
         ],
         "assets": [
           {
-            "id": "1202-388",
-            "asset_id": "1202",
+            "id": "1221-407",
+            "asset_id": "1221",
             "asset": {
-              "id": "1202",
-              "unique": "026e4de0d8f3c80ee2f4ff74cf95b530",
+              "id": "1221",
+              "unique": "d9ae27e7bedf31a058e3c4e564c29163",
               "name": "648-H-9780814776636.jpg",
               "description": null,
               "type": "image",
@@ -175,17 +175,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814776636.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-06-23 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "1160-388",
-            "asset_id": "1160",
+            "id": "1179-407",
+            "asset_id": "1179",
             "asset": {
-              "id": "1160",
-              "unique": "bab8babe60903e6e35149bab6ad87fce",
+              "id": "1179",
+              "unique": "6456afd5fad2980854a5bbba4caa15fe",
               "name": "145-W-9780814776636.jpg",
               "description": null,
               "type": "image",
@@ -195,17 +195,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814776636.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-06-23 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "1181-388",
-            "asset_id": "1181",
+            "id": "1200-407",
+            "asset_id": "1200",
             "asset": {
-              "id": "1181",
-              "unique": "d0ac7192e6813e006a2b83758600b4af",
+              "id": "1200",
+              "unique": "4d4a894e1497c9d2de096020a78a537e",
               "name": "298-W-9780814776636.jpg",
               "description": null,
               "type": "image",
@@ -215,13 +215,33 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814776636.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-06-23 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
+          {
+            "id": "DG407",
+            "format_id": "DG",
+            "seo_link": "the-psychological-assessment-of-presidential-candidates",
+            "detail": "",
+            "title_id": "c473bb1fdf4bd643558ceb78e5950199",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9780814776636",
+            "edition": "",
+            "product_id": 407,
+            "primary_format": false,
+            "date": {
+              "date": "1996-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
           {
             "id": "BB388",
             "format_id": "BB",
@@ -232,7 +252,7 @@
               "code": "BB",
               "name": "Hardcover"
             },
-            "isbn": "9780814776636",
+            "isbn": "9780814774694",
             "edition": "",
             "product_id": 388,
             "primary_format": true,
@@ -255,26 +275,6 @@
             "isbn": "9780814769430",
             "edition": "",
             "product_id": 406,
-            "primary_format": false,
-            "date": {
-              "date": "1996-05-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
-          {
-            "id": "DG407",
-            "format_id": "DG",
-            "seo_link": "the-psychological-assessment-of-presidential-candidates",
-            "detail": "",
-            "title_id": "c473bb1fdf4bd643558ceb78e5950199",
-            "format": {
-              "code": "DG",
-              "name": "eBook"
-            },
-            "isbn": "9780814776636",
-            "edition": "",
-            "product_id": 407,
             "primary_format": false,
             "date": {
               "date": "1996-05-01 00:00:00.000000",

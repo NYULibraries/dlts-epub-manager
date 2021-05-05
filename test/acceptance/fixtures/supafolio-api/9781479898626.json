@@ -18,17 +18,21 @@
         "illustrations_note": "",
         "initial_print_run": null,
         "custom": {
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9781479898626.001.0001",
           "language": "eng",
           "edition_isbn": "9781479898626",
           "cs_title_group": "9780814750797",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false
+          "open_access_series": null,
+          "imageUpdated": "2020-12-20 14:31:01",
+          "library": "9781479898626",
+          "ebook": "9780814752739",
+          "hardcover": "9780814750797",
+          "paperback": "9780814750957"
         },
         "stock": null,
         "availability": 2,
@@ -57,20 +61,20 @@
         "title_id": "b5d6266b9b15c46ece75e2e20f73ff6c",
         "reference_id": null,
         "summary": "\"[An] engrossing study, told mainly by the subjects themselves... a valuable addition to POW literature and unique for its positive view of wartime captivity.\"—Publishers Weekly...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9781479898626.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "USD",
-            "amount": "99.00",
+            "locale": "GBP",
+            "amount": "82.00",
             "discount": null,
             "promo_start": [],
             "promo_stop": [],
             "saving": null
           },
           {
-            "locale": "GBP",
-            "amount": "82.00",
+            "locale": "USD",
+            "amount": "99.00",
             "discount": null,
             "promo_start": [],
             "promo_stop": [],
@@ -171,9 +175,9 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9781479898626.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-06-23 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
@@ -191,9 +195,9 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9781479898626.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-06-23 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
@@ -211,9 +215,9 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9781479898626.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-06-23 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],

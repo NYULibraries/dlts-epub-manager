@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814713017",
-        "description": "<p>What sorts of cultural criticism are teachers and scholars to produce, and how can that criticism be \"employed\" in the culture at large?<br> In recent years, debates about the role and direction of English departments have mushroomed into a broader controversy over the public legitimacy of literary criticism. At first glance this might seem odd: few taxpayers and legislators care whether the nation's English professors are doing justice to the project of identifying the beautiful and the sublime. But in the context of the legitimation crisis in American higher education, the image of English departments has in fact played a major role in determining public attitudes toward colleges and college faculty. Similarly, the changing economic conditions of universities have prompted many English professors to rethink their relations to their \"clients,\" asking how literary study can serve the American public.<br> What sorts of cultural criticism are teachers and scholars to produce, and how can that criticism be \"employed\" in the culture at large? In The Employment of English, Michael Berube, one of our most eloquent and gifted critics, examines the cultural legitimacy of literary study. In witty, engaging prose, Berube asserts that we must situate these questions in a context in which nearly half of all college professors are part-time labor and in which English departments are torn between their traditional mission of defining movements of literary history and protocols of textual interpretation, and their newer tasks of interrogating wider systems of signification under rubrics like \"gender,\" \"hegemony,\" \"rhetoric,\" \"textuality\" (including film and video), and \"culture.\"<br> Are these new roles a betrayal of the field's founding principles, in effect a short-sighted sell-out of the discipline? Do they represent little more that an attempt to shore up the status of&#8212;and student enrollments in&#8212;English? Or are they legitimate objects of literary study, in need of public support? Simultaneously investigating the economic and the intellectual ramifications of current debates, The Employment of English provides the clearest and most condensed account of this controversy to date.</p>",
+        "isbn10": "081472342X",
+        "description": "<p>What sorts of cultural criticism are teachers and scholars to produce, and how can that criticism be \"employed\" in the culture at large?<br> In recent years, debates about the role and direction of English departments have mushroomed into a broader controversy over the public legitimacy of literary criticism. At first glance this might seem odd: few taxpayers and legislators care whether the nation's English professors are doing justice to the project of identifying the beautiful and the sublime. But in the context of the legitimation crisis in American higher education, the image of English departments has in fact played a major role in determining public attitudes toward colleges and college faculty. Similarly, the changing economic conditions of universities have prompted many English professors to rethink their relations to their \"clients,\" asking how literary study can serve the American public.<br> What sorts of cultural criticism are teachers and scholars to produce, and how can that criticism be \"employed\" in the culture at large? In The Employment of English, Michael Bérubé, one of our most eloquent and gifted critics, examines the cultural legitimacy of literary study. In witty, engaging prose, Bérubé asserts that we must situate these questions in a context in which nearly half of all college professors are part-time labor and in which English departments are torn between their traditional mission of defining movements of literary history and protocols of textual interpretation, and their newer tasks of interrogating wider systems of signification under rubrics like \"gender,\" \"hegemony,\" \"rhetoric,\" \"textuality\" (including film and video), and \"culture.\"<br> Are these new roles a betrayal of the field's founding principles, in effect a short-sighted sell-out of the discipline? Do they represent little more that an attempt to shore up the status of--and student enrollments in--English? Or are they legitimate objects of literary study, in need of public support? Simultaneously investigating the economic and the intellectual ramifications of current debates, The Employment of English provides the clearest and most condensed account of this controversy to date.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814723425",
           "cs_title_group": "9780814713006",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814723425",
           "ebook": "9780814786147",
           "hardcover": "9780814713006",
-          "paperback": "9780814723425",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814713013",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814723425.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814723425.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1997-12-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 308,
+        "product_id": 60,
         "isbn13": "9780814723425",
         "title": "Employment of English",
         "title_without_prefix": "Employment of English",
@@ -61,26 +61,18 @@
         "title_id": "2777faaee360fd01e2ae7b147feadcf4",
         "reference_id": null,
         "summary": "What sorts of cultural criticism are teachers and scholars to produce, and how can that criticism be \"employed\" in the culture at large? In recent years, debates about the role and direction...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814723425.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.810",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -120,23 +112,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYULLS000",
-              "code_3": "NYU",
-              "code_6": "NYULLS",
-              "name": "Literature & Literary Studies",
-              "type": "nyuos-subjects",
-              "seo_name": "NYULLS"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
               "code": "NYUE00000",
               "code_3": "NYU",
               "code_6": "NYUE00",
               "name": "Education",
               "type": "nyuos-subjects",
               "seo_name": "NYUE"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULLS000",
+              "code_3": "NYU",
+              "code_6": "NYULLS",
+              "name": "Literature & Literary Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULLS"
             }
           }
         ],
@@ -174,11 +166,11 @@
         ],
         "assets": [
           {
-            "id": "1080-308",
-            "asset_id": "1080",
+            "id": "328-60",
+            "asset_id": "328",
             "asset": {
-              "id": "1080",
-              "unique": "71a8f4d3a39b65c617783d2410861e45",
+              "id": "328",
+              "unique": "443392752db9bb49e3842cb2a0909fd6",
               "name": "648-H-9780814723425.jpg",
               "description": null,
               "type": "image",
@@ -188,17 +180,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814723425.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "828-308",
-            "asset_id": "828",
+            "id": "60-60",
+            "asset_id": "60",
             "asset": {
-              "id": "828",
-              "unique": "a506a5156bd305d864abfa2472724c7b",
+              "id": "60",
+              "unique": "3e7019751982417e0667df8f98366105",
               "name": "145-W-9780814723425.jpg",
               "description": null,
               "type": "image",
@@ -208,17 +200,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814723425.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "954-308",
-            "asset_id": "954",
+            "id": "194-60",
+            "asset_id": "194",
             "asset": {
-              "id": "954",
-              "unique": "8182a05976f4633904ee2808f9e53629",
+              "id": "194",
+              "unique": "7a75b3ee5694f838a866598ce6089287",
               "name": "298-W-9780814723425.jpg",
               "description": null,
               "type": "image",
@@ -228,33 +220,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814723425.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC308",
-            "format_id": "BC",
-            "seo_link": "employment-of-english",
-            "detail": "Print PDF",
-            "title_id": "2777faaee360fd01e2ae7b147feadcf4",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814723425",
-            "edition": "",
-            "product_id": 308,
-            "primary_format": true,
-            "date": {
-              "date": "1997-12-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG60",
             "format_id": "DG",
@@ -309,6 +281,26 @@
             "edition": "",
             "product_id": 307,
             "primary_format": false,
+            "date": {
+              "date": "1997-12-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC308",
+            "format_id": "BC",
+            "seo_link": "employment-of-english",
+            "detail": "Print PDF",
+            "title_id": "2777faaee360fd01e2ae7b147feadcf4",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814713013",
+            "edition": "",
+            "product_id": 308,
+            "primary_format": true,
             "date": {
               "date": "1997-12-01 00:00:00.000000",
               "timezone_type": 3,

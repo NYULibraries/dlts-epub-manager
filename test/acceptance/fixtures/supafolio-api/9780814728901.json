@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "081472681X",
+        "isbn10": "0814728901",
         "description": "<p>Since the 1960s the relationship between Blacks and Jews has been a contentious one. While others have attempted to explain or repair the break-up of the Jewish alliance on civil rights, Seth Forman here sets out to determine what Jewish thinking on the subject of Black Americans reveals about Jewish identity in the U.S.  Why did American Jews get involved in Black causes in the first place? What did they have to gain from it? And what does that tell us about American Jews?<br> In an extremely provocative analysis, Forman argues that the commitment of American Jews to liberalism, and their historic definition of themselves as victims, has caused them to behave in ways that were defined as good for Blacks, but which in essence were contrary to Jewish interests.  They have not been able to dissociate their needs--religious, spiritual, communal, political--from those of African Americans, and have therefore acted in ways which have threatened their own cultural vitality.<br> Avoiding the focus on Black victimization and white racism that often infuses work on Blacks and Jews, Forman emphasizes the complexities inherent in one distinct white ethnic group's involvement in America's racial dilemma.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814728901",
           "cs_title_group": "9780814726808",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814728901",
           "ebook": "9780814728093",
           "hardcover": "9780814726808",
-          "paperback": "9780814728901",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814726815",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814728901.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814728901.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "2000-10-01 00:00:00.000000",
+          "date": "1998-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "2000-10-01 00:00:00.000000",
+          "date": "1998-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 970372800,
+        "sort_date": 899265600,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 277,
+        "product_id": 44,
         "isbn13": "9780814728901",
         "title": "Blacks in the Jewish Mind",
         "title_without_prefix": "Blacks in the Jewish Mind",
@@ -61,23 +61,15 @@
         "title_id": "c6430823ad33b105e92d749588c9bab4",
         "reference_id": null,
         "summary": "Since the 1960s the relationship between Blacks and Jews has been a contentious one. While others have attempted to explain or repair the break-up of the Jewish alliance on civil rights, Seth Forman...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814728901.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.880",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1049-277",
-            "asset_id": "1049",
+            "id": "312-44",
+            "asset_id": "312",
             "asset": {
-              "id": "1049",
-              "unique": "b360f1f8fbb94e4401e8a9049c4ae8e5",
+              "id": "312",
+              "unique": "b059e84ea4b14a9e30f6983a1ccba8ec",
               "name": "648-H-9780814728901.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814728901.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "797-277",
-            "asset_id": "797",
+            "id": "44-44",
+            "asset_id": "44",
             "asset": {
-              "id": "797",
-              "unique": "f0534d3491509299f86626799a65d2bb",
+              "id": "44",
+              "unique": "55e071057c7207cac08a9662cac211d9",
               "name": "145-W-9780814728901.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814728901.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "923-277",
-            "asset_id": "923",
+            "id": "178-44",
+            "asset_id": "178",
             "asset": {
-              "id": "923",
-              "unique": "4e4e0f47eddd1bf0a27fce0a55f70a50",
+              "id": "178",
+              "unique": "0713c917c94eb6f3edff4dbe6083b2cb",
               "name": "298-W-9780814728901.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814728901.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC277",
-            "format_id": "BC",
-            "seo_link": "blacks-in-the-jewish-mind",
-            "detail": "Print PDF",
-            "title_id": "c6430823ad33b105e92d749588c9bab4",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814728901",
-            "edition": "",
-            "product_id": 277,
-            "primary_format": true,
-            "date": {
-              "date": "2000-10-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG44",
             "format_id": "DG",
@@ -298,6 +270,26 @@
             }
           },
           {
+            "id": "BC277",
+            "format_id": "BC",
+            "seo_link": "blacks-in-the-jewish-mind",
+            "detail": "Print PDF",
+            "title_id": "c6430823ad33b105e92d749588c9bab4",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814726815",
+            "edition": "",
+            "product_id": 277,
+            "primary_format": true,
+            "date": {
+              "date": "2000-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
             "id": "DG276",
             "format_id": "DG",
             "seo_link": "blacks-in-the-jewish-mind",
@@ -320,10 +312,10 @@
         ],
         "reviews": [
           {
-            "id": "277-11763",
-            "review_id": "11763",
+            "id": "44-12468",
+            "review_id": "12468",
             "review": {
-              "id": "11763",
+              "id": "12468",
               "reviewer": "Murray Friedman,author of What Went Wrong: The Creation and Collapse of the Black-Jewish Alliance",
               "description": "\"In an area where deep emotions and strong ideological feelings pass for information, Seth Forman's book is a model of calm, rational thought. He puts the black-Jewish relationship in a deeper historical perspective than has existed up to this point. Blacks in the Jewish Mind will be welcome to a broad public generally as well as scholars in the field.\"",
               "score": null,
@@ -333,10 +325,10 @@
             }
           },
           {
-            "id": "277-11764",
-            "review_id": "11764",
+            "id": "44-12469",
+            "review_id": "12469",
             "review": {
-              "id": "11764",
+              "id": "12469",
               "reviewer": "Stephen Whitfield,Brandeis University",
               "description": "\"Insight, authority and scrupulousness are among the virtues of Seth Forman's account of the interaction of two conspicuous minorities in the postwar era. In its clarity and its wisdom, Blacks in the Jewish Mind constitutes a marvelous advance over previous scholarship; and in showing how frequently Jews misunderstood their own communal interests, this book offers a challenge to the present even as the past is luminated.\"",
               "score": null,
@@ -346,10 +338,10 @@
             }
           },
           {
-            "id": "277-11765",
-            "review_id": "11765",
+            "id": "44-12470",
+            "review_id": "12470",
             "review": {
-              "id": "11765",
+              "id": "12470",
               "reviewer": "Stephen Whitfield,Brandeis University",
               "description": "\"Insight, authority and scrupulousness are among the virtues of Seth Forman's account of the interaction of two conspicuous minorities in the postwar era. In its clarity and its wisdom, Blacks in the Jewish Mind constitutes a marvelous advance over previous scholarship; and in showing how frequently Jews misunderstood their own communal interests, this book offers a challenge to the present even as the past is illuminated.\"",
               "score": null,
@@ -359,10 +351,10 @@
             }
           },
           {
-            "id": "277-11766",
-            "review_id": "11766",
+            "id": "44-12471",
+            "review_id": "12471",
             "review": {
-              "id": "11766",
+              "id": "12471",
               "reviewer": "MultiCultural Review",
               "description": "\"[A] rich, engaging, scholarly, and nuanced chronicle of an . . . often-tormented interethnic, interreligious, interracial relationship.\"",
               "score": null,
@@ -372,10 +364,10 @@
             }
           },
           {
-            "id": "277-11767",
-            "review_id": "11767",
+            "id": "44-12472",
+            "review_id": "12472",
             "review": {
-              "id": "11767",
+              "id": "12472",
               "reviewer": "Patterns of Prejudice",
               "description": "\"Bold and uncompromising.  Cleverly, he turns a lot of revisionist race history on its head.\"",
               "score": null,

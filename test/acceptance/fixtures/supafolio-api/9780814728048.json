@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814726844",
-        "description": "<p>Whether in the form of Christmas trees in town squares or prayer in school, fierce disputes over the separation of church and state have long bedeviled this country. Both decried and celebrated, this principle is considered by many, for right or wrong, a defining aspect of American national identity.<br> Nearly all discussions regarding the role of religion in American life build on two dominant assumptions: first, the separation of church and state is a constitutional principle that promotes democracy and equally protects the religious freedom of all Americans, especially religious outgroups; and second, this principle emerges as a uniquely American contribution to political theory.<br> In Please Don't Wish Me a Merry Christmas, Stephen M. Feldman challenges both these assumptions. He argues that the separation of church and state primarily manifests and reinforces Christian domination in American society. Furthermore, Feldman reveals that the separation of church and state did not first arise in the United States. Rather, it has slowly evolved as a political and religious development through western history, beginning with the initial appearance of Christianity as it contentiously separated from Judaism.<br>In tracing the historical roots of the separation of church and state within the Western world, Feldman begins with the Roman Empire and names Augustine as the first political theorist to suggest the idea. Feldman next examines how the roles of church and state variously merged and divided throughout history, during the Crusades, the Italian Renaissance, the Protestant Reformation, the British Civil War and Restoration, the early North American colonies, nineteenth-century America, and up to the present day. In challenging the dominant story of the separation of church and state, Feldman interprets the development of Christian social power vis-a-vis the state and religious minorities, particularly the prototypical religious outgroup, Jews.</p>",
+        "isbn10": "0814728049",
+        "description": "<p>Whether in the form of Christmas trees in town squares or prayer in school, fierce disputes over the separation of church and state have long bedeviled this country. Both decried and celebrated, this principle is considered by many, for right or wrong, a defining aspect of American national identity.<br> Nearly all discussions regarding the role of religion in American life build on two dominant assumptions: first, the separation of church and state is a constitutional principle that promotes democracy and equally protects the religious freedom of all Americans, especially religious outgroups; and second, this principle emerges as a uniquely American contribution to political theory.<br> In <b>Please Don't Wish Me a Merry Christmas</b>, Stephen M. Feldman challenges both these assumptions. He argues that the separation of church and state primarily manifests and reinforces Christian domination in American society. Furthermore, Feldman reveals that the separation of church and state did not first arise in the United States. Rather, it has slowly evolved as a political and religious development through western history, beginning with the initial appearance of Christianity as it contentiously separated from Judaism.In tracing the historical roots of the separation of church and state within the Western world, Feldman begins with the Roman Empire and names Augustine as the first political theorist to suggest the idea. Feldman next examines how the roles of church and state variously merged and divided throughout history, during the Crusades, the Italian Renaissance, the Protestant Reformation, the British Civil War and Restoration, the early North American colonies, nineteenth-century America, and up to the present day. In challenging the dominant story of the separation of church and state, Feldman interprets the development of Christian social power vis--vis the state and religious minorities, particularly the prototypical religious outgroup, Jews.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814728048",
           "cs_title_group": "9780814726372",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814728048",
           "ebook": "9780814728857",
           "hardcover": "9780814726372",
-          "paperback": "9780814728048",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814726846",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814728048.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814728048.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1998-08-01 00:00:00.000000",
+          "date": "1996-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1998-08-01 00:00:00.000000",
+          "date": "1996-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 901944000,
+        "sort_date": 849416400,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 352,
+        "product_id": 23,
         "isbn13": "9780814728048",
         "title": "Please Don't Wish Me a Merry Christmas",
         "title_without_prefix": "Please Don't Wish Me a Merry Christmas",
@@ -61,23 +61,15 @@
         "title_id": "9fdcf02f0281a151961591d230facafa",
         "reference_id": null,
         "summary": "Whether in the form of Christmas trees in town squares or prayer in school, fierce disputes over the separation of church and state have long bedeviled this country. Both decried and celebrated,...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814728048.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.190",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -185,11 +177,11 @@
         ],
         "assets": [
           {
-            "id": "1124-352",
-            "asset_id": "1124",
+            "id": "291-23",
+            "asset_id": "291",
             "asset": {
-              "id": "1124",
-              "unique": "a70738318d9ce6d8034f596b585db49e",
+              "id": "291",
+              "unique": "4984663fe18f8844c29de571b7183a55",
               "name": "648-H-9780814728048.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814728048.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "872-352",
-            "asset_id": "872",
+            "id": "23-23",
+            "asset_id": "23",
             "asset": {
-              "id": "872",
-              "unique": "82c94e17763c009d40de1ceb0f731b24",
+              "id": "23",
+              "unique": "dad744b45a7613e3e3e3a8ab3121c086",
               "name": "145-W-9780814728048.jpg",
               "description": null,
               "type": "image",
@@ -219,17 +211,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814728048.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "998-352",
-            "asset_id": "998",
+            "id": "157-23",
+            "asset_id": "157",
             "asset": {
-              "id": "998",
-              "unique": "f964a1c234701fec0855a108494d59ad",
+              "id": "157",
+              "unique": "e7a79e5c567e0a470ac43e18f8fad0b3",
               "name": "298-W-9780814728048.jpg",
               "description": null,
               "type": "image",
@@ -239,33 +231,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814728048.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC352",
-            "format_id": "BC",
-            "seo_link": "please-dont-wish-me-a-merry-christmas",
-            "detail": "Print PDF",
-            "title_id": "9fdcf02f0281a151961591d230facafa",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814728048",
-            "edition": "",
-            "product_id": 352,
-            "primary_format": true,
-            "date": {
-              "date": "1998-08-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG23",
             "format_id": "DG",
@@ -320,6 +292,26 @@
             "edition": "",
             "product_id": 351,
             "primary_format": false,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC352",
+            "format_id": "BC",
+            "seo_link": "please-dont-wish-me-a-merry-christmas",
+            "detail": "Print PDF",
+            "title_id": "9fdcf02f0281a151961591d230facafa",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814726846",
+            "edition": "",
+            "product_id": 352,
+            "primary_format": true,
             "date": {
               "date": "1998-08-01 00:00:00.000000",
               "timezone_type": 3,

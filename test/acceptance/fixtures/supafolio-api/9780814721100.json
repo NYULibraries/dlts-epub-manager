@@ -20,19 +20,19 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814721100",
-          "cs_title_group": "9780814721100",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814718803",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814721100",
           "ebook": "9780814744260",
-          "hardcover": "9780814721100",
+          "hardcover": "9780814718803",
           "paperback": "9780814718810",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike-4.0-International-Public-License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.33682/n2z34wct"
+          "permanent_url": "https://doi.org/10.33682/n2z34wct",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
@@ -61,7 +61,7 @@
         "title_id": "a70661b2c87b6ecd6456793167e7861a",
         "reference_id": null,
         "summary": "An ex-convict struggles with his addictive yearning for prison. A law-abiding citizen broods over his pleasure in violent, illegal acts. A prison warden loses his job because he is so successful...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814721100.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
@@ -193,9 +193,9 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814721100.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
@@ -213,9 +213,9 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814721100.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
@@ -233,9 +233,9 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814721100.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
@@ -303,10 +303,10 @@
         ],
         "reviews": [
           {
-            "id": "49-11815",
-            "review_id": "11815",
+            "id": "49-12515",
+            "review_id": "12515",
             "review": {
-              "id": "11815",
+              "id": "12515",
               "reviewer": "Victor Brombert,author of The Romantic Prison",
               "description": "\"A complex book on the subject of incarceration that embraces both the actual experience of prisoners and the projection in literature of positive prison fantasies. Drawing on a very rich reservoir of illustrations, Duncan offers fascinating developments that will affect the readers' views on the timely question of crime and punishment.\"",
               "score": null,
@@ -316,10 +316,10 @@
             }
           },
           {
-            "id": "49-11816",
-            "review_id": "11816",
+            "id": "49-12516",
+            "review_id": "12516",
             "review": {
-              "id": "11816",
+              "id": "12516",
               "reviewer": "The Psychoanalytic Quarterly",
               "description": "\"Romantic Outlaws, Beloved Prisons is a book that merits the interest of psychanalysts for the contribution it offers to our understanding of the realm of guilt and punishment in human psychology...I recommend the book highly.\"",
               "score": null,
@@ -329,10 +329,10 @@
             }
           },
           {
-            "id": "49-11817",
-            "review_id": "11817",
+            "id": "49-12517",
+            "review_id": "12517",
             "review": {
-              "id": "11817",
+              "id": "12517",
               "reviewer": "New York Times Book Review",
               "description": "\"Literature... provides Duncan a rich field in which to explore our 'reluctant,' 'rationalized,' and sometimes outright 'admiration' for the 'noble bandit.' ...The real drama of...Duncan's discussion of metaphor, however, comes with the vivid historical pictograph that gives her book a stirring climax....Duncan readily solves the mystery [of the founding of Botany Bay as a penal colony].\"",
               "score": null,
@@ -342,10 +342,10 @@
             }
           },
           {
-            "id": "49-11818",
-            "review_id": "11818",
+            "id": "49-12518",
+            "review_id": "12518",
             "review": {
-              "id": "11818",
+              "id": "12518",
               "reviewer": "Legal Studies Form",
               "description": "\"Professor Martha Duncan has written an important, creative work.  Her book is elegant, and solidly grounded in literature, psychoanalysis and law.\"",
               "score": null,

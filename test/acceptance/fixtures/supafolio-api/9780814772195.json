@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814715389",
-        "description": "<p>The United States, and the West in general, has always organized society along bipolar lines. We are either gay or straight, male or female, white or not, disabled or not.<br> In recent years, however, America seems increasingly aware of those who defy such easy categorization. Yet, rather than being welcomed for the challenges that they offer, people living the gap are often ostracized by all the communities to which they might belong.  Bisexuals, for instance, are often blamed for spreading AIDS to the heterosexual community and are regarded with suspicion by gays and lesbians. Interracial couples are rendered invisible through monoracial recordkeeping that confronts them at school, at work, and on official documents.  In Hybrid, Ruth Colker argues that our bipolar classification system obscures a genuine understanding of the very nature of subordination.  Acknowledging that categorization is crucial and unavoidable in a world of practical problems and day-to-day conflicts, Ruth Colker shows how categories can and must be improved for the good of all.</p>",
+        "isbn10": "0814772196",
+        "description": "<p>The United States, and the West in general, has always organized society along bipolar lines. We are either gay or straight, male or female, white or not, disabled or not.<br> In recent years, however, America seems increasingly aware of those who defy such easy categorization. Yet, rather than being welcomed for the challenges that they offer, people living the gap are often ostracized by all the communities to which they might belong.  Bisexuals, for instance, are often blamed for spreading AIDS to the heterosexual community and are regarded with suspicion by gays and lesbians. Interracial couples are rendered invisible through monoracial recordkeeping that confronts them at school, at work, and on official documents.  In <b>Hybrid</b>, Ruth Colker argues that our bipolar classification system obscures a genuine understanding of the very nature of subordination.  Acknowledging that categorization is crucial and unavoidable in a world of practical problems and day-to-day conflicts, Ruth Colker shows how categories can and must be improved for the good of all.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814772195",
           "cs_title_group": "9780814715208",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814772195",
           "ebook": "9780814723661",
           "hardcover": "9780814715208",
-          "paperback": "9780814772195",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814715383",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814772195.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814772195.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1996-05-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 326,
+        "product_id": 9,
         "isbn13": "9780814772195",
         "title": "Hybrid",
         "title_without_prefix": "Hybrid",
@@ -61,23 +61,15 @@
         "title_id": "5f47c5d3d7609eec0fae6941353d98c1",
         "reference_id": null,
         "summary": "The United States, and the West in general, has always organized society along bipolar lines. We are either gay or straight, male or female, white or not, disabled or not. In recent years, however,...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814772195.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.810",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -185,11 +177,11 @@
         ],
         "assets": [
           {
-            "id": "1098-326",
-            "asset_id": "1098",
+            "id": "277-9",
+            "asset_id": "277",
             "asset": {
-              "id": "1098",
-              "unique": "e1ca8a741346e895bc6cea2e6baee727",
+              "id": "277",
+              "unique": "1cfecd8419b80ed3924fa42365744af8",
               "name": "648-H-9780814772195.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814772195.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "846-326",
-            "asset_id": "846",
+            "id": "9-9",
+            "asset_id": "9",
             "asset": {
-              "id": "846",
-              "unique": "1d2bc32c74e4e91c69a0ad64e21e1494",
+              "id": "9",
+              "unique": "ee6287fcd491619ff71a3e638e03af38",
               "name": "145-W-9780814772195.jpg",
               "description": null,
               "type": "image",
@@ -219,17 +211,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814772195.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "972-326",
-            "asset_id": "972",
+            "id": "143-9",
+            "asset_id": "143",
             "asset": {
-              "id": "972",
-              "unique": "b2720b142b213e64be009cdb426de85b",
+              "id": "143",
+              "unique": "5ab1b423e865147ba3c57ed7a54b1982",
               "name": "298-W-9780814772195.jpg",
               "description": null,
               "type": "image",
@@ -239,33 +231,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814772195.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC326",
-            "format_id": "BC",
-            "seo_link": "hybrid",
-            "detail": "Print PDF",
-            "title_id": "5f47c5d3d7609eec0fae6941353d98c1",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814772195",
-            "edition": "",
-            "product_id": 326,
-            "primary_format": true,
-            "date": {
-              "date": "1996-05-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG9",
             "format_id": "DG",
@@ -280,6 +252,26 @@
             "edition": "",
             "product_id": 9,
             "primary_format": false,
+            "date": {
+              "date": "1996-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC326",
+            "format_id": "BC",
+            "seo_link": "hybrid",
+            "detail": "Print PDF",
+            "title_id": "5f47c5d3d7609eec0fae6941353d98c1",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814715383",
+            "edition": "",
+            "product_id": 326,
+            "primary_format": true,
             "date": {
               "date": "1996-05-01 00:00:00.000000",
               "timezone_type": 3,
@@ -309,10 +301,10 @@
         ],
         "reviews": [
           {
-            "id": "326-11563",
-            "review_id": "11563",
+            "id": "9-12249",
+            "review_id": "12249",
             "review": {
-              "id": "11563",
+              "id": "12249",
               "reviewer": "Lesbian and Gay History Newsletter",
               "description": "\"Ruth Colker's Hybrid is an ambitious study of the U.S. legal system and the binary lens through which it determines justice.  U.S. Courts, according to Colker, not only neglect to address the reality of bisexuals, multiracials, transgenderists, and many people with disabilities, but also fail to acknowldedge the varied ways that race, sex and ability are constructed in U.S. society.  She offers a critique of the U.S. legal system and suggests strategies for working with these issues in the future.\"",
               "score": null,

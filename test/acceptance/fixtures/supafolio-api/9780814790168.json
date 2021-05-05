@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814714218",
-        "description": "<p>In this thirty-first annual volume in the American Society of Legal and Political Philosophy's NOMOS series, entitled Markets and Justice, a number of distinguished authors consider a variety of topics in the area where economics, philosophy, and political science join paths.  Included are essays such as \"Contractarian Method, Private Property, and the Market Economy,\" \"Justice Under Capitalism,\" and \"Market Choice and Human Choice.\" Authors include Joshua Cohen, MIT; Gerald F. Gaus, University of Queensland; Margaret Jane Radin, University of Southern California; and Andrzej Rapaczynski, Columbia University.</p>",
+        "isbn10": "081479016X",
+        "description": "<p>In this thirty-first annual volume in the American Society of Legal and Political Philosophy's NOMOS series, entitled <i>Markets and Justice</i>, a number of distinguished authors consider a variety of topics in the area where economics, philosophy, and political science join paths.  Included are essays such as \"Contractarian Method, Private Property, and the Market Economy,\" \"Justice Under Capitalism,\" and \"Market Choice and Human Choice.\" Authors include Joshua Cohen, MIT; Gerald F. Gaus, University of Queensland; Margaret Jane Radin, University of Southern California; and Andrzej Rapaczynski, Columbia University.<br>Part of a well-known and important series, <i>Markets and Justice</i> will prove invaluable to political scientists, legal scholars, philosophers, and their students.<br>Part of a well-known and important series, <i>Markets and Justice</i> will prove invaluable to political scientists, legal scholars, philosophers, and their students.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -20,24 +20,24 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814790168",
-          "cs_title_group": "9780814790168",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814714218",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814790168",
           "ebook": "9780814772157",
-          "hardcover": "9780814790168",
-          "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "hardcover": "9780814714218",
+          "paperback": null,
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814790168.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814790168.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1989-03-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 74,
+        "product_id": 6,
         "isbn13": "9780814790168",
         "title": "Markets and Justice",
         "title_without_prefix": "Markets and Justice",
@@ -60,21 +60,13 @@
         "subtitle": "Nomos XXXI",
         "title_id": "1718a816c96c123910343590d66ebf67",
         "reference_id": null,
-        "summary": "In this thirty-first annual volume in the American Society of Legal and Political Philosophy's NOMOS series, entitled Markets and Justice, a number of distinguished authors consider a variety of...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "summary": "In this thirty-first annual volume in the American Society of Legal and Political Philosophy's NOMOS series, entitled Markets and Justice, a number of distinguished authors consider a variety...",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814790168.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "50.00",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "60.00",
+            "amount": "112.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "8.250",
-          "width": "5.500",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.500",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -196,11 +188,11 @@
         ],
         "assets": [
           {
-            "id": "342-74",
-            "asset_id": "342",
+            "id": "274-6",
+            "asset_id": "274",
             "asset": {
-              "id": "342",
-              "unique": "d85eace483e344f2d2e9ef3f11e1a58f",
+              "id": "274",
+              "unique": "a87053af83517ae5d620c519698c70dd",
               "name": "648-H-9780814790168.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814790168.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "74-74",
-            "asset_id": "74",
+            "id": "6-6",
+            "asset_id": "6",
             "asset": {
-              "id": "74",
-              "unique": "4848f53b32628225b0396def92019434",
+              "id": "6",
+              "unique": "7be70fff16427c8f1781fa624222dc9d",
               "name": "145-W-9780814790168.jpg",
               "description": null,
               "type": "image",
@@ -230,17 +222,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814790168.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "208-74",
-            "asset_id": "208",
+            "id": "140-6",
+            "asset_id": "140",
             "asset": {
-              "id": "208",
-              "unique": "50a1aa5bacbcf949be6434dabfe97b1e",
+              "id": "140",
+              "unique": "b1c13a3c3eaf444b77ce3d819a0db63b",
               "name": "298-W-9780814790168.jpg",
               "description": null,
               "type": "image",
@@ -250,33 +242,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814790168.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB74",
-            "format_id": "BB",
-            "seo_link": "markets-and-justice",
-            "detail": "Print PDF",
-            "title_id": "1718a816c96c123910343590d66ebf67",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814790168",
-            "edition": "",
-            "product_id": 74,
-            "primary_format": true,
-            "date": {
-              "date": "1989-03-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG6",
             "format_id": "DG",
@@ -291,6 +263,26 @@
             "edition": "",
             "product_id": 6,
             "primary_format": false,
+            "date": {
+              "date": "1989-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB74",
+            "format_id": "BB",
+            "seo_link": "markets-and-justice",
+            "detail": "Print PDF",
+            "title_id": "1718a816c96c123910343590d66ebf67",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814714218",
+            "edition": "",
+            "product_id": 74,
+            "primary_format": true,
             "date": {
               "date": "1989-03-01 00:00:00.000000",
               "timezone_type": 3,

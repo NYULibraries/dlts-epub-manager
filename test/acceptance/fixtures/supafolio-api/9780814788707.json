@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814780210",
-        "description": "<p>Whether in the form of the ongoing automotive wars, books and films such as Michael Crichton's Rising Sun, or George Bush's ill-fated trip to Japan in 1991, frictions between the United States and Japan have been steadily on the rise.  Americans are bombarded with images of Japan's fundamental difference; at the same time, voices in Japan call for a Japan That Can Say No.  If the guiding principle of the Clinton administration is indeed new values for a new generation, how will this be reflected in U.S.-Japanese relations?<br><br>Convinced that no true solution to U.S.-Japanese frictions can be achieved without tracing these frictions back to their origin, Ryuzo Sato here draws on a binational experience that spans three decades in both the Japanese and American business and academic communities to do just that.  In an attempt to bridge the communication gap between the two countries and dispel some of the mutual ignorance and misunderstanding that prevails between the two, Sato addresses the following questions:<br> --Is Japan really different?  <br>--Has America's sun set?<br>--How have conflicting views on the role of government affected U.S.-Japan relations?<br>--What are the real differences in American and Japanese industrial policies?<br>--What is the anatomy of U.S.-Japanese antagonisms?<br>--What effect has the collapse of the bubble economy had on relations?<br>--What is Japan's future course?  Is it truly a technological superpower?  Can it avoid international isolation?<br> An incisive personal look at one of the most important political and economic global relationships, written by a major player in the world of international business and finance, The Chrysanthemum and the Eagle provides a readable and engaging tour of U.S.-Japan relations, past and present.</p>",
+        "isbn10": "081478870X",
+        "description": "<p>Whether in the form of the ongoing automotive wars, books and films such as Michael Crichton's Rising Sun, or George Bush's ill-fated trip to Japan in 1991, frictions between the United States and Japan have been steadily on the rise.  Americans are bombarded with images of Japan's fundamental difference; at the same time, voices in Japan call for a Japan That Can Say No.  If the guiding principle of the Clinton administration is indeed new values for a new generation, how will this be reflected in U.S.-Japanese relations?<br>Convinced that no true solution to U.S.-Japanese frictions can be achieved without tracing these frictions back to their origin, Ryuzo Sato here draws on a binational experience that spans three decades in both the Japanese and American business and academic communities to do just that.  In an attempt to bridge the communication gap between the two countries and dispel some of the mutual ignorance and misunderstanding that prevails between the two, Sato addresses the following questions:<br> --Is Japan really different?  <br>--Has America's sun set?<br>--How have conflicting views on the role of government affected U.S.-Japan relations?<br>--What are the real differences in American and Japanese industrial policies?<br>--What is the anatomy of U.S.-Japanese antagonisms?<br>--What effect has the collapse of the bubble economy had on relations?<br>--What is Japan's future course?  Is it truly a technological superpower?  Can it avoid international isolation?<br> An incisive personal look at one of the most important political and economic global relationships, written by a major player in the world of international business and finance, THE CHRYSANTHEMUM AND THE EAGLE provides a readable and engaging tour of U.S.-Japan relations, past and present.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814788707",
           "cs_title_group": "9780814779712",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814788707",
           "ebook": "9780814741474",
           "hardcover": "9780814779712",
-          "paperback": "9780814788707",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814780213",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814788707.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814788707.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1995-07-01 00:00:00.000000",
+          "date": "1994-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1995-07-01 00:00:00.000000",
+          "date": "1994-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 804571200,
+        "sort_date": 773035200,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 291,
+        "product_id": 3,
         "isbn13": "9780814788707",
         "title": "The Chrysanthemum and the Eagle",
         "title_without_prefix": "Chrysanthemum and the Eagle",
@@ -61,23 +61,15 @@
         "title_id": "a1a7e74b865cda60f19e09dd38ddc4d9",
         "reference_id": null,
         "summary": "Whether in the form of the ongoing automotive wars, books and films such as Michael Crichton's Rising Sun, or George Bush's ill-fated trip to Japan in 1991, frictions between the United States and...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814788707.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "21.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "27.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.630",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1063-291",
-            "asset_id": "1063",
+            "id": "271-3",
+            "asset_id": "271",
             "asset": {
-              "id": "1063",
-              "unique": "0a44af8b2eb82f6b0427b67d2eb584fb",
+              "id": "271",
+              "unique": "4544bd9241f5ddb5097dc37cd50afc0c",
               "name": "648-H-9780814788707.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814788707.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "811-291",
-            "asset_id": "811",
+            "id": "3-3",
+            "asset_id": "3",
             "asset": {
-              "id": "811",
-              "unique": "504678f1b4f60807c023fcdf538e0e8a",
+              "id": "3",
+              "unique": "499a71b06d45e3af1be1663ddec3c523",
               "name": "145-W-9780814788707.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814788707.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "937-291",
-            "asset_id": "937",
+            "id": "137-3",
+            "asset_id": "137",
             "asset": {
-              "id": "937",
-              "unique": "81bb086ba3135f971e5c26c18aa81fdb",
+              "id": "137",
+              "unique": "2777c1089d6d708651c05bd99fe85e08",
               "name": "298-W-9780814788707.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814788707.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC291",
-            "format_id": "BC",
-            "seo_link": "the-chrysanthemum-and-the-eagle",
-            "detail": "Print PDF",
-            "title_id": "a1a7e74b865cda60f19e09dd38ddc4d9",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814788707",
-            "edition": "",
-            "product_id": 291,
-            "primary_format": true,
-            "date": {
-              "date": "1995-07-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG3",
             "format_id": "DG",
@@ -298,6 +270,26 @@
             }
           },
           {
+            "id": "BC291",
+            "format_id": "BC",
+            "seo_link": "the-chrysanthemum-and-the-eagle",
+            "detail": "Print PDF",
+            "title_id": "a1a7e74b865cda60f19e09dd38ddc4d9",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814780213",
+            "edition": "",
+            "product_id": 291,
+            "primary_format": true,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
             "id": "DG290",
             "format_id": "DG",
             "seo_link": "the-chrysanthemum-and-the-eagle",
@@ -320,10 +312,10 @@
         ],
         "reviews": [
           {
-            "id": "291-11465",
-            "review_id": "11465",
+            "id": "3-12167",
+            "review_id": "12167",
             "review": {
-              "id": "11465",
+              "id": "12167",
               "reviewer": "Masamichi Hanabusa ,Former Japanese Consul General, author of Trade Problems Between Japan and Western Europe",
               "description": "\"Sato knows both Japanese realities and American dissatisfactions.  He sees things from a rare vantage point.  Some Japanese may feel he is too critical of Japan, while more Americans may think he overly values the Japanese model.  But both can learn much from his book and, after reading it, will be convinced that he talks a great deal of sense and conclude that united, the two nations stand to gain, divided, to lose.\"",
               "score": null,
@@ -333,10 +325,10 @@
             }
           },
           {
-            "id": "291-11466",
-            "review_id": "11466",
+            "id": "3-12168",
+            "review_id": "12168",
             "review": {
-              "id": "11466",
+              "id": "12168",
               "reviewer": "Far Eastern Economic Review",
               "description": "\"[Sato] sets out to tell Japanese readers how their country looks from the U.S. and whyin his opinionsome American criticisms of Japan are right ... [Sato] strikes gold with a list of things Japan can do to put itself right with the rest of the world.\"",
               "score": null,

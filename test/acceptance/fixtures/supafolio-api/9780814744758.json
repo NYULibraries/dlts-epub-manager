@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814735088",
-        "description": "<p>\"A well-organized and engaging read.\"<br>&#151;<i>Religious Studies Review</i><br>The first in-depth look at...an important nineteenth century Jewish thinker and historian.  Well-written [and] well- researched.\"<br>&#151;<i>The Jerusalem Post Magazine</i><br>\"A significant contribution to our understanding of the rise of modern Judaism in its East European manifestation.\"<br>&#151;<i>Choice</i><br>Harris examines Nachman Krochmal's work, particularly as it aimed to guide Jews through the modern revolution in metaphysical and historical thinking, thus enabling them to commit themselves to Judaism without sacrificing intellectual integrity.</p>",
+        "isbn10": "0814744753",
+        "description": "<p>\"A well-organized and engaging read.\"<br>—<i>Religious Studies Review</i><br>The first in-depth look at...an important nineteenth century Jewish thinker and historian.  Well-written [and] well- researched.\"<br>—<i>The Jerusalem Post Magazine</i><br>\"A significant contribution to our understanding of the rise of modern Judaism in its East European manifestation.\"<br>—<i>Choice</i><br>Harris examines Nachman Krochmal's work, particularly as it aimed to guide Jews through the modern revolution in metaphysical and historical thinking, thus enabling them to commit themselves to Judaism without sacrificing intellectual integrity.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,38 +21,38 @@
           "library": "9780814744758",
           "ebook": "9780814773147",
           "hardcover": "9780814734773",
-          "paperback": "9780814744758",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814735084",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814744758.001.0001",
           "language": "eng",
           "edition_isbn": "9780814744758",
           "cs_title_group": "9780814734773",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false
+          "open_access_series": null,
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1993-08-01 00:00:00.000000",
+          "date": "1991-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1993-08-01 00:00:00.000000",
+          "date": "1991-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 744177600,
+        "sort_date": 678340800,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 343,
+        "product_id": 31,
         "isbn13": "9780814744758",
         "title": "Nachman Krochmal",
         "title_without_prefix": "Nachman Krochmal",
@@ -60,27 +60,19 @@
         "subtitle": "Guiding the Perplexed of the Modern Age",
         "title_id": "c9b676a5b97ffb256d30c87854e5827e",
         "reference_id": null,
-        "summary": "\"A well-organized and engaging read.\"&#151;Religious Studies ReviewThe first in-depth look at...an important nineteenth century Jewish thinker and historian.  Well-written [and] well-...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "summary": "\"A well-organized and engaging read.\"—Religious Studies ReviewThe first in-depth look at...an important nineteenth century Jewish thinker and historian.  Well-written [and] well-...",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814744758.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "30.00",
+            "amount": "112.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,16 +89,16 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.880",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
-            "number_in_series": "3",
+            "number_in_series": "0",
             "series": {
               "name": "Modern Jewish Masters",
               "seo_name": "modern-jewish-masters",
@@ -117,6 +109,17 @@
         "awards": [],
         "levels": [],
         "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUJS0000",
+              "code_3": "NYU",
+              "code_6": "NYUJS0",
+              "name": "Jewish Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUJS"
+            }
+          },
           {
             "primary": false,
             "category": {
@@ -137,17 +140,6 @@
               "name": "History",
               "type": "nyuos-subjects",
               "seo_name": "NYUH"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
-              "code": "NYUJS0000",
-              "code_3": "NYU",
-              "code_6": "NYUJS0",
-              "name": "Jewish Studies",
-              "type": "nyuos-subjects",
-              "seo_name": "NYUJS"
             }
           }
         ],
@@ -185,11 +177,11 @@
         ],
         "assets": [
           {
-            "id": "1115-343",
-            "asset_id": "1115",
+            "id": "299-31",
+            "asset_id": "299",
             "asset": {
-              "id": "1115",
-              "unique": "5850cd0adadcea8896826a43cb4caeab",
+              "id": "299",
+              "unique": "90098a5e22a7f7e948b91362c2abf818",
               "name": "648-H-9780814744758.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744758.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "863-343",
-            "asset_id": "863",
+            "id": "31-31",
+            "asset_id": "31",
             "asset": {
-              "id": "863",
-              "unique": "79dc751912a9032992ec85f752d66a84",
+              "id": "31",
+              "unique": "9201e9ccd5619b26e5085b705b28881d",
               "name": "145-W-9780814744758.jpg",
               "description": null,
               "type": "image",
@@ -219,17 +211,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744758.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "989-343",
-            "asset_id": "989",
+            "id": "165-31",
+            "asset_id": "165",
             "asset": {
-              "id": "989",
-              "unique": "70f319f94d7df7c19340d435c6f643fc",
+              "id": "165",
+              "unique": "71a617699e5ce9fe69323aafb89b8f38",
               "name": "298-W-9780814744758.jpg",
               "description": null,
               "type": "image",
@@ -239,33 +231,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744758.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC343",
-            "format_id": "BC",
-            "seo_link": "nachman-krochmal",
-            "detail": "Print PDF",
-            "title_id": "c9b676a5b97ffb256d30c87854e5827e",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814744758",
-            "edition": "",
-            "product_id": 343,
-            "primary_format": true,
-            "date": {
-              "date": "1993-08-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG31",
             "format_id": "DG",
@@ -300,6 +272,26 @@
             "edition": "",
             "product_id": 342,
             "primary_format": false,
+            "date": {
+              "date": "1993-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC343",
+            "format_id": "BC",
+            "seo_link": "nachman-krochmal",
+            "detail": "Print PDF",
+            "title_id": "c9b676a5b97ffb256d30c87854e5827e",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814735084",
+            "edition": "",
+            "product_id": 343,
+            "primary_format": true,
             "date": {
               "date": "1993-08-01 00:00:00.000000",
               "timezone_type": 3,

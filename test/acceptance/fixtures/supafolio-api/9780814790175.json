@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "081471563X",
-        "description": "<p>Since the fall of communism, laissez-faire capitalism has experienced renewed popularity.  Flush with victory, the United States has embraced a particularly narrow and single-minded definition of capitalism and aggressively exported it worldwide.  The defining trait of this brand of capitalism is an unwavering reverence for the icons of the market. Although promoted as a laissez-faire form of capitalism, it actually reflects the very evils of selfishness and greed by entrepreneurs that concerned Adam Smith.<br> Capitalism, however, can thrive without an extreme emphasis on efficiency and personal autonomy.  Americans often forget that theirs is a rather peculiar form of capitalism, that other Western nations successfully maintain capitalistic systems that are fundamentally more balanced and nuanced in their effect on society. The unnecessarily inhumane aspects of American capitalism become apparent when compared to Canadian and Western European societies, with their more generous policies regarding affirmative action, accommodation for disabled persons, and family and medical leave for pregnant woman and their partners.<br> In American Law in the Age of Hypercapitalism, Ruth Colker examines how American law purports to reflect&#8212;and actively promotes&#8212;a laissez-faire capitalism that disproportionately benefits the entrepreneurial class.  Colker proposes that the quality of American life depends also on fairness and equality rather than simply the single-minded and formulaic pursuit of efficiency and utility.</p>",
+        "isbn10": "0814790178",
+        "description": "<p>Since the fall of communism, laissez-faire capitalism has experienced renewed popularity.  Flush with victory, the United States has embraced a particularly narrow and single-minded definition of capitalism and aggressively exported it worldwide.  The defining trait of this brand of capitalism is an unwavering reverence for the icons of the market. Although promoted as a laissez-faire form of capitalism, it actually reflects the very evils of selfishness and greed by entrepreneurs that concerned Adam Smith.<br> Capitalism, however, can thrive without an extreme emphasis on efficiency and personal autonomy.  Americans often forget that theirs is a rather peculiar form of capitalism, that other Western nations successfully maintain capitalistic systems that are fundamentally more balanced and nuanced in their effect on society. The unnecessarily inhumane aspects of American capitalism become apparent when compared to Canadian and Western European societies, with their more generous policies regarding affirmative action, accommodation for disabled persons, and family and medical leave for pregnant woman and their partners.<br> <b>In American Law in the Age of Hypercapitalism</b>, Ruth Colker examines how American law purports to reflect--and actively promotes--a laissez-faire capitalism that disproportionately benefits the entrepreneurial class.  Colker proposes that the quality of American life depends also on fairness and equality rather than simply the single-minded and formulaic pursuit of efficiency and utility.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814790175",
           "cs_title_group": "9780814715628",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814790175",
           "ebook": "9780814772188",
           "hardcover": "9780814715628",
-          "paperback": "9780814790175",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814715635",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814790175.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814790175.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1998-03-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 266,
+        "product_id": 51,
         "isbn13": "9780814790175",
         "title": "American Law in the Age of Hypercapitalism",
         "title_without_prefix": "American Law in the Age of Hypercapitalism",
@@ -61,23 +61,15 @@
         "title_id": "69e0581026f3c73bc8cbac9cdf49026d",
         "reference_id": null,
         "summary": "Since the fall of communism, laissez-faire capitalism has experienced renewed popularity.  Flush with victory, the United States has embraced a particularly narrow and single-minded definition of...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814790175.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,14 +89,23 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.690",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
-        "series": [],
+        "series": [
+          {
+            "number_in_series": "81",
+            "series": {
+              "name": "Critical America",
+              "seo_name": "critical-america",
+              "description": ""
+            }
+          }
+        ],
         "awards": [],
         "levels": [],
         "categories": [
@@ -187,11 +188,11 @@
         ],
         "assets": [
           {
-            "id": "1038-266",
-            "asset_id": "1038",
+            "id": "319-51",
+            "asset_id": "319",
             "asset": {
-              "id": "1038",
-              "unique": "ec17c2854b76a85b6e62cd16e6552bd8",
+              "id": "319",
+              "unique": "1f5beafeb38ebc5ac9ab1c3f7bbb5f32",
               "name": "648-H-9780814790175.jpg",
               "description": null,
               "type": "image",
@@ -201,17 +202,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814790175.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "786-266",
-            "asset_id": "786",
+            "id": "51-51",
+            "asset_id": "51",
             "asset": {
-              "id": "786",
-              "unique": "15aeea6267bb4a785cc01835e3b41150",
+              "id": "51",
+              "unique": "5cefad593a775c9db4caf114ceb7e08e",
               "name": "145-W-9780814790175.jpg",
               "description": null,
               "type": "image",
@@ -221,17 +222,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814790175.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "912-266",
-            "asset_id": "912",
+            "id": "185-51",
+            "asset_id": "185",
             "asset": {
-              "id": "912",
-              "unique": "9953c0adf7f030dfb5f2d71e743b55f6",
+              "id": "185",
+              "unique": "38e95acf2750ddd9e927be52cd9ca5de",
               "name": "298-W-9780814790175.jpg",
               "description": null,
               "type": "image",
@@ -241,33 +242,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814790175.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC266",
-            "format_id": "BC",
-            "seo_link": "american-law-in-the-age-of-hypercapitalism",
-            "detail": "Print PDF",
-            "title_id": "69e0581026f3c73bc8cbac9cdf49026d",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814790175",
-            "edition": "",
-            "product_id": 266,
-            "primary_format": true,
-            "date": {
-              "date": "1998-03-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG51",
             "format_id": "DG",
@@ -322,6 +303,26 @@
             "edition": "",
             "product_id": 265,
             "primary_format": false,
+            "date": {
+              "date": "1998-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC266",
+            "format_id": "BC",
+            "seo_link": "american-law-in-the-age-of-hypercapitalism",
+            "detail": "Print PDF",
+            "title_id": "69e0581026f3c73bc8cbac9cdf49026d",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814715635",
+            "edition": "",
+            "product_id": 266,
+            "primary_format": true,
             "date": {
               "date": "1998-03-01 00:00:00.000000",
               "timezone_type": 3,

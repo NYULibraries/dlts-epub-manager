@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814735282",
-        "description": "<p>How successful is Dickens in his portrayal of women? Dickens has been represented (along with William Blake and D.H. Lawrence) as one who championed the life of the emotions often associated with the \"feminine.\" Yet some of his most important heroines are totally submissive and docile.<br> Dickens, of course, had to accept the conventions of his time. It is obvious, argues Holbrook, that Dickens idealized the father-daughter relationship, and indeed, any such relationship that was unsexual, like that of Tom Pinch and his sister&#151;but why?  Why, for example, is the image of woman so often associated with death, as in <i>Great Expectations</i>? Dickens's own struggles over relationships with women have been documented, but much less has been said about the unconscious elements behind these problems.<br> Using recent developements in psychoanalytic object-relations theory, David Holbrook offers new insight into the way in which the novels of Dickens&#151;particularly <i>Bleak House</i>, <i>Little Dorrit</i>, and <i>Great Expectations</i>&#151;both uphold emotional needs and at the same time represent the limits of his view of women and that of his time.</p>",
+        "isbn10": "0814744877",
+        "description": "<p>How successful is Dickens in his portrayal of women? Dickens has been represented (along with William Blake and D.H. Lawrence) as one who championed the life of the emotions often associated with the \"feminine.\" Yet some of his most important heroines are totally submissive and docile.<br> Dickens, of course, had to accept the conventions of his time. It is obvious, argues Holbrook, that Dickens idealized the father-daughter relationship, and indeed, any such relationship that was unsexual, like that of Tom Pinch and his sister—but why?  Why, for example, is the image of woman so often associated with death, as in <i>Great Expectations</i>? Dickens's own struggles over relationships with women have been documented, but much less has been said about the unconscious elements behind these problems.<br> Using recent developements in psychoanalytic object-relations theory, David Holbrook offers new insight into the way in which the novels of Dickens—particularly <i>Bleak House</i>, <i>Little Dorrit</i>, and <i>Great Expectations</i>—both uphold emotional needs and at the same time represent the limits of his view of women and that of his time.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814744871",
           "cs_title_group": "9780814734834",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814744871",
           "ebook": "9780814773277",
           "hardcover": "9780814734834",
-          "paperback": "9780814744871",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814735282",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814744871.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744871.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1995-07-01 00:00:00.000000",
+          "date": "1993-02-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1995-07-01 00:00:00.000000",
+          "date": "1993-02-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 804571200,
+        "sort_date": 728542800,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 287,
+        "product_id": 52,
         "isbn13": "9780814744871",
         "title": "Charles Dickens and the Image of Women",
         "title_without_prefix": "Charles Dickens and the Image of Women",
@@ -61,23 +61,15 @@
         "title_id": "6cc176167b52082d757257c1fe82c449",
         "reference_id": null,
         "summary": "How successful is Dickens in his portrayal of women? Dickens has been represented (along with William Blake and D.H. Lawrence) as one who championed the life of the emotions often associated with...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814744871.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.630",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,11 +157,11 @@
         ],
         "assets": [
           {
-            "id": "1059-287",
-            "asset_id": "1059",
+            "id": "320-52",
+            "asset_id": "320",
             "asset": {
-              "id": "1059",
-              "unique": "9c5a2d8547d541e3d1b585dd5b516e27",
+              "id": "320",
+              "unique": "e1e249abc7c959487d5cfbde10e5abac",
               "name": "648-H-9780814744871.jpg",
               "description": null,
               "type": "image",
@@ -179,17 +171,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744871.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "807-287",
-            "asset_id": "807",
+            "id": "52-52",
+            "asset_id": "52",
             "asset": {
-              "id": "807",
-              "unique": "26ddd5c84852a856ce43a107124873bb",
+              "id": "52",
+              "unique": "572899603a0db2090d757d37700e6d62",
               "name": "145-W-9780814744871.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744871.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "933-287",
-            "asset_id": "933",
+            "id": "186-52",
+            "asset_id": "186",
             "asset": {
-              "id": "933",
-              "unique": "a8b024d709557131083fd278bcc171b6",
+              "id": "186",
+              "unique": "73703de87206e942817b4b86c48a54ab",
               "name": "298-W-9780814744871.jpg",
               "description": null,
               "type": "image",
@@ -219,33 +211,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744871.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC287",
-            "format_id": "BC",
-            "seo_link": "charles-dickens-and-the-image-of-women",
-            "detail": "Print PDF",
-            "title_id": "6cc176167b52082d757257c1fe82c449",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814744871",
-            "edition": "",
-            "product_id": 287,
-            "primary_format": true,
-            "date": {
-              "date": "1995-07-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG52",
             "format_id": "DG",
@@ -302,6 +274,26 @@
             "primary_format": false,
             "date": {
               "date": "1993-02-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC287",
+            "format_id": "BC",
+            "seo_link": "charles-dickens-and-the-image-of-women",
+            "detail": "Print PDF",
+            "title_id": "6cc176167b52082d757257c1fe82c449",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814735282",
+            "edition": "",
+            "product_id": 287,
+            "primary_format": true,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             }

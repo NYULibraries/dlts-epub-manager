@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814766560",
+        "isbn10": "0814767915",
         "description": "<p>One of literature's greatest gifts is its portrayal of realistically drawn characters--human beings in whom we can recognize motivations and emotions. In <b>Imagined Human Beings</b>, Bernard J. Paris explores the inner conflicts of some of literature's most famous characters, using Karen Horney's psychoanalytic theories to understand the behavior of these characters as we would the behavior of real people.<br> When realistically drawn characters are understood in psychological terms, they tend to escape their roles in the plot and thus subvert the view of them advanced by the author. A Horneyan approach both alerts us to conflicts between plot and characterization, rhetoric and mimesis, and helps us understand the forces in the author's personalty that generate them. The Horneyan model can make sense of thematic inconsistencies by seeing them as the product of the author's inner divisions. Paris uses this approach to explore a wide range of texts, including <i>Antigone, </i> \"The Clerk's Tale,\" <i>The Merchant of Venice, A Doll's House, Hedda Gabler, Great Expectations, Jane Eyre, The Mayor of Casterbridge, Wuthering Heights, Madame Bovary, The Awakening, </i>and <i>The End of the Road.</i></p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814767917",
           "cs_title_group": "9780814766552",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814767917",
           "ebook": "9780814768853",
           "hardcover": "9780814766552",
-          "paperback": "9780814767917",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814766569",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814767917.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814767917.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1997-10-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 328,
+        "product_id": 22,
         "isbn13": "9780814767917",
         "title": "Imagined Human Beings",
         "title_without_prefix": "Imagined Human Beings",
@@ -61,23 +61,15 @@
         "title_id": "926014fbfdff0d0db02755981314baae",
         "reference_id": null,
         "summary": "One of literature's greatest gifts is its portrayal of realistically drawn characters--human beings in whom we can recognize motivations and emotions. In Imagined Human Beings, Bernard J....",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814767917.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.940",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,11 +157,11 @@
         ],
         "assets": [
           {
-            "id": "1100-328",
-            "asset_id": "1100",
+            "id": "290-22",
+            "asset_id": "290",
             "asset": {
-              "id": "1100",
-              "unique": "164ff34e038adcfdb87a753494d91ec8",
+              "id": "290",
+              "unique": "17d8a0e43c93d0d9b7a8ed48ba1bff43",
               "name": "648-H-9780814767917.jpg",
               "description": null,
               "type": "image",
@@ -179,17 +171,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814767917.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "848-328",
-            "asset_id": "848",
+            "id": "22-22",
+            "asset_id": "22",
             "asset": {
-              "id": "848",
-              "unique": "60a3a7f5485309902fc92f09cbd7de07",
+              "id": "22",
+              "unique": "74323745197634a7c263c0daed528c91",
               "name": "145-W-9780814767917.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814767917.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "974-328",
-            "asset_id": "974",
+            "id": "156-22",
+            "asset_id": "156",
             "asset": {
-              "id": "974",
-              "unique": "ed9338e663dfc8fd193b6f7c030468e2",
+              "id": "156",
+              "unique": "fd0827dfa28b03aafb0a06860acc9a75",
               "name": "298-W-9780814767917.jpg",
               "description": null,
               "type": "image",
@@ -219,33 +211,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814767917.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC328",
-            "format_id": "BC",
-            "seo_link": "imagined-human-beings",
-            "detail": "Print PDF",
-            "title_id": "926014fbfdff0d0db02755981314baae",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814767917",
-            "edition": "",
-            "product_id": 328,
-            "primary_format": true,
-            "date": {
-              "date": "1997-10-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG22",
             "format_id": "DG",
@@ -287,6 +259,26 @@
             }
           },
           {
+            "id": "BC328",
+            "format_id": "BC",
+            "seo_link": "imagined-human-beings",
+            "detail": "Print PDF",
+            "title_id": "926014fbfdff0d0db02755981314baae",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814766569",
+            "edition": "",
+            "product_id": 328,
+            "primary_format": true,
+            "date": {
+              "date": "1997-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
             "id": "DG327",
             "format_id": "DG",
             "seo_link": "imagined-human-beings",
@@ -309,10 +301,10 @@
         ],
         "reviews": [
           {
-            "id": "328-11636",
-            "review_id": "11636",
+            "id": "22-12317",
+            "review_id": "12317",
             "review": {
-              "id": "11636",
+              "id": "12317",
               "reviewer": "Phyllis Grosskurth,author of Byron, The Flawed Angel",
               "description": "\"This is literary criticism at its most perceptive. Theory is subservient to a deeply engaged reading of works Professor Paris clearly loves. To read his analysis of Emma Bovary or Hedda Gabler is to gain an enriched insight into characters whom we thought we knew so well.\"",
               "score": null,

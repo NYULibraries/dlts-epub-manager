@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814755291",
-        "description": "<p>How do survivors of sexual and domestic violence relate to religion and to a higher power?  What are the social and religious contexts that sustain and encourage eating disorders in women?  How do these issues intersect?<br> The relationship between Christian religious discourse, incest, and eating disorders reveals an important, and so far unexamined, psychosocial phenomenon.  Drawing from interviews with incest survivors whose sexual and religious backgrounds are intimately connected with their problematic relationship with food, Jennifer Manlowe here illuminates the connections between female body, weight, and appetite preoccupations.<br>Manlowe offers social and psychological insights into the most common forms of female suffering&#151;incest and body hatred.  The volume is intended as a resource for professionals, advocates, friends of survivors, and most importantly, the survivor of incest herself as she attempts to understand the links of meaning in her mind between her incest experience and her subsequent eating disorder.</p>",
+        "isbn10": "0814763146",
+        "description": "<p>How do survivors of sexual and domestic violence relate to religion and to a higher power?  What are the social and religious contexts that sustain and encourage eating disorders in women?  How do these issues intersect?<br> The relationship between Christian religious discourse, incest, and eating disorders reveals an important, and so far unexamined, psychosocial phenomenon.  Drawing from interviews with incest survivors whose sexual and religious backgrounds are intimately connected with their problematic relationship with food, Jennifer Manlowe here illuminates the connections between female body, weight, and appetite preoccupations.<br>Manlowe offers social and psychological insights into the most common forms of female suffering—incest and body hatred.  The volume is intended as a resource for professionals, advocates, friends of survivors, and most importantly, the survivor of incest herself as she attempts to understand the links of meaning in her mind between her incest experience and her subsequent eating disorder.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814763148",
           "cs_title_group": "9780814755174",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814763148",
           "ebook": "9780814796399",
           "hardcover": "9780814755174",
-          "paperback": "9780814763148",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814755297",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814763148.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814763148.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 313,
+        "product_id": 66,
         "isbn13": "9780814763148",
         "title": "Faith Born of Seduction",
         "title_without_prefix": "Faith Born of Seduction",
@@ -61,26 +61,18 @@
         "title_id": "6fb267492a1d75863008910c776215a5",
         "reference_id": null,
         "summary": "How do survivors of sexual and domestic violence relate to religion and to a higher power?  What are the social and religious contexts that sustain and encourage eating disorders in women?  How do...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814763148.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.690",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1085-313",
-            "asset_id": "1085",
+            "id": "334-66",
+            "asset_id": "334",
             "asset": {
-              "id": "1085",
-              "unique": "eddd8d37215987a8693987a02628d685",
+              "id": "334",
+              "unique": "3f0f0d06d5a516ac89e4f2b3a600f01d",
               "name": "648-H-9780814763148.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814763148.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "833-313",
-            "asset_id": "833",
+            "id": "66-66",
+            "asset_id": "66",
             "asset": {
-              "id": "833",
-              "unique": "2e0bb84b5c4fd712bdc5b41ffb69432e",
+              "id": "66",
+              "unique": "daabb6ec959efba87bc2a0f611889e79",
               "name": "145-W-9780814763148.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814763148.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "959-313",
-            "asset_id": "959",
+            "id": "200-66",
+            "asset_id": "200",
             "asset": {
-              "id": "959",
-              "unique": "7520fb66d55fc59060646e972eb4d209",
+              "id": "200",
+              "unique": "158cb0e31b5b6ec7246d871875f269e7",
               "name": "298-W-9780814763148.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814763148.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC313",
-            "format_id": "BC",
-            "seo_link": "faith-born-of-seduction",
-            "detail": "Print PDF",
-            "title_id": "6fb267492a1d75863008910c776215a5",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814763148",
-            "edition": "",
-            "product_id": 313,
-            "primary_format": true,
-            "date": {
-              "date": "1995-07-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG66",
             "format_id": "DG",
@@ -316,14 +288,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC313",
+            "format_id": "BC",
+            "seo_link": "faith-born-of-seduction",
+            "detail": "Print PDF",
+            "title_id": "6fb267492a1d75863008910c776215a5",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814755297",
+            "edition": "",
+            "product_id": 313,
+            "primary_format": true,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "313-11925",
-            "review_id": "11925",
+            "id": "66-12622",
+            "review_id": "12622",
             "review": {
-              "id": "11925",
+              "id": "12622",
               "reviewer": "Charles B. Strozier,author of Apocalypse: On the Psychology of Fundamentalism in America",
               "description": "\"This moving and powerful book explores in intricate detail the spiritual consequences for women of early forms of sexual abuse and trauma. It is hard to imagine a more important subject for contemporary Americans. Manlowe's thorough scholarship and original, probing interviews will make her wonderful book a lasting contribution.\"",
               "score": null,
