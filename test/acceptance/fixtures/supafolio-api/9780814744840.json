@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814735231",
+        "isbn10": "0814744842",
         "description": "<p>The impetus behind California's Proposition 187 clearly reflects the growing anti-immigrant sentiment in this country. Many Americans regard today's new immigrants as not truly American, as somehow less committed to the ideals on which the country was founded. In clear, precise terms, Bill Ong Hing considers immigration in the context of the global economy, a sluggish national economy, and the hard facts about downsizing. Importantly, he also confronts the emphatic claims of immigrant supporters that immigrants do assimilate, take jobs that native workers don't want, and contribute more to the tax coffers than they take out of the system.<br> A major contribution of Hing's book is its emphasis on such often-overlooked issues as the competition between immigrants and African Americans, inter-group tension, and ethnic separatism, issues constantly brushed aside both by immigrant rights groups and the anti-immigrant right. Drawing on Hing's work as a lawyer deeply involved in the day-to-day life of his immigrant clients, <b>To Be An American</b> is a unique blend of substantive analysis, policy, and personal experience.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -20,19 +20,19 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814744840",
-          "cs_title_group": "9780814744840",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814735237",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814744840",
           "ebook": "9780814773246",
-          "hardcover": "9780814744840",
+          "hardcover": "9780814735237",
           "paperback": "9780814736098",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814744840.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744840.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 78,
+        "product_id": 10,
         "isbn13": "9780814744840",
         "title": "To Be An American",
         "title_without_prefix": "To Be An American",
@@ -61,26 +61,18 @@
         "title_id": "116e8a547fa7d83de676b3addf5b5321",
         "reference_id": null,
         "summary": "The impetus behind California's Proposition 187 clearly reflects the growing anti-immigrant sentiment in this country. Many Americans regard today's new immigrants as not truly American, as somehow...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814744840.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "89.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "74.00",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.060",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -196,11 +188,11 @@
         ],
         "assets": [
           {
-            "id": "346-78",
-            "asset_id": "346",
+            "id": "278-10",
+            "asset_id": "278",
             "asset": {
-              "id": "346",
-              "unique": "aea5e941e523214c3fff5a73031e899c",
+              "id": "278",
+              "unique": "364495fdcc97e39fc5e4bff0908f2133",
               "name": "648-H-9780814744840.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744840.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "78-78",
-            "asset_id": "78",
+            "id": "10-10",
+            "asset_id": "10",
             "asset": {
-              "id": "78",
-              "unique": "4b2bc3dd1e88fe37316c06cb1b2d4e47",
+              "id": "10",
+              "unique": "a3e40fbb710ff53d1334595dcbbd7771",
               "name": "145-W-9780814744840.jpg",
               "description": null,
               "type": "image",
@@ -230,17 +222,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744840.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "212-78",
-            "asset_id": "212",
+            "id": "144-10",
+            "asset_id": "144",
             "asset": {
-              "id": "212",
-              "unique": "5029498165c955970871b8067c014d60",
+              "id": "144",
+              "unique": "f38f78cdfea686eed635471899ef6cd3",
               "name": "298-W-9780814744840.jpg",
               "description": null,
               "type": "image",
@@ -250,33 +242,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744840.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB78",
-            "format_id": "BB",
-            "seo_link": "to-be-an-american",
-            "detail": "Print PDF",
-            "title_id": "116e8a547fa7d83de676b3addf5b5321",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814744840",
-            "edition": "",
-            "product_id": 78,
-            "primary_format": false,
-            "date": {
-              "date": "1997-03-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG10",
             "format_id": "DG",
@@ -290,6 +262,26 @@
             "isbn": "9780814744840",
             "edition": "",
             "product_id": 10,
+            "primary_format": false,
+            "date": {
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB78",
+            "format_id": "BB",
+            "seo_link": "to-be-an-american",
+            "detail": "Print PDF",
+            "title_id": "116e8a547fa7d83de676b3addf5b5321",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814735237",
+            "edition": "",
+            "product_id": 78,
             "primary_format": false,
             "date": {
               "date": "1997-03-01 00:00:00.000000",

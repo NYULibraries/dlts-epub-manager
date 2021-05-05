@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814787924",
-        "description": "<p>Redefining the way we think about unemployment in America today, Out of Work offers devastating evidence that the major cause of high unemployment in the United States is the government itself.</p>",
+        "isbn10": "0814788467",
+        "description": "<p>Redefining the way we think about unemployment in America today, Out of Work offers devastating evidence that the major cause of high unemployment in the United States is the government itself.<br> An Independent Institute Book</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -20,24 +20,24 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814788462",
-          "cs_title_group": "9780814788462",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814787922",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "open_access_series": null,
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814788462.001.0001",
           "library": "9780814788462",
           "ebook": "9780814788332",
-          "hardcover": false,
-          "paperback": "9780814788462"
+          "hardcover": null,
+          "paperback": "9780814787922",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1997-07-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 102,
+        "product_id": 34,
         "isbn13": "9780814788462",
         "title": "Out of Work",
         "title_without_prefix": "Out of Work",
@@ -60,24 +60,16 @@
         "subtitle": "Unemployment and Government in Twentieth-Century America",
         "title_id": "6ae53bcfec1e4c3f05a507178721a651",
         "reference_id": null,
-        "summary": "Redefining the way we think about unemployment in America today, Out of Work offers devastating evidence that the major cause of high unemployment in the United States is the government itself.",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "summary": "Redefining the way we think about unemployment in America today, Out of Work offers devastating evidence that the major cause of high unemployment in the United States is the government itself....",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814788462.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "99.00",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.190",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,7 +157,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -194,7 +186,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -205,11 +197,11 @@
         ],
         "assets": [
           {
-            "id": "370-102",
-            "asset_id": "370",
+            "id": "302-34",
+            "asset_id": "302",
             "asset": {
-              "id": "370",
-              "unique": "e74c6cf930026e8a0168cd7f0df34bb7",
+              "id": "302",
+              "unique": "f28cab1cc3f35e08b5d0551bdb41280d",
               "name": "648-H-9780814788462.jpg",
               "description": null,
               "type": "image",
@@ -219,17 +211,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814788462.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "102-102",
-            "asset_id": "102",
+            "id": "34-34",
+            "asset_id": "34",
             "asset": {
-              "id": "102",
-              "unique": "fb461b06fc5775b20cb57305381ac5df",
+              "id": "34",
+              "unique": "405346813e574ba1bcb9472d31f493f0",
               "name": "145-W-9780814788462.jpg",
               "description": null,
               "type": "image",
@@ -239,17 +231,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814788462.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "236-102",
-            "asset_id": "236",
+            "id": "168-34",
+            "asset_id": "168",
             "asset": {
-              "id": "236",
-              "unique": "f3e7b63a8cff4f737a254fbd955afa4c",
+              "id": "168",
+              "unique": "27084c822c92ebba27461d44d100b635",
               "name": "298-W-9780814788462.jpg",
               "description": null,
               "type": "image",
@@ -259,33 +251,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814788462.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC102",
-            "format_id": "BC",
-            "seo_link": "out-of-work",
-            "detail": "Print PDF",
-            "title_id": "6ae53bcfec1e4c3f05a507178721a651",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814788462",
-            "edition": "",
-            "product_id": 102,
-            "primary_format": true,
-            "date": {
-              "date": "1997-07-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG34",
             "format_id": "DG",
@@ -300,6 +272,26 @@
             "edition": "",
             "product_id": 34,
             "primary_format": false,
+            "date": {
+              "date": "1997-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC102",
+            "format_id": "BC",
+            "seo_link": "out-of-work",
+            "detail": "Print PDF",
+            "title_id": "6ae53bcfec1e4c3f05a507178721a651",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814787922",
+            "edition": "",
+            "product_id": 102,
+            "primary_format": true,
             "date": {
               "date": "1997-07-01 00:00:00.000000",
               "timezone_type": 3,
@@ -329,10 +321,10 @@
         ],
         "reviews": [
           {
-            "id": "102-11703",
-            "review_id": "11703",
+            "id": "34-12399",
+            "review_id": "12399",
             "review": {
-              "id": "11703",
+              "id": "12399",
               "reviewer": "Kenneth Boulding",
               "description": "\"A book of great interest.\"",
               "score": null,
@@ -342,10 +334,10 @@
             }
           },
           {
-            "id": "102-11704",
-            "review_id": "11704",
+            "id": "34-12400",
+            "review_id": "12400",
             "review": {
-              "id": "11704",
+              "id": "12400",
               "reviewer": "Anna J. Schwartz,National Bureau of Economic Research",
               "description": "\"A triple hit: an engaging narrative of a century of U.S. economic history . . . an attack on the mythology that high wage rates and government spending reduce unemployment and a critique on wrong-headed public policies since 1930 that have raised unemployment levels.\"",
               "score": null,
@@ -355,10 +347,10 @@
             }
           },
           {
-            "id": "102-11705",
-            "review_id": "11705",
+            "id": "34-12401",
+            "review_id": "12401",
             "review": {
-              "id": "11705",
+              "id": "12401",
               "reviewer": "George Gilder,author of Wealth and Poverty",
               "description": "\"The most comprehensive book ever to appear on unemployment in the United States.\"",
               "score": null,
@@ -368,10 +360,10 @@
             }
           },
           {
-            "id": "102-11706",
-            "review_id": "11706",
+            "id": "34-12402",
+            "review_id": "12402",
             "review": {
-              "id": "11706",
+              "id": "12402",
               "reviewer": "Jonathan R. T. Hughes,Northwestern University",
               "description": "\"Vedder and Gallaway show convincingly that we need once again to rethink our entire notion of unemployment.\"",
               "score": null,

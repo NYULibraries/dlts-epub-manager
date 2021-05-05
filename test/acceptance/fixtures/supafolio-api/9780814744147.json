@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814718124",
+        "isbn10": "0814744141",
         "description": "<p>\"An excellent overview of the history of Jewish mysticism from its early beginnings to contemporary Hasidism...scholarly and complex.\"<br>—<i>Library Journal</i><br> \"An excellent work, clear and solidly documented by Joseph Dan on Gershom Scholem and on his work.\"<br>—<i>Notes Bibliographiques</i><br> \"An excellent guide to Scholem's work.\"<br>—<i>Christian Century</i></p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -20,39 +20,39 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814744147",
-          "cs_title_group": "9780814744147",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814718124",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "open_access_series": null,
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814744147.001.0001",
           "library": "9780814744147",
           "ebook": "9780814720974",
-          "hardcover": false,
-          "paperback": "9780814744147"
+          "hardcover": null,
+          "paperback": "9780814718124",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1988-10-01 00:00:00.000000",
+          "date": "1987-04-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1988-10-01 00:00:00.000000",
+          "date": "1987-04-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 591681600,
+        "sort_date": 544251600,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 118,
+        "product_id": 50,
         "isbn13": "9780814744147",
         "title": "Gershom Scholem and the Mystical Dimension of Jewish History",
         "title_without_prefix": "Gershom Scholem and the Mystical Dimension of Jewish History",
@@ -61,23 +61,15 @@
         "title_id": "a360772a51ccab689ac06e0e39b7e0d6",
         "reference_id": null,
         "summary": "\"An excellent overview of the history of Jewish mysticism from its early beginnings to contemporary Hasidism...scholarly and complex.\"—Library Journal \"An excellent work, clear and...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814744147.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "99.00",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.880",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -196,11 +188,11 @@
         ],
         "assets": [
           {
-            "id": "386-118",
-            "asset_id": "386",
+            "id": "318-50",
+            "asset_id": "318",
             "asset": {
-              "id": "386",
-              "unique": "745e982701a59dfc01e41ec13edd0b30",
+              "id": "318",
+              "unique": "e8eb20db6d751501bda27fabac36883e",
               "name": "648-H-9780814744147.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744147.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "118-118",
-            "asset_id": "118",
+            "id": "50-50",
+            "asset_id": "50",
             "asset": {
-              "id": "118",
-              "unique": "183f43ecc461843ccf4de7d95773bfe2",
+              "id": "50",
+              "unique": "116c45818eb9a2996afa5e2658ece596",
               "name": "145-W-9780814744147.jpg",
               "description": null,
               "type": "image",
@@ -230,17 +222,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744147.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "252-118",
-            "asset_id": "252",
+            "id": "184-50",
+            "asset_id": "184",
             "asset": {
-              "id": "252",
-              "unique": "13e0f8b21464c4d4a62445c9902cf1ab",
+              "id": "184",
+              "unique": "60ae7008d145cbd4d8cf208cc4155266",
               "name": "298-W-9780814744147.jpg",
               "description": null,
               "type": "image",
@@ -250,33 +242,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744147.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC118",
-            "format_id": "BC",
-            "seo_link": "gershom-scholem-and-the-mystical-dimension-of-jewish-history",
-            "detail": "Print PDF",
-            "title_id": "a360772a51ccab689ac06e0e39b7e0d6",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814744147",
-            "edition": "",
-            "product_id": 118,
-            "primary_format": true,
-            "date": {
-              "date": "1988-10-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG50",
             "format_id": "DG",
@@ -293,6 +265,26 @@
             "primary_format": false,
             "date": {
               "date": "1987-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC118",
+            "format_id": "BC",
+            "seo_link": "gershom-scholem-and-the-mystical-dimension-of-jewish-history",
+            "detail": "Print PDF",
+            "title_id": "a360772a51ccab689ac06e0e39b7e0d6",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814718124",
+            "edition": "",
+            "product_id": 118,
+            "primary_format": true,
+            "date": {
+              "date": "1988-10-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             }

@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814747140",
+        "isbn10": "0814763529",
         "description": "<p>What role did manhood play in early American Politics? In <b>A Republic of Men</b>, Mark E. Kann argues that the American founders aspired to create a \"republic of men\" but feared that \"disorderly men\" threatened its birth, health, and longevity. Kann demonstrates how hegemonic norms of manhood–exemplified by \"the Family Man,\" for instance--were deployed as a means of stigmatizing unworthy men, rewarding responsible men with citizenship, and empowering exceptional men with positions of leadership and authority, while excluding women from public life.<br> Kann suggests that the founders committed themselves in theory to the democratic proposition that all men were created free and equal and could not be governed without their own consent, but that they in no way believed that \"all men\" could be trusted with equal liberty, equal citizenship, or equal authority. The founders developed a \"grammar of manhood\" to address some difficult questions about public order. Were America's disorderly men qualified for citizenship? Were they likely to recognize manly leaders, consent to their authority, and defer to their wisdom? A <b>Republic of Men</b> compellingly analyzes the ways in which the founders used a rhetoric of manhood to stabilize American politics.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814763520",
           "cs_title_group": "9780814747131",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814763520",
           "ebook": "9780814748473",
           "hardcover": "9780814747131",
-          "paperback": "9780814763520",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814747148",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814763520.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814763520.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1998-04-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 362,
+        "product_id": 38,
         "isbn13": "9780814763520",
         "title": "A Republic of Men",
         "title_without_prefix": "Republic of Men",
@@ -61,23 +61,15 @@
         "title_id": "7778f0be452e59371361800e4a3e3e89",
         "reference_id": null,
         "summary": "What role did manhood play in early American Politics? In A Republic of Men, Mark E. Kann argues that the American founders aspired to create a \"republic of men\" but feared that \"disorderly...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814763520.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.750",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1134-362",
-            "asset_id": "1134",
+            "id": "306-38",
+            "asset_id": "306",
             "asset": {
-              "id": "1134",
-              "unique": "435ab69bebfbc0d121a410badf101862",
+              "id": "306",
+              "unique": "eba0efbaa49cdd637d32327b84c153de",
               "name": "648-H-9780814763520.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814763520.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "882-362",
-            "asset_id": "882",
+            "id": "38-38",
+            "asset_id": "38",
             "asset": {
-              "id": "882",
-              "unique": "98b950f1bb5219000301fde22cf3fc58",
+              "id": "38",
+              "unique": "e102e6dc138827404205b50851cc0ff9",
               "name": "145-W-9780814763520.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814763520.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "1008-362",
-            "asset_id": "1008",
+            "id": "172-38",
+            "asset_id": "172",
             "asset": {
-              "id": "1008",
-              "unique": "db1a7f84228ce77b0e755056d3804b92",
+              "id": "172",
+              "unique": "743d272f24b2be8c6a60cf982461c002",
               "name": "298-W-9780814763520.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814763520.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC362",
-            "format_id": "BC",
-            "seo_link": "a-republic-of-men",
-            "detail": "Print PDF",
-            "title_id": "7778f0be452e59371361800e4a3e3e89",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814763520",
-            "edition": "",
-            "product_id": 362,
-            "primary_format": true,
-            "date": {
-              "date": "1998-04-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG38",
             "format_id": "DG",
@@ -311,6 +283,26 @@
             "edition": "",
             "product_id": 361,
             "primary_format": false,
+            "date": {
+              "date": "1998-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC362",
+            "format_id": "BC",
+            "seo_link": "a-republic-of-men",
+            "detail": "Print PDF",
+            "title_id": "7778f0be452e59371361800e4a3e3e89",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814747148",
+            "edition": "",
+            "product_id": 362,
+            "primary_format": true,
             "date": {
               "date": "1998-04-01 00:00:00.000000",
               "timezone_type": 3,

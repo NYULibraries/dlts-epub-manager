@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814735053",
+        "isbn10": "0814773133",
         "description": "<p><b>A landmark work of lesbian literature with a reflective introduction written by the author twenty years later </b><br><br><i>Lover </i>was first published in 1972 to tremendous critical acclaim. Emerging out of the women's and gay liberation movement alongside the early work of writers such as Rita Mae Brown and Jill Johnston, the novel features fictional and historical characters who run the gamut from saint to white trash, and who are by turn vulnerable and strong. One of the finest examples of early post-Stonewall lesbian fiction, <i>Lover </i>paints a fascinating mural of one of the most significant times in LGBTQ history.<br><br>In the introduction to this updated edition edition, Bertha Harris offers a window into the cultural and personal milieu in which she wrote. Revealing the real-life personalities behind some of the novel's characters, Harris reframes the story within its unique moment in time, and gives readers new insights into the heady post-Stonewall days. This audacious and outrageous novel is a gem of early lesbian writing, ready to be rediscovered by a new generation.</p>",
         "tagline": null,
         "type": "Fiction",
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814773130",
           "cs_title_group": "9780814735046",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814773130",
           "ebook": "9780814744741",
           "hardcover": "9780814735046",
-          "paperback": "9780814773130",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814735053",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814773130.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814773130.001.0001",
+          "imageUpdated": "2021-02-03 14:30:47"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1993-10-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 338,
+        "product_id": 65,
         "isbn13": "9780814773130",
         "title": "Lover",
         "title_without_prefix": "Lover",
@@ -61,23 +61,15 @@
         "title_id": "fac50cbf64f48a147c8ccda1500e4f1d",
         "reference_id": null,
         "summary": "A landmark work of lesbian literature with a reflective introduction written by the author twenty years later Lover was first published in 1972 to tremendous critical acclaim....",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814773130.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.750",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -120,23 +112,23 @@
           {
             "primary": false,
             "category": {
-              "code": "NYULGBTQS",
-              "code_3": "NYU",
-              "code_6": "NYULGB",
-              "name": "LGBTQ & Sexuality",
-              "type": "nyuos-subjects",
-              "seo_name": "NYULGBTQS"
-            }
-          },
-          {
-            "primary": false,
-            "category": {
               "code": "NYUWGS000",
               "code_3": "NYU",
               "code_6": "NYUWGS",
               "name": "Women's & Gender Studies",
               "type": "nyuos-subjects",
               "seo_name": "NYUWGS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULGBTQS",
+              "code_3": "NYU",
+              "code_6": "NYULGB",
+              "name": "LGBTQ & Sexuality",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULGBTQS"
             }
           }
         ],
@@ -156,7 +148,7 @@
               "role": "A01",
               "hide": false,
               "reference_id": null,
-              "bio": "<b>Bertha Harris</b> is also the author of <i>Confessions of Cherubino</i> and <i>Catching Saradove</i>. She lives in Tennyson, Massachusetts, and continues to write compelling, eccentric and faintly indecent fiction.",
+              "bio": "<b>Bertha Harris</b> was the author of two other novels, <i>Confessions of Cherubino</i> and <i>Catching Saradove</i>. She also co-authored <i>The Joys of Lesbian Sex</i> with Emily L. Sisley.",
               "bio_short": null,
               "image": null,
               "on_tour": false,
@@ -174,11 +166,11 @@
         ],
         "assets": [
           {
-            "id": "1110-338",
-            "asset_id": "1110",
+            "id": "333-65",
+            "asset_id": "333",
             "asset": {
-              "id": "1110",
-              "unique": "2ad028396e73d948966dc976ed43814a",
+              "id": "333",
+              "unique": "0a487040eae526228841d36fc6134b36",
               "name": "648-H-9780814773130.jpg",
               "description": null,
               "type": "image",
@@ -188,17 +180,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814773130.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2021-02-03 19:30:47"
             }
           },
           {
-            "id": "858-338",
-            "asset_id": "858",
+            "id": "65-65",
+            "asset_id": "65",
             "asset": {
-              "id": "858",
-              "unique": "129b6b64f4369b382a0bb7e9f2852da2",
+              "id": "65",
+              "unique": "9b80b006a9a8249bf71212e752b83788",
               "name": "145-W-9780814773130.jpg",
               "description": null,
               "type": "image",
@@ -208,17 +200,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814773130.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2021-02-03 19:30:47"
             }
           },
           {
-            "id": "984-338",
-            "asset_id": "984",
+            "id": "199-65",
+            "asset_id": "199",
             "asset": {
-              "id": "984",
-              "unique": "73da221436f7387be5999bbbf648e310",
+              "id": "199",
+              "unique": "1f59136ce136fecde5afda6a1975a646",
               "name": "298-W-9780814773130.jpg",
               "description": null,
               "type": "image",
@@ -228,33 +220,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814773130.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2021-02-03 19:30:47"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC338",
-            "format_id": "BC",
-            "seo_link": "lover",
-            "detail": "Print PDF",
-            "title_id": "fac50cbf64f48a147c8ccda1500e4f1d",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814773130",
-            "edition": "",
-            "product_id": 338,
-            "primary_format": true,
-            "date": {
-              "date": "1993-10-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG65",
             "format_id": "DG",
@@ -314,14 +286,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC338",
+            "format_id": "BC",
+            "seo_link": "lover",
+            "detail": "Print PDF",
+            "title_id": "fac50cbf64f48a147c8ccda1500e4f1d",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814735053",
+            "edition": "",
+            "product_id": 338,
+            "primary_format": true,
+            "date": {
+              "date": "1993-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "338-11991",
-            "review_id": "11991",
+            "id": "65-12862",
+            "review_id": "12862",
             "review": {
-              "id": "11991",
+              "id": "12862",
               "reviewer": "Catharine R. Stimpson",
               "description": "\"Harris, an American equivalent of Monique Wittig, ... is ingenious, sardonic, parodic.  [She] explores the various roles women have played:  grandmother, mother, daughter, sister, wife and second wife, businesswoman in man's clothing, prostitute, factory worker, movie star, muse and tutelary spirit, warrior, artist, fake saint, martyr.\"",
               "score": null,
@@ -331,10 +323,10 @@
             }
           },
           {
-            "id": "338-11992",
-            "review_id": "11992",
+            "id": "65-12863",
+            "review_id": "12863",
             "review": {
-              "id": "11992",
+              "id": "12863",
               "reviewer": "Carolyn Allen, University of Washington",
               "description": "\"The introduction [is] by turns funny, sad, moving, and outrageous...[Harris] illuminates the New York women's art and literary scene of the late sixties and seventies; the introduction alone is worth the price of the book. Altogether, <i>Lover</i> is everything a seduction should be: smart, unpredictable, witty, provocative—and sexy.\"",
               "score": null,
@@ -344,10 +336,10 @@
             }
           },
           {
-            "id": "338-11993",
-            "review_id": "11993",
+            "id": "65-12864",
+            "review_id": "12864",
             "review": {
-              "id": "11993",
+              "id": "12864",
               "reviewer": "Jane Rule",
               "description": "\"Violent, funny, beautiful, intelligent.\"",
               "score": null,
@@ -357,10 +349,10 @@
             }
           },
           {
-            "id": "338-11994",
-            "review_id": "11994",
+            "id": "65-12865",
+            "review_id": "12865",
             "review": {
-              "id": "11994",
+              "id": "12865",
               "reviewer": "The New York Review of Books",
               "description": "\"Bertha Harris has created a woman's world as relaxed and sisterly and funny as Didion's is tense and controlled. [She] presents a utopian vision of a world where women are in charge of themselves, and where, it is nice to note, they are very good company indeed.\"",
               "score": null,
@@ -370,10 +362,10 @@
             }
           },
           {
-            "id": "338-11995",
-            "review_id": "11995",
+            "id": "65-12866",
+            "review_id": "12866",
             "review": {
-              "id": "11995",
+              "id": "12866",
               "reviewer": "The Washington Post Book World",
               "description": "\"A wonder...I was seduced by its tantalizing elusiveness, its audacity, its sheer brio...a spellbinding, verbal sleight of hand as satisfying as it is serpentine.\"",
               "score": null,

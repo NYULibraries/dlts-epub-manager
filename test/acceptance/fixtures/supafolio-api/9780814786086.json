@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814712770",
+        "isbn10": "0814786081",
         "description": "<p>In 1979, Kathleen Barry's landmark book, Female Sexual Slavery, pulled back the curtain on a world of abuse prostitution that shocked the world.  Documenting in devastating detail the lives of street prostitutes and the international traffic in women, Barry's work was called powerful and compassionate by Adrienne Rich and a courageous and crusading book that should be read everywhere by Gloria Steinem.  The Los Angeles Times found it a powerful work filled with disbelief, outrage, and documentation . . . sexual bondage shackles women as much today as it has for centuries.<br>In The Prostitution of Sexuality, Barry assesses where we are 15 years later, how far we've come and, more importantly, how far we have still to go.  Shifting her focus from the sexuality of prostitution to the prostitution of sexuality, Barry exposes the practice of teenage sexual exploitation and the flourishing Asian sex tour industry,  emphasizing the world-wide role of the expanding multi-billion dollar pornography industry.  The work identifies the global conditions of sexual exploitation, from sex industrialization in developing countries to te normalization of prostitution in the West. The Prostitution of Sexuality considers sexual exploitation a political condition and thus the foundation of women's subordination and the base from which discrimination against women is constructed and enacted.  Breaking new ground, Barry convincingly argues for the need to integrate the struggle against sexual exploitation in prostitution into broader feminist struggles and to place it, as one of several connected issues, in the forefront of the feminist agenda.<br>Barry concludes the book with a sampling of strategies-- international, regional, local, and personal--that feminist activists have employed successfully since the early 1980s, highlighting new international legal strategies for human rights resulting from her work.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,38 +21,38 @@
           "library": "9780814786086",
           "ebook": "9780814723364",
           "hardcover": "9780814712177",
-          "paperback": "9780814786086",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814712771",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814786086.001.0001",
           "language": "eng",
           "edition_isbn": "9780814786086",
           "cs_title_group": "9780814712177",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false
+          "open_access_series": null,
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1996-07-01 00:00:00.000000",
+          "date": "1994-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1996-07-01 00:00:00.000000",
+          "date": "1994-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 836193600,
+        "sort_date": 786258000,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 358,
+        "product_id": 42,
         "isbn13": "9780814786086",
         "title": "The Prostitution of Sexuality",
         "title_without_prefix": "Prostitution of Sexuality",
@@ -61,23 +61,15 @@
         "title_id": "57d4759cec48a9b08e029dd506441254",
         "reference_id": null,
         "summary": "In 1979, Kathleen Barry's landmark book, Female Sexual Slavery, pulled back the curtain on a world of abuse prostitution that shocked the world.  Documenting in devastating detail the lives of street...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814786086.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.190",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,7 +157,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1130-358",
-            "asset_id": "1130",
+            "id": "310-42",
+            "asset_id": "310",
             "asset": {
-              "id": "1130",
-              "unique": "0faa5d01f0741e0dceb7c44edd610560",
+              "id": "310",
+              "unique": "016d20a211dc7a61d6419c94b713c2b5",
               "name": "648-H-9780814786086.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814786086.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "878-358",
-            "asset_id": "878",
+            "id": "42-42",
+            "asset_id": "42",
             "asset": {
-              "id": "878",
-              "unique": "96d6471d7e2a07c60c36f453ea5b727a",
+              "id": "42",
+              "unique": "7510a5b399ba596ce5a80fad38de1004",
               "name": "145-W-9780814786086.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814786086.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "1004-358",
-            "asset_id": "1004",
+            "id": "176-42",
+            "asset_id": "176",
             "asset": {
-              "id": "1004",
-              "unique": "69e9d8528fba0078bd7cb8ece5c391f9",
+              "id": "176",
+              "unique": "29497ed487f6ee0cc9b7d75f6a6b3944",
               "name": "298-W-9780814786086.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814786086.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC358",
-            "format_id": "BC",
-            "seo_link": "the-prostitution-of-sexuality",
-            "detail": "Print PDF",
-            "title_id": "57d4759cec48a9b08e029dd506441254",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814786086",
-            "edition": "",
-            "product_id": 358,
-            "primary_format": true,
-            "date": {
-              "date": "1996-07-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG42",
             "format_id": "DG",
@@ -296,14 +268,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC358",
+            "format_id": "BC",
+            "seo_link": "the-prostitution-of-sexuality",
+            "detail": "Print PDF",
+            "title_id": "57d4759cec48a9b08e029dd506441254",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814712771",
+            "edition": "",
+            "product_id": 358,
+            "primary_format": true,
+            "date": {
+              "date": "1996-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "358-11738",
-            "review_id": "11738",
+            "id": "42-12436",
+            "review_id": "12436",
             "review": {
-              "id": "11738",
+              "id": "12436",
               "reviewer": "Robin Morgan",
               "description": "\"This is a brave and brilliant book  and constitutes a quantum leap forward for global feminist theory.\"",
               "score": null,

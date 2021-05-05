@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814715354",
+        "isbn10": "0814723705",
         "description": "<p>We didn't know. For half a century, Western politicians and intellectuals have so explained away their inaction in the face of genocide in World War II. In stark contrast, Western observers today face a daily barrage of information and images, from CNN, the Internet, and newspapers about the parties and individuals responsible for the current Balkan War and crimes against humanity. The stories, often accompanied by video or pictures of rape, torture, mass graves, and ethnic cleansing, available almost instantaneously, do not allow even the most uninterested viewer to ignore the grim reality of genocide. <br>And yet, while information abounds, so do rationalizations for non-intervention in Balkan affairs - the threshold of real genocide has yet to be reached in Bosnia; all sides are equally guilty; Islamic fundamentalism in Bosnia is a threat to the West; it will only end when they all tire of killing each other - to name but a few.<br> In <b>This Time We Knew</b>, Thomas Cushman and Stjepan G. Mestrovic have put together a collection of critical, reflective, essays that offer detailed sociological, political, and historical analyses of western responses to the war. This volume punctures once and for all common excuses for Western inaction. <b>This Time We Knew</b> further reveals the reasons why these rationalizations have persisted and led to the West's failure to intercede, in the face of incontrovertible evidence, in the most egregious crimes against humanity to occur in Europe since World War II.<br>Contributors to the volume include Kai Erickson, Jean Baudrillard, Mark Almond, David Riesman, Daniel Kofman, Brendan Simms, Daniele Conversi, Brad Kagan Blitz, James J. Sadkovich, and Sheri Fink.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814723708",
           "cs_title_group": "9780814715345",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814723708",
           "ebook": "9780814772249",
           "hardcover": "9780814715345",
-          "paperback": "9780814723708",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814715352",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814723708.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814723708.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1996-10-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 380,
+        "product_id": 37,
         "isbn13": "9780814723708",
         "title": "This Time We Knew",
         "title_without_prefix": "This Time We Knew",
@@ -61,23 +61,15 @@
         "title_id": "c9311ed627c72e61ea2c6a1ff471fb30",
         "reference_id": null,
         "summary": "We didn't know. For half a century, Western politicians and intellectuals have so explained away their inaction in the face of genocide in World War II. In stark contrast, Western observers today...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814723708.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.250",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,7 +157,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -194,7 +186,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -205,11 +197,11 @@
         ],
         "assets": [
           {
-            "id": "1152-380",
-            "asset_id": "1152",
+            "id": "305-37",
+            "asset_id": "305",
             "asset": {
-              "id": "1152",
-              "unique": "336c7b8f6086fc958873cc9aa94fbcbd",
+              "id": "305",
+              "unique": "382b4c981c4ba822a30b44e444aefefe",
               "name": "648-H-9780814723708.jpg",
               "description": null,
               "type": "image",
@@ -219,17 +211,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814723708.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "900-380",
-            "asset_id": "900",
+            "id": "37-37",
+            "asset_id": "37",
             "asset": {
-              "id": "900",
-              "unique": "8583663e8fcd296ea24967ad47b1ceea",
+              "id": "37",
+              "unique": "55f819d09a4e754cd3453cdfd229efbc",
               "name": "145-W-9780814723708.jpg",
               "description": null,
               "type": "image",
@@ -239,17 +231,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814723708.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "1026-380",
-            "asset_id": "1026",
+            "id": "171-37",
+            "asset_id": "171",
             "asset": {
-              "id": "1026",
-              "unique": "4ae449f4847ba596d5048a737969c3d7",
+              "id": "171",
+              "unique": "7ea4f035060967d5992bfdf001b84f74",
               "name": "298-W-9780814723708.jpg",
               "description": null,
               "type": "image",
@@ -259,33 +251,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814723708.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC380",
-            "format_id": "BC",
-            "seo_link": "this-time-we-knew",
-            "detail": "Print PDF",
-            "title_id": "c9311ed627c72e61ea2c6a1ff471fb30",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814723708",
-            "edition": "",
-            "product_id": 380,
-            "primary_format": true,
-            "date": {
-              "date": "1996-10-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG37",
             "format_id": "DG",
@@ -345,14 +317,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC380",
+            "format_id": "BC",
+            "seo_link": "this-time-we-knew",
+            "detail": "Print PDF",
+            "title_id": "c9311ed627c72e61ea2c6a1ff471fb30",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814715352",
+            "edition": "",
+            "product_id": 380,
+            "primary_format": true,
+            "date": {
+              "date": "1996-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "380-11713",
-            "review_id": "11713",
+            "id": "37-12409",
+            "review_id": "12409",
             "review": {
-              "id": "11713",
+              "id": "12409",
               "reviewer": "Universal Press Syndicate",
               "description": "\"For people who still are wondering what was happening to the conscience of the West toward Bosnia since 1991, <b>This Time We Knew: Western Responses to Genocide in Bosnia</b> is must reading.\"",
               "score": null,
@@ -362,10 +354,10 @@
             }
           },
           {
-            "id": "380-11714",
-            "review_id": "11714",
+            "id": "37-12410",
+            "review_id": "12410",
             "review": {
-              "id": "11714",
+              "id": "12410",
               "reviewer": "Los Angeles Times",
               "description": "\"<b>This Time We Knew</b> is a work of scholarship that aspires to be an act of conscienceand succeeds in its aspirations.\"",
               "score": null,

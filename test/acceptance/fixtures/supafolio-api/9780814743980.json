@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814742297",
+        "isbn10": "0814743986",
         "description": "<p>\"When BooBoo stabs Morris Boyle I am reading a news magazine that someone has smuggled into the wing.\"<br> Thus, the protagonist of this novella introduces us to prison, one of the several worlds he inhabits, worlds most of us would rather ignore but which inexorably, through what we see and hear and read and live on uncountable American streets, has become the one world we can no longer avoid. It seduces us with the voice of drugs and violence. Of the disenfranchised. Of those both at once outside and standing within the center of what no longer holds. It informs us of who we are today.</p>",
         "tagline": null,
         "type": "Fiction",
@@ -20,24 +20,24 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814743980",
-          "cs_title_group": "9780814743980",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814742297",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814743980",
           "ebook": "9780814743218",
-          "hardcover": "9780814743980",
-          "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "hardcover": "9780814742297",
+          "paperback": null,
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814743980.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814743980.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1996-03-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 106,
+        "product_id": 39,
         "isbn13": "9780814743980",
         "title": "Bird-Self Accumulated",
         "title_without_prefix": "Bird-Self Accumulated",
@@ -61,20 +61,12 @@
         "title_id": "95821454aa2c85859092048cc5cc8e4a",
         "reference_id": null,
         "summary": "\"When BooBoo stabs Morris Boyle I am reading a news magazine that someone has smuggled into the wing.\" Thus, the protagonist of this novella introduces us to prison, one of the several worlds...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814743980.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "19.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "25.00",
+            "amount": "99.00",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "7.000",
-          "width": "5.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.630",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,11 +157,11 @@
         ],
         "assets": [
           {
-            "id": "374-106",
-            "asset_id": "374",
+            "id": "307-39",
+            "asset_id": "307",
             "asset": {
-              "id": "374",
-              "unique": "d507603493f1a30d0cc38223cadc1238",
+              "id": "307",
+              "unique": "26ae76c6b3f3a2bb8c94a7a4ee2929b9",
               "name": "648-H-9780814743980.jpg",
               "description": null,
               "type": "image",
@@ -179,17 +171,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814743980.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "106-106",
-            "asset_id": "106",
+            "id": "39-39",
+            "asset_id": "39",
             "asset": {
-              "id": "106",
-              "unique": "3a3af0d895dfe06f79a1328f30574287",
+              "id": "39",
+              "unique": "364ea1c2e6291264e161874341c53e0e",
               "name": "145-W-9780814743980.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814743980.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "240-106",
-            "asset_id": "240",
+            "id": "173-39",
+            "asset_id": "173",
             "asset": {
-              "id": "240",
-              "unique": "f0ee6d3eae7cc6bd6998a2079cc11ab5",
+              "id": "173",
+              "unique": "e61c2f3b931dab8a61b0996a63623b24",
               "name": "298-W-9780814743980.jpg",
               "description": null,
               "type": "image",
@@ -219,33 +211,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814743980.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB106",
-            "format_id": "BB",
-            "seo_link": "bird-self-accumulated",
-            "detail": "Print PDF",
-            "title_id": "95821454aa2c85859092048cc5cc8e4a",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814743980",
-            "edition": "",
-            "product_id": 106,
-            "primary_format": true,
-            "date": {
-              "date": "1996-03-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG39",
             "format_id": "DG",
@@ -260,6 +232,26 @@
             "edition": "",
             "product_id": 39,
             "primary_format": false,
+            "date": {
+              "date": "1996-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB106",
+            "format_id": "BB",
+            "seo_link": "bird-self-accumulated",
+            "detail": "Print PDF",
+            "title_id": "95821454aa2c85859092048cc5cc8e4a",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814742297",
+            "edition": "",
+            "product_id": 106,
+            "primary_format": true,
             "date": {
               "date": "1996-03-01 00:00:00.000000",
               "timezone_type": 3,
@@ -289,10 +281,10 @@
         ],
         "reviews": [
           {
-            "id": "106-11721",
-            "review_id": "11721",
+            "id": "39-12419",
+            "review_id": "12419",
             "review": {
-              "id": "11721",
+              "id": "12419",
               "reviewer": "Meredith Steinbach",
               "description": "\"Brilliant, articulate, street-wise. . . Donald Judson's writings are not to be missed.  He understands the difference between lyricism for its own sake and literary dynamics and can make them dance through and around his characters in the highest literary forms.\"",
               "score": null,
@@ -302,10 +294,10 @@
             }
           },
           {
-            "id": "106-11722",
-            "review_id": "11722",
+            "id": "39-12420",
+            "review_id": "12420",
             "review": {
-              "id": "11722",
+              "id": "12420",
               "reviewer": "Edmund White",
               "description": "\"Donald Judson is someone who has big writing talent.  His work is action-packed, it's about small-town hoods, it reeks of violence&#151;but the whole is rendered in an exquisite, lyrical prose.\"",
               "score": null,

@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814774431",
+        "isbn10": "0814769489",
         "description": "<p>In <i>Self and Other</i>, Robert Rogers presents a powerful argument for the adoption of a theory of object relations, combining the best features of traditional psychoanalytic theory with contemporary views on attachment behavior and intersubjectivity. Rogers discusses theory in relation both to actual psychoanalytic case histories and imagined selves found in literature, and provides a critical rereading of the case histories of Freud, Winnicott, Lichtenstein, Sechehaye, and Bettelheim.<br> At once scientific and humanistic, Self and Other engagingly draws from theoretical, clinical, and literary traditions.  It will appeal to psychoanalysts as well as to literary scholars interested in the application of psychoanalysis to literature.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,38 +21,38 @@
           "library": "9780814769485",
           "ebook": "9780814776681",
           "hardcover": "9780814774182",
-          "paperback": "9780814769485",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814774434",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814769485.001.0001",
           "language": "eng",
           "edition_isbn": "9780814769485",
           "cs_title_group": "9780814774182",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false
+          "open_access_series": null,
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1993-08-01 00:00:00.000000",
+          "date": "1991-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1993-08-01 00:00:00.000000",
+          "date": "1991-10-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 744177600,
+        "sort_date": 686289600,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 368,
+        "product_id": 36,
         "isbn13": "9780814769485",
         "title": "Self and Other",
         "title_without_prefix": "Self and Other",
@@ -61,23 +61,15 @@
         "title_id": "60b8c436d4dd188351c2e3b0b12cc968",
         "reference_id": null,
         "summary": "In Self and Other, Robert Rogers presents a powerful argument for the adoption of a theory of object relations, combining the best features of traditional psychoanalytic theory with contemporary...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814769485.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,28 +89,26 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.630",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
-        "series": [],
+        "series": [
+          {
+            "number_in_series": "0",
+            "series": {
+              "name": "Psychoanalytic Crossroads",
+              "seo_name": "psychoanalytic-crossroads",
+              "description": ""
+            }
+          }
+        ],
         "awards": [],
         "levels": [],
         "categories": [
-          {
-            "primary": false,
-            "category": {
-              "code": "NYULLS000",
-              "code_3": "NYU",
-              "code_6": "NYULLS",
-              "name": "Literature & Literary Studies",
-              "type": "nyuos-subjects",
-              "seo_name": "NYULLS"
-            }
-          },
           {
             "primary": false,
             "category": {
@@ -128,6 +118,17 @@
               "name": "Psychology",
               "type": "nyuos-subjects",
               "seo_name": "NYUP"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYULLS000",
+              "code_3": "NYU",
+              "code_6": "NYULLS",
+              "name": "Literature & Literary Studies",
+              "type": "nyuos-subjects",
+              "seo_name": "NYULLS"
             }
           }
         ],
@@ -165,11 +166,11 @@
         ],
         "assets": [
           {
-            "id": "1140-368",
-            "asset_id": "1140",
+            "id": "304-36",
+            "asset_id": "304",
             "asset": {
-              "id": "1140",
-              "unique": "4616632f5509a26398f68b29b284c5cf",
+              "id": "304",
+              "unique": "3f1c68b7192e62551d885634aa655389",
               "name": "648-H-9780814769485.jpg",
               "description": null,
               "type": "image",
@@ -179,17 +180,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814769485.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "888-368",
-            "asset_id": "888",
+            "id": "36-36",
+            "asset_id": "36",
             "asset": {
-              "id": "888",
-              "unique": "efb7ce650c2a55f4c7fa13355f595fa1",
+              "id": "36",
+              "unique": "a1044892e088d32bc56c0674277be1d0",
               "name": "145-W-9780814769485.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +200,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814769485.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "1014-368",
-            "asset_id": "1014",
+            "id": "170-36",
+            "asset_id": "170",
             "asset": {
-              "id": "1014",
-              "unique": "256915e7ae14d489ce7ee07a979bff55",
+              "id": "170",
+              "unique": "77cb96feb0310582372db42fb463a029",
               "name": "298-W-9780814769485.jpg",
               "description": null,
               "type": "image",
@@ -219,33 +220,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814769485.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC368",
-            "format_id": "BC",
-            "seo_link": "self-and-other",
-            "detail": "Print PDF",
-            "title_id": "60b8c436d4dd188351c2e3b0b12cc968",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814769485",
-            "edition": "",
-            "product_id": 368,
-            "primary_format": true,
-            "date": {
-              "date": "1993-08-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG36",
             "format_id": "DG",
@@ -282,6 +263,26 @@
             "primary_format": false,
             "date": {
               "date": "1991-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC368",
+            "format_id": "BC",
+            "seo_link": "self-and-other",
+            "detail": "Print PDF",
+            "title_id": "60b8c436d4dd188351c2e3b0b12cc968",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814774434",
+            "edition": "",
+            "product_id": 368,
+            "primary_format": true,
+            "date": {
+              "date": "1993-08-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             }

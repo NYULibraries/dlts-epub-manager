@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814751008",
+        "isbn10": "0814752683",
         "description": "<p>In her compendious study, [of the folktale of the runaway wife] Leavy argues that the contradictory claims of nature and culture are embodied in the legendary figure of the swan maiden, a woman torn between the human and bestial worlds.  <br>--<i>The New York Times Book Review</i><br><br> This is a study of the meaning of gender as framed by the swan maiden tale, a story found in the folklore of virtually every culture. The swan maiden is a supernatural woman forced to marry, keep house, and bear children for a mortal man who holds the key to her imprisonment. When she manages to regain this key, she escapes to the otherworld, never to return.<br><br> These tales have most often been interpreted as depicting exogamous marriages, describing the girl from another tribe trapped in a world where she will always be the outsider.  Barbara Fass Leavy believes that, in the societies in which the tale and its variants endured, woman was the other--the outsider trapped in a society that could never be her own. Leavy shows how the tale, though rarely explicitly recognized, is frequently replayed in modern literature.<br><br> Beautifully written, this book reveals the myriad ways in which the folktales of a society reflect its cultural values, and particularly how folktales are allegories of gender relations. It will interest anyone involved in literary, gender, and cultural studies.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,23 +21,23 @@
           "library": "9780814752685",
           "ebook": "9780814765395",
           "hardcover": "9780814750681",
-          "paperback": "9780814752685",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814751008",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814752685.001.0001",
           "language": "eng",
           "edition_isbn": "9780814752685",
           "cs_title_group": "9780814750681",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false
+          "open_access_series": null,
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1995-07-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 330,
+        "product_id": 58,
         "isbn13": "9780814752685",
         "title": "In Search of the Swan Maiden",
         "title_without_prefix": "In Search of the Swan Maiden",
@@ -61,26 +61,18 @@
         "title_id": "55b5d5398760b794ee8f86173e112bef",
         "reference_id": null,
         "summary": "In her compendious study, [of the folktale of the runaway wife] Leavy argues that the contradictory claims of nature and culture are embodied in the legendary figure of the swan maiden, a woman torn...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814752685.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.190",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,11 +157,11 @@
         ],
         "assets": [
           {
-            "id": "1102-330",
-            "asset_id": "1102",
+            "id": "326-58",
+            "asset_id": "326",
             "asset": {
-              "id": "1102",
-              "unique": "630b4dac0b68b2df445ba09c6ac9a476",
+              "id": "326",
+              "unique": "8d3e9234529e5fddbbb9e5742b0831e5",
               "name": "648-H-9780814752685.jpg",
               "description": null,
               "type": "image",
@@ -179,17 +171,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814752685.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "850-330",
-            "asset_id": "850",
+            "id": "58-58",
+            "asset_id": "58",
             "asset": {
-              "id": "850",
-              "unique": "e0fe825b80fb0f74fb7dba5357f95246",
+              "id": "58",
+              "unique": "557f831e2cee3c1494e69b67b5700d2b",
               "name": "145-W-9780814752685.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814752685.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "976-330",
-            "asset_id": "976",
+            "id": "192-58",
+            "asset_id": "192",
             "asset": {
-              "id": "976",
-              "unique": "0a1ce701231d6393d8016326eb1aa44e",
+              "id": "192",
+              "unique": "5533bc9b8bd875b79bcbb265b82fd255",
               "name": "298-W-9780814752685.jpg",
               "description": null,
               "type": "image",
@@ -219,33 +211,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814752685.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC330",
-            "format_id": "BC",
-            "seo_link": "in-search-of-the-swan-maiden",
-            "detail": "Print PDF",
-            "title_id": "55b5d5398760b794ee8f86173e112bef",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814752685",
-            "edition": "",
-            "product_id": 330,
-            "primary_format": true,
-            "date": {
-              "date": "1995-07-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG58",
             "format_id": "DG",
@@ -280,6 +252,26 @@
             "edition": "",
             "product_id": 329,
             "primary_format": false,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC330",
+            "format_id": "BC",
+            "seo_link": "in-search-of-the-swan-maiden",
+            "detail": "Print PDF",
+            "title_id": "55b5d5398760b794ee8f86173e112bef",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814751008",
+            "edition": "",
+            "product_id": 330,
+            "primary_format": true,
             "date": {
               "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,

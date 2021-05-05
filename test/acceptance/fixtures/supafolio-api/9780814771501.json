@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "081477475X",
+        "isbn10": "0814771505",
         "description": "<p>Sigmund Freud's role in the history and development of psychoanalysis continues to be the standard by which others are judged. One of the most remarkable features of that history, however, is the exceptional caliber of the men and women Freud attracted as disciples and coworkers. One of the most influential, and perhaps overlooked, of them was the Hungarian analyst Sndor Ferenczi. Apart from Freud, Ferenczi is the analyst from that pioneering generation who addresses most immediately the concerns of contemporary psychoanalysts.<br> In Ferenczi's Turn in Psychoanalysis fifteen eminent scholars and clinicians from six different countries provide a comprehensive and rigorous examination of Ferenczi's legacy. Although the contributors concur in their assessment of Ferenczi's stature, they often disagree in their judgments about his views and his place in the history of psychoanalysis. For some, he is a radically iconoclastic figure, whose greatest contributions lie in his challenge to Freudian orthodoxy; for others, he is ultimately a classical analyst, who built on Freud's foundations. Divided into three sections, Contexts and Continuities, Disciple and Dissident, and Theory and Technique, the essays in Ferenczi's Turn in Psychoanalysis invite the reader to take part in a dialogue, in which the questions are many and the answers open-ended.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -20,19 +20,19 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814771501",
-          "cs_title_group": "9780814771501",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814774755",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814771501",
           "ebook": "9780814776711",
-          "hardcover": "9780814771501",
+          "hardcover": "9780814774755",
           "paperback": "9780814775455",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814771501.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814771501.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 131,
+        "product_id": 64,
         "isbn13": "9780814771501",
         "title": "Ferenczi's Turn in Psychoanalysis",
         "title_without_prefix": "Ferenczi's Turn in Psychoanalysis",
@@ -61,26 +61,18 @@
         "title_id": "765fdfe3072d366e3524d18dc9eb6733",
         "reference_id": null,
         "summary": "Sigmund Freud's role in the history and development of psychoanalysis continues to be the standard by which others are judged. One of the most remarkable features of that history, however, is the...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814771501.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "89.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "74.00",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.250",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -223,11 +215,11 @@
         ],
         "assets": [
           {
-            "id": "399-131",
-            "asset_id": "399",
+            "id": "332-64",
+            "asset_id": "332",
             "asset": {
-              "id": "399",
-              "unique": "bce7ebde130535b1f526e2c5976dfc38",
+              "id": "332",
+              "unique": "8cf2b120ebe980e3f45709b90d4e3af1",
               "name": "648-H-9780814771501.jpg",
               "description": null,
               "type": "image",
@@ -237,17 +229,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814771501.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "131-131",
-            "asset_id": "131",
+            "id": "64-64",
+            "asset_id": "64",
             "asset": {
-              "id": "131",
-              "unique": "606daa63c73adcdcfc24d953bac3fad6",
+              "id": "64",
+              "unique": "f415b54def645705802190a4e88ee0be",
               "name": "145-W-9780814771501.jpg",
               "description": null,
               "type": "image",
@@ -257,17 +249,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814771501.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "265-131",
-            "asset_id": "265",
+            "id": "198-64",
+            "asset_id": "198",
             "asset": {
-              "id": "265",
-              "unique": "010f11a20cb866a7a73efa15ad586ca4",
+              "id": "198",
+              "unique": "2d5eec800c49784596d75d80e072dc41",
               "name": "298-W-9780814771501.jpg",
               "description": null,
               "type": "image",
@@ -277,33 +269,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814771501.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB131",
-            "format_id": "BB",
-            "seo_link": "ferenczis-turn-in-psychoanalysis",
-            "detail": "Print PDF",
-            "title_id": "765fdfe3072d366e3524d18dc9eb6733",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814771501",
-            "edition": "",
-            "product_id": 131,
-            "primary_format": false,
-            "date": {
-              "date": "1996-11-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG64",
             "format_id": "DG",
@@ -317,6 +289,26 @@
             "isbn": "9780814771501",
             "edition": "",
             "product_id": 64,
+            "primary_format": false,
+            "date": {
+              "date": "1996-11-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB131",
+            "format_id": "BB",
+            "seo_link": "ferenczis-turn-in-psychoanalysis",
+            "detail": "Print PDF",
+            "title_id": "765fdfe3072d366e3524d18dc9eb6733",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814774755",
+            "edition": "",
+            "product_id": 131,
             "primary_format": false,
             "date": {
               "date": "1996-11-01 00:00:00.000000",
@@ -367,10 +359,10 @@
         ],
         "reviews": [
           {
-            "id": "131-11944",
-            "review_id": "11944",
+            "id": "64-12605",
+            "review_id": "12605",
             "review": {
-              "id": "11944",
+              "id": "12605",
               "reviewer": "Rosemary Balsam, Choice",
               "description": "\"A fascinating collection of essays by both European and North American psychoanalysts. . . . A major contribution to the growing knowledge about Ferenczi, his inspirations, creativity, and risky directions.\"",
               "score": null,
@@ -380,10 +372,10 @@
             }
           },
           {
-            "id": "131-11945",
-            "review_id": "11945",
+            "id": "64-12606",
+            "review_id": "12606",
             "review": {
-              "id": "11945",
+              "id": "12606",
               "reviewer": "Psychoanalytic Books",
               "description": "\"Highly recommended.\"",
               "score": null,

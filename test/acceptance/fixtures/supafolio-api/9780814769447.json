@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814774415",
-        "description": "<p>In many arenas the debate is raging over the nature of sexual orientation.  <i>Queer Words, Queer Images</i> addresses this debate, but with a difference, arguing that homosexuality has become an issue precisely because of the way in which we discuss, debate, and communicate about the concept and experience of homosexuality.  The debate over homosexuality is fundamentally an issue of communication&#151;as we can see by the recent controversy over gays in the military.  This controversy, termed by one gay man as the annoying habit of heterosexual men to overestimate their own attractiveness, has been debated in communication-sensitive terms, such as morale and discipline.<br> The twenty chapters address such subjects as gay political language, homosexuality and AIDS on prime-time television, the politics of male homosexuality in young adult fiction, the identification of female athleticism with lesbianism, the politics of identity in the works of Edmund White, and coming out strategies. This is must reading for students of communication practices and theory, and for everyone interested in human sexuality.<br> Contributing to the book are:  James Chesebro (Indiana State), James Darsey (Ohio State), Joseph A. Devito (Hunter College, CUNY), Timothy Edgar (Purdue), Mary Anne Fitzpatrick (Wisconsin, Madison), Karen A. Foss (Humboldt State), Kirk Fuoss (St. Lawrence), Larry Gross (Pennsylvania), Darlene Hantzis (Indiana State), Fred E. Jandt (California State, San Bernardino), Mercilee Jenkins (San Francisco State), Valerie Lehr (St. Lawrence), Lynn C. Miller (Texas, Austin), Marguerite Moritz (Colorado, Boulder), Fred L. Myrick (Spring Hill), Emile Netzhammer (Buffalo State), Elenie Opffer, Dorothy S. Painter (Ohio State), Karen Peper (Michigan), Nicholas F. Radel (Furman), R. Jeffrey Ringer (St. Cloud State), Scott Shamp (Georgia), Paul Siegel (Gallaudet), Jacqueline Taylor (Depaul), Julia T. Wood (North Carolina, Chapel Hill).</p>",
+        "isbn10": "0814769446",
+        "description": "<p>In many arenas the debate is raging over the nature of sexual orientation.  <i>Queer Words, Queer Images</i> addresses this debate, but with a difference, arguing that homosexuality has become an issue precisely because of the way in which we discuss, debate, and communicate about the concept and experience of homosexuality.  The debate over homosexuality is fundamentally an issue of communication—as we can see by the recent controversy over gays in the military.  This controversy, termed by one gay man as the annoying habit of heterosexual men to overestimate their own attractiveness, has been debated in communication-sensitive terms, such as morale and discipline.<br> The twenty chapters address such subjects as gay political language, homosexuality and AIDS on prime-time television, the politics of male homosexuality in young adult fiction, the identification of female athleticism with lesbianism, the politics of identity in the works of Edmund White, and coming out strategies. This is must reading for students of communication practices and theory, and for everyone interested in human sexuality.<br> Contributing to the book are:  James Chesebro (Indiana State), James Darsey (Ohio State), Joseph A. Devito (Hunter College, CUNY), Timothy Edgar (Purdue), Mary Anne Fitzpatrick (Wisconsin, Madison), Karen A. Foss (Humboldt State), Kirk Fuoss (St. Lawrence), Larry Gross (Pennsylvania), Darlene Hantzis (Indiana State), Fred E. Jandt (California State, San Bernardino), Mercilee Jenkins (San Francisco State), Valerie Lehr (St. Lawrence), Lynn C. Miller (Texas, Austin), Marguerite Moritz (Colorado, Boulder), Fred L. Myrick (Spring Hill), Emile Netzhammer (Buffalo State), Elenie Opffer, Dorothy S. Painter (Ohio State), Karen Peper (Michigan), Nicholas F. Radel (Furman), R. Jeffrey Ringer (St. Cloud State), Scott Shamp (Georgia), Paul Siegel (Gallaudet), Jacqueline Taylor (Depaul), Julia T. Wood (North Carolina, Chapel Hill).</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,23 +21,23 @@
           "library": "9780814769447",
           "ebook": "9780814776643",
           "hardcover": "9780814774403",
-          "paperback": "9780814769447",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814774410",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814769447.001.0001",
           "language": "eng",
           "edition_isbn": "9780814769447",
           "cs_title_group": "9780814774403",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false
+          "open_access_series": null,
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1994-01-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 360,
+        "product_id": 35,
         "isbn13": "9780814769447",
         "title": "Queer Words, Queer Images",
         "title_without_prefix": "Queer Words, Queer Images",
@@ -61,23 +61,15 @@
         "title_id": "0028149cb031b46f5471a898a8a3da57",
         "reference_id": null,
         "summary": "In many arenas the debate is raging over the nature of sexual orientation.  Queer Words, Queer Images addresses this debate, but with a difference, arguing that homosexuality has become an...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814769447.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.130",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1132-360",
-            "asset_id": "1132",
+            "id": "303-35",
+            "asset_id": "303",
             "asset": {
-              "id": "1132",
-              "unique": "25be743947f9d32380e934be64379cda",
+              "id": "303",
+              "unique": "5701eef68b1227499c9170030a63e263",
               "name": "648-H-9780814769447.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814769447.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "880-360",
-            "asset_id": "880",
+            "id": "35-35",
+            "asset_id": "35",
             "asset": {
-              "id": "880",
-              "unique": "a54c249f92ead5a4b1092bd7c86fc76b",
+              "id": "35",
+              "unique": "c380b2a3678357d33ea058a9df526207",
               "name": "145-W-9780814769447.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814769447.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "1006-360",
-            "asset_id": "1006",
+            "id": "169-35",
+            "asset_id": "169",
             "asset": {
-              "id": "1006",
-              "unique": "761627c999b920fe6e3ca622c22d55dd",
+              "id": "169",
+              "unique": "b160f9fe7381a54c9b69be1b7ed793e3",
               "name": "298-W-9780814769447.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814769447.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC360",
-            "format_id": "BC",
-            "seo_link": "queer-words-queer-images",
-            "detail": "Print PDF",
-            "title_id": "0028149cb031b46f5471a898a8a3da57",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814769447",
-            "edition": "",
-            "product_id": 360,
-            "primary_format": true,
-            "date": {
-              "date": "1994-01-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG35",
             "format_id": "DG",
@@ -296,14 +268,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC360",
+            "format_id": "BC",
+            "seo_link": "queer-words-queer-images",
+            "detail": "Print PDF",
+            "title_id": "0028149cb031b46f5471a898a8a3da57",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814774410",
+            "edition": "",
+            "product_id": 360,
+            "primary_format": true,
+            "date": {
+              "date": "1994-01-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "360-11463",
-            "review_id": "11463",
+            "id": "35-12162",
+            "review_id": "12162",
             "review": {
-              "id": "11463",
+              "id": "12162",
               "reviewer": "Karla Jay,Professor of English and Women's Studies, Pace University, co-Editor, Out of the Closets: Voices of Gay Liberation",
               "description": "\"...Bound to become the definitive work on [this subject]...The essays cover an extraordinary range of topics, from television to the very personal language shared by couples...Queer Words, Queer Images is must reading for anyone interested in the gentle art of communication.\"",
               "score": null,

@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814735207",
-        "description": "<p>The complicity of the Hungarian Christian church in the mass extermination of Hungarian Jews by the Nazis is a largely forgotten episode in the history of the Holocaust. Using previously unknown correspondence and other primary source materials, Moshe Y. Herczl recreates the church's actions and its disposition toward Hungarian Jewry. Herczl provides a scathing indictment of the church's lack of compassion toward&#151;and even active persecution of&#151;Hungary's Jews during World War II.</p>",
+        "isbn10": "0814744818",
+        "description": "The complicity of the Hungarian Christian church in the mass extermination of Hungarian Jews by the Nazis is a largely forgotten episode in the history of the Holocaust. Using previously unknown correspondence and other primary source materials, Moshe Y. Herczl recreates the church's actions and its disposition toward Hungarian Jewry. Herczl provides a scathing indictment of the church's lack of compassion toward—and even active persecution of—Hungary's Jews during World War II.",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814744819",
           "cs_title_group": "9780814735039",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814744819",
           "ebook": "9780814773208",
           "hardcover": "9780814735039",
-          "paperback": "9780814744819",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814735206",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814744819.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744819.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1995-06-01 00:00:00.000000",
+          "date": "1993-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1995-06-01 00:00:00.000000",
+          "date": "1993-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 801979200,
+        "sort_date": 741499200,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 289,
+        "product_id": 2,
         "isbn13": "9780814744819",
         "title": "Christianity and the Holocaust of Hungarian Jewry",
         "title_without_prefix": "Christianity and the Holocaust of Hungarian Jewry",
@@ -60,27 +60,19 @@
         "subtitle": "",
         "title_id": "2749c6c5e66e4ba77e9edb420619df82",
         "reference_id": null,
-        "summary": "The complicity of the Hungarian Christian church in the mass extermination of Hungarian Jews by the Nazis is a largely forgotten episode in the history of the Holocaust. Using previously unknown...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "summary": "The complicity of the Hungarian Christian church in the mass extermination of Hungarian Jews by the Nazis is a largely forgotten episode in the history of the Holocaust. Using previously unknown correspondence...",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814744819.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.880",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1061-289",
-            "asset_id": "1061",
+            "id": "270-2",
+            "asset_id": "270",
             "asset": {
-              "id": "1061",
-              "unique": "f966b529bc0cee4f8197c7b578e81912",
+              "id": "270",
+              "unique": "5eeb50376b77ecfc160f9f2f23de20fa",
               "name": "648-H-9780814744819.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744819.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "809-289",
-            "asset_id": "809",
+            "id": "2-2",
+            "asset_id": "2",
             "asset": {
-              "id": "809",
-              "unique": "a52c6fee6536dfe37e2f62ce8b86b7b5",
+              "id": "2",
+              "unique": "cfbb8fae3d3e201bafaa2af779bbac5d",
               "name": "145-W-9780814744819.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744819.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "935-289",
-            "asset_id": "935",
+            "id": "136-2",
+            "asset_id": "136",
             "asset": {
-              "id": "935",
-              "unique": "651b387f80f3debb498f7b14a2ad02fa",
+              "id": "136",
+              "unique": "a5a8939af42483c272f6defbf6fe66bc",
               "name": "298-W-9780814744819.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744819.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC289",
-            "format_id": "BC",
-            "seo_link": "christianity-and-the-holocaust-of-hungarian-jewry",
-            "detail": "Print PDF",
-            "title_id": "2749c6c5e66e4ba77e9edb420619df82",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814744819",
-            "edition": "",
-            "product_id": 289,
-            "primary_format": true,
-            "date": {
-              "date": "1995-06-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG2",
             "format_id": "DG",
@@ -298,6 +270,26 @@
             }
           },
           {
+            "id": "BC289",
+            "format_id": "BC",
+            "seo_link": "christianity-and-the-holocaust-of-hungarian-jewry",
+            "detail": "Print PDF",
+            "title_id": "2749c6c5e66e4ba77e9edb420619df82",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814735206",
+            "edition": "",
+            "product_id": 289,
+            "primary_format": true,
+            "date": {
+              "date": "1995-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
             "id": "DG288",
             "format_id": "DG",
             "seo_link": "christianity-and-the-holocaust-of-hungarian-jewry",
@@ -320,10 +312,10 @@
         ],
         "reviews": [
           {
-            "id": "289-11473",
-            "review_id": "11473",
+            "id": "2-12152",
+            "review_id": "12152",
             "review": {
-              "id": "11473",
+              "id": "12152",
               "reviewer": "Religious Studies Review",
               "description": "\"Demonstrates the crucial nexus between the long held antipathy of the Catholic and Protestant churches in Hungary toward Hungarian Jewry and the deportation of more than 500,000 Hungarian Jews to Auschwitz in 1944.\"",
               "score": null,
@@ -333,10 +325,10 @@
             }
           },
           {
-            "id": "289-11474",
-            "review_id": "11474",
+            "id": "2-12153",
+            "review_id": "12153",
             "review": {
-              "id": "11474",
+              "id": "12153",
               "reviewer": "Yehuda Bauer,Jona M. Machover Professor of Holocaust Studies, Institute of Contemporary Jewry, Hebrew University of Jerusalem",
               "description": "\"A most valuable addition to our knowledge of a most painful chapter in the histories of both Hungary and the Jewish people.\"",
               "score": null,
@@ -346,10 +338,10 @@
             }
           },
           {
-            "id": "289-11475",
-            "review_id": "11475",
+            "id": "2-12154",
+            "review_id": "12154",
             "review": {
-              "id": "11475",
+              "id": "12154",
               "reviewer": "Nathaniel Katzburg,Professor Emeritus in Jewish History, Bar-Ilan University",
               "description": "\"A valuable contribution . . . Its publication will fill a long-felt need.\"",
               "score": null,
@@ -359,10 +351,10 @@
             }
           },
           {
-            "id": "289-11476",
-            "review_id": "11476",
+            "id": "2-12155",
+            "review_id": "12155",
             "review": {
-              "id": "11476",
+              "id": "12155",
               "reviewer": "Yisrael Gutman,Yad Vashem, The Holocaust Martyrs' and Heroes' Remembrance Authority, Jerusalem",
               "description": "\"Based on rich documentation, it contains within it a great deal of information unknown to scholars to date. . . . A real contribution to our understanding of anti-Semitism in Hungary.\"",
               "score": null,
@@ -372,10 +364,10 @@
             }
           },
           {
-            "id": "289-11477",
-            "review_id": "11477",
+            "id": "2-12156",
+            "review_id": "12156",
             "review": {
-              "id": "11477",
+              "id": "12156",
               "reviewer": "Association of Jewish Libraries",
               "description": "\"Shocks by its very frankness. . . . Absorbing and excellently translated, it is a valuable contribution to Holocaust scholarship.\"",
               "score": null,

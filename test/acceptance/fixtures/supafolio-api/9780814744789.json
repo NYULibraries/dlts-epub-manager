@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814735339",
+        "isbn10": "0814744788",
         "description": "<p>What exactly is intelligence? Is it social achievement? Professional success? Is it common sense? Or the number on an IQ test?<br> Interweaving engaging narratives with dramatic case studies, Robert L. Hayman, Jr., has written a history of intelligence that will forever change the way we think about who is smart and who is not. To give weight to his assertion that intelligence is not simply an inherent characteristic but rather one which reflects the interests and predispositions of those doing the measuring, Hayman traces numerous campaigns to classify human intelligence. His tour takes us through the early craniometric movement, eugenics, the development of the IQ, Spearman's \"general\" intelligence, and more recent works claiming a genetic basis for intelligence differences.<br> What Hayman uncovers is the maddening irony of intelligence: that \"scientific\" efforts to reduce intelligence to a single, ordinal quantity have persisted--and at times captured our cultural imagination--not because of their scientific legitimacy, but because of their longstanding political appeal. The belief in a natural intellectual order was pervasive in \"scientific\" and \"political\" thought both at the founding of the Republic and throughout its nineteenth-century Reconstruction. And while we are today formally committed to the notion of equality under the law, our culture retains its central belief in the natural inequality of its members. Consequently, Hayman argues, the promise of a genuine equality can be realized only when the mythology of \"intelligence\" is debunked--only, that is, when we recognize the decisive role of culture in defining intelligence and creating intelligence differences. Only culture can give meaning to the statement that one person-- or one group--is smarter than another. And only culture can provide our motivation for saying it.<br> With a keen wit and a sharp eye, Hayman highlights the inescapable contradictions that arise in a society committed both to liberty and to equality and traces how the resulting tensions manifest themselves in the ways we conceive of identity, community, and merit.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -20,19 +20,19 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814744789",
-          "cs_title_group": "9780814744789",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814735336",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814744789",
           "ebook": "9780814773178",
-          "hardcover": "9780814744789",
+          "hardcover": "9780814735336",
           "paperback": "9780814735343",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814744789.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814744789.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 68,
+        "product_id": 1,
         "isbn13": "9780814744789",
         "title": "The Smart Culture",
         "title_without_prefix": "Smart Culture",
@@ -61,20 +61,12 @@
         "title_id": "be6ac29fdfbe4dfe78e4ca46b796939f",
         "reference_id": null,
         "summary": "What exactly is intelligence? Is it social achievement? Professional success? Is it common sense? Or the number on an IQ test? Interweaving engaging narratives with dramatic case studies, Robert...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814744789.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "74.00",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "89.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.560",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -185,11 +177,11 @@
         ],
         "assets": [
           {
-            "id": "336-68",
-            "asset_id": "336",
+            "id": "269-1",
+            "asset_id": "269",
             "asset": {
-              "id": "336",
-              "unique": "6f75438ba70d0bb683e49a3e10a8d93c",
+              "id": "269",
+              "unique": "fccc3fbeb86c816258d218f6f4e69f4e",
               "name": "648-H-9780814744789.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744789.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "68-68",
-            "asset_id": "68",
+            "id": "1-1",
+            "asset_id": "1",
             "asset": {
-              "id": "68",
-              "unique": "4f07ca19e39a6fc18541ed3f4546cacc",
+              "id": "1",
+              "unique": "fb41141c82dfbbdb3217bf3a429e769c",
               "name": "145-W-9780814744789.jpg",
               "description": null,
               "type": "image",
@@ -219,17 +211,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744789.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "202-68",
-            "asset_id": "202",
+            "id": "135-1",
+            "asset_id": "135",
             "asset": {
-              "id": "202",
-              "unique": "df6e00570562c8541af8a9e4ef6cae08",
+              "id": "135",
+              "unique": "28724b99fb12f49c35adec1880565cf1",
               "name": "298-W-9780814744789.jpg",
               "description": null,
               "type": "image",
@@ -239,33 +231,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814744789.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB68",
-            "format_id": "BB",
-            "seo_link": "the-smart-culture",
-            "detail": "Print PDF",
-            "title_id": "be6ac29fdfbe4dfe78e4ca46b796939f",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814744789",
-            "edition": "",
-            "product_id": 68,
-            "primary_format": false,
-            "date": {
-              "date": "1997-11-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG1",
             "format_id": "DG",
@@ -279,6 +251,26 @@
             "isbn": "9780814744789",
             "edition": "",
             "product_id": 1,
+            "primary_format": false,
+            "date": {
+              "date": "1997-11-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB68",
+            "format_id": "BB",
+            "seo_link": "the-smart-culture",
+            "detail": "Print PDF",
+            "title_id": "be6ac29fdfbe4dfe78e4ca46b796939f",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814735336",
+            "edition": "",
+            "product_id": 68,
             "primary_format": false,
             "date": {
               "date": "1997-11-01 00:00:00.000000",
@@ -329,10 +321,10 @@
         ],
         "reviews": [
           {
-            "id": "68-11969",
-            "review_id": "11969",
+            "id": "1-12673",
+            "review_id": "12673",
             "review": {
-              "id": "11969",
+              "id": "12673",
               "reviewer": "Mary Frances Berry, Journal of American History",
               "description": "\"Powerful.\"",
               "score": null,
@@ -342,10 +334,10 @@
             }
           },
           {
-            "id": "68-11970",
-            "review_id": "11970",
+            "id": "1-12674",
+            "review_id": "12674",
             "review": {
-              "id": "11970",
+              "id": "12674",
               "reviewer": "J. M. Balkin,Lafayette S. Foster Professor, Yale Law School",
               "description": "\"Robert Hayman writes passionately and sensitively about our attitudes toward intelligence and how those attitudes shape the conditions of social equality in this country. . . . Intelligence is one area where Americans have remained relatively complacent about outmoded stereotypes and caste-like social structures. With this book, perhaps they will be no longer.\"",
               "score": null,
@@ -355,10 +347,10 @@
             }
           },
           {
-            "id": "68-11971",
-            "review_id": "11971",
+            "id": "1-12675",
+            "review_id": "12675",
             "review": {
-              "id": "11971",
+              "id": "12675",
               "reviewer": "Choice",
               "description": "\"A passionate attack on pervasive American cultural assumptions of natural inequality. The book provides a fine history of antiblack discrimination and of the racist and nativist bases of the developers of standardized intelligence tests.\"",
               "score": null,
@@ -368,10 +360,10 @@
             }
           },
           {
-            "id": "68-11972",
-            "review_id": "11972",
+            "id": "1-12676",
+            "review_id": "12676",
             "review": {
-              "id": "11972",
+              "id": "12676",
               "reviewer": "Law and Politics Book Review",
               "description": "\"A painstakingly researched, scientific, psychological, sociocultural, and constitutional history of race, Smart Culture is one of our generation's most powerful indictments of insidious racism and meritocracies.\"",
               "score": null,

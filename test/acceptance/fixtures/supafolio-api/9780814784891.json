@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814793398",
-        "description": "<p>What does it mean to be a teenager in an American city at the close of the twentieth century? How do urban surroundings affect the ways in which teens grow up, and what do their stories tell us about human development? In particular, how do the negative images of themselves on television and in the newspaper affect their perspectives about themselves? Psychologists typically have shown little interest in urban youth, preferring instead to generalize about adolescent development from studies of their middle-class, suburban counterparts. In Everyday Courage Niobe Way, a developmental psychologist, looks beyond the stereotypes to reveal how the personal worldviews of inner-city poor and working-class adolescents develop over time. In the process, she challenges much conventional wisdom about inner-city youth and about adolescents more generally.<br> She introduces us to Malcolm, a sensitive and proud young man full of contradictions. We follow him as he makes the honor roll, becomes a teenage father, and falls into depression as his younger sister is dying of cancer. We meet Eva, an intelligent and confident young women full of questions, who grows increasingly alienated from her mother and comes to rely on her best friends for support. We watch her blossom as a ball player and a poet. We share her triumph when she receives a scholarship to the college of her choice.<br> In these 24 adolescents, Way finds a cross-section of youngsters who want to make positive changes in their lives and communities while struggling with concerns about betrayal, trust, racism, violence, and death. Each adolescent wants most of all to \"be somebody,\" to have her or his voice heard.</p>",
+        "isbn10": "0814784895",
+        "description": "<p>What does it mean to be a teenager in an American city at the close of the twentieth century? How do urban surroundings affect the ways in which teens grow up, and what do their stories tell us about human development? In particular, how do the negative images of themselves on television and in the newspaper affect their perspectives about themselves? Psychologists typically have shown little interest in urban youth, preferring instead to generalize about adolescent development from studies of their middle-class, suburban counterparts. In <b>Everyday Courage</b> Niobe Way, a developmental psychologist, looks beyond the stereotypes to reveal how the personal worldviews of inner-city poor and working-class adolescents develop over time. In the process, she challenges much conventional wisdom about inner-city youth and about adolescents more generally.<br> She introduces us to Malcolm, a sensitive and proud young man full of contradictions. We follow him as he makes the honor roll, becomes a teenage father, and falls into depression as his younger sister is dying of cancer. We meet Eva, an intelligent and confident young women full of questions, who grows increasingly alienated from her mother and comes to rely on her best friends for support. We watch her blossom as a ball player and a poet. We share her triumph when she receives a scholarship to the college of her choice.<br> In these 24 adolescents, Way finds a cross-section of youngsters who want to make positive changes in their lives and communities while struggling with concerns about betrayal, trust, racism, violence, and death. Each adolescent wants most of all to \"be somebody,\" to have her or his voice heard.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,23 +21,23 @@
           "library": "9780814784891",
           "ebook": "9780814794876",
           "hardcover": "9780814793206",
-          "paperback": "9780814784891",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814793398",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814784891.001.0001",
           "language": "eng",
           "edition_isbn": "9780814784891",
           "cs_title_group": "9780814793206",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false
+          "open_access_series": null,
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1998-04-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 311,
+        "product_id": 33,
         "isbn13": "9780814784891",
         "title": "Everyday Courage",
         "title_without_prefix": "Everyday Courage",
@@ -61,23 +61,15 @@
         "title_id": "1cab4c78bceae2129a5f5cdc0e431e92",
         "reference_id": null,
         "summary": "What does it mean to be a teenager in an American city at the close of the twentieth century? How do urban surroundings affect the ways in which teens grow up, and what do their stories tell us about...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814784891.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.950",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -185,7 +177,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -196,11 +188,11 @@
         ],
         "assets": [
           {
-            "id": "1083-311",
-            "asset_id": "1083",
+            "id": "301-33",
+            "asset_id": "301",
             "asset": {
-              "id": "1083",
-              "unique": "fd2d8a7994dd1351a46b30136e1390fd",
+              "id": "301",
+              "unique": "eb72179c104da9c4f47e327a190eb832",
               "name": "648-H-9780814784891.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814784891.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "831-311",
-            "asset_id": "831",
+            "id": "33-33",
+            "asset_id": "33",
             "asset": {
-              "id": "831",
-              "unique": "bb48d6aed0f01f696caca68124806ba9",
+              "id": "33",
+              "unique": "6d04257b48ed8b27464fb99462363ee0",
               "name": "145-W-9780814784891.jpg",
               "description": null,
               "type": "image",
@@ -230,17 +222,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814784891.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "957-311",
-            "asset_id": "957",
+            "id": "167-33",
+            "asset_id": "167",
             "asset": {
-              "id": "957",
-              "unique": "03e021c9168f5f50908275e51d3e07a7",
+              "id": "167",
+              "unique": "46faf1c9cd386e866f1b5ce2d9bbd522",
               "name": "298-W-9780814784891.jpg",
               "description": null,
               "type": "image",
@@ -250,33 +242,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814784891.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC311",
-            "format_id": "BC",
-            "seo_link": "everyday-courage",
-            "detail": "Print PDF",
-            "title_id": "1cab4c78bceae2129a5f5cdc0e431e92",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814784891",
-            "edition": "",
-            "product_id": 311,
-            "primary_format": true,
-            "date": {
-              "date": "1998-04-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG33",
             "format_id": "DG",
@@ -316,14 +288,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC311",
+            "format_id": "BC",
+            "seo_link": "everyday-courage",
+            "detail": "Print PDF",
+            "title_id": "1cab4c78bceae2129a5f5cdc0e431e92",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814793398",
+            "edition": "",
+            "product_id": 311,
+            "primary_format": true,
+            "date": {
+              "date": "1998-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "311-11689",
-            "review_id": "11689",
+            "id": "33-12391",
+            "review_id": "12391",
             "review": {
-              "id": "11689",
+              "id": "12391",
               "reviewer": "Library Journal",
               "description": "\"Recommended for anyone who works with inner-city youth.\"",
               "score": null,
@@ -333,10 +325,10 @@
             }
           },
           {
-            "id": "311-11690",
-            "review_id": "11690",
+            "id": "33-12392",
+            "review_id": "12392",
             "review": {
-              "id": "11690",
+              "id": "12392",
               "reviewer": "Carol Gilligan,author of In a Different Voice: Psychological Theory and Women's Development",
               "description": "\"This exceptionally important book will set the standard for powerful writing about urban teenagers for years to come. Privileging the voices of inner-city teens and presenting their experiences of themselves and their worlds, Niobe Way's intelligent, subtle voice leads us to listen freshly to this group whose views are so often not heard or are distorted. She presents a brilliant example of voice-centered research and essential reading for anyone hoping to work effectively with adolescents.\"",
               "score": null,

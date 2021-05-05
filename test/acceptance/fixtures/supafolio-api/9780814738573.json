@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814731430",
+        "isbn10": "0814738575",
         "description": "<p>Seldom has American law seen a more towering figure than Chief Justice John Marshall. Indeed, Marshall is almost universally regarded as the \"father of the Supreme Court\" and \"the jurist who started it all.\"<br> Yet even while acknowledging the indelible stamp Marshall put on the Supreme Court, it is possible--in fact necessary--to examine the pre-Marshall Court, and its justices, to gain a true understanding of the origins of American constitutionalism. The ten essays in this tightly edited volume were especially commissioned for the book, each by the leading authority on his or her particular subject. They examine such influential justices as John Jay, John Rutledge, William Cushing, James Wilson, John Blair, James Iredell, William Paterson, Samuel Chase, Oliver Ellsworth, and Bushrod Washington. The result is a fascinating window onto the origins of the most powerful court in the world, and on American constitutionalism itself.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814738573",
           "cs_title_group": "9780814731147",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814738573",
           "ebook": "9780814732519",
           "hardcover": "9780814731147",
-          "paperback": "9780814738573",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814731437",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814738573.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814738573.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "2000-10-01 00:00:00.000000",
+          "date": "1998-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "2000-10-01 00:00:00.000000",
+          "date": "1998-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 970372800,
+        "sort_date": 899265600,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 370,
+        "product_id": 61,
         "isbn13": "9780814738573",
         "title": "Seriatim",
         "title_without_prefix": "Seriatim",
@@ -61,26 +61,18 @@
         "title_id": "38294fb1cfc19dc15d8b0e6b9e1044ca",
         "reference_id": null,
         "summary": "Seldom has American law seen a more towering figure than Chief Justice John Marshall. Indeed, Marshall is almost universally regarded as the \"father of the Supreme Court\" and \"the jurist who started...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814738573.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.250",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1142-370",
-            "asset_id": "1142",
+            "id": "329-61",
+            "asset_id": "329",
             "asset": {
-              "id": "1142",
-              "unique": "41f695809be4ef38a9b65e779d246bc4",
+              "id": "329",
+              "unique": "e0189f2738d5c08cb0c8b851e1b63cd7",
               "name": "648-H-9780814738573.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814738573.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "890-370",
-            "asset_id": "890",
+            "id": "61-61",
+            "asset_id": "61",
             "asset": {
-              "id": "890",
-              "unique": "86f1a5ecf395c4585456a194adccccdd",
+              "id": "61",
+              "unique": "c4e7de70ba55b0f0760936f964b54d44",
               "name": "145-W-9780814738573.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814738573.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "1016-370",
-            "asset_id": "1016",
+            "id": "195-61",
+            "asset_id": "195",
             "asset": {
-              "id": "1016",
-              "unique": "0770cdfbe7c17839cd96304a9ed0d8ed",
+              "id": "195",
+              "unique": "b25cb1fc6086384034e4d38216125f31",
               "name": "298-W-9780814738573.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814738573.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC370",
-            "format_id": "BC",
-            "seo_link": "seriatim",
-            "detail": "Print PDF",
-            "title_id": "38294fb1cfc19dc15d8b0e6b9e1044ca",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814738573",
-            "edition": "",
-            "product_id": 370,
-            "primary_format": true,
-            "date": {
-              "date": "2000-10-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG61",
             "format_id": "DG",
@@ -316,14 +288,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC370",
+            "format_id": "BC",
+            "seo_link": "seriatim",
+            "detail": "Print PDF",
+            "title_id": "38294fb1cfc19dc15d8b0e6b9e1044ca",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814731437",
+            "edition": "",
+            "product_id": 370,
+            "primary_format": true,
+            "date": {
+              "date": "2000-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "370-11868",
-            "review_id": "11868",
+            "id": "61-12558",
+            "review_id": "12558",
             "review": {
-              "id": "11868",
+              "id": "12558",
               "reviewer": "Law and Politics Book Review",
               "description": "\"This absorbing collection of essays . . . goes far toward filling a void in the literature on the early justices of the world's most significant tribunal.\"",
               "score": null,
@@ -333,10 +325,10 @@
             }
           },
           {
-            "id": "370-11869",
-            "review_id": "11869",
+            "id": "61-12559",
+            "review_id": "12559",
             "review": {
-              "id": "11869",
+              "id": "12559",
               "reviewer": "Choice",
               "description": "\"This creative and imaginative analysis of America's first national jurists is recommended for all students of Supreme Court history.\"",
               "score": null,
@@ -346,10 +338,10 @@
             }
           },
           {
-            "id": "370-11870",
-            "review_id": "11870",
+            "id": "61-12560",
+            "review_id": "12560",
             "review": {
-              "id": "11870",
+              "id": "12560",
               "reviewer": "Henry J. Abraham,James Hart Professor of Government and Foreign Affairs, Emeritus, University of Virginia",
               "description": "\"Professor Gerber's Seriatim is a genuinely welcome work, an imaginative one, and a distinctly needed one. The pre-Marshall period had all-too-long been neglected and when addressed at all, it was usually done in cursory, brief compass. Gerber has done a splendid job in securing experts to analyze the labors and persona of the ten pre-Marshall jurists on our highest bench, and his introduction to the essays is a model of synthesis and clarity.\"",
               "score": null,
@@ -359,10 +351,10 @@
             }
           },
           {
-            "id": "370-11871",
-            "review_id": "11871",
+            "id": "61-12561",
+            "review_id": "12561",
             "review": {
-              "id": "11871",
+              "id": "12561",
               "reviewer": "Mark Tushnet,Georgetown University Law Center",
               "description": "\"This useful collection of biographical essays, bracketed by splendid treatments of John Jay and Oliver Elsworth, goes a long way toward establishing that the first justices of the Supreme Court were an impressive collection of political and constitutional thinkers who did much, before and during their service on the Court, to construct the constitutional order.\"",
               "score": null,
@@ -372,10 +364,10 @@
             }
           },
           {
-            "id": "370-11872",
-            "review_id": "11872",
+            "id": "61-12562",
+            "review_id": "12562",
             "review": {
-              "id": "11872",
+              "id": "12562",
               "reviewer": "Supreme Court Historical Society Quarterly",
               "description": "\"A wonderful book that challenges the idea that the Court did nothing of importance prior to Marshall's appointment; ..&nbsp. it seems destined to become a staple source for the Court's first decade.\"",
               "score": null,
