@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "1479899984",
+        "isbn10": "1479829714",
         "description": "<p><b>The participatory politics and civic engagement of youth in the digital age</b><br><br>There is a widespread perception that the foundations of American democracy are dysfunctional, public trust in core institutions is eroding, and little is likely to emerge from traditional politics that will shift those conditions. Youth are often seen as emblematic of this crisis—frequently represented as uninterested in political life, ill-informed about current-affairs, and unwilling to register and vote. <br><br><i>By Any Media Necessary </i>offers a profoundly different picture of contemporary American youth.  Young men and women are tapping into the potential of new forms of communication such as social media platforms, spreadable videos and memes, remixing the language of popular culture, and seeking to bring about political change—by any media necessary. In a series of case studies covering a diverse range of organizations, networks, and movements involving young people in the political process—from the Harry Potter Alliance which fights for human rights in the name of the popular fantasy franchise to immigration rights advocates using superheroes to dramatize their struggles—<i>By Any Media Necessary</i> examines the civic imagination at work. Before the world can change, people need the ability to imagine what alternatives might look like and identify paths by which change can be achieved. Exploring new forms of political activities and identities emerging from the practice of participatory culture, <i>By Any Media Necessary</i> reveals how these shifts in communication have unleashed a new political dynamism in American youth.<br><i><br>Read Online at connectedyouth.nyupress.org</i></p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -13,26 +13,26 @@
         "division": null,
         "season": null,
         "pages": 352,
-        "search_weight": 1110,
+        "search_weight": 920,
         "cd_run_time": "0:0:0",
         "illustrations_note": "26 black and white illustrations",
         "initial_print_run": null,
         "custom": {
           "language": "eng",
           "edition_isbn": "9781479829712",
-          "cs_title_group": "9781479829712",
-          "scheduled_date": "05/03/2016",
+          "cs_title_group": "9781479899982",
+          "scheduled_date": "5/3/2016",
           "hi_res_images": false,
           "video": true,
           "open_access_is_downloadable": false,
           "open_access_series": "Connected Youth and Digital Futures",
-          "library": "9781479888900",
-          "ebook": "9781479895120",
-          "hardcover": "9781479829712",
+          "library": "9781479829712",
+          "ebook": "9781479851713",
+          "hardcover": "9781479899982",
           "paperback": "9781479874149",
-          "license_name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9781479829712.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9781479829712.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
@@ -48,11 +48,11 @@
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 1462248000,
+        "sort_date": 1462230000,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 110,
+        "product_id": 43,
         "isbn13": "9781479829712",
         "title": "By Any Media Necessary",
         "title_without_prefix": "By Any Media Necessary",
@@ -61,12 +61,12 @@
         "title_id": "77d70c7a5c69a3d8f4ac8f4a15f4db1b",
         "reference_id": null,
         "summary": "The participatory politics and civic engagement of youth in the digital ageThere is a widespread perception that the foundations of American democracy are dysfunctional, public trust...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9781479829712.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "GBP",
-            "amount": "77.00",
+            "amount": "115.00",
             "discount": null,
             "promo_start": [],
             "promo_stop": [],
@@ -74,7 +74,7 @@
           },
           {
             "locale": "USD",
-            "amount": "89.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-08-29 00:00:00.000000",
@@ -97,12 +97,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
-          "depth": null,
-          "unit": "in",
-          "weight": "1.500",
-          "weight_unit": "lb"
+          "height": "0.000",
+          "width": "0.000",
+          "depth": "0.000",
+          "unit": null,
+          "weight": "0.000",
+          "weight_unit": null
         },
         "series": [
           {
@@ -196,7 +196,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -225,7 +225,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -254,7 +254,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -283,7 +283,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -312,7 +312,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -323,11 +323,11 @@
         ],
         "assets": [
           {
-            "id": "378-110",
-            "asset_id": "378",
+            "id": "311-43",
+            "asset_id": "311",
             "asset": {
-              "id": "378",
-              "unique": "6cbfdfc01f97700b937b047e38c02838",
+              "id": "311",
+              "unique": "44d22357179cafc464ddf921ff2564cf",
               "name": "648-H-9781479829712.jpg",
               "description": null,
               "type": "image",
@@ -337,17 +337,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9781479829712.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "110-110",
-            "asset_id": "110",
+            "id": "43-43",
+            "asset_id": "43",
             "asset": {
-              "id": "110",
-              "unique": "9ad9123e8b8e332ab246db8b6f4897e3",
+              "id": "43",
+              "unique": "f52a24fb2cd6287457794f880b13d62f",
               "name": "145-W-9781479829712.jpg",
               "description": null,
               "type": "image",
@@ -357,17 +357,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9781479829712.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "244-110",
-            "asset_id": "244",
+            "id": "177-43",
+            "asset_id": "177",
             "asset": {
-              "id": "244",
-              "unique": "0ff3042c24223291b193136862ca0f1b",
+              "id": "177",
+              "unique": "8de6aa1d4b99891977ed66fd67c995f8",
               "name": "298-W-9781479829712.jpg",
               "description": null,
               "type": "image",
@@ -377,33 +377,33 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9781479829712.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
+            }
+          },
+          {
+            "id": "43-1338",
+            "asset_id": "1338",
+            "asset": {
+              "id": "1338",
+              "unique": "9781479829712-contributor-bio",
+              "name": "excerpt",
+              "description": "<b>Henry Jenkins (Author) </b><br> <b>Henry Jenkins </b>is the Provost’s Professor of Communication, Journalism, Cinematic Arts and Education at the University of Southern California. He is the author or editor of 20 books including <i>Textual Poachers: Television Fans and Participatory Culture</i>, <i>Convergence Culture: Where Old and New Media Collide</i>, <i>Spreadable Media: Creating Meaning and Value</i> <i>in a Networked Society</i>, and <i>By Any Media Necessary: The New Youth Activists</i>. He blogs at henryjenkins.org and co-hosts the podcast <i>How Do You Like It So Far?</i><br><br><b>Sangita Shresthova (Author) </b><br> <b>Sangita Shresthova</b> is the Director of Research of Civic Paths@USC. Her previous books include By Any Media Necessary: The New Youth Activism (with Henry Jenkins et al.) and Is it All About Hips?: Around the World With Bollywood Dance.<br><br><b>Liana Gamber-Thompson (Author) </b><br> <b>Liana Gamber-Thompson</b> is a Program Associate at the National Writing Project and the Community Manager for Connected Learning TV.<br><br><b>Neta Kligler-Vilenchik (Author) </b><br> <b>Neta Kligler-Vilenchik </b>is Assistant Professor of Communication at the Hebrew University of Jerusalem.<br><br><b>Arely Zimmerman (Author) </b><br> <b>Arely M. Zimmerman</b> is Assistant Professor of Ethnic Studies at Mills College in Oakland, California.<br><br>",
+              "type": "rich-text",
+              "sub_type": "contributor-bio",
+              "order": 1,
+              "size": 0,
+              "height": null,
+              "width": null,
+              "embed": null,
+              "path": null,
+              "source": "import",
+              "schedule": "2021-05-03 19:30:45"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB110",
-            "format_id": "BB",
-            "seo_link": "by-any-media-necessary",
-            "detail": "Print PDF",
-            "title_id": "77d70c7a5c69a3d8f4ac8f4a15f4db1b",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9781479829712",
-            "edition": "",
-            "product_id": 110,
-            "primary_format": false,
-            "date": {
-              "date": "2016-05-03 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG43",
             "format_id": "DG",
@@ -417,6 +417,26 @@
             "isbn": "9781479829712",
             "edition": "",
             "product_id": 43,
+            "primary_format": false,
+            "date": {
+              "date": "2016-05-03 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB110",
+            "format_id": "BB",
+            "seo_link": "by-any-media-necessary",
+            "detail": "Print PDF",
+            "title_id": "77d70c7a5c69a3d8f4ac8f4a15f4db1b",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9781479899982",
+            "edition": "",
+            "product_id": 110,
             "primary_format": false,
             "date": {
               "date": "2016-05-03 00:00:00.000000",
@@ -467,10 +487,10 @@
         ],
         "reviews": [
           {
-            "id": "110-11755",
-            "review_id": "11755",
+            "id": "43-13233",
+            "review_id": "13233",
             "review": {
-              "id": "11755",
+              "id": "13233",
               "reviewer": "Choice",
               "description": "\"Readers are given a nuanced picture of the successes and complications of youth activism and participatory politics in the current era.\"",
               "score": null,
@@ -480,10 +500,10 @@
             }
           },
           {
-            "id": "110-11756",
-            "review_id": "11756",
+            "id": "43-13234",
+            "review_id": "13234",
             "review": {
-              "id": "11756",
+              "id": "13234",
               "reviewer": "Journal of American Culture",
               "description": "\"By Any Media Necessaryis fascinating continuation of Jenkinss previous work and should be of great use for media studies scholars, as well as anyone interested in better understanding youth perceptions and actions related to the political realm.\"",
               "score": null,
@@ -493,10 +513,10 @@
             }
           },
           {
-            "id": "110-11757",
-            "review_id": "11757",
+            "id": "43-13235",
+            "review_id": "13235",
             "review": {
-              "id": "11757",
+              "id": "13235",
               "reviewer": "International Journal of Communication",
               "description": "\"In line with civic media scholarship that focuses on the opportunities for emerging technologies and digital cultures to buttress collective action, By Any Media Necessary suggests the important role of new media and technologies in facilitating political engagement and participatory practice. The notions of transmedia activism and mobilization are effectively analyzed to discuss how youth tap into the potentials of media platforms and networked communications—from social media, spreadable videos, and Internet memes—and use their digital skills in a collaborative and participatory manner in seeking to bring about political change.\"",
               "score": null,
@@ -506,10 +526,10 @@
             }
           },
           {
-            "id": "110-11758",
-            "review_id": "11758",
+            "id": "43-13236",
+            "review_id": "13236",
             "review": {
-              "id": "11758",
+              "id": "13236",
               "reviewer": "Andrew Slack,creator/co-founder of the Harry Potter Alliance",
               "description": "\"Fantasy is not an escape from our world; its an invitation to go deeper into it. The most relevant book of our era, it will undoubtedly inspire you and those you love to join the millions of people who are transforming our world: by any media necessary.\"",
               "score": null,
@@ -519,10 +539,10 @@
             }
           },
           {
-            "id": "110-11759",
-            "review_id": "11759",
+            "id": "43-13237",
+            "review_id": "13237",
             "review": {
-              "id": "11759",
+              "id": "13237",
               "reviewer": "Cathy J. Cohen,author of Democracy Remixed: Black Youth and the Future of American Politics",
               "description": "\"A far-reaching book that explores the many different digital strategies and platforms young people use to have their voices heard and their political agendas advanced. The case studies at the heart of this book are powerful, telling the story of how young people across demographic categories are using digital media to engage in a new form of politicsParticipatory Politicsthat is destined to significantly shape civic life for years to come.\"",
               "score": null,
@@ -532,10 +552,10 @@
             }
           },
           {
-            "id": "110-11760",
-            "review_id": "11760",
+            "id": "43-13238",
+            "review_id": "13238",
             "review": {
-              "id": "11760",
+              "id": "13238",
               "reviewer": "Nico Carpentier,Uppsala University, Sweden",
               "description": "\"A much-needed narration of political agency that tackles its many contradictions head on, without losing sight of nuance. The books case studies, rich in detail, are wonderful invitations to think more and better about the role of empathy, care, ethics, empowerment, and participation in our contemporary political realities.\"",
               "score": null,
@@ -545,10 +565,10 @@
             }
           },
           {
-            "id": "110-11761",
-            "review_id": "11761",
+            "id": "43-13239",
+            "review_id": "13239",
             "review": {
-              "id": "11761",
+              "id": "13239",
               "reviewer": "Danielle Allen,co-editor of From Voice to Influence: Understanding Citizenship in the Digital Age",
               "description": "\"An indispensable guide to the changing shape of civic and political agency in a digital age. With richly detailed case studies, Jenkins and his team have captured an origin story: the moment when participatory culture got hooked up with politics and the fundamentals of modern democracies shifted beneath our feet.\"",
               "score": null,
@@ -558,10 +578,10 @@
             }
           },
           {
-            "id": "110-11762",
-            "review_id": "11762",
+            "id": "43-13240",
+            "review_id": "13240",
             "review": {
-              "id": "11762",
+              "id": "13240",
               "reviewer": "Nick Couldry, London School of Economics and Political Science",
               "description": "\"Understanding the connections between practices of media consumption andenduringcivic engagement is one of the most exciting challenges that cultural studies currently faces. For over a decade, Henry Jenkins has been exploring this issue, and now he and an excellent team of co-authors offer the most searching examination of this question for a U.S. context that we have. An inspiring and enlivening book, this is a definite must read!\"",
               "score": null,

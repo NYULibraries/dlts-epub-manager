@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814706657",
+        "isbn10": "0814707513",
         "description": "<p>What is it that makes language powerful?  This book uses the psychoanalytic concepts of narcissism and libidinal investment to explain how rhetoric compels us and how it can effect change.<br> The works of Joseph Conrad, James Baldwin, Michael Foucault, Jacques Derrida, Arthur Miller, D.H. Lawrence, Ben Jonson, George Orwell, and others are the basis of this thoughtful exploration of the relationship between language and subject. Bringing together ideas from Freudian, post- Freudian, Lacanian, and post-structuralist schools, Alcorn investigates the power of the text that underlies the reader response approach to literature in a strikingly new way. He shows how the production of literary texts begins and ends with narcissistic self-love, and also shows how the reader's interest in these texts is directed by libidinal investment.<br>Psychoanalysts, psychologists, and lovers of literature will enjoy Alcorn's diverse and far-reaching insights into classic and contemporary writers and thinkers.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814707517",
           "cs_title_group": "9780814706145",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814707517",
           "ebook": "9780814705476",
           "hardcover": "9780814706145",
-          "paperback": "9780814707517",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814706657",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814707517.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814707517.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1997-07-01 00:00:00.000000",
+          "date": "1994-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1997-07-01 00:00:00.000000",
+          "date": "1994-07-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 867729600,
+        "sort_date": 773035200,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 345,
+        "product_id": 18,
         "isbn13": "9780814707517",
         "title": "Narcissism and the Literary Libido",
         "title_without_prefix": "Narcissism and the Literary Libido",
@@ -61,23 +61,15 @@
         "title_id": "6970d70dc9154eb780de78ccbab4446b",
         "reference_id": null,
         "summary": "What is it that makes language powerful?  This book uses the psychoanalytic concepts of narcissism and libidinal investment to explain how rhetoric compels us and how it can effect change. The...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814707517.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.810",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,11 +157,11 @@
         ],
         "assets": [
           {
-            "id": "1117-345",
-            "asset_id": "1117",
+            "id": "286-18",
+            "asset_id": "286",
             "asset": {
-              "id": "1117",
-              "unique": "aca46c20cae4a87700250745d9dadd8c",
+              "id": "286",
+              "unique": "aa85458e1499e488540a1c13780ab636",
               "name": "648-H-9780814707517.jpg",
               "description": null,
               "type": "image",
@@ -179,17 +171,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814707517.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "865-345",
-            "asset_id": "865",
+            "id": "18-18",
+            "asset_id": "18",
             "asset": {
-              "id": "865",
-              "unique": "aa643c69eba9679b130f5fb8ce7d9bdd",
+              "id": "18",
+              "unique": "772003522fdbf884184992f4edbebc90",
               "name": "145-W-9780814707517.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814707517.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "991-345",
-            "asset_id": "991",
+            "id": "152-18",
+            "asset_id": "152",
             "asset": {
-              "id": "991",
-              "unique": "8e52d665f60c7bf7c316686550317c89",
+              "id": "152",
+              "unique": "6c37546f66a4801ca2b8c2588c5114a7",
               "name": "298-W-9780814707517.jpg",
               "description": null,
               "type": "image",
@@ -219,33 +211,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814707517.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC345",
-            "format_id": "BC",
-            "seo_link": "narcissism-and-the-literary-libido",
-            "detail": "Print PDF",
-            "title_id": "6970d70dc9154eb780de78ccbab4446b",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814707517",
-            "edition": "",
-            "product_id": 345,
-            "primary_format": true,
-            "date": {
-              "date": "1997-07-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG18",
             "format_id": "DG",
@@ -300,6 +272,26 @@
             "edition": "",
             "product_id": 344,
             "primary_format": false,
+            "date": {
+              "date": "1997-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC345",
+            "format_id": "BC",
+            "seo_link": "narcissism-and-the-literary-libido",
+            "detail": "Print PDF",
+            "title_id": "6970d70dc9154eb780de78ccbab4446b",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814706657",
+            "edition": "",
+            "product_id": 345,
+            "primary_format": true,
             "date": {
               "date": "1997-07-01 00:00:00.000000",
               "timezone_type": 3,

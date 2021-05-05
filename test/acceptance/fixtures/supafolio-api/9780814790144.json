@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814714536",
+        "isbn10": "0814790143",
         "description": "<p>This Major Reference series brings together a wide range of key international articles in law and legal theory. Many of these essays are not readily accessible, and their presentation in these volumes will provide a vital new resource for both research and teaching. Each volume is edited by leading international authorities who explain the significance and context of articles in an informative and complete introduction.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -20,24 +20,24 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814790144",
-          "cs_title_group": "9780814790144",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814714539",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814790144",
           "ebook": "9780814772126",
-          "hardcover": "9780814790144",
-          "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "hardcover": "9780814714539",
+          "paperback": null,
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814790144.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814790144.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1991-09-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 116,
+        "product_id": 48,
         "isbn13": "9780814790144",
         "title": "Compensatory Justice",
         "title_without_prefix": "Compensatory Justice",
@@ -61,20 +61,12 @@
         "title_id": "713a0fad40961b37480a905ca10c41ef",
         "reference_id": null,
         "summary": "This Major Reference series brings together a wide range of key international articles in law and legal theory. Many of these essays are not readily accessible, and their presentation in these volumes...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814790144.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "62.00",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "75.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "8.250",
-          "width": "5.500",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.190",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -174,11 +166,11 @@
         ],
         "assets": [
           {
-            "id": "384-116",
-            "asset_id": "384",
+            "id": "316-48",
+            "asset_id": "316",
             "asset": {
-              "id": "384",
-              "unique": "263fea16497fd3627cfe19a597fc90a2",
+              "id": "316",
+              "unique": "0dce9350f8c4f1c8f4af77f4b5b9da72",
               "name": "648-H-9780814790144.jpg",
               "description": null,
               "type": "image",
@@ -188,17 +180,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814790144.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "116-116",
-            "asset_id": "116",
+            "id": "48-48",
+            "asset_id": "48",
             "asset": {
-              "id": "116",
-              "unique": "19a72f20a8776f9a7631542b62a1b20e",
+              "id": "48",
+              "unique": "7ec5615a598c371435f518da4130972b",
               "name": "145-W-9780814790144.jpg",
               "description": null,
               "type": "image",
@@ -208,17 +200,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814790144.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "250-116",
-            "asset_id": "250",
+            "id": "182-48",
+            "asset_id": "182",
             "asset": {
-              "id": "250",
-              "unique": "861c094b100919618ce47a932f09c14c",
+              "id": "182",
+              "unique": "e20c116410f81666a67224a72a8221ac",
               "name": "298-W-9780814790144.jpg",
               "description": null,
               "type": "image",
@@ -228,33 +220,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814790144.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB116",
-            "format_id": "BB",
-            "seo_link": "compensatory-justice",
-            "detail": "Print PDF",
-            "title_id": "713a0fad40961b37480a905ca10c41ef",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814790144",
-            "edition": "",
-            "product_id": 116,
-            "primary_format": true,
-            "date": {
-              "date": "1991-09-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG48",
             "format_id": "DG",
@@ -269,6 +241,26 @@
             "edition": "",
             "product_id": 48,
             "primary_format": false,
+            "date": {
+              "date": "1991-09-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB116",
+            "format_id": "BB",
+            "seo_link": "compensatory-justice",
+            "detail": "Print PDF",
+            "title_id": "713a0fad40961b37480a905ca10c41ef",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814714539",
+            "edition": "",
+            "product_id": 116,
+            "primary_format": true,
             "date": {
               "date": "1991-09-01 00:00:00.000000",
               "timezone_type": 3,

@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814774458",
+        "isbn10": "0814771513",
         "description": "<p>The subject of bisexuality continues to divide the lesbian and gay community.  At pride marches, in films such as Go Fish, at academic conferences, the role and status of bisexuals is hotly contested.<br> Within lesbian communities, formed to support lesbians in a patriarchal and heterosexist society, bisexual women are often perceived as a threat or as a political weakness.  Bisexual women feel that they are regarded with suspicion and distrust, if not openly scorned.  Drawing on her research with over 400 bisexual and lesbian women, surveying the treatment of bisexuality in the lesbian and gay press, and examining the recent growth of a self-consciously political bisexual movement, Paula Rust addresses a range of questions pertaining to the political and social relationships between lesbians and bisexual women.<br> By tracing the roots of the controversy over bisexuality among lesbians back to the early lesbian feminist debates of the 1970s, Rust argues that those debates created the circumstances in which bisexuality became an inevitable challenge to lesbian politics.  She also traces it forward, predicting the future of sexual politics.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814771518",
           "cs_title_group": "9780814774441",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814771518",
           "ebook": "9780814776728",
           "hardcover": "9780814774441",
-          "paperback": "9780814771518",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814774458",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814771518.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814771518.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1995-10-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 273,
+        "product_id": 40,
         "isbn13": "9780814771518",
         "title": "Bisexuality and the Challenge to Lesbian Politics",
         "title_without_prefix": "Bisexuality and the Challenge to Lesbian Politics",
@@ -61,23 +61,15 @@
         "title_id": "ed76e5ba9ed23e0f7ef7e3f21d890cca",
         "reference_id": null,
         "summary": "The subject of bisexuality continues to divide the lesbian and gay community.  At pride marches, in films such as Go Fish, at academic conferences, the role and status of bisexuals is hotly contested....",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814771518.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.130",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -185,11 +177,11 @@
         ],
         "assets": [
           {
-            "id": "1045-273",
-            "asset_id": "1045",
+            "id": "308-40",
+            "asset_id": "308",
             "asset": {
-              "id": "1045",
-              "unique": "168fd86291e49d53e2155bd5d7bdd69e",
+              "id": "308",
+              "unique": "4958fce5b0c034cfca3e4e0397b1d37d",
               "name": "648-H-9780814771518.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814771518.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "793-273",
-            "asset_id": "793",
+            "id": "40-40",
+            "asset_id": "40",
             "asset": {
-              "id": "793",
-              "unique": "5e9e62e155d306d9b2a6b694fd14c408",
+              "id": "40",
+              "unique": "3833bb0a20487e3861753d8cb2dbe9f1",
               "name": "145-W-9780814771518.jpg",
               "description": null,
               "type": "image",
@@ -219,17 +211,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814771518.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "919-273",
-            "asset_id": "919",
+            "id": "174-40",
+            "asset_id": "174",
             "asset": {
-              "id": "919",
-              "unique": "f5f4a87b26b05bdcb601c7c0fa5fff7a",
+              "id": "174",
+              "unique": "d8efa78709fa72698e823d8f812b7f5e",
               "name": "298-W-9780814771518.jpg",
               "description": null,
               "type": "image",
@@ -239,33 +231,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814771518.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC273",
-            "format_id": "BC",
-            "seo_link": "bisexuality-and-the-challenge-to-lesbian-politics",
-            "detail": "Print PDF",
-            "title_id": "ed76e5ba9ed23e0f7ef7e3f21d890cca",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814771518",
-            "edition": "",
-            "product_id": 273,
-            "primary_format": true,
-            "date": {
-              "date": "1995-10-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG40",
             "format_id": "DG",
@@ -320,6 +292,26 @@
             "edition": "",
             "product_id": 272,
             "primary_format": false,
+            "date": {
+              "date": "1995-10-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC273",
+            "format_id": "BC",
+            "seo_link": "bisexuality-and-the-challenge-to-lesbian-politics",
+            "detail": "Print PDF",
+            "title_id": "ed76e5ba9ed23e0f7ef7e3f21d890cca",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814774458",
+            "edition": "",
+            "product_id": 273,
+            "primary_format": true,
             "date": {
               "date": "1995-10-01 00:00:00.000000",
               "timezone_type": 3,

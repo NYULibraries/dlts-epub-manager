@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814793118",
+        "isbn10": "0814784607",
         "description": "<p>As we approach the 21st century, we also approach the third decade of the AIDS epidemic. Mental health care providers must face the crucial fact that the human immunodeficiency virus (HIV) and the condition it causes, Acquired Immune Deficiency Syndrome (AIDS) is the leading cause of death among Americans aged 25-44 years.<br> HIV Mental Health for the 21st Century provides a roadmap for mental health professionals who seek to develop new strategies aimed at increasing the longevity and quality of life for people living with HIV/AIDS, as well as at controlling the future spread of the disease. Divided into five sections, this volume covers basic concepts in HIV/AIDS mental health; specialized aspects of HIV/AIDS clinical care; models of clinical care; program evaluation; and HIV mental health policy and programs. Chapters treat issues such as feelings of caregivers, the role of spirituality in mental health care, rural practice, mental health home care, and working with children.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814784600",
           "cs_title_group": "9780814793121",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814784600",
           "ebook": "9780814794999",
           "hardcover": "9780814793121",
-          "paperback": "9780814784600",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814793114",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814784600.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814784600.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1997-03-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 324,
+        "product_id": 19,
         "isbn13": "9780814784600",
         "title": "HIV Mental Health for the 21st Century",
         "title_without_prefix": "HIV Mental Health for the 21st Century",
@@ -61,20 +61,12 @@
         "title_id": "e043f3a2ac7af23003c0639c47fd8830",
         "reference_id": null,
         "summary": "As we approach the 21st century, we also approach the third decade of the AIDS epidemic. Mental health care providers must face the crucial fact that the human immunodeficiency virus (HIV) and the...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814784600.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "30.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.130",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,11 +157,11 @@
         ],
         "assets": [
           {
-            "id": "1096-324",
-            "asset_id": "1096",
+            "id": "287-19",
+            "asset_id": "287",
             "asset": {
-              "id": "1096",
-              "unique": "94e5ebda9a544a5ae955ebd8122f6915",
+              "id": "287",
+              "unique": "16d27bd9c15ae0df4a7093beade2be13",
               "name": "648-H-9780814784600.jpg",
               "description": null,
               "type": "image",
@@ -179,17 +171,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814784600.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "844-324",
-            "asset_id": "844",
+            "id": "19-19",
+            "asset_id": "19",
             "asset": {
-              "id": "844",
-              "unique": "8d915acfa5c846ed6d39f944fb34ad0e",
+              "id": "19",
+              "unique": "fa4db1acefeed432ab24a67bc76a31bc",
               "name": "145-W-9780814784600.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814784600.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "970-324",
-            "asset_id": "970",
+            "id": "153-19",
+            "asset_id": "153",
             "asset": {
-              "id": "970",
-              "unique": "9710ff10df9668e5390a9c42fed2f315",
+              "id": "153",
+              "unique": "bb7c18d36948150511ca63064e8486cd",
               "name": "298-W-9780814784600.jpg",
               "description": null,
               "type": "image",
@@ -219,33 +211,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814784600.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC324",
-            "format_id": "BC",
-            "seo_link": "hiv-mental-health-for-the-21st-century",
-            "detail": "Print PDF",
-            "title_id": "e043f3a2ac7af23003c0639c47fd8830",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814784600",
-            "edition": "",
-            "product_id": 324,
-            "primary_format": true,
-            "date": {
-              "date": "1997-03-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG19",
             "format_id": "DG",
@@ -300,6 +272,26 @@
             "edition": "",
             "product_id": 323,
             "primary_format": false,
+            "date": {
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC324",
+            "format_id": "BC",
+            "seo_link": "hiv-mental-health-for-the-21st-century",
+            "detail": "Print PDF",
+            "title_id": "e043f3a2ac7af23003c0639c47fd8830",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814793114",
+            "edition": "",
+            "product_id": 324,
+            "primary_format": true,
             "date": {
               "date": "1997-03-01 00:00:00.000000",
               "timezone_type": 3,

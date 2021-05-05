@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814746926",
+        "isbn10": "0814763553",
         "description": "<p>Rabbi Jacob Agus' (1911-1986) intellectual production spanned nearly a half century and covered an enormous historical and conceptual range, from the biblical to the modern era. Best known as an important Jewish scholar, he also held important rabbinic, teaching, and public positions. Although born and raised within an orthodox setting, Agus was strongly influenced by American liberalism and his work displayed modernizing sympathies, reservations about nationalism--including some forms of Zionism--and often severe criticisms of kabbalah. Agus crafted a unique, quite American, modernizing vision that ardently sought to remain in touch with the wellsprings of the rabbinic tradition while remaining open to the intellectual and moral currents of his own time.The Essential Agus brings together a sampling of Agus' most important published and unpublished material in one easily accessible volume. It will be an invaluable resource for students and researchers seeking to experience Agus' intellectual legacy.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -20,24 +20,24 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814763551",
-          "cs_title_group": "9780814763551",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814746929",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814763551",
           "ebook": "9780814748503",
-          "hardcover": "9780814763551",
-          "paperback": false,
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "hardcover": "9780814746929",
+          "paperback": null,
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814763551.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814763551.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1997-03-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 81,
+        "product_id": 13,
         "isbn13": "9780814763551",
         "title": "The Essential Agus",
         "title_without_prefix": "Essential Agus",
@@ -61,20 +61,12 @@
         "title_id": "189f0239d996000c8dbef3e39821bebc",
         "reference_id": null,
         "summary": "Rabbi Jacob Agus' (1911-1986) intellectual production spanned nearly a half century and covered an enormous historical and conceptual range, from the biblical to the modern era. Best known as an...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814763551.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "74.00",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "89.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "2.060",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -187,11 +179,11 @@
         ],
         "assets": [
           {
-            "id": "349-81",
-            "asset_id": "349",
+            "id": "281-13",
+            "asset_id": "281",
             "asset": {
-              "id": "349",
-              "unique": "7e4fb0257799601eeaf2b9a1ea04c2c0",
+              "id": "281",
+              "unique": "711e9f666d2db3073b6a5bc2a0301f55",
               "name": "648-H-9780814763551.jpg",
               "description": null,
               "type": "image",
@@ -201,17 +193,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814763551.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "81-81",
-            "asset_id": "81",
+            "id": "13-13",
+            "asset_id": "13",
             "asset": {
-              "id": "81",
-              "unique": "4a80ca342df62ecde4b54d81446aa152",
+              "id": "13",
+              "unique": "a67707a7bf5b6e54f4110f35588c5e13",
               "name": "145-W-9780814763551.jpg",
               "description": null,
               "type": "image",
@@ -221,17 +213,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814763551.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "215-81",
-            "asset_id": "215",
+            "id": "147-13",
+            "asset_id": "147",
             "asset": {
-              "id": "215",
-              "unique": "9e333e1ae1c97b8f3bdd52ea792bd984",
+              "id": "147",
+              "unique": "ca0376ffb1c432d548c50e083ac9eba1",
               "name": "298-W-9780814763551.jpg",
               "description": null,
               "type": "image",
@@ -241,33 +233,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814763551.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB81",
-            "format_id": "BB",
-            "seo_link": "the-essential-agus",
-            "detail": "Print PDF",
-            "title_id": "189f0239d996000c8dbef3e39821bebc",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814763551",
-            "edition": "",
-            "product_id": 81,
-            "primary_format": true,
-            "date": {
-              "date": "1997-03-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG13",
             "format_id": "DG",
@@ -282,6 +254,26 @@
             "edition": "",
             "product_id": 13,
             "primary_format": false,
+            "date": {
+              "date": "1997-03-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB81",
+            "format_id": "BB",
+            "seo_link": "the-essential-agus",
+            "detail": "Print PDF",
+            "title_id": "189f0239d996000c8dbef3e39821bebc",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814746929",
+            "edition": "",
+            "product_id": 81,
+            "primary_format": true,
             "date": {
               "date": "1997-03-01 00:00:00.000000",
               "timezone_type": 3,

@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814706401",
+        "isbn10": "0814707823",
         "description": "<p>Tackling the ugly secret of unconscious racism in American society, this book provides specific solutions to counter this entrenched phenomenon.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -20,19 +20,19 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814707821",
-          "cs_title_group": "9780814707821",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814706404",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814707821",
           "ebook": "9780814707494",
-          "hardcover": "9780814707821",
+          "hardcover": "9780814706404",
           "paperback": "9780814706701",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814707821.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814707821.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 92,
+        "product_id": 24,
         "isbn13": "9780814707821",
         "title": "Negrophobia and Reasonable Racism",
         "title_without_prefix": "Negrophobia and Reasonable Racism",
@@ -61,20 +61,12 @@
         "title_id": "512b132534fc22435138230edbf4f359",
         "reference_id": null,
         "summary": "Tackling the ugly secret of unconscious racism in American society, this book provides specific solutions to counter this entrenched phenomenon.",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814707821.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "74.00",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "89.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "8.000",
-          "width": "5.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.810",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [
           {
@@ -174,7 +166,7 @@
               "featured": false,
               "deceased": false,
               "sensitivity": false,
-              "locale": null,
+              "locale": "",
               "custom": null
             },
             "role": {
@@ -185,11 +177,11 @@
         ],
         "assets": [
           {
-            "id": "360-92",
-            "asset_id": "360",
+            "id": "292-24",
+            "asset_id": "292",
             "asset": {
-              "id": "360",
-              "unique": "c6febd557ac58aedab5399d4cc207a8f",
+              "id": "292",
+              "unique": "c419d53f18a5cd6434a27dc9135b60cd",
               "name": "648-H-9780814707821.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814707821.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "92-92",
-            "asset_id": "92",
+            "id": "24-24",
+            "asset_id": "24",
             "asset": {
-              "id": "92",
-              "unique": "34a9f5486aa8a4ce5cd1ed1190b6497a",
+              "id": "24",
+              "unique": "1e61caa047b8bbbfe12282f4aec2860f",
               "name": "145-W-9780814707821.jpg",
               "description": null,
               "type": "image",
@@ -219,17 +211,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814707821.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "226-92",
-            "asset_id": "226",
+            "id": "158-24",
+            "asset_id": "158",
             "asset": {
-              "id": "226",
-              "unique": "fe5b3688cfd4056ba97ed8955cc152b6",
+              "id": "158",
+              "unique": "4bcbeaea3eaeea3ac107e44c18cbd6c4",
               "name": "298-W-9780814707821.jpg",
               "description": null,
               "type": "image",
@@ -239,33 +231,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814707821.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB92",
-            "format_id": "BB",
-            "seo_link": "negrophobia-and-reasonable-racism",
-            "detail": "Print PDF",
-            "title_id": "512b132534fc22435138230edbf4f359",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814707821",
-            "edition": "",
-            "product_id": 92,
-            "primary_format": false,
-            "date": {
-              "date": "1997-05-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG24",
             "format_id": "DG",
@@ -279,6 +251,26 @@
             "isbn": "9780814707821",
             "edition": "",
             "product_id": 24,
+            "primary_format": false,
+            "date": {
+              "date": "1997-05-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB92",
+            "format_id": "BB",
+            "seo_link": "negrophobia-and-reasonable-racism",
+            "detail": "Print PDF",
+            "title_id": "512b132534fc22435138230edbf4f359",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814706404",
+            "edition": "",
+            "product_id": 92,
             "primary_format": false,
             "date": {
               "date": "1997-05-01 00:00:00.000000",
@@ -329,10 +321,10 @@
         ],
         "reviews": [
           {
-            "id": "92-11628",
-            "review_id": "11628",
+            "id": "24-12324",
+            "review_id": "12324",
             "review": {
-              "id": "11628",
+              "id": "12324",
               "reviewer": "Norfolk Virginia Journal and Guide",
               "description": "\"Skillfully drawing on a wide range of referents from Greek mythology to Thomas Byes, the father of statistics, Armour plumbs our racial psychology and in the process explores the racialized nature of our daily life and our legal system.\"",
               "score": null,
@@ -342,10 +334,10 @@
             }
           },
           {
-            "id": "92-11629",
-            "review_id": "11629",
+            "id": "24-12325",
+            "review_id": "12325",
             "review": {
-              "id": "11629",
+              "id": "12325",
               "reviewer": "Bookwatch",
               "description": "\"A crucial book, at a critical time, just as white America is gradually coming to understand the hidden travails of African American life.\"",
               "score": null,
@@ -355,10 +347,10 @@
             }
           },
           {
-            "id": "92-11630",
-            "review_id": "11630",
+            "id": "24-12326",
+            "review_id": "12326",
             "review": {
-              "id": "11630",
+              "id": "12326",
               "reviewer": "Randall Kennedy, Los Angeles Times Book Review",
               "description": "\"[C]ommendable in important respects. [Armour] points out problems in the theory of rational racial discrimination that many of its proponents ignore or overlook.\"",
               "score": null,
@@ -368,10 +360,10 @@
             }
           },
           {
-            "id": "92-11631",
-            "review_id": "11631",
+            "id": "24-12327",
+            "review_id": "12327",
             "review": {
-              "id": "11631",
+              "id": "12327",
               "reviewer": "The Nation",
               "description": "\"A patient meditation.\"",
               "score": null,

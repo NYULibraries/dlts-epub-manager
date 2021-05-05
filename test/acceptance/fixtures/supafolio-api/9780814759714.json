@@ -3,8 +3,8 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814755968",
-        "description": "<p>Many of us have grown up with the language of civil rights, yet rarely consider how the construction of civil rights claims affects those who are trying to attain them. Diane Miller examines arguments lesbians and gay men make for civil rights, revealing the ways these arguments are both progressive&#8212;in terms of helping to win court cases seeking basic human rights&#8212;and limiting&#8212;in terms of framing representations of gay men and lesbians.<br><br>Miller incorporates case studies of lesbians in the military and in politics into her argument.  She discusses in detail the experiences of Colonel Margarethe Cammermeyer, who was dishonorably discharged from the National Guard after 27 years of service when she revealed that she was a lesbian, and Roberta Achtenberg, who was nominated by Clinton for the job of Assistant Director of Housing and Urban Development and became the first gay or lesbian to face the confirmation process.  Drawing on these cases and their outcomes, Miller evaluates the advantages and disadvantages of privileging civil rights strategies in the struggle for gay and lesbian rights.</p>",
+        "isbn10": "0814759718",
+        "description": "<p>Many of us have grown up with the language of civil rights, yet rarely consider how the construction of civil rights claims affects those who are trying to attain them. Diane Miller examines arguments lesbians and gay men make for civil rights, revealing the ways these arguments are both progressive--in terms of helping to win court cases seeking basic human rights--and limiting--in terms of framing representations of gay men and lesbians.<br> Miller incorporates case studies of lesbians in the military and in politics into her argument.  She discusses in detail the experiences of Colonel Margarethe Cammermeyer, who was dishonorably discharged from the National Guard after 27 years of service when she revealed that she was a lesbian, and Roberta Achtenberg, who was nominated by Clinton for the job of Assistant Director of Housing and Urban Development and became the first gay or lesbian to face the confirmation process.  Drawing on these cases and their outcomes, Miller evaluates the advantages and disadvantages of privileging civil rights strategies in the struggle for gay and lesbian rights.</p>",
         "tagline": null,
         "type": "Nonfiction",
         "featured": false,
@@ -21,23 +21,23 @@
           "language": "eng",
           "edition_isbn": "9780814759714",
           "cs_title_group": "9780814755952",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814759714",
           "ebook": "9780814761007",
           "hardcover": "9780814755952",
-          "paperback": "9780814759714",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814755969",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814759714.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814759714.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1998-08-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 317,
+        "product_id": 14,
         "isbn13": "9780814759714",
         "title": "Freedom to Differ",
         "title_without_prefix": "Freedom to Differ",
@@ -61,23 +61,15 @@
         "title_id": "2a006e2372295328dc1be7a0562d81a8",
         "reference_id": null,
         "summary": "Many of us have grown up with the language of civil rights, yet rarely consider how the construction of civil rights claims affects those who are trying to attain them. Diane Miller examines arguments...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814759714.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "21.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "27.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "0.690",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1089-317",
-            "asset_id": "1089",
+            "id": "282-14",
+            "asset_id": "282",
             "asset": {
-              "id": "1089",
-              "unique": "d6da00ad2d724507807c2f30cddec2a0",
+              "id": "282",
+              "unique": "63b1451bde4a76ab1746c3a7b31e093b",
               "name": "648-H-9780814759714.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814759714.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "837-317",
-            "asset_id": "837",
+            "id": "14-14",
+            "asset_id": "14",
             "asset": {
-              "id": "837",
-              "unique": "1474935d2bf5bdc76d93c93cb012f507",
+              "id": "14",
+              "unique": "50d31157f8cecbec9bb9b2b2dd15a640",
               "name": "145-W-9780814759714.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814759714.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "963-317",
-            "asset_id": "963",
+            "id": "148-14",
+            "asset_id": "148",
             "asset": {
-              "id": "963",
-              "unique": "66e43b87b88c280005e5ad135a84edd1",
+              "id": "148",
+              "unique": "7c146c0950457493df55a9f57f033038",
               "name": "298-W-9780814759714.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814759714.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC317",
-            "format_id": "BC",
-            "seo_link": "freedom-to-differ",
-            "detail": "Print PDF",
-            "title_id": "2a006e2372295328dc1be7a0562d81a8",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814759714",
-            "edition": "",
-            "product_id": 317,
-            "primary_format": true,
-            "date": {
-              "date": "1998-08-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG14",
             "format_id": "DG",
@@ -316,14 +288,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC317",
+            "format_id": "BC",
+            "seo_link": "freedom-to-differ",
+            "detail": "Print PDF",
+            "title_id": "2a006e2372295328dc1be7a0562d81a8",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814755969",
+            "edition": "",
+            "product_id": 317,
+            "primary_format": true,
+            "date": {
+              "date": "1998-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "317-11579",
-            "review_id": "11579",
+            "id": "14-12278",
+            "review_id": "12278",
             "review": {
-              "id": "11579",
+              "id": "12278",
               "reviewer": "Women's Studies in Communication",
               "description": "\"This book makes important contributions to Women's Studies and Speech Communication and deserves our critical attention.\"",
               "score": null,

@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814782191",
+        "isbn10": "0814784488",
         "description": "<p>In this unusual and much-needed reappraisal of Freud's clinical technique, M. Guy Thompson challenges the conventional notion that psychoanalysis promotes relief from suffering and replaces it with a more radical assertion, that psychoanalysis seeks to mend our relationship with the real that has been fractured by our avoidance of the same.  Thompson suggests that, while avoiding reality may help to relieve our experience of suffering, this short-term solution inevitably leads to a split in our existence.<br> M. Guy Thompson forcefully disagrees with the recent trend that dismisses Freud as an historical figure who is out of step with the times.  He argues, instead, for a return to the forgotten Freud, a man inherently philosophical and rooted in a Greek preoccupation with the nature of truth, ethics, the purpose of life and our relationship with reality.  Thompson's argument is situated in a stunning re-reading of Freud's technical papers, including a new evaluation of his analyses of Dora and the Rat Man in the context of Heidegger's understanding of truth.<br> In this remarkable examination of Freud's technical recommendations, M. Guy Thompson explains how psychoanalysis was originally designed to re-acquaint us with realities we had  abandoned by encountering them in the contest of the analytic experience.  This provocative examination of Freud's conception of psychoanalysis reveals a more personal Freud than we had previously supposed, one that is more humanistic and real.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814784488",
           "cs_title_group": "9780814782064",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814784488",
           "ebook": "9780814783337",
           "hardcover": "9780814782064",
-          "paperback": "9780814784488",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814782194",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814784488.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814784488.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1995-07-01 00:00:00.000000",
+          "date": "1994-06-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1995-07-01 00:00:00.000000",
+          "date": "1994-06-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 804571200,
+        "sort_date": 770443200,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 386,
+        "product_id": 46,
         "isbn13": "9780814784488",
         "title": "The Truth About Freud's Technique",
         "title_without_prefix": "Truth About Freud's Technique",
@@ -61,23 +61,15 @@
         "title_id": "ac2a904dde3340d51f8e8a6615619f91",
         "reference_id": null,
         "summary": "In this unusual and much-needed reappraisal of Freud's clinical technique, M. Guy Thompson challenges the conventional notion that psychoanalysis promotes relief from suffering and replaces it with...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814784488.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "23.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "29.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.000",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -165,11 +157,11 @@
         ],
         "assets": [
           {
-            "id": "1158-386",
-            "asset_id": "1158",
+            "id": "314-46",
+            "asset_id": "314",
             "asset": {
-              "id": "1158",
-              "unique": "07a4b252e93462423812431cb78e72ca",
+              "id": "314",
+              "unique": "359ab29941a9d13c70cfec733f2107b1",
               "name": "648-H-9780814784488.jpg",
               "description": null,
               "type": "image",
@@ -179,17 +171,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814784488.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "906-386",
-            "asset_id": "906",
+            "id": "46-46",
+            "asset_id": "46",
             "asset": {
-              "id": "906",
-              "unique": "b6b0b743f0f12d682fb6d961d5995077",
+              "id": "46",
+              "unique": "df4fa00e18205ddf2db0f5676d2094a4",
               "name": "145-W-9780814784488.jpg",
               "description": null,
               "type": "image",
@@ -199,17 +191,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814784488.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "1032-386",
-            "asset_id": "1032",
+            "id": "180-46",
+            "asset_id": "180",
             "asset": {
-              "id": "1032",
-              "unique": "c786ab8c9d7bf90eeebc0cb143641e03",
+              "id": "180",
+              "unique": "6c2dea05ba40e4a4d2bdad7d9fbf3cb7",
               "name": "298-W-9780814784488.jpg",
               "description": null,
               "type": "image",
@@ -219,33 +211,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814784488.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC386",
-            "format_id": "BC",
-            "seo_link": "the-truth-about-freuds-technique",
-            "detail": "Print PDF",
-            "title_id": "ac2a904dde3340d51f8e8a6615619f91",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814784488",
-            "edition": "",
-            "product_id": 386,
-            "primary_format": true,
-            "date": {
-              "date": "1995-07-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG46",
             "format_id": "DG",
@@ -302,6 +274,26 @@
             "primary_format": false,
             "date": {
               "date": "1994-06-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC386",
+            "format_id": "BC",
+            "seo_link": "the-truth-about-freuds-technique",
+            "detail": "Print PDF",
+            "title_id": "ac2a904dde3340d51f8e8a6615619f91",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814782194",
+            "edition": "",
+            "product_id": 386,
+            "primary_format": true,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             }

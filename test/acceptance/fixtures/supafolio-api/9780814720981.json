@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814718760",
+        "isbn10": "0814720986",
         "description": "<p>This expansive volume traces the rhetoric of reform across American history, examining such pivotal periods as the American Revolution, slavery, McCarthyism, and today's gay liberation movement. At a time when social movements led by religious leaders, from Louis Farrakhan to Pat Buchanan, are playing a central role in American politics, James Darsey connects this radical tradition with its prophetic roots.<br>Public discourse in the West is derived from the Greek principles of civility, diplomacy, compromise, and negotiation. On this model, radical speech is often taken to be a sympton of social disorder. Not so, contends Darsey, who argues that the rhetoric of reform in America represents the continuation of a tradition separate from the commonly accepted principles of the Greeks. Though the links have gone unrecognized, the American radical tradition stems not from Aristotle, he maintains, but from the prophets of the Hebrew Bible.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -20,19 +20,19 @@
         "custom": {
           "language": "eng",
           "edition_isbn": "9780814720981",
-          "cs_title_group": "9780814720981",
-          "scheduled_date": "05/29/2014",
+          "cs_title_group": "9780814718766",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814720981",
           "ebook": "9780814744154",
-          "hardcover": "9780814720981",
+          "hardcover": "9780814718766",
           "paperback": "9780814719244",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814720981.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814720981.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 108,
+        "product_id": 41,
         "isbn13": "9780814720981",
         "title": "The Prophetic Tradition and Radical Rhetoric in America",
         "title_without_prefix": "Prophetic Tradition and Radical Rhetoric in America",
@@ -61,20 +61,12 @@
         "title_id": "c1cc8f05a5c17adc9ae772289e2f670c",
         "reference_id": null,
         "summary": "This expansive volume traces the rhetoric of reform across American history, examining such pivotal periods as the American Revolution, slavery, McCarthyism, and today's gay liberation movement....",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814720981.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "74.00",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "89.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
               "date": "2019-03-31 00:00:00.000000",
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.190",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "376-108",
-            "asset_id": "376",
+            "id": "309-41",
+            "asset_id": "309",
             "asset": {
-              "id": "376",
-              "unique": "9c9914a01312f4c14f11d2650be0f559",
+              "id": "309",
+              "unique": "0a68dfa38ce0e526ccf5cedbe30c49cb",
               "name": "648-H-9780814720981.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814720981.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "108-108",
-            "asset_id": "108",
+            "id": "41-41",
+            "asset_id": "41",
             "asset": {
-              "id": "108",
-              "unique": "cc3a824a4c491527e9654c7174ee8f49",
+              "id": "41",
+              "unique": "0c24974a23cf779e919aa87747b14311",
               "name": "145-W-9780814720981.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814720981.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "242-108",
-            "asset_id": "242",
+            "id": "175-41",
+            "asset_id": "175",
             "asset": {
-              "id": "242",
-              "unique": "cce955dd9baf9b7c95d1ac16e685477d",
+              "id": "175",
+              "unique": "08d3001365d224e632fa985ae630c432",
               "name": "298-W-9780814720981.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814720981.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-01-20 10:44:25"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BB108",
-            "format_id": "BB",
-            "seo_link": "the-prophetic-tradition-and-radical-rhetoric-in-america",
-            "detail": "Print PDF",
-            "title_id": "c1cc8f05a5c17adc9ae772289e2f670c",
-            "format": {
-              "code": "BB",
-              "name": "Hardcover"
-            },
-            "isbn": "9780814720981",
-            "edition": "",
-            "product_id": 108,
-            "primary_format": false,
-            "date": {
-              "date": "1997-08-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG41",
             "format_id": "DG",
@@ -270,6 +242,26 @@
             "isbn": "9780814720981",
             "edition": "",
             "product_id": 41,
+            "primary_format": false,
+            "date": {
+              "date": "1997-08-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB108",
+            "format_id": "BB",
+            "seo_link": "the-prophetic-tradition-and-radical-rhetoric-in-america",
+            "detail": "Print PDF",
+            "title_id": "c1cc8f05a5c17adc9ae772289e2f670c",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9780814718766",
+            "edition": "",
+            "product_id": 108,
             "primary_format": false,
             "date": {
               "date": "1997-08-01 00:00:00.000000",
@@ -320,10 +312,10 @@
         ],
         "reviews": [
           {
-            "id": "108-11724",
-            "review_id": "11724",
+            "id": "41-12423",
+            "review_id": "12423",
             "review": {
-              "id": "11724",
+              "id": "12423",
               "reviewer": "Daniel Boyarin,author of A Radical Jew: Paul and the Politics of Identity",
               "description": "\"<b>The Prophetic Tradition and Radical Rhetoric in America</b> importantly connects the radical rhetorical tradition with biblical (prophetic) roots as an alternative to the Greek rhetorical tradition. . . . The book also makes an important contribution to the history of the present in showing that contemporary radical movements are grounded in American tradition and ethos. The story tells of a direct, actual, and unbroken line from Paine and the revolution to Phillips to Debs [that] is simply riveting.\"",
               "score": null,

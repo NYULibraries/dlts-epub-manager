@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814779964",
+        "isbn10": "0814771033",
         "description": "<p>Cool.  The concept has distinctly American qualities and it permeates almost every aspect of contemporary American culture.  From Kool cigarettes and the Peanuts cartoon's Joe Cool to <i>West Side Story</i> (Keep cool, boy.) and urban slang (Be cool. Chill out.), the idea of cool, in its many manifestations, has seized a central place in our vocabulary.<br> Where did this preoccupation with cool come from?  How was Victorian culture, seemingly so ensconced, replaced with the current emotional status quo?  From whence came American Cool?<br> These are the questions Peter Stearns seeks to answer in this timely and engaging volume.<br> <i>American Cool</i> focuses extensively on the transition decades, from the erosion of Victorianism in the 1920s to the solidification of a cool culture in the 1960s.  Beyond describing the characteristics of the new directions and how they altered or amended earlier standards, the book seeks to explain why the change occured.  It then assesses some of the outcomes and longer-range consequences of this transformation.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,23 +21,23 @@
           "library": "9780814771037",
           "ebook": "9780814739839",
           "hardcover": "9780814779798",
-          "paperback": "9780814771037",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814779965",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "permanent_url": "https://doi.org/10.18574/nyu/9780814771037.001.0001",
           "language": "eng",
           "edition_isbn": "9780814771037",
           "cs_title_group": "9780814779798",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false
+          "open_access_series": null,
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
           "date": "1994-04-01 00:00:00.000000",
           "timezone_type": 3,
@@ -52,7 +52,7 @@
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 264,
+        "product_id": 28,
         "isbn13": "9780814771037",
         "title": "American Cool",
         "title_without_prefix": "American Cool",
@@ -61,23 +61,15 @@
         "title_id": "8bb07a62c615116c0654bc103781610c",
         "reference_id": null,
         "summary": "Cool.  The concept has distinctly American qualities and it permeates almost every aspect of contemporary American culture.  From Kool cigarettes and the Peanuts cartoon's Joe Cool to West Side...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814771037.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
-            "promo_stop": [],
-            "saving": null
-          },
-          {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.130",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -176,11 +168,11 @@
         ],
         "assets": [
           {
-            "id": "1036-264",
-            "asset_id": "1036",
+            "id": "296-28",
+            "asset_id": "296",
             "asset": {
-              "id": "1036",
-              "unique": "c532acc89c21b9148afd36559e6dbebc",
+              "id": "296",
+              "unique": "6454badbf9dc99c4324cf8640dcc35ec",
               "name": "648-H-9780814771037.jpg",
               "description": null,
               "type": "image",
@@ -190,17 +182,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814771037.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "784-264",
-            "asset_id": "784",
+            "id": "28-28",
+            "asset_id": "28",
             "asset": {
-              "id": "784",
-              "unique": "8808c36bf76632202974f62325600cc8",
+              "id": "28",
+              "unique": "685407050844d122109bb383ff912a49",
               "name": "145-W-9780814771037.jpg",
               "description": null,
               "type": "image",
@@ -210,17 +202,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814771037.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "910-264",
-            "asset_id": "910",
+            "id": "162-28",
+            "asset_id": "162",
             "asset": {
-              "id": "910",
-              "unique": "ee6cb8ae86c879f5fcdd5441076f8a5a",
+              "id": "162",
+              "unique": "01d92be6f7f609a6cdef19dc2c1582f4",
               "name": "298-W-9780814771037.jpg",
               "description": null,
               "type": "image",
@@ -230,33 +222,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814771037.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC264",
-            "format_id": "BC",
-            "seo_link": "american-cool",
-            "detail": "Print PDF",
-            "title_id": "8bb07a62c615116c0654bc103781610c",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814771037",
-            "edition": "",
-            "product_id": 264,
-            "primary_format": true,
-            "date": {
-              "date": "1994-04-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG28",
             "format_id": "DG",
@@ -271,6 +243,26 @@
             "edition": "",
             "product_id": 28,
             "primary_format": false,
+            "date": {
+              "date": "1994-04-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC264",
+            "format_id": "BC",
+            "seo_link": "american-cool",
+            "detail": "Print PDF",
+            "title_id": "8bb07a62c615116c0654bc103781610c",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814779965",
+            "edition": "",
+            "product_id": 264,
+            "primary_format": true,
             "date": {
               "date": "1994-04-01 00:00:00.000000",
               "timezone_type": 3,
@@ -300,10 +292,10 @@
         ],
         "reviews": [
           {
-            "id": "264-11659",
-            "review_id": "11659",
+            "id": "28-12378",
+            "review_id": "12378",
             "review": {
-              "id": "11659",
+              "id": "12378",
               "reviewer": "Kevin White,University of Sussex, author of The First Sexual Revolution",
               "description": "\"Peter Stearns argues that 20th century cultural styles stunt and stifle the emotions behind a veneer of cool.  With a breathtaking scholarly sweep through the development of this concept of cool, he provokes and compels us to rethink our very understanding of the American character.  Without a doubt, this is the best of Stearns's work on the history of emotions to date, and should be read by all who are concerned about the current crisis in American values.\"",
               "score": null,
@@ -313,10 +305,10 @@
             }
           },
           {
-            "id": "264-11660",
-            "review_id": "11660",
+            "id": "28-12379",
+            "review_id": "12379",
             "review": {
-              "id": "11660",
+              "id": "12379",
               "reviewer": "John Burnham,Ohio State University",
               "description": "\"Richly and deeply documented, this history offers readers a chance to follow an intriguing problem: Can and should emotions be suppressed?  Channeled?  Expressed spontaneously?  The patterns of the past cover everything from mourning outfits for dolls and acceptable violence on the part of jealous husbands to the rise and fall of dating and the sanctions against expressing anger at school and at work.  American Cool represents a major synthesis by one of the most innovative and accomplished historians of our time.\"",
               "score": null,
@@ -326,10 +318,10 @@
             }
           },
           {
-            "id": "264-11661",
-            "review_id": "11661",
+            "id": "28-12380",
+            "review_id": "12380",
             "review": {
-              "id": "11661",
+              "id": "12380",
               "reviewer": "Commentary",
               "description": "\"The history provided by Stearns . . . suggests that parents are unlikely to find the answer to this enduring problem in the advice books they consume in such vast quantities.\"",
               "score": null,

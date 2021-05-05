@@ -3,7 +3,7 @@
   "data": {
     "book": [
       {
-        "isbn10": "0814761909",
+        "isbn10": "081476262X",
         "description": "<p>All but buried for most of the twentieth century, the concept of altruism has re-emerged in this last quarter as a focus of intense scholarly inquiry and general public interest.  In the wake of increased consciousness of the human potential for destructiveness, both scholars and the general public are seeking interventions which will not only inhibit the process, but may in fact chart a new creative path toward a global community.  Largely initiated by a group of pioneering social psychologists, early questions on altruism centered on its motivation and development primarily in the context of contrived laboratory experiments.  Although publications on the topic have been considerable over the last several years, and now represent the work of representatives from many disciplines of inquiry, this volume is distinguished from others in several ways.<br><i>Embracing the Other</i> emerged primarily as a response to recent research on an extraordinary manifestation of real-life altruism, namely to recent studies of non-Jewish rescuers of Jews during World War II. It is the work of a multi-disciplinary and international group of scholars, including philosophers, social psychologists, historians, sociologists, and educators,  challenging several prevailing conceptual definitions and motivational sources of altruism.  The book combines both new empirical and historical research as well as theoretical and philosophical approaches and includes a lengthy section addressing the practical implications of current thinking on altruism for society at large.  The result is a multi-textured work, addressing critical issues in varied disciplines, while centered on shared themes.</p>",
         "tagline": null,
         "type": "Nonfiction",
@@ -21,38 +21,38 @@
           "language": "eng",
           "edition_isbn": "9780814762622",
           "cs_title_group": "9780814761755",
-          "scheduled_date": "05/29/2014",
+          "scheduled_date": "5/29/2014",
           "hi_res_images": false,
           "video": false,
           "open_access_is_downloadable": false,
-          "open_access_series": false,
+          "open_access_series": null,
           "library": "9780814762622",
           "ebook": "9780814762295",
           "hardcover": "9780814761755",
-          "paperback": "9780814762622",
-          "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+          "paperback": "9780814761908",
           "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-          "permanent_url": "https://doi.org/10.18574/nyu/9780814762622.001.0001"
+          "permanent_url": "https://doi.org/10.18574/nyu/9780814762622.001.0001",
+          "imageUpdated": "2020-12-20 14:31:01"
         },
         "stock": null,
         "availability": 4,
         "availability_status": "Active",
-        "primary_format": true,
+        "primary_format": false,
         "date": {
-          "date": "1995-07-01 00:00:00.000000",
+          "date": "1992-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
         "sale_date": {
-          "date": "1995-07-01 00:00:00.000000",
+          "date": "1992-12-01 00:00:00.000000",
           "timezone_type": 3,
           "timezone": "America/New_York"
         },
-        "sort_date": 804571200,
+        "sort_date": 723186000,
         "import_notes": "",
         "territories": null,
         "keywords": "",
-        "product_id": 306,
+        "product_id": 62,
         "isbn13": "9780814762622",
         "title": "Embracing the Other",
         "title_without_prefix": "Embracing the Other",
@@ -61,26 +61,18 @@
         "title_id": "82657dd9fea17637b245eedb82d74982",
         "reference_id": null,
         "summary": "All but buried for most of the twentieth century, the concept of altruism has re-emerged in this last quarter as a focus of intense scholarly inquiry and general public interest.  In the wake of...",
-        "image": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+        "image": "https://nyu-opensquare-us.imgix.net/covers/9780814762622.jpg?auto=format&w=298",
         "hide": 0,
         "prices": [
           {
             "locale": "USD",
-            "amount": "28.00",
+            "amount": "133.50",
             "discount": null,
             "promo_start": {
-              "date": "2019-08-29 00:00:00.000000",
+              "date": "2019-03-31 00:00:00.000000",
               "timezone_type": 3,
               "timezone": "America/New_York"
             },
-            "promo_stop": [],
-            "saving": null
-          },
-          {
-            "locale": "GBP",
-            "amount": "22.99",
-            "discount": null,
-            "promo_start": [],
             "promo_stop": [],
             "saving": null
           }
@@ -97,12 +89,12 @@
           "description_short": null
         },
         "trim": {
-          "height": "9.000",
-          "width": "6.000",
+          "height": null,
+          "width": null,
           "depth": null,
-          "unit": "in",
-          "weight": "1.380",
-          "weight_unit": "lb"
+          "unit": null,
+          "weight": null,
+          "weight_unit": null
         },
         "series": [],
         "awards": [],
@@ -252,11 +244,11 @@
         ],
         "assets": [
           {
-            "id": "1078-306",
-            "asset_id": "1078",
+            "id": "330-62",
+            "asset_id": "330",
             "asset": {
-              "id": "1078",
-              "unique": "8d6e0b6d2449f15a2e0e6a122bd82138",
+              "id": "330",
+              "unique": "328baff1d414599f4a831c7e8ac1d548",
               "name": "648-H-9780814762622.jpg",
               "description": null,
               "type": "image",
@@ -266,17 +258,17 @@
               "height": 648,
               "width": null,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814762622.jpg?auto=format&h=648",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "826-306",
-            "asset_id": "826",
+            "id": "62-62",
+            "asset_id": "62",
             "asset": {
-              "id": "826",
-              "unique": "5b7c84dd9a89236d25a0091197a90485",
+              "id": "62",
+              "unique": "e89eb1af2801826d78398ccfa0918856",
               "name": "145-W-9780814762622.jpg",
               "description": null,
               "type": "image",
@@ -286,17 +278,17 @@
               "height": null,
               "width": 145,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814762622.jpg?auto=format&w=145",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:51"
+              "schedule": "2020-12-20 19:31:01"
             }
           },
           {
-            "id": "952-306",
-            "asset_id": "952",
+            "id": "196-62",
+            "asset_id": "196",
             "asset": {
-              "id": "952",
-              "unique": "d9b4f75f52a23a9745ea3ac9eb87ecc5",
+              "id": "196",
+              "unique": "395b5dfac9e770c088e7de08b954f754",
               "name": "298-W-9780814762622.jpg",
               "description": null,
               "type": "image",
@@ -306,33 +298,13 @@
               "height": null,
               "width": 298,
               "embed": null,
-              "path": "https://nyu-opensquare.imgix.net/missing-cover.jpg",
+              "path": "https://nyu-opensquare-us.imgix.net/covers/9780814762622.jpg?auto=format&w=298",
               "source": "s3-image-import",
-              "schedule": "2020-04-10 19:30:52"
+              "schedule": "2020-12-20 19:31:01"
             }
           }
         ],
         "formats": [
-          {
-            "id": "BC306",
-            "format_id": "BC",
-            "seo_link": "embracing-the-other",
-            "detail": "Print PDF",
-            "title_id": "82657dd9fea17637b245eedb82d74982",
-            "format": {
-              "code": "BC",
-              "name": "Paperback"
-            },
-            "isbn": "9780814762622",
-            "edition": "",
-            "product_id": 306,
-            "primary_format": true,
-            "date": {
-              "date": "1995-07-01 00:00:00.000000",
-              "timezone_type": 3,
-              "timezone": "America/New_York"
-            }
-          },
           {
             "id": "DG62",
             "format_id": "DG",
@@ -392,14 +364,34 @@
               "timezone_type": 3,
               "timezone": "America/New_York"
             }
+          },
+          {
+            "id": "BC306",
+            "format_id": "BC",
+            "seo_link": "embracing-the-other",
+            "detail": "Print PDF",
+            "title_id": "82657dd9fea17637b245eedb82d74982",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9780814761908",
+            "edition": "",
+            "product_id": 306,
+            "primary_format": true,
+            "date": {
+              "date": "1995-07-01 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
           }
         ],
         "reviews": [
           {
-            "id": "306-11875",
-            "review_id": "11875",
+            "id": "62-12574",
+            "review_id": "12574",
             "review": {
-              "id": "11875",
+              "id": "12574",
               "reviewer": "The Journal of Politics",
               "description": "\"Intelligently addresses several of the most important unresolved issues and controversies about altruism.\"",
               "score": null,
