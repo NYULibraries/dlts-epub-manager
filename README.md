@@ -640,18 +640,22 @@ The contents of `config-private/` is ignored by `git` entirely.
 * **cacheMetadataInMemory**: `true` to load all metadata at once into memory for
 faster processing, otherwise `false`.  Currently only `true` is supported.
 * **intakeEpubDir**: directory containing the *.epub files be processed by the intake system.
-The subdirectory names are also used as the ISBN list for the `metadata` command.
-* **intakeEpubList**: array of EPUB ids specifying the EPUBs to be processed.  All others
-will be ignored.  This option is used by both the `intake` and `metadata` commands.
-Example: [ "9780814707821", "9780814707517", "9780814725078" ]
+The subdirectory names are also used as the ISBN list for the `metadata` command
+  if **intakeEpubList** is not specified.
+* **intakeEpubList**: array of EPUB ids specifying the EPUBs to be processed by
+  the intake system.  All other EPUBs will be ignored.  If this option is not
+  specified then the names of the subdirectories in **intakeEpubDir** will be used
+  for the EPUB list.  Example: [ "9780814707821", "9780814707517", "9780814725078" ]
 * **intakeOutputDir**: directory to output the normalized, exploded EPUBs to 
 * **metadataDir**: full path to the directory containing the metadata files.  For
 NYU Press collections, this would be the `nyupress` directory in the local clone
 of the [dlts-epub-metadata](https://github.com/NYULibraries/dlts-epub-metadata) repo.
 If this option is specified, metadata repo options will be ignored.
 Example: "/home/somebody/epub-metadata/nyupress"
-* **metadataEpubList**: array of EPUB ids specifying the EPUBs to be processed.  All others
-will be ignored.  Example: [ "9780814707821", "9780814707517", "9780814725078" ]
+* **metadataEpubList**: array of EPUB ids specifying the EPUBs to be processed by
+  the metadata system.  All other EPUBs will be ignored.  If this option is not
+  specified then the names of the subdirectories in **metadataDir** will be used
+  for the EPUB list.  Example: [ "9780814707821", "9780814707517", "9780814725078" ]
 * Metadata repo options -- these will be ignored if **metadataDir** has been specified.
   * **metadataRepo**: URL for the git repo containing the metadata.  The repo will
 be cloned locally using `git clone [metadataRepo]`.
