@@ -1,0 +1,422 @@
+{
+  "status": "success",
+  "data": {
+    "book": [
+      {
+        "isbn10": "1479815357",
+        "description": "<p><b>Explains what happened to music—for both artists and fans—when music went online. <br></b><br>Playing to the Crowd explores and explains how the rise of digital communication platforms has transformed artist-fan relationships into something closer to friendship or family. Through in-depth interviews with musicians such as Billy Bragg and Richie Hawtin, as well as members of the Cure, UB40, and Throwing Muses, Baym reveals how new media has facilitated these connections through the active, and often required, participation of the artists and their devoted, digital fan base.<br><br>Before the rise of social sharing and user-generated content, fans were mostly seen as an undifferentiated and unidentifiable mass, often mediated through record labels and the press. However, in today’s networked era, musicians and fans have built more active relationships through social media, fan sites, and artist sites, giving fans a new sense of intimacy and offering artists unparalleled information about their audiences. However, this comes at a price. For audiences, meeting their heroes can kill the mystique. And for artists, maintaining active relationships with so many people can be both personally and financially draining, as well as extremely labor intensive.<br><br>Drawing on her own rich history as an active and deeply connected music fan, Baym offers an entirely new approach to media culture, arguing that the work musicians put in to create and maintain these intimate relationships reflect the demands of the gig economy, one which requires resources and strategies that we must all come to recognize and appreciate.</p>",
+        "tagline": null,
+        "type": "Nonfiction",
+        "featured": false,
+        "rating": null,
+        "edition": "",
+        "division": null,
+        "season": null,
+        "pages": 280,
+        "search_weight": 1480,
+        "cd_run_time": "0:0:0",
+        "illustrations_note": "25 black and white illustrations",
+        "initial_print_run": null,
+        "custom": {
+          "language": "eng",
+          "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "permanent_url": "https://doi.org/10.33682/nyu/9781479815357.001.0001",
+          "edition_isbn": "9781479815357",
+          "cs_title_group": "9781479896165",
+          "scheduled_date": "06/08/2021",
+          "hi_res_images": false,
+          "video": false,
+          "open_access_is_downloadable": false,
+          "open_access_series": null,
+          "library": "9781479815357",
+          "ebook": "9781479803033",
+          "hardcover": "9781479896165",
+          "paperback": "9781479821587"
+        },
+        "stock": null,
+        "availability": 4,
+        "availability_status": "Active",
+        "primary_format": false,
+        "date": {
+          "date": "2018-07-10 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sale_date": {
+          "date": "2018-07-10 00:00:00.000000",
+          "timezone_type": 3,
+          "timezone": "America/New_York"
+        },
+        "sort_date": 1531177200,
+        "import_notes": "",
+        "territories": null,
+        "keywords": "concert hall; digital communication; digital fan base; fandom; itunes; media culture; music audiences; music ethnography; music fans; music landscape; music platforms; music research; music streaming; music technology; music websites; online music; online streaming; personal connections; social media and music",
+        "product_id": 444,
+        "isbn13": "9781479815357",
+        "title": "Playing to the Crowd",
+        "title_without_prefix": "Playing to the Crowd",
+        "seo": "playing-to-the-crowd",
+        "subtitle": "Musicians, Audiences, and the Intimate Work of Connection",
+        "title_id": "21a08ec94cf494b7e0d2c598d02860d3",
+        "reference_id": null,
+        "summary": "Explains what happened to music—for both artists and fans—when music went online. Playing to the Crowd explores and explains how the rise of digital communication platforms has...",
+        "image": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+        "hide": 0,
+        "prices": [
+          {
+            "locale": "USD",
+            "amount": "89.00",
+            "discount": null,
+            "promo_start": {
+              "date": "2021-06-10 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "promo_stop": [],
+            "saving": null
+          }
+        ],
+        "publisher": {
+          "name": "NYU Press",
+          "seo_name": "nyu-press"
+        },
+        "imprint": {
+          "hide": false,
+          "name": "NYU Press",
+          "seo_name": "nyu-press",
+          "description": null,
+          "description_short": null
+        },
+        "trim": {
+          "height": "0.000",
+          "width": "0.000",
+          "depth": "0.000",
+          "unit": null,
+          "weight": "0.000",
+          "weight_unit": null
+        },
+        "series": [
+          {
+            "number_in_series": "14",
+            "series": {
+              "name": "Postmillennial Pop",
+              "seo_name": "postmillennial-pop",
+              "description": null
+            }
+          }
+        ],
+        "awards": [],
+        "levels": [],
+        "categories": [
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00SPC",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology / Sociology of Popular Culture",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUSSPC"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUS00000",
+              "code_3": "NYU",
+              "code_6": "NYUS00",
+              "name": "Sociology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUMT0MS0",
+              "code_3": "NYU",
+              "code_6": "NYUMT0",
+              "name": "Media & Technology / Music & Sound",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUMTMS"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUMT0000",
+              "code_3": "NYU",
+              "code_6": "NYUMT0",
+              "name": "Media & Technology",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUMT"
+            }
+          },
+          {
+            "primary": false,
+            "category": {
+              "code": "NYUMT0LPE",
+              "code_3": "NYU",
+              "code_6": "NYUMT0",
+              "name": "Media & Technology / Labor & Political Economy",
+              "type": "nyuos-subjects",
+              "seo_name": "NYUMTLPE"
+            }
+          }
+        ],
+        "retailers": null,
+        "contributors": [
+          {
+            "order": 1,
+            "note": "Nancy K. Baym",
+            "contributor_id": 100121,
+            "role_id": "A01",
+            "contributor": {
+              "contributor_id": 100121,
+              "name": "Nancy K. Baym",
+              "first": "Nancy K.",
+              "last": "Baym",
+              "seo": "nancy-k-baym",
+              "role": "A01",
+              "hide": false,
+              "reference_id": null,
+              "bio": "<b>Nancy K. Baym</b> is a Sr. Principal Researcher at Microsoft in Cambridge, Massachusetts. She is the author and co-editor of three previous books about audiences, relationships, and the internet. More information, most of her articles, and some of her talks are available at nancybaym.com.",
+              "bio_short": null,
+              "image": null,
+              "on_tour": false,
+              "featured": false,
+              "deceased": false,
+              "sensitivity": false,
+              "locale": "",
+              "custom": null
+            },
+            "role": {
+              "code": "A01",
+              "name": "By (author)"
+            }
+          }
+        ],
+        "assets": [
+          {
+            "id": "1669-444",
+            "asset_id": "1669",
+            "asset": {
+              "id": "1669",
+              "unique": "ce787d483d421c6f7b7ebc0c7777899b",
+              "name": "648-H-9781479815357.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": 648,
+              "width": null,
+              "embed": null,
+              "path": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2021-05-19 19:30:49"
+            }
+          },
+          {
+            "id": "444-1342",
+            "asset_id": "1342",
+            "asset": {
+              "id": "1342",
+              "unique": "9781479815357-contributor-bio",
+              "name": "excerpt",
+              "description": "<b>Nancy K. Baym</b> is a Sr. Principal Researcher at Microsoft in Cambridge, Massachusetts. She is the author and co-editor of three previous books about audiences, relationships, and the internet. More information, most of her articles, and some of her talks are available at nancybaym.com.",
+              "type": "rich-text",
+              "sub_type": "contributor-bio",
+              "order": 1,
+              "size": 0,
+              "height": null,
+              "width": null,
+              "embed": null,
+              "path": null,
+              "source": "import",
+              "schedule": "2021-06-09 19:30:46"
+            }
+          },
+          {
+            "id": "1349-444",
+            "asset_id": "1349",
+            "asset": {
+              "id": "1349",
+              "unique": "a67bb37e6278381e2311588dcccabf78",
+              "name": "145-W-9781479815357.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 145,
+              "embed": null,
+              "path": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2021-05-19 19:30:48"
+            }
+          },
+          {
+            "id": "1509-444",
+            "asset_id": "1509",
+            "asset": {
+              "id": "1509",
+              "unique": "2d405ec0da17ca9f99e34ec6b171c7a2",
+              "name": "298-W-9781479815357.jpg",
+              "description": null,
+              "type": "image",
+              "sub_type": "book-cover",
+              "order": 1,
+              "size": null,
+              "height": null,
+              "width": 298,
+              "embed": null,
+              "path": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+              "source": "s3-image-import",
+              "schedule": "2021-05-19 19:30:48"
+            }
+          }
+        ],
+        "formats": [
+          {
+            "id": "DG444",
+            "format_id": "DG",
+            "seo_link": "playing-to-the-crowd",
+            "detail": "",
+            "title_id": "21a08ec94cf494b7e0d2c598d02860d3",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9781479815357",
+            "edition": "",
+            "product_id": 444,
+            "primary_format": false,
+            "date": {
+              "date": "2018-07-10 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BC441",
+            "format_id": "BC",
+            "seo_link": "playing-to-the-crowd",
+            "detail": "Print PDF",
+            "title_id": "21a08ec94cf494b7e0d2c598d02860d3",
+            "format": {
+              "code": "BC",
+              "name": "Paperback"
+            },
+            "isbn": "9781479821587",
+            "edition": "",
+            "product_id": 441,
+            "primary_format": true,
+            "date": {
+              "date": "2018-07-10 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "DG442",
+            "format_id": "DG",
+            "seo_link": "playing-to-the-crowd",
+            "detail": "",
+            "title_id": "21a08ec94cf494b7e0d2c598d02860d3",
+            "format": {
+              "code": "DG",
+              "name": "eBook"
+            },
+            "isbn": "9781479803033",
+            "edition": "",
+            "product_id": 442,
+            "primary_format": false,
+            "date": {
+              "date": "2018-07-10 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          },
+          {
+            "id": "BB443",
+            "format_id": "BB",
+            "seo_link": "playing-to-the-crowd",
+            "detail": "Print PDF",
+            "title_id": "21a08ec94cf494b7e0d2c598d02860d3",
+            "format": {
+              "code": "BB",
+              "name": "Hardcover"
+            },
+            "isbn": "9781479896165",
+            "edition": "",
+            "product_id": 443,
+            "primary_format": false,
+            "date": {
+              "date": "2018-07-10 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            }
+          }
+        ],
+        "reviews": [
+          {
+            "id": "444-15147",
+            "review_id": "15147",
+            "review": {
+              "id": "15147",
+              "reviewer": "Library Journal",
+              "description": "\"Baym's enthusiasm and experience makes this academic study accessible to professional musicians as well as musicology and communication scholars.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9781479815357-5504bcb88af16dcfc42aa4a2cc10ccbc",
+              "assets": []
+            }
+          },
+          {
+            "id": "444-15148",
+            "review_id": "15148",
+            "review": {
+              "id": "15148",
+              "reviewer": "Zizi Papacharissi,University of Illinois at Chicago",
+              "description": "\"Nancy K. Baym was researching the impact of emerging technologies and music when most of us did not have the foresight to anticipate the changing music landscape. This is not her first pioneering work, and it certainly won't be her last, but it is, as always, fun and intriguing. An innovative wordsmith and an engaging storyteller, Baym explains how musicians transition from technologies designed to render them remote deities to those that invite them to be irrevocably intimate. Her observations carry weight and her interpretations are timely and timeless. She is a sharp researcher with a curious mindthe type that unfailingly seduces, educates and inspires you with their writing.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9781479815357-f5f629b6b6a6137fd5233b14a3ae0ea7",
+              "assets": []
+            }
+          },
+          {
+            "id": "444-15149",
+            "review_id": "15149",
+            "review": {
+              "id": "15149",
+              "reviewer": "Jonathan Sterne,author of MP3: The Meaning of a Format",
+              "description": "\"Nancy K. Bayms Playing to the Crowdis a major advance in our understanding of new media, music and audiences. Through careful ethnographic and historical work, Baym offers a definitive reception history of popular music as it went online. She also offers a transformative theory of music in the age of social media. Methodologically rich, beautifully written, and full of great storytelling, Playing to the Crowdexplains the novel aspects of our emergent online environment, all while linking it to music as a cultural practice that transcends any one context, and insisting that we understand online relationships as fundamentally human relationships. It will change the way you think about music, technology and people.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9781479815357-045f149580021705a0bdf6d6821c503b",
+              "assets": []
+            }
+          },
+          {
+            "id": "444-15150",
+            "review_id": "15150",
+            "review": {
+              "id": "15150",
+              "reviewer": "Yearbook for Traditional Music",
+              "description": "\"Baym’s book sheds light on the previously unexplored territory of musicians’ own management of their social media presence through ethnography, and for this reason many sections of this volume deserve a place in music and media syllabi for undergraduate and graduate studies, particularly to study Western cultural contexts and popular music scenes.\"",
+              "score": null,
+              "source": "Onix",
+              "unique": "9781479815357-029768b0659a30aaa40114eb4e98214c",
+              "assets": []
+            }
+          }
+        ],
+        "scheduled": []
+      }
+    ],
+    "catalogId": 10150
+  }
+}
