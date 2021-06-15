@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-US">
+  <head>
+    <meta name="dtb:uid" content="9781479815357"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Playing to the Crowd</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="cvi" playOrder="1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="xhtml/cover.xhtml#cvi"/>
+    </navPoint>
+    <navPoint id="bk" playOrder="2">
+      <navLabel>
+        <text>Title Page</text>
+      </navLabel>
+      <content src="xhtml/baym-0004.xhtml#bk"/>
+    </navPoint>
+    <navPoint id="cip" playOrder="3">
+      <navLabel>
+        <text>Copyright Page</text>
+      </navLabel>
+      <content src="xhtml/baym-0005.xhtml#cip"/>
+    </navPoint>
+    <navPoint id="toc" playOrder="4">
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src="xhtml/baym-0007.xhtml#toc"/>
+    </navPoint>
+    <navPoint id="loi" playOrder="5">
+      <navLabel>
+        <text>List of Figures</text>
+      </navLabel>
+      <content src="xhtml/baym-0008.xhtml#loi"/>
+    </navPoint>
+    <navPoint id="intro" playOrder="6">
+      <navLabel>
+        <text>Introduction: The Intimate Work of Connection</text>
+      </navLabel>
+      <content src="xhtml/baym-0009.xhtml#intro"/>
+    </navPoint>
+    <navPoint id="pt01" playOrder="7">
+      <navLabel>
+        <text>Part I. Music</text>
+      </navLabel>
+      <content src="xhtml/baym-0010.xhtml#pt01"/>
+      <navPoint id="ch01" playOrder="8">
+        <navLabel>
+          <text>1. Music as Communication</text>
+        </navLabel>
+        <content src="xhtml/baym-0011.xhtml#ch01"/>
+      </navPoint>
+      <navPoint id="ch02" playOrder="9">
+        <navLabel>
+          <text>2. Music as Commodity</text>
+        </navLabel>
+        <content src="xhtml/baym-0012.xhtml#ch02"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="pt02" playOrder="10">
+      <navLabel>
+        <text>Part II. Participation</text>
+      </navLabel>
+      <content src="xhtml/baym-0013.xhtml#pt02"/>
+      <navPoint id="ch03" playOrder="11">
+        <navLabel>
+          <text>3. Audiences</text>
+        </navLabel>
+        <content src="xhtml/baym-0014.xhtml#ch03"/>
+      </navPoint>
+      <navPoint id="ch04" playOrder="12">
+        <navLabel>
+          <text>4. Participatory Boundaries</text>
+        </navLabel>
+        <content src="xhtml/baym-0015.xhtml#ch04"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="pt03" playOrder="13">
+      <navLabel>
+        <text>Part III. Relationships</text>
+      </navLabel>
+      <content src="xhtml/baym-0016.xhtml#pt03"/>
+      <navPoint id="ch05" playOrder="14">
+        <navLabel>
+          <text>5. Platforms</text>
+        </navLabel>
+        <content src="xhtml/baym-0017.xhtml#ch05"/>
+      </navPoint>
+      <navPoint id="ch06" playOrder="15">
+        <navLabel>
+          <text>6. Relational Boundaries</text>
+        </navLabel>
+        <content src="xhtml/baym-0018.xhtml#ch06"/>
+      </navPoint>
+      <navPoint id="conc" playOrder="16">
+        <navLabel>
+          <text>Conclusion: Staying Human</text>
+        </navLabel>
+        <content src="xhtml/baym-0019.xhtml#conc"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="acknow" playOrder="17">
+      <navLabel>
+        <text>Acknowledgments</text>
+      </navLabel>
+      <content src="xhtml/baym-0020.xhtml#acknow"/>
+    </navPoint>
+    <navPoint id="app1" playOrder="18">
+      <navLabel>
+        <text>Appendix 1: Musicians Interviewed</text>
+      </navLabel>
+      <content src="xhtml/baym-0021.xhtml#app1"/>
+    </navPoint>
+    <navPoint id="app2" playOrder="19">
+      <navLabel>
+        <text>Appendix 2: Social Media Presence as of January 2017</text>
+      </navLabel>
+      <content src="xhtml/baym-0022.xhtml#app2"/>
+    </navPoint>
+    <navPoint id="notes" playOrder="20">
+      <navLabel>
+        <text>Notes</text>
+      </navLabel>
+      <content src="xhtml/baym-0023.xhtml#notes"/>
+    </navPoint>
+    <navPoint id="refs" playOrder="21">
+      <navLabel>
+        <text>References</text>
+      </navLabel>
+      <content src="xhtml/baym-0024.xhtml#refs"/>
+    </navPoint>
+    <navPoint id="index" playOrder="22">
+      <navLabel>
+        <text>Index</text>
+      </navLabel>
+      <content src="xhtml/baym-0025.xhtml#index"/>
+    </navPoint>
+    <navPoint id="aubio" playOrder="23">
+      <navLabel>
+        <text>About the Author</text>
+      </navLabel>
+      <content src="xhtml/baym-0026.xhtml#aubio"/>
+    </navPoint>
+
+  </navMap>
+</ncx>
