@@ -1,0 +1,112 @@
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id" dir="ltr" xml:lang="en" prefix="calibre: https://calibre-ebook.com">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title id="title">Playing to the Crowd</dc:title>
+    <dc:creator id="id">Nancy K. Baym</dc:creator>
+    <dc:identifier>calibre:3</dc:identifier>
+    <dc:identifier>uuid:05908e83-7b69-4edf-b720-7b4f78af3dd8</dc:identifier>
+    <dc:identifier id="pub-id">9781479815357</dc:identifier>
+    <dc:source id="src-id">urn:isbn:9781479821587</dc:source>
+    <dc:rights>All rights reserved</dc:rights>
+    <dc:language>en-US</dc:language>
+    <dc:contributor id="id-1">calibre (2.85.1) [https://calibre-ebook.com]</dc:contributor>
+    <dc:publisher>New York University Press</dc:publisher>
+    <dc:subject>SOC052000 Social Science / Media Studies</dc:subject>
+    <opf:meta refines="#title" property="title-type">main</opf:meta>
+    <opf:meta refines="#title" property="file-as">Playing to the Crowd</opf:meta>
+    <meta refines="#pub-id" property="identifier-type" scheme="xsd:string">unique</meta>
+    <meta property="dcterms:modified">2018-05-08T21:08:40Z</meta>
+      <meta property="dcterms:date">2018</meta>
+    <meta name="cover" content="My_Cover"/>
+    <opf:meta property="role" refines="#id-1" scheme="marc:relators">bkp</opf:meta>
+    <opf:meta property="role" refines="#id" scheme="marc:relators">aut</opf:meta>
+    <opf:meta property="file-as" refines="#id">Baym, Nancy K.</opf:meta>
+    <opf:meta property="calibre:author_link_map">{"Nancy K. Baym": ""}</opf:meta>
+  </metadata>
+  <manifest>
+    <item href="xhtml/cover.xhtml" id="baym-0001" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0002.xhtml" id="baym-0002" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0003.xhtml" id="baym-0003" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0004.xhtml" id="baym-0004" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0005.xhtml" id="baym-0005" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0006.xhtml" id="baym-0006" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0007.xhtml" id="baym-0007" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0008.xhtml" id="baym-0008" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0009.xhtml" id="baym-0009" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0010.xhtml" id="baym-0010" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0011.xhtml" id="baym-0011" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0012.xhtml" id="baym-0012" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0013.xhtml" id="baym-0013" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0014.xhtml" id="baym-0014" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0015.xhtml" id="baym-0015" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0016.xhtml" id="baym-0016" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0017.xhtml" id="baym-0017" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0018.xhtml" id="baym-0018" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0019.xhtml" id="baym-0019" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0020.xhtml" id="baym-0020" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0021.xhtml" id="baym-0021" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0022.xhtml" id="baym-0022" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0023.xhtml" id="baym-0023" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0024.xhtml" id="baym-0024" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0025.xhtml" id="baym-0025" media-type="application/xhtml+xml"/>
+    <item href="xhtml/baym-0026.xhtml" id="baym-0026" media-type="application/xhtml+xml"/>
+    <item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="styles/default.css" id="default" media-type="text/css"/>
+    <item href="images/9781479815357.jpg" id="My_Cover" media-type="image/jpeg" properties="cover-image"/>
+    <item href="images/F_01_01_BAYM.jpeg" id="imgF_01_01_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_01_02_BAYM.jpeg" id="imgF_01_02_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_01_03_BAYM-6d300c47aa.jpeg" id="imgF_01_03_BAYM-6d300c47aa" media-type="image/jpeg"/>
+    <item href="images/F_01_03_BAYM.jpeg" id="imgF_01_03_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_01_04_BAYM.jpeg" id="imgF_01_04_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_01_05_BAYM.jpeg" id="imgF_01_05_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_01_06_BAYM.jpeg" id="imgF_01_06_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_01_07_BAYM.jpeg" id="imgF_01_07_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_01_08_BAYM.jpeg" id="imgF_01_08_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_03_01_BAYM.jpeg" id="imgF_03_01_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_03_02_BAYM.jpeg" id="imgF_03_02_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_03_03_BAYM.jpeg" id="imgF_03_03_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_03_04_BAYM.jpeg" id="imgF_03_04_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_03_05_BAYM.jpeg" id="imgF_03_05_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_03_06_BAYM.jpeg" id="imgF_03_06_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_04_01_BAYM.jpeg" id="imgF_04_01_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_04_02_BAYM.jpeg" id="imgF_04_02_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_04_03_BAYM.jpeg" id="imgF_04_03_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_04_04_BAYM.jpeg" id="imgF_04_04_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_04_05_BAYM.jpeg" id="imgF_04_05_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_04_06_BAYM.jpeg" id="imgF_04_06_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_05_01_BAYM.jpeg" id="imgF_05_01_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_05_02_BAYM.jpeg" id="imgF_05_02_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_05_03_BAYM.jpeg" id="imgF_05_03_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_06_01_BAYM.jpeg" id="imgF_06_01_BAYM" media-type="image/jpeg"/>
+    <item href="images/F_I_01_BAYM.jpeg" id="imgF_I_01_BAYM" media-type="image/jpeg"/>
+    <item href="images/NYU_TitlePage_Logo.jpg" id="imgNYU_TitlePage_Logo" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="baym-0001"/>
+    <itemref idref="baym-0002"/>
+    <itemref idref="baym-0003"/>
+    <itemref idref="baym-0004"/>
+    <itemref idref="baym-0005"/>
+    <itemref idref="baym-0006"/>
+    <itemref idref="baym-0007"/>
+    <itemref idref="baym-0008"/>
+    <itemref idref="baym-0009"/>
+    <itemref idref="baym-0010"/>
+    <itemref idref="baym-0011"/>
+    <itemref idref="baym-0012"/>
+    <itemref idref="baym-0013"/>
+    <itemref idref="baym-0014"/>
+    <itemref idref="baym-0015"/>
+    <itemref idref="baym-0016"/>
+    <itemref idref="baym-0017"/>
+    <itemref idref="baym-0018"/>
+    <itemref idref="baym-0019"/>
+    <itemref idref="baym-0020"/>
+    <itemref idref="baym-0021"/>
+    <itemref idref="baym-0022"/>
+    <itemref idref="baym-0023"/>
+    <itemref idref="baym-0024"/>
+    <itemref idref="baym-0025"/>
+    <itemref idref="baym-0026"/>
+  </spine>
+</package>
