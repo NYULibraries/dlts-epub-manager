@@ -22,7 +22,7 @@
     "lodash": "4.17.20",
     "pixl-xml": "1.0.13",
     "rimraf": "3.0.2",
-    "striptags": "3.1.1",
+    "striptags": "3.2.0",
     "sync-fetch": "^0.3.0",
     "vorpal": "^1.12.0"
   },
