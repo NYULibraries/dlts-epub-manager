@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-US">
+  <head>
+        <meta content="IDENTIFIER: Sanchez" name="dtb:uid"/>
+        <meta content="1" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+        <text>Deafening Modernism</text>
+      </docTitle>
+  <navMap>
+    <navPoint id="cvi" playOrder="1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="Text/cover.xhtml#cvi"/>
+    </navPoint>
+    <navPoint id="toc" playOrder="2">
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src="Text/Sanchez-0005.xhtml#toc"/>
+    </navPoint>
+    <navPoint id="acknow" playOrder="3">
+      <navLabel>
+        <text>Acknowledgments</text>
+      </navLabel>
+      <content src="Text/Sanchez-0006.xhtml#acknow"/>
+    </navPoint>
+    <navPoint id="ch01" playOrder="4">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="Text/Sanchez-0007.xhtml#ch01"/>
+    </navPoint>
+    <navPoint id="ch02" playOrder="5">
+      <navLabel>
+        <text>1. Impersonality: Tradition and the Inescapable Body</text>
+      </navLabel>
+      <content src="Text/Sanchez-0008.xhtml#ch02"/>
+    </navPoint>
+    <navPoint id="ch03" playOrder="6">
+      <navLabel>
+        <text>2. Primitivism: Communicative Norms and the Ethics of the Story</text>
+      </navLabel>
+      <content src="Text/Sanchez-0009.xhtml#ch03"/>
+    </navPoint>
+    <navPoint id="ch04" playOrder="7">
+      <navLabel>
+        <text>3. Difficulty: Juxtaposition, Indeterminacy, and the Linguistics of Simultaneity</text>
+      </navLabel>
+      <content src="Text/Sanchez-0010.xhtml#ch04"/>
+    </navPoint>
+    <navPoint id="ch05" playOrder="8">
+      <navLabel>
+        <text>4. The Image: Cinematic Poetics and Deaf Vision</text>
+      </navLabel>
+      <content src="Text/Sanchez-0011.xhtml#ch05"/>
+    </navPoint>
+    <navPoint id="ch06" playOrder="9">
+      <navLabel>
+        <text>Epilogue: The Textual Body</text>
+      </navLabel>
+      <content src="Text/Sanchez-0012.xhtml#ch06"/>
+    </navPoint>
+    <navPoint id="notes" playOrder="10">
+      <navLabel>
+        <text>Notes</text>
+      </navLabel>
+      <content src="Text/Sanchez-0013.xhtml#notes"/>
+    </navPoint>
+    <navPoint id="biblio" playOrder="11">
+      <navLabel>
+        <text>Bibliography</text>
+      </navLabel>
+      <content src="Text/Sanchez-0014.xhtml#biblio"/>
+    </navPoint>
+    <navPoint id="index" playOrder="12">
+      <navLabel>
+        <text>Index</text>
+      </navLabel>
+      <content src="Text/Sanchez-0015.xhtml#index"/>
+    </navPoint>
+    <navPoint id="aubio" playOrder="13">
+      <navLabel>
+        <text>About the Author</text>
+      </navLabel>
+      <content src="Text/Sanchez-0016.xhtml#aubio"/>
+    </navPoint>
+  </navMap>
+</ncx>
