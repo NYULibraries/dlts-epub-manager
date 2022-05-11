@@ -51,7 +51,7 @@ module.exports = function( vorpal ){
                     return false;
                 }
 
-                const epubIdList = em.intakeEpubList;
+                const epubIdList = em.metadataEpubList;
 
                 try {
                     const epubsCompleted = helpers.generateMetadataFiles(
