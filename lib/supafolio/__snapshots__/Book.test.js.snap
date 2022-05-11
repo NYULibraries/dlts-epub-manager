@@ -2562,6 +2562,44 @@ exports[`lib/supafolio/Book getters should produce the correct metadata 65`] = `
 Object {
   "authors": Array [
     Object {
+      "first": "Rebecca",
+      "last": "Sanchez",
+      "name": "Rebecca Sanchez",
+      "order": 1,
+      "role": "By (author)",
+      "seo": "rebecca-sanchez",
+    },
+  ],
+  "authorsForDisplay": "Rebecca Sanchez",
+  "collectionCode": "oa-books",
+  "coverage": "New York",
+  "date": "2015-10-02 00:00:00.000000",
+  "description": "<p>Deafening Modernism tells the story of modernism from the perspective of Deaf critical insight. Working to develop a critical Deaf theory independent of identity-based discourse, Rebecca Sanchez excavates the intersections between Deaf and modernist studies.  She traces the ways that Deaf culture, history, linguistics, and literature provide a vital and largely untapped resource for understanding the history of American language politics and the impact that history has had on modernist aesthetic production.<br><br>Discussing Deaf and disability studies in these unexpected contexts highlights the contributions the field can make to broader discussions of the intersections between images, bodies, and text. Drawing on a range of methodological approaches, including literary analysis and history, linguistics, ethics, and queer, cultural, and film studies, Sanchez sheds new light on texts by T.S. Eliot, Ezra Pound, Gertrude Stein, William Carlos Williams, Charlie Chaplin, and many others. By approaching modernism through the perspective of Deaf and disability studies, Deafening Modernism reconceptualizes deafness as a critical modality enabling us to freshly engage topics we thought we knew.</p>",
+  "isbn": "9781479810628",
+  "isbnForPrimaryFormat": "9781479805556",
+  "languageCode": "eng",
+  "license": Object {
+    "link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  },
+  "nyuPressWebsiteBuyTheBookUrl": "https://nyupress.org/9781479805556",
+  "pages": 240,
+  "permanentUrl": "https://doi.org/10.18574/nyu/9781479828869.001.0001",
+  "publisher": "NYU Press",
+  "subjects": Array [
+    "American Studies",
+    "Disability Studies",
+  ],
+  "subtitle": "Embodied Language and Visual Poetics in American Literature",
+  "title": "Deafening Modernism",
+  "titleWithoutPrefix": "Deafening Modernism",
+  "year": 2015,
+}
+`;
+
+exports[`lib/supafolio/Book getters should produce the correct metadata 66`] = `
+Object {
+  "authors": Array [
+    Object {
       "first": "Nancy K.",
       "last": "Baym",
       "name": "Nancy K. Baym",
@@ -2596,7 +2634,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 66`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 67`] = `
 Object {
   "authors": Array [
     Object {
@@ -2666,7 +2704,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 67`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 68`] = `
 Object {
   "authors": Array [
     Object {
@@ -2712,7 +2750,7 @@ Object {
 }
 `;
 
-exports[`lib/supafolio/Book getters should produce the correct metadata 68`] = `
+exports[`lib/supafolio/Book getters should produce the correct metadata 69`] = `
 Object {
   "authors": Array [
     Object {
@@ -45869,6 +45907,759 @@ Book {
           "description": null,
           "embed": null,
           "height": 648,
+          "id": "2089",
+          "name": "648-H-9781479810628.jpg",
+          "order": 1,
+          "path": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+          "schedule": "2022-03-29 19:30:46",
+          "size": null,
+          "source": "s3-image-import",
+          "sub_type": "book-cover",
+          "type": "image",
+          "unique": "2338e2a31684eec8736f69b3c19c2100",
+          "width": null,
+        },
+        "asset_id": "2089",
+        "id": "2089-614",
+      },
+      Object {
+        "asset": Object {
+          "description": null,
+          "embed": null,
+          "height": null,
+          "id": "1855",
+          "name": "145-W-9781479810628.jpg",
+          "order": 1,
+          "path": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+          "schedule": "2022-03-29 19:30:46",
+          "size": null,
+          "source": "s3-image-import",
+          "sub_type": "book-cover",
+          "type": "image",
+          "unique": "c4b714f89da7de6abdb82e47f886a80e",
+          "width": 145,
+        },
+        "asset_id": "1855",
+        "id": "1855-614",
+      },
+      Object {
+        "asset": Object {
+          "description": null,
+          "embed": null,
+          "height": null,
+          "id": "1972",
+          "name": "298-W-9781479810628.jpg",
+          "order": 1,
+          "path": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+          "schedule": "2022-03-29 19:30:46",
+          "size": null,
+          "source": "s3-image-import",
+          "sub_type": "book-cover",
+          "type": "image",
+          "unique": "4f040f606eaa0acf2e7b2e9739acc79b",
+          "width": 298,
+        },
+        "asset_id": "1972",
+        "id": "1972-614",
+      },
+    ],
+    "availability": 4,
+    "availability_status": "Active",
+    "awards": Array [],
+    "categories": Array [
+      Object {
+        "category": Object {
+          "code": "NYUAS0000",
+          "code_3": "NYU",
+          "code_6": "NYUAS0",
+          "name": "American Studies",
+          "seo_name": "NYUAS",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+      Object {
+        "category": Object {
+          "code": "NYUDS0000",
+          "code_3": "NYU",
+          "code_6": "NYUDS0",
+          "name": "Disability Studies",
+          "seo_name": "NYUDS",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+      Object {
+        "category": Object {
+          "code": "NYUAS0LS0",
+          "code_3": "NYU",
+          "code_6": "NYUAS0",
+          "name": "American Studies / Latino\\\\a Studies",
+          "seo_name": "NYUASLS",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+      Object {
+        "category": Object {
+          "code": "NYUAS0MPC",
+          "code_3": "NYU",
+          "code_6": "NYUAS0",
+          "name": "American Studies / Media & Popular Culture",
+          "seo_name": "NYUASMPC",
+          "type": "nyuos-subjects",
+        },
+        "primary": false,
+      },
+    ],
+    "cd_run_time": "0:0:0",
+    "contributors": Array [
+      Object {
+        "contributor": Object {
+          "bio": "<b>Rebecca Sanchez</b> is Associate Professor at the Department of English at Fordham University, and author of <i>Deafening Modernism: Embodied Language</i> and <i>Visual Poetics in American Literature</i> (2015).",
+          "bio_short": null,
+          "contributor_id": 100183,
+          "custom": Array [],
+          "deceased": false,
+          "featured": false,
+          "first": "Rebecca",
+          "hide": false,
+          "image": null,
+          "last": "Sanchez",
+          "locale": "",
+          "name": "Rebecca Sanchez",
+          "on_tour": false,
+          "reference_id": null,
+          "role": "A01",
+          "sensitivity": false,
+          "seo": "rebecca-sanchez",
+        },
+        "contributor_id": 100183,
+        "note": "Rebecca Sanchez",
+        "order": 1,
+        "role": Object {
+          "code": "A01",
+          "name": "By (author)",
+        },
+        "role_id": "A01",
+      },
+    ],
+    "custom": Object {
+      "cs_title_group": "9781479828869",
+      "ebook": "9781479847501",
+      "edition_isbn": "9781479810628",
+      "hardcover": "9781479828869",
+      "hi_res_images": false,
+      "language": "eng",
+      "library": "9781479810628",
+      "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "open_access_is_downloadable": false,
+      "open_access_series": null,
+      "paperback": "9781479805556",
+      "permanent_url": "https://doi.org/10.18574/nyu/9781479828869.001.0001",
+      "scheduled_date": "4/15/2022",
+      "video": false,
+    },
+    "date": Object {
+      "date": "2015-10-02 00:00:00.000000",
+      "timezone": "America/New_York",
+      "timezone_type": 3,
+    },
+    "description": "<p>Deafening Modernism tells the story of modernism from the perspective of Deaf critical insight. Working to develop a critical Deaf theory independent of identity-based discourse, Rebecca Sanchez excavates the intersections between Deaf and modernist studies.  She traces the ways that Deaf culture, history, linguistics, and literature provide a vital and largely untapped resource for understanding the history of American language politics and the impact that history has had on modernist aesthetic production.<br><br>Discussing Deaf and disability studies in these unexpected contexts highlights the contributions the field can make to broader discussions of the intersections between images, bodies, and text. Drawing on a range of methodological approaches, including literary analysis and history, linguistics, ethics, and queer, cultural, and film studies, Sanchez sheds new light on texts by T.S. Eliot, Ezra Pound, Gertrude Stein, William Carlos Williams, Charlie Chaplin, and many others. By approaching modernism through the perspective of Deaf and disability studies, Deafening Modernism reconceptualizes deafness as a critical modality enabling us to freshly engage topics we thought we knew.</p>",
+    "division": null,
+    "edition": "",
+    "featured": false,
+    "formats": Array [
+      Object {
+        "date": Object {
+          "date": "2015-10-02 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "detail": "PDF",
+        "edition": "",
+        "format": Object {
+          "code": "DG",
+          "name": "eBook",
+        },
+        "format_id": "DG",
+        "id": "DG614",
+        "isbn": "9781479810628",
+        "primary_format": false,
+        "product_id": 614,
+        "seo_link": "deafening-modernism",
+        "title_id": "10d5cf30af158f98129106310a0407aa",
+      },
+      Object {
+        "date": Object {
+          "date": "2015-10-02 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "detail": "MobiPocket",
+        "edition": "",
+        "format": Object {
+          "code": "DG",
+          "name": "eBook",
+        },
+        "format_id": "DG",
+        "id": "DG611",
+        "isbn": "9781479847501",
+        "primary_format": false,
+        "product_id": 611,
+        "seo_link": "deafening-modernism",
+        "title_id": "10d5cf30af158f98129106310a0407aa",
+      },
+      Object {
+        "date": Object {
+          "date": "2015-10-02 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "detail": "Print PDF",
+        "edition": "",
+        "format": Object {
+          "code": "BC",
+          "name": "Paperback",
+        },
+        "format_id": "BC",
+        "id": "BC612",
+        "isbn": "9781479805556",
+        "primary_format": true,
+        "product_id": 612,
+        "seo_link": "deafening-modernism",
+        "title_id": "10d5cf30af158f98129106310a0407aa",
+      },
+      Object {
+        "date": Object {
+          "date": "2015-10-02 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "detail": "Print PDF",
+        "edition": "",
+        "format": Object {
+          "code": "BB",
+          "name": "Hardcover",
+        },
+        "format_id": "BB",
+        "id": "BB613",
+        "isbn": "9781479828869",
+        "primary_format": false,
+        "product_id": 613,
+        "seo_link": "deafening-modernism",
+        "title_id": "10d5cf30af158f98129106310a0407aa",
+      },
+    ],
+    "hide": 0,
+    "illustrations_note": "2 black and white illustrations",
+    "image": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+    "import_notes": "",
+    "imprint": Object {
+      "description": null,
+      "description_short": null,
+      "hide": false,
+      "name": "NYU Press",
+      "seo_name": "nyu-press",
+    },
+    "initial_print_run": null,
+    "isbn10": "1479810622",
+    "isbn13": "9781479810628",
+    "keywords": "",
+    "levels": Array [],
+    "pages": 240,
+    "prices": Array [
+      Object {
+        "amount": "133.50",
+        "discount": null,
+        "locale": "USD",
+        "promo_start": Object {
+          "date": "2021-06-21 00:00:00.000000",
+          "timezone": "America/New_York",
+          "timezone_type": 3,
+        },
+        "promo_stop": Array [],
+        "saving": null,
+      },
+    ],
+    "primary_format": false,
+    "product_id": 614,
+    "publisher": Object {
+      "name": "NYU Press",
+      "seo_name": "nyu-press",
+    },
+    "rating": null,
+    "reference_id": null,
+    "retailers": null,
+    "reviews": Array [
+      Object {
+        "id": "614-18894",
+        "review": Object {
+          "assets": Array [],
+          "description": "\\"An extraordinary book.Superbly written, critically nuanced, and refreshingly new,Deafening Modernismwill set the standard for future disability and Deaf studies scholarship. There is truly nothing else like it.\\"",
+          "id": "18894",
+          "reviewer": "Brenda Brueggemann,author of Deaf Subjects: Between Identities and Places",
+          "score": null,
+          "source": "Onix",
+          "unique": "9781479810628-df810bf42e5a4b5036c2ee7f1915a713",
+        },
+        "review_id": "18894",
+      },
+      Object {
+        "id": "614-18895",
+        "review": Object {
+          "assets": Array [],
+          "description": "\\"Exciting and original, Rebecca Sanchez remakes our understanding twentieth-century American literature through the frame of American Sign Language. Offering fresh and brilliant insights,Deafening Modernismwill make a significant contribution to our understanding of literary modernism, while modeling new methodological directions for disability studies scholarship.\\"",
+          "id": "18895",
+          "reviewer": "Rachel Adams,co-editor of Keywords for Disability Studies",
+          "score": null,
+          "source": "Onix",
+          "unique": "9781479810628-8492a6d4230bed9a7e8aed9069833fec",
+        },
+        "review_id": "18895",
+      },
+      Object {
+        "id": "614-18896",
+        "review": Object {
+          "assets": Array [],
+          "description": "\\"Sanchez uses ASL, Deaf culture, history, linguistics, and disabilities studies to develop a critical Deaf theory that is independent of the more familiar identity theories.\\"",
+          "id": "18896",
+          "reviewer": "Choice",
+          "score": null,
+          "source": "Onix",
+          "unique": "9781479810628-030cf188a4674a1c45c9a25674120405",
+        },
+        "review_id": "18896",
+      },
+    ],
+    "sale_date": Object {
+      "date": "2015-10-02 00:00:00.000000",
+      "timezone": "America/New_York",
+      "timezone_type": 3,
+    },
+    "scheduled": Array [],
+    "search_weight": 560,
+    "season": null,
+    "seo": "deafening-modernism",
+    "series": Array [
+      Object {
+        "number_in_series": "0",
+        "series": Object {
+          "description": "",
+          "name": "Cultural Front",
+          "seo_name": "cultural-front",
+        },
+      },
+    ],
+    "sort_date": 1443740400,
+    "stock": null,
+    "subtitle": "Embodied Language and Visual Poetics in American Literature",
+    "summary": "Deafening Modernism tells the story of modernism from the perspective of Deaf critical insight. Working to develop a critical Deaf theory independent of identity-based discourse, Rebecca Sanchez...",
+    "tagline": null,
+    "territories": null,
+    "title": "Deafening Modernism",
+    "title_id": "10d5cf30af158f98129106310a0407aa",
+    "title_without_prefix": "Deafening Modernism",
+    "trim": Object {
+      "depth": "0.000",
+      "height": "0.000",
+      "unit": null,
+      "weight": "0.000",
+      "weight_unit": null,
+      "width": "0.000",
+    },
+    "type": "Nonfiction",
+  },
+  "supafolioApiResponse": Object {
+    "data": Object {
+      "book": Array [
+        Object {
+          "assets": Array [
+            Object {
+              "asset": Object {
+                "description": null,
+                "embed": null,
+                "height": 648,
+                "id": "2089",
+                "name": "648-H-9781479810628.jpg",
+                "order": 1,
+                "path": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+                "schedule": "2022-03-29 19:30:46",
+                "size": null,
+                "source": "s3-image-import",
+                "sub_type": "book-cover",
+                "type": "image",
+                "unique": "2338e2a31684eec8736f69b3c19c2100",
+                "width": null,
+              },
+              "asset_id": "2089",
+              "id": "2089-614",
+            },
+            Object {
+              "asset": Object {
+                "description": null,
+                "embed": null,
+                "height": null,
+                "id": "1855",
+                "name": "145-W-9781479810628.jpg",
+                "order": 1,
+                "path": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+                "schedule": "2022-03-29 19:30:46",
+                "size": null,
+                "source": "s3-image-import",
+                "sub_type": "book-cover",
+                "type": "image",
+                "unique": "c4b714f89da7de6abdb82e47f886a80e",
+                "width": 145,
+              },
+              "asset_id": "1855",
+              "id": "1855-614",
+            },
+            Object {
+              "asset": Object {
+                "description": null,
+                "embed": null,
+                "height": null,
+                "id": "1972",
+                "name": "298-W-9781479810628.jpg",
+                "order": 1,
+                "path": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+                "schedule": "2022-03-29 19:30:46",
+                "size": null,
+                "source": "s3-image-import",
+                "sub_type": "book-cover",
+                "type": "image",
+                "unique": "4f040f606eaa0acf2e7b2e9739acc79b",
+                "width": 298,
+              },
+              "asset_id": "1972",
+              "id": "1972-614",
+            },
+          ],
+          "availability": 4,
+          "availability_status": "Active",
+          "awards": Array [],
+          "categories": Array [
+            Object {
+              "category": Object {
+                "code": "NYUAS0000",
+                "code_3": "NYU",
+                "code_6": "NYUAS0",
+                "name": "American Studies",
+                "seo_name": "NYUAS",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+            Object {
+              "category": Object {
+                "code": "NYUDS0000",
+                "code_3": "NYU",
+                "code_6": "NYUDS0",
+                "name": "Disability Studies",
+                "seo_name": "NYUDS",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+            Object {
+              "category": Object {
+                "code": "NYUAS0LS0",
+                "code_3": "NYU",
+                "code_6": "NYUAS0",
+                "name": "American Studies / Latino\\\\a Studies",
+                "seo_name": "NYUASLS",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+            Object {
+              "category": Object {
+                "code": "NYUAS0MPC",
+                "code_3": "NYU",
+                "code_6": "NYUAS0",
+                "name": "American Studies / Media & Popular Culture",
+                "seo_name": "NYUASMPC",
+                "type": "nyuos-subjects",
+              },
+              "primary": false,
+            },
+          ],
+          "cd_run_time": "0:0:0",
+          "contributors": Array [
+            Object {
+              "contributor": Object {
+                "bio": "<b>Rebecca Sanchez</b> is Associate Professor at the Department of English at Fordham University, and author of <i>Deafening Modernism: Embodied Language</i> and <i>Visual Poetics in American Literature</i> (2015).",
+                "bio_short": null,
+                "contributor_id": 100183,
+                "custom": Array [],
+                "deceased": false,
+                "featured": false,
+                "first": "Rebecca",
+                "hide": false,
+                "image": null,
+                "last": "Sanchez",
+                "locale": "",
+                "name": "Rebecca Sanchez",
+                "on_tour": false,
+                "reference_id": null,
+                "role": "A01",
+                "sensitivity": false,
+                "seo": "rebecca-sanchez",
+              },
+              "contributor_id": 100183,
+              "note": "Rebecca Sanchez",
+              "order": 1,
+              "role": Object {
+                "code": "A01",
+                "name": "By (author)",
+              },
+              "role_id": "A01",
+            },
+          ],
+          "custom": Object {
+            "cs_title_group": "9781479828869",
+            "ebook": "9781479847501",
+            "edition_isbn": "9781479810628",
+            "hardcover": "9781479828869",
+            "hi_res_images": false,
+            "language": "eng",
+            "library": "9781479810628",
+            "license_link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "open_access_is_downloadable": false,
+            "open_access_series": null,
+            "paperback": "9781479805556",
+            "permanent_url": "https://doi.org/10.18574/nyu/9781479828869.001.0001",
+            "scheduled_date": "4/15/2022",
+            "video": false,
+          },
+          "date": Object {
+            "date": "2015-10-02 00:00:00.000000",
+            "timezone": "America/New_York",
+            "timezone_type": 3,
+          },
+          "description": "<p>Deafening Modernism tells the story of modernism from the perspective of Deaf critical insight. Working to develop a critical Deaf theory independent of identity-based discourse, Rebecca Sanchez excavates the intersections between Deaf and modernist studies.  She traces the ways that Deaf culture, history, linguistics, and literature provide a vital and largely untapped resource for understanding the history of American language politics and the impact that history has had on modernist aesthetic production.<br><br>Discussing Deaf and disability studies in these unexpected contexts highlights the contributions the field can make to broader discussions of the intersections between images, bodies, and text. Drawing on a range of methodological approaches, including literary analysis and history, linguistics, ethics, and queer, cultural, and film studies, Sanchez sheds new light on texts by T.S. Eliot, Ezra Pound, Gertrude Stein, William Carlos Williams, Charlie Chaplin, and many others. By approaching modernism through the perspective of Deaf and disability studies, Deafening Modernism reconceptualizes deafness as a critical modality enabling us to freshly engage topics we thought we knew.</p>",
+          "division": null,
+          "edition": "",
+          "featured": false,
+          "formats": Array [
+            Object {
+              "date": Object {
+                "date": "2015-10-02 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "detail": "PDF",
+              "edition": "",
+              "format": Object {
+                "code": "DG",
+                "name": "eBook",
+              },
+              "format_id": "DG",
+              "id": "DG614",
+              "isbn": "9781479810628",
+              "primary_format": false,
+              "product_id": 614,
+              "seo_link": "deafening-modernism",
+              "title_id": "10d5cf30af158f98129106310a0407aa",
+            },
+            Object {
+              "date": Object {
+                "date": "2015-10-02 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "detail": "MobiPocket",
+              "edition": "",
+              "format": Object {
+                "code": "DG",
+                "name": "eBook",
+              },
+              "format_id": "DG",
+              "id": "DG611",
+              "isbn": "9781479847501",
+              "primary_format": false,
+              "product_id": 611,
+              "seo_link": "deafening-modernism",
+              "title_id": "10d5cf30af158f98129106310a0407aa",
+            },
+            Object {
+              "date": Object {
+                "date": "2015-10-02 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "detail": "Print PDF",
+              "edition": "",
+              "format": Object {
+                "code": "BC",
+                "name": "Paperback",
+              },
+              "format_id": "BC",
+              "id": "BC612",
+              "isbn": "9781479805556",
+              "primary_format": true,
+              "product_id": 612,
+              "seo_link": "deafening-modernism",
+              "title_id": "10d5cf30af158f98129106310a0407aa",
+            },
+            Object {
+              "date": Object {
+                "date": "2015-10-02 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "detail": "Print PDF",
+              "edition": "",
+              "format": Object {
+                "code": "BB",
+                "name": "Hardcover",
+              },
+              "format_id": "BB",
+              "id": "BB613",
+              "isbn": "9781479828869",
+              "primary_format": false,
+              "product_id": 613,
+              "seo_link": "deafening-modernism",
+              "title_id": "10d5cf30af158f98129106310a0407aa",
+            },
+          ],
+          "hide": 0,
+          "illustrations_note": "2 black and white illustrations",
+          "image": "https://nyu-opensquare-us.imgix.net/missing-cover.jpg",
+          "import_notes": "",
+          "imprint": Object {
+            "description": null,
+            "description_short": null,
+            "hide": false,
+            "name": "NYU Press",
+            "seo_name": "nyu-press",
+          },
+          "initial_print_run": null,
+          "isbn10": "1479810622",
+          "isbn13": "9781479810628",
+          "keywords": "",
+          "levels": Array [],
+          "pages": 240,
+          "prices": Array [
+            Object {
+              "amount": "133.50",
+              "discount": null,
+              "locale": "USD",
+              "promo_start": Object {
+                "date": "2021-06-21 00:00:00.000000",
+                "timezone": "America/New_York",
+                "timezone_type": 3,
+              },
+              "promo_stop": Array [],
+              "saving": null,
+            },
+          ],
+          "primary_format": false,
+          "product_id": 614,
+          "publisher": Object {
+            "name": "NYU Press",
+            "seo_name": "nyu-press",
+          },
+          "rating": null,
+          "reference_id": null,
+          "retailers": null,
+          "reviews": Array [
+            Object {
+              "id": "614-18894",
+              "review": Object {
+                "assets": Array [],
+                "description": "\\"An extraordinary book.Superbly written, critically nuanced, and refreshingly new,Deafening Modernismwill set the standard for future disability and Deaf studies scholarship. There is truly nothing else like it.\\"",
+                "id": "18894",
+                "reviewer": "Brenda Brueggemann,author of Deaf Subjects: Between Identities and Places",
+                "score": null,
+                "source": "Onix",
+                "unique": "9781479810628-df810bf42e5a4b5036c2ee7f1915a713",
+              },
+              "review_id": "18894",
+            },
+            Object {
+              "id": "614-18895",
+              "review": Object {
+                "assets": Array [],
+                "description": "\\"Exciting and original, Rebecca Sanchez remakes our understanding twentieth-century American literature through the frame of American Sign Language. Offering fresh and brilliant insights,Deafening Modernismwill make a significant contribution to our understanding of literary modernism, while modeling new methodological directions for disability studies scholarship.\\"",
+                "id": "18895",
+                "reviewer": "Rachel Adams,co-editor of Keywords for Disability Studies",
+                "score": null,
+                "source": "Onix",
+                "unique": "9781479810628-8492a6d4230bed9a7e8aed9069833fec",
+              },
+              "review_id": "18895",
+            },
+            Object {
+              "id": "614-18896",
+              "review": Object {
+                "assets": Array [],
+                "description": "\\"Sanchez uses ASL, Deaf culture, history, linguistics, and disabilities studies to develop a critical Deaf theory that is independent of the more familiar identity theories.\\"",
+                "id": "18896",
+                "reviewer": "Choice",
+                "score": null,
+                "source": "Onix",
+                "unique": "9781479810628-030cf188a4674a1c45c9a25674120405",
+              },
+              "review_id": "18896",
+            },
+          ],
+          "sale_date": Object {
+            "date": "2015-10-02 00:00:00.000000",
+            "timezone": "America/New_York",
+            "timezone_type": 3,
+          },
+          "scheduled": Array [],
+          "search_weight": 560,
+          "season": null,
+          "seo": "deafening-modernism",
+          "series": Array [
+            Object {
+              "number_in_series": "0",
+              "series": Object {
+                "description": "",
+                "name": "Cultural Front",
+                "seo_name": "cultural-front",
+              },
+            },
+          ],
+          "sort_date": 1443740400,
+          "stock": null,
+          "subtitle": "Embodied Language and Visual Poetics in American Literature",
+          "summary": "Deafening Modernism tells the story of modernism from the perspective of Deaf critical insight. Working to develop a critical Deaf theory independent of identity-based discourse, Rebecca Sanchez...",
+          "tagline": null,
+          "territories": null,
+          "title": "Deafening Modernism",
+          "title_id": "10d5cf30af158f98129106310a0407aa",
+          "title_without_prefix": "Deafening Modernism",
+          "trim": Object {
+            "depth": "0.000",
+            "height": "0.000",
+            "unit": null,
+            "weight": "0.000",
+            "weight_unit": null,
+            "width": "0.000",
+          },
+          "type": "Nonfiction",
+        },
+      ],
+      "catalogId": 10150,
+    },
+    "status": "success",
+  },
+}
+`;
+
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 66`] = `
+Book {
+  "book": Object {
+    "assets": Array [
+      Object {
+        "asset": Object {
+          "description": null,
+          "embed": null,
+          "height": 648,
           "id": "1669",
           "name": "648-H-9781479815357.jpg",
           "order": 1,
@@ -46701,7 +47492,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 66`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 67`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -47896,7 +48687,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 67`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 68`] = `
 Book {
   "book": Object {
     "assets": Array [
@@ -48709,7 +49500,7 @@ Book {
 }
 `;
 
-exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 68`] = `
+exports[`lib/supafolio/Book should produce a correct book for a Supafolio API response 69`] = `
 Book {
   "book": Object {
     "assets": Array [

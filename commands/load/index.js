@@ -56,9 +56,8 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
-                let metadataEpubList = [];
                 try {
-                    metadataEpubList = helpers.getEpubList( em.conf, 'metadataEpubList', metadataDir );
+                    em.metadataEpubList = helpers.getEpubList( em.conf, 'metadataEpubList', metadataDir );
                 } catch ( e ) {
                     vorpal.log(
                         `ERROR in ${configFileBasename}: ${e}`
@@ -68,7 +67,22 @@ module.exports = function( vorpal ) {
                     return false;
                 }
 
-                const metadata = helpers.getMetadataForEpubs( metadataDir, metadataEpubList );
+                try {
+                    em.intakeEpubList = helpers.getEpubList( em.conf, 'intakeEpubList', em.conf.intakeEpubDir );
+                } catch ( e ) {
+                    vorpal.log(
+                        `ERROR in ${configFileBasename}: ${e}`
+                    );
+
+                    if ( callback ) { callback(); }
+                    return false;
+                }
+
+                if ( em.metadataEpubList.length === 0 ) {
+                    em.metadataEpubList = em.intakeEpubList;
+                }
+
+                const metadata =  helpers.getMetadataForEpubs( metadataDir, em.metadataEpubList );
 
                 if ( em.conf.cacheMetadataInMemory ) {
                     vorpal.em.metadata = {
@@ -89,18 +103,6 @@ module.exports = function( vorpal ) {
                     vorpal.log( 'Sorry, but "cacheMetadataInMemory: true" must be' +
                         ' set in the conf file.  Writing metadata out to file(s)'  +
                         ' for high-volume EPUB processing is not implemented yet.'
-                    );
-
-                    if ( callback ) { callback(); }
-                    return false;
-                }
-
-                em.intakeEpubList = [];
-                try {
-                    em.intakeEpubList = helpers.getEpubList( em.conf, 'intakeEpubList', em.conf.intakeEpubDir );
-                } catch ( e ) {
-                    vorpal.log(
-                        `ERROR in ${configFileBasename}: ${e}`
                     );
 
                     if ( callback ) { callback(); }
